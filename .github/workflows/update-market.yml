@@ -18,6 +18,8 @@ jobs:
     timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -32,7 +34,20 @@ jobs:
           git add data/market.json data/history.json
           if git diff --cached --quiet; then
             echo "No data changes"
-          else
-            git commit -m "Update D2R market data"
-            git push
+            exit 0
           fi
+
+          git commit -m "Update D2R market data"
+
+          for attempt in 1 2 3; do
+            echo "Push attempt $attempt"
+            git fetch origin main
+            git rebase origin/main
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            sleep 3
+          done
+
+          echo "Push failed after 3 attempts"
+          exit 1

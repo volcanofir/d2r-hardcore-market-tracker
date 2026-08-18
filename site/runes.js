@@ -1,1 +1,1 @@
-const RUNE_META="+""+";
+const RUNE_META=[];

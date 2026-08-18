@@ -1,0 +1,38 @@
+name: Update D2R market
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 */3 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: d2r-market-update
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Scrape d2jsp market
+        run: python scraper.py
+      - name: Commit refreshed market data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/market.json data/history.json
+          if git diff --cached --quiet; then
+            echo "No data changes"
+          else
+            git commit -m "Update D2R market data"
+            git push
+          fi

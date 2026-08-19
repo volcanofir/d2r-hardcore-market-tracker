@@ -1,8 +1,604 @@
 {
-  "updated_at": "2026-08-19T11:33:50.853076+00:00",
+  "updated_at": "2026-08-19T11:41:22.484801+00:00",
   "forum": "https://forums.d2jsp.org/forum.php?f=123",
-  "topic_count": 0,
-  "parsed_topics": 0,
-  "sample_count": 0,
-  "market": []
+  "topic_count": 139,
+  "parsed_topics": 34,
+  "sample_count": 43,
+  "market": [
+    {
+      "kind": "rune",
+      "id": "Ohm",
+      "label": "Ohm",
+      "fair_fg": 80.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 3,
+      "confidence": "low",
+      "sources": [
+        {
+          "kind": "rune",
+          "id": "Ohm",
+          "label": "Ohm",
+          "side": "unknown",
+          "price_fg": 80.0,
+          "title": "Ohm 80 Fg",
+          "url": "https://forums.d2jsp.org/topic.php?t=109909141&f=123"
+        },
+        {
+          "kind": "rune",
+          "id": "Ohm",
+          "label": "Ohm",
+          "side": "unknown",
+          "price_fg": 80.0,
+          "title": "Ohm 80 Fg",
+          "url": "https://forums.d2jsp.org/topic.php?t=109909141&f=123"
+        },
+        {
+          "kind": "rune",
+          "id": "Ohm",
+          "label": "Ohm",
+          "side": "unknown",
+          "price_fg": 80.0,
+          "title": "Ohm 80 Fg",
+          "url": "https://forums.d2jsp.org/topic.php?t=109909141&f=123"
+        }
+      ]
+    },
+    {
+      "kind": "rune",
+      "id": "Ral",
+      "label": "Ral",
+      "fair_fg": 1.0,
+      "iso_fg": 1.0,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "sources": [
+        {
+          "kind": "rune",
+          "id": "Ral",
+          "label": "Ral",
+          "side": "iso",
+          "price_fg": 1.0,
+          "title": "Iso Hel, Amn, Ral",
+          "url": "https://forums.d2jsp.org/topic.php?t=109908385&f=123"
+        }
+      ]
+    },
+    {
+      "kind": "rune",
+      "id": "Amn",
+      "label": "Amn",
+      "fair_fg": 1.0,
+      "iso_fg": 1.0,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "sources": [
+        {
+          "kind": "rune",
+          "id": "Amn",
+          "label": "Amn",
+          "side": "iso",
+          "price_fg": 1.0,
+          "title": "Iso Hel, Amn, Ral",
+          "url": "https://forums.d2jsp.org/topic.php?t=109908385&f=123"
+        }
+      ]
+    },
+    {
+      "kind": "rune",
+      "id": "Hel",
+      "label": "Hel",
+      "fair_fg": 9.0,
+      "iso_fg": 9.0,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 6,
+      "confidence": "medium",
+      "sources": [
+        {
+          "kind": "rune",
+          "id": "Hel",
+          "label": "Hel",
+          "side": "iso",
+          "price_fg": 1.0,
+          "title": "Iso Hel, Amn, Ral",
+          "url": "https://forums.d2jsp.org/topic.php?t=109908385&f=123"
+        },
+        {
+          "kind": "rune",
+          "id": "Hel",
+          "label": "Hel",
+          "side": "iso",
+          "price_fg": 10.0,
+          "title": "Need Craft Stuff",
+          "url": "https://forums.d2jsp.org/topic.php?t=109908352&f=123"
+        },
+        {
+          "kind": "rune",
+          "id": "Hel",
+          "label": "Hel",
+          "side": "iso",
+          "price_fg": 15.0,
+          "title": "Need Craft Stuff",
+          "url": "https://forums.d2jsp.org/topic.php?t=109908352&f=123"
+        },
+        {
+          "kind": "rune",
+          "id": "Hel",
+          "label": "Hel",
+          "side": "iso",
+          "price_fg": 8.0,
+          "title": "Iso Hel Rune",
+          "url": "https://forums.d2jsp.org/topic.php?t=109908175&f=123"
+        },
+        {
+          "kind": "rune",
+          "id": "Hel",
+          "label": "Hel",
+          "side": "iso",
+          "price_fg": 5.0,
+          "title": "Iso Hel Rune",
+          "url": "https://forums.d2jsp.org/topic.php?t=109908175&f=123"
+        },
+        {
+          "kind": "rune",
+          "id": "Hel",
+          "label": "Hel",
+          "side": "iso",
+          "price_fg": 30.0,
+          "title": "Iso Hel Rune",
+          "url": "https://forums.d2jsp.org/topic.php?t=109908175&f=123"
+        }
+      ]
+    },
+    {
+      "kind": "rune",
+      "id": "Jah",
+      "label": "Jah",
+      "fair_fg": 650.0,
+      "iso_fg": 650.0,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 3,
+      "confidence": "low",
+      "sources": [
+        {
+          "kind": "rune",
+          "id": "Jah",
+          "label": "Jah",
+          "side": "unknown",
+          "price_fg": 600.0,
+          "title": "Fresh Jah",
+          "url": "https://forums.d2jsp.org/topic.php?t=109909113&f=123"
+        },
+        {
+          "kind": "rune",
+          "id": "Jah",
+          "label": "Jah",
+          "side": "iso",
+          "price_fg": 650.0,
+          "title": "Iso 3x Jah",
+          "url": "https://forums.d2jsp.org/topic.php?t=109905957&f=123"
+        },
+        {
+          "kind": "rune",
+          "id": "Jah",
+          "label": "Jah",
+          "side": "iso",
+          "price_fg": 650.0,
+          "title": "Iso 3x Jah",
+          "url": "https://forums.d2jsp.org/topic.php?t=109905957&f=123"
+        }
+      ]
+    },
+    {
+      "kind": "rune",
+      "id": "Ber",
+      "label": "Ber",
+      "fair_fg": 163.5,
+      "iso_fg": 2.0,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 2,
+      "confidence": "low",
+      "sources": [
+        {
+          "kind": "rune",
+          "id": "Ber",
+          "label": "Ber",
+          "side": "unknown",
+          "price_fg": 325.0,
+          "title": "Ber Rune",
+          "url": "https://forums.d2jsp.org/topic.php?t=109908215&f=123"
+        },
+        {
+          "kind": "rune",
+          "id": "Ber",
+          "label": "Ber",
+          "side": "iso",
+          "price_fg": 2.0,
+          "title": "Iso Infinity,griffon,ber,renewed Crack,guardians",
+          "url": "https://forums.d2jsp.org/topic.php?t=109906237&f=123"
+        }
+      ]
+    },
+    {
+      "kind": "rune",
+      "id": "Sur",
+      "label": "Sur",
+      "fair_fg": 180.0,
+      "iso_fg": 180.0,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "sources": [
+        {
+          "kind": "rune",
+          "id": "Sur",
+          "label": "Sur",
+          "side": "iso",
+          "price_fg": 180.0,
+          "title": "Big Iso List Rune",
+          "url": "https://forums.d2jsp.org/topic.php?t=109907994&f=123"
+        }
+      ]
+    },
+    {
+      "kind": "rune",
+      "id": "Lo",
+      "label": "Lo",
+      "fair_fg": 550.0,
+      "iso_fg": 180.0,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 3,
+      "confidence": "low",
+      "sources": [
+        {
+          "kind": "rune",
+          "id": "Lo",
+          "label": "Lo",
+          "side": "iso",
+          "price_fg": 180.0,
+          "title": "Big Iso List Rune",
+          "url": "https://forums.d2jsp.org/topic.php?t=109907994&f=123"
+        },
+        {
+          "kind": "rune",
+          "id": "Lo",
+          "label": "Lo",
+          "side": "unknown",
+          "price_fg": 550.0,
+          "title": "Cham 550 Fg Lo 165",
+          "url": "https://forums.d2jsp.org/topic.php?t=109906796&f=123"
+        },
+        {
+          "kind": "rune",
+          "id": "Lo",
+          "label": "Lo",
+          "side": "unknown",
+          "price_fg": 550.0,
+          "title": "Cham 550 Fg Lo 165",
+          "url": "https://forums.d2jsp.org/topic.php?t=109906796&f=123"
+        }
+      ]
+    },
+    {
+      "kind": "rune",
+      "id": "Io",
+      "label": "Io",
+      "fair_fg": 8.0,
+      "iso_fg": 8.0,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 3,
+      "confidence": "low",
+      "sources": [
+        {
+          "kind": "rune",
+          "id": "Io",
+          "label": "Io",
+          "side": "iso",
+          "price_fg": 8.0,
+          "title": "Iso Hel Rune",
+          "url": "https://forums.d2jsp.org/topic.php?t=109908175&f=123"
+        },
+        {
+          "kind": "rune",
+          "id": "Io",
+          "label": "Io",
+          "side": "iso",
+          "price_fg": 5.0,
+          "title": "Iso Hel Rune",
+          "url": "https://forums.d2jsp.org/topic.php?t=109908175&f=123"
+        },
+        {
+          "kind": "rune",
+          "id": "Io",
+          "label": "Io",
+          "side": "iso",
+          "price_fg": 30.0,
+          "title": "Iso Hel Rune",
+          "url": "https://forums.d2jsp.org/topic.php?t=109908175&f=123"
+        }
+      ]
+    },
+    {
+      "kind": "rune",
+      "id": "Cham",
+      "label": "Cham",
+      "fair_fg": 550.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 7,
+      "confidence": "medium",
+      "sources": [
+        {
+          "kind": "rune",
+          "id": "Cham",
+          "label": "Cham",
+          "side": "unknown",
+          "price_fg": 550.0,
+          "title": "Runa Cham 550 Fg",
+          "url": "https://forums.d2jsp.org/topic.php?t=109907824&f=123"
+        },
+        {
+          "kind": "rune",
+          "id": "Cham",
+          "label": "Cham",
+          "side": "unknown",
+          "price_fg": 550.0,
+          "title": "Runa Cham 550 Fg",
+          "url": "https://forums.d2jsp.org/topic.php?t=109907824&f=123"
+        },
+        {
+          "kind": "rune",
+          "id": "Cham",
+          "label": "Cham",
+          "side": "unknown",
+          "price_fg": 550.0,
+          "title": "Runa Cham 550 Fg",
+          "url": "https://forums.d2jsp.org/topic.php?t=109907824&f=123"
+        },
+        {
+          "kind": "rune",
+          "id": "Cham",
+          "label": "Cham",
+          "side": "unknown",
+          "price_fg": 550.0,
+          "title": "Cham 550 Fg Lo 165",
+          "url": "https://forums.d2jsp.org/topic.php?t=109906796&f=123"
+        },
+        {
+          "kind": "rune",
+          "id": "Cham",
+          "label": "Cham",
+          "side": "unknown",
+          "price_fg": 550.0,
+          "title": "Cham 550 Fg Lo 165",
+          "url": "https://forums.d2jsp.org/topic.php?t=109906796&f=123"
+        },
+        {
+          "kind": "rune",
+          "id": "Cham",
+          "label": "Cham",
+          "side": "unknown",
+          "price_fg": 600.0,
+          "title": "Cham Rune 600 Fg",
+          "url": "https://forums.d2jsp.org/topic.php?t=109906725&f=123"
+        },
+        {
+          "kind": "rune",
+          "id": "Cham",
+          "label": "Cham",
+          "side": "unknown",
+          "price_fg": 600.0,
+          "title": "Cham Rune 600 Fg",
+          "url": "https://forums.d2jsp.org/topic.php?t=109906725&f=123"
+        }
+      ]
+    },
+    {
+      "kind": "rune",
+      "id": "Mal",
+      "label": "Mal",
+      "fair_fg": 15.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 2,
+      "confidence": "low",
+      "sources": [
+        {
+          "kind": "rune",
+          "id": "Mal",
+          "label": "Mal",
+          "side": "unknown",
+          "price_fg": 15.0,
+          "title": "Small Shop Of Cheap Stuff",
+          "url": "https://forums.d2jsp.org/topic.php?t=109907678&f=123"
+        },
+        {
+          "kind": "rune",
+          "id": "Mal",
+          "label": "Mal",
+          "side": "unknown",
+          "price_fg": 15.0,
+          "title": "Bers, Ist, Mal",
+          "url": "https://forums.d2jsp.org/topic.php?t=109905446&f=123"
+        }
+      ]
+    },
+    {
+      "kind": "rune",
+      "id": "Vex",
+      "label": "Vex",
+      "fair_fg": 65.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "sources": [
+        {
+          "kind": "rune",
+          "id": "Vex",
+          "label": "Vex",
+          "side": "unknown",
+          "price_fg": 65.0,
+          "title": "Small Shop Of Cheap Stuff",
+          "url": "https://forums.d2jsp.org/topic.php?t=109907678&f=123"
+        }
+      ]
+    },
+    {
+      "kind": "rune",
+      "id": "Eth",
+      "label": "Eth",
+      "fair_fg": 20.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 5,
+      "confidence": "medium",
+      "sources": [
+        {
+          "kind": "rune",
+          "id": "Eth",
+          "label": "Eth",
+          "side": "unknown",
+          "price_fg": 20.0,
+          "title": "Small Shop Of Cheap Stuff",
+          "url": "https://forums.d2jsp.org/topic.php?t=109907678&f=123"
+        },
+        {
+          "kind": "rune",
+          "id": "Eth",
+          "label": "Eth",
+          "side": "unknown",
+          "price_fg": 5.0,
+          "title": "Small Shop Of Cheap Stuff",
+          "url": "https://forums.d2jsp.org/topic.php?t=109907678&f=123"
+        },
+        {
+          "kind": "rune",
+          "id": "Eth",
+          "label": "Eth",
+          "side": "unknown",
+          "price_fg": 5.0,
+          "title": "Small Shop Of Cheap Stuff",
+          "url": "https://forums.d2jsp.org/topic.php?t=109907678&f=123"
+        },
+        {
+          "kind": "rune",
+          "id": "Eth",
+          "label": "Eth",
+          "side": "unknown",
+          "price_fg": 695.0,
+          "title": "Looking For Merc Eth Infinity",
+          "url": "https://forums.d2jsp.org/topic.php?t=109905755&f=123"
+        },
+        {
+          "kind": "rune",
+          "id": "Eth",
+          "label": "Eth",
+          "side": "unknown",
+          "price_fg": 30.0,
+          "title": "Bers, Ist, Mal",
+          "url": "https://forums.d2jsp.org/topic.php?t=109905446&f=123"
+        }
+      ]
+    },
+    {
+      "kind": "rune",
+      "id": "Tal",
+      "label": "Tal",
+      "fair_fg": 5.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "sources": [
+        {
+          "kind": "rune",
+          "id": "Tal",
+          "label": "Tal",
+          "side": "unknown",
+          "price_fg": 5.0,
+          "title": "Small Shop Of Cheap Stuff",
+          "url": "https://forums.d2jsp.org/topic.php?t=109907678&f=123"
+        }
+      ]
+    },
+    {
+      "kind": "rune",
+      "id": "Pul",
+      "label": "Pul",
+      "fair_fg": 4.0,
+      "iso_fg": 4.0,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 2,
+      "confidence": "low",
+      "sources": [
+        {
+          "kind": "rune",
+          "id": "Pul",
+          "label": "Pul",
+          "side": "iso",
+          "price_fg": 4.0,
+          "title": "Iso 4 X Pul 4 X Um",
+          "url": "https://forums.d2jsp.org/topic.php?t=109907518&f=123"
+        },
+        {
+          "kind": "rune",
+          "id": "Pul",
+          "label": "Pul",
+          "side": "iso",
+          "price_fg": 4.0,
+          "title": "Iso 4 X Pul 4 X Um",
+          "url": "https://forums.d2jsp.org/topic.php?t=109907518&f=123"
+        }
+      ]
+    },
+    {
+      "kind": "rune",
+      "id": "Ist",
+      "label": "Ist",
+      "fair_fg": 27.5,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 2,
+      "confidence": "low",
+      "sources": [
+        {
+          "kind": "rune",
+          "id": "Ist",
+          "label": "Ist",
+          "side": "unknown",
+          "price_fg": 30.0,
+          "title": "Bers, Ist, Mal",
+          "url": "https://forums.d2jsp.org/topic.php?t=109905446&f=123"
+        },
+        {
+          "kind": "rune",
+          "id": "Ist",
+          "label": "Ist",
+          "side": "unknown",
+          "price_fg": 25.0,
+          "title": "Bers, Ist, Mal",
+          "url": "https://forums.d2jsp.org/topic.php?t=109905446&f=123"
+        }
+      ]
+    }
+  ]
 }

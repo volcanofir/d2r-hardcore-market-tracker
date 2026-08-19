@@ -1,32 +1,9 @@
 {
-  "updated_at": "2026-08-19T15:49:17.409619+00:00",
+  "updated_at": "2026-08-19T18:55:17.825577+00:00",
   "forum": "https://forums.d2jsp.org/forum.php?f=123",
-  "topic_count": 39,
-  "parsed_topics": 36,
+  "topic_count": 0,
+  "parsed_topics": 0,
   "completed_topics": 0,
-  "sample_count": 1,
-  "market": [
-    {
-      "kind": "rune",
-      "id": "Ohm",
-      "label": "Ohm",
-      "fair_fg": 80.0,
-      "iso_fg": null,
-      "ft_fg": 80.0,
-      "trade_fg": null,
-      "samples": 1,
-      "confidence": "low",
-      "sources": [
-        {
-          "kind": "rune",
-          "id": "Ohm",
-          "label": "Ohm",
-          "side": "ft",
-          "price_fg": 80.0,
-          "title": "Ohm 80 Fg",
-          "url": "https://forums.d2jsp.org/topic.php?t=109909141&f=123"
-        }
-      ]
-    }
-  ]
+  "sample_count": 0,
+  "market": []
 }

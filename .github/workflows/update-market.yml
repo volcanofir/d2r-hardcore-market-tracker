@@ -18,7 +18,7 @@ permissions:
 
 concurrency:
   group: d2r-market-update
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   scrape:
@@ -38,7 +38,7 @@ jobs:
       - name: Use HTTPS reader fallback
         run: |
           sed -i 's#https://r.jina.ai/http://#https://r.jina.ai/https://#g' scraper.py
-          sed -i 's/links\[:200\]/links[:120]/' scraper.py
+          sed -i 's/links\[:200\]/links[:30]/' scraper.py
       - name: Scrape d2jsp market
         run: python scraper.py
       - name: Commit refreshed market data

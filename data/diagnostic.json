@@ -23,18 +23,22 @@
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123",
       "topics": 39,
-      "bytes": 11386
+      "bytes": 11387
     }
   ],
   "topic_errors": [
     {
-      "url": "https://forums.d2jsp.org/topic.php?t=109832871&f=123&o=20",
+      "url": "https://forums.d2jsp.org/topic.php?t=109859136&f=123&o=50",
       "error": "429 Too Many Requests (4/4)"
     },
     {
-      "url": "https://forums.d2jsp.org/topic.php?t=109902270&f=123",
+      "url": "https://forums.d2jsp.org/topic.php?t=109832871&f=123&o=30",
+      "error": "429 Too Many Requests (4/4)"
+    },
+    {
+      "url": "https://forums.d2jsp.org/topic.php?t=109902783&f=123",
       "error": "429 Too Many Requests (4/4)"
     }
   ],
-  "completed_topics": 3
+  "completed_topics": 0
 }

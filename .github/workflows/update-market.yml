@@ -35,6 +35,10 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Probe d2jsp connectivity
         run: python probe.py
+      - name: Use HTTPS reader fallback
+        run: |
+          sed -i 's#https://r.jina.ai/http://#https://r.jina.ai/https://#g' scraper.py
+          sed -i 's/links\[:200\]/links[:120]/' scraper.py
       - name: Scrape d2jsp market
         run: python scraper.py
       - name: Commit refreshed market data

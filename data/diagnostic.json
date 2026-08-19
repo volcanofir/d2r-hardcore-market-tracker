@@ -2,43 +2,39 @@
   "forum_pages": [
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-      "topics": 25,
-      "bytes": 10129
+      "topics": 0,
+      "bytes": 280
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=25",
-      "topics": 25,
-      "bytes": 6778
+      "topics": 0,
+      "bytes": 285
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=50",
-      "topics": 26,
-      "bytes": 10310
+      "topics": 0,
+      "bytes": 285
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=75",
-      "topics": 27,
-      "bytes": 9070
+      "topics": 0,
+      "bytes": 285
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123",
       "topics": 39,
-      "bytes": 11385
+      "bytes": 11386
     }
   ],
   "topic_errors": [
     {
-      "url": "https://forums.d2jsp.org/topic.php?t=109907824&f=123",
+      "url": "https://forums.d2jsp.org/topic.php?t=109832871&f=123&o=20",
       "error": "429 Too Many Requests (4/4)"
     },
     {
-      "url": "https://forums.d2jsp.org/topic.php?t=109907423&f=123",
-      "error": "429 Too Many Requests (4/4)"
-    },
-    {
-      "url": "https://forums.d2jsp.org/topic.php?t=109906725&f=123",
+      "url": "https://forums.d2jsp.org/topic.php?t=109902270&f=123",
       "error": "429 Too Many Requests (4/4)"
     }
   ],
-  "completed_topics": 4
+  "completed_topics": 3
 }

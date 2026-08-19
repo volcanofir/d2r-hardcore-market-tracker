@@ -2,6 +2,13 @@ name: Update D2R market
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scraper.py'
+      - 'config/**'
+      - 'requirements.txt'
+      - '.github/workflows/update-market.yml'
   schedule:
     - cron: '17 */3 * * *'
 

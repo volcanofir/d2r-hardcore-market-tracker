@@ -5,8 +5,7 @@ on:
   push:
     branches: [main]
     paths:
-      - 'scraper.py'
-      - 'probe.py'
+      - 'scraper_live.py'
       - 'config/**'
       - 'requirements.txt'
       - '.github/workflows/update-market.yml'
@@ -23,7 +22,7 @@ concurrency:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
         with:
@@ -33,14 +32,8 @@ jobs:
           python-version: '3.12'
           cache: pip
       - run: pip install -r requirements.txt
-      - name: Probe d2jsp connectivity
-        run: python probe.py
-      - name: Use HTTPS reader fallback
-        run: |
-          sed -i 's#https://r.jina.ai/http://#https://r.jina.ai/https://#g' scraper.py
-          sed -i 's/links\[:200\]/links[:30]/' scraper.py
       - name: Scrape d2jsp market
-        run: python scraper.py
+        run: python scraper_live.py
       - name: Commit refreshed market data
         run: |
           git config user.name "github-actions[bot]"
@@ -50,18 +43,11 @@ jobs:
             echo "No data changes"
             exit 0
           fi
-
           git commit -m "Update D2R market data"
-
           for attempt in 1 2 3; do
-            echo "Push attempt $attempt"
             git fetch origin main
             git rebase origin/main
-            if git push origin HEAD:main; then
-              exit 0
-            fi
+            if git push origin HEAD:main; then exit 0; fi
             sleep 3
           done
-
-          echo "Push failed after 3 attempts"
           exit 1

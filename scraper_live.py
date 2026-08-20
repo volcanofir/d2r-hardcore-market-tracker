@@ -127,6 +127,22 @@ def rune_names_in(line):
     return names
 
 
+def ambiguous_rune_context(rune, line):
+    low = line.lower()
+    if rune.lower() == "eth":
+        # In D2R trade posts, "eth" very often means ethereal equipment rather
+        # than the Eth rune. Do not treat common equipment phrases as rune prices.
+        if re.search(
+            r"\b(?:merc\s+)?eth(?:ereal)?\s+(?:infinity|insight|fortitude|fort|weapon|armor|polearm|thresher|cryptic axe|giant thresher|colossus voulge|titans|andy|andys|obedience)\b",
+            low,
+            re.I,
+        ):
+            return True
+        if re.search(r"\beth\s+(?:cv|ca|gt)\b", low, re.I):
+            return True
+    return False
+
+
 def line_prices(line):
     low = line.lower()
     names = rune_names_in(line)
@@ -135,21 +151,23 @@ def line_prices(line):
 
     found = []
     has_context = bool(re.search(r"\b(?:fg|forum\s*gold|bin|price|pay|paying|offer|vs)\b", low))
+    rune_alt = "|".join(re.escape(x.lower()) for x in CFG["runes"])
 
     for rune in names:
+        if ambiguous_rune_context(rune, line):
+            continue
+
         rr = re.escape(rune.lower())
         price = None
 
-        # Prefer the nearest explicit FG value after the rune.
         match = re.search(
-            rf"(?<![a-z]){rr}(?![a-z])(?:(?!(?:\b(?:{'|'.join(re.escape(x.lower()) for x in CFG['runes'])})\b)).){{0,24}}?{PRICE}\s*(?:fg|forum\s*gold)\b",
+            rf"(?<![a-z]){rr}(?![a-z])(?:(?!(?:\b(?:{rune_alt})\b)).){{0,24}}?{PRICE}\s*(?:fg|forum\s*gold)\b",
             low,
             re.I,
         )
         if match:
             price = nval(match.group(1))
 
-        # Bare number is accepted only in explicit pricing context.
         if price is None and has_context:
             match = re.search(
                 rf"(?<![a-z]){rr}(?![a-z])(?:\s+rune)?\s*(?:=|:|-|vs|for|@)?\s*{PRICE}(?!\s*x\b)",
@@ -159,7 +177,6 @@ def line_prices(line):
             if match:
                 price = nval(match.group(1))
 
-        # Price-before-rune is safe only when one rune is named on the line.
         if price is None and len(names) == 1:
             match = re.search(
                 rf"{PRICE}\s*(?:fg|forum\s*gold)\b.{{0,22}}?(?<![a-z]){rr}(?![a-z])",
@@ -339,7 +356,6 @@ def merge_with_previous(new_rows, previous_market):
 def discover_topics():
     diagnostics = []
     links = []
-    # Listing pages are cheap; individual topic pages are the rate-limited part.
     pages = [RUNE_FORUM, RUNE_FORUM + "&o=25", FORUM]
     for url in pages:
         try:
@@ -359,9 +375,9 @@ def discover_topics():
 def select_topics(cache):
     topics = cache.get("topics", {})
     now = utcnow()
-
     pending = []
     recheck = []
+
     for url, entry in topics.items():
         if entry.get("status") != "parsed":
             pending.append((entry.get("first_seen_at", ""), entry.get("title", "d2jsp topic"), url))
@@ -374,7 +390,6 @@ def select_topics(cache):
 
     pending.sort(reverse=True)
     recheck.sort(reverse=True)
-
     selected = [(title, url, "new") for _, title, url in pending[:NEW_TOPICS_PER_RUN]]
     selected += [(title, url, "recheck") for _, title, url in recheck[:RECHECK_TOPICS_PER_RUN]]
     return selected
@@ -401,6 +416,15 @@ def main():
             }
         else:
             topics[url]["title"] = title or topics[url].get("title")
+
+    # Remove samples created by older parser versions when "eth" meant ethereal.
+    for entry in topics.values():
+        cleaned = []
+        for sample in entry.get("samples", []):
+            if sample.get("id") == "Eth" and ambiguous_rune_context("Eth", sample.get("title", "")):
+                continue
+            cleaned.append(sample)
+        entry["samples"] = cleaned
 
     selected = select_topics(cache)
     topic_errors = []
@@ -440,11 +464,17 @@ def main():
     fresh_rows = summarize(all_samples)
     merged_rows = merge_with_previous(fresh_rows, previous_market)
 
+    # If an invalid Eth row existed from an older parser, discard it so the
+    # restored historical Eth value can remain until a real Eth-rune quote arrives.
+    valid_eth = any(x.get("id") == "Eth" for x in fresh_rows)
+    if not valid_eth:
+        prior_eth = next((x for x in previous_market.get("market", []) if x.get("id") == "Eth" and x.get("fair_fg", 0) < 100), None)
+        if prior_eth:
+            merged_rows = [x for x in merged_rows if x.get("id") != "Eth"] + [dict(prior_eth, stale=True)]
+
     parsed_cache_topics = sum(1 for x in cache.get("topics", {}).values() if x.get("status") == "parsed")
     completed_cache_topics = sum(1 for x in cache.get("topics", {}).values() if x.get("completed"))
 
-    # Critical safety rule: an empty/blocked run can never erase a previously
-    # usable market. We only publish an empty market if there has never been data.
     if not merged_rows and previous_market.get("market"):
         merged_rows = previous_market["market"]
 
@@ -461,7 +491,7 @@ def main():
     }
     MARKET_PATH.write_text(json.dumps(market, ensure_ascii=False, indent=2), encoding="utf-8")
 
-    diagnostic = {
+    DIAGNOSTIC_PATH.write_text(json.dumps({
         "updated_at": iso_now(),
         "forum_pages": forum_diagnostics,
         "discovered_topics": len(discovered),
@@ -470,8 +500,7 @@ def main():
         "parsed_this_run": parsed_this_run,
         "completed_this_run": completed_this_run,
         "topic_errors": topic_errors[:20],
-    }
-    DIAGNOSTIC_PATH.write_text(json.dumps(diagnostic, ensure_ascii=False, indent=2), encoding="utf-8")
+    }, ensure_ascii=False, indent=2), encoding="utf-8")
 
     history = load_json(HISTORY_PATH, [])
     cutoff = utcnow() - timedelta(days=CACHE_DAYS)

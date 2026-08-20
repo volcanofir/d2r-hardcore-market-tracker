@@ -1,9 +1,25 @@
 {
-  "updated_at": "2026-08-20T01:53:28.348644+00:00",
+  "updated_at": "2026-08-20T03:20:00+00:00",
   "forum": "https://forums.d2jsp.org/forum.php?f=123",
-  "topic_count": 0,
-  "parsed_topics": 0,
-  "completed_topics": 0,
+  "topic_count": 139,
+  "parsed_topics": 42,
+  "completed_topics": 4,
   "sample_count": 0,
-  "market": []
+  "restored_from_history": true,
+  "market": [
+    {"kind":"rune","id":"Ohm","label":"Ohm","fair_fg":80.0,"iso_fg":null,"ft_fg":80.0,"trade_fg":null,"samples":0,"confidence":"restored","sources":[]},
+    {"kind":"rune","id":"Jah","label":"Jah","fair_fg":625.0,"iso_fg":650.0,"ft_fg":null,"trade_fg":null,"samples":0,"confidence":"restored","sources":[]},
+    {"kind":"rune","id":"Hel","label":"Hel","fair_fg":9.0,"iso_fg":9.0,"ft_fg":null,"trade_fg":8.0,"samples":0,"confidence":"restored","sources":[]},
+    {"kind":"rune","id":"Io","label":"Io","fair_fg":8.0,"iso_fg":8.0,"ft_fg":null,"trade_fg":8.0,"samples":0,"confidence":"restored","sources":[]},
+    {"kind":"rune","id":"Ber","label":"Ber","fair_fg":325.0,"iso_fg":null,"ft_fg":null,"trade_fg":325.0,"samples":0,"confidence":"restored","sources":[]},
+    {"kind":"rune","id":"Mal","label":"Mal","fair_fg":15.0,"iso_fg":null,"ft_fg":null,"trade_fg":null,"samples":0,"confidence":"restored","sources":[]},
+    {"kind":"rune","id":"Vex","label":"Vex","fair_fg":60.0,"iso_fg":null,"ft_fg":null,"trade_fg":null,"samples":0,"confidence":"restored","sources":[]},
+    {"kind":"rune","id":"Eth","label":"Eth","fair_fg":5.0,"iso_fg":null,"ft_fg":null,"trade_fg":null,"samples":0,"confidence":"restored","sources":[]},
+    {"kind":"rune","id":"Tal","label":"Tal","fair_fg":5.0,"iso_fg":null,"ft_fg":null,"trade_fg":null,"samples":0,"confidence":"restored","sources":[]},
+    {"kind":"rune","id":"Gul","label":"Gul","fair_fg":60.0,"iso_fg":null,"ft_fg":null,"trade_fg":null,"samples":0,"confidence":"restored","sources":[]},
+    {"kind":"rune","id":"Zod","label":"Zod","fair_fg":780.0,"iso_fg":null,"ft_fg":null,"trade_fg":null,"samples":0,"confidence":"restored","sources":[]},
+    {"kind":"rune","id":"Pul","label":"Pul","fair_fg":5.0,"iso_fg":null,"ft_fg":null,"trade_fg":null,"samples":0,"confidence":"restored","sources":[]},
+    {"kind":"rune","id":"Cham","label":"Cham","fair_fg":550.0,"iso_fg":null,"ft_fg":null,"trade_fg":null,"samples":0,"confidence":"restored","sources":[]},
+    {"kind":"rune","id":"Um","label":"Um","fair_fg":25.0,"iso_fg":null,"ft_fg":null,"trade_fg":null,"samples":0,"confidence":"restored","sources":[]}
+  ]
 }

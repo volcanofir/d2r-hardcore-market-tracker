@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-20T13:13:31.476239+00:00",
+  "updated_at": "2026-08-20T15:50:21.772606+00:00",
   "forum": "https://forums.d2jsp.org/forum.php?f=123",
   "topic_count": 0,
   "cached_topics": 86,
-  "parsed_topics": 49,
-  "completed_topics": 2,
+  "parsed_topics": 61,
+  "completed_topics": 3,
   "parsed_this_run": 16,
-  "sample_count": 33,
+  "sample_count": 34,
   "legacy_sample_count": 35,
   "market": [
     {
@@ -74,14 +74,34 @@
       "kind": "rune",
       "id": "Hel",
       "label": "Hel",
-      "fair_fg": 9.0,
-      "iso_fg": 9.0,
+      "fair_fg": 10.0,
+      "iso_fg": 10.0,
       "ft_fg": null,
-      "trade_fg": 8.0,
-      "samples": 6,
+      "trade_fg": 9.0,
+      "samples": 7,
       "confidence": "medium",
-      "last_seen_at": "2026-08-19T11:44:47.533902+00:00",
+      "last_seen_at": "2026-08-20T15:50:19.356740+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Hel",
+          "label": "Hel",
+          "side": "iso",
+          "price_fg": 10.0,
+          "title": "Iso Hel Rune",
+          "url": "https://forums.d2jsp.org/topic.php?t=109908175&f=123",
+          "observed_at": "2026-08-20T15:50:19.356740+00:00"
+        },
+        {
+          "kind": "rune",
+          "id": "Hel",
+          "label": "Hel",
+          "side": "trade",
+          "price_fg": 10.0,
+          "title": "Iso Hel Rune · T4T/sold signal",
+          "url": "https://forums.d2jsp.org/topic.php?t=109908175&f=123",
+          "observed_at": "2026-08-20T15:50:19.356740+00:00"
+        },
         {
           "kind": "rune",
           "id": "Hel",
@@ -171,7 +191,7 @@
       "trade_fg": 8.0,
       "samples": 3,
       "confidence": "low",
-      "last_seen_at": "2026-08-19T11:44:47.533902+00:00",
+      "last_seen_at": "2026-08-20T15:50:19.356740+00:00",
       "sources": [
         {
           "kind": "rune",
@@ -181,8 +201,7 @@
           "price_fg": 8.0,
           "title": "Iso Hel Rune",
           "url": "https://forums.d2jsp.org/topic.php?t=109908175&f=123",
-          "observed_at": "2026-08-19T11:44:47.533902+00:00",
-          "legacy": true
+          "observed_at": "2026-08-20T15:50:19.356740+00:00"
         },
         {
           "kind": "rune",
@@ -192,8 +211,7 @@
           "price_fg": 5.0,
           "title": "Iso Hel Rune",
           "url": "https://forums.d2jsp.org/topic.php?t=109908175&f=123",
-          "observed_at": "2026-08-19T11:44:47.533902+00:00",
-          "legacy": true
+          "observed_at": "2026-08-20T15:50:19.356740+00:00"
         },
         {
           "kind": "rune",
@@ -203,8 +221,7 @@
           "price_fg": 30.0,
           "title": "Iso Hel Rune",
           "url": "https://forums.d2jsp.org/topic.php?t=109908175&f=123",
-          "observed_at": "2026-08-19T11:44:47.533902+00:00",
-          "legacy": true
+          "observed_at": "2026-08-20T15:50:19.356740+00:00"
         },
         {
           "kind": "rune",
@@ -214,8 +231,7 @@
           "price_fg": 8.0,
           "title": "Iso Hel Rune · T4T/sold signal",
           "url": "https://forums.d2jsp.org/topic.php?t=109908175&f=123",
-          "observed_at": "2026-08-19T11:44:47.533902+00:00",
-          "legacy": true
+          "observed_at": "2026-08-20T15:50:19.356740+00:00"
         }
       ]
     },

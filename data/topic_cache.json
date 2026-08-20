@@ -14,7 +14,7 @@
       "title": "Iso Ber Asap",
       "url": "https://forums.d2jsp.org/topic.php?t=109907372&f=123",
       "first_seen_at": "2026-08-20T03:23:58.546268+00:00",
-      "last_checked_at": "2026-08-20T03:25:39.659920+00:00",
+      "last_checked_at": "2026-08-20T15:50:21.407000+00:00",
       "completed": false,
       "status": "parsed",
       "samples": []
@@ -88,7 +88,7 @@
       "title": "Cheap Rune Pack",
       "url": "https://forums.d2jsp.org/topic.php?t=109907094&f=123",
       "first_seen_at": "2026-08-20T03:23:58.546268+00:00",
-      "last_checked_at": "2026-08-20T03:25:41.175180+00:00",
+      "last_checked_at": "2026-08-20T15:50:21.769316+00:00",
       "completed": false,
       "status": "parsed",
       "samples": []
@@ -169,7 +169,7 @@
       "title": "Iso Infinity,griffon,ber,renewed Crack,guardians",
       "url": "https://forums.d2jsp.org/topic.php?t=109906237&f=123",
       "first_seen_at": "2026-08-20T03:23:58.546268+00:00",
-      "last_checked_at": "2026-08-20T03:25:39.772680+00:00",
+      "last_checked_at": "2026-08-20T15:50:21.076137+00:00",
       "completed": false,
       "status": "parsed",
       "samples": []
@@ -187,7 +187,7 @@
       "title": "Iso 3x Jah",
       "url": "https://forums.d2jsp.org/topic.php?t=109905957&f=123",
       "first_seen_at": "2026-08-20T03:23:58.546268+00:00",
-      "last_checked_at": "2026-08-20T03:25:40.250117+00:00",
+      "last_checked_at": "2026-08-20T15:50:21.379200+00:00",
       "completed": false,
       "status": "parsed",
       "samples": []
@@ -250,18 +250,18 @@
       "title": "Fresh Jah",
       "url": "https://forums.d2jsp.org/topic.php?t=109909113&f=123",
       "first_seen_at": "2026-08-20T11:47:41.324319+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-20T15:50:20.952643+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=109908717&f=123": {
       "title": "Iso Ber",
       "url": "https://forums.d2jsp.org/topic.php?t=109908717&f=123",
       "first_seen_at": "2026-08-20T11:47:41.324319+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-20T15:50:19.418969+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=109908612&f=123": {
@@ -286,9 +286,9 @@
       "title": "Iso Hel, Amn, Ral",
       "url": "https://forums.d2jsp.org/topic.php?t=109908385&f=123",
       "first_seen_at": "2026-08-20T11:47:41.324319+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-20T15:50:19.134943+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=109908377&f=123": {
@@ -322,9 +322,9 @@
       "title": "Ft 2 Gul Runes",
       "url": "https://forums.d2jsp.org/topic.php?t=109908236&f=123",
       "first_seen_at": "2026-08-20T11:47:41.324319+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-20T15:50:20.756772+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=109908215&f=123": {
@@ -340,10 +340,71 @@
       "title": "Iso Hel Rune",
       "url": "https://forums.d2jsp.org/topic.php?t=109908175&f=123",
       "first_seen_at": "2026-08-20T11:47:41.324319+00:00",
-      "last_checked_at": null,
-      "completed": false,
-      "status": "pending",
-      "samples": []
+      "last_checked_at": "2026-08-20T15:50:19.356740+00:00",
+      "completed": true,
+      "status": "parsed",
+      "samples": [
+        {
+          "kind": "rune",
+          "id": "Io",
+          "label": "Io",
+          "side": "iso",
+          "price_fg": 8.0,
+          "title": "Iso Hel Rune",
+          "url": "https://forums.d2jsp.org/topic.php?t=109908175&f=123",
+          "observed_at": "2026-08-20T15:50:19.356740+00:00"
+        },
+        {
+          "kind": "rune",
+          "id": "Io",
+          "label": "Io",
+          "side": "iso",
+          "price_fg": 5.0,
+          "title": "Iso Hel Rune",
+          "url": "https://forums.d2jsp.org/topic.php?t=109908175&f=123",
+          "observed_at": "2026-08-20T15:50:19.356740+00:00"
+        },
+        {
+          "kind": "rune",
+          "id": "Hel",
+          "label": "Hel",
+          "side": "iso",
+          "price_fg": 10.0,
+          "title": "Iso Hel Rune",
+          "url": "https://forums.d2jsp.org/topic.php?t=109908175&f=123",
+          "observed_at": "2026-08-20T15:50:19.356740+00:00"
+        },
+        {
+          "kind": "rune",
+          "id": "Io",
+          "label": "Io",
+          "side": "iso",
+          "price_fg": 30.0,
+          "title": "Iso Hel Rune",
+          "url": "https://forums.d2jsp.org/topic.php?t=109908175&f=123",
+          "observed_at": "2026-08-20T15:50:19.356740+00:00"
+        },
+        {
+          "kind": "rune",
+          "id": "Io",
+          "label": "Io",
+          "side": "trade",
+          "price_fg": 8.0,
+          "title": "Iso Hel Rune · T4T/sold signal",
+          "url": "https://forums.d2jsp.org/topic.php?t=109908175&f=123",
+          "observed_at": "2026-08-20T15:50:19.356740+00:00"
+        },
+        {
+          "kind": "rune",
+          "id": "Hel",
+          "label": "Hel",
+          "side": "trade",
+          "price_fg": 10.0,
+          "title": "Iso Hel Rune · T4T/sold signal",
+          "url": "https://forums.d2jsp.org/topic.php?t=109908175&f=123",
+          "observed_at": "2026-08-20T15:50:19.356740+00:00"
+        }
+      ]
     },
     "https://forums.d2jsp.org/topic.php?t=109908168&f=123": {
       "title": "O Jah+sur N Fg",
@@ -358,9 +419,9 @@
       "title": "Iso Ral Rune 99x 4set",
       "url": "https://forums.d2jsp.org/topic.php?t=109907999&f=123",
       "first_seen_at": "2026-08-20T11:47:41.324319+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-20T15:50:18.876396+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=109907994&f=123": {
@@ -439,18 +500,18 @@
       "title": "Iso 4 X Pul 4 X Um",
       "url": "https://forums.d2jsp.org/topic.php?t=109907518&f=123",
       "first_seen_at": "2026-08-20T11:47:41.324319+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-20T15:50:19.851042+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=109907472&f=123": {
       "title": "Iso Mal Rune",
       "url": "https://forums.d2jsp.org/topic.php?t=109907472&f=123",
       "first_seen_at": "2026-08-20T11:47:41.324319+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-20T15:50:18.748782+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=109907423&f=123": {
@@ -621,27 +682,27 @@
       "title": "Ft: Enigma, Cta, Infinity, Wtorch, Eth Fort",
       "url": "https://forums.d2jsp.org/topic.php?t=109908986&f=123",
       "first_seen_at": "2026-08-20T11:47:41.324319+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-20T15:50:20.522197+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=109908980&f=123": {
       "title": "Hoto 39@",
       "url": "https://forums.d2jsp.org/topic.php?t=109908980&f=123",
       "first_seen_at": "2026-08-20T11:47:41.324319+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-20T15:50:20.141114+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=109832871&f=123": {
       "title": "Hell Reapers Need More People",
       "url": "https://forums.d2jsp.org/topic.php?t=109832871&f=123",
       "first_seen_at": "2026-08-20T11:47:41.324319+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-20T15:50:20.309251+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=109832871&f=123&o=20": {
@@ -702,9 +763,9 @@
       "title": "Iso 20 Poison Damage Lv0 Required Jewels",
       "url": "https://forums.d2jsp.org/topic.php?t=109902783&f=123",
       "first_seen_at": "2026-08-20T11:47:41.324319+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-20T15:50:19.788570+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=109907951&f=123": {
@@ -798,5 +859,5 @@
       "samples": []
     }
   },
-  "updated_at": "2026-08-20T13:13:31.474845+00:00"
+  "updated_at": "2026-08-20T15:50:21.770677+00:00"
 }

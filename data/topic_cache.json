@@ -106,7 +106,7 @@
       "title": "Iso Lo",
       "url": "https://forums.d2jsp.org/topic.php?t=109907005&f=123",
       "first_seen_at": "2026-08-20T03:23:58.546268+00:00",
-      "last_checked_at": "2026-08-20T03:24:03.240386+00:00",
+      "last_checked_at": "2026-08-20T13:13:31.470741+00:00",
       "completed": false,
       "status": "parsed",
       "samples": []
@@ -115,7 +115,7 @@
       "title": "List Of Useful Items Ft",
       "url": "https://forums.d2jsp.org/topic.php?t=109906931&f=123",
       "first_seen_at": "2026-08-20T03:23:58.546268+00:00",
-      "last_checked_at": "2026-08-20T03:24:02.763402+00:00",
+      "last_checked_at": "2026-08-20T13:13:29.832864+00:00",
       "completed": false,
       "status": "parsed",
       "samples": []
@@ -205,7 +205,7 @@
       "title": "Jah Rune",
       "url": "https://forums.d2jsp.org/topic.php?t=109905737&f=123",
       "first_seen_at": "2026-08-20T03:23:58.546268+00:00",
-      "last_checked_at": "2026-08-20T03:24:02.812892+00:00",
+      "last_checked_at": "2026-08-20T13:13:29.999649+00:00",
       "completed": false,
       "status": "parsed",
       "samples": []
@@ -214,21 +214,10 @@
       "title": "Iso List - Ma And Jav Skillers, Gul, Mal",
       "url": "https://forums.d2jsp.org/topic.php?t=109905610&f=123",
       "first_seen_at": "2026-08-20T03:23:58.546268+00:00",
-      "last_checked_at": "2026-08-20T03:24:04.137118+00:00",
+      "last_checked_at": "2026-08-20T13:13:30.411917+00:00",
       "completed": false,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Mal",
-          "label": "Mal",
-          "side": "iso",
-          "price_fg": 45.0,
-          "title": "Iso List - Ma And Jav Skillers, Gul, Mal",
-          "url": "https://forums.d2jsp.org/topic.php?t=109905610&f=123",
-          "observed_at": "2026-08-20T03:24:04.137118+00:00"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=109905558&f=123": {
       "title": "Ft: Runes",
@@ -252,9 +241,9 @@
       "title": "Ohm 80 Fg",
       "url": "https://forums.d2jsp.org/topic.php?t=109909141&f=123",
       "first_seen_at": "2026-08-20T11:47:41.324319+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-20T13:13:26.519892+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=109909113&f=123": {
@@ -306,18 +295,18 @@
       "title": "O Fresh sur",
       "url": "https://forums.d2jsp.org/topic.php?t=109908377&f=123",
       "first_seen_at": "2026-08-20T11:47:41.324319+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-20T13:13:26.966473+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=109908352&f=123": {
       "title": "Need Craft Stuff",
       "url": "https://forums.d2jsp.org/topic.php?t=109908352&f=123",
       "first_seen_at": "2026-08-20T11:47:41.324319+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-20T13:13:27.372536+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=109908301&f=123": {
@@ -360,9 +349,9 @@
       "title": "O Jah+sur N Fg",
       "url": "https://forums.d2jsp.org/topic.php?t=109908168&f=123",
       "first_seen_at": "2026-08-20T11:47:41.324319+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-20T13:13:26.501315+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=109907999&f=123": {
@@ -432,18 +421,18 @@
       "title": "Iso Vex And Gul",
       "url": "https://forums.d2jsp.org/topic.php?t=109907672&f=123",
       "first_seen_at": "2026-08-20T11:47:41.324319+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-20T13:13:28.268432+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=109907615&f=123": {
       "title": "Iso Sur Rune",
       "url": "https://forums.d2jsp.org/topic.php?t=109907615&f=123",
       "first_seen_at": "2026-08-20T11:47:41.324319+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-20T13:13:28.196180+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=109907518&f=123": {
@@ -468,18 +457,29 @@
       "title": "Iso Sur Lo Rune",
       "url": "https://forums.d2jsp.org/topic.php?t=109907423&f=123",
       "first_seen_at": "2026-08-20T11:47:41.324319+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-20T13:13:29.628036+00:00",
       "completed": false,
-      "status": "pending",
-      "samples": []
+      "status": "parsed",
+      "samples": [
+        {
+          "kind": "rune",
+          "id": "Lo",
+          "label": "Lo",
+          "side": "iso",
+          "price_fg": 400.0,
+          "title": "Iso Sur Lo Rune",
+          "url": "https://forums.d2jsp.org/topic.php?t=109907423&f=123",
+          "observed_at": "2026-08-20T13:13:29.628036+00:00"
+        }
+      ]
     },
     "https://forums.d2jsp.org/topic.php?t=109910148&f=123": {
       "title": "Na - Hardcore - Reset Team",
       "url": "https://forums.d2jsp.org/topic.php?t=109910148&f=123",
       "first_seen_at": "2026-08-20T11:47:41.324319+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-20T13:13:27.281036+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=109905804&f=123": {
@@ -495,9 +495,9 @@
       "title": "Little Shop",
       "url": "https://forums.d2jsp.org/topic.php?t=109858859&f=123",
       "first_seen_at": "2026-08-20T11:47:41.324319+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-20T13:13:27.821305+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=109858859&f=123&o=40": {
@@ -540,9 +540,9 @@
       "title": "Items Here Low Amb Offers",
       "url": "https://forums.d2jsp.org/topic.php?t=109901398&f=123",
       "first_seen_at": "2026-08-20T11:47:41.324319+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-20T13:13:27.770592+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=109904995&f=123": {
@@ -711,9 +711,9 @@
       "title": "Iso Soj X4",
       "url": "https://forums.d2jsp.org/topic.php?t=109907951&f=123",
       "first_seen_at": "2026-08-20T11:47:41.324319+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-20T13:13:28.674919+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=109902270&f=123": {
@@ -729,9 +729,9 @@
       "title": "O 15 Mio Igg",
       "url": "https://forums.d2jsp.org/topic.php?t=109891580&f=123",
       "first_seen_at": "2026-08-20T11:47:41.324319+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-20T13:13:26.895276+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=109894055&f=123": {
@@ -798,5 +798,5 @@
       "samples": []
     }
   },
-  "updated_at": "2026-08-20T11:47:46.917007+00:00"
+  "updated_at": "2026-08-20T13:13:31.474845+00:00"
 }

@@ -20,6 +20,7 @@ CACHE_PATH = DATA / "topic_cache.json"
 MARKET_PATH = DATA / "market.json"
 HISTORY_PATH = DATA / "history.json"
 DIAGNOSTIC_PATH = DATA / "diagnostic.json"
+LEGACY_PATH = DATA / "legacy_samples.json"
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/126 Safari/537.36"
@@ -78,8 +79,7 @@ def reader(url, timeout=35, retries=5):
             response = requests.get(target, headers=HEADERS, timeout=timeout)
             if response.status_code == 429:
                 last_error = f"429 Too Many Requests ({attempt + 1}/{retries})"
-                wait = min(30, 3 * (2 ** attempt)) + random.uniform(0.2, 1.2)
-                time.sleep(wait)
+                time.sleep(min(30, 3 * (2 ** attempt)) + random.uniform(0.2, 1.2))
                 continue
             response.raise_for_status()
             text = response.text
@@ -118,20 +118,9 @@ def side_of(title):
     return "unknown"
 
 
-def rune_names_in(line):
-    low = line.lower()
-    names = []
-    for rune in CFG["runes"]:
-        if re.search(rf"(?<![a-z]){re.escape(rune.lower())}(?![a-z])", low):
-            names.append(rune)
-    return names
-
-
-def ambiguous_rune_context(rune, line):
-    low = line.lower()
+def ambiguous_rune_context(rune, text):
+    low = (text or "").lower()
     if rune.lower() == "eth":
-        # In D2R trade posts, "eth" very often means ethereal equipment rather
-        # than the Eth rune. Do not treat common equipment phrases as rune prices.
         if re.search(
             r"\b(?:merc\s+)?eth(?:ereal)?\s+(?:infinity|insight|fortitude|fort|weapon|armor|polearm|thresher|cryptic axe|giant thresher|colossus voulge|titans|andy|andys|obedience)\b",
             low,
@@ -143,54 +132,57 @@ def ambiguous_rune_context(rune, line):
     return False
 
 
+def sample_valid(sample):
+    if sample.get("id") == "Eth" and ambiguous_rune_context("Eth", sample.get("title", "")):
+        return False
+    value = sample.get("price_fg")
+    return isinstance(value, (int, float)) and 0 < value < 100000
+
+
+def rune_mentions(line):
+    low = line.lower()
+    hits = []
+    for rune in CFG["runes"]:
+        for match in re.finditer(rf"(?<![a-z]){re.escape(rune.lower())}(?![a-z])", low):
+            if not ambiguous_rune_context(rune, line):
+                hits.append((match.start(), match.end(), rune))
+    return sorted(hits)
+
+
 def line_prices(line):
     low = line.lower()
-    names = rune_names_in(line)
-    if not names:
+    hits = rune_mentions(line)
+    if not hits:
         return []
 
     found = []
     has_context = bool(re.search(r"\b(?:fg|forum\s*gold|bin|price|pay|paying|offer|vs)\b", low))
-    rune_alt = "|".join(re.escape(x.lower()) for x in CFG["runes"])
 
-    for rune in names:
-        if ambiguous_rune_context(rune, line):
-            continue
-
-        rr = re.escape(rune.lower())
+    for index, (start, end, rune) in enumerate(hits):
+        next_start = hits[index + 1][0] if index + 1 < len(hits) else min(len(low), end + 40)
+        segment = low[end:next_start]
         price = None
 
-        match = re.search(
-            rf"(?<![a-z]){rr}(?![a-z])(?:(?!(?:\b(?:{rune_alt})\b)).){{0,24}}?{PRICE}\s*(?:fg|forum\s*gold)\b",
-            low,
-            re.I,
-        )
-        if match:
-            price = nval(match.group(1))
+        explicit = re.search(rf"[^\d]{{0,18}}?{PRICE}\s*(?:fg|forum\s*gold)\b", " " + segment, re.I)
+        if explicit:
+            price = nval(explicit.group(1))
 
         if price is None and has_context:
-            match = re.search(
-                rf"(?<![a-z]){rr}(?![a-z])(?:\s+rune)?\s*(?:=|:|-|vs|for|@)?\s*{PRICE}(?!\s*x\b)",
-                low,
-                re.I,
-            )
-            if match:
-                price = nval(match.group(1))
+            bare = re.match(rf"\s*(?:rune\s*)?(?:=|:|-|vs|for|@)?\s*{PRICE}(?!\s*x\b)", segment, re.I)
+            if bare:
+                price = nval(bare.group(1))
 
-        if price is None and len(names) == 1:
-            match = re.search(
-                rf"{PRICE}\s*(?:fg|forum\s*gold)\b.{{0,22}}?(?<![a-z]){rr}(?![a-z])",
-                low,
-                re.I,
-            )
-            if match:
-                price = nval(match.group(1))
+        if price is None and len(hits) == 1:
+            before = low[max(0, start - 28):start]
+            prior = re.search(rf"{PRICE}\s*(?:fg|forum\s*gold)\b[^\d]{{0,18}}$", before, re.I)
+            if prior:
+                price = nval(prior.group(1))
 
-        if price is None and len(names) == 1:
-            explicit = [nval(x) for x in re.findall(rf"{PRICE}\s*(?:fg|forum\s*gold)\b", low, re.I)]
-            explicit = [x for x in explicit if x is not None]
-            if len(explicit) == 1:
-                price = explicit[0]
+        if price is None and len(hits) == 1:
+            amounts = [nval(x) for x in re.findall(rf"{PRICE}\s*(?:fg|forum\s*gold)\b", low, re.I)]
+            amounts = [x for x in amounts if x is not None]
+            if len(amounts) == 1:
+                price = amounts[0]
 
         if price is not None:
             found.append((rune, price))
@@ -223,7 +215,7 @@ def parse_topic(title, url):
 
     def add(sample):
         key = (sample["kind"], sample["id"], sample["side"], sample["price_fg"], sample["url"])
-        if key not in seen:
+        if key not in seen and sample_valid(sample):
             seen.add(key)
             samples.append(sample)
 
@@ -282,9 +274,8 @@ def parse_topic(title, url):
 
 def prune_cache(cache):
     cutoff = utcnow() - timedelta(days=CACHE_DAYS)
-    topics = cache.setdefault("topics", {})
     keep = {}
-    for url, entry in topics.items():
+    for url, entry in cache.setdefault("topics", {}).items():
         first_seen = parse_dt(entry.get("first_seen_at")) or parse_dt(entry.get("last_checked_at"))
         if first_seen is None or first_seen >= cutoff:
             keep[url] = entry
@@ -292,12 +283,40 @@ def prune_cache(cache):
     return cache
 
 
+def legacy_samples():
+    payload = load_json(LEGACY_PATH, {})
+    snapshot_at = parse_dt(payload.get("snapshot_at"))
+    if snapshot_at is None or snapshot_at < utcnow() - timedelta(days=CACHE_DAYS):
+        return []
+
+    output = []
+    for raw in payload.get("samples", []):
+        sample = dict(raw)
+        sample["observed_at"] = payload["snapshot_at"]
+        sample["legacy"] = True
+        if sample_valid(sample):
+            output.append(sample)
+    return output
+
+
 def aggregate_samples(cache):
-    samples = []
+    # Historical samples from the last good pre-cache run remain part of the
+    # seven-day window. Current cache samples replace exact duplicates.
+    dedup = {}
+    for sample in legacy_samples():
+        key = (sample.get("kind"), sample.get("id"), sample.get("side"), sample.get("price_fg"), sample.get("url"))
+        dedup[key] = sample
+
     for entry in cache.get("topics", {}).values():
-        if entry.get("status") == "parsed":
-            samples.extend(entry.get("samples", []))
-    return samples
+        if entry.get("status") != "parsed":
+            continue
+        for sample in entry.get("samples", []):
+            if not sample_valid(sample):
+                continue
+            key = (sample.get("kind"), sample.get("id"), sample.get("side"), sample.get("price_fg"), sample.get("url"))
+            dedup[key] = sample
+
+    return list(dedup.values())
 
 
 def summarize(samples):
@@ -336,13 +355,14 @@ def summarize(samples):
 
 
 def merge_with_previous(new_rows, previous_market):
-    now = utcnow()
-    cutoff = now - timedelta(days=CACHE_DAYS)
+    cutoff = utcnow() - timedelta(days=CACHE_DAYS)
     merged = {row["id"]: row for row in new_rows}
+    previous_updated = parse_dt(previous_market.get("updated_at")) or utcnow()
 
-    previous_updated = parse_dt(previous_market.get("updated_at")) or now
     for old in previous_market.get("market", []):
         if old.get("id") in merged:
+            continue
+        if old.get("id") == "Eth" and old.get("fair_fg", 0) >= 100:
             continue
         last_seen = parse_dt(old.get("last_seen_at")) or previous_updated
         if last_seen >= cutoff:
@@ -356,8 +376,7 @@ def merge_with_previous(new_rows, previous_market):
 def discover_topics():
     diagnostics = []
     links = []
-    pages = [RUNE_FORUM, RUNE_FORUM + "&o=25", FORUM]
-    for url in pages:
+    for url in [RUNE_FORUM, RUNE_FORUM + "&o=25", FORUM]:
         try:
             markdown = reader(url, retries=4)
             found = topic_links(markdown)
@@ -373,12 +392,11 @@ def discover_topics():
 
 
 def select_topics(cache):
-    topics = cache.get("topics", {})
     now = utcnow()
     pending = []
     recheck = []
 
-    for url, entry in topics.items():
+    for url, entry in cache.get("topics", {}).items():
         if entry.get("status") != "parsed":
             pending.append((entry.get("first_seen_at", ""), entry.get("title", "d2jsp topic"), url))
             continue
@@ -417,14 +435,9 @@ def main():
         else:
             topics[url]["title"] = title or topics[url].get("title")
 
-    # Remove samples created by older parser versions when "eth" meant ethereal.
+    # Remove bad samples generated by older parser versions.
     for entry in topics.values():
-        cleaned = []
-        for sample in entry.get("samples", []):
-            if sample.get("id") == "Eth" and ambiguous_rune_context("Eth", sample.get("title", "")):
-                continue
-            cleaned.append(sample)
-        entry["samples"] = cleaned
+        entry["samples"] = [x for x in entry.get("samples", []) if sample_valid(x)]
 
     selected = select_topics(cache)
     topic_errors = []
@@ -464,14 +477,6 @@ def main():
     fresh_rows = summarize(all_samples)
     merged_rows = merge_with_previous(fresh_rows, previous_market)
 
-    # If an invalid Eth row existed from an older parser, discard it so the
-    # restored historical Eth value can remain until a real Eth-rune quote arrives.
-    valid_eth = any(x.get("id") == "Eth" for x in fresh_rows)
-    if not valid_eth:
-        prior_eth = next((x for x in previous_market.get("market", []) if x.get("id") == "Eth" and x.get("fair_fg", 0) < 100), None)
-        if prior_eth:
-            merged_rows = [x for x in merged_rows if x.get("id") != "Eth"] + [dict(prior_eth, stale=True)]
-
     parsed_cache_topics = sum(1 for x in cache.get("topics", {}).values() if x.get("status") == "parsed")
     completed_cache_topics = sum(1 for x in cache.get("topics", {}).values() if x.get("completed"))
 
@@ -487,6 +492,7 @@ def main():
         "completed_topics": completed_cache_topics,
         "parsed_this_run": parsed_this_run,
         "sample_count": sum(row.get("samples", 0) for row in merged_rows),
+        "legacy_sample_count": len(legacy_samples()),
         "market": merged_rows,
     }
     MARKET_PATH.write_text(json.dumps(market, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -499,6 +505,8 @@ def main():
         "selected_topics": len(selected),
         "parsed_this_run": parsed_this_run,
         "completed_this_run": completed_this_run,
+        "legacy_samples": len(legacy_samples()),
+        "combined_samples": len(all_samples),
         "topic_errors": topic_errors[:20],
     }, ensure_ascii=False, indent=2), encoding="utf-8")
 
@@ -514,8 +522,8 @@ def main():
     print(
         f"discovered={len(discovered)} cached={len(cache.get('topics', {}))} "
         f"selected={len(selected)} parsed_now={parsed_this_run} "
-        f"cache_parsed={parsed_cache_topics} samples={len(all_samples)} market={len(merged_rows)} "
-        f"errors={len(topic_errors)}"
+        f"cache_parsed={parsed_cache_topics} legacy={len(legacy_samples())} "
+        f"combined={len(all_samples)} market={len(merged_rows)} errors={len(topic_errors)}"
     )
 
 

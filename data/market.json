@@ -1,34 +1,34 @@
 {
-  "updated_at": "2026-08-20T03:24:04.144354+00:00",
+  "updated_at": "2026-08-20T03:25:42.952491+00:00",
   "forum": "https://forums.d2jsp.org/forum.php?f=123",
   "topic_count": 25,
   "cached_topics": 25,
-  "parsed_topics": 12,
-  "completed_topics": 0,
+  "parsed_topics": 24,
+  "completed_topics": 2,
   "parsed_this_run": 12,
-  "sample_count": 2,
+  "sample_count": 3,
   "market": [
     {
       "kind": "rune",
-      "id": "Eth",
-      "label": "Eth",
-      "fair_fg": 695.0,
+      "id": "Cham",
+      "label": "Cham",
+      "fair_fg": 550.0,
       "iso_fg": null,
       "ft_fg": null,
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-08-20T03:24:02.450650+00:00",
+      "last_seen_at": "2026-08-20T03:25:42.946535+00:00",
       "sources": [
         {
           "kind": "rune",
-          "id": "Eth",
-          "label": "Eth",
+          "id": "Cham",
+          "label": "Cham",
           "side": "unknown",
-          "price_fg": 695.0,
-          "title": "Looking For Merc Eth Infinity",
-          "url": "https://forums.d2jsp.org/topic.php?t=109905755&f=123",
-          "observed_at": "2026-08-20T03:24:02.450650+00:00"
+          "price_fg": 550.0,
+          "title": "Cham",
+          "url": "https://forums.d2jsp.org/topic.php?t=109907345&f=123",
+          "observed_at": "2026-08-20T03:25:42.946535+00:00"
         }
       ]
     },
@@ -55,6 +55,31 @@
           "observed_at": "2026-08-20T03:24:04.137118+00:00"
         }
       ]
+    },
+    {
+      "kind": "rune",
+      "id": "Eth",
+      "label": "Eth",
+      "fair_fg": 695.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-08-20T03:24:02.450650+00:00",
+      "sources": [
+        {
+          "kind": "rune",
+          "id": "Eth",
+          "label": "Eth",
+          "side": "unknown",
+          "price_fg": 695.0,
+          "title": "Looking For Merc Eth Infinity",
+          "url": "https://forums.d2jsp.org/topic.php?t=109905755&f=123",
+          "observed_at": "2026-08-20T03:24:02.450650+00:00"
+        }
+      ],
+      "stale": true
     },
     {
       "kind": "rune",
@@ -178,19 +203,6 @@
       "id": "Pul",
       "label": "Pul",
       "fair_fg": 5.0,
-      "iso_fg": null,
-      "ft_fg": null,
-      "trade_fg": null,
-      "samples": 0,
-      "confidence": "restored",
-      "sources": [],
-      "stale": true
-    },
-    {
-      "kind": "rune",
-      "id": "Cham",
-      "label": "Cham",
-      "fair_fg": 550.0,
       "iso_fg": null,
       "ft_fg": null,
       "trade_fg": null,

@@ -37,13 +37,29 @@ jobs:
       - name: Build static site
         run: |
           rm -rf _site
-          mkdir -p _site/data
+          mkdir -p _site/data _site/assets
           cp -R site/. _site/
           cp data/market.json _site/data/market.json
           cp data/history.json _site/data/history.json
 
-          # site/app.js originally runs from /site/ in the repo; Pages publishes it at the site root.
-          # Rewrite the data URL only in the deployment artifact so the source files stay unchanged.
+          python3 - <<'PY'
+          import base64
+          from pathlib import Path
+
+          parts = [
+              Path('site/assets/runes-original-hd.webp.b64.00'),
+              Path('site/assets/runes-original-hd.webp.b64.01'),
+              Path('site/assets/runes-original-hd.webp.b64.02'),
+          ]
+          encoded = ''.join(p.read_text(encoding='utf-8').strip() for p in parts)
+          data = base64.b64decode(encoded)
+          if len(data) < 1000 or data[:4] != b'RIFF' or data[8:12] != b'WEBP':
+              raise SystemExit('Invalid rebuilt rune WebP asset')
+          Path('_site/assets/runes-original-hd.webp').write_bytes(data)
+          print(f'Rebuilt rune sprite: {len(data)} bytes')
+          PY
+
+          rm -f _site/assets/runes-original-hd.webp.b64.*
           sed -i 's#\.\./data/#./data/#g' _site/app.js
           touch _site/.nojekyll
 

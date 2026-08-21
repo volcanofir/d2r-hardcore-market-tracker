@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-21T07:09:46.531392+00:00",
+  "updated_at": "2026-08-21T09:53:43.729931+00:00",
   "forum": "https://forums.d2jsp.org/forum.php?f=123",
   "topic_count": 0,
   "cached_topics": 86,
   "parsed_topics": 86,
   "completed_topics": 3,
   "parsed_this_run": 4,
-  "sample_count": 42,
+  "sample_count": 34,
   "legacy_sample_count": 35,
   "market": [
     {
@@ -391,94 +391,14 @@
       "kind": "rune",
       "id": "Eth",
       "label": "Eth",
-      "fair_fg": 20.0,
+      "fair_fg": 5.0,
       "iso_fg": null,
       "ft_fg": null,
       "trade_fg": null,
-      "samples": 11,
-      "confidence": "high",
-      "last_seen_at": "2026-08-21T01:59:26.484276+00:00",
+      "samples": 3,
+      "confidence": "low",
+      "last_seen_at": "2026-08-19T11:44:47.533902+00:00",
       "sources": [
-        {
-          "kind": "rune",
-          "id": "Eth",
-          "label": "Eth",
-          "side": "unknown",
-          "price_fg": 5.0,
-          "title": "~ Uniques Hcl ~",
-          "url": "https://forums.d2jsp.org/topic.php?t=109894055&f=123",
-          "observed_at": "2026-08-21T01:59:26.484276+00:00"
-        },
-        {
-          "kind": "rune",
-          "id": "Eth",
-          "label": "Eth",
-          "side": "unknown",
-          "price_fg": 180.0,
-          "title": "~ Uniques Hcl ~",
-          "url": "https://forums.d2jsp.org/topic.php?t=109894055&f=123",
-          "observed_at": "2026-08-21T01:59:26.484276+00:00"
-        },
-        {
-          "kind": "rune",
-          "id": "Eth",
-          "label": "Eth",
-          "side": "unknown",
-          "price_fg": 15.0,
-          "title": "~ Uniques Hcl ~",
-          "url": "https://forums.d2jsp.org/topic.php?t=109894055&f=123",
-          "observed_at": "2026-08-21T01:59:26.484276+00:00"
-        },
-        {
-          "kind": "rune",
-          "id": "Eth",
-          "label": "Eth",
-          "side": "unknown",
-          "price_fg": 10.0,
-          "title": "~ Uniques Hcl ~",
-          "url": "https://forums.d2jsp.org/topic.php?t=109894055&f=123",
-          "observed_at": "2026-08-21T01:59:26.484276+00:00"
-        },
-        {
-          "kind": "rune",
-          "id": "Eth",
-          "label": "Eth",
-          "side": "unknown",
-          "price_fg": 100.0,
-          "title": "~ Uniques Hcl ~",
-          "url": "https://forums.d2jsp.org/topic.php?t=109894055&f=123",
-          "observed_at": "2026-08-21T01:59:26.484276+00:00"
-        },
-        {
-          "kind": "rune",
-          "id": "Eth",
-          "label": "Eth",
-          "side": "unknown",
-          "price_fg": 25.0,
-          "title": "~ Uniques Hcl ~",
-          "url": "https://forums.d2jsp.org/topic.php?t=109894055&f=123",
-          "observed_at": "2026-08-21T01:59:26.484276+00:00"
-        },
-        {
-          "kind": "rune",
-          "id": "Eth",
-          "label": "Eth",
-          "side": "unknown",
-          "price_fg": 50.0,
-          "title": "~ Uniques Hcl ~",
-          "url": "https://forums.d2jsp.org/topic.php?t=109894055&f=123",
-          "observed_at": "2026-08-21T01:59:26.484276+00:00"
-        },
-        {
-          "kind": "rune",
-          "id": "Eth",
-          "label": "Eth",
-          "side": "unknown",
-          "price_fg": 30.0,
-          "title": "~ Uniques Hcl ~",
-          "url": "https://forums.d2jsp.org/topic.php?t=109894055&f=123",
-          "observed_at": "2026-08-21T01:59:26.484276+00:00"
-        },
         {
           "kind": "rune",
           "id": "Eth",

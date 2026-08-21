@@ -37,14 +37,10 @@ jobs:
       - name: Build static site
         run: |
           rm -rf _site
-          mkdir -p _site/data _site/assets
+          mkdir -p _site/data
           cp -R site/. _site/
           cp data/market.json _site/data/market.json
           cp data/history.json _site/data/history.json
-
-          # Rebuild the original-photo HD rune sprite for GitHub Pages.
-          cat site/assets/runes-original-hd.webp.b64.* | base64 --decode > _site/assets/runes-original-hd.webp
-          rm -f _site/assets/runes-original-hd.webp.b64.*
 
           # site/app.js originally runs from /site/ in the repo; Pages publishes it at the site root.
           # Rewrite the data URL only in the deployment artifact so the source files stay unchanged.

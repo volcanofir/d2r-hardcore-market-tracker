@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-22T13:02:59.791566+00:00",
+  "updated_at": "2026-08-22T15:37:25.177929+00:00",
   "forum_pages": [
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&c=2",
@@ -8,8 +8,8 @@
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=25",
-      "topics": 25,
-      "bytes": 9757
+      "topics": 0,
+      "bytes": 285
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123",
@@ -17,12 +17,12 @@
       "bytes": 276
     }
   ],
-  "discovered_topics": 25,
+  "discovered_topics": 0,
   "cached_topics": 136,
   "selected_topics": 16,
   "parsed_this_run": 16,
-  "completed_this_run": 3,
+  "completed_this_run": 2,
   "legacy_samples": 35,
-  "combined_samples": 64,
+  "combined_samples": 71,
   "topic_errors": []
 }

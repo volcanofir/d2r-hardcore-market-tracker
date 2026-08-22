@@ -1013,16 +1013,16 @@
       "title": "Iso Hel Rune",
       "url": "https://forums.d2jsp.org/topic.php?t=109924597&f=123",
       "first_seen_at": "2026-08-22T09:44:39.077118+00:00",
-      "last_checked_at": null,
-      "completed": false,
-      "status": "pending",
+      "last_checked_at": "2026-08-22T18:50:54.244022+00:00",
+      "completed": true,
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=109924587&f=123": {
       "title": "O Lum",
       "url": "https://forums.d2jsp.org/topic.php?t=109924587&f=123",
       "first_seen_at": "2026-08-22T09:44:39.077118+00:00",
-      "last_checked_at": "2026-08-22T09:44:43.469485+00:00",
+      "last_checked_at": "2026-08-22T18:50:56.742341+00:00",
       "completed": false,
       "status": "parsed",
       "samples": []
@@ -1031,9 +1031,9 @@
       "title": "Ko Rune",
       "url": "https://forums.d2jsp.org/topic.php?t=109924583&f=123",
       "first_seen_at": "2026-08-22T09:44:39.077118+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-22T18:50:50.453462+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=109924558&f=123": {
@@ -1049,43 +1049,43 @@
       "title": "Insight Rune Set",
       "url": "https://forums.d2jsp.org/topic.php?t=109924552&f=123",
       "first_seen_at": "2026-08-22T09:44:39.077118+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-22T18:50:55.190030+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=109924544&f=123": {
       "title": "Fal Rune",
       "url": "https://forums.d2jsp.org/topic.php?t=109924544&f=123",
       "first_seen_at": "2026-08-22T09:44:39.077118+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-22T18:50:56.158069+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=109924527&f=123": {
       "title": "Ko Ft",
       "url": "https://forums.d2jsp.org/topic.php?t=109924527&f=123",
       "first_seen_at": "2026-08-22T09:44:39.077118+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-22T18:50:51.798432+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=109924514&f=123": {
       "title": "Amn Rune",
       "url": "https://forums.d2jsp.org/topic.php?t=109924514&f=123",
       "first_seen_at": "2026-08-22T09:44:39.077118+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-22T18:50:56.392209+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=109924496&f=123": {
       "title": "Um Rune",
       "url": "https://forums.d2jsp.org/topic.php?t=109924496&f=123",
       "first_seen_at": "2026-08-22T09:44:39.077118+00:00",
-      "last_checked_at": "2026-08-22T09:44:41.862728+00:00",
+      "last_checked_at": "2026-08-22T18:50:56.408980+00:00",
       "completed": false,
       "status": "parsed",
       "samples": []
@@ -1094,9 +1094,9 @@
       "title": "Ist Rune For Fg",
       "url": "https://forums.d2jsp.org/topic.php?t=109924495&f=123",
       "first_seen_at": "2026-08-22T09:44:39.077118+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-22T18:50:51.467036+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=109924487&f=123": {
@@ -1139,7 +1139,7 @@
       "title": "Sur Rune Here",
       "url": "https://forums.d2jsp.org/topic.php?t=109924430&f=123",
       "first_seen_at": "2026-08-22T09:44:39.077118+00:00",
-      "last_checked_at": "2026-08-22T09:44:41.927144+00:00",
+      "last_checked_at": "2026-08-22T18:50:56.617755+00:00",
       "completed": false,
       "status": "parsed",
       "samples": []
@@ -1148,10 +1148,21 @@
       "title": "Iso Thul For 60 Fg",
       "url": "https://forums.d2jsp.org/topic.php?t=109924429&f=123",
       "first_seen_at": "2026-08-22T09:44:39.077118+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-22T18:50:53.112990+00:00",
       "completed": false,
-      "status": "pending",
-      "samples": []
+      "status": "parsed",
+      "samples": [
+        {
+          "kind": "rune",
+          "id": "Thul",
+          "label": "Thul",
+          "side": "iso",
+          "price_fg": 60.0,
+          "title": "Iso Thul For 60 Fg",
+          "url": "https://forums.d2jsp.org/topic.php?t=109924429&f=123",
+          "observed_at": "2026-08-22T18:50:53.112990+00:00"
+        }
+      ]
     },
     "https://forums.d2jsp.org/topic.php?t=109924419&f=123": {
       "title": "O Fal Rune",
@@ -1196,9 +1207,9 @@
       "title": "Iso Ort Rune Hc",
       "url": "https://forums.d2jsp.org/topic.php?t=109924403&f=123",
       "first_seen_at": "2026-08-22T09:44:39.077118+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-22T18:50:53.809810+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=109924400&f=123": {
@@ -1214,10 +1225,21 @@
       "title": "Ist For 1600fg",
       "url": "https://forums.d2jsp.org/topic.php?t=109924392&f=123",
       "first_seen_at": "2026-08-22T09:44:39.077118+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-22T18:50:52.643083+00:00",
       "completed": false,
-      "status": "pending",
-      "samples": []
+      "status": "parsed",
+      "samples": [
+        {
+          "kind": "rune",
+          "id": "Ist",
+          "label": "Ist",
+          "side": "ft",
+          "price_fg": 1600.0,
+          "title": "Ist For 1600fg",
+          "url": "https://forums.d2jsp.org/topic.php?t=109924392&f=123",
+          "observed_at": "2026-08-22T18:50:52.643083+00:00"
+        }
+      ]
     },
     "https://forums.d2jsp.org/topic.php?t=109924379&f=123": {
       "title": ":: Ft :: Um Rune + Spirit Base",
@@ -1232,7 +1254,7 @@
       "title": "O Lem",
       "url": "https://forums.d2jsp.org/topic.php?t=109924370&f=123",
       "first_seen_at": "2026-08-22T09:44:39.077118+00:00",
-      "last_checked_at": "2026-08-22T09:44:45.020975+00:00",
+      "last_checked_at": "2026-08-22T18:50:56.823239+00:00",
       "completed": false,
       "status": "parsed",
       "samples": []
@@ -1241,9 +1263,9 @@
       "title": "Iso Amn Thul",
       "url": "https://forums.d2jsp.org/topic.php?t=109924361&f=123",
       "first_seen_at": "2026-08-22T09:44:39.077118+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-22T18:50:55.088774+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=109926819&f=123": {
@@ -1286,9 +1308,9 @@
       "title": "2x Io Runes",
       "url": "https://forums.d2jsp.org/topic.php?t=109926742&f=123",
       "first_seen_at": "2026-08-22T13:02:49.821386+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-22T18:50:50.397527+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=109926666&f=123": {
@@ -1653,5 +1675,5 @@
       ]
     }
   },
-  "updated_at": "2026-08-22T15:37:25.174465+00:00"
+  "updated_at": "2026-08-22T18:50:56.823926+00:00"
 }

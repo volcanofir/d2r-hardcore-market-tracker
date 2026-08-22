@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-22T15:37:25.176834+00:00",
+  "updated_at": "2026-08-22T18:50:56.831792+00:00",
   "forum": "https://forums.d2jsp.org/forum.php?f=123",
   "topic_count": 0,
   "cached_topics": 136,
-  "parsed_topics": 122,
-  "completed_topics": 11,
+  "parsed_topics": 134,
+  "completed_topics": 12,
   "parsed_this_run": 16,
-  "sample_count": 63,
+  "sample_count": 65,
   "legacy_sample_count": 35,
   "market": [
     {
@@ -811,16 +811,50 @@
     },
     {
       "kind": "rune",
+      "id": "Thul",
+      "label": "Thul",
+      "fair_fg": 60.0,
+      "iso_fg": 60.0,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-08-22T18:50:53.112990+00:00",
+      "sources": [
+        {
+          "kind": "rune",
+          "id": "Thul",
+          "label": "Thul",
+          "side": "iso",
+          "price_fg": 60.0,
+          "title": "Iso Thul For 60 Fg",
+          "url": "https://forums.d2jsp.org/topic.php?t=109924429&f=123",
+          "observed_at": "2026-08-22T18:50:53.112990+00:00"
+        }
+      ]
+    },
+    {
+      "kind": "rune",
       "id": "Ist",
       "label": "Ist",
-      "fair_fg": 750.0,
+      "fair_fg": 800.0,
       "iso_fg": 1600.0,
-      "ft_fg": null,
+      "ft_fg": 1600.0,
       "trade_fg": 750.0,
-      "samples": 4,
+      "samples": 5,
       "confidence": "medium",
-      "last_seen_at": "2026-08-22T15:37:24.854597+00:00",
+      "last_seen_at": "2026-08-22T18:50:52.643083+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Ist",
+          "label": "Ist",
+          "side": "ft",
+          "price_fg": 1600.0,
+          "title": "Ist For 1600fg",
+          "url": "https://forums.d2jsp.org/topic.php?t=109924392&f=123",
+          "observed_at": "2026-08-22T18:50:52.643083+00:00"
+        },
         {
           "kind": "rune",
           "id": "Ist",

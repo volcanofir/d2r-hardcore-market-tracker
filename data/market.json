@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-22T09:44:55.036318+00:00",
+  "updated_at": "2026-08-22T13:02:59.790784+00:00",
   "forum": "https://forums.d2jsp.org/forum.php?f=123",
   "topic_count": 25,
-  "cached_topics": 111,
-  "parsed_topics": 98,
-  "completed_topics": 6,
+  "cached_topics": 136,
+  "parsed_topics": 110,
+  "completed_topics": 9,
   "parsed_this_run": 16,
-  "sample_count": 49,
+  "sample_count": 57,
   "legacy_sample_count": 35,
   "market": [
     {
@@ -275,14 +275,24 @@
       "kind": "rune",
       "id": "Mal",
       "label": "Mal",
-      "fair_fg": 15.0,
+      "fair_fg": 47.5,
       "iso_fg": 45.0,
-      "ft_fg": null,
+      "ft_fg": 200.0,
       "trade_fg": null,
-      "samples": 3,
-      "confidence": "low",
-      "last_seen_at": "2026-08-19T11:44:47.533902+00:00",
+      "samples": 4,
+      "confidence": "medium",
+      "last_seen_at": "2026-08-22T13:02:59.105057+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Mal",
+          "label": "Mal",
+          "side": "ft",
+          "price_fg": 200.0,
+          "title": "Mal Vs 200 Fg",
+          "url": "https://forums.d2jsp.org/topic.php?t=109926616&f=123",
+          "observed_at": "2026-08-22T13:02:59.105057+00:00"
+        },
         {
           "kind": "rune",
           "id": "Mal",
@@ -654,14 +664,24 @@
       "kind": "rune",
       "id": "Pul",
       "label": "Pul",
-      "fair_fg": 5.0,
+      "fair_fg": 52.5,
       "iso_fg": null,
-      "ft_fg": null,
+      "ft_fg": 100.0,
       "trade_fg": null,
-      "samples": 1,
+      "samples": 2,
       "confidence": "low",
-      "last_seen_at": "2026-08-19T11:44:47.533902+00:00",
+      "last_seen_at": "2026-08-22T13:02:55.958590+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Pul",
+          "label": "Pul",
+          "side": "ft",
+          "price_fg": 100.0,
+          "title": "Pul Rune 100fg",
+          "url": "https://forums.d2jsp.org/topic.php?t=109926386&f=123",
+          "observed_at": "2026-08-22T13:02:55.958590+00:00"
+        },
         {
           "kind": "rune",
           "id": "Pul",
@@ -790,6 +810,138 @@
           "title": "O Ist + Um - Need Fg",
           "url": "https://forums.d2jsp.org/topic.php?t=109924409&f=123",
           "observed_at": "2026-08-22T09:44:47.432446+00:00"
+        }
+      ]
+    },
+    {
+      "kind": "rune",
+      "id": "Sol",
+      "label": "Sol",
+      "fair_fg": 40.0,
+      "iso_fg": 30.0,
+      "ft_fg": 40.0,
+      "trade_fg": 60.0,
+      "samples": 4,
+      "confidence": "medium",
+      "last_seen_at": "2026-08-22T13:02:58.742492+00:00",
+      "sources": [
+        {
+          "kind": "rune",
+          "id": "Sol",
+          "label": "Sol",
+          "side": "ft",
+          "price_fg": 40.0,
+          "title": "My Low Runes Ft",
+          "url": "https://forums.d2jsp.org/topic.php?t=109926659&f=123",
+          "observed_at": "2026-08-22T13:02:58.742492+00:00"
+        },
+        {
+          "kind": "rune",
+          "id": "Sol",
+          "label": "Sol",
+          "side": "trade",
+          "price_fg": 40.0,
+          "title": "My Low Runes Ft · T4T/sold signal",
+          "url": "https://forums.d2jsp.org/topic.php?t=109926659&f=123",
+          "observed_at": "2026-08-22T13:02:58.742492+00:00"
+        },
+        {
+          "kind": "rune",
+          "id": "Sol",
+          "label": "Sol",
+          "side": "iso",
+          "price_fg": 30.0,
+          "title": "N Sol Vs 30 Fg",
+          "url": "https://forums.d2jsp.org/topic.php?t=109926469&f=123",
+          "observed_at": "2026-08-22T13:02:58.098337+00:00"
+        },
+        {
+          "kind": "rune",
+          "id": "Sol",
+          "label": "Sol",
+          "side": "ft",
+          "price_fg": 40.0,
+          "title": "O Sol 40 Fg",
+          "url": "https://forums.d2jsp.org/topic.php?t=109926462&f=123",
+          "observed_at": "2026-08-22T13:02:56.737160+00:00"
+        },
+        {
+          "kind": "rune",
+          "id": "Sol",
+          "label": "Sol",
+          "side": "unknown",
+          "price_fg": 80.0,
+          "title": "Runes",
+          "url": "https://forums.d2jsp.org/topic.php?t=109926622&f=123",
+          "observed_at": "2026-08-22T13:02:54.686353+00:00"
+        },
+        {
+          "kind": "rune",
+          "id": "Sol",
+          "label": "Sol",
+          "side": "trade",
+          "price_fg": 80.0,
+          "title": "Runes · T4T/sold signal",
+          "url": "https://forums.d2jsp.org/topic.php?t=109926622&f=123",
+          "observed_at": "2026-08-22T13:02:54.686353+00:00"
+        }
+      ]
+    },
+    {
+      "kind": "rune",
+      "id": "Amn",
+      "label": "Amn",
+      "fair_fg": 40.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": 40.0,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-08-22T13:02:54.686353+00:00",
+      "sources": [
+        {
+          "kind": "rune",
+          "id": "Amn",
+          "label": "Amn",
+          "side": "unknown",
+          "price_fg": 40.0,
+          "title": "Runes",
+          "url": "https://forums.d2jsp.org/topic.php?t=109926622&f=123",
+          "observed_at": "2026-08-22T13:02:54.686353+00:00"
+        },
+        {
+          "kind": "rune",
+          "id": "Amn",
+          "label": "Amn",
+          "side": "trade",
+          "price_fg": 40.0,
+          "title": "Runes · T4T/sold signal",
+          "url": "https://forums.d2jsp.org/topic.php?t=109926622&f=123",
+          "observed_at": "2026-08-22T13:02:54.686353+00:00"
+        }
+      ]
+    },
+    {
+      "kind": "rune",
+      "id": "Ko",
+      "label": "Ko",
+      "fair_fg": 100.0,
+      "iso_fg": 100.0,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-08-22T13:02:57.020916+00:00",
+      "sources": [
+        {
+          "kind": "rune",
+          "id": "Ko",
+          "label": "Ko",
+          "side": "iso",
+          "price_fg": 100.0,
+          "title": "Need Sheal+ko+eld Pack",
+          "url": "https://forums.d2jsp.org/topic.php?t=109926502&f=123",
+          "observed_at": "2026-08-22T13:02:57.020916+00:00"
         }
       ]
     }

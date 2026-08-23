@@ -45,3 +45,5 @@ jobs:
           git fetch origin main
           git rebase origin/main
           git push origin HEAD:main
+
+# trigger 2026-08-23 complete binary rebuild

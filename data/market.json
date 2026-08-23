@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-23T13:04:17.845608+00:00",
+  "updated_at": "2026-08-23T15:40:02.217966+00:00",
   "forum": "https://forums.d2jsp.org/forum.php?f=123",
-  "topic_count": 28,
-  "cached_topics": 164,
-  "parsed_topics": 148,
+  "topic_count": 55,
+  "cached_topics": 218,
+  "parsed_topics": 160,
   "completed_topics": 14,
   "parsed_this_run": 16,
-  "sample_count": 66,
+  "sample_count": 74,
   "legacy_sample_count": 35,
   "market": [
     {
@@ -78,10 +78,20 @@
       "iso_fg": 10.0,
       "ft_fg": null,
       "trade_fg": 9.0,
-      "samples": 7,
+      "samples": 8,
       "confidence": "medium",
-      "last_seen_at": "2026-08-20T15:50:19.356740+00:00",
+      "last_seen_at": "2026-08-23T15:39:58.871055+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Hel",
+          "label": "Hel",
+          "side": "iso",
+          "price_fg": 80.0,
+          "title": "Quick & Easy Iso List",
+          "url": "https://forums.d2jsp.org/topic.php?t=109953100&f=123",
+          "observed_at": "2026-08-23T15:39:58.871055+00:00"
+        },
         {
           "kind": "rune",
           "id": "Hel",
@@ -275,14 +285,24 @@
       "kind": "rune",
       "id": "Mal",
       "label": "Mal",
-      "fair_fg": 15.0,
+      "fair_fg": 47.5,
       "iso_fg": 45.0,
-      "ft_fg": null,
+      "ft_fg": 200.0,
       "trade_fg": null,
-      "samples": 3,
-      "confidence": "low",
-      "last_seen_at": "2026-08-19T11:44:47.533902+00:00",
+      "samples": 4,
+      "confidence": "medium",
+      "last_seen_at": "2026-08-23T15:40:01.262654+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Mal",
+          "label": "Mal",
+          "side": "ft",
+          "price_fg": 200.0,
+          "title": "Mal Vs 200 Fg",
+          "url": "https://forums.d2jsp.org/topic.php?t=109926616&f=123",
+          "observed_at": "2026-08-23T15:40:01.262654+00:00"
+        },
         {
           "kind": "rune",
           "id": "Mal",
@@ -686,12 +706,32 @@
       "label": "Pul",
       "fair_fg": 75.0,
       "iso_fg": null,
-      "ft_fg": 100.0,
+      "ft_fg": 80.0,
       "trade_fg": null,
-      "samples": 3,
-      "confidence": "low",
-      "last_seen_at": "2026-08-23T13:04:15.742103+00:00",
+      "samples": 5,
+      "confidence": "medium",
+      "last_seen_at": "2026-08-23T15:40:01.746359+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Pul",
+          "label": "Pul",
+          "side": "ft",
+          "price_fg": 70.0,
+          "title": "Pul - 70fg",
+          "url": "https://forums.d2jsp.org/topic.php?t=109953611&f=123",
+          "observed_at": "2026-08-23T15:40:01.746359+00:00"
+        },
+        {
+          "kind": "rune",
+          "id": "Pul",
+          "label": "Pul",
+          "side": "ft",
+          "price_fg": 80.0,
+          "title": "Pul 80fg",
+          "url": "https://forums.d2jsp.org/topic.php?t=109952733&f=123",
+          "observed_at": "2026-08-23T15:40:00.175542+00:00"
+        },
         {
           "kind": "rune",
           "id": "Pul",
@@ -774,14 +814,24 @@
       "kind": "rune",
       "id": "Um",
       "label": "Um",
-      "fair_fg": 132.5,
+      "fair_fg": 100.0,
       "iso_fg": 250.0,
-      "ft_fg": 165.0,
+      "ft_fg": 120.0,
       "trade_fg": 165.0,
-      "samples": 4,
+      "samples": 5,
       "confidence": "medium",
-      "last_seen_at": "2026-08-22T21:38:25.842051+00:00",
+      "last_seen_at": "2026-08-23T15:39:57.421735+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Um",
+          "label": "Um",
+          "side": "ft",
+          "price_fg": 75.0,
+          "title": "Small Ft List",
+          "url": "https://forums.d2jsp.org/topic.php?t=109952955&f=123",
+          "observed_at": "2026-08-23T15:39:57.421735+00:00"
+        },
         {
           "kind": "rune",
           "id": "Um",
@@ -1076,6 +1126,78 @@
           "title": "Ko Pul Flail",
           "url": "https://forums.d2jsp.org/topic.php?t=109950143&f=123",
           "observed_at": "2026-08-23T13:04:13.394704+00:00"
+        }
+      ]
+    },
+    {
+      "kind": "rune",
+      "id": "Tir",
+      "label": "Tir",
+      "fair_fg": 10.0,
+      "iso_fg": null,
+      "ft_fg": 10.0,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-08-23T15:39:54.123657+00:00",
+      "sources": [
+        {
+          "kind": "rune",
+          "id": "Tir",
+          "label": "Tir",
+          "side": "ft",
+          "price_fg": 10.0,
+          "title": "Tir Rune 10fg",
+          "url": "https://forums.d2jsp.org/topic.php?t=109953104&f=123",
+          "observed_at": "2026-08-23T15:39:54.123657+00:00"
+        }
+      ]
+    },
+    {
+      "kind": "rune",
+      "id": "Lum",
+      "label": "Lum",
+      "fair_fg": 55.0,
+      "iso_fg": null,
+      "ft_fg": 55.0,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-08-23T15:39:58.853252+00:00",
+      "sources": [
+        {
+          "kind": "rune",
+          "id": "Lum",
+          "label": "Lum",
+          "side": "ft",
+          "price_fg": 55.0,
+          "title": "Rune Ft",
+          "url": "https://forums.d2jsp.org/topic.php?t=109952986&f=123",
+          "observed_at": "2026-08-23T15:39:58.853252+00:00"
+        }
+      ]
+    },
+    {
+      "kind": "rune",
+      "id": "Fal",
+      "label": "Fal",
+      "fair_fg": 20.0,
+      "iso_fg": null,
+      "ft_fg": 20.0,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-08-23T15:39:58.853252+00:00",
+      "sources": [
+        {
+          "kind": "rune",
+          "id": "Fal",
+          "label": "Fal",
+          "side": "ft",
+          "price_fg": 20.0,
+          "title": "Rune Ft",
+          "url": "https://forums.d2jsp.org/topic.php?t=109952986&f=123",
+          "observed_at": "2026-08-23T15:39:58.853252+00:00"
         }
       ]
     }

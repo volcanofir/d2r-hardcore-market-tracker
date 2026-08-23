@@ -1,6 +1,36 @@
 let DATA=[],kind='rune';
+let RUNE_SPRITE_URL=null;
 const fmt=v=>v==null?'—':Number(v).toLocaleString(undefined,{maximumFractionDigits:2});
 const RUNES=[['艾爾','El',11],['艾德','Eld',11],['特爾','Tir',13],['那夫','Nef',13],['愛斯','Eth',15],['伊司','Ith',15],['塔爾','Tal',17],['拉爾','Ral',19],['歐特','Ort',21],['書爾','Thul',23],['安姆','Amn',25],['索爾','Sol',27],['夏','Shael',29],['多爾','Dol',31],['海爾','Hel',0],['埃歐','Io',35],['盧姆','Lum',37],['科','Ko',39],['法爾','Fal',41],['藍姆','Lem',43],['普爾','Pul',45],['烏姆','Um',47],['馬爾','Mal',49],['伊司特','Ist',51],['古爾','Gul',53],['伐克斯','Vex',55],['歐姆','Ohm',57],['羅','Lo',59],['瑟','Sur',61],['貝','Ber',63],['喬','Jah',65],['查姆','Cham',67],['薩德','Zod',69]];
+
+const RUNE_SPRITE_PARTS=[
+  'assets/runes-hd2x-part-00.bin?v=20260824-hd2x2',
+  'assets/runes-hd2x-part-01.bin?v=20260824-hd2x2',
+  'assets/runes-hd2x-part-02.bin?v=20260824-hd2x2',
+  'assets/runes-hd2x-part-03.bin?v=20260824-hd2x2',
+  'assets/runes-hd2x-part-04.bin?v=20260824-hd2x2'
+];
+
+async function loadRuneSprite(){
+  try{
+    const buffers=await Promise.all(RUNE_SPRITE_PARTS.map(async url=>{
+      const r=await fetch(url,{cache:'force-cache'});
+      if(!r.ok) throw new Error(`rune sprite part ${r.status}`);
+      return r.arrayBuffer();
+    }));
+    const total=buffers.reduce((n,b)=>n+b.byteLength,0);
+    if(total!==360696) throw new Error(`unexpected rune sprite size ${total}`);
+    const bytes=new Uint8Array(total);
+    let offset=0;
+    for(const b of buffers){bytes.set(new Uint8Array(b),offset);offset+=b.byteLength}
+    if(bytes[0]!==0x52||bytes[1]!==0x49||bytes[2]!==0x46||bytes[3]!==0x46||bytes[8]!==0x57||bytes[9]!==0x45||bytes[10]!==0x42||bytes[11]!==0x50) throw new Error('invalid WebP signature');
+    RUNE_SPRITE_URL=URL.createObjectURL(new Blob([bytes],{type:'image/webp'}));
+    document.documentElement.style.setProperty('--rune-sprite',`url("${RUNE_SPRITE_URL}")`);
+    document.documentElement.classList.add('hd-runes-ready');
+  }catch(e){
+    console.error('HD rune sprite load failed',e);
+  }
+}
 
 function runePos(i){const col=i%11,row=Math.floor(i/11);return `calc(var(--rune-w) * -${col}) calc(var(--rune-h) * -${row})`}
 
@@ -23,4 +53,6 @@ function render(){
   }
 }
 document.querySelectorAll('button[data-kind]').forEach(b=>b.onclick=()=>{kind=b.dataset.kind;document.querySelectorAll('button[data-kind]').forEach(x=>x.classList.toggle('active',x===b));render()});
-document.querySelector('#q').oninput=render;load();
+document.querySelector('#q').oninput=render;
+loadRuneSprite();
+load();

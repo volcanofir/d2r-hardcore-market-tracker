@@ -1,0 +1,72 @@
+name: Materialize HD 2x Rune Sprite
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.tmp/rune2x-part-00.bin'
+      - '.tmp/rune2x-part-01.bin'
+      - '.tmp/rune2x-part-02.bin'
+      - '.tmp/rune2x-part-03.bin'
+      - '.tmp/rune2x-part-04.bin'
+      - '.github/workflows/materialize-rune2x.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  materialize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout latest main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Assemble and validate HD sprite
+        run: |
+          cat .tmp/rune2x-part-00.bin .tmp/rune2x-part-01.bin .tmp/rune2x-part-02.bin .tmp/rune2x-part-03.bin .tmp/rune2x-part-04.bin > site/assets/runes-original-hd@2x.webp
+          python3 - <<'PY'
+          from pathlib import Path
+          p = Path('site/assets/runes-original-hd@2x.webp')
+          d = p.read_bytes()
+          assert len(d) == 360696, f'unexpected size: {len(d)}'
+          assert d[:4] == b'RIFF', 'invalid RIFF header'
+          assert d[8:12] == b'WEBP', 'invalid WEBP signature'
+          print(f'Valid 2x WebP: {len(d)} bytes')
+          PY
+
+      - name: Switch site to HD 2x sprite
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+          css = Path('site/style.css')
+          s = css.read_text()
+          s = re.sub(r'background-image:url\("assets/runes-original-hd[^\"]+"\)(?:,url\("https://raw\.githubusercontent\.com/[^\"]+"\))?;', 'background-image:url("assets/runes-original-hd@2x.webp?v=20260824-hd2x1");', s)
+          s = re.sub(r'background-repeat:no-repeat(?:,no-repeat)?;', 'background-repeat:no-repeat;', s)
+          s = re.sub(r'background-size:calc\(var\(--rune-w\) \* 11\) calc\(var\(--rune-h\) \* 3\)(?:,calc\(var\(--rune-w\) \* 11\) calc\(var\(--rune-h\) \* 3\))?;', 'background-size:calc(var(--rune-w) * 11) calc(var(--rune-h) * 3);', s)
+          css.write_text(s)
+
+          html = Path('site/index.html')
+          h = html.read_text()
+          h = re.sub(r'style\.css\?v=[^\"]+', 'style.css?v=20260824-hd2x1', h)
+          h = re.sub(r'app\.js\?v=[^\"]+', 'app.js?v=20260824-hd2x1', h)
+          html.write_text(h)
+          PY
+          rm -f site/assets/runes-original-hd.jpg
+          rm -f site/assets/runes-original-hd.webp
+          rm -f .tmp/rune2x-part-*.bin
+          rm -f .github/workflows/materialize-rune2x.yml
+
+      - name: Commit HD sprite
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Deploy 2x HD rune sprite"
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main

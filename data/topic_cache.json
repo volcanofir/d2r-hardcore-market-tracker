@@ -1311,7 +1311,7 @@
       "title": "N Spirit Sword And Insight Runes",
       "url": "https://forums.d2jsp.org/topic.php?t=109926785&f=123",
       "first_seen_at": "2026-08-22T13:02:49.821386+00:00",
-      "last_checked_at": "2026-08-22T13:02:57.743743+00:00",
+      "last_checked_at": "2026-08-23T02:01:23.073902+00:00",
       "completed": false,
       "status": "parsed",
       "samples": []
@@ -1550,21 +1550,10 @@
       "title": "Need Sheal+ko+eld Pack",
       "url": "https://forums.d2jsp.org/topic.php?t=109926502&f=123",
       "first_seen_at": "2026-08-22T13:02:49.821386+00:00",
-      "last_checked_at": "2026-08-22T13:02:57.020916+00:00",
+      "last_checked_at": "2026-08-23T02:01:22.421953+00:00",
       "completed": false,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Ko",
-          "label": "Ko",
-          "side": "iso",
-          "price_fg": 100.0,
-          "title": "Need Sheal+ko+eld Pack",
-          "url": "https://forums.d2jsp.org/topic.php?t=109926502&f=123",
-          "observed_at": "2026-08-22T13:02:57.020916+00:00"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=109926498&f=123": {
       "title": "Ko Rune + Act2 Shard",
@@ -1639,41 +1628,19 @@
       "title": "N Sol Vs 30 Fg",
       "url": "https://forums.d2jsp.org/topic.php?t=109926469&f=123",
       "first_seen_at": "2026-08-22T13:02:49.821386+00:00",
-      "last_checked_at": "2026-08-22T13:02:58.098337+00:00",
+      "last_checked_at": "2026-08-23T02:01:22.886231+00:00",
       "completed": false,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Sol",
-          "label": "Sol",
-          "side": "iso",
-          "price_fg": 30.0,
-          "title": "N Sol Vs 30 Fg",
-          "url": "https://forums.d2jsp.org/topic.php?t=109926469&f=123",
-          "observed_at": "2026-08-22T13:02:58.098337+00:00"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=109926462&f=123": {
       "title": "O Sol 40 Fg",
       "url": "https://forums.d2jsp.org/topic.php?t=109926462&f=123",
       "first_seen_at": "2026-08-22T13:02:49.821386+00:00",
-      "last_checked_at": "2026-08-22T13:02:56.737160+00:00",
+      "last_checked_at": "2026-08-23T02:01:22.492570+00:00",
       "completed": false,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Sol",
-          "label": "Sol",
-          "side": "ft",
-          "price_fg": 40.0,
-          "title": "O Sol 40 Fg",
-          "url": "https://forums.d2jsp.org/topic.php?t=109926462&f=123",
-          "observed_at": "2026-08-22T13:02:56.737160+00:00"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=109926386&f=123": {
       "title": "Pul Rune 100fg",
@@ -1685,5 +1652,5 @@
       "samples": []
     }
   },
-  "updated_at": "2026-08-22T21:38:27.065770+00:00"
+  "updated_at": "2026-08-23T02:01:23.074927+00:00"
 }

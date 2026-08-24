@@ -112,9 +112,9 @@
       "title": "Ft: Pul Rune",
       "url": "https://forums.d2jsp.org/topic.php?t=109966652&f=123",
       "first_seen_at": "2026-08-24T02:23:07.816382+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-24T04:08:21.767435+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=109966644&f=123": {
@@ -178,9 +178,9 @@
       "title": "Iso 4os Monarch And Thul",
       "url": "https://forums.d2jsp.org/topic.php?t=109966453&f=123",
       "first_seen_at": "2026-08-24T02:23:07.816382+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-24T04:08:20.723751+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=109966426&f=123": {
@@ -228,27 +228,50 @@
       "title": "Infinity Thresher Infinity",
       "url": "https://forums.d2jsp.org/topic.php?t=109966399&f=123",
       "first_seen_at": "2026-08-24T02:23:07.816382+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-24T04:08:21.388091+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=109966374&f=123": {
       "title": "Iso 5os Elite Polearm + Hel + Ko",
       "url": "https://forums.d2jsp.org/topic.php?t=109966374&f=123",
       "first_seen_at": "2026-08-24T02:23:07.816382+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-24T04:08:19.213378+00:00",
       "completed": false,
-      "status": "pending",
-      "samples": []
+      "status": "parsed",
+      "samples": [
+        {
+          "kind": "rune",
+          "id": "Ko",
+          "label": "Ko",
+          "side": "iso",
+          "price_fg": 70.0,
+          "title": "Iso 5os Elite Polearm + Hel + Ko",
+          "url": "https://forums.d2jsp.org/topic.php?t=109966374&f=123",
+          "observed_at": "2026-08-24T04:08:19.213378+00:00",
+          "topic_date": "2026-08-23"
+        },
+        {
+          "kind": "rune",
+          "id": "Eth",
+          "label": "Eth",
+          "side": "iso",
+          "price_fg": 200.0,
+          "title": "Iso 5os Elite Polearm + Hel + Ko",
+          "url": "https://forums.d2jsp.org/topic.php?t=109966374&f=123",
+          "observed_at": "2026-08-24T04:08:19.213378+00:00",
+          "topic_date": "2026-08-23"
+        }
+      ]
     },
     "https://forums.d2jsp.org/topic.php?t=109966361&f=123": {
       "title": "= Toastee Trades =",
       "url": "https://forums.d2jsp.org/topic.php?t=109966361&f=123",
       "first_seen_at": "2026-08-24T02:23:07.816382+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-24T04:08:23.121467+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=109966340&f=123": {
@@ -276,9 +299,9 @@
       "title": "Big Iso List",
       "url": "https://forums.d2jsp.org/topic.php?t=109966335&f=123",
       "first_seen_at": "2026-08-24T02:23:07.816382+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-24T04:08:22.544119+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=109966332&f=123": {
@@ -294,11 +317,11 @@
       "title": "Iso Ber Rune",
       "url": "https://forums.d2jsp.org/topic.php?t=109966305&f=123",
       "first_seen_at": "2026-08-24T02:23:07.816382+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-24T04:08:20.163932+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     }
   },
-  "updated_at": "2026-08-24T02:23:21.264137+00:00"
+  "updated_at": "2026-08-24T04:08:23.123724+00:00"
 }

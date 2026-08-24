@@ -1,26 +1,37 @@
 {
-  "updated_at": "2026-08-24T02:23:21.265100+00:00",
+  "updated_at": "2026-08-24T04:08:23.124729+00:00",
   "forum": "https://forums.d2jsp.org/forum.php?f=123",
-  "topic_count": 25,
+  "topic_count": 0,
   "cached_topics": 25,
-  "parsed_topics": 18,
+  "parsed_topics": 25,
   "completed_topics": 2,
-  "parsed_this_run": 18,
-  "sample_count": 6,
+  "parsed_this_run": 7,
+  "sample_count": 8,
   "legacy_sample_count": 0,
   "market": [
     {
       "kind": "rune",
       "id": "Ko",
       "label": "Ko",
-      "fair_fg": 40.0,
-      "iso_fg": 40.0,
+      "fair_fg": 55.0,
+      "iso_fg": 55.0,
       "ft_fg": null,
       "trade_fg": null,
-      "samples": 1,
+      "samples": 2,
       "confidence": "low",
-      "last_seen_at": "2026-08-24T02:23:11.855674+00:00",
+      "last_seen_at": "2026-08-24T04:08:19.213378+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Ko",
+          "label": "Ko",
+          "side": "iso",
+          "price_fg": 70.0,
+          "title": "Iso 5os Elite Polearm + Hel + Ko",
+          "url": "https://forums.d2jsp.org/topic.php?t=109966374&f=123",
+          "observed_at": "2026-08-24T04:08:19.213378+00:00",
+          "topic_date": "2026-08-23"
+        },
         {
           "kind": "rune",
           "id": "Ko",
@@ -116,6 +127,31 @@
           "title": "Iso Smoke",
           "url": "https://forums.d2jsp.org/topic.php?t=109966426&f=123",
           "observed_at": "2026-08-24T02:23:12.059503+00:00",
+          "topic_date": "2026-08-23"
+        }
+      ]
+    },
+    {
+      "kind": "rune",
+      "id": "Eth",
+      "label": "Eth",
+      "fair_fg": 200.0,
+      "iso_fg": 200.0,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-08-24T04:08:19.213378+00:00",
+      "sources": [
+        {
+          "kind": "rune",
+          "id": "Eth",
+          "label": "Eth",
+          "side": "iso",
+          "price_fg": 200.0,
+          "title": "Iso 5os Elite Polearm + Hel + Ko",
+          "url": "https://forums.d2jsp.org/topic.php?t=109966374&f=123",
+          "observed_at": "2026-08-24T04:08:19.213378+00:00",
           "topic_date": "2026-08-23"
         }
       ]

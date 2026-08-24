@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-23T21:38:44.400829+00:00",
+  "updated_at": "2026-08-24T01:59:30.294793+00:00",
   "forum": "https://forums.d2jsp.org/forum.php?f=123",
   "topic_count": 25,
-  "cached_topics": 268,
-  "parsed_topics": 184,
-  "completed_topics": 19,
+  "cached_topics": 293,
+  "parsed_topics": 196,
+  "completed_topics": 21,
   "parsed_this_run": 16,
-  "sample_count": 98,
+  "sample_count": 100,
   "legacy_sample_count": 35,
   "market": [
     {
@@ -904,14 +904,24 @@
       "kind": "rune",
       "id": "Um",
       "label": "Um",
-      "fair_fg": 100.0,
+      "fair_fg": 90.0,
       "iso_fg": 250.0,
       "ft_fg": 120.0,
       "trade_fg": 165.0,
-      "samples": 5,
+      "samples": 6,
       "confidence": "medium",
-      "last_seen_at": "2026-08-23T15:39:57.421735+00:00",
+      "last_seen_at": "2026-08-24T01:59:24.351273+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Um",
+          "label": "Um",
+          "side": "unknown",
+          "price_fg": 80.0,
+          "title": "Um Pul Lem Ko Lum",
+          "url": "https://forums.d2jsp.org/topic.php?t=109966592&f=123",
+          "observed_at": "2026-08-24T01:59:24.351273+00:00"
+        },
         {
           "kind": "rune",
           "id": "Um",
@@ -1225,12 +1235,12 @@
       "kind": "rune",
       "id": "Amn",
       "label": "Amn",
-      "fair_fg": 27.5,
+      "fair_fg": 40.0,
       "iso_fg": 40.0,
       "ft_fg": null,
       "trade_fg": 27.5,
-      "samples": 4,
-      "confidence": "medium",
+      "samples": 3,
+      "confidence": "low",
       "last_seen_at": "2026-08-23T21:38:42.446872+00:00",
       "sources": [
         {
@@ -1252,16 +1262,6 @@
           "title": "Lowrunes · T4T/sold signal",
           "url": "https://forums.d2jsp.org/topic.php?t=109961082&f=123",
           "observed_at": "2026-08-23T21:38:42.446872+00:00"
-        },
-        {
-          "kind": "rune",
-          "id": "Amn",
-          "label": "Amn",
-          "side": "unknown",
-          "price_fg": 15.0,
-          "title": "Shopping List",
-          "url": "https://forums.d2jsp.org/topic.php?t=109957358&f=123",
-          "observed_at": "2026-08-23T18:50:06.661311+00:00"
         },
         {
           "kind": "rune",
@@ -1300,13 +1300,23 @@
       "id": "Ko",
       "label": "Ko",
       "fair_fg": 45.0,
-      "iso_fg": 45.0,
+      "iso_fg": 42.5,
       "ft_fg": null,
       "trade_fg": null,
       "samples": 5,
       "confidence": "medium",
-      "last_seen_at": "2026-08-23T18:50:09.368702+00:00",
+      "last_seen_at": "2026-08-24T01:59:27.755510+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Ko",
+          "label": "Ko",
+          "side": "iso",
+          "price_fg": 40.0,
+          "title": "Need List (ko, 3os Pb, Lem)",
+          "url": "https://forums.d2jsp.org/topic.php?t=109966687&f=123",
+          "observed_at": "2026-08-24T01:59:27.755510+00:00"
+        },
         {
           "kind": "rune",
           "id": "Ko",
@@ -1336,16 +1346,6 @@
           "title": "N Ko O 30 Fg",
           "url": "https://forums.d2jsp.org/topic.php?t=109957305&f=123",
           "observed_at": "2026-08-23T18:50:07.987247+00:00"
-        },
-        {
-          "kind": "rune",
-          "id": "Ko",
-          "label": "Ko",
-          "side": "unknown",
-          "price_fg": 45.0,
-          "title": "Shopping List",
-          "url": "https://forums.d2jsp.org/topic.php?t=109957358&f=123",
-          "observed_at": "2026-08-23T18:50:06.661311+00:00"
         },
         {
           "kind": "rune",
@@ -1387,23 +1387,33 @@
       "kind": "rune",
       "id": "Lum",
       "label": "Lum",
-      "fair_fg": 52.5,
-      "iso_fg": null,
+      "fair_fg": 55.0,
+      "iso_fg": 65.0,
       "ft_fg": 55.0,
       "trade_fg": null,
-      "samples": 2,
+      "samples": 3,
       "confidence": "low",
-      "last_seen_at": "2026-08-23T18:50:06.661311+00:00",
+      "last_seen_at": "2026-08-24T01:59:29.027900+00:00",
       "sources": [
         {
           "kind": "rune",
           "id": "Lum",
           "label": "Lum",
-          "side": "unknown",
+          "side": "iso",
           "price_fg": 50.0,
-          "title": "Shopping List",
-          "url": "https://forums.d2jsp.org/topic.php?t=109957358&f=123",
-          "observed_at": "2026-08-23T18:50:06.661311+00:00"
+          "title": "Iso Smoke",
+          "url": "https://forums.d2jsp.org/topic.php?t=109966426&f=123",
+          "observed_at": "2026-08-24T01:59:29.027900+00:00"
+        },
+        {
+          "kind": "rune",
+          "id": "Lum",
+          "label": "Lum",
+          "side": "iso",
+          "price_fg": 80.0,
+          "title": "Iso Smoke",
+          "url": "https://forums.d2jsp.org/topic.php?t=109966426&f=123",
+          "observed_at": "2026-08-24T01:59:29.027900+00:00"
         },
         {
           "kind": "rune",
@@ -1652,6 +1662,30 @@
           "title": "Lowrunes · T4T/sold signal",
           "url": "https://forums.d2jsp.org/topic.php?t=109961082&f=123",
           "observed_at": "2026-08-23T21:38:42.446872+00:00"
+        }
+      ]
+    },
+    {
+      "kind": "rune",
+      "id": "Lem",
+      "label": "Lem",
+      "fair_fg": 80.0,
+      "iso_fg": 80.0,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-08-24T01:59:27.755510+00:00",
+      "sources": [
+        {
+          "kind": "rune",
+          "id": "Lem",
+          "label": "Lem",
+          "side": "iso",
+          "price_fg": 80.0,
+          "title": "Need List (ko, 3os Pb, Lem)",
+          "url": "https://forums.d2jsp.org/topic.php?t=109966687&f=123",
+          "observed_at": "2026-08-24T01:59:27.755510+00:00"
         }
       ]
     }

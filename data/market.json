@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-24T07:31:02.761649+00:00",
+  "updated_at": "2026-08-24T10:06:44.669583+00:00",
   "forum": "https://forums.d2jsp.org/forum.php?f=123",
-  "topic_count": 25,
-  "cached_topics": 50,
-  "parsed_topics": 43,
-  "completed_topics": 5,
-  "parsed_this_run": 18,
-  "sample_count": 20,
+  "topic_count": 47,
+  "cached_topics": 97,
+  "parsed_topics": 61,
+  "completed_topics": 9,
+  "parsed_this_run": 22,
+  "sample_count": 25,
   "legacy_sample_count": 0,
   "market": [
     {
@@ -71,14 +71,25 @@
       "kind": "rune",
       "id": "Lem",
       "label": "Lem",
-      "fair_fg": 80.0,
+      "fair_fg": 67.5,
       "iso_fg": 80.0,
-      "ft_fg": null,
+      "ft_fg": 55.0,
       "trade_fg": null,
-      "samples": 1,
+      "samples": 2,
       "confidence": "low",
-      "last_seen_at": "2026-08-24T02:23:11.855674+00:00",
+      "last_seen_at": "2026-08-24T10:06:27.400071+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Lem",
+          "label": "Lem",
+          "side": "ft",
+          "price_fg": 55.0,
+          "title": "O Lem N 55fg",
+          "url": "https://forums.d2jsp.org/topic.php?t=109972949&f=123",
+          "observed_at": "2026-08-24T10:06:27.400071+00:00",
+          "topic_date": "2026-08-24"
+        },
         {
           "kind": "rune",
           "id": "Lem",
@@ -97,13 +108,35 @@
       "id": "Um",
       "label": "Um",
       "fair_fg": 80.0,
-      "iso_fg": null,
+      "iso_fg": 80.0,
       "ft_fg": null,
       "trade_fg": null,
-      "samples": 2,
+      "samples": 3,
       "confidence": "low",
-      "last_seen_at": "2026-08-24T07:30:53.882037+00:00",
+      "last_seen_at": "2026-08-24T10:06:33.426119+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Um",
+          "label": "Um",
+          "side": "unknown",
+          "price_fg": 80.0,
+          "title": "Um Pul Lem Ko Lum",
+          "url": "https://forums.d2jsp.org/topic.php?t=109966592&f=123",
+          "observed_at": "2026-08-24T10:06:33.426119+00:00",
+          "topic_date": "2026-08-23"
+        },
+        {
+          "kind": "rune",
+          "id": "Um",
+          "label": "Um",
+          "side": "iso",
+          "price_fg": 80.0,
+          "title": "Need List",
+          "url": "https://forums.d2jsp.org/topic.php?t=109973075&f=123",
+          "observed_at": "2026-08-24T10:06:29.027208+00:00",
+          "topic_date": "2026-08-24"
+        },
         {
           "kind": "rune",
           "id": "Um",
@@ -114,17 +147,6 @@
           "url": "https://forums.d2jsp.org/topic.php?t=109971121&f=123",
           "observed_at": "2026-08-24T07:30:53.882037+00:00",
           "topic_date": "2026-08-24"
-        },
-        {
-          "kind": "rune",
-          "id": "Um",
-          "label": "Um",
-          "side": "unknown",
-          "price_fg": 80.0,
-          "title": "Um Pul Lem Ko Lum",
-          "url": "https://forums.d2jsp.org/topic.php?t=109966592&f=123",
-          "observed_at": "2026-08-24T02:23:10.793846+00:00",
-          "topic_date": "2026-08-23"
         }
       ]
     },
@@ -298,14 +320,36 @@
       "kind": "rune",
       "id": "Fal",
       "label": "Fal",
-      "fair_fg": 20.0,
-      "iso_fg": null,
+      "fair_fg": 35.0,
+      "iso_fg": 50.0,
       "ft_fg": null,
-      "trade_fg": 20.0,
-      "samples": 1,
+      "trade_fg": 35.0,
+      "samples": 2,
       "confidence": "low",
-      "last_seen_at": "2026-08-24T07:30:54.722215+00:00",
+      "last_seen_at": "2026-08-24T10:06:30.035822+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Fal",
+          "label": "Fal",
+          "side": "iso",
+          "price_fg": 50.0,
+          "title": "Need Items For Soso,runes,merc,topaz",
+          "url": "https://forums.d2jsp.org/topic.php?t=109972683&f=123",
+          "observed_at": "2026-08-24T10:06:30.035822+00:00",
+          "topic_date": "2026-08-24"
+        },
+        {
+          "kind": "rune",
+          "id": "Fal",
+          "label": "Fal",
+          "side": "trade",
+          "price_fg": 50.0,
+          "title": "Need Items For Soso,runes,merc,topaz · T4T/sold signal",
+          "url": "https://forums.d2jsp.org/topic.php?t=109972683&f=123",
+          "observed_at": "2026-08-24T10:06:30.035822+00:00",
+          "topic_date": "2026-08-24"
+        },
         {
           "kind": "rune",
           "id": "Fal",
@@ -409,14 +453,25 @@
       "kind": "rune",
       "id": "Pul",
       "label": "Pul",
-      "fair_fg": 80.0,
+      "fair_fg": 77.5,
       "iso_fg": 80.0,
-      "ft_fg": null,
+      "ft_fg": 75.0,
       "trade_fg": 80.0,
-      "samples": 1,
+      "samples": 2,
       "confidence": "low",
-      "last_seen_at": "2026-08-24T07:31:01.464382+00:00",
+      "last_seen_at": "2026-08-24T10:06:26.656116+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Pul",
+          "label": "Pul",
+          "side": "ft",
+          "price_fg": 75.0,
+          "title": "O Pul Vs 75 Fg",
+          "url": "https://forums.d2jsp.org/topic.php?t=109972745&f=123",
+          "observed_at": "2026-08-24T10:06:26.656116+00:00",
+          "topic_date": "2026-08-24"
+        },
         {
           "kind": "rune",
           "id": "Pul",
@@ -473,6 +528,42 @@
           "title": "Iso Vex Pul Ko · T4T/sold signal",
           "url": "https://forums.d2jsp.org/topic.php?t=109970968&f=123",
           "observed_at": "2026-08-24T07:31:01.464382+00:00",
+          "topic_date": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "kind": "rune",
+      "id": "Hel",
+      "label": "Hel",
+      "fair_fg": 70.0,
+      "iso_fg": 70.0,
+      "ft_fg": null,
+      "trade_fg": 70.0,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-08-24T10:06:30.035822+00:00",
+      "sources": [
+        {
+          "kind": "rune",
+          "id": "Hel",
+          "label": "Hel",
+          "side": "iso",
+          "price_fg": 70.0,
+          "title": "Need Items For Soso,runes,merc,topaz",
+          "url": "https://forums.d2jsp.org/topic.php?t=109972683&f=123",
+          "observed_at": "2026-08-24T10:06:30.035822+00:00",
+          "topic_date": "2026-08-24"
+        },
+        {
+          "kind": "rune",
+          "id": "Hel",
+          "label": "Hel",
+          "side": "trade",
+          "price_fg": 70.0,
+          "title": "Need Items For Soso,runes,merc,topaz · T4T/sold signal",
+          "url": "https://forums.d2jsp.org/topic.php?t=109972683&f=123",
+          "observed_at": "2026-08-24T10:06:30.035822+00:00",
           "topic_date": "2026-08-24"
         }
       ]

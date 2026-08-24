@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-24T19:01:47.155751+00:00",
+  "updated_at": "2026-08-24T21:46:02.898547+00:00",
   "forum": "https://forums.d2jsp.org/forum.php?f=123",
-  "topic_count": 102,
-  "cached_topics": 326,
-  "parsed_topics": 115,
-  "completed_topics": 25,
+  "topic_count": 55,
+  "cached_topics": 380,
+  "parsed_topics": 133,
+  "completed_topics": 31,
   "parsed_this_run": 22,
-  "sample_count": 41,
+  "sample_count": 45,
   "legacy_sample_count": 0,
   "market": [
     {
@@ -111,10 +111,21 @@
       "iso_fg": 80.0,
       "ft_fg": 80.0,
       "trade_fg": 70.0,
-      "samples": 7,
+      "samples": 8,
       "confidence": "medium",
-      "last_seen_at": "2026-08-24T19:01:34.127565+00:00",
+      "last_seen_at": "2026-08-24T21:45:51.364259+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Um",
+          "label": "Um",
+          "side": "ft",
+          "price_fg": 75.0,
+          "title": "Um - 75fg",
+          "url": "https://forums.d2jsp.org/topic.php?t=109983451&f=123",
+          "observed_at": "2026-08-24T21:45:51.364259+00:00",
+          "topic_date": "2026-08-24"
+        },
         {
           "kind": "rune",
           "id": "Um",
@@ -311,14 +322,25 @@
       "kind": "rune",
       "id": "Eth",
       "label": "Eth",
-      "fair_fg": 150.0,
+      "fair_fg": 100.0,
       "iso_fg": 200.0,
       "ft_fg": null,
       "trade_fg": 100.0,
-      "samples": 2,
+      "samples": 3,
       "confidence": "low",
-      "last_seen_at": "2026-08-24T07:30:54.722215+00:00",
+      "last_seen_at": "2026-08-24T21:45:48.785728+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Eth",
+          "label": "Eth",
+          "side": "unknown",
+          "price_fg": 60.0,
+          "title": "Wozer's Items",
+          "url": "https://forums.d2jsp.org/topic.php?t=109984854&f=123",
+          "observed_at": "2026-08-24T21:45:48.785728+00:00",
+          "topic_date": "2026-08-24"
+        },
         {
           "kind": "rune",
           "id": "Eth",
@@ -527,14 +549,25 @@
       "kind": "rune",
       "id": "Gul",
       "label": "Gul",
-      "fair_fg": 210.0,
+      "fair_fg": 230.0,
       "iso_fg": null,
-      "ft_fg": 210.0,
+      "ft_fg": 230.0,
       "trade_fg": null,
-      "samples": 2,
+      "samples": 3,
       "confidence": "low",
-      "last_seen_at": "2026-08-24T13:15:53.682504+00:00",
+      "last_seen_at": "2026-08-24T21:45:58.545606+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Gul",
+          "label": "Gul",
+          "side": "ft",
+          "price_fg": 230.0,
+          "title": "O Gul N 230fg",
+          "url": "https://forums.d2jsp.org/topic.php?t=109983681&f=123",
+          "observed_at": "2026-08-24T21:45:58.545606+00:00",
+          "topic_date": "2026-08-24"
+        },
         {
           "kind": "rune",
           "id": "Gul",
@@ -632,14 +665,36 @@
       "kind": "rune",
       "id": "Vex",
       "label": "Vex",
-      "fair_fg": 520.0,
+      "fair_fg": 460.0,
       "iso_fg": 520.0,
-      "ft_fg": null,
-      "trade_fg": 520.0,
-      "samples": 1,
+      "ft_fg": 400.0,
+      "trade_fg": 460.0,
+      "samples": 2,
       "confidence": "low",
-      "last_seen_at": "2026-08-24T07:31:01.464382+00:00",
+      "last_seen_at": "2026-08-24T21:45:46.350185+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Vex",
+          "label": "Vex",
+          "side": "ft",
+          "price_fg": 400.0,
+          "title": "Wts Vex For 400 Fg",
+          "url": "https://forums.d2jsp.org/topic.php?t=109983838&f=123",
+          "observed_at": "2026-08-24T21:45:46.350185+00:00",
+          "topic_date": "2026-08-24"
+        },
+        {
+          "kind": "rune",
+          "id": "Vex",
+          "label": "Vex",
+          "side": "trade",
+          "price_fg": 400.0,
+          "title": "Wts Vex For 400 Fg · T4T/sold signal",
+          "url": "https://forums.d2jsp.org/topic.php?t=109983838&f=123",
+          "observed_at": "2026-08-24T21:45:46.350185+00:00",
+          "topic_date": "2026-08-24"
+        },
         {
           "kind": "rune",
           "id": "Vex",
@@ -702,6 +757,31 @@
     },
     {
       "kind": "rune",
+      "id": "Tal",
+      "label": "Tal",
+      "fair_fg": 1000.0,
+      "iso_fg": 1000.0,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-08-24T21:46:02.888838+00:00",
+      "sources": [
+        {
+          "kind": "rune",
+          "id": "Tal",
+          "label": "Tal",
+          "side": "iso",
+          "price_fg": 1000.0,
+          "title": "Wtb Full Tal Rasha Set And 2x Um",
+          "url": "https://forums.d2jsp.org/topic.php?t=109974514&f=123",
+          "observed_at": "2026-08-24T21:46:02.888838+00:00",
+          "topic_date": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "kind": "rune",
       "id": "Ber",
       "label": "Ber",
       "fair_fg": 4500.0,
@@ -721,31 +801,6 @@
           "title": "Sell Ber Rune",
           "url": "https://forums.d2jsp.org/topic.php?t=109974466&f=123",
           "observed_at": "2026-08-24T13:15:51.713667+00:00",
-          "topic_date": "2026-08-24"
-        }
-      ]
-    },
-    {
-      "kind": "rune",
-      "id": "Tal",
-      "label": "Tal",
-      "fair_fg": 1500.0,
-      "iso_fg": 1500.0,
-      "ft_fg": null,
-      "trade_fg": null,
-      "samples": 1,
-      "confidence": "low",
-      "last_seen_at": "2026-08-24T13:15:46.072071+00:00",
-      "sources": [
-        {
-          "kind": "rune",
-          "id": "Tal",
-          "label": "Tal",
-          "side": "iso",
-          "price_fg": 1500.0,
-          "title": "Wtb Tal Arm And Amu",
-          "url": "https://forums.d2jsp.org/topic.php?t=109974651&f=123",
-          "observed_at": "2026-08-24T13:15:46.072071+00:00",
           "topic_date": "2026-08-24"
         }
       ]

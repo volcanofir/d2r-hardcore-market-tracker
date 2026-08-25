@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-25T01:54:57.223943+00:00",
+  "updated_at": "2026-08-25T04:02:47.115201+00:00",
   "forum": "https://forums.d2jsp.org/forum.php?f=123",
-  "topic_count": 0,
-  "cached_topics": 380,
-  "parsed_topics": 151,
-  "completed_topics": 38,
+  "topic_count": 75,
+  "cached_topics": 455,
+  "parsed_topics": 169,
+  "completed_topics": 44,
   "parsed_this_run": 22,
-  "sample_count": 51,
+  "sample_count": 61,
   "legacy_sample_count": 0,
   "market": [
     {
@@ -107,14 +107,25 @@
       "kind": "rune",
       "id": "Um",
       "label": "Um",
-      "fair_fg": 80.0,
+      "fair_fg": 77.5,
       "iso_fg": 75.0,
-      "ft_fg": 80.0,
+      "ft_fg": 77.5,
       "trade_fg": 70.0,
-      "samples": 9,
-      "confidence": "medium",
-      "last_seen_at": "2026-08-25T01:54:46.821432+00:00",
+      "samples": 10,
+      "confidence": "high",
+      "last_seen_at": "2026-08-25T04:02:30.831943+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Um",
+          "label": "Um",
+          "side": "ft",
+          "price_fg": 70.0,
+          "title": "Um+ist Ft",
+          "url": "https://forums.d2jsp.org/topic.php?t=109988887&f=123",
+          "observed_at": "2026-08-25T04:02:30.831943+00:00",
+          "topic_date": "2026-08-24"
+        },
         {
           "kind": "rune",
           "id": "Um",
@@ -361,8 +372,19 @@
       "trade_fg": 100.0,
       "samples": 4,
       "confidence": "medium",
-      "last_seen_at": "2026-08-25T01:54:50.354846+00:00",
+      "last_seen_at": "2026-08-25T04:02:42.013645+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Eth",
+          "label": "Eth",
+          "side": "unknown",
+          "price_fg": 60.0,
+          "title": "Wozer's Items",
+          "url": "https://forums.d2jsp.org/topic.php?t=109984854&f=123",
+          "observed_at": "2026-08-25T04:02:42.013645+00:00",
+          "topic_date": "2026-08-24"
+        },
         {
           "kind": "rune",
           "id": "Eth",
@@ -372,17 +394,6 @@
           "title": "Infinity - Base + Runes",
           "url": "https://forums.d2jsp.org/topic.php?t=109984799&f=123",
           "observed_at": "2026-08-25T01:54:50.354846+00:00",
-          "topic_date": "2026-08-24"
-        },
-        {
-          "kind": "rune",
-          "id": "Eth",
-          "label": "Eth",
-          "side": "unknown",
-          "price_fg": 60.0,
-          "title": "Wozer's Items",
-          "url": "https://forums.d2jsp.org/topic.php?t=109984854&f=123",
-          "observed_at": "2026-08-24T21:45:48.785728+00:00",
           "topic_date": "2026-08-24"
         },
         {
@@ -534,12 +545,23 @@
       "label": "Mal",
       "fair_fg": 90.0,
       "iso_fg": 90.0,
-      "ft_fg": null,
+      "ft_fg": 80.0,
       "trade_fg": null,
-      "samples": 2,
+      "samples": 3,
       "confidence": "low",
-      "last_seen_at": "2026-08-25T01:54:45.886481+00:00",
+      "last_seen_at": "2026-08-25T04:02:38.465255+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Mal",
+          "label": "Mal",
+          "side": "ft",
+          "price_fg": 80.0,
+          "title": "Selling Mal And Gul",
+          "url": "https://forums.d2jsp.org/topic.php?t=109988773&f=123",
+          "observed_at": "2026-08-25T04:02:38.465255+00:00",
+          "topic_date": "2026-08-24"
+        },
         {
           "kind": "rune",
           "id": "Mal",
@@ -568,14 +590,25 @@
       "kind": "rune",
       "id": "Ist",
       "label": "Ist",
-      "fair_fg": 162.5,
+      "fair_fg": 175.0,
       "iso_fg": 150.0,
       "ft_fg": null,
       "trade_fg": null,
-      "samples": 2,
+      "samples": 3,
       "confidence": "low",
-      "last_seen_at": "2026-08-24T15:59:00.342071+00:00",
+      "last_seen_at": "2026-08-25T04:02:38.356599+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Ist",
+          "label": "Ist",
+          "side": "unknown",
+          "price_fg": 250.0,
+          "title": "Shako Latent Flame Rift",
+          "url": "https://forums.d2jsp.org/topic.php?t=109990057&f=123",
+          "observed_at": "2026-08-25T04:02:38.356599+00:00",
+          "topic_date": "2026-08-24"
+        },
         {
           "kind": "rune",
           "id": "Ist",
@@ -604,14 +637,36 @@
       "kind": "rune",
       "id": "Gul",
       "label": "Gul",
-      "fair_fg": 230.0,
+      "fair_fg": 200.0,
       "iso_fg": null,
-      "ft_fg": 230.0,
+      "ft_fg": 210.0,
       "trade_fg": null,
-      "samples": 3,
-      "confidence": "low",
-      "last_seen_at": "2026-08-24T21:45:58.545606+00:00",
+      "samples": 5,
+      "confidence": "medium",
+      "last_seen_at": "2026-08-25T04:02:38.465255+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Gul",
+          "label": "Gul",
+          "side": "ft",
+          "price_fg": 190.0,
+          "title": "Selling Mal And Gul",
+          "url": "https://forums.d2jsp.org/topic.php?t=109988773&f=123",
+          "observed_at": "2026-08-25T04:02:38.465255+00:00",
+          "topic_date": "2026-08-24"
+        },
+        {
+          "kind": "rune",
+          "id": "Gul",
+          "label": "Gul",
+          "side": "unknown",
+          "price_fg": 200.0,
+          "title": "Yo7",
+          "url": "https://forums.d2jsp.org/topic.php?t=109988726&f=123",
+          "observed_at": "2026-08-25T04:02:29.617647+00:00",
+          "topic_date": "2026-08-24"
+        },
         {
           "kind": "rune",
           "id": "Gul",
@@ -651,14 +706,25 @@
       "kind": "rune",
       "id": "Pul",
       "label": "Pul",
-      "fair_fg": 62.5,
+      "fair_fg": 70.0,
       "iso_fg": 60.0,
-      "ft_fg": 62.5,
+      "ft_fg": 70.0,
       "trade_fg": 80.0,
-      "samples": 4,
+      "samples": 5,
       "confidence": "medium",
-      "last_seen_at": "2026-08-24T19:01:41.477495+00:00",
+      "last_seen_at": "2026-08-25T04:02:40.982853+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Pul",
+          "label": "Pul",
+          "side": "ft",
+          "price_fg": 70.0,
+          "title": "Pul - 70fg",
+          "url": "https://forums.d2jsp.org/topic.php?t=109989680&f=123",
+          "observed_at": "2026-08-25T04:02:40.982853+00:00",
+          "topic_date": "2026-08-24"
+        },
         {
           "kind": "rune",
           "id": "Pul",
@@ -814,14 +880,25 @@
       "kind": "rune",
       "id": "Tal",
       "label": "Tal",
-      "fair_fg": 1000.0,
+      "fair_fg": 525.0,
       "iso_fg": 1000.0,
       "ft_fg": null,
       "trade_fg": null,
-      "samples": 1,
+      "samples": 2,
       "confidence": "low",
-      "last_seen_at": "2026-08-24T21:46:02.888838+00:00",
+      "last_seen_at": "2026-08-25T04:02:29.617647+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Tal",
+          "label": "Tal",
+          "side": "unknown",
+          "price_fg": 50.0,
+          "title": "Yo7",
+          "url": "https://forums.d2jsp.org/topic.php?t=109988726&f=123",
+          "observed_at": "2026-08-25T04:02:29.617647+00:00",
+          "topic_date": "2026-08-24"
+        },
         {
           "kind": "rune",
           "id": "Tal",
@@ -875,14 +952,25 @@
       "kind": "rune",
       "id": "Sur",
       "label": "Sur",
-      "fair_fg": 2950.0,
+      "fair_fg": 1900.0,
       "iso_fg": 2950.0,
-      "ft_fg": null,
+      "ft_fg": 1400.0,
       "trade_fg": 1900.0,
-      "samples": 2,
+      "samples": 3,
       "confidence": "low",
-      "last_seen_at": "2026-08-24T15:58:59.940435+00:00",
+      "last_seen_at": "2026-08-25T04:02:35.202647+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Sur",
+          "label": "Sur",
+          "side": "ft",
+          "price_fg": 1400.0,
+          "title": "Sur For 1400 Fg (hc)",
+          "url": "https://forums.d2jsp.org/topic.php?t=109990066&f=123",
+          "observed_at": "2026-08-25T04:02:35.202647+00:00",
+          "topic_date": "2026-08-24"
+        },
         {
           "kind": "rune",
           "id": "Sur",
@@ -964,6 +1052,56 @@
           "title": "My Rune Iso",
           "url": "https://forums.d2jsp.org/topic.php?t=109983666&f=123",
           "observed_at": "2026-08-25T01:54:39.504664+00:00",
+          "topic_date": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "kind": "rune",
+      "id": "Amn",
+      "label": "Amn",
+      "fair_fg": 10.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-08-25T04:02:39.514138+00:00",
+      "sources": [
+        {
+          "kind": "rune",
+          "id": "Amn",
+          "label": "Amn",
+          "side": "unknown",
+          "price_fg": 10.0,
+          "title": "Runs Thul Ort Amn Hel",
+          "url": "https://forums.d2jsp.org/topic.php?t=109989004&f=123",
+          "observed_at": "2026-08-25T04:02:39.514138+00:00",
+          "topic_date": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "kind": "rune",
+      "id": "Thul",
+      "label": "Thul",
+      "fair_fg": 5.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-08-25T04:02:39.514138+00:00",
+      "sources": [
+        {
+          "kind": "rune",
+          "id": "Thul",
+          "label": "Thul",
+          "side": "unknown",
+          "price_fg": 5.0,
+          "title": "Runs Thul Ort Amn Hel",
+          "url": "https://forums.d2jsp.org/topic.php?t=109989004&f=123",
+          "observed_at": "2026-08-25T04:02:39.514138+00:00",
           "topic_date": "2026-08-24"
         }
       ]

@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-25T13:13:58.630502+00:00",
+  "updated_at": "2026-08-25T16:03:14.612712+00:00",
   "forum": "https://forums.d2jsp.org/forum.php?f=123",
-  "topic_count": 52,
-  "cached_topics": 582,
-  "parsed_topics": 223,
-  "completed_topics": 64,
+  "topic_count": 76,
+  "cached_topics": 658,
+  "parsed_topics": 241,
+  "completed_topics": 68,
   "parsed_this_run": 22,
-  "sample_count": 71,
+  "sample_count": 75,
   "legacy_sample_count": 0,
   "market": [
     {
@@ -166,10 +166,21 @@
       "iso_fg": 80.0,
       "ft_fg": 75.0,
       "trade_fg": 70.0,
-      "samples": 11,
+      "samples": 12,
       "confidence": "high",
-      "last_seen_at": "2026-08-25T07:10:52.062825+00:00",
+      "last_seen_at": "2026-08-25T16:03:00.408504+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Um",
+          "label": "Um",
+          "side": "unknown",
+          "price_fg": 80.0,
+          "title": "Um Vs 80",
+          "url": "https://forums.d2jsp.org/topic.php?t=109998979&f=123",
+          "observed_at": "2026-08-25T16:03:00.408504+00:00",
+          "topic_date": "2026-08-25"
+        },
         {
           "kind": "rune",
           "id": "Um",
@@ -501,14 +512,25 @@
       "kind": "rune",
       "id": "Ral",
       "label": "Ral",
-      "fair_fg": 35.0,
+      "fair_fg": 42.5,
       "iso_fg": 35.0,
-      "ft_fg": null,
+      "ft_fg": 50.0,
       "trade_fg": null,
-      "samples": 1,
+      "samples": 2,
       "confidence": "low",
-      "last_seen_at": "2026-08-24T02:23:16.218812+00:00",
+      "last_seen_at": "2026-08-25T16:03:03.465534+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Ral",
+          "label": "Ral",
+          "side": "ft",
+          "price_fg": 50.0,
+          "title": "Ral X10 50fg",
+          "url": "https://forums.d2jsp.org/topic.php?t=109999071&f=123",
+          "observed_at": "2026-08-25T16:03:03.465534+00:00",
+          "topic_date": "2026-08-25"
+        },
         {
           "kind": "rune",
           "id": "Ral",
@@ -1165,7 +1187,7 @@
       "trade_fg": null,
       "samples": 2,
       "confidence": "low",
-      "last_seen_at": "2026-08-25T07:10:45.397305+00:00",
+      "last_seen_at": "2026-08-25T16:03:09.082049+00:00",
       "sources": [
         {
           "kind": "rune",
@@ -1175,7 +1197,7 @@
           "price_fg": 20.0,
           "title": "Um Shael Tir Amn",
           "url": "https://forums.d2jsp.org/topic.php?t=109992205&f=123",
-          "observed_at": "2026-08-25T07:10:45.397305+00:00",
+          "observed_at": "2026-08-25T16:03:09.082049+00:00",
           "topic_date": "2026-08-25"
         },
         {
@@ -1259,6 +1281,56 @@
           "title": "Magefist,sol",
           "url": "https://forums.d2jsp.org/topic.php?t=109992466&f=123",
           "observed_at": "2026-08-25T09:53:20.845076+00:00",
+          "topic_date": "2026-08-25"
+        }
+      ]
+    },
+    {
+      "kind": "rune",
+      "id": "Cham",
+      "label": "Cham",
+      "fair_fg": 1100.0,
+      "iso_fg": null,
+      "ft_fg": 1100.0,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-08-25T16:02:55.086557+00:00",
+      "sources": [
+        {
+          "kind": "rune",
+          "id": "Cham",
+          "label": "Cham",
+          "side": "ft",
+          "price_fg": 1100.0,
+          "title": "Xx - Cham Rune 1100 Fg Bin Eu - Xx",
+          "url": "https://forums.d2jsp.org/topic.php?t=109999070&f=123",
+          "observed_at": "2026-08-25T16:02:55.086557+00:00",
+          "topic_date": "2026-08-25"
+        }
+      ]
+    },
+    {
+      "kind": "rune",
+      "id": "Tir",
+      "label": "Tir",
+      "fair_fg": 10.0,
+      "iso_fg": null,
+      "ft_fg": 10.0,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-08-25T16:03:00.837589+00:00",
+      "sources": [
+        {
+          "kind": "rune",
+          "id": "Tir",
+          "label": "Tir",
+          "side": "ft",
+          "price_fg": 10.0,
+          "title": "Tir X3 10fg Eu",
+          "url": "https://forums.d2jsp.org/topic.php?t=109998839&f=123",
+          "observed_at": "2026-08-25T16:03:00.837589+00:00",
           "topic_date": "2026-08-25"
         }
       ]

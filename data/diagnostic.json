@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-08-25T07:10:56.898195+00:00",
+  "updated_at": "2026-08-25T09:53:33.578810+00:00",
   "forum_pages": [
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-      "topics": 25,
-      "bytes": 10292
+      "topics": 0,
+      "bytes": 280
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=25",
-      "topics": 25,
-      "bytes": 10369
+      "topics": 0,
+      "bytes": 285
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=50",
@@ -19,7 +19,7 @@
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=75",
       "topics": 25,
-      "bytes": 10479
+      "bytes": 10435
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123",
@@ -27,13 +27,13 @@
       "bytes": 276
     }
   ],
-  "discovered_topics": 75,
+  "discovered_topics": 25,
   "cached_topics": 530,
   "selected_topics": 22,
   "parsed_this_run": 22,
-  "completed_this_run": 4,
+  "completed_this_run": 10,
   "legacy_samples": 0,
-  "combined_samples": 80,
+  "combined_samples": 86,
   "topic_errors": [],
   "season": 15,
   "season_label": "第 15 季天梯",

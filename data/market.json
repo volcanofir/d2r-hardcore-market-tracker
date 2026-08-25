@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-25T07:10:56.897173+00:00",
+  "updated_at": "2026-08-25T09:53:33.577681+00:00",
   "forum": "https://forums.d2jsp.org/forum.php?f=123",
-  "topic_count": 75,
+  "topic_count": 25,
   "cached_topics": 530,
-  "parsed_topics": 187,
-  "completed_topics": 48,
+  "parsed_topics": 205,
+  "completed_topics": 58,
   "parsed_this_run": 22,
-  "sample_count": 68,
+  "sample_count": 72,
   "legacy_sample_count": 0,
   "market": [
     {
@@ -16,11 +16,33 @@
       "fair_fg": 40.0,
       "iso_fg": 40.0,
       "ft_fg": null,
-      "trade_fg": 40.0,
-      "samples": 4,
+      "trade_fg": 35.0,
+      "samples": 5,
       "confidence": "medium",
-      "last_seen_at": "2026-08-25T07:10:50.994322+00:00",
+      "last_seen_at": "2026-08-25T09:53:17.108481+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Ko",
+          "label": "Ko",
+          "side": "iso",
+          "price_fg": 30.0,
+          "title": "Need Some Runes",
+          "url": "https://forums.d2jsp.org/topic.php?t=109992233&f=123",
+          "observed_at": "2026-08-25T09:53:17.108481+00:00",
+          "topic_date": "2026-08-25"
+        },
+        {
+          "kind": "rune",
+          "id": "Ko",
+          "label": "Ko",
+          "side": "trade",
+          "price_fg": 30.0,
+          "title": "Need Some Runes · T4T/sold signal",
+          "url": "https://forums.d2jsp.org/topic.php?t=109992233&f=123",
+          "observed_at": "2026-08-25T09:53:17.108481+00:00",
+          "topic_date": "2026-08-25"
+        },
         {
           "kind": "rune",
           "id": "Ko",
@@ -82,14 +104,36 @@
       "kind": "rune",
       "id": "Lem",
       "label": "Lem",
-      "fair_fg": 67.5,
+      "fair_fg": 65.0,
       "iso_fg": 80.0,
-      "ft_fg": 55.0,
-      "trade_fg": null,
-      "samples": 2,
+      "ft_fg": 60.0,
+      "trade_fg": 65.0,
+      "samples": 3,
       "confidence": "low",
-      "last_seen_at": "2026-08-24T13:16:04.241722+00:00",
+      "last_seen_at": "2026-08-25T09:53:21.920193+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Lem",
+          "label": "Lem",
+          "side": "ft",
+          "price_fg": 65.0,
+          "title": "Lem - 65 Fg Bin",
+          "url": "https://forums.d2jsp.org/topic.php?t=109990963&f=123",
+          "observed_at": "2026-08-25T09:53:21.920193+00:00",
+          "topic_date": "2026-08-24"
+        },
+        {
+          "kind": "rune",
+          "id": "Lem",
+          "label": "Lem",
+          "side": "trade",
+          "price_fg": 65.0,
+          "title": "Lem - 65 Fg Bin · T4T/sold signal",
+          "url": "https://forums.d2jsp.org/topic.php?t=109990963&f=123",
+          "observed_at": "2026-08-25T09:53:21.920193+00:00",
+          "topic_date": "2026-08-24"
+        },
         {
           "kind": "rune",
           "id": "Lem",
@@ -672,9 +716,9 @@
       "label": "Gul",
       "fair_fg": 200.0,
       "iso_fg": null,
-      "ft_fg": 210.0,
+      "ft_fg": 190.0,
       "trade_fg": null,
-      "samples": 6,
+      "samples": 5,
       "confidence": "medium",
       "last_seen_at": "2026-08-25T07:10:40.568318+00:00",
       "sources": [
@@ -709,17 +753,6 @@
           "title": "Yo7",
           "url": "https://forums.d2jsp.org/topic.php?t=109988726&f=123",
           "observed_at": "2026-08-25T04:02:29.617647+00:00",
-          "topic_date": "2026-08-24"
-        },
-        {
-          "kind": "rune",
-          "id": "Gul",
-          "label": "Gul",
-          "side": "ft",
-          "price_fg": 230.0,
-          "title": "O Gul N 230fg",
-          "url": "https://forums.d2jsp.org/topic.php?t=109983681&f=123",
-          "observed_at": "2026-08-24T21:45:58.545606+00:00",
           "topic_date": "2026-08-24"
         },
         {
@@ -1180,6 +1213,53 @@
           "url": "https://forums.d2jsp.org/topic.php?t=109989004&f=123",
           "observed_at": "2026-08-25T04:02:39.514138+00:00",
           "topic_date": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "kind": "rune",
+      "id": "Sol",
+      "label": "Sol",
+      "fair_fg": 110.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 3,
+      "confidence": "low",
+      "last_seen_at": "2026-08-25T09:53:20.845076+00:00",
+      "sources": [
+        {
+          "kind": "rune",
+          "id": "Sol",
+          "label": "Sol",
+          "side": "unknown",
+          "price_fg": 110.0,
+          "title": "Magefist,sol",
+          "url": "https://forums.d2jsp.org/topic.php?t=109992466&f=123",
+          "observed_at": "2026-08-25T09:53:20.845076+00:00",
+          "topic_date": "2026-08-25"
+        },
+        {
+          "kind": "rune",
+          "id": "Sol",
+          "label": "Sol",
+          "side": "unknown",
+          "price_fg": 10.0,
+          "title": "Magefist,sol",
+          "url": "https://forums.d2jsp.org/topic.php?t=109992466&f=123",
+          "observed_at": "2026-08-25T09:53:20.845076+00:00",
+          "topic_date": "2026-08-25"
+        },
+        {
+          "kind": "rune",
+          "id": "Sol",
+          "label": "Sol",
+          "side": "unknown",
+          "price_fg": 150.0,
+          "title": "Magefist,sol",
+          "url": "https://forums.d2jsp.org/topic.php?t=109992466&f=123",
+          "observed_at": "2026-08-25T09:53:20.845076+00:00",
+          "topic_date": "2026-08-25"
         }
       ]
     }

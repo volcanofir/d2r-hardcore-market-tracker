@@ -1,26 +1,37 @@
 {
-  "updated_at": "2026-08-25T16:03:14.612712+00:00",
+  "updated_at": "2026-08-25T18:59:54.468621+00:00",
   "forum": "https://forums.d2jsp.org/forum.php?f=123",
   "topic_count": 76,
-  "cached_topics": 658,
-  "parsed_topics": 241,
-  "completed_topics": 68,
+  "cached_topics": 734,
+  "parsed_topics": 259,
+  "completed_topics": 74,
   "parsed_this_run": 22,
-  "sample_count": 75,
+  "sample_count": 79,
   "legacy_sample_count": 0,
   "market": [
     {
       "kind": "rune",
       "id": "Ko",
       "label": "Ko",
-      "fair_fg": 40.0,
+      "fair_fg": 35.0,
       "iso_fg": 40.0,
-      "ft_fg": null,
+      "ft_fg": 30.0,
       "trade_fg": 35.0,
-      "samples": 5,
+      "samples": 6,
       "confidence": "medium",
-      "last_seen_at": "2026-08-25T09:53:17.108481+00:00",
+      "last_seen_at": "2026-08-25T18:59:49.202316+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Ko",
+          "label": "Ko",
+          "side": "ft",
+          "price_fg": 30.0,
+          "title": "O Short List",
+          "url": "https://forums.d2jsp.org/topic.php?t=110002273&f=123",
+          "observed_at": "2026-08-25T18:59:49.202316+00:00",
+          "topic_date": "2026-08-25"
+        },
         {
           "kind": "rune",
           "id": "Ko",
@@ -104,14 +115,25 @@
       "kind": "rune",
       "id": "Lem",
       "label": "Lem",
-      "fair_fg": 65.0,
+      "fair_fg": 60.0,
       "iso_fg": 80.0,
-      "ft_fg": 60.0,
+      "ft_fg": 55.0,
       "trade_fg": 65.0,
-      "samples": 3,
-      "confidence": "low",
-      "last_seen_at": "2026-08-25T09:53:21.920193+00:00",
+      "samples": 4,
+      "confidence": "medium",
+      "last_seen_at": "2026-08-25T18:59:49.202316+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Lem",
+          "label": "Lem",
+          "side": "ft",
+          "price_fg": 45.0,
+          "title": "O Short List",
+          "url": "https://forums.d2jsp.org/topic.php?t=110002273&f=123",
+          "observed_at": "2026-08-25T18:59:49.202316+00:00",
+          "topic_date": "2026-08-25"
+        },
         {
           "kind": "rune",
           "id": "Lem",
@@ -163,13 +185,24 @@
       "id": "Um",
       "label": "Um",
       "fair_fg": 80.0,
-      "iso_fg": 80.0,
-      "ft_fg": 75.0,
+      "iso_fg": 77.5,
+      "ft_fg": 80.0,
       "trade_fg": 70.0,
       "samples": 12,
       "confidence": "high",
-      "last_seen_at": "2026-08-25T16:03:00.408504+00:00",
+      "last_seen_at": "2026-08-25T18:59:50.823951+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Um",
+          "label": "Um",
+          "side": "iso",
+          "price_fg": 75.0,
+          "title": "Need: Ist And Um",
+          "url": "https://forums.d2jsp.org/topic.php?t=110001214&f=123",
+          "observed_at": "2026-08-25T18:59:50.823951+00:00",
+          "topic_date": "2026-08-25"
+        },
         {
           "kind": "rune",
           "id": "Um",
@@ -191,17 +224,6 @@
           "url": "https://forums.d2jsp.org/topic.php?t=109991221&f=123",
           "observed_at": "2026-08-25T07:10:52.062825+00:00",
           "topic_date": "2026-08-24"
-        },
-        {
-          "kind": "rune",
-          "id": "Um",
-          "label": "Um",
-          "side": "ft",
-          "price_fg": 60.0,
-          "title": "Selling Um Rune Bin: 60fg",
-          "url": "https://forums.d2jsp.org/topic.php?t=109992350&f=123",
-          "observed_at": "2026-08-25T07:10:49.661330+00:00",
-          "topic_date": "2026-08-25"
         },
         {
           "kind": "rune",
@@ -330,14 +352,25 @@
       "kind": "rune",
       "id": "Lum",
       "label": "Lum",
-      "fair_fg": 32.5,
-      "iso_fg": 50.0,
+      "fair_fg": 35.0,
+      "iso_fg": 42.5,
       "ft_fg": 27.5,
       "trade_fg": 30.0,
-      "samples": 8,
+      "samples": 9,
       "confidence": "medium",
-      "last_seen_at": "2026-08-25T01:54:39.262203+00:00",
+      "last_seen_at": "2026-08-25T18:59:43.174440+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Lum",
+          "label": "Lum",
+          "side": "iso",
+          "price_fg": 35.0,
+          "title": "Simple Iso List",
+          "url": "https://forums.d2jsp.org/topic.php?t=110001454&f=123",
+          "observed_at": "2026-08-25T18:59:43.174440+00:00",
+          "topic_date": "2026-08-25"
+        },
         {
           "kind": "rune",
           "id": "Lum",
@@ -902,7 +935,7 @@
       "trade_fg": 460.0,
       "samples": 3,
       "confidence": "low",
-      "last_seen_at": "2026-08-25T07:10:48.375620+00:00",
+      "last_seen_at": "2026-08-25T18:59:53.809341+00:00",
       "sources": [
         {
           "kind": "rune",
@@ -912,7 +945,7 @@
           "price_fg": 500.0,
           "title": "Selling Vex Rune Bin: 500fg",
           "url": "https://forums.d2jsp.org/topic.php?t=109992596&f=123",
-          "observed_at": "2026-08-25T07:10:48.375620+00:00",
+          "observed_at": "2026-08-25T18:59:53.809341+00:00",
           "topic_date": "2026-08-25"
         },
         {
@@ -1331,6 +1364,31 @@
           "title": "Tir X3 10fg Eu",
           "url": "https://forums.d2jsp.org/topic.php?t=109998839&f=123",
           "observed_at": "2026-08-25T16:03:00.837589+00:00",
+          "topic_date": "2026-08-25"
+        }
+      ]
+    },
+    {
+      "kind": "rune",
+      "id": "Io",
+      "label": "Io",
+      "fair_fg": 20.0,
+      "iso_fg": null,
+      "ft_fg": 20.0,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-08-25T18:59:49.202316+00:00",
+      "sources": [
+        {
+          "kind": "rune",
+          "id": "Io",
+          "label": "Io",
+          "side": "ft",
+          "price_fg": 20.0,
+          "title": "O Short List",
+          "url": "https://forums.d2jsp.org/topic.php?t=110002273&f=123",
+          "observed_at": "2026-08-25T18:59:49.202316+00:00",
           "topic_date": "2026-08-25"
         }
       ]

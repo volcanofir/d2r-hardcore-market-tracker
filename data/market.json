@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-26T09:59:56.054964+00:00",
+  "updated_at": "2026-08-26T13:18:44.212333+00:00",
   "forum": "https://forums.d2jsp.org/forum.php?f=123",
-  "topic_count": 25,
-  "cached_topics": 1036,
-  "parsed_topics": 349,
-  "completed_topics": 97,
+  "topic_count": 51,
+  "cached_topics": 1087,
+  "parsed_topics": 367,
+  "completed_topics": 101,
   "parsed_this_run": 22,
-  "sample_count": 120,
+  "sample_count": 124,
   "legacy_sample_count": 0,
   "market": [
     {
@@ -263,12 +263,23 @@
       "label": "Um",
       "fair_fg": 80.0,
       "iso_fg": 80.0,
-      "ft_fg": 80.0,
+      "ft_fg": 77.5,
       "trade_fg": 70.0,
-      "samples": 16,
+      "samples": 17,
       "confidence": "high",
-      "last_seen_at": "2026-08-26T09:59:56.039440+00:00",
+      "last_seen_at": "2026-08-26T13:18:29.620838+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Um",
+          "label": "Um",
+          "side": "ft",
+          "price_fg": 75.0,
+          "title": "Um Rune - 75fg",
+          "url": "https://forums.d2jsp.org/topic.php?t=110014802&f=123",
+          "observed_at": "2026-08-26T13:18:29.620838+00:00",
+          "topic_date": "2026-08-26"
+        },
         {
           "kind": "rune",
           "id": "Um",
@@ -1565,14 +1576,25 @@
       "kind": "rune",
       "id": "Ber",
       "label": "Ber",
-      "fair_fg": 4100.0,
+      "fair_fg": 3700.0,
       "iso_fg": null,
-      "ft_fg": 4500.0,
+      "ft_fg": 3500.0,
       "trade_fg": null,
-      "samples": 2,
+      "samples": 3,
       "confidence": "low",
-      "last_seen_at": "2026-08-25T01:54:50.354846+00:00",
+      "last_seen_at": "2026-08-26T13:18:35.142478+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Ber",
+          "label": "Ber",
+          "side": "ft",
+          "price_fg": 2500.0,
+          "title": "O Ber Ft 2500 Fg",
+          "url": "https://forums.d2jsp.org/topic.php?t=110016112&f=123",
+          "observed_at": "2026-08-26T13:18:35.142478+00:00",
+          "topic_date": "2026-08-26"
+        },
         {
           "kind": "rune",
           "id": "Ber",
@@ -1601,14 +1623,25 @@
       "kind": "rune",
       "id": "Sur",
       "label": "Sur",
-      "fair_fg": 1900.0,
+      "fair_fg": 1650.0,
       "iso_fg": 2950.0,
       "ft_fg": 1400.0,
       "trade_fg": 1900.0,
-      "samples": 3,
-      "confidence": "low",
-      "last_seen_at": "2026-08-25T04:02:35.202647+00:00",
+      "samples": 4,
+      "confidence": "medium",
+      "last_seen_at": "2026-08-26T13:18:31.866246+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Sur",
+          "label": "Sur",
+          "side": "unknown",
+          "price_fg": 1100.0,
+          "title": "Sur & Jah",
+          "url": "https://forums.d2jsp.org/topic.php?t=110016249&f=123",
+          "observed_at": "2026-08-26T13:18:31.866246+00:00",
+          "topic_date": "2026-08-26"
+        },
         {
           "kind": "rune",
           "id": "Sur",
@@ -1907,6 +1940,31 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110002273&f=123",
           "observed_at": "2026-08-25T18:59:49.202316+00:00",
           "topic_date": "2026-08-25"
+        }
+      ]
+    },
+    {
+      "kind": "rune",
+      "id": "Jah",
+      "label": "Jah",
+      "fair_fg": 4500.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-08-26T13:18:31.866246+00:00",
+      "sources": [
+        {
+          "kind": "rune",
+          "id": "Jah",
+          "label": "Jah",
+          "side": "unknown",
+          "price_fg": 4500.0,
+          "title": "Sur & Jah",
+          "url": "https://forums.d2jsp.org/topic.php?t=110016249&f=123",
+          "observed_at": "2026-08-26T13:18:31.866246+00:00",
+          "topic_date": "2026-08-26"
         }
       ]
     }

@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-26T07:11:26.962314+00:00",
+  "updated_at": "2026-08-26T09:59:56.054964+00:00",
   "forum": "https://forums.d2jsp.org/forum.php?f=123",
-  "topic_count": 50,
-  "cached_topics": 1011,
-  "parsed_topics": 331,
-  "completed_topics": 95,
+  "topic_count": 25,
+  "cached_topics": 1036,
+  "parsed_topics": 349,
+  "completed_topics": 97,
   "parsed_this_run": 22,
-  "sample_count": 118,
+  "sample_count": 120,
   "legacy_sample_count": 0,
   "market": [
     {
@@ -17,10 +17,21 @@
       "iso_fg": 40.0,
       "ft_fg": 27.5,
       "trade_fg": 35.0,
-      "samples": 9,
-      "confidence": "medium",
-      "last_seen_at": "2026-08-26T07:11:15.858757+00:00",
+      "samples": 10,
+      "confidence": "high",
+      "last_seen_at": "2026-08-26T09:59:42.344034+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Ko",
+          "label": "Ko",
+          "side": "unknown",
+          "price_fg": 20.0,
+          "title": "Ko",
+          "url": "https://forums.d2jsp.org/topic.php?t=110013591&f=123",
+          "observed_at": "2026-08-26T09:59:42.344034+00:00",
+          "topic_date": "2026-08-26"
+        },
         {
           "kind": "rune",
           "id": "Ko",
@@ -251,13 +262,46 @@
       "id": "Um",
       "label": "Um",
       "fair_fg": 80.0,
-      "iso_fg": 77.5,
-      "ft_fg": 75.0,
+      "iso_fg": 80.0,
+      "ft_fg": 80.0,
       "trade_fg": 70.0,
-      "samples": 15,
+      "samples": 16,
       "confidence": "high",
-      "last_seen_at": "2026-08-26T04:04:53.044335+00:00",
+      "last_seen_at": "2026-08-26T09:59:56.039440+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Um",
+          "label": "Um",
+          "side": "ft",
+          "price_fg": 50.0,
+          "title": "Um 4 50fg",
+          "url": "https://forums.d2jsp.org/topic.php?t=110008938&f=123",
+          "observed_at": "2026-08-26T09:59:56.039440+00:00",
+          "topic_date": "2026-08-25"
+        },
+        {
+          "kind": "rune",
+          "id": "Um",
+          "label": "Um",
+          "side": "iso",
+          "price_fg": 80.0,
+          "title": "Need 2 X Um",
+          "url": "https://forums.d2jsp.org/topic.php?t=110013834&f=123",
+          "observed_at": "2026-08-26T09:59:38.037946+00:00",
+          "topic_date": "2026-08-26"
+        },
+        {
+          "kind": "rune",
+          "id": "Um",
+          "label": "Um",
+          "side": "iso",
+          "price_fg": 180.0,
+          "title": "Paying 180 Fg Iso 2 X Um Rune",
+          "url": "https://forums.d2jsp.org/topic.php?t=110013805&f=123",
+          "observed_at": "2026-08-26T09:59:35.092634+00:00",
+          "topic_date": "2026-08-26"
+        },
         {
           "kind": "rune",
           "id": "Um",
@@ -278,28 +322,6 @@
           "title": "Many Cheap Items Ft - Supermarket · T4T/sold signal",
           "url": "https://forums.d2jsp.org/topic.php?t=109995636&f=123",
           "observed_at": "2026-08-26T04:04:53.044335+00:00",
-          "topic_date": "2026-08-25"
-        },
-        {
-          "kind": "rune",
-          "id": "Um",
-          "label": "Um",
-          "side": "ft",
-          "price_fg": 50.0,
-          "title": "Um 4 50fg",
-          "url": "https://forums.d2jsp.org/topic.php?t=110008938&f=123",
-          "observed_at": "2026-08-26T02:00:34.576391+00:00",
-          "topic_date": "2026-08-25"
-        },
-        {
-          "kind": "rune",
-          "id": "Um",
-          "label": "Um",
-          "side": "ft",
-          "price_fg": 60.0,
-          "title": "Um Rune Ft 60fg Bin",
-          "url": "https://forums.d2jsp.org/topic.php?t=110009416&f=123",
-          "observed_at": "2026-08-26T02:00:33.084826+00:00",
           "topic_date": "2026-08-25"
         },
         {

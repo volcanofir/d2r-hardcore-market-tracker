@@ -1,7 +1,7 @@
 let DATA=[],kind='rune';
 const fmt=v=>v==null?'—':Number(v).toLocaleString(undefined,{maximumFractionDigits:2});
 const RUNES=[['艾爾','El',11],['艾德','Eld',11],['特爾','Tir',13],['那夫','Nef',13],['愛斯','Eth',15],['伊司','Ith',15],['塔爾','Tal',17],['拉爾','Ral',19],['歐特','Ort',21],['書爾','Thul',23],['安姆','Amn',25],['索爾','Sol',27],['夏','Shael',29],['多爾','Dol',31],['海爾','Hel',0],['埃歐','Io',35],['盧姆','Lum',37],['科','Ko',39],['法爾','Fal',41],['藍姆','Lem',43],['普爾','Pul',45],['烏姆','Um',47],['馬爾','Mal',49],['伊司特','Ist',51],['古爾','Gul',53],['伐克斯','Vex',55],['歐姆','Ohm',57],['羅','Lo',59],['瑟','Sur',61],['貝','Ber',63],['喬','Jah',65],['查姆','Cham',67],['薩德','Zod',69]];
-const RUNE_ASSET_VERSION='20260825-hd-final';
+const RUNE_ASSET_VERSION='20260826-hd-live';
 const runeSlug=en=>en.toLowerCase();
 const runeImage=en=>`assets/runes/${runeSlug(en)}.png?v=${RUNE_ASSET_VERSION}`;
 const runeFallback=en=>`https://www.d2rpg.com/wp-content/uploads/2022/01/${runeSlug(en)}-rune.png`;

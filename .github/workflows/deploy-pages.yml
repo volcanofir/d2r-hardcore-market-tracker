@@ -35,13 +35,31 @@ jobs:
           ref: main
 
       - name: Build static site
+        shell: bash
         run: |
+          set -euo pipefail
           rm -rf _site
-          mkdir -p _site/data
+          mkdir -p _site/data _site/assets/runes
           cp -R site/. _site/
           cp data/market.json _site/data/market.json
           cp data/history.json _site/data/history.json
           sed -i 's#\.\./data/#./data/#g' _site/app.js
+
+          # Download the 33 HD stone rune images used by the cards.
+          runes=(
+            el eld tir nef eth ith tal ral ort thul amn sol shael dol hel io lum ko fal lem pul um mal ist gul vex ohm lo sur ber jah cham zod
+          )
+          for rune in "${runes[@]}"; do
+            url="https://www.d2rpg.com/wp-content/uploads/2022/01/${rune}-rune.png"
+            out="_site/assets/runes/${rune}.png"
+            curl --fail --location --retry 3 --retry-delay 2 --silent --show-error "$url" -o "$out"
+            test -s "$out"
+            file "$out" | grep -q 'PNG image data'
+          done
+
+          count=$(find _site/assets/runes -maxdepth 1 -type f -name '*.png' | wc -l | tr -d ' ')
+          test "$count" = "33"
+          echo "Validated $count HD rune images."
           touch _site/.nojekyll
 
       - name: Configure GitHub Pages

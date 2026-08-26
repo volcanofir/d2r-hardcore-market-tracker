@@ -45,14 +45,19 @@ jobs:
           cp data/history.json _site/data/history.json
           sed -i 's#\.\./data/#./data/#g' _site/app.js
 
-          # Download the 33 HD stone rune images used by the cards.
           runes=(
             el eld tir nef eth ith tal ral ort thul amn sol shael dol hel io lum ko fal lem pul um mal ist gul vex ohm lo sur ber jah cham zod
           )
+          ua='Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36'
           for rune in "${runes[@]}"; do
             url="https://www.d2rpg.com/wp-content/uploads/2022/01/${rune}-rune.png"
             out="_site/assets/runes/${rune}.png"
-            curl --fail --location --retry 3 --retry-delay 2 --silent --show-error "$url" -o "$out"
+            curl --fail --location --http1.1 --retry 3 --retry-delay 2 \
+              --user-agent "$ua" \
+              --referer 'https://www.d2rpg.com/' \
+              -H 'Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
+              -H 'Accept-Language: en-US,en;q=0.9' \
+              --silent --show-error "$url" -o "$out"
             test -s "$out"
             file "$out" | grep -q 'PNG image data'
           done

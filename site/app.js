@@ -1,8 +1,9 @@
 let DATA=[],kind='rune';
 const fmt=v=>v==null?'—':Number(v).toLocaleString(undefined,{maximumFractionDigits:2});
 const RUNES=[['艾爾','El',11],['艾德','Eld',11],['特爾','Tir',13],['那夫','Nef',13],['愛斯','Eth',15],['伊司','Ith',15],['塔爾','Tal',17],['拉爾','Ral',19],['歐特','Ort',21],['書爾','Thul',23],['安姆','Amn',25],['索爾','Sol',27],['夏','Shael',29],['多爾','Dol',31],['海爾','Hel',0],['埃歐','Io',35],['盧姆','Lum',37],['科','Ko',39],['法爾','Fal',41],['藍姆','Lem',43],['普爾','Pul',45],['烏姆','Um',47],['馬爾','Mal',49],['伊司特','Ist',51],['古爾','Gul',53],['伐克斯','Vex',55],['歐姆','Ohm',57],['羅','Lo',59],['瑟','Sur',61],['貝','Ber',63],['喬','Jah',65],['查姆','Cham',67],['薩德','Zod',69]];
-const RUNE_SPRITE='assets/runes-user-final-128-q88.webp?v=20260826-stable1';
-function runeStyle(i){const col=i%11,row=Math.floor(i/11);return `background-image:url('${RUNE_SPRITE}');background-position:calc(var(--rune-w) * -${col}) calc(var(--rune-h) * -${row})`}
+const RUNE_SPRITE='assets/runes-user-final-128-q88.webp?v=20260827-iosfix1';
+const ICON_SIZE=72,SPRITE_W=792,SPRITE_H=216;
+function runeStyle(i){const col=i%11,row=Math.floor(i/11),x=-(col*ICON_SIZE),y=-(row*ICON_SIZE);return `width:${ICON_SIZE}px;height:${ICON_SIZE}px;background-image:url('${RUNE_SPRITE}');background-repeat:no-repeat;background-size:${SPRITE_W}px ${SPRITE_H}px;background-position:${x}px ${y}px;background-color:transparent;`}
 async function load(){
   try{
     const r=await fetch('../data/market.json?'+Date.now(),{cache:'no-store'});

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-27T00:50:08.820300+00:00",
+  "updated_at": "2026-08-27T13:01:51.302904+00:00",
   "forum_pages": [
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&c=2",
@@ -31,11 +31,13 @@
   "cached_topics": 1112,
   "selected_topics": 22,
   "parsed_this_run": 22,
-  "completed_this_run": 6,
+  "completed_this_run": 14,
   "legacy_samples": 0,
-  "combined_samples": 170,
+  "combined_samples": 130,
   "topic_errors": [],
   "season": 15,
   "season_label": "第 15 季天梯",
-  "data_start": "2026-08-22"
+  "data_start": "2026-08-22",
+  "price_parser": "season15-strict-v2",
+  "invalid_cached_samples_removed": 40
 }

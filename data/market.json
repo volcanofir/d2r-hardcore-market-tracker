@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-27T13:01:51.301409+00:00",
+  "updated_at": "2026-08-27T14:16:23.547728+00:00",
   "forum": "https://forums.d2jsp.org/forum.php?f=123",
   "topic_count": 0,
   "cached_topics": 1112,
-  "parsed_topics": 439,
-  "completed_topics": 139,
+  "parsed_topics": 457,
+  "completed_topics": 149,
   "parsed_this_run": 22,
-  "sample_count": 114,
+  "sample_count": 122,
   "legacy_sample_count": 0,
   "market": [
     {
@@ -319,12 +319,24 @@
       "label": "Um",
       "fair_fg": 75.0,
       "iso_fg": 80.0,
-      "ft_fg": 70.0,
+      "ft_fg": 72.5,
       "trade_fg": 65.0,
-      "samples": 17,
+      "samples": 18,
       "confidence": "high",
-      "last_seen_at": "2026-08-26T20:05:43.170829+00:00",
+      "last_seen_at": "2026-08-27T14:16:07.828560+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Um",
+          "label": "Um",
+          "side": "ft",
+          "price_fg": 75.0,
+          "title": "Ft Magefist / Um",
+          "url": "https://forums.d2jsp.org/topic.php?t=110012627&f=123",
+          "observed_at": "2026-08-27T14:16:07.828560+00:00",
+          "topic_date": "2026-08-26",
+          "parser_v2": true
+        },
         {
           "kind": "rune",
           "id": "Um",
@@ -744,14 +756,26 @@
       "kind": "rune",
       "id": "Mal",
       "label": "Mal",
-      "fair_fg": 85.0,
+      "fair_fg": 80.0,
       "iso_fg": 85.0,
       "ft_fg": 80.0,
       "trade_fg": null,
-      "samples": 4,
+      "samples": 5,
       "confidence": "medium",
-      "last_seen_at": "2026-08-27T00:49:49.210860+00:00",
+      "last_seen_at": "2026-08-27T14:16:11.980592+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Mal",
+          "label": "Mal",
+          "side": "ft",
+          "price_fg": 80.0,
+          "title": "80fg For Mal Rune",
+          "url": "https://forums.d2jsp.org/topic.php?t=110012452&f=123",
+          "observed_at": "2026-08-27T14:16:11.980592+00:00",
+          "topic_date": "2026-08-26",
+          "parser_v2": true
+        },
         {
           "kind": "rune",
           "id": "Mal",
@@ -808,7 +832,7 @@
       "trade_fg": null,
       "samples": 4,
       "confidence": "medium",
-      "last_seen_at": "2026-08-26T16:35:20.743604+00:00",
+      "last_seen_at": "2026-08-27T14:16:23.532439+00:00",
       "sources": [
         {
           "kind": "rune",
@@ -818,8 +842,9 @@
           "price_fg": 150.0,
           "title": "Ist Rune",
           "url": "https://forums.d2jsp.org/topic.php?t=110017498&f=123",
-          "observed_at": "2026-08-26T16:35:20.743604+00:00",
-          "topic_date": "2026-08-26"
+          "observed_at": "2026-08-27T14:16:23.532439+00:00",
+          "topic_date": "2026-08-26",
+          "parser_v2": true
         },
         {
           "kind": "rune",
@@ -1268,14 +1293,26 @@
       "kind": "rune",
       "id": "Hel",
       "label": "Hel",
-      "fair_fg": 70.0,
-      "iso_fg": 70.0,
+      "fair_fg": 37.5,
+      "iso_fg": 37.5,
       "ft_fg": null,
       "trade_fg": 70.0,
-      "samples": 1,
+      "samples": 2,
       "confidence": "low",
-      "last_seen_at": "2026-08-24T10:06:30.035822+00:00",
+      "last_seen_at": "2026-08-27T14:16:03.770338+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Hel",
+          "label": "Hel",
+          "side": "iso",
+          "price_fg": 5.0,
+          "title": "Iso 5 Hel 5 Ral Vs 90fg",
+          "url": "https://forums.d2jsp.org/topic.php?t=110012410&f=123",
+          "observed_at": "2026-08-27T14:16:03.770338+00:00",
+          "topic_date": "2026-08-26",
+          "parser_v2": true
+        },
         {
           "kind": "rune",
           "id": "Hel",
@@ -1304,14 +1341,38 @@
       "kind": "rune",
       "id": "Ber",
       "label": "Ber",
-      "fair_fg": 3700.0,
+      "fair_fg": 2500.0,
       "iso_fg": null,
       "ft_fg": 3500.0,
       "trade_fg": null,
-      "samples": 3,
-      "confidence": "low",
-      "last_seen_at": "2026-08-26T13:18:35.142478+00:00",
+      "samples": 5,
+      "confidence": "medium",
+      "last_seen_at": "2026-08-27T14:16:20.483091+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Ber",
+          "label": "Ber",
+          "side": "unknown",
+          "price_fg": 2400.0,
+          "title": "7",
+          "url": "https://forums.d2jsp.org/topic.php?t=109980964&f=123&o=60",
+          "observed_at": "2026-08-27T14:16:20.483091+00:00",
+          "topic_date": "2026-08-25",
+          "parser_v2": true
+        },
+        {
+          "kind": "rune",
+          "id": "Ber",
+          "label": "Ber",
+          "side": "unknown",
+          "price_fg": 2500.0,
+          "title": "Ber Rune",
+          "url": "https://forums.d2jsp.org/topic.php?t=110012540&f=123",
+          "observed_at": "2026-08-27T14:16:10.706498+00:00",
+          "topic_date": "2026-08-26",
+          "parser_v2": true
+        },
         {
           "kind": "rune",
           "id": "Ber",
@@ -1748,6 +1809,82 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110009261&f=123",
           "observed_at": "2026-08-26T04:04:50.232772+00:00",
           "topic_date": "2026-08-25"
+        }
+      ]
+    },
+    {
+      "kind": "rune",
+      "id": "Ral",
+      "label": "Ral",
+      "fair_fg": 80.0,
+      "iso_fg": 80.0,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 2,
+      "confidence": "low",
+      "last_seen_at": "2026-08-27T14:16:03.770338+00:00",
+      "sources": [
+        {
+          "kind": "rune",
+          "id": "Ral",
+          "label": "Ral",
+          "side": "iso",
+          "price_fg": 90.0,
+          "title": "Iso 5 Hel 5 Ral Vs 90fg",
+          "url": "https://forums.d2jsp.org/topic.php?t=110012410&f=123",
+          "observed_at": "2026-08-27T14:16:03.770338+00:00",
+          "topic_date": "2026-08-26",
+          "parser_v2": true
+        },
+        {
+          "kind": "rune",
+          "id": "Ral",
+          "label": "Ral",
+          "side": "iso",
+          "price_fg": 70.0,
+          "title": "Iso 5 Hel 5 Ral Vs 90fg",
+          "url": "https://forums.d2jsp.org/topic.php?t=110012410&f=123",
+          "observed_at": "2026-08-27T14:16:03.770338+00:00",
+          "topic_date": "2026-08-26",
+          "parser_v2": true
+        }
+      ]
+    },
+    {
+      "kind": "rune",
+      "id": "Lo",
+      "label": "Lo",
+      "fair_fg": 900.0,
+      "iso_fg": null,
+      "ft_fg": 900.0,
+      "trade_fg": 900.0,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-08-27T14:16:07.949694+00:00",
+      "sources": [
+        {
+          "kind": "rune",
+          "id": "Lo",
+          "label": "Lo",
+          "side": "ft",
+          "price_fg": 900.0,
+          "title": "Fresh Lo 900fg",
+          "url": "https://forums.d2jsp.org/topic.php?t=110012367&f=123",
+          "observed_at": "2026-08-27T14:16:07.949694+00:00",
+          "topic_date": "2026-08-26",
+          "parser_v2": true
+        },
+        {
+          "kind": "rune",
+          "id": "Lo",
+          "label": "Lo",
+          "side": "trade",
+          "price_fg": 900.0,
+          "title": "Fresh Lo 900fg · T4T/sold signal",
+          "url": "https://forums.d2jsp.org/topic.php?t=110012367&f=123",
+          "observed_at": "2026-08-27T14:16:07.949694+00:00",
+          "topic_date": "2026-08-26",
+          "parser_v2": true
         }
       ]
     },

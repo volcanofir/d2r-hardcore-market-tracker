@@ -11662,9 +11662,9 @@
       "title": "7",
       "url": "https://forums.d2jsp.org/topic.php?t=109963457&f=123&o=60",
       "first_seen_at": "2026-08-29T01:46:08.029277+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-29T16:45:17.828672+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110059890&f=123": {
@@ -11723,27 +11723,27 @@
       "title": "700fg Vs Tals Armor",
       "url": "https://forums.d2jsp.org/topic.php?t=110062537&f=123",
       "first_seen_at": "2026-08-29T01:46:08.029277+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-29T16:45:17.286347+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110062536&f=123": {
       "title": "9es Memory",
       "url": "https://forums.d2jsp.org/topic.php?t=110062536&f=123",
       "first_seen_at": "2026-08-29T01:46:08.029277+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-29T16:45:16.633314+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110062520&f=123": {
       "title": "Ber",
       "url": "https://forums.d2jsp.org/topic.php?t=110062520&f=123",
       "first_seen_at": "2026-08-29T01:46:08.029277+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-29T16:45:15.136072+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110062535&f=123": {
@@ -11970,26 +11970,39 @@
       "title": "2",
       "url": "https://forums.d2jsp.org/topic.php?t=110031995&f=123&o=10",
       "first_seen_at": "2026-08-29T10:08:29.807244+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-29T16:45:13.631919+00:00",
       "completed": false,
-      "status": "pending",
-      "samples": []
+      "status": "parsed",
+      "samples": [
+        {
+          "kind": "item",
+          "id": "cta",
+          "label": "Call to Arms (CTA)",
+          "side": "unknown",
+          "price_fg": 40.0,
+          "title": "2",
+          "url": "https://forums.d2jsp.org/topic.php?t=110031995&f=123&o=10",
+          "observed_at": "2026-08-29T16:45:13.631919+00:00",
+          "topic_date": "2026-08-27",
+          "parser_v2": true
+        }
+      ]
     },
     "https://forums.d2jsp.org/topic.php?t=110031995&f=123&o=20": {
       "title": "3",
       "url": "https://forums.d2jsp.org/topic.php?t=110031995&f=123&o=20",
       "first_seen_at": "2026-08-29T10:08:29.807244+00:00",
-      "last_checked_at": null,
-      "completed": false,
-      "status": "pending",
+      "last_checked_at": "2026-08-29T16:45:09.819039+00:00",
+      "completed": true,
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110051799&f=123": {
       "title": "Wts Shako With Magic Jewel In It",
       "url": "https://forums.d2jsp.org/topic.php?t=110051799&f=123",
       "first_seen_at": "2026-08-29T10:08:29.807244+00:00",
-      "last_checked_at": "2026-08-29T10:08:34.032770+00:00",
-      "completed": false,
+      "last_checked_at": "2026-08-29T16:45:18.438612+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -11997,27 +12010,27 @@
       "title": "2",
       "url": "https://forums.d2jsp.org/topic.php?t=110051799&f=123&o=10",
       "first_seen_at": "2026-08-29T10:08:29.807244+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-29T16:45:11.435325+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110067796&f=123": {
       "title": "1/2 Str Sc",
       "url": "https://forums.d2jsp.org/topic.php?t=110067796&f=123",
       "first_seen_at": "2026-08-29T10:08:29.807244+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-29T16:45:15.339952+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110057203&f=123": {
       "title": "Eschuta's Temper",
       "url": "https://forums.d2jsp.org/topic.php?t=110057203&f=123",
       "first_seen_at": "2026-08-29T10:08:29.807244+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-29T16:45:06.998164+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110059765&f=123": {
@@ -12060,35 +12073,60 @@
       "title": "Hard Iso",
       "url": "https://forums.d2jsp.org/topic.php?t=110034939&f=123",
       "first_seen_at": "2026-08-29T10:08:29.807244+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-29T16:45:05.296770+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110034939&f=123&o=10": {
       "title": "2",
       "url": "https://forums.d2jsp.org/topic.php?t=110034939&f=123&o=10",
       "first_seen_at": "2026-08-29T10:08:29.807244+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-29T16:45:13.005526+00:00",
       "completed": false,
-      "status": "pending",
-      "samples": []
+      "status": "parsed",
+      "samples": [
+        {
+          "kind": "item",
+          "id": "cta",
+          "label": "Call to Arms (CTA)",
+          "side": "unknown",
+          "price_fg": 2600.0,
+          "title": "2",
+          "url": "https://forums.d2jsp.org/topic.php?t=110034939&f=123&o=10",
+          "observed_at": "2026-08-29T16:45:13.005526+00:00",
+          "topic_date": "2026-08-27",
+          "parser_v2": true
+        },
+        {
+          "kind": "item",
+          "id": "cta",
+          "label": "Call to Arms (CTA)",
+          "side": "unknown",
+          "price_fg": 1300.0,
+          "title": "2",
+          "url": "https://forums.d2jsp.org/topic.php?t=110034939&f=123&o=10",
+          "observed_at": "2026-08-29T16:45:13.005526+00:00",
+          "topic_date": "2026-08-27",
+          "parser_v2": true
+        }
+      ]
     },
     "https://forums.d2jsp.org/topic.php?t=110034939&f=123&o=20": {
       "title": "3",
       "url": "https://forums.d2jsp.org/topic.php?t=110034939&f=123&o=20",
       "first_seen_at": "2026-08-29T10:08:29.807244+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-29T16:45:09.425495+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110051686&f=123": {
       "title": "Wts Void",
       "url": "https://forums.d2jsp.org/topic.php?t=110051686&f=123",
       "first_seen_at": "2026-08-29T10:08:29.807244+00:00",
-      "last_checked_at": "2026-08-29T10:08:34.362846+00:00",
-      "completed": false,
+      "last_checked_at": "2026-08-29T16:45:17.762334+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -12096,35 +12134,35 @@
       "title": "Cold Facet",
       "url": "https://forums.d2jsp.org/topic.php?t=110067600&f=123",
       "first_seen_at": "2026-08-29T10:08:29.807244+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-29T16:45:06.697491+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110067762&f=123": {
       "title": "Buying Cheapest Shako",
       "url": "https://forums.d2jsp.org/topic.php?t=110067762&f=123",
       "first_seen_at": "2026-08-29T10:08:29.807244+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-29T16:45:07.680278+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110067784&f=123": {
       "title": "8statues 4xtalic 4xmadawc 140fg",
       "url": "https://forums.d2jsp.org/topic.php?t=110067784&f=123",
       "first_seen_at": "2026-08-29T10:08:29.807244+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-29T16:45:08.846530+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=109929350&f=123": {
       "title": "Walmart",
       "url": "https://forums.d2jsp.org/topic.php?t=109929350&f=123",
       "first_seen_at": "2026-08-29T10:08:29.807244+00:00",
-      "last_checked_at": "2026-08-29T10:08:35.627483+00:00",
-      "completed": false,
+      "last_checked_at": "2026-08-29T16:45:29.968291+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -12132,19 +12170,45 @@
       "title": "2",
       "url": "https://forums.d2jsp.org/topic.php?t=109929350&f=123&o=10",
       "first_seen_at": "2026-08-29T10:08:29.807244+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-29T16:45:14.162491+00:00",
       "completed": false,
-      "status": "pending",
-      "samples": []
+      "status": "parsed",
+      "samples": [
+        {
+          "kind": "item",
+          "id": "cta",
+          "label": "Call to Arms (CTA)",
+          "side": "unknown",
+          "price_fg": 35.0,
+          "title": "2",
+          "url": "https://forums.d2jsp.org/topic.php?t=109929350&f=123&o=10",
+          "observed_at": "2026-08-29T16:45:14.162491+00:00",
+          "topic_date": "2026-08-25",
+          "parser_v2": true
+        }
+      ]
     },
     "https://forums.d2jsp.org/topic.php?t=109929350&f=123&o=20": {
       "title": "3",
       "url": "https://forums.d2jsp.org/topic.php?t=109929350&f=123&o=20",
       "first_seen_at": "2026-08-29T10:08:29.807244+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-29T16:45:11.188370+00:00",
       "completed": false,
-      "status": "pending",
-      "samples": []
+      "status": "parsed",
+      "samples": [
+        {
+          "kind": "rune",
+          "id": "Mal",
+          "label": "Mal",
+          "side": "unknown",
+          "price_fg": 60.0,
+          "title": "3",
+          "url": "https://forums.d2jsp.org/topic.php?t=109929350&f=123&o=20",
+          "observed_at": "2026-08-29T16:45:11.188370+00:00",
+          "topic_date": "2026-08-27",
+          "parser_v2": true
+        }
+      ]
     },
     "https://forums.d2jsp.org/topic.php?t=110067633&f=123": {
       "title": "Pala Torch 19/13",
@@ -12177,17 +12241,17 @@
       "title": "Buyin All Lem Runes I Can",
       "url": "https://forums.d2jsp.org/topic.php?t=110059096&f=123",
       "first_seen_at": "2026-08-29T10:08:29.807244+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-29T16:45:08.025212+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110067778&f=123": {
       "title": "Wtb A Zod",
       "url": "https://forums.d2jsp.org/topic.php?t=110067778&f=123",
       "first_seen_at": "2026-08-29T10:08:29.807244+00:00",
-      "last_checked_at": "2026-08-29T10:08:35.462343+00:00",
-      "completed": false,
+      "last_checked_at": "2026-08-29T16:45:21.862840+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -12210,5 +12274,5 @@
       "samples": []
     }
   },
-  "updated_at": "2026-08-29T10:08:53.111854+00:00"
+  "updated_at": "2026-08-29T16:45:29.969149+00:00"
 }

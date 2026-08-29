@@ -8534,9 +8534,9 @@
       "title": "Lem+amn",
       "url": "https://forums.d2jsp.org/topic.php?t=110009360&f=123",
       "first_seen_at": "2026-08-26T02:00:23.965229+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-29T20:57:29.607318+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110009317&f=123": {
@@ -8627,27 +8627,27 @@
       "title": "Need Java Gear",
       "url": "https://forums.d2jsp.org/topic.php?t=110009268&f=123",
       "first_seen_at": "2026-08-26T02:00:23.965229+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-29T20:57:24.472730+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110009264&f=123": {
       "title": "Need Ist Rune",
       "url": "https://forums.d2jsp.org/topic.php?t=110009264&f=123",
       "first_seen_at": "2026-08-26T02:00:23.965229+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-29T20:57:25.468214+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110009190&f=123": {
       "title": "My Small Iso List",
       "url": "https://forums.d2jsp.org/topic.php?t=110009190&f=123",
       "first_seen_at": "2026-08-26T02:00:23.965229+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-29T20:57:27.599940+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110009168&f=123": {
@@ -8690,9 +8690,9 @@
       "title": "Lem Ft",
       "url": "https://forums.d2jsp.org/topic.php?t=110009032&f=123",
       "first_seen_at": "2026-08-26T02:00:23.965229+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-29T20:57:30.276254+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110008999&f=123": {
@@ -8765,9 +8765,9 @@
       "title": "Need Ist",
       "url": "https://forums.d2jsp.org/topic.php?t=110008896&f=123",
       "first_seen_at": "2026-08-26T02:00:23.965229+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-29T20:57:26.494046+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110008893&f=123": {
@@ -8930,9 +8930,9 @@
       "title": "Need Ist",
       "url": "https://forums.d2jsp.org/topic.php?t=110008613&f=123",
       "first_seen_at": "2026-08-26T02:00:23.965229+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-29T20:57:26.537622+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110008605&f=123": {
@@ -8998,9 +8998,9 @@
       "title": "Mal Ft",
       "url": "https://forums.d2jsp.org/topic.php?t=110007999&f=123",
       "first_seen_at": "2026-08-26T02:00:23.965229+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-29T20:57:27.873826+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110007980&f=123": {
@@ -9118,10 +9118,23 @@
       "title": "Lum Rune",
       "url": "https://forums.d2jsp.org/topic.php?t=110007630&f=123",
       "first_seen_at": "2026-08-26T02:00:23.965229+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-29T20:57:29.073263+00:00",
       "completed": false,
-      "status": "pending",
-      "samples": []
+      "status": "parsed",
+      "samples": [
+        {
+          "kind": "rune",
+          "id": "Lum",
+          "label": "Lum",
+          "side": "unknown",
+          "price_fg": 25.0,
+          "title": "Lum Rune",
+          "url": "https://forums.d2jsp.org/topic.php?t=110007630&f=123",
+          "observed_at": "2026-08-29T20:57:29.073263+00:00",
+          "topic_date": "2026-08-25",
+          "parser_v2": true
+        }
+      ]
     },
     "https://forums.d2jsp.org/topic.php?t=110007627&f=123": {
       "title": "Ft: Misc Items",
@@ -9570,9 +9583,9 @@
       "title": "2",
       "url": "https://forums.d2jsp.org/topic.php?t=109986970&f=123&o=10",
       "first_seen_at": "2026-08-26T04:04:43.345851+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-29T20:57:22.899616+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=109995636&f=123": {
@@ -9683,9 +9696,9 @@
       "title": "2",
       "url": "https://forums.d2jsp.org/topic.php?t=109943019&f=123&o=10",
       "first_seen_at": "2026-08-26T04:04:43.345851+00:00",
-      "last_checked_at": null,
-      "completed": false,
-      "status": "pending",
+      "last_checked_at": "2026-08-29T20:57:23.467756+00:00",
+      "completed": true,
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=109943019&f=123&o=20": {
@@ -9737,9 +9750,9 @@
       "title": "- Some Items Ft -",
       "url": "https://forums.d2jsp.org/topic.php?t=110010948&f=123",
       "first_seen_at": "2026-08-26T04:04:43.345851+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-29T20:57:25.316607+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=109959450&f=123": {
@@ -11653,9 +11666,9 @@
       "title": "6",
       "url": "https://forums.d2jsp.org/topic.php?t=109963457&f=123&o=50",
       "first_seen_at": "2026-08-29T01:46:08.029277+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-29T20:57:18.967440+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=109963457&f=123&o=60": {
@@ -11750,18 +11763,18 @@
       "title": "4os Monarch",
       "url": "https://forums.d2jsp.org/topic.php?t=110062535&f=123",
       "first_seen_at": "2026-08-29T01:46:08.029277+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-29T20:57:19.490874+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110060629&f=123": {
       "title": "35 Life Poison Skill Necro",
       "url": "https://forums.d2jsp.org/topic.php?t=110060629&f=123",
       "first_seen_at": "2026-08-29T01:46:08.029277+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-29T20:57:20.047006+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110062529&f=123": {
@@ -11795,10 +11808,23 @@
       "title": "2",
       "url": "https://forums.d2jsp.org/topic.php?t=110013420&f=123&o=10",
       "first_seen_at": "2026-08-29T01:46:08.029277+00:00",
-      "last_checked_at": null,
-      "completed": false,
-      "status": "pending",
-      "samples": []
+      "last_checked_at": "2026-08-29T20:57:22.245640+00:00",
+      "completed": true,
+      "status": "parsed",
+      "samples": [
+        {
+          "kind": "rune",
+          "id": "Sur",
+          "label": "Sur",
+          "side": "unknown",
+          "price_fg": 900.0,
+          "title": "2",
+          "url": "https://forums.d2jsp.org/topic.php?t=110013420&f=123&o=10",
+          "observed_at": "2026-08-29T20:57:22.245640+00:00",
+          "topic_date": "2026-08-26",
+          "parser_v2": true
+        }
+      ]
     },
     "https://forums.d2jsp.org/topic.php?t=110062515&f=123": {
       "title": "Selling Sup Ap 4os And Mageplate 3os",
@@ -11898,18 +11924,18 @@
       "title": "20 / 16 / 10 Anni",
       "url": "https://forums.d2jsp.org/topic.php?t=110049886&f=123",
       "first_seen_at": "2026-08-29T01:46:08.029277+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-08-29T20:57:20.687724+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110062483&f=123": {
       "title": "19/20/5 Anni",
       "url": "https://forums.d2jsp.org/topic.php?t=110062483&f=123",
       "first_seen_at": "2026-08-29T01:46:08.029277+00:00",
-      "last_checked_at": null,
-      "completed": false,
-      "status": "pending",
+      "last_checked_at": "2026-08-29T20:57:21.796200+00:00",
+      "completed": true,
+      "status": "parsed",
       "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110019135&f=123": {
@@ -11952,8 +11978,8 @@
       "title": "Unid Cta & Hoto & Grief",
       "url": "https://forums.d2jsp.org/topic.php?t=110067799&f=123",
       "first_seen_at": "2026-08-29T10:08:29.807244+00:00",
-      "last_checked_at": "2026-08-29T10:08:36.531297+00:00",
-      "completed": false,
+      "last_checked_at": "2026-08-29T20:57:30.076694+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -11961,8 +11987,8 @@
       "title": "Stash Cleanup With Bins!",
       "url": "https://forums.d2jsp.org/topic.php?t=110031995&f=123",
       "first_seen_at": "2026-08-29T10:08:29.807244+00:00",
-      "last_checked_at": "2026-08-29T10:08:36.678073+00:00",
-      "completed": false,
+      "last_checked_at": "2026-08-29T20:57:34.686504+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -12046,7 +12072,7 @@
       "title": "Perfect Aldurs Boots 50 Fr",
       "url": "https://forums.d2jsp.org/topic.php?t=110067793&f=123",
       "first_seen_at": "2026-08-29T10:08:29.807244+00:00",
-      "last_checked_at": "2026-08-29T10:08:37.919984+00:00",
+      "last_checked_at": "2026-08-29T20:57:33.976817+00:00",
       "completed": false,
       "status": "parsed",
       "samples": []
@@ -12232,8 +12258,8 @@
       "title": "Perf Eni Base 3os 15ed Mp",
       "url": "https://forums.d2jsp.org/topic.php?t=110047786&f=123",
       "first_seen_at": "2026-08-29T10:08:29.807244+00:00",
-      "last_checked_at": "2026-08-29T10:08:37.841961+00:00",
-      "completed": false,
+      "last_checked_at": "2026-08-29T20:57:37.934730+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -12274,5 +12300,5 @@
       "samples": []
     }
   },
-  "updated_at": "2026-08-29T16:45:29.969149+00:00"
+  "updated_at": "2026-08-29T20:57:37.935598+00:00"
 }

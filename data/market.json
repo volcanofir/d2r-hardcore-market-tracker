@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-29T16:45:29.982508+00:00",
+  "updated_at": "2026-08-29T20:57:37.948644+00:00",
   "forum": "https://forums.d2jsp.org/forum.php?f=123",
   "topic_count": 0,
   "cached_topics": 1172,
-  "parsed_topics": 547,
-  "completed_topics": 185,
+  "parsed_topics": 565,
+  "completed_topics": 191,
   "parsed_this_run": 22,
-  "sample_count": 129,
+  "sample_count": 131,
   "legacy_sample_count": 0,
   "market": [
     {
@@ -662,10 +662,22 @@
       "iso_fg": 30.0,
       "ft_fg": 20.0,
       "trade_fg": null,
-      "samples": 11,
+      "samples": 12,
       "confidence": "high",
-      "last_seen_at": "2026-08-26T07:11:15.858757+00:00",
+      "last_seen_at": "2026-08-29T20:57:29.073263+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Lum",
+          "label": "Lum",
+          "side": "unknown",
+          "price_fg": 25.0,
+          "title": "Lum Rune",
+          "url": "https://forums.d2jsp.org/topic.php?t=110007630&f=123",
+          "observed_at": "2026-08-29T20:57:29.073263+00:00",
+          "topic_date": "2026-08-25",
+          "parser_v2": true
+        },
         {
           "kind": "rune",
           "id": "Lum",
@@ -1449,14 +1461,26 @@
       "kind": "rune",
       "id": "Sur",
       "label": "Sur",
-      "fair_fg": 1900.0,
+      "fair_fg": 1650.0,
       "iso_fg": 2950.0,
       "ft_fg": 1400.0,
       "trade_fg": 1900.0,
-      "samples": 3,
-      "confidence": "low",
-      "last_seen_at": "2026-08-25T04:02:35.202647+00:00",
+      "samples": 4,
+      "confidence": "medium",
+      "last_seen_at": "2026-08-29T20:57:22.245640+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Sur",
+          "label": "Sur",
+          "side": "unknown",
+          "price_fg": 900.0,
+          "title": "2",
+          "url": "https://forums.d2jsp.org/topic.php?t=110013420&f=123&o=10",
+          "observed_at": "2026-08-29T20:57:22.245640+00:00",
+          "topic_date": "2026-08-26",
+          "parser_v2": true
+        },
         {
           "kind": "rune",
           "id": "Sur",

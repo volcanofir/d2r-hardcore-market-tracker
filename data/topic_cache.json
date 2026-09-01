@@ -4,563 +4,6 @@
   "season_label": "第 15 季天梯",
   "data_start": "2026-08-22",
   "topics": {
-    "https://forums.d2jsp.org/topic.php?t=109983838&f=123": {
-      "title": "Wts Vex For 400 Fg",
-      "url": "https://forums.d2jsp.org/topic.php?t=109983838&f=123",
-      "first_seen_at": "2026-08-24T21:45:40.042642+00:00",
-      "last_checked_at": "2026-08-24T21:45:46.350185+00:00",
-      "completed": true,
-      "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Vex",
-          "label": "Vex",
-          "side": "ft",
-          "price_fg": 400.0,
-          "title": "Wts Vex For 400 Fg",
-          "url": "https://forums.d2jsp.org/topic.php?t=109983838&f=123",
-          "observed_at": "2026-08-24T21:45:46.350185+00:00",
-          "topic_date": "2026-08-24"
-        },
-        {
-          "kind": "rune",
-          "id": "Vex",
-          "label": "Vex",
-          "side": "trade",
-          "price_fg": 400.0,
-          "title": "Wts Vex For 400 Fg · T4T/sold signal",
-          "url": "https://forums.d2jsp.org/topic.php?t=109983838&f=123",
-          "observed_at": "2026-08-24T21:45:46.350185+00:00",
-          "topic_date": "2026-08-24"
-        }
-      ]
-    },
-    "https://forums.d2jsp.org/topic.php?t=109983814&f=123": {
-      "title": "Pul",
-      "url": "https://forums.d2jsp.org/topic.php?t=109983814&f=123",
-      "first_seen_at": "2026-08-24T21:45:40.042642+00:00",
-      "last_checked_at": "2026-08-25T09:53:26.647990+00:00",
-      "completed": true,
-      "status": "parsed",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=109983806&f=123": {
-      "title": "Lum",
-      "url": "https://forums.d2jsp.org/topic.php?t=109983806&f=123",
-      "first_seen_at": "2026-08-24T21:45:40.042642+00:00",
-      "last_checked_at": "2026-08-25T01:54:40.444231+00:00",
-      "completed": false,
-      "status": "parsed",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=109983790&f=123": {
-      "title": "1x Um Rune Ft",
-      "url": "https://forums.d2jsp.org/topic.php?t=109983790&f=123",
-      "first_seen_at": "2026-08-24T21:45:40.042642+00:00",
-      "last_checked_at": null,
-      "completed": false,
-      "status": "pending",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=109983783&f=123": {
-      "title": "Iso",
-      "url": "https://forums.d2jsp.org/topic.php?t=109983783&f=123",
-      "first_seen_at": "2026-08-24T21:45:40.042642+00:00",
-      "last_checked_at": "2026-08-25T01:54:46.821432+00:00",
-      "completed": true,
-      "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Um",
-          "label": "Um",
-          "side": "iso",
-          "price_fg": 70.0,
-          "title": "Iso",
-          "url": "https://forums.d2jsp.org/topic.php?t=109983783&f=123",
-          "observed_at": "2026-08-25T01:54:46.821432+00:00",
-          "topic_date": "2026-08-24"
-        }
-      ]
-    },
-    "https://forums.d2jsp.org/topic.php?t=109983734&f=123": {
-      "title": "Offer Jah Rune",
-      "url": "https://forums.d2jsp.org/topic.php?t=109983734&f=123",
-      "first_seen_at": "2026-08-24T21:45:40.042642+00:00",
-      "last_checked_at": "2026-08-24T21:45:58.452787+00:00",
-      "completed": true,
-      "status": "parsed",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=109983690&f=123": {
-      "title": "4os Monarch, Lum Rune",
-      "url": "https://forums.d2jsp.org/topic.php?t=109983690&f=123",
-      "first_seen_at": "2026-08-24T21:45:40.042642+00:00",
-      "last_checked_at": null,
-      "completed": false,
-      "status": "pending",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=109983681&f=123": {
-      "title": "O Gul N 230fg",
-      "url": "https://forums.d2jsp.org/topic.php?t=109983681&f=123",
-      "first_seen_at": "2026-08-24T21:45:40.042642+00:00",
-      "last_checked_at": "2026-08-25T09:53:33.571339+00:00",
-      "completed": true,
-      "status": "parsed",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=109983670&f=123": {
-      "title": "Fresh Ber",
-      "url": "https://forums.d2jsp.org/topic.php?t=109983670&f=123",
-      "first_seen_at": "2026-08-24T21:45:40.042642+00:00",
-      "last_checked_at": null,
-      "completed": false,
-      "status": "pending",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=109983666&f=123": {
-      "title": "My Rune Iso",
-      "url": "https://forums.d2jsp.org/topic.php?t=109983666&f=123",
-      "first_seen_at": "2026-08-24T21:45:40.042642+00:00",
-      "last_checked_at": "2026-08-25T01:54:39.504664+00:00",
-      "completed": false,
-      "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Nef",
-          "label": "Nef",
-          "side": "iso",
-          "price_fg": 20.0,
-          "title": "My Rune Iso",
-          "url": "https://forums.d2jsp.org/topic.php?t=109983666&f=123",
-          "observed_at": "2026-08-25T01:54:39.504664+00:00",
-          "topic_date": "2026-08-24"
-        }
-      ]
-    },
-    "https://forums.d2jsp.org/topic.php?t=109983620&f=123": {
-      "title": "Gul Rune",
-      "url": "https://forums.d2jsp.org/topic.php?t=109983620&f=123",
-      "first_seen_at": "2026-08-24T21:45:40.042642+00:00",
-      "last_checked_at": "2026-08-25T01:54:51.233799+00:00",
-      "completed": true,
-      "status": "parsed",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=109983608&f=123": {
-      "title": "Ft Ber = 3750",
-      "url": "https://forums.d2jsp.org/topic.php?t=109983608&f=123",
-      "first_seen_at": "2026-08-24T21:45:40.042642+00:00",
-      "last_checked_at": "2026-08-25T01:54:51.627513+00:00",
-      "completed": false,
-      "status": "parsed",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=109983603&f=123": {
-      "title": "Cat's Eye, Lum, Gface, Deaths Hand, 2os Armor",
-      "url": "https://forums.d2jsp.org/topic.php?t=109983603&f=123",
-      "first_seen_at": "2026-08-24T21:45:40.042642+00:00",
-      "last_checked_at": null,
-      "completed": false,
-      "status": "pending",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=109983599&f=123": {
-      "title": "Infinity Thresher Infinity",
-      "url": "https://forums.d2jsp.org/topic.php?t=109983599&f=123",
-      "first_seen_at": "2026-08-24T21:45:40.042642+00:00",
-      "last_checked_at": "2026-08-25T01:54:48.523541+00:00",
-      "completed": false,
-      "status": "parsed",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=109983593&f=123": {
-      "title": "Lum Rune Ft 20fg Bin",
-      "url": "https://forums.d2jsp.org/topic.php?t=109983593&f=123",
-      "first_seen_at": "2026-08-24T21:45:40.042642+00:00",
-      "last_checked_at": "2026-08-25T01:54:39.262203+00:00",
-      "completed": false,
-      "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Lum",
-          "label": "Lum",
-          "side": "ft",
-          "price_fg": 20.0,
-          "title": "Lum Rune Ft 20fg Bin",
-          "url": "https://forums.d2jsp.org/topic.php?t=109983593&f=123",
-          "observed_at": "2026-08-25T01:54:39.262203+00:00",
-          "topic_date": "2026-08-24"
-        }
-      ]
-    },
-    "https://forums.d2jsp.org/topic.php?t=109983577&f=123": {
-      "title": "O Cham",
-      "url": "https://forums.d2jsp.org/topic.php?t=109983577&f=123",
-      "first_seen_at": "2026-08-24T21:45:40.042642+00:00",
-      "last_checked_at": "2026-08-24T21:45:59.806436+00:00",
-      "completed": false,
-      "status": "parsed",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=109983570&f=123": {
-      "title": "Iso Io Rune",
-      "url": "https://forums.d2jsp.org/topic.php?t=109983570&f=123",
-      "first_seen_at": "2026-08-24T21:45:40.042642+00:00",
-      "last_checked_at": "2026-08-25T01:54:45.480872+00:00",
-      "completed": false,
-      "status": "parsed",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=109983546&f=123": {
-      "title": "Lf X2 Lo Rune",
-      "url": "https://forums.d2jsp.org/topic.php?t=109983546&f=123",
-      "first_seen_at": "2026-08-24T21:45:40.042642+00:00",
-      "last_checked_at": "2026-08-25T01:54:41.417931+00:00",
-      "completed": false,
-      "status": "parsed",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=109983545&f=123": {
-      "title": "1x Pul Ft",
-      "url": "https://forums.d2jsp.org/topic.php?t=109983545&f=123",
-      "first_seen_at": "2026-08-24T21:45:40.042642+00:00",
-      "last_checked_at": null,
-      "completed": false,
-      "status": "pending",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=109983544&f=123": {
-      "title": "Fresh Ohm",
-      "url": "https://forums.d2jsp.org/topic.php?t=109983544&f=123",
-      "first_seen_at": "2026-08-24T21:45:40.042642+00:00",
-      "last_checked_at": null,
-      "completed": false,
-      "status": "pending",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=109983504&f=123": {
-      "title": "5 Socket Cs And Ist",
-      "url": "https://forums.d2jsp.org/topic.php?t=109983504&f=123",
-      "first_seen_at": "2026-08-24T21:45:40.042642+00:00",
-      "last_checked_at": null,
-      "completed": false,
-      "status": "pending",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=109983484&f=123": {
-      "title": "Ios Frostburn",
-      "url": "https://forums.d2jsp.org/topic.php?t=109983484&f=123",
-      "first_seen_at": "2026-08-24T21:45:40.042642+00:00",
-      "last_checked_at": "2026-08-25T01:54:48.565202+00:00",
-      "completed": false,
-      "status": "parsed",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=109983453&f=123": {
-      "title": "Um And Gul Rune",
-      "url": "https://forums.d2jsp.org/topic.php?t=109983453&f=123",
-      "first_seen_at": "2026-08-24T21:45:40.042642+00:00",
-      "last_checked_at": "2026-08-25T04:02:47.107945+00:00",
-      "completed": false,
-      "status": "parsed",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=109983451&f=123": {
-      "title": "Um - 75fg",
-      "url": "https://forums.d2jsp.org/topic.php?t=109983451&f=123",
-      "first_seen_at": "2026-08-24T21:45:40.042642+00:00",
-      "last_checked_at": "2026-08-25T07:10:52.382196+00:00",
-      "completed": true,
-      "status": "parsed",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=109983447&f=123": {
-      "title": "Buying Ist Mal",
-      "url": "https://forums.d2jsp.org/topic.php?t=109983447&f=123",
-      "first_seen_at": "2026-08-24T21:45:40.042642+00:00",
-      "last_checked_at": null,
-      "completed": false,
-      "status": "pending",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=109972933&f=123": {
-      "title": "Needlist",
-      "url": "https://forums.d2jsp.org/topic.php?t=109972933&f=123",
-      "first_seen_at": "2026-08-24T21:45:40.042642+00:00",
-      "last_checked_at": "2026-08-24T21:46:01.031180+00:00",
-      "completed": true,
-      "status": "parsed",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=109972933&f=123&o=10": {
-      "title": "2",
-      "url": "https://forums.d2jsp.org/topic.php?t=109972933&f=123&o=10",
-      "first_seen_at": "2026-08-24T21:45:40.042642+00:00",
-      "last_checked_at": null,
-      "completed": false,
-      "status": "pending",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=109980964&f=123&o=10": {
-      "title": "2",
-      "url": "https://forums.d2jsp.org/topic.php?t=109980964&f=123&o=10",
-      "first_seen_at": "2026-08-24T21:45:40.042642+00:00",
-      "last_checked_at": null,
-      "completed": false,
-      "status": "pending",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=109981433&f=123": {
-      "title": "+3 Warcries Amulet - Wc Amu",
-      "url": "https://forums.d2jsp.org/topic.php?t=109981433&f=123",
-      "first_seen_at": "2026-08-24T21:45:40.042642+00:00",
-      "last_checked_at": null,
-      "completed": false,
-      "status": "pending",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=109984799&f=123": {
-      "title": "Infinity - Base + Runes",
-      "url": "https://forums.d2jsp.org/topic.php?t=109984799&f=123",
-      "first_seen_at": "2026-08-24T21:45:40.042642+00:00",
-      "last_checked_at": "2026-08-25T01:54:50.354846+00:00",
-      "completed": false,
-      "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Ber",
-          "label": "Ber",
-          "side": "unknown",
-          "price_fg": 3700.0,
-          "title": "Infinity - Base + Runes",
-          "url": "https://forums.d2jsp.org/topic.php?t=109984799&f=123",
-          "observed_at": "2026-08-25T01:54:50.354846+00:00",
-          "topic_date": "2026-08-24"
-        }
-      ]
-    },
-    "https://forums.d2jsp.org/topic.php?t=109968396&f=123": {
-      "title": "Iso Tal Pieces",
-      "url": "https://forums.d2jsp.org/topic.php?t=109968396&f=123",
-      "first_seen_at": "2026-08-24T21:45:40.042642+00:00",
-      "last_checked_at": "2026-08-25T01:54:42.745184+00:00",
-      "completed": true,
-      "status": "parsed",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=109985091&f=123": {
-      "title": "Pul Rune For Fg Or Spirit Cs",
-      "url": "https://forums.d2jsp.org/topic.php?t=109985091&f=123",
-      "first_seen_at": "2026-08-24T21:45:40.042642+00:00",
-      "last_checked_at": "2026-08-25T09:53:23.006191+00:00",
-      "completed": true,
-      "status": "parsed",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=109985122&f=123": {
-      "title": "3 Warcry Amulet",
-      "url": "https://forums.d2jsp.org/topic.php?t=109985122&f=123",
-      "first_seen_at": "2026-08-24T21:45:40.042642+00:00",
-      "last_checked_at": null,
-      "completed": false,
-      "status": "pending",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=109983759&f=123": {
-      "title": "~ Looking For Budget/starter Cold Sorc ~",
-      "url": "https://forums.d2jsp.org/topic.php?t=109983759&f=123",
-      "first_seen_at": "2026-08-24T21:45:40.042642+00:00",
-      "last_checked_at": "2026-08-25T04:02:41.483272+00:00",
-      "completed": true,
-      "status": "parsed",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=109972851&f=123&o=10": {
-      "title": "2",
-      "url": "https://forums.d2jsp.org/topic.php?t=109972851&f=123&o=10",
-      "first_seen_at": "2026-08-24T21:45:40.042642+00:00",
-      "last_checked_at": null,
-      "completed": false,
-      "status": "pending",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=109972851&f=123&o=20": {
-      "title": "3",
-      "url": "https://forums.d2jsp.org/topic.php?t=109972851&f=123&o=20",
-      "first_seen_at": "2026-08-24T21:45:40.042642+00:00",
-      "last_checked_at": null,
-      "completed": false,
-      "status": "pending",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=109984854&f=123": {
-      "title": "Wozer's Items",
-      "url": "https://forums.d2jsp.org/topic.php?t=109984854&f=123",
-      "first_seen_at": "2026-08-24T21:45:40.042642+00:00",
-      "last_checked_at": "2026-08-25T04:02:42.013645+00:00",
-      "completed": false,
-      "status": "parsed",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=109985112&f=123": {
-      "title": "O Demon Sk",
-      "url": "https://forums.d2jsp.org/topic.php?t=109985112&f=123",
-      "first_seen_at": "2026-08-24T21:45:40.042642+00:00",
-      "last_checked_at": "2026-08-25T09:53:27.048200+00:00",
-      "completed": true,
-      "status": "parsed",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=109984968&f=123": {
-      "title": "Iso Few Items",
-      "url": "https://forums.d2jsp.org/topic.php?t=109984968&f=123",
-      "first_seen_at": "2026-08-24T21:45:40.042642+00:00",
-      "last_checked_at": "2026-08-25T01:54:45.886481+00:00",
-      "completed": false,
-      "status": "parsed",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=109984912&f=123": {
-      "title": "Raven Frost 196/20 Ft",
-      "url": "https://forums.d2jsp.org/topic.php?t=109984912&f=123",
-      "first_seen_at": "2026-08-24T21:45:40.042642+00:00",
-      "last_checked_at": "2026-08-25T07:10:53.275380+00:00",
-      "completed": true,
-      "status": "parsed",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=109985109&f=123": {
-      "title": "Jewel 26 Fr 9 Str",
-      "url": "https://forums.d2jsp.org/topic.php?t=109985109&f=123",
-      "first_seen_at": "2026-08-24T21:45:40.042642+00:00",
-      "last_checked_at": "2026-08-25T01:54:41.751656+00:00",
-      "completed": false,
-      "status": "parsed",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=109985095&f=123": {
-      "title": "Ft 100 Full Rejuvenation Potions",
-      "url": "https://forums.d2jsp.org/topic.php?t=109985095&f=123",
-      "first_seen_at": "2026-08-24T21:45:40.042642+00:00",
-      "last_checked_at": "2026-08-25T01:54:52.643788+00:00",
-      "completed": false,
-      "status": "parsed",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=109985089&f=123": {
-      "title": "Unid Deaths Fahtom Ft",
-      "url": "https://forums.d2jsp.org/topic.php?t=109985089&f=123",
-      "first_seen_at": "2026-08-24T21:45:40.042642+00:00",
-      "last_checked_at": "2026-08-25T04:02:42.423099+00:00",
-      "completed": true,
-      "status": "parsed",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=109978344&f=123": {
-      "title": "Tal Ammy And Armor",
-      "url": "https://forums.d2jsp.org/topic.php?t=109978344&f=123",
-      "first_seen_at": "2026-08-24T21:45:40.042642+00:00",
-      "last_checked_at": "2026-08-25T07:10:52.878159+00:00",
-      "completed": false,
-      "status": "parsed",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=109984976&f=123": {
-      "title": "Amazon Torch 20 13",
-      "url": "https://forums.d2jsp.org/topic.php?t=109984976&f=123",
-      "first_seen_at": "2026-08-24T21:45:40.042642+00:00",
-      "last_checked_at": null,
-      "completed": false,
-      "status": "pending",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=109985069&f=123": {
-      "title": "Need Sigon Boots And Gloves Vs 14.99fg",
-      "url": "https://forums.d2jsp.org/topic.php?t=109985069&f=123",
-      "first_seen_at": "2026-08-24T21:45:40.042642+00:00",
-      "last_checked_at": "2026-08-24T21:46:02.411214+00:00",
-      "completed": false,
-      "status": "parsed",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=109985087&f=123": {
-      "title": "Gul Rune",
-      "url": "https://forums.d2jsp.org/topic.php?t=109985087&f=123",
-      "first_seen_at": "2026-08-24T21:45:40.042642+00:00",
-      "last_checked_at": "2026-08-25T01:54:49.788163+00:00",
-      "completed": false,
-      "status": "parsed",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=109984844&f=123": {
-      "title": "Iso Stormshield",
-      "url": "https://forums.d2jsp.org/topic.php?t=109984844&f=123",
-      "first_seen_at": "2026-08-24T21:45:40.042642+00:00",
-      "last_checked_at": "2026-08-25T01:54:42.982159+00:00",
-      "completed": false,
-      "status": "parsed",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=109984946&f=123": {
-      "title": "Tal Orb",
-      "url": "https://forums.d2jsp.org/topic.php?t=109984946&f=123",
-      "first_seen_at": "2026-08-24T21:45:40.042642+00:00",
-      "last_checked_at": "2026-08-25T07:10:56.886784+00:00",
-      "completed": false,
-      "status": "parsed",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=109930642&f=123": {
-      "title": "## Crush Service ##",
-      "url": "https://forums.d2jsp.org/topic.php?t=109930642&f=123",
-      "first_seen_at": "2026-08-24T21:45:40.042642+00:00",
-      "last_checked_at": null,
-      "completed": false,
-      "status": "pending",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=109930642&f=123&o=10": {
-      "title": "2",
-      "url": "https://forums.d2jsp.org/topic.php?t=109930642&f=123&o=10",
-      "first_seen_at": "2026-08-24T21:45:40.042642+00:00",
-      "last_checked_at": null,
-      "completed": false,
-      "status": "pending",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=109930642&f=123&o=20": {
-      "title": "3",
-      "url": "https://forums.d2jsp.org/topic.php?t=109930642&f=123&o=20",
-      "first_seen_at": "2026-08-24T21:45:40.042642+00:00",
-      "last_checked_at": null,
-      "completed": false,
-      "status": "pending",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=109979947&f=123": {
-      "title": "Need Viper 30+",
-      "url": "https://forums.d2jsp.org/topic.php?t=109979947&f=123",
-      "first_seen_at": "2026-08-24T21:45:40.042642+00:00",
-      "last_checked_at": "2026-08-24T21:46:01.232190+00:00",
-      "completed": false,
-      "status": "parsed",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=109983887&f=123": {
-      "title": "Iso List",
-      "url": "https://forums.d2jsp.org/topic.php?t=109983887&f=123",
-      "first_seen_at": "2026-08-24T21:45:40.042642+00:00",
-      "last_checked_at": "2026-08-25T01:54:44.218709+00:00",
-      "completed": false,
-      "status": "parsed",
-      "samples": []
-    },
     "https://forums.d2jsp.org/topic.php?t=109990886&f=123": {
       "title": "Iso Um Rune",
       "url": "https://forums.d2jsp.org/topic.php?t=109990886&f=123",
@@ -10875,8 +10318,8 @@
       "title": "Lo Rune",
       "url": "https://forums.d2jsp.org/topic.php?t=110107448&f=123",
       "first_seen_at": "2026-08-31T13:56:59.056700+00:00",
-      "last_checked_at": "2026-08-31T13:57:15.800487+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-01T00:38:51.852562+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -11056,8 +10499,8 @@
       "title": "Ohm Ft",
       "url": "https://forums.d2jsp.org/topic.php?t=110107177&f=123",
       "first_seen_at": "2026-08-31T13:56:59.056700+00:00",
-      "last_checked_at": "2026-08-31T13:57:11.650874+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-01T00:38:40.827063+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -11110,7 +10553,7 @@
       "title": "Low Lvl Infi + Sol",
       "url": "https://forums.d2jsp.org/topic.php?t=110106972&f=123",
       "first_seen_at": "2026-08-31T13:56:59.056700+00:00",
-      "last_checked_at": "2026-08-31T13:57:14.633593+00:00",
+      "last_checked_at": "2026-09-01T00:38:44.796003+00:00",
       "completed": false,
       "status": "parsed",
       "samples": []
@@ -11119,59 +10562,10 @@
       "title": "Ohm And Gul",
       "url": "https://forums.d2jsp.org/topic.php?t=110106867&f=123",
       "first_seen_at": "2026-08-31T13:56:59.056700+00:00",
-      "last_checked_at": "2026-08-31T13:57:13.474238+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-01T00:38:41.140370+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Gul",
-          "label": "Gul",
-          "side": "unknown",
-          "price_fg": 105.0,
-          "title": "Ohm And Gul",
-          "url": "https://forums.d2jsp.org/topic.php?t=110106867&f=123",
-          "observed_at": "2026-08-31T13:57:13.474238+00:00",
-          "topic_date": "2026-08-31",
-          "parser_v2": true
-        },
-        {
-          "kind": "rune",
-          "id": "Ohm",
-          "label": "Ohm",
-          "side": "unknown",
-          "price_fg": 400.0,
-          "title": "Ohm And Gul",
-          "url": "https://forums.d2jsp.org/topic.php?t=110106867&f=123",
-          "observed_at": "2026-08-31T13:57:13.474238+00:00",
-          "topic_date": "2026-08-31",
-          "parser_v2": true
-        },
-        {
-          "kind": "rune",
-          "id": "Ohm",
-          "label": "Ohm",
-          "side": "unknown",
-          "price_fg": 2.0,
-          "title": "Ohm And Gul",
-          "url": "https://forums.d2jsp.org/topic.php?t=110106867&f=123",
-          "observed_at": "2026-08-31T13:57:13.474238+00:00",
-          "topic_date": "2026-08-31",
-          "parser_v2": true
-        },
-        {
-          "kind": "rune",
-          "id": "Gul",
-          "label": "Gul",
-          "side": "unknown",
-          "price_fg": 600.0,
-          "title": "Ohm And Gul",
-          "url": "https://forums.d2jsp.org/topic.php?t=110106867&f=123",
-          "observed_at": "2026-08-31T13:57:13.474238+00:00",
-          "topic_date": "2026-08-31",
-          "parser_v2": true
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110106864&f=123": {
       "title": "Ft 2 X Ist Gul",
@@ -11513,7 +10907,250 @@
       "completed": false,
       "status": "parsed",
       "samples": []
+    },
+    "https://forums.d2jsp.org/topic.php?t=110082843&f=123": {
+      "title": "Small Shop",
+      "url": "https://forums.d2jsp.org/topic.php?t=110082843&f=123",
+      "first_seen_at": "2026-09-01T00:38:25.356350+00:00",
+      "last_checked_at": "2026-09-01T00:38:29.833062+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": []
+    },
+    "https://forums.d2jsp.org/topic.php?t=110118448&f=123": {
+      "title": "7mf Sc Each 30 Fg Cheapest 8x Pack",
+      "url": "https://forums.d2jsp.org/topic.php?t=110118448&f=123",
+      "first_seen_at": "2026-09-01T00:38:25.356350+00:00",
+      "last_checked_at": null,
+      "completed": false,
+      "status": "pending",
+      "samples": []
+    },
+    "https://forums.d2jsp.org/topic.php?t=110118447&f=123": {
+      "title": "Talic's Anguish And Shards For Trade",
+      "url": "https://forums.d2jsp.org/topic.php?t=110118447&f=123",
+      "first_seen_at": "2026-09-01T00:38:25.356350+00:00",
+      "last_checked_at": "2026-09-01T00:38:30.193478+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": []
+    },
+    "https://forums.d2jsp.org/topic.php?t=110118445&f=123": {
+      "title": "Mang Songs Archon Staff",
+      "url": "https://forums.d2jsp.org/topic.php?t=110118445&f=123",
+      "first_seen_at": "2026-09-01T00:38:25.356350+00:00",
+      "last_checked_at": "2026-09-01T00:38:36.674259+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": []
+    },
+    "https://forums.d2jsp.org/topic.php?t=110118437&f=123": {
+      "title": "Grush Starting Soon Na Server",
+      "url": "https://forums.d2jsp.org/topic.php?t=110118437&f=123",
+      "first_seen_at": "2026-09-01T00:38:25.356350+00:00",
+      "last_checked_at": "2026-09-01T00:38:40.466028+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": []
+    },
+    "https://forums.d2jsp.org/topic.php?t=110083261&f=123": {
+      "title": "Iso Fire Sorc Gear",
+      "url": "https://forums.d2jsp.org/topic.php?t=110083261&f=123",
+      "first_seen_at": "2026-09-01T00:38:25.356350+00:00",
+      "last_checked_at": "2026-09-01T00:38:39.701401+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": []
+    },
+    "https://forums.d2jsp.org/topic.php?t=110114336&f=123": {
+      "title": "Norm Rushes",
+      "url": "https://forums.d2jsp.org/topic.php?t=110114336&f=123",
+      "first_seen_at": "2026-09-01T00:38:25.356350+00:00",
+      "last_checked_at": "2026-09-01T00:38:32.581924+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": []
+    },
+    "https://forums.d2jsp.org/topic.php?t=110118332&f=123": {
+      "title": "Need Mp Enigma, Pm With Price",
+      "url": "https://forums.d2jsp.org/topic.php?t=110118332&f=123",
+      "first_seen_at": "2026-09-01T00:38:25.356350+00:00",
+      "last_checked_at": "2026-09-01T00:38:33.987765+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": []
+    },
+    "https://forums.d2jsp.org/topic.php?t=110118423&f=123": {
+      "title": "Iso Vex And Pul",
+      "url": "https://forums.d2jsp.org/topic.php?t=110118423&f=123",
+      "first_seen_at": "2026-09-01T00:38:25.356350+00:00",
+      "last_checked_at": "2026-09-01T00:38:37.775206+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": []
+    },
+    "https://forums.d2jsp.org/topic.php?t=110109072&f=123": {
+      "title": "Unid Viper - 130fg",
+      "url": "https://forums.d2jsp.org/topic.php?t=110109072&f=123",
+      "first_seen_at": "2026-09-01T00:38:25.356350+00:00",
+      "last_checked_at": "2026-09-01T00:38:28.769412+00:00",
+      "completed": true,
+      "status": "parsed",
+      "samples": []
+    },
+    "https://forums.d2jsp.org/topic.php?t=109959211&f=123": {
+      "title": "@@@ Molang's Ft @@@",
+      "url": "https://forums.d2jsp.org/topic.php?t=109959211&f=123",
+      "first_seen_at": "2026-09-01T00:38:25.356350+00:00",
+      "last_checked_at": null,
+      "completed": false,
+      "status": "pending",
+      "samples": []
+    },
+    "https://forums.d2jsp.org/topic.php?t=109959211&f=123&o=80": {
+      "title": "9",
+      "url": "https://forums.d2jsp.org/topic.php?t=109959211&f=123&o=80",
+      "first_seen_at": "2026-09-01T00:38:25.356350+00:00",
+      "last_checked_at": null,
+      "completed": false,
+      "status": "pending",
+      "samples": []
+    },
+    "https://forums.d2jsp.org/topic.php?t=109959211&f=123&o=90": {
+      "title": "10",
+      "url": "https://forums.d2jsp.org/topic.php?t=109959211&f=123&o=90",
+      "first_seen_at": "2026-09-01T00:38:25.356350+00:00",
+      "last_checked_at": null,
+      "completed": false,
+      "status": "pending",
+      "samples": []
+    },
+    "https://forums.d2jsp.org/topic.php?t=110118428&f=123": {
+      "title": "+2 Chaos Skills For Warlock Circlet",
+      "url": "https://forums.d2jsp.org/topic.php?t=110118428&f=123",
+      "first_seen_at": "2026-09-01T00:38:25.356350+00:00",
+      "last_checked_at": null,
+      "completed": false,
+      "status": "pending",
+      "samples": []
+    },
+    "https://forums.d2jsp.org/topic.php?t=110118426&f=123": {
+      "title": "Madawc Ire Statue X30",
+      "url": "https://forums.d2jsp.org/topic.php?t=110118426&f=123",
+      "first_seen_at": "2026-09-01T00:38:25.356350+00:00",
+      "last_checked_at": "2026-09-01T00:38:35.112611+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": []
+    },
+    "https://forums.d2jsp.org/topic.php?t=110118425&f=123": {
+      "title": "Perfect Chancies",
+      "url": "https://forums.d2jsp.org/topic.php?t=110118425&f=123",
+      "first_seen_at": "2026-09-01T00:38:25.356350+00:00",
+      "last_checked_at": "2026-09-01T00:38:30.869752+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": []
+    },
+    "https://forums.d2jsp.org/topic.php?t=110118421&f=123": {
+      "title": "Opalvein Cold Damage",
+      "url": "https://forums.d2jsp.org/topic.php?t=110118421&f=123",
+      "first_seen_at": "2026-09-01T00:38:25.356350+00:00",
+      "last_checked_at": "2026-09-01T00:38:31.263744+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": []
+    },
+    "https://forums.d2jsp.org/topic.php?t=110063834&f=123": {
+      "title": "( 10/20 S Torch For 20/10 S Torch )",
+      "url": "https://forums.d2jsp.org/topic.php?t=110063834&f=123",
+      "first_seen_at": "2026-09-01T00:38:25.356350+00:00",
+      "last_checked_at": null,
+      "completed": false,
+      "status": "pending",
+      "samples": []
+    },
+    "https://forums.d2jsp.org/topic.php?t=110118358&f=123": {
+      "title": "10-10-5 Guardians Light",
+      "url": "https://forums.d2jsp.org/topic.php?t=110118358&f=123",
+      "first_seen_at": "2026-09-01T00:38:25.356350+00:00",
+      "last_checked_at": null,
+      "completed": false,
+      "status": "pending",
+      "samples": []
+    },
+    "https://forums.d2jsp.org/topic.php?t=110118416&f=123": {
+      "title": "Cheap Sorc Torch 14-16",
+      "url": "https://forums.d2jsp.org/topic.php?t=110118416&f=123",
+      "first_seen_at": "2026-09-01T00:38:25.356350+00:00",
+      "last_checked_at": null,
+      "completed": false,
+      "status": "pending",
+      "samples": []
+    },
+    "https://forums.d2jsp.org/topic.php?t=110118413&f=123": {
+      "title": "Oculus",
+      "url": "https://forums.d2jsp.org/topic.php?t=110118413&f=123",
+      "first_seen_at": "2026-09-01T00:38:25.356350+00:00",
+      "last_checked_at": "2026-09-01T00:38:31.958651+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": []
+    },
+    "https://forums.d2jsp.org/topic.php?t=110110481&f=123": {
+      "title": "Latent Black Cleft Ft",
+      "url": "https://forums.d2jsp.org/topic.php?t=110110481&f=123",
+      "first_seen_at": "2026-09-01T00:38:25.356350+00:00",
+      "last_checked_at": "2026-09-01T00:38:36.420958+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": []
+    },
+    "https://forums.d2jsp.org/topic.php?t=110118403&f=123": {
+      "title": "Iso Ist",
+      "url": "https://forums.d2jsp.org/topic.php?t=110118403&f=123",
+      "first_seen_at": "2026-09-01T00:38:25.356350+00:00",
+      "last_checked_at": "2026-09-01T00:38:38.334531+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": []
+    },
+    "https://forums.d2jsp.org/topic.php?t=110118409&f=123": {
+      "title": "Trangs Gloves / Aldur Boots",
+      "url": "https://forums.d2jsp.org/topic.php?t=110118409&f=123",
+      "first_seen_at": "2026-09-01T00:38:25.356350+00:00",
+      "last_checked_at": "2026-09-01T00:38:28.689975+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": []
+    },
+    "https://forums.d2jsp.org/topic.php?t=110118405&f=123": {
+      "title": "Dwarf Star",
+      "url": "https://forums.d2jsp.org/topic.php?t=110118405&f=123",
+      "first_seen_at": "2026-09-01T00:38:25.356350+00:00",
+      "last_checked_at": null,
+      "completed": false,
+      "status": "pending",
+      "samples": []
+    },
+    "https://forums.d2jsp.org/topic.php?t=110113141&f=123": {
+      "title": "Ft Tal Amu -= 250fg",
+      "url": "https://forums.d2jsp.org/topic.php?t=110113141&f=123",
+      "first_seen_at": "2026-09-01T00:38:25.356350+00:00",
+      "last_checked_at": "2026-09-01T00:38:40.756799+00:00",
+      "completed": true,
+      "status": "parsed",
+      "samples": []
+    },
+    "https://forums.d2jsp.org/topic.php?t=110118400&f=123": {
+      "title": "Horazons Gloves X3",
+      "url": "https://forums.d2jsp.org/topic.php?t=110118400&f=123",
+      "first_seen_at": "2026-09-01T00:38:25.356350+00:00",
+      "last_checked_at": "2026-09-01T00:38:39.455747+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": []
     }
   },
-  "updated_at": "2026-08-31T20:51:54.678218+00:00"
+  "updated_at": "2026-09-01T00:38:51.853201+00:00"
 }

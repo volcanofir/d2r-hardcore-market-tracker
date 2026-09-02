@@ -1,37 +1,37 @@
 {
-  "updated_at": "2026-09-02T11:34:55.359666+00:00",
+  "updated_at": "2026-09-02T16:45:33.434184+00:00",
   "source_policy": "season15-items-static-catalog-v3",
   "catalog_items": 585,
   "forum_pages": [
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123",
       "offset": 0,
-      "topics": 30,
-      "bytes": 10705
+      "topics": 0,
+      "bytes": 276
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=25",
       "offset": 25,
-      "topics": 38,
-      "bytes": 11163
+      "topics": 0,
+      "bytes": 281
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=50",
       "offset": 50,
-      "topics": 27,
-      "bytes": 10486
+      "topics": 31,
+      "bytes": 10641
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=75",
       "offset": 75,
-      "topics": 30,
-      "bytes": 10973
+      "topics": 29,
+      "bytes": 10698
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=100",
       "offset": 100,
-      "topics": 29,
-      "bytes": 10648
+      "topics": 0,
+      "bytes": 282
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=125",
@@ -42,26 +42,26 @@
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=150",
       "offset": 150,
-      "topics": 29,
-      "bytes": 10460
+      "topics": 0,
+      "bytes": 282
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=175",
       "offset": 175,
-      "topics": 28,
-      "bytes": 10796
+      "topics": 0,
+      "bytes": 282
     }
   ],
-  "discovered_topics": 209,
-  "cached_topics": 342,
-  "selected_topics": 207,
-  "parsed_this_run": 206,
-  "combined_samples": 155,
-  "market_items": 95,
+  "discovered_topics": 60,
+  "cached_topics": 401,
+  "selected_topics": 60,
+  "parsed_this_run": 59,
+  "combined_samples": 199,
+  "market_items": 108,
   "topic_errors": [
     {
-      "url": "https://forums.d2jsp.org/topic.php?t=110124893&f=123",
-      "title": "Hcl Daily Shop",
+      "url": "https://forums.d2jsp.org/topic.php?t=110141027&f=123",
+      "title": "Ft Ik Set Socketed",
       "reason": "new",
       "error": "429 Too Many Requests (5/5)"
     }

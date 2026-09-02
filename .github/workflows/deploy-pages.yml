@@ -7,6 +7,7 @@ on:
     paths:
       - 'site/**'
       - 'data/**'
+      - 'config/watchlist.json'
       - '.github/workflows/deploy-pages.yml'
   workflow_run:
     workflows: ['Update D2R market']
@@ -43,6 +44,7 @@ jobs:
           cp -R site/. _site/
           cp data/market.json _site/data/market.json
           cp data/history.json _site/data/history.json
+          cp config/watchlist.json _site/data/watchlist.json
           sed -i 's#\.\./data/#./data/#g' _site/app.js
           test -s _site/assets/runes-user-final-128-q88.webp
           echo "Rune sprite: $(stat -c%s _site/assets/runes-user-final-128-q88.webp) bytes"

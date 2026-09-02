@@ -129,9 +129,15 @@ def sample_valid(sample):
     if value > RUNE_MAX_FG[rune] or named_rune_context(rune, title):
         return False
 
-    # After switching sources, old parser-v1/v2 rune samples are deliberately
-    # not trusted. Every rune quote must be rebuilt from the c=2 Runes filter.
-    return sample.get("parser_v3") is True
+    # During parse_topic(), a newly extracted quote has not yet received its
+    # parser_v3 marker. Allow that transient sample through; season_parse_topic
+    # immediately tags it before it reaches cache/aggregation. Explicit v1/v2
+    # cached samples remain rejected.
+    if sample.get("parser_v3") is True:
+        return True
+    if sample.get("parser_v2") or sample.get("legacy") or sample.get("topic_date"):
+        return False
+    return True
 
 
 def strict_line_prices(line):

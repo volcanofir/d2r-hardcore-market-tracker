@@ -6,6 +6,45 @@ OLD_RE = base.OLD_RE
 QLVL_RE = base.QLVL_RE
 TC_RE = base.TC_RE
 
+# D2R World root index is static. Store all set names explicitly so this one-time
+# import does not depend on how the text gateway serializes navigation links.
+SET_GROUPS = [
+    ("北極裝備", "Arctic Gear"),
+    ("海沙魯的鐵禦", "Hsarus' Defense"),
+    ("狂戰士的武裝", "Berserker's Arsenal"),
+    ("克雷德勞的防備", "Cleglaw's Brace"),
+    ("煉獄器具", "Infernal Tools"),
+    ("貝恩的衣裝", "Bane's Garments"),
+    ("死亡的偽裝", "Death's Disguise"),
+    ("西剛的全套鋼甲", "Sigon's Complete Steel"),
+    ("依森哈特的軍械", "Isenhart's Armory"),
+    ("克維雷布的法衣", "Civerb's Vestments"),
+    ("卡珊的衣著", "Cathan's Traps"),
+    ("天使的衣裝", "Angelic Raiment"),
+    ("維達拉的配備", "Vidala's Rig"),
+    ("牛王皮甲", "Cow King's Leathers"),
+    ("阿卡娜的詭計", "Arcanna's Tricks"),
+    ("山德的愚行", "Sander's Folly"),
+    ("依雷撒的華服", "Iratha's Finery"),
+    ("馬維娜之戰鬥詩歌", "M'avina's Battle Hymn"),
+    ("娜塔亞的非難", "Natalya's Odium"),
+    ("米拉伯佳戰裝", "Milabrega's Regalia"),
+    ("塔拉夏的外袍", "Tal Rasha's Wrappings"),
+    ("坦克雷的戰裝", "Tancred's Battlegear"),
+    ("桓因的威嚴", "Hwanin's Majesty"),
+    ("艾爾多的守衛", "Aldur's Watchtower"),
+    ("塔格奧的化身", "Trang-Oul's Avatar"),
+    ("沙薩比的崇高禮讚", "Sazabi's Grand Tribute"),
+    ("不朽之王", "Immortal King"),
+    ("門徒", "The Disciple"),
+    ("赫拉森的輝煌", "Horazon's Splendor"),
+    ("孤兒的呼喚", "Orphan's Call"),
+    ("娜吉的上古遺物", "Naj's Ancient Vestige"),
+    ("格里斯瓦德的傳奇", "Griswold's Legacy"),
+    ("布爾凱索的子嗣", "Bul-Kathos' Children"),
+    ("天堂的同胞", "Heaven's Brethren"),
+]
+
 
 def parse_category(slug, category):
     url = f"{base.BASE_URL}/{slug}"
@@ -14,8 +53,8 @@ def parse_category(slug, category):
     current = None
     seen = set()
 
-    # Category URLs already contain only that piece type. Do not depend on
-    # the rendered section heading; Jina may render it as Markdown (## 武器).
+    # Each category URL already contains only that piece type. Parse item cards
+    # directly instead of depending on a rendered heading such as "## 武器".
     for i, line in enumerate(lines):
         m = ITEM_RE.match(line)
         if m:
@@ -62,31 +101,15 @@ def parse_category(slug, category):
 
 
 def parse_set_groups():
-    markdown = base.reader(base.BASE_URL)
-    # Accept both absolute and relative links emitted by the text gateway.
-    link_re = re.compile(
-        r"\[([^\]]+?)\]\(((?:https://d2r\.world)?/zh-TW/info/item/sets/([a-z0-9_]+))\)",
-        re.I,
-    )
-    groups = []
-    seen = set()
-    for text, href, slug in link_re.findall(markdown):
-        if slug in base.NON_SET_SLUGS or slug in seen:
-            continue
-        seen.add(slug)
-        display = re.sub(r"\s+", " ", text).strip()
-        m = re.match(
-            r"^(.*?)([A-Z][A-Za-z0-9'’\- ]+?)(?:\s*(?:亞馬遜|刺客|魔法使|德魯伊|死靈法師|野蠻人|術士|聖騎士))?$",
-            display,
-        )
-        zh, en = display, display
-        if m:
-            zh, en = m.group(1).strip(), m.group(2).strip()
-        url = href if href.startswith("http") else "https://d2r.world" + href
-        groups.append({"slug": slug, "name_zh": zh, "name_en": en, "source_url": url})
-    if len(groups) < 30:
-        raise RuntimeError(f"Set group discovery incomplete: {len(groups)}")
-    return groups
+    return [
+        {
+            "slug": base.slugify(en),
+            "name_zh": zh,
+            "name_en": en,
+            "source_url": base.BASE_URL,
+        }
+        for zh, en in SET_GROUPS
+    ]
 
 
 base.parse_category = parse_category

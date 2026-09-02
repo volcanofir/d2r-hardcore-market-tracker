@@ -1,0 +1,18 @@
+{
+  "name": "D2R Season 15 市場追蹤",
+  "short_name": "D2R Market",
+  "description": "Diablo II: Resurrected Hardcore Ladder Season 15 市場行情追蹤",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#080a0b",
+  "theme_color": "#080a0b",
+  "icons": [
+    {
+      "src": "app-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

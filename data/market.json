@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-09-02T10:42:44.270339+00:00",
+  "updated_at": "2026-09-02T10:50:43.778750+00:00",
   "forum": "https://forums.d2jsp.org/forum.php?f=123&c=2",
   "topic_count": 351,
   "cached_topics": 414,
   "parsed_topics": 414,
   "completed_topics": 85,
-  "parsed_this_run": 2,
+  "parsed_this_run": 0,
   "sample_count": 196,
   "legacy_sample_count": 0,
   "market": [
@@ -3411,377 +3411,6 @@
     },
     {
       "kind": "item",
-      "id": "hoz",
-      "label": "撒卡蘭姆使者 (Herald of Zakarum / HoZ)",
-      "fair_fg": 75.0,
-      "iso_fg": null,
-      "ft_fg": null,
-      "trade_fg": null,
-      "samples": 1,
-      "confidence": "low",
-      "last_seen_at": "2026-09-02T10:13:29.288102+00:00",
-      "sources": [
-        {
-          "kind": "item",
-          "id": "hoz",
-          "label": "撒卡蘭姆使者 (Herald of Zakarum / HoZ)",
-          "category": "盾牌",
-          "side": "unknown",
-          "price_fg": 75.0,
-          "title": "3",
-          "url": "https://forums.d2jsp.org/topic.php?t=110113035&f=123&o=20",
-          "observed_at": "2026-09-02T10:13:29.288102+00:00",
-          "topic_date": "2026-09-01",
-          "item_parser_v2": true
-        }
-      ],
-      "category": "盾牌"
-    },
-    {
-      "kind": "item",
-      "id": "stormshield",
-      "label": "暴風之盾 (Stormshield / SS)",
-      "fair_fg": 75.0,
-      "iso_fg": null,
-      "ft_fg": null,
-      "trade_fg": 100.0,
-      "samples": 6,
-      "confidence": "medium",
-      "last_seen_at": "2026-09-02T10:42:37.305466+00:00",
-      "sources": [
-        {
-          "kind": "item",
-          "id": "stormshield",
-          "label": "暴風之盾 (Stormshield / SS)",
-          "category": "盾牌",
-          "side": "unknown",
-          "price_fg": 50.0,
-          "title": "/=/ Shop For Everybody \\=\\",
-          "url": "https://forums.d2jsp.org/topic.php?t=110135135&f=123",
-          "observed_at": "2026-09-02T10:42:37.305466+00:00",
-          "topic_date": "2026-09-01",
-          "item_parser_v2": true
-        },
-        {
-          "kind": "item",
-          "id": "stormshield",
-          "label": "暴風之盾 (Stormshield / SS)",
-          "category": "盾牌",
-          "side": "unknown",
-          "price_fg": 100.0,
-          "title": "/=/ Shop For Everybody \\=\\",
-          "url": "https://forums.d2jsp.org/topic.php?t=110135135&f=123",
-          "observed_at": "2026-09-02T10:42:37.305466+00:00",
-          "topic_date": "2026-09-01",
-          "item_parser_v2": true
-        },
-        {
-          "kind": "item",
-          "id": "stormshield",
-          "label": "暴風之盾 (Stormshield / SS)",
-          "category": "盾牌",
-          "side": "trade",
-          "price_fg": 100.0,
-          "title": "/=/ Shop For Everybody \\=\\ · T4T/sold signal",
-          "url": "https://forums.d2jsp.org/topic.php?t=110135135&f=123",
-          "observed_at": "2026-09-02T10:42:37.305466+00:00",
-          "topic_date": "2026-09-01",
-          "item_parser_v2": true
-        },
-        {
-          "kind": "item",
-          "id": "stormshield",
-          "label": "暴風之盾 (Stormshield / SS)",
-          "category": "盾牌",
-          "side": "unknown",
-          "price_fg": 80.0,
-          "title": "3",
-          "url": "https://forums.d2jsp.org/topic.php?t=110113035&f=123&o=20",
-          "observed_at": "2026-09-02T10:13:29.288102+00:00",
-          "topic_date": "2026-09-01",
-          "item_parser_v2": true
-        },
-        {
-          "kind": "item",
-          "id": "stormshield",
-          "label": "暴風之盾 (Stormshield / SS)",
-          "category": "盾牌",
-          "side": "unknown",
-          "price_fg": 15.0,
-          "title": "4",
-          "url": "https://forums.d2jsp.org/topic.php?t=110113035&f=123&o=30",
-          "observed_at": "2026-09-02T10:13:23.074044+00:00",
-          "topic_date": "2026-09-01",
-          "item_parser_v2": true
-        },
-        {
-          "kind": "item",
-          "id": "stormshield",
-          "label": "暴風之盾 (Stormshield / SS)",
-          "category": "盾牌",
-          "side": "unknown",
-          "price_fg": 70.0,
-          "title": "@@ Daily List With Prices @@",
-          "url": "https://forums.d2jsp.org/topic.php?t=110136184&f=123",
-          "observed_at": "2026-09-02T10:12:57.263419+00:00",
-          "topic_date": "2026-09-02",
-          "item_parser_v2": true
-        },
-        {
-          "kind": "item",
-          "id": "stormshield",
-          "label": "暴風之盾 (Stormshield / SS)",
-          "category": "盾牌",
-          "side": "unknown",
-          "price_fg": 120.0,
-          "title": "@@ Daily List With Prices @@",
-          "url": "https://forums.d2jsp.org/topic.php?t=110136184&f=123",
-          "observed_at": "2026-09-02T10:12:57.263419+00:00",
-          "topic_date": "2026-09-02",
-          "item_parser_v2": true
-        }
-      ],
-      "category": "盾牌"
-    },
-    {
-      "kind": "item",
-      "id": "raven-frost",
-      "label": "烏鴉之霜 (Raven Frost / Raven)",
-      "fair_fg": 40.0,
-      "iso_fg": null,
-      "ft_fg": null,
-      "trade_fg": null,
-      "samples": 2,
-      "confidence": "low",
-      "last_seen_at": "2026-09-02T10:13:29.288102+00:00",
-      "sources": [
-        {
-          "kind": "item",
-          "id": "raven-frost",
-          "label": "烏鴉之霜 (Raven Frost / Raven)",
-          "category": "戒指與護身符",
-          "side": "unknown",
-          "price_fg": 40.0,
-          "title": "3",
-          "url": "https://forums.d2jsp.org/topic.php?t=110113035&f=123&o=20",
-          "observed_at": "2026-09-02T10:13:29.288102+00:00",
-          "topic_date": "2026-09-01",
-          "item_parser_v2": true
-        },
-        {
-          "kind": "item",
-          "id": "raven-frost",
-          "label": "烏鴉之霜 (Raven Frost / Raven)",
-          "category": "戒指與護身符",
-          "side": "unknown",
-          "price_fg": 40.0,
-          "title": "4",
-          "url": "https://forums.d2jsp.org/topic.php?t=110113035&f=123&o=30",
-          "observed_at": "2026-09-02T10:13:23.074044+00:00",
-          "topic_date": "2026-09-01",
-          "item_parser_v2": true
-        }
-      ],
-      "category": "戒指與護身符"
-    },
-    {
-      "kind": "item",
-      "id": "unique-gheed-s-wager",
-      "label": "基德的賭注 (Gheed's Wager)",
-      "fair_fg": 100.0,
-      "iso_fg": null,
-      "ft_fg": null,
-      "trade_fg": null,
-      "samples": 1,
-      "confidence": "low",
-      "last_seen_at": "2026-09-02T10:12:57.263419+00:00",
-      "sources": [
-        {
-          "kind": "item",
-          "id": "unique-gheed-s-wager",
-          "label": "基德的賭注 (Gheed's Wager)",
-          "category": "腰帶",
-          "side": "unknown",
-          "price_fg": 100.0,
-          "title": "@@ Daily List With Prices @@",
-          "url": "https://forums.d2jsp.org/topic.php?t=110136184&f=123",
-          "observed_at": "2026-09-02T10:12:57.263419+00:00",
-          "topic_date": "2026-09-02",
-          "item_parser_v2": true
-        }
-      ],
-      "category": "腰帶"
-    },
-    {
-      "kind": "item",
-      "id": "waterwalk",
-      "label": "水上飄 (Waterwalk / WWalk)",
-      "fair_fg": 100.0,
-      "iso_fg": null,
-      "ft_fg": null,
-      "trade_fg": null,
-      "samples": 1,
-      "confidence": "low",
-      "last_seen_at": "2026-09-02T10:12:57.263419+00:00",
-      "sources": [
-        {
-          "kind": "item",
-          "id": "waterwalk",
-          "label": "水上飄 (Waterwalk / WWalk)",
-          "category": "靴子",
-          "side": "unknown",
-          "price_fg": 100.0,
-          "title": "@@ Daily List With Prices @@",
-          "url": "https://forums.d2jsp.org/topic.php?t=110136184&f=123",
-          "observed_at": "2026-09-02T10:12:57.263419+00:00",
-          "topic_date": "2026-09-02",
-          "item_parser_v2": true
-        }
-      ],
-      "category": "靴子"
-    },
-    {
-      "kind": "item",
-      "id": "tal-armor",
-      "label": "漆黑甲 (Tal Rasha's Guardianship / Tal Armor)",
-      "fair_fg": 380.0,
-      "iso_fg": null,
-      "ft_fg": null,
-      "trade_fg": null,
-      "samples": 1,
-      "confidence": "low",
-      "last_seen_at": "2026-09-02T10:12:57.263419+00:00",
-      "sources": [
-        {
-          "kind": "item",
-          "id": "tal-armor",
-          "label": "漆黑甲 (Tal Rasha's Guardianship / Tal Armor)",
-          "category": "熱門套裝部件",
-          "side": "unknown",
-          "price_fg": 380.0,
-          "title": "@@ Daily List With Prices @@",
-          "url": "https://forums.d2jsp.org/topic.php?t=110136184&f=123",
-          "observed_at": "2026-09-02T10:12:57.263419+00:00",
-          "topic_date": "2026-09-02",
-          "item_parser_v2": true
-        }
-      ],
-      "category": "熱門套裝部件"
-    },
-    {
-      "kind": "item",
-      "id": "unique-tomb-reaver",
-      "label": "盜墓者 (Tomb Reaver)",
-      "fair_fg": 50.0,
-      "iso_fg": null,
-      "ft_fg": null,
-      "trade_fg": null,
-      "samples": 1,
-      "confidence": "low",
-      "last_seen_at": "2026-09-02T10:12:57.263419+00:00",
-      "sources": [
-        {
-          "kind": "item",
-          "id": "unique-tomb-reaver",
-          "label": "盜墓者 (Tomb Reaver)",
-          "category": "長柄武器",
-          "side": "unknown",
-          "price_fg": 50.0,
-          "title": "@@ Daily List With Prices @@",
-          "url": "https://forums.d2jsp.org/topic.php?t=110136184&f=123",
-          "observed_at": "2026-09-02T10:12:57.263419+00:00",
-          "topic_date": "2026-09-02",
-          "item_parser_v2": true
-        }
-      ],
-      "category": "長柄武器"
-    },
-    {
-      "kind": "item",
-      "id": "titans-revenge",
-      "label": "泰坦的復仇 (Titan's Revenge / Titans)",
-      "fair_fg": 100.0,
-      "iso_fg": null,
-      "ft_fg": null,
-      "trade_fg": null,
-      "samples": 1,
-      "confidence": "low",
-      "last_seen_at": "2026-09-02T10:12:57.263419+00:00",
-      "sources": [
-        {
-          "kind": "item",
-          "id": "titans-revenge",
-          "label": "泰坦的復仇 (Titan's Revenge / Titans)",
-          "category": "武器",
-          "side": "unknown",
-          "price_fg": 100.0,
-          "title": "@@ Daily List With Prices @@",
-          "url": "https://forums.d2jsp.org/topic.php?t=110136184&f=123",
-          "observed_at": "2026-09-02T10:12:57.263419+00:00",
-          "topic_date": "2026-09-02",
-          "item_parser_v2": true
-        }
-      ],
-      "category": "武器"
-    },
-    {
-      "kind": "item",
-      "id": "unique-guardian-s-thunder",
-      "label": "守護者的閃電 (Guardian's Thunder)",
-      "fair_fg": 400.0,
-      "iso_fg": null,
-      "ft_fg": null,
-      "trade_fg": null,
-      "samples": 1,
-      "confidence": "low",
-      "last_seen_at": "2026-09-02T10:13:12.994367+00:00",
-      "sources": [
-        {
-          "kind": "item",
-          "id": "unique-guardian-s-thunder",
-          "label": "守護者的閃電 (Guardian's Thunder)",
-          "category": "珠寶",
-          "side": "unknown",
-          "price_fg": 400.0,
-          "title": "5",
-          "url": "https://forums.d2jsp.org/topic.php?t=110018451&f=123&o=40",
-          "observed_at": "2026-09-02T10:13:12.994367+00:00",
-          "topic_date": "2026-08-30",
-          "item_parser_v2": true
-        }
-      ],
-      "category": "珠寶"
-    },
-    {
-      "kind": "item",
-      "id": "unique-opalvein",
-      "label": "蛋白石脈 (Opalvein)",
-      "fair_fg": 1000.0,
-      "iso_fg": 1000.0,
-      "ft_fg": null,
-      "trade_fg": null,
-      "samples": 1,
-      "confidence": "low",
-      "last_seen_at": "2026-09-02T10:12:18.540305+00:00",
-      "sources": [
-        {
-          "kind": "item",
-          "id": "unique-opalvein",
-          "label": "蛋白石脈 (Opalvein)",
-          "category": "戒指",
-          "side": "iso",
-          "price_fg": 1000.0,
-          "title": "Paying Fg For My Iso List",
-          "url": "https://forums.d2jsp.org/topic.php?t=110137142&f=123",
-          "observed_at": "2026-09-02T10:12:18.540305+00:00",
-          "topic_date": "2026-09-02",
-          "item_parser_v2": true
-        }
-      ],
-      "category": "戒指"
-    },
-    {
-      "kind": "item",
       "id": "trap-skiller",
       "label": "刺客陷阱技能超大護身符 (Trap Skiller)",
       "fair_fg": 30.0,
@@ -3790,7 +3419,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-09-02T10:40:24.759928+00:00",
+      "last_seen_at": "2026-09-02T10:46:12.399708+00:00",
       "sources": [
         {
           "kind": "item",
@@ -3801,7 +3430,7 @@
           "price_fg": 30.0,
           "title": "Item List Today",
           "url": "https://forums.d2jsp.org/topic.php?t=110126011&f=123",
-          "observed_at": "2026-09-02T10:40:24.759928+00:00",
+          "observed_at": "2026-09-02T10:46:12.399708+00:00",
           "topic_date": "2026-09-01",
           "item_parser_v2": true
         }
@@ -3818,7 +3447,7 @@
       "trade_fg": null,
       "samples": 2,
       "confidence": "low",
-      "last_seen_at": "2026-09-02T10:40:24.759928+00:00",
+      "last_seen_at": "2026-09-02T10:46:12.399708+00:00",
       "sources": [
         {
           "kind": "item",
@@ -3829,7 +3458,7 @@
           "price_fg": 10.0,
           "title": "Item List Today",
           "url": "https://forums.d2jsp.org/topic.php?t=110126011&f=123",
-          "observed_at": "2026-09-02T10:40:24.759928+00:00",
+          "observed_at": "2026-09-02T10:46:12.399708+00:00",
           "topic_date": "2026-09-01",
           "item_parser_v2": true
         },
@@ -3842,7 +3471,7 @@
           "price_fg": 50.0,
           "title": "Item List Today",
           "url": "https://forums.d2jsp.org/topic.php?t=110126011&f=123",
-          "observed_at": "2026-09-02T10:40:24.759928+00:00",
+          "observed_at": "2026-09-02T10:46:12.399708+00:00",
           "topic_date": "2026-09-01",
           "item_parser_v2": true
         }
@@ -3859,7 +3488,7 @@
       "trade_fg": null,
       "samples": 2,
       "confidence": "low",
-      "last_seen_at": "2026-09-02T10:40:24.759928+00:00",
+      "last_seen_at": "2026-09-02T10:46:12.399708+00:00",
       "sources": [
         {
           "kind": "item",
@@ -3870,7 +3499,7 @@
           "price_fg": 30.0,
           "title": "Item List Today",
           "url": "https://forums.d2jsp.org/topic.php?t=110126011&f=123",
-          "observed_at": "2026-09-02T10:40:24.759928+00:00",
+          "observed_at": "2026-09-02T10:46:12.399708+00:00",
           "topic_date": "2026-09-01",
           "item_parser_v2": true
         },
@@ -3883,7 +3512,7 @@
           "price_fg": 10.0,
           "title": "Item List Today",
           "url": "https://forums.d2jsp.org/topic.php?t=110126011&f=123",
-          "observed_at": "2026-09-02T10:40:24.759928+00:00",
+          "observed_at": "2026-09-02T10:46:12.399708+00:00",
           "topic_date": "2026-09-01",
           "item_parser_v2": true
         }
@@ -3900,7 +3529,7 @@
       "trade_fg": null,
       "samples": 2,
       "confidence": "low",
-      "last_seen_at": "2026-09-02T10:41:40.780678+00:00",
+      "last_seen_at": "2026-09-02T10:48:27.885484+00:00",
       "sources": [
         {
           "kind": "item",
@@ -3911,7 +3540,7 @@
           "price_fg": 40.0,
           "title": "Arcadian's Attic",
           "url": "https://forums.d2jsp.org/topic.php?t=110019067&f=123",
-          "observed_at": "2026-09-02T10:41:40.780678+00:00",
+          "observed_at": "2026-09-02T10:48:27.885484+00:00",
           "topic_date": "2026-09-02",
           "item_parser_v2": true
         },
@@ -3924,7 +3553,7 @@
           "price_fg": 80.0,
           "title": "Item List Today",
           "url": "https://forums.d2jsp.org/topic.php?t=110126011&f=123",
-          "observed_at": "2026-09-02T10:40:24.759928+00:00",
+          "observed_at": "2026-09-02T10:46:12.399708+00:00",
           "topic_date": "2026-09-01",
           "item_parser_v2": true
         }
@@ -3941,7 +3570,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-09-02T10:40:24.759928+00:00",
+      "last_seen_at": "2026-09-02T10:46:12.399708+00:00",
       "sources": [
         {
           "kind": "item",
@@ -3952,7 +3581,7 @@
           "price_fg": 10.0,
           "title": "Item List Today",
           "url": "https://forums.d2jsp.org/topic.php?t=110126011&f=123",
-          "observed_at": "2026-09-02T10:40:24.759928+00:00",
+          "observed_at": "2026-09-02T10:46:12.399708+00:00",
           "topic_date": "2026-09-01",
           "item_parser_v2": true
         }
@@ -3969,7 +3598,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-09-02T10:40:24.759928+00:00",
+      "last_seen_at": "2026-09-02T10:46:12.399708+00:00",
       "sources": [
         {
           "kind": "item",
@@ -3980,7 +3609,7 @@
           "price_fg": 50.0,
           "title": "Item List Today",
           "url": "https://forums.d2jsp.org/topic.php?t=110126011&f=123",
-          "observed_at": "2026-09-02T10:40:24.759928+00:00",
+          "observed_at": "2026-09-02T10:46:12.399708+00:00",
           "topic_date": "2026-09-01",
           "item_parser_v2": true
         }
@@ -3997,7 +3626,7 @@
       "trade_fg": null,
       "samples": 2,
       "confidence": "low",
-      "last_seen_at": "2026-09-02T10:41:09.580073+00:00",
+      "last_seen_at": "2026-09-02T10:47:52.918406+00:00",
       "sources": [
         {
           "kind": "item",
@@ -4008,7 +3637,7 @@
           "price_fg": 30.0,
           "title": "Ft My Shop",
           "url": "https://forums.d2jsp.org/topic.php?t=110125903&f=123",
-          "observed_at": "2026-09-02T10:41:09.580073+00:00",
+          "observed_at": "2026-09-02T10:47:52.918406+00:00",
           "topic_date": "2026-09-01",
           "item_parser_v2": true
         },
@@ -4021,7 +3650,7 @@
           "price_fg": 20.0,
           "title": "Item List Today",
           "url": "https://forums.d2jsp.org/topic.php?t=110126011&f=123",
-          "observed_at": "2026-09-02T10:40:24.759928+00:00",
+          "observed_at": "2026-09-02T10:46:12.399708+00:00",
           "topic_date": "2026-09-01",
           "item_parser_v2": true
         }
@@ -4038,7 +3667,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-09-02T10:40:24.759928+00:00",
+      "last_seen_at": "2026-09-02T10:46:12.399708+00:00",
       "sources": [
         {
           "kind": "item",
@@ -4049,7 +3678,7 @@
           "price_fg": 30.0,
           "title": "Item List Today",
           "url": "https://forums.d2jsp.org/topic.php?t=110126011&f=123",
-          "observed_at": "2026-09-02T10:40:24.759928+00:00",
+          "observed_at": "2026-09-02T10:46:12.399708+00:00",
           "topic_date": "2026-09-01",
           "item_parser_v2": true
         }
@@ -4066,7 +3695,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-09-02T10:40:24.759928+00:00",
+      "last_seen_at": "2026-09-02T10:46:12.399708+00:00",
       "sources": [
         {
           "kind": "item",
@@ -4077,7 +3706,7 @@
           "price_fg": 10.0,
           "title": "Item List Today",
           "url": "https://forums.d2jsp.org/topic.php?t=110126011&f=123",
-          "observed_at": "2026-09-02T10:40:24.759928+00:00",
+          "observed_at": "2026-09-02T10:46:12.399708+00:00",
           "topic_date": "2026-09-01",
           "item_parser_v2": true
         }
@@ -4094,7 +3723,7 @@
       "trade_fg": null,
       "samples": 3,
       "confidence": "low",
-      "last_seen_at": "2026-09-02T10:41:13.977777+00:00",
+      "last_seen_at": "2026-09-02T10:47:49.242248+00:00",
       "sources": [
         {
           "kind": "item",
@@ -4105,7 +3734,7 @@
           "price_fg": 25.0,
           "title": "Ft List",
           "url": "https://forums.d2jsp.org/topic.php?t=110135418&f=123",
-          "observed_at": "2026-09-02T10:41:13.977777+00:00",
+          "observed_at": "2026-09-02T10:47:49.242248+00:00",
           "topic_date": "2026-09-02",
           "item_parser_v2": true
         },
@@ -4118,7 +3747,7 @@
           "price_fg": 40.0,
           "title": "Ft List",
           "url": "https://forums.d2jsp.org/topic.php?t=110135418&f=123",
-          "observed_at": "2026-09-02T10:41:13.977777+00:00",
+          "observed_at": "2026-09-02T10:47:49.242248+00:00",
           "topic_date": "2026-09-02",
           "item_parser_v2": true
         },
@@ -4131,7 +3760,7 @@
           "price_fg": 30.0,
           "title": "Item List Today",
           "url": "https://forums.d2jsp.org/topic.php?t=110126011&f=123",
-          "observed_at": "2026-09-02T10:40:24.759928+00:00",
+          "observed_at": "2026-09-02T10:46:12.399708+00:00",
           "topic_date": "2026-09-01",
           "item_parser_v2": true
         }
@@ -4148,7 +3777,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-09-02T10:40:24.759928+00:00",
+      "last_seen_at": "2026-09-02T10:46:12.399708+00:00",
       "sources": [
         {
           "kind": "item",
@@ -4159,7 +3788,7 @@
           "price_fg": 30.0,
           "title": "Item List Today",
           "url": "https://forums.d2jsp.org/topic.php?t=110126011&f=123",
-          "observed_at": "2026-09-02T10:40:24.759928+00:00",
+          "observed_at": "2026-09-02T10:46:12.399708+00:00",
           "topic_date": "2026-09-01",
           "item_parser_v2": true
         }
@@ -4176,7 +3805,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-09-02T10:40:24.759928+00:00",
+      "last_seen_at": "2026-09-02T10:46:12.399708+00:00",
       "sources": [
         {
           "kind": "item",
@@ -4187,7 +3816,7 @@
           "price_fg": 100.0,
           "title": "Item List Today",
           "url": "https://forums.d2jsp.org/topic.php?t=110126011&f=123",
-          "observed_at": "2026-09-02T10:40:24.759928+00:00",
+          "observed_at": "2026-09-02T10:46:12.399708+00:00",
           "topic_date": "2026-09-01",
           "item_parser_v2": true
         }
@@ -4204,7 +3833,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-09-02T10:41:09.580073+00:00",
+      "last_seen_at": "2026-09-02T10:47:52.918406+00:00",
       "sources": [
         {
           "kind": "item",
@@ -4215,7 +3844,7 @@
           "price_fg": 40.0,
           "title": "Ft My Shop",
           "url": "https://forums.d2jsp.org/topic.php?t=110125903&f=123",
-          "observed_at": "2026-09-02T10:41:09.580073+00:00",
+          "observed_at": "2026-09-02T10:47:52.918406+00:00",
           "topic_date": "2026-09-01",
           "item_parser_v2": true
         }
@@ -4232,7 +3861,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-09-02T10:41:09.580073+00:00",
+      "last_seen_at": "2026-09-02T10:47:52.918406+00:00",
       "sources": [
         {
           "kind": "item",
@@ -4243,7 +3872,7 @@
           "price_fg": 30.0,
           "title": "Ft My Shop",
           "url": "https://forums.d2jsp.org/topic.php?t=110125903&f=123",
-          "observed_at": "2026-09-02T10:41:09.580073+00:00",
+          "observed_at": "2026-09-02T10:47:52.918406+00:00",
           "topic_date": "2026-09-01",
           "item_parser_v2": true
         }
@@ -4260,21 +3889,8 @@
       "trade_fg": null,
       "samples": 2,
       "confidence": "low",
-      "last_seen_at": "2026-09-02T10:41:13.977777+00:00",
+      "last_seen_at": "2026-09-02T10:47:52.918406+00:00",
       "sources": [
-        {
-          "kind": "item",
-          "id": "base-pb-6os",
-          "label": "6洞幻化之刃 (6os Phase Blade / Last Wish Base)",
-          "category": "熱門符文之語鑲底",
-          "side": "ft",
-          "price_fg": 30.0,
-          "title": "Ft List",
-          "url": "https://forums.d2jsp.org/topic.php?t=110135418&f=123",
-          "observed_at": "2026-09-02T10:41:13.977777+00:00",
-          "topic_date": "2026-09-02",
-          "item_parser_v2": true
-        },
         {
           "kind": "item",
           "id": "base-pb-6os",
@@ -4284,8 +3900,21 @@
           "price_fg": 30.0,
           "title": "Ft My Shop",
           "url": "https://forums.d2jsp.org/topic.php?t=110125903&f=123",
-          "observed_at": "2026-09-02T10:41:09.580073+00:00",
+          "observed_at": "2026-09-02T10:47:52.918406+00:00",
           "topic_date": "2026-09-01",
+          "item_parser_v2": true
+        },
+        {
+          "kind": "item",
+          "id": "base-pb-6os",
+          "label": "6洞幻化之刃 (6os Phase Blade / Last Wish Base)",
+          "category": "熱門符文之語鑲底",
+          "side": "ft",
+          "price_fg": 30.0,
+          "title": "Ft List",
+          "url": "https://forums.d2jsp.org/topic.php?t=110135418&f=123",
+          "observed_at": "2026-09-02T10:47:49.242248+00:00",
+          "topic_date": "2026-09-02",
           "item_parser_v2": true
         }
       ],
@@ -4301,7 +3930,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-09-02T10:41:09.580073+00:00",
+      "last_seen_at": "2026-09-02T10:47:52.918406+00:00",
       "sources": [
         {
           "kind": "item",
@@ -4312,7 +3941,7 @@
           "price_fg": 30.0,
           "title": "Ft My Shop",
           "url": "https://forums.d2jsp.org/topic.php?t=110125903&f=123",
-          "observed_at": "2026-09-02T10:41:09.580073+00:00",
+          "observed_at": "2026-09-02T10:47:52.918406+00:00",
           "topic_date": "2026-09-01",
           "item_parser_v2": true
         }
@@ -4329,7 +3958,7 @@
       "trade_fg": null,
       "samples": 3,
       "confidence": "low",
-      "last_seen_at": "2026-09-02T10:41:40.780678+00:00",
+      "last_seen_at": "2026-09-02T10:48:27.885484+00:00",
       "sources": [
         {
           "kind": "item",
@@ -4340,20 +3969,7 @@
           "price_fg": 15.0,
           "title": "Arcadian's Attic",
           "url": "https://forums.d2jsp.org/topic.php?t=110019067&f=123",
-          "observed_at": "2026-09-02T10:41:40.780678+00:00",
-          "topic_date": "2026-09-02",
-          "item_parser_v2": true
-        },
-        {
-          "kind": "item",
-          "id": "unique-peasant-crown",
-          "label": "農夫王冠 (Peasant Crown)",
-          "category": "頭盔",
-          "side": "ft",
-          "price_fg": 20.0,
-          "title": "Ft List",
-          "url": "https://forums.d2jsp.org/topic.php?t=110135418&f=123",
-          "observed_at": "2026-09-02T10:41:13.977777+00:00",
+          "observed_at": "2026-09-02T10:48:27.885484+00:00",
           "topic_date": "2026-09-02",
           "item_parser_v2": true
         },
@@ -4366,8 +3982,21 @@
           "price_fg": 30.0,
           "title": "Ft My Shop",
           "url": "https://forums.d2jsp.org/topic.php?t=110125903&f=123",
-          "observed_at": "2026-09-02T10:41:09.580073+00:00",
+          "observed_at": "2026-09-02T10:47:52.918406+00:00",
           "topic_date": "2026-09-01",
+          "item_parser_v2": true
+        },
+        {
+          "kind": "item",
+          "id": "unique-peasant-crown",
+          "label": "農夫王冠 (Peasant Crown)",
+          "category": "頭盔",
+          "side": "ft",
+          "price_fg": 20.0,
+          "title": "Ft List",
+          "url": "https://forums.d2jsp.org/topic.php?t=110135418&f=123",
+          "observed_at": "2026-09-02T10:47:49.242248+00:00",
+          "topic_date": "2026-09-02",
           "item_parser_v2": true
         }
       ],
@@ -4383,7 +4012,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-09-02T10:41:09.580073+00:00",
+      "last_seen_at": "2026-09-02T10:47:52.918406+00:00",
       "sources": [
         {
           "kind": "item",
@@ -4394,7 +4023,7 @@
           "price_fg": 30.0,
           "title": "Ft My Shop",
           "url": "https://forums.d2jsp.org/topic.php?t=110125903&f=123",
-          "observed_at": "2026-09-02T10:41:09.580073+00:00",
+          "observed_at": "2026-09-02T10:47:52.918406+00:00",
           "topic_date": "2026-09-01",
           "item_parser_v2": true
         }
@@ -4411,7 +4040,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-09-02T10:41:09.580073+00:00",
+      "last_seen_at": "2026-09-02T10:47:52.918406+00:00",
       "sources": [
         {
           "kind": "item",
@@ -4422,7 +4051,7 @@
           "price_fg": 30.0,
           "title": "Ft My Shop",
           "url": "https://forums.d2jsp.org/topic.php?t=110125903&f=123",
-          "observed_at": "2026-09-02T10:41:09.580073+00:00",
+          "observed_at": "2026-09-02T10:47:52.918406+00:00",
           "topic_date": "2026-09-01",
           "item_parser_v2": true
         }
@@ -4439,7 +4068,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-09-02T10:41:09.580073+00:00",
+      "last_seen_at": "2026-09-02T10:47:52.918406+00:00",
       "sources": [
         {
           "kind": "item",
@@ -4450,7 +4079,7 @@
           "price_fg": 30.0,
           "title": "Ft My Shop",
           "url": "https://forums.d2jsp.org/topic.php?t=110125903&f=123",
-          "observed_at": "2026-09-02T10:41:09.580073+00:00",
+          "observed_at": "2026-09-02T10:47:52.918406+00:00",
           "topic_date": "2026-09-01",
           "item_parser_v2": true
         }
@@ -4467,7 +4096,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-09-02T10:41:09.580073+00:00",
+      "last_seen_at": "2026-09-02T10:47:52.918406+00:00",
       "sources": [
         {
           "kind": "item",
@@ -4478,7 +4107,7 @@
           "price_fg": 30.0,
           "title": "Ft My Shop",
           "url": "https://forums.d2jsp.org/topic.php?t=110125903&f=123",
-          "observed_at": "2026-09-02T10:41:09.580073+00:00",
+          "observed_at": "2026-09-02T10:47:52.918406+00:00",
           "topic_date": "2026-09-01",
           "item_parser_v2": true
         }
@@ -4495,7 +4124,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-09-02T10:41:09.580073+00:00",
+      "last_seen_at": "2026-09-02T10:47:52.918406+00:00",
       "sources": [
         {
           "kind": "item",
@@ -4506,7 +4135,7 @@
           "price_fg": 30.0,
           "title": "Ft My Shop",
           "url": "https://forums.d2jsp.org/topic.php?t=110125903&f=123",
-          "observed_at": "2026-09-02T10:41:09.580073+00:00",
+          "observed_at": "2026-09-02T10:47:52.918406+00:00",
           "topic_date": "2026-09-01",
           "item_parser_v2": true
         }
@@ -4523,7 +4152,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-09-02T10:41:09.580073+00:00",
+      "last_seen_at": "2026-09-02T10:47:52.918406+00:00",
       "sources": [
         {
           "kind": "item",
@@ -4534,7 +4163,7 @@
           "price_fg": 20.0,
           "title": "Ft My Shop",
           "url": "https://forums.d2jsp.org/topic.php?t=110125903&f=123",
-          "observed_at": "2026-09-02T10:41:09.580073+00:00",
+          "observed_at": "2026-09-02T10:47:52.918406+00:00",
           "topic_date": "2026-09-01",
           "item_parser_v2": true
         }
@@ -4551,7 +4180,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-09-02T10:41:09.580073+00:00",
+      "last_seen_at": "2026-09-02T10:47:52.918406+00:00",
       "sources": [
         {
           "kind": "item",
@@ -4562,7 +4191,7 @@
           "price_fg": 30.0,
           "title": "Ft My Shop",
           "url": "https://forums.d2jsp.org/topic.php?t=110125903&f=123",
-          "observed_at": "2026-09-02T10:41:09.580073+00:00",
+          "observed_at": "2026-09-02T10:47:52.918406+00:00",
           "topic_date": "2026-09-01",
           "item_parser_v2": true
         }
@@ -4579,7 +4208,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-09-02T10:41:09.580073+00:00",
+      "last_seen_at": "2026-09-02T10:47:52.918406+00:00",
       "sources": [
         {
           "kind": "item",
@@ -4590,7 +4219,7 @@
           "price_fg": 30.0,
           "title": "Ft My Shop",
           "url": "https://forums.d2jsp.org/topic.php?t=110125903&f=123",
-          "observed_at": "2026-09-02T10:41:09.580073+00:00",
+          "observed_at": "2026-09-02T10:47:52.918406+00:00",
           "topic_date": "2026-09-01",
           "item_parser_v2": true
         }
@@ -4607,7 +4236,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-09-02T10:41:13.977777+00:00",
+      "last_seen_at": "2026-09-02T10:47:49.242248+00:00",
       "sources": [
         {
           "kind": "item",
@@ -4618,7 +4247,7 @@
           "price_fg": 30.0,
           "title": "Ft List",
           "url": "https://forums.d2jsp.org/topic.php?t=110135418&f=123",
-          "observed_at": "2026-09-02T10:41:13.977777+00:00",
+          "observed_at": "2026-09-02T10:47:49.242248+00:00",
           "topic_date": "2026-09-02",
           "item_parser_v2": true
         }
@@ -4635,7 +4264,7 @@
       "trade_fg": null,
       "samples": 2,
       "confidence": "low",
-      "last_seen_at": "2026-09-02T10:41:13.977777+00:00",
+      "last_seen_at": "2026-09-02T10:47:49.242248+00:00",
       "sources": [
         {
           "kind": "item",
@@ -4646,7 +4275,7 @@
           "price_fg": 30.0,
           "title": "Ft List",
           "url": "https://forums.d2jsp.org/topic.php?t=110135418&f=123",
-          "observed_at": "2026-09-02T10:41:13.977777+00:00",
+          "observed_at": "2026-09-02T10:47:49.242248+00:00",
           "topic_date": "2026-09-02",
           "item_parser_v2": true
         },
@@ -4659,7 +4288,7 @@
           "price_fg": 100.0,
           "title": "Ft: Cheap Shop! O Lmk",
           "url": "https://forums.d2jsp.org/topic.php?t=110120334&f=123",
-          "observed_at": "2026-09-02T10:40:55.467180+00:00",
+          "observed_at": "2026-09-02T10:47:41.350504+00:00",
           "topic_date": "2026-08-31",
           "item_parser_v2": true
         }
@@ -4676,7 +4305,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-09-02T10:41:13.977777+00:00",
+      "last_seen_at": "2026-09-02T10:47:49.242248+00:00",
       "sources": [
         {
           "kind": "item",
@@ -4687,7 +4316,7 @@
           "price_fg": 30.0,
           "title": "Ft List",
           "url": "https://forums.d2jsp.org/topic.php?t=110135418&f=123",
-          "observed_at": "2026-09-02T10:41:13.977777+00:00",
+          "observed_at": "2026-09-02T10:47:49.242248+00:00",
           "topic_date": "2026-09-02",
           "item_parser_v2": true
         }
@@ -4704,7 +4333,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-09-02T10:41:13.977777+00:00",
+      "last_seen_at": "2026-09-02T10:47:49.242248+00:00",
       "sources": [
         {
           "kind": "item",
@@ -4715,7 +4344,7 @@
           "price_fg": 30.0,
           "title": "Ft List",
           "url": "https://forums.d2jsp.org/topic.php?t=110135418&f=123",
-          "observed_at": "2026-09-02T10:41:13.977777+00:00",
+          "observed_at": "2026-09-02T10:47:49.242248+00:00",
           "topic_date": "2026-09-02",
           "item_parser_v2": true
         }
@@ -4732,7 +4361,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-09-02T10:41:13.977777+00:00",
+      "last_seen_at": "2026-09-02T10:47:49.242248+00:00",
       "sources": [
         {
           "kind": "item",
@@ -4743,7 +4372,7 @@
           "price_fg": 80.0,
           "title": "Ft List",
           "url": "https://forums.d2jsp.org/topic.php?t=110135418&f=123",
-          "observed_at": "2026-09-02T10:41:13.977777+00:00",
+          "observed_at": "2026-09-02T10:47:49.242248+00:00",
           "topic_date": "2026-09-02",
           "item_parser_v2": true
         }
@@ -4760,7 +4389,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-09-02T10:41:13.977777+00:00",
+      "last_seen_at": "2026-09-02T10:47:49.242248+00:00",
       "sources": [
         {
           "kind": "item",
@@ -4771,7 +4400,7 @@
           "price_fg": 30.0,
           "title": "Ft List",
           "url": "https://forums.d2jsp.org/topic.php?t=110135418&f=123",
-          "observed_at": "2026-09-02T10:41:13.977777+00:00",
+          "observed_at": "2026-09-02T10:47:49.242248+00:00",
           "topic_date": "2026-09-02",
           "item_parser_v2": true
         }
@@ -4788,7 +4417,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-09-02T10:41:13.977777+00:00",
+      "last_seen_at": "2026-09-02T10:47:49.242248+00:00",
       "sources": [
         {
           "kind": "item",
@@ -4799,7 +4428,7 @@
           "price_fg": 25.0,
           "title": "Ft List",
           "url": "https://forums.d2jsp.org/topic.php?t=110135418&f=123",
-          "observed_at": "2026-09-02T10:41:13.977777+00:00",
+          "observed_at": "2026-09-02T10:47:49.242248+00:00",
           "topic_date": "2026-09-02",
           "item_parser_v2": true
         }
@@ -4816,7 +4445,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-09-02T10:41:13.977777+00:00",
+      "last_seen_at": "2026-09-02T10:47:49.242248+00:00",
       "sources": [
         {
           "kind": "item",
@@ -4827,7 +4456,7 @@
           "price_fg": 20.0,
           "title": "Ft List",
           "url": "https://forums.d2jsp.org/topic.php?t=110135418&f=123",
-          "observed_at": "2026-09-02T10:41:13.977777+00:00",
+          "observed_at": "2026-09-02T10:47:49.242248+00:00",
           "topic_date": "2026-09-02",
           "item_parser_v2": true
         }
@@ -4844,7 +4473,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-09-02T10:41:13.977777+00:00",
+      "last_seen_at": "2026-09-02T10:47:49.242248+00:00",
       "sources": [
         {
           "kind": "item",
@@ -4855,7 +4484,7 @@
           "price_fg": 20.0,
           "title": "Ft List",
           "url": "https://forums.d2jsp.org/topic.php?t=110135418&f=123",
-          "observed_at": "2026-09-02T10:41:13.977777+00:00",
+          "observed_at": "2026-09-02T10:47:49.242248+00:00",
           "topic_date": "2026-09-02",
           "item_parser_v2": true
         }
@@ -4872,7 +4501,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-09-02T10:41:13.977777+00:00",
+      "last_seen_at": "2026-09-02T10:47:49.242248+00:00",
       "sources": [
         {
           "kind": "item",
@@ -4883,12 +4512,118 @@
           "price_fg": 30.0,
           "title": "Ft List",
           "url": "https://forums.d2jsp.org/topic.php?t=110135418&f=123",
-          "observed_at": "2026-09-02T10:41:13.977777+00:00",
+          "observed_at": "2026-09-02T10:47:49.242248+00:00",
           "topic_date": "2026-09-02",
           "item_parser_v2": true
         }
       ],
       "category": "套裝盾牌"
+    },
+    {
+      "kind": "item",
+      "id": "stormshield",
+      "label": "暴風之盾 (Stormshield / SS)",
+      "fair_fg": 75.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": 100.0,
+      "samples": 6,
+      "confidence": "medium",
+      "last_seen_at": "2026-09-02T10:50:26.607135+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "stormshield",
+          "label": "暴風之盾 (Stormshield / SS)",
+          "category": "盾牌",
+          "side": "unknown",
+          "price_fg": 50.0,
+          "title": "/=/ Shop For Everybody \\=\\",
+          "url": "https://forums.d2jsp.org/topic.php?t=110135135&f=123",
+          "observed_at": "2026-09-02T10:50:26.607135+00:00",
+          "topic_date": "2026-09-01",
+          "item_parser_v2": true
+        },
+        {
+          "kind": "item",
+          "id": "stormshield",
+          "label": "暴風之盾 (Stormshield / SS)",
+          "category": "盾牌",
+          "side": "unknown",
+          "price_fg": 100.0,
+          "title": "/=/ Shop For Everybody \\=\\",
+          "url": "https://forums.d2jsp.org/topic.php?t=110135135&f=123",
+          "observed_at": "2026-09-02T10:50:26.607135+00:00",
+          "topic_date": "2026-09-01",
+          "item_parser_v2": true
+        },
+        {
+          "kind": "item",
+          "id": "stormshield",
+          "label": "暴風之盾 (Stormshield / SS)",
+          "category": "盾牌",
+          "side": "trade",
+          "price_fg": 100.0,
+          "title": "/=/ Shop For Everybody \\=\\ · T4T/sold signal",
+          "url": "https://forums.d2jsp.org/topic.php?t=110135135&f=123",
+          "observed_at": "2026-09-02T10:50:26.607135+00:00",
+          "topic_date": "2026-09-01",
+          "item_parser_v2": true
+        },
+        {
+          "kind": "item",
+          "id": "stormshield",
+          "label": "暴風之盾 (Stormshield / SS)",
+          "category": "盾牌",
+          "side": "unknown",
+          "price_fg": 80.0,
+          "title": "3",
+          "url": "https://forums.d2jsp.org/topic.php?t=110113035&f=123&o=20",
+          "observed_at": "2026-09-02T10:49:11.139799+00:00",
+          "topic_date": "2026-09-01",
+          "item_parser_v2": true
+        },
+        {
+          "kind": "item",
+          "id": "stormshield",
+          "label": "暴風之盾 (Stormshield / SS)",
+          "category": "盾牌",
+          "side": "unknown",
+          "price_fg": 15.0,
+          "title": "4",
+          "url": "https://forums.d2jsp.org/topic.php?t=110113035&f=123&o=30",
+          "observed_at": "2026-09-02T10:48:48.812427+00:00",
+          "topic_date": "2026-09-01",
+          "item_parser_v2": true
+        },
+        {
+          "kind": "item",
+          "id": "stormshield",
+          "label": "暴風之盾 (Stormshield / SS)",
+          "category": "盾牌",
+          "side": "unknown",
+          "price_fg": 70.0,
+          "title": "@@ Daily List With Prices @@",
+          "url": "https://forums.d2jsp.org/topic.php?t=110136184&f=123",
+          "observed_at": "2026-09-02T10:48:24.717467+00:00",
+          "topic_date": "2026-09-02",
+          "item_parser_v2": true
+        },
+        {
+          "kind": "item",
+          "id": "stormshield",
+          "label": "暴風之盾 (Stormshield / SS)",
+          "category": "盾牌",
+          "side": "unknown",
+          "price_fg": 120.0,
+          "title": "@@ Daily List With Prices @@",
+          "url": "https://forums.d2jsp.org/topic.php?t=110136184&f=123",
+          "observed_at": "2026-09-02T10:48:24.717467+00:00",
+          "topic_date": "2026-09-02",
+          "item_parser_v2": true
+        }
+      ],
+      "category": "盾牌"
     },
     {
       "kind": "item",
@@ -4900,7 +4635,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-09-02T10:39:26.503191+00:00",
+      "last_seen_at": "2026-09-02T10:44:18.260481+00:00",
       "sources": [
         {
           "kind": "item",
@@ -4911,7 +4646,7 @@
           "price_fg": 500.0,
           "title": "Warlock Items",
           "url": "https://forums.d2jsp.org/topic.php?t=110133092&f=123",
-          "observed_at": "2026-09-02T10:39:26.503191+00:00",
+          "observed_at": "2026-09-02T10:44:18.260481+00:00",
           "topic_date": "2026-09-01",
           "item_parser_v2": true
         }
@@ -4928,7 +4663,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-09-02T10:40:55.467180+00:00",
+      "last_seen_at": "2026-09-02T10:47:41.350504+00:00",
       "sources": [
         {
           "kind": "item",
@@ -4939,7 +4674,7 @@
           "price_fg": 200.0,
           "title": "Ft: Cheap Shop! O Lmk",
           "url": "https://forums.d2jsp.org/topic.php?t=110120334&f=123",
-          "observed_at": "2026-09-02T10:40:55.467180+00:00",
+          "observed_at": "2026-09-02T10:47:41.350504+00:00",
           "topic_date": "2026-08-31",
           "item_parser_v2": true
         }
@@ -4956,7 +4691,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-09-02T10:40:55.467180+00:00",
+      "last_seen_at": "2026-09-02T10:47:41.350504+00:00",
       "sources": [
         {
           "kind": "item",
@@ -4967,7 +4702,7 @@
           "price_fg": 150.0,
           "title": "Ft: Cheap Shop! O Lmk",
           "url": "https://forums.d2jsp.org/topic.php?t=110120334&f=123",
-          "observed_at": "2026-09-02T10:40:55.467180+00:00",
+          "observed_at": "2026-09-02T10:47:41.350504+00:00",
           "topic_date": "2026-08-31",
           "item_parser_v2": true
         }
@@ -4984,7 +4719,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-09-02T10:41:40.780678+00:00",
+      "last_seen_at": "2026-09-02T10:48:27.885484+00:00",
       "sources": [
         {
           "kind": "item",
@@ -4995,7 +4730,7 @@
           "price_fg": 750.0,
           "title": "Arcadian's Attic",
           "url": "https://forums.d2jsp.org/topic.php?t=110019067&f=123",
-          "observed_at": "2026-09-02T10:41:40.780678+00:00",
+          "observed_at": "2026-09-02T10:48:27.885484+00:00",
           "topic_date": "2026-09-02",
           "item_parser_v2": true
         }
@@ -5012,7 +4747,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-09-02T10:41:40.780678+00:00",
+      "last_seen_at": "2026-09-02T10:48:27.885484+00:00",
       "sources": [
         {
           "kind": "item",
@@ -5023,7 +4758,7 @@
           "price_fg": 20.0,
           "title": "Arcadian's Attic",
           "url": "https://forums.d2jsp.org/topic.php?t=110019067&f=123",
-          "observed_at": "2026-09-02T10:41:40.780678+00:00",
+          "observed_at": "2026-09-02T10:48:27.885484+00:00",
           "topic_date": "2026-09-02",
           "item_parser_v2": true
         }
@@ -5040,7 +4775,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-09-02T10:41:40.780678+00:00",
+      "last_seen_at": "2026-09-02T10:48:27.885484+00:00",
       "sources": [
         {
           "kind": "item",
@@ -5051,7 +4786,7 @@
           "price_fg": 10.0,
           "title": "Arcadian's Attic",
           "url": "https://forums.d2jsp.org/topic.php?t=110019067&f=123",
-          "observed_at": "2026-09-02T10:41:40.780678+00:00",
+          "observed_at": "2026-09-02T10:48:27.885484+00:00",
           "topic_date": "2026-09-02",
           "item_parser_v2": true
         }
@@ -5068,7 +4803,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-09-02T10:41:40.780678+00:00",
+      "last_seen_at": "2026-09-02T10:48:27.885484+00:00",
       "sources": [
         {
           "kind": "item",
@@ -5079,7 +4814,7 @@
           "price_fg": 10.0,
           "title": "Arcadian's Attic",
           "url": "https://forums.d2jsp.org/topic.php?t=110019067&f=123",
-          "observed_at": "2026-09-02T10:41:40.780678+00:00",
+          "observed_at": "2026-09-02T10:48:27.885484+00:00",
           "topic_date": "2026-09-02",
           "item_parser_v2": true
         }
@@ -5096,7 +4831,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-09-02T10:41:55.314680+00:00",
+      "last_seen_at": "2026-09-02T10:49:08.581243+00:00",
       "sources": [
         {
           "kind": "item",
@@ -5107,7 +4842,7 @@
           "price_fg": 20.0,
           "title": "3",
           "url": "https://forums.d2jsp.org/topic.php?t=110019067&f=123&o=20",
-          "observed_at": "2026-09-02T10:41:55.314680+00:00",
+          "observed_at": "2026-09-02T10:49:08.581243+00:00",
           "topic_date": "2026-08-27",
           "item_parser_v2": true
         }
@@ -5124,7 +4859,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-09-02T10:41:55.314680+00:00",
+      "last_seen_at": "2026-09-02T10:49:08.581243+00:00",
       "sources": [
         {
           "kind": "item",
@@ -5135,12 +4870,221 @@
           "price_fg": 20.0,
           "title": "3",
           "url": "https://forums.d2jsp.org/topic.php?t=110019067&f=123&o=20",
-          "observed_at": "2026-09-02T10:41:55.314680+00:00",
+          "observed_at": "2026-09-02T10:49:08.581243+00:00",
           "topic_date": "2026-08-27",
           "item_parser_v2": true
         }
       ],
       "category": "護甲"
+    },
+    {
+      "kind": "item",
+      "id": "hoz",
+      "label": "撒卡蘭姆使者 (Herald of Zakarum / HoZ)",
+      "fair_fg": 75.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-09-02T10:49:11.139799+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "hoz",
+          "label": "撒卡蘭姆使者 (Herald of Zakarum / HoZ)",
+          "category": "盾牌",
+          "side": "unknown",
+          "price_fg": 75.0,
+          "title": "3",
+          "url": "https://forums.d2jsp.org/topic.php?t=110113035&f=123&o=20",
+          "observed_at": "2026-09-02T10:49:11.139799+00:00",
+          "topic_date": "2026-09-01",
+          "item_parser_v2": true
+        }
+      ],
+      "category": "盾牌"
+    },
+    {
+      "kind": "item",
+      "id": "raven-frost",
+      "label": "烏鴉之霜 (Raven Frost / Raven)",
+      "fair_fg": 40.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 2,
+      "confidence": "low",
+      "last_seen_at": "2026-09-02T10:49:11.139799+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "raven-frost",
+          "label": "烏鴉之霜 (Raven Frost / Raven)",
+          "category": "戒指與護身符",
+          "side": "unknown",
+          "price_fg": 40.0,
+          "title": "3",
+          "url": "https://forums.d2jsp.org/topic.php?t=110113035&f=123&o=20",
+          "observed_at": "2026-09-02T10:49:11.139799+00:00",
+          "topic_date": "2026-09-01",
+          "item_parser_v2": true
+        },
+        {
+          "kind": "item",
+          "id": "raven-frost",
+          "label": "烏鴉之霜 (Raven Frost / Raven)",
+          "category": "戒指與護身符",
+          "side": "unknown",
+          "price_fg": 40.0,
+          "title": "4",
+          "url": "https://forums.d2jsp.org/topic.php?t=110113035&f=123&o=30",
+          "observed_at": "2026-09-02T10:48:48.812427+00:00",
+          "topic_date": "2026-09-01",
+          "item_parser_v2": true
+        }
+      ],
+      "category": "戒指與護身符"
+    },
+    {
+      "kind": "item",
+      "id": "unique-gheed-s-wager",
+      "label": "基德的賭注 (Gheed's Wager)",
+      "fair_fg": 100.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-09-02T10:48:24.717467+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "unique-gheed-s-wager",
+          "label": "基德的賭注 (Gheed's Wager)",
+          "category": "腰帶",
+          "side": "unknown",
+          "price_fg": 100.0,
+          "title": "@@ Daily List With Prices @@",
+          "url": "https://forums.d2jsp.org/topic.php?t=110136184&f=123",
+          "observed_at": "2026-09-02T10:48:24.717467+00:00",
+          "topic_date": "2026-09-02",
+          "item_parser_v2": true
+        }
+      ],
+      "category": "腰帶"
+    },
+    {
+      "kind": "item",
+      "id": "waterwalk",
+      "label": "水上飄 (Waterwalk / WWalk)",
+      "fair_fg": 100.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-09-02T10:48:24.717467+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "waterwalk",
+          "label": "水上飄 (Waterwalk / WWalk)",
+          "category": "靴子",
+          "side": "unknown",
+          "price_fg": 100.0,
+          "title": "@@ Daily List With Prices @@",
+          "url": "https://forums.d2jsp.org/topic.php?t=110136184&f=123",
+          "observed_at": "2026-09-02T10:48:24.717467+00:00",
+          "topic_date": "2026-09-02",
+          "item_parser_v2": true
+        }
+      ],
+      "category": "靴子"
+    },
+    {
+      "kind": "item",
+      "id": "tal-armor",
+      "label": "漆黑甲 (Tal Rasha's Guardianship / Tal Armor)",
+      "fair_fg": 380.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-09-02T10:48:24.717467+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "tal-armor",
+          "label": "漆黑甲 (Tal Rasha's Guardianship / Tal Armor)",
+          "category": "熱門套裝部件",
+          "side": "unknown",
+          "price_fg": 380.0,
+          "title": "@@ Daily List With Prices @@",
+          "url": "https://forums.d2jsp.org/topic.php?t=110136184&f=123",
+          "observed_at": "2026-09-02T10:48:24.717467+00:00",
+          "topic_date": "2026-09-02",
+          "item_parser_v2": true
+        }
+      ],
+      "category": "熱門套裝部件"
+    },
+    {
+      "kind": "item",
+      "id": "unique-tomb-reaver",
+      "label": "盜墓者 (Tomb Reaver)",
+      "fair_fg": 50.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-09-02T10:48:24.717467+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "unique-tomb-reaver",
+          "label": "盜墓者 (Tomb Reaver)",
+          "category": "長柄武器",
+          "side": "unknown",
+          "price_fg": 50.0,
+          "title": "@@ Daily List With Prices @@",
+          "url": "https://forums.d2jsp.org/topic.php?t=110136184&f=123",
+          "observed_at": "2026-09-02T10:48:24.717467+00:00",
+          "topic_date": "2026-09-02",
+          "item_parser_v2": true
+        }
+      ],
+      "category": "長柄武器"
+    },
+    {
+      "kind": "item",
+      "id": "titans-revenge",
+      "label": "泰坦的復仇 (Titan's Revenge / Titans)",
+      "fair_fg": 100.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-09-02T10:48:24.717467+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "titans-revenge",
+          "label": "泰坦的復仇 (Titan's Revenge / Titans)",
+          "category": "武器",
+          "side": "unknown",
+          "price_fg": 100.0,
+          "title": "@@ Daily List With Prices @@",
+          "url": "https://forums.d2jsp.org/topic.php?t=110136184&f=123",
+          "observed_at": "2026-09-02T10:48:24.717467+00:00",
+          "topic_date": "2026-09-02",
+          "item_parser_v2": true
+        }
+      ],
+      "category": "武器"
     },
     {
       "kind": "item",
@@ -5152,7 +5096,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-09-02T10:39:56.187462+00:00",
+      "last_seen_at": "2026-09-02T10:45:22.709092+00:00",
       "sources": [
         {
           "kind": "item",
@@ -5163,7 +5107,7 @@
           "price_fg": 150.0,
           "title": "Ocx Gear Shop",
           "url": "https://forums.d2jsp.org/topic.php?t=110107432&f=123",
-          "observed_at": "2026-09-02T10:39:56.187462+00:00",
+          "observed_at": "2026-09-02T10:45:22.709092+00:00",
           "topic_date": "2026-08-31",
           "item_parser_v2": true
         }
@@ -5180,7 +5124,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-09-02T10:39:09.363249+00:00",
+      "last_seen_at": "2026-09-02T10:44:01.426506+00:00",
       "sources": [
         {
           "kind": "item",
@@ -5191,7 +5135,7 @@
           "price_fg": 40.0,
           "title": "Ypi Items",
           "url": "https://forums.d2jsp.org/topic.php?t=110137363&f=123",
-          "observed_at": "2026-09-02T10:39:09.363249+00:00",
+          "observed_at": "2026-09-02T10:44:01.426506+00:00",
           "topic_date": "2026-09-02",
           "item_parser_v2": true
         }
@@ -5208,7 +5152,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-09-02T10:39:53.488374+00:00",
+      "last_seen_at": "2026-09-02T10:44:00.887406+00:00",
       "sources": [
         {
           "kind": "item",
@@ -5219,7 +5163,7 @@
           "price_fg": 20.0,
           "title": "~ Armor Bases & Runewords ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110066576&f=123",
-          "observed_at": "2026-09-02T10:39:53.488374+00:00",
+          "observed_at": "2026-09-02T10:44:00.887406+00:00",
           "topic_date": "2026-09-01",
           "item_parser_v2": true
         }
@@ -5236,7 +5180,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-09-02T10:41:47.934492+00:00",
+      "last_seen_at": "2026-09-02T10:49:01.127619+00:00",
       "sources": [
         {
           "kind": "item",
@@ -5247,12 +5191,68 @@
           "price_fg": 1300.0,
           "title": "3",
           "url": "https://forums.d2jsp.org/topic.php?t=110123897&f=123&o=20",
-          "observed_at": "2026-09-02T10:41:47.934492+00:00",
+          "observed_at": "2026-09-02T10:49:01.127619+00:00",
           "topic_date": "2026-09-02",
           "item_parser_v2": true
         }
       ],
       "category": "熱門護身符與暗金符咒"
+    },
+    {
+      "kind": "item",
+      "id": "unique-guardian-s-thunder",
+      "label": "守護者的閃電 (Guardian's Thunder)",
+      "fair_fg": 400.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-09-02T10:48:39.812005+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "unique-guardian-s-thunder",
+          "label": "守護者的閃電 (Guardian's Thunder)",
+          "category": "珠寶",
+          "side": "unknown",
+          "price_fg": 400.0,
+          "title": "5",
+          "url": "https://forums.d2jsp.org/topic.php?t=110018451&f=123&o=40",
+          "observed_at": "2026-09-02T10:48:39.812005+00:00",
+          "topic_date": "2026-08-30",
+          "item_parser_v2": true
+        }
+      ],
+      "category": "珠寶"
+    },
+    {
+      "kind": "item",
+      "id": "unique-opalvein",
+      "label": "蛋白石脈 (Opalvein)",
+      "fair_fg": 1000.0,
+      "iso_fg": 1000.0,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-09-02T10:45:18.387649+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "unique-opalvein",
+          "label": "蛋白石脈 (Opalvein)",
+          "category": "戒指",
+          "side": "iso",
+          "price_fg": 1000.0,
+          "title": "Paying Fg For My Iso List",
+          "url": "https://forums.d2jsp.org/topic.php?t=110137142&f=123",
+          "observed_at": "2026-09-02T10:45:18.387649+00:00",
+          "topic_date": "2026-09-02",
+          "item_parser_v2": true
+        }
+      ],
+      "category": "戒指"
     }
   ],
   "season": 15,
@@ -5262,7 +5262,7 @@
   "rune_source_policy": "runes-c2-full-backfill-v4",
   "data_policy": "符文行情僅採用 d2jsp D2:R RotW Hardcore Ladder Trading 的 Runes 分類（f=123&c=2），只統計 2026/08/22（含）後主題；全量回填所有待解析主題，之後每 3 小時增量更新。明確 bundle 總價會換算單顆價格。",
   "price_parser": "season15-runes-c2-full-v4",
-  "item_source_policy": "season15-items-all-uniques-v2",
+  "item_source_policy": "season15-items-static-catalog-v3",
   "item_catalog_count": 585,
   "item_topic_count": 135,
   "item_cached_topics": 135,

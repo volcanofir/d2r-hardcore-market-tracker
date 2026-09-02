@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-02T10:06:20.519782+00:00",
+  "updated_at": "2026-09-02T10:14:17.307764+00:00",
   "source_policy": "season15-items-all-uniques-v2",
-  "catalog_items": 444,
+  "catalog_items": 415,
   "forum_pages": [
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123",
@@ -18,8 +18,8 @@
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=50",
       "offset": 50,
-      "topics": 0,
-      "bytes": 281
+      "topics": 28,
+      "bytes": 7631
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=75",
@@ -42,8 +42,8 @@
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=150",
       "offset": 150,
-      "topics": 0,
-      "bytes": 282
+      "topics": 37,
+      "bytes": 11526
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=175",
@@ -52,11 +52,18 @@
       "bytes": 282
     }
   ],
-  "discovered_topics": 0,
-  "cached_topics": 0,
-  "selected_topics": 0,
-  "parsed_this_run": 0,
-  "combined_samples": 0,
-  "market_items": 0,
-  "topic_errors": []
+  "discovered_topics": 65,
+  "cached_topics": 65,
+  "selected_topics": 65,
+  "parsed_this_run": 64,
+  "combined_samples": 14,
+  "market_items": 10,
+  "topic_errors": [
+    {
+      "url": "https://forums.d2jsp.org/topic.php?t=110137347&f=123",
+      "title": "Iso Cheapest Horazon Parts",
+      "reason": "new",
+      "error": "429 Too Many Requests (5/5)"
+    }
+  ]
 }

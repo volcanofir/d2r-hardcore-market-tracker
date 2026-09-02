@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-09-02T10:06:20.517546+00:00",
+  "updated_at": "2026-09-02T10:14:17.304169+00:00",
   "forum": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-  "topic_count": 278,
+  "topic_count": 325,
   "cached_topics": 412,
   "parsed_topics": 412,
   "completed_topics": 85,
-  "parsed_this_run": 17,
+  "parsed_this_run": 0,
   "sample_count": 195,
   "legacy_sample_count": 0,
   "market": [
@@ -3395,6 +3395,338 @@
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
         }
       ]
+    },
+    {
+      "kind": "item",
+      "id": "hoz",
+      "label": "撒卡蘭姆使者 (Herald of Zakarum / HoZ)",
+      "fair_fg": 75.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-09-02T10:13:29.288102+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "hoz",
+          "label": "撒卡蘭姆使者 (Herald of Zakarum / HoZ)",
+          "category": "盾牌",
+          "side": "unknown",
+          "price_fg": 75.0,
+          "title": "3",
+          "url": "https://forums.d2jsp.org/topic.php?t=110113035&f=123&o=20",
+          "observed_at": "2026-09-02T10:13:29.288102+00:00",
+          "topic_date": "2026-09-01",
+          "item_parser_v2": true
+        }
+      ],
+      "category": "盾牌"
+    },
+    {
+      "kind": "item",
+      "id": "stormshield",
+      "label": "暴風之盾 (Stormshield / SS)",
+      "fair_fg": 75.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 4,
+      "confidence": "medium",
+      "last_seen_at": "2026-09-02T10:13:29.288102+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "stormshield",
+          "label": "暴風之盾 (Stormshield / SS)",
+          "category": "盾牌",
+          "side": "unknown",
+          "price_fg": 80.0,
+          "title": "3",
+          "url": "https://forums.d2jsp.org/topic.php?t=110113035&f=123&o=20",
+          "observed_at": "2026-09-02T10:13:29.288102+00:00",
+          "topic_date": "2026-09-01",
+          "item_parser_v2": true
+        },
+        {
+          "kind": "item",
+          "id": "stormshield",
+          "label": "暴風之盾 (Stormshield / SS)",
+          "category": "盾牌",
+          "side": "unknown",
+          "price_fg": 15.0,
+          "title": "4",
+          "url": "https://forums.d2jsp.org/topic.php?t=110113035&f=123&o=30",
+          "observed_at": "2026-09-02T10:13:23.074044+00:00",
+          "topic_date": "2026-09-01",
+          "item_parser_v2": true
+        },
+        {
+          "kind": "item",
+          "id": "stormshield",
+          "label": "暴風之盾 (Stormshield / SS)",
+          "category": "盾牌",
+          "side": "unknown",
+          "price_fg": 70.0,
+          "title": "@@ Daily List With Prices @@",
+          "url": "https://forums.d2jsp.org/topic.php?t=110136184&f=123",
+          "observed_at": "2026-09-02T10:12:57.263419+00:00",
+          "topic_date": "2026-09-02",
+          "item_parser_v2": true
+        },
+        {
+          "kind": "item",
+          "id": "stormshield",
+          "label": "暴風之盾 (Stormshield / SS)",
+          "category": "盾牌",
+          "side": "unknown",
+          "price_fg": 120.0,
+          "title": "@@ Daily List With Prices @@",
+          "url": "https://forums.d2jsp.org/topic.php?t=110136184&f=123",
+          "observed_at": "2026-09-02T10:12:57.263419+00:00",
+          "topic_date": "2026-09-02",
+          "item_parser_v2": true
+        }
+      ],
+      "category": "盾牌"
+    },
+    {
+      "kind": "item",
+      "id": "raven-frost",
+      "label": "烏鴉之霜 (Raven Frost / Raven)",
+      "fair_fg": 40.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 2,
+      "confidence": "low",
+      "last_seen_at": "2026-09-02T10:13:29.288102+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "raven-frost",
+          "label": "烏鴉之霜 (Raven Frost / Raven)",
+          "category": "戒指與護身符",
+          "side": "unknown",
+          "price_fg": 40.0,
+          "title": "3",
+          "url": "https://forums.d2jsp.org/topic.php?t=110113035&f=123&o=20",
+          "observed_at": "2026-09-02T10:13:29.288102+00:00",
+          "topic_date": "2026-09-01",
+          "item_parser_v2": true
+        },
+        {
+          "kind": "item",
+          "id": "raven-frost",
+          "label": "烏鴉之霜 (Raven Frost / Raven)",
+          "category": "戒指與護身符",
+          "side": "unknown",
+          "price_fg": 40.0,
+          "title": "4",
+          "url": "https://forums.d2jsp.org/topic.php?t=110113035&f=123&o=30",
+          "observed_at": "2026-09-02T10:13:23.074044+00:00",
+          "topic_date": "2026-09-01",
+          "item_parser_v2": true
+        }
+      ],
+      "category": "戒指與護身符"
+    },
+    {
+      "kind": "item",
+      "id": "unique-gheed-s-wager",
+      "label": "基德的賭注 (Gheed's Wager)",
+      "fair_fg": 100.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-09-02T10:12:57.263419+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "unique-gheed-s-wager",
+          "label": "基德的賭注 (Gheed's Wager)",
+          "category": "腰帶",
+          "side": "unknown",
+          "price_fg": 100.0,
+          "title": "@@ Daily List With Prices @@",
+          "url": "https://forums.d2jsp.org/topic.php?t=110136184&f=123",
+          "observed_at": "2026-09-02T10:12:57.263419+00:00",
+          "topic_date": "2026-09-02",
+          "item_parser_v2": true
+        }
+      ],
+      "category": "腰帶"
+    },
+    {
+      "kind": "item",
+      "id": "waterwalk",
+      "label": "水上飄 (Waterwalk / WWalk)",
+      "fair_fg": 100.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-09-02T10:12:57.263419+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "waterwalk",
+          "label": "水上飄 (Waterwalk / WWalk)",
+          "category": "靴子",
+          "side": "unknown",
+          "price_fg": 100.0,
+          "title": "@@ Daily List With Prices @@",
+          "url": "https://forums.d2jsp.org/topic.php?t=110136184&f=123",
+          "observed_at": "2026-09-02T10:12:57.263419+00:00",
+          "topic_date": "2026-09-02",
+          "item_parser_v2": true
+        }
+      ],
+      "category": "靴子"
+    },
+    {
+      "kind": "item",
+      "id": "tal-armor",
+      "label": "漆黑甲 (Tal Rasha's Guardianship / Tal Armor)",
+      "fair_fg": 380.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-09-02T10:12:57.263419+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "tal-armor",
+          "label": "漆黑甲 (Tal Rasha's Guardianship / Tal Armor)",
+          "category": "熱門套裝部件",
+          "side": "unknown",
+          "price_fg": 380.0,
+          "title": "@@ Daily List With Prices @@",
+          "url": "https://forums.d2jsp.org/topic.php?t=110136184&f=123",
+          "observed_at": "2026-09-02T10:12:57.263419+00:00",
+          "topic_date": "2026-09-02",
+          "item_parser_v2": true
+        }
+      ],
+      "category": "熱門套裝部件"
+    },
+    {
+      "kind": "item",
+      "id": "unique-tomb-reaver",
+      "label": "盜墓者 (Tomb Reaver)",
+      "fair_fg": 50.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-09-02T10:12:57.263419+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "unique-tomb-reaver",
+          "label": "盜墓者 (Tomb Reaver)",
+          "category": "長柄武器",
+          "side": "unknown",
+          "price_fg": 50.0,
+          "title": "@@ Daily List With Prices @@",
+          "url": "https://forums.d2jsp.org/topic.php?t=110136184&f=123",
+          "observed_at": "2026-09-02T10:12:57.263419+00:00",
+          "topic_date": "2026-09-02",
+          "item_parser_v2": true
+        }
+      ],
+      "category": "長柄武器"
+    },
+    {
+      "kind": "item",
+      "id": "titans-revenge",
+      "label": "泰坦的復仇 (Titan's Revenge / Titans)",
+      "fair_fg": 100.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-09-02T10:12:57.263419+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "titans-revenge",
+          "label": "泰坦的復仇 (Titan's Revenge / Titans)",
+          "category": "武器",
+          "side": "unknown",
+          "price_fg": 100.0,
+          "title": "@@ Daily List With Prices @@",
+          "url": "https://forums.d2jsp.org/topic.php?t=110136184&f=123",
+          "observed_at": "2026-09-02T10:12:57.263419+00:00",
+          "topic_date": "2026-09-02",
+          "item_parser_v2": true
+        }
+      ],
+      "category": "武器"
+    },
+    {
+      "kind": "item",
+      "id": "unique-guardian-s-thunder",
+      "label": "守護者的閃電 (Guardian's Thunder)",
+      "fair_fg": 400.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-09-02T10:13:12.994367+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "unique-guardian-s-thunder",
+          "label": "守護者的閃電 (Guardian's Thunder)",
+          "category": "珠寶",
+          "side": "unknown",
+          "price_fg": 400.0,
+          "title": "5",
+          "url": "https://forums.d2jsp.org/topic.php?t=110018451&f=123&o=40",
+          "observed_at": "2026-09-02T10:13:12.994367+00:00",
+          "topic_date": "2026-08-30",
+          "item_parser_v2": true
+        }
+      ],
+      "category": "珠寶"
+    },
+    {
+      "kind": "item",
+      "id": "unique-opalvein",
+      "label": "蛋白石脈 (Opalvein)",
+      "fair_fg": 1000.0,
+      "iso_fg": 1000.0,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-09-02T10:12:18.540305+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "unique-opalvein",
+          "label": "蛋白石脈 (Opalvein)",
+          "category": "戒指",
+          "side": "iso",
+          "price_fg": 1000.0,
+          "title": "Paying Fg For My Iso List",
+          "url": "https://forums.d2jsp.org/topic.php?t=110137142&f=123",
+          "observed_at": "2026-09-02T10:12:18.540305+00:00",
+          "topic_date": "2026-09-02",
+          "item_parser_v2": true
+        }
+      ],
+      "category": "戒指"
     }
   ],
   "season": 15,
@@ -3405,9 +3737,9 @@
   "data_policy": "符文行情僅採用 d2jsp D2:R RotW Hardcore Ladder Trading 的 Runes 分類（f=123&c=2），只統計 2026/08/22（含）後主題；全量回填所有待解析主題，之後每 3 小時增量更新。明確 bundle 總價會換算單顆價格。",
   "price_parser": "season15-runes-c2-full-v4",
   "item_source_policy": "season15-items-all-uniques-v2",
-  "item_catalog_count": 444,
-  "item_topic_count": 0,
-  "item_cached_topics": 0,
-  "item_parsed_topics": 0,
-  "item_sample_count": 0
+  "item_catalog_count": 415,
+  "item_topic_count": 65,
+  "item_cached_topics": 65,
+  "item_parsed_topics": 64,
+  "item_sample_count": 14
 }

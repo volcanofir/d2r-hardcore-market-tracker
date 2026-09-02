@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-09-02T10:05:00.128545+00:00",
+  "updated_at": "2026-09-02T10:09:59.364397+00:00",
   "source": "https://d2r.world/zh-TW/info/item/unique",
-  "source_item_count": 407,
-  "manual_item_count": 444,
-  "merged_existing_count": 37,
-  "added_unique_count": 370,
-  "item_count": 444,
+  "source_item_count": 376,
+  "manual_item_count": 74,
+  "merged_existing_count": 35,
+  "added_unique_count": 341,
+  "item_count": 415,
   "items": [
     {
       "id": "shako",
@@ -331,8 +331,8 @@
         "old_name_zh": null,
         "category": "盾牌",
         "category_slug": "shields",
-        "qlvl": null,
-        "tc": null,
+        "qlvl": 77,
+        "tc": 72,
         "source_url": "https://d2r.world/zh-TW/info/item/unique/shields"
       }
     },
@@ -2359,30 +2359,6 @@
         "old_name_zh": null,
         "category": "盾牌",
         "category_slug": "shields",
-        "qlvl": null,
-        "tc": null,
-        "source_url": "https://d2r.world/zh-TW/info/item/unique/shields"
-      }
-    },
-    {
-      "id": "unique-pal",
-      "label": "格擋機率：% (Pal)",
-      "category": "盾牌",
-      "aliases": [
-        "Pal",
-        "格擋機率：%",
-        "Ama/Asn/Bar",
-        "格擋機率：%",
-        "Dru/Nec/Sor",
-        "格擋機率：%",
-        "暴風公會"
-      ],
-      "d2r_world": {
-        "name_zh": "格擋機率：%",
-        "name_en": "Dru/Nec/Sor",
-        "old_name_zh": "暴風公會",
-        "category": "盾牌",
-        "category_slug": "shields",
         "qlvl": 3,
         "tc": 3,
         "source_url": "https://d2r.world/zh-TW/info/item/unique/shields"
@@ -2402,8 +2378,8 @@
         "old_name_zh": null,
         "category": "盾牌",
         "category_slug": "shields",
-        "qlvl": null,
-        "tc": null,
+        "qlvl": 12,
+        "tc": 6,
         "source_url": "https://d2r.world/zh-TW/info/item/unique/shields"
       }
     },
@@ -2413,16 +2389,17 @@
       "category": "盾牌",
       "aliases": [
         "Stormguild",
-        "風暴同盟"
+        "風暴同盟",
+        "暴風公會"
       ],
       "d2r_world": {
         "name_zh": "風暴同盟",
         "name_en": "Stormguild",
-        "old_name_zh": null,
+        "old_name_zh": "暴風公會",
         "category": "盾牌",
         "category_slug": "shields",
-        "qlvl": null,
-        "tc": null,
+        "qlvl": 18,
+        "tc": 12,
         "source_url": "https://d2r.world/zh-TW/info/item/unique/shields"
       }
     },
@@ -2432,16 +2409,17 @@
       "category": "盾牌",
       "aliases": [
         "Steelclash",
-        "鋼鐵衝擊"
+        "鋼鐵衝擊",
+        "作響的金屬"
       ],
       "d2r_world": {
         "name_zh": "鋼鐵衝擊",
         "name_en": "Steelclash",
-        "old_name_zh": null,
+        "old_name_zh": "作響的金屬",
         "category": "盾牌",
         "category_slug": "shields",
-        "qlvl": null,
-        "tc": null,
+        "qlvl": 23,
+        "tc": 15,
         "source_url": "https://d2r.world/zh-TW/info/item/unique/shields"
       }
     },
@@ -2451,16 +2429,17 @@
       "category": "盾牌",
       "aliases": [
         "Swordback Hold",
-        "劍棘之盾"
+        "劍棘之盾",
+        "劍背之架"
       ],
       "d2r_world": {
         "name_zh": "劍棘之盾",
         "name_en": "Swordback Hold",
-        "old_name_zh": null,
+        "old_name_zh": "劍背之架",
         "category": "盾牌",
         "category_slug": "shields",
-        "qlvl": null,
-        "tc": null,
+        "qlvl": 20,
+        "tc": 12,
         "source_url": "https://d2r.world/zh-TW/info/item/unique/shields"
       }
     },
@@ -2470,16 +2449,17 @@
       "category": "盾牌",
       "aliases": [
         "Bverrit Keep",
-        "布雷維特要塞"
+        "布雷維特要塞",
+        "貝弗提的紀念"
       ],
       "d2r_world": {
         "name_zh": "布雷維特要塞",
         "name_en": "Bverrit Keep",
-        "old_name_zh": null,
+        "old_name_zh": "貝弗提的紀念",
         "category": "盾牌",
         "category_slug": "shields",
-        "qlvl": null,
-        "tc": null,
+        "qlvl": 26,
+        "tc": 24,
         "source_url": "https://d2r.world/zh-TW/info/item/unique/shields"
       }
     },
@@ -2489,16 +2469,17 @@
       "category": "盾牌",
       "aliases": [
         "Wall of the Eyeless",
-        "無眼者之牆"
+        "無眼者之牆",
+        "無眼之牆"
       ],
       "d2r_world": {
         "name_zh": "無眼者之牆",
         "name_en": "Wall of the Eyeless",
-        "old_name_zh": null,
+        "old_name_zh": "無眼之牆",
         "category": "盾牌",
         "category_slug": "shields",
-        "qlvl": null,
-        "tc": null,
+        "qlvl": 27,
+        "tc": 21,
         "source_url": "https://d2r.world/zh-TW/info/item/unique/shields"
       }
     },
@@ -2509,16 +2490,17 @@
       "aliases": [
         "The Ward",
         "Ward",
-        "庇護結界"
+        "庇護結界",
+        "囚房"
       ],
       "d2r_world": {
         "name_zh": "庇護結界",
         "name_en": "The Ward",
-        "old_name_zh": null,
+        "old_name_zh": "囚房",
         "category": "盾牌",
         "category_slug": "shields",
-        "qlvl": null,
-        "tc": null,
+        "qlvl": 35,
+        "tc": 30,
         "source_url": "https://d2r.world/zh-TW/info/item/unique/shields"
       }
     },
@@ -2536,8 +2518,8 @@
         "old_name_zh": null,
         "category": "盾牌",
         "category_slug": "shields",
-        "qlvl": null,
-        "tc": null,
+        "qlvl": 36,
+        "tc": 36,
         "source_url": "https://d2r.world/zh-TW/info/item/unique/shields"
       }
     },
@@ -2548,16 +2530,17 @@
       "aliases": [
         "Moser's Blessed Circle",
         "Mosers Blessed Circle",
-        "摩瑟的祝福之圓"
+        "摩瑟的祝福之圓",
+        "摩西祝福之環"
       ],
       "d2r_world": {
         "name_zh": "摩瑟的祝福之圓",
         "name_en": "Moser's Blessed Circle",
-        "old_name_zh": null,
+        "old_name_zh": "摩西祝福之環",
         "category": "盾牌",
         "category_slug": "shields",
-        "qlvl": null,
-        "tc": null,
+        "qlvl": 39,
+        "tc": 39,
         "source_url": "https://d2r.world/zh-TW/info/item/unique/shields"
       }
     },
@@ -2575,8 +2558,8 @@
         "old_name_zh": null,
         "category": "盾牌",
         "category_slug": "shields",
-        "qlvl": null,
-        "tc": null,
+        "qlvl": 43,
+        "tc": 42,
         "source_url": "https://d2r.world/zh-TW/info/item/unique/shields"
       }
     },
@@ -2595,8 +2578,8 @@
         "old_name_zh": null,
         "category": "盾牌",
         "category_slug": "shields",
-        "qlvl": null,
-        "tc": null,
+        "qlvl": 46,
+        "tc": 45,
         "source_url": "https://d2r.world/zh-TW/info/item/unique/shields"
       }
     },
@@ -2606,16 +2589,17 @@
       "category": "盾牌",
       "aliases": [
         "Lance Guard",
-        "長槍守衛"
+        "長槍守衛",
+        "長槍警衛"
       ],
       "d2r_world": {
         "name_zh": "長槍守衛",
         "name_en": "Lance Guard",
-        "old_name_zh": null,
+        "old_name_zh": "長槍警衛",
         "category": "盾牌",
         "category_slug": "shields",
-        "qlvl": null,
-        "tc": null,
+        "qlvl": 43,
+        "tc": 42,
         "source_url": "https://d2r.world/zh-TW/info/item/unique/shields"
       }
     },
@@ -2634,8 +2618,8 @@
         "old_name_zh": null,
         "category": "盾牌",
         "category_slug": "shields",
-        "qlvl": null,
-        "tc": null,
+        "qlvl": 52,
+        "tc": 51,
         "source_url": "https://d2r.world/zh-TW/info/item/unique/shields"
       }
     },
@@ -2653,8 +2637,8 @@
         "old_name_zh": null,
         "category": "盾牌",
         "category_slug": "shields",
-        "qlvl": null,
-        "tc": null,
+        "qlvl": 49,
+        "tc": 48,
         "source_url": "https://d2r.world/zh-TW/info/item/unique/shields"
       }
     },
@@ -2665,16 +2649,17 @@
       "aliases": [
         "Radament's Sphere",
         "Radaments Sphere",
-        "羅達門特的領域"
+        "羅達門特的領域",
+        "羅達門特之球體"
       ],
       "d2r_world": {
         "name_zh": "羅達門特的領域",
         "name_en": "Radament's Sphere",
-        "old_name_zh": null,
+        "old_name_zh": "羅達門特之球體",
         "category": "盾牌",
         "category_slug": "shields",
-        "qlvl": null,
-        "tc": null,
+        "qlvl": 58,
+        "tc": 57,
         "source_url": "https://d2r.world/zh-TW/info/item/unique/shields"
       }
     },
@@ -2692,8 +2677,8 @@
         "old_name_zh": null,
         "category": "盾牌",
         "category_slug": "shields",
-        "qlvl": null,
-        "tc": null,
+        "qlvl": 67,
+        "tc": 63,
         "source_url": "https://d2r.world/zh-TW/info/item/unique/shields"
       }
     },
@@ -2703,16 +2688,17 @@
       "category": "盾牌",
       "aliases": [
         "Spike Thorn",
-        "尖刺荊棘"
+        "尖刺荊棘",
+        "尖刺根源"
       ],
       "d2r_world": {
         "name_zh": "尖刺荊棘",
         "name_en": "Spike Thorn",
-        "old_name_zh": null,
+        "old_name_zh": "尖刺根源",
         "category": "盾牌",
         "category_slug": "shields",
-        "qlvl": null,
-        "tc": null,
+        "qlvl": 78,
+        "tc": 69,
         "source_url": "https://d2r.world/zh-TW/info/item/unique/shields"
       }
     },
@@ -2731,8 +2717,8 @@
         "old_name_zh": null,
         "category": "盾牌",
         "category_slug": "shields",
-        "qlvl": null,
-        "tc": null,
+        "qlvl": 84,
+        "tc": 81,
         "source_url": "https://d2r.world/zh-TW/info/item/unique/shields"
       }
     },
@@ -2743,16 +2729,17 @@
       "aliases": [
         "Head Hunter's Glory",
         "Head Hunters Glory",
-        "獵頭者的榮耀"
+        "獵頭者的榮耀",
+        "獵頭人的榮耀"
       ],
       "d2r_world": {
         "name_zh": "獵頭者的榮耀",
         "name_en": "Head Hunter's Glory",
-        "old_name_zh": null,
+        "old_name_zh": "獵頭人的榮耀",
         "category": "盾牌",
         "category_slug": "shields",
-        "qlvl": null,
-        "tc": null,
+        "qlvl": 83,
+        "tc": 78,
         "source_url": "https://d2r.world/zh-TW/info/item/unique/shields"
       }
     },
@@ -2770,8 +2757,8 @@
         "old_name_zh": null,
         "category": "盾牌",
         "category_slug": "shields",
-        "qlvl": null,
-        "tc": null,
+        "qlvl": 76,
+        "tc": 84,
         "source_url": "https://d2r.world/zh-TW/info/item/unique/shields"
       }
     },
@@ -3110,26 +3097,6 @@
       }
     },
     {
-      "id": "unique-https-d2r-world-zh-tw",
-      "label": "![Image 1] (https://d2r.world/zh-TW)",
-      "category": "鞋子",
-      "aliases": [
-        "https://d2r.world/zh-TW",
-        "https://d2r.world/zh TW",
-        "![Image 1]"
-      ],
-      "d2r_world": {
-        "name_zh": "![Image 1]",
-        "name_en": "https://d2r.world/zh-TW",
-        "old_name_zh": null,
-        "category": "鞋子",
-        "category_slug": "boots",
-        "qlvl": null,
-        "tc": null,
-        "source_url": "https://d2r.world/zh-TW/info/item/unique/boots"
-      }
-    },
-    {
       "id": "unique-hotspur",
       "label": "熱靴刺 (Hotspur)",
       "category": "鞋子",
@@ -3320,546 +3287,6 @@
         "qlvl": 73,
         "tc": "-",
         "source_url": "https://d2r.world/zh-TW/info/item/unique/boots"
-      }
-    },
-    {
-      "id": "unique-https-d2r-world-zh-tw-info-item-unique-helms-helms",
-      "label": "![Image 2 頭盔] (https://d2r.world/zh-TW/info/item/unique/helms#helms)",
-      "category": "手套",
-      "aliases": [
-        "https://d2r.world/zh-TW/info/item/unique/helms#helms",
-        "https://d2r.world/zh TW/info/item/unique/helms#helms",
-        "![Image 2 頭盔]"
-      ],
-      "d2r_world": {
-        "name_zh": "![Image 2 頭盔]",
-        "name_en": "https://d2r.world/zh-TW/info/item/unique/helms#helms",
-        "old_name_zh": null,
-        "category": "手套",
-        "category_slug": "gloves",
-        "qlvl": null,
-        "tc": null,
-        "source_url": "https://d2r.world/zh-TW/info/item/unique/gloves"
-      }
-    },
-    {
-      "id": "unique-https-d2r-world-zh-tw-info-item-unique-armors-armors",
-      "label": "![Image 4 護甲] (https://d2r.world/zh-TW/info/item/unique/armors#armors)",
-      "category": "手套",
-      "aliases": [
-        "https://d2r.world/zh-TW/info/item/unique/armors#armors",
-        "https://d2r.world/zh TW/info/item/unique/armors#armors",
-        "![Image 4 護甲]"
-      ],
-      "d2r_world": {
-        "name_zh": "![Image 4 護甲]",
-        "name_en": "https://d2r.world/zh-TW/info/item/unique/armors#armors",
-        "old_name_zh": null,
-        "category": "手套",
-        "category_slug": "gloves",
-        "qlvl": null,
-        "tc": null,
-        "source_url": "https://d2r.world/zh-TW/info/item/unique/gloves"
-      }
-    },
-    {
-      "id": "unique-https-d2r-world-zh-tw-info-item-unique-shields-shields",
-      "label": "![Image 6 盾牌] (https://d2r.world/zh-TW/info/item/unique/shields#shields)",
-      "category": "手套",
-      "aliases": [
-        "https://d2r.world/zh-TW/info/item/unique/shields#shields",
-        "https://d2r.world/zh TW/info/item/unique/shields#shields",
-        "![Image 6 盾牌]"
-      ],
-      "d2r_world": {
-        "name_zh": "![Image 6 盾牌]",
-        "name_en": "https://d2r.world/zh-TW/info/item/unique/shields#shields",
-        "old_name_zh": null,
-        "category": "手套",
-        "category_slug": "gloves",
-        "qlvl": null,
-        "tc": null,
-        "source_url": "https://d2r.world/zh-TW/info/item/unique/gloves"
-      }
-    },
-    {
-      "id": "unique-https-d2r-world-zh-tw-info-item-unique-belts-belts",
-      "label": "![Image 8 腰帶] (https://d2r.world/zh-TW/info/item/unique/belts#belts)",
-      "category": "手套",
-      "aliases": [
-        "https://d2r.world/zh-TW/info/item/unique/belts#belts",
-        "https://d2r.world/zh TW/info/item/unique/belts#belts",
-        "![Image 8 腰帶]"
-      ],
-      "d2r_world": {
-        "name_zh": "![Image 8 腰帶]",
-        "name_en": "https://d2r.world/zh-TW/info/item/unique/belts#belts",
-        "old_name_zh": null,
-        "category": "手套",
-        "category_slug": "gloves",
-        "qlvl": null,
-        "tc": null,
-        "source_url": "https://d2r.world/zh-TW/info/item/unique/gloves"
-      }
-    },
-    {
-      "id": "unique-https-d2r-world-zh-tw-info-item-unique-boots-boots",
-      "label": "![Image 10 鞋子] (https://d2r.world/zh-TW/info/item/unique/boots#boots)",
-      "category": "手套",
-      "aliases": [
-        "https://d2r.world/zh-TW/info/item/unique/boots#boots",
-        "https://d2r.world/zh TW/info/item/unique/boots#boots",
-        "![Image 10 鞋子]"
-      ],
-      "d2r_world": {
-        "name_zh": "![Image 10 鞋子]",
-        "name_en": "https://d2r.world/zh-TW/info/item/unique/boots#boots",
-        "old_name_zh": null,
-        "category": "手套",
-        "category_slug": "gloves",
-        "qlvl": null,
-        "tc": null,
-        "source_url": "https://d2r.world/zh-TW/info/item/unique/gloves"
-      }
-    },
-    {
-      "id": "unique-https-d2r-world-zh-tw-info-item-unique-gloves-gloves",
-      "label": "![Image 12 手套] (https://d2r.world/zh-TW/info/item/unique/gloves#gloves)",
-      "category": "手套",
-      "aliases": [
-        "https://d2r.world/zh-TW/info/item/unique/gloves#gloves",
-        "https://d2r.world/zh TW/info/item/unique/gloves#gloves",
-        "![Image 12 手套]"
-      ],
-      "d2r_world": {
-        "name_zh": "![Image 12 手套]",
-        "name_en": "https://d2r.world/zh-TW/info/item/unique/gloves#gloves",
-        "old_name_zh": null,
-        "category": "手套",
-        "category_slug": "gloves",
-        "qlvl": null,
-        "tc": null,
-        "source_url": "https://d2r.world/zh-TW/info/item/unique/gloves"
-      }
-    },
-    {
-      "id": "unique-https-d2r-world-zh-tw-info-item-unique-rings-rings",
-      "label": "![Image 14 戒指] (https://d2r.world/zh-TW/info/item/unique/rings#rings)",
-      "category": "手套",
-      "aliases": [
-        "https://d2r.world/zh-TW/info/item/unique/rings#rings",
-        "https://d2r.world/zh TW/info/item/unique/rings#rings",
-        "![Image 14 戒指]"
-      ],
-      "d2r_world": {
-        "name_zh": "![Image 14 戒指]",
-        "name_en": "https://d2r.world/zh-TW/info/item/unique/rings#rings",
-        "old_name_zh": null,
-        "category": "手套",
-        "category_slug": "gloves",
-        "qlvl": null,
-        "tc": null,
-        "source_url": "https://d2r.world/zh-TW/info/item/unique/gloves"
-      }
-    },
-    {
-      "id": "unique-https-d2r-world-zh-tw-info-item-unique-amulets-amulets",
-      "label": "![Image 16 護身符] (https://d2r.world/zh-TW/info/item/unique/amulets#amulets)",
-      "category": "手套",
-      "aliases": [
-        "https://d2r.world/zh-TW/info/item/unique/amulets#amulets",
-        "https://d2r.world/zh TW/info/item/unique/amulets#amulets",
-        "![Image 16 護身符]"
-      ],
-      "d2r_world": {
-        "name_zh": "![Image 16 護身符]",
-        "name_en": "https://d2r.world/zh-TW/info/item/unique/amulets#amulets",
-        "old_name_zh": null,
-        "category": "手套",
-        "category_slug": "gloves",
-        "qlvl": null,
-        "tc": null,
-        "source_url": "https://d2r.world/zh-TW/info/item/unique/gloves"
-      }
-    },
-    {
-      "id": "unique-https-d2r-world-zh-tw-info-item-unique-charms-charms",
-      "label": "![Image 18 咒符] (https://d2r.world/zh-TW/info/item/unique/charms#charms)",
-      "category": "手套",
-      "aliases": [
-        "https://d2r.world/zh-TW/info/item/unique/charms#charms",
-        "https://d2r.world/zh TW/info/item/unique/charms#charms",
-        "![Image 18 咒符]"
-      ],
-      "d2r_world": {
-        "name_zh": "![Image 18 咒符]",
-        "name_en": "https://d2r.world/zh-TW/info/item/unique/charms#charms",
-        "old_name_zh": null,
-        "category": "手套",
-        "category_slug": "gloves",
-        "qlvl": null,
-        "tc": null,
-        "source_url": "https://d2r.world/zh-TW/info/item/unique/gloves"
-      }
-    },
-    {
-      "id": "unique-https-d2r-world-zh-tw-info-item-unique-jewels-jewels",
-      "label": "![Image 20 珠寶] (https://d2r.world/zh-TW/info/item/unique/jewels#jewels)",
-      "category": "手套",
-      "aliases": [
-        "https://d2r.world/zh-TW/info/item/unique/jewels#jewels",
-        "https://d2r.world/zh TW/info/item/unique/jewels#jewels",
-        "![Image 20 珠寶]"
-      ],
-      "d2r_world": {
-        "name_zh": "![Image 20 珠寶]",
-        "name_en": "https://d2r.world/zh-TW/info/item/unique/jewels#jewels",
-        "old_name_zh": null,
-        "category": "手套",
-        "category_slug": "gloves",
-        "qlvl": null,
-        "tc": null,
-        "source_url": "https://d2r.world/zh-TW/info/item/unique/gloves"
-      }
-    },
-    {
-      "id": "unique-https-d2r-world-zh-tw-info-item-unique-swords-swords",
-      "label": "![Image 22 刀劍] (https://d2r.world/zh-TW/info/item/unique/swords#swords)",
-      "category": "手套",
-      "aliases": [
-        "https://d2r.world/zh-TW/info/item/unique/swords#swords",
-        "https://d2r.world/zh TW/info/item/unique/swords#swords",
-        "![Image 22 刀劍]"
-      ],
-      "d2r_world": {
-        "name_zh": "![Image 22 刀劍]",
-        "name_en": "https://d2r.world/zh-TW/info/item/unique/swords#swords",
-        "old_name_zh": null,
-        "category": "手套",
-        "category_slug": "gloves",
-        "qlvl": null,
-        "tc": null,
-        "source_url": "https://d2r.world/zh-TW/info/item/unique/gloves"
-      }
-    },
-    {
-      "id": "unique-https-d2r-world-zh-tw-info-item-unique-daggers-daggers",
-      "label": "![Image 24 匕首] (https://d2r.world/zh-TW/info/item/unique/daggers#daggers)",
-      "category": "手套",
-      "aliases": [
-        "https://d2r.world/zh-TW/info/item/unique/daggers#daggers",
-        "https://d2r.world/zh TW/info/item/unique/daggers#daggers",
-        "![Image 24 匕首]"
-      ],
-      "d2r_world": {
-        "name_zh": "![Image 24 匕首]",
-        "name_en": "https://d2r.world/zh-TW/info/item/unique/daggers#daggers",
-        "old_name_zh": null,
-        "category": "手套",
-        "category_slug": "gloves",
-        "qlvl": null,
-        "tc": null,
-        "source_url": "https://d2r.world/zh-TW/info/item/unique/gloves"
-      }
-    },
-    {
-      "id": "unique-https-d2r-world-zh-tw-info-item-unique-axes-axes",
-      "label": "![Image 26 斧] (https://d2r.world/zh-TW/info/item/unique/axes#axes)",
-      "category": "手套",
-      "aliases": [
-        "https://d2r.world/zh-TW/info/item/unique/axes#axes",
-        "https://d2r.world/zh TW/info/item/unique/axes#axes",
-        "![Image 26 斧]"
-      ],
-      "d2r_world": {
-        "name_zh": "![Image 26 斧]",
-        "name_en": "https://d2r.world/zh-TW/info/item/unique/axes#axes",
-        "old_name_zh": null,
-        "category": "手套",
-        "category_slug": "gloves",
-        "qlvl": null,
-        "tc": null,
-        "source_url": "https://d2r.world/zh-TW/info/item/unique/gloves"
-      }
-    },
-    {
-      "id": "unique-https-d2r-world-zh-tw-info-item-unique-polearms-polearms",
-      "label": "![Image 28 長柄武器] (https://d2r.world/zh-TW/info/item/unique/polearms#polearms)",
-      "category": "手套",
-      "aliases": [
-        "https://d2r.world/zh-TW/info/item/unique/polearms#polearms",
-        "https://d2r.world/zh TW/info/item/unique/polearms#polearms",
-        "![Image 28 長柄武器]"
-      ],
-      "d2r_world": {
-        "name_zh": "![Image 28 長柄武器]",
-        "name_en": "https://d2r.world/zh-TW/info/item/unique/polearms#polearms",
-        "old_name_zh": null,
-        "category": "手套",
-        "category_slug": "gloves",
-        "qlvl": null,
-        "tc": null,
-        "source_url": "https://d2r.world/zh-TW/info/item/unique/gloves"
-      }
-    },
-    {
-      "id": "unique-https-d2r-world-zh-tw-info-item-unique-spears-spears",
-      "label": "![Image 30 長矛] (https://d2r.world/zh-TW/info/item/unique/spears#spears)",
-      "category": "手套",
-      "aliases": [
-        "https://d2r.world/zh-TW/info/item/unique/spears#spears",
-        "https://d2r.world/zh TW/info/item/unique/spears#spears",
-        "![Image 30 長矛]"
-      ],
-      "d2r_world": {
-        "name_zh": "![Image 30 長矛]",
-        "name_en": "https://d2r.world/zh-TW/info/item/unique/spears#spears",
-        "old_name_zh": null,
-        "category": "手套",
-        "category_slug": "gloves",
-        "qlvl": null,
-        "tc": null,
-        "source_url": "https://d2r.world/zh-TW/info/item/unique/gloves"
-      }
-    },
-    {
-      "id": "unique-https-d2r-world-zh-tw-info-item-unique-clubs-clubs",
-      "label": "![Image 32 短棒] (https://d2r.world/zh-TW/info/item/unique/clubs#clubs)",
-      "category": "手套",
-      "aliases": [
-        "https://d2r.world/zh-TW/info/item/unique/clubs#clubs",
-        "https://d2r.world/zh TW/info/item/unique/clubs#clubs",
-        "![Image 32 短棒]"
-      ],
-      "d2r_world": {
-        "name_zh": "![Image 32 短棒]",
-        "name_en": "https://d2r.world/zh-TW/info/item/unique/clubs#clubs",
-        "old_name_zh": null,
-        "category": "手套",
-        "category_slug": "gloves",
-        "qlvl": null,
-        "tc": null,
-        "source_url": "https://d2r.world/zh-TW/info/item/unique/gloves"
-      }
-    },
-    {
-      "id": "unique-https-d2r-world-zh-tw-info-item-unique-puremaces-puremaces",
-      "label": "![Image 34 釘鎚] (https://d2r.world/zh-TW/info/item/unique/puremaces#puremaces)",
-      "category": "手套",
-      "aliases": [
-        "https://d2r.world/zh-TW/info/item/unique/puremaces#puremaces",
-        "https://d2r.world/zh TW/info/item/unique/puremaces#puremaces",
-        "![Image 34 釘鎚]"
-      ],
-      "d2r_world": {
-        "name_zh": "![Image 34 釘鎚]",
-        "name_en": "https://d2r.world/zh-TW/info/item/unique/puremaces#puremaces",
-        "old_name_zh": null,
-        "category": "手套",
-        "category_slug": "gloves",
-        "qlvl": null,
-        "tc": null,
-        "source_url": "https://d2r.world/zh-TW/info/item/unique/gloves"
-      }
-    },
-    {
-      "id": "unique-https-d2r-world-zh-tw-info-item-unique-hammers-hammers",
-      "label": "![Image 36 重槌] (https://d2r.world/zh-TW/info/item/unique/hammers#hammers)",
-      "category": "手套",
-      "aliases": [
-        "https://d2r.world/zh-TW/info/item/unique/hammers#hammers",
-        "https://d2r.world/zh TW/info/item/unique/hammers#hammers",
-        "![Image 36 重槌]"
-      ],
-      "d2r_world": {
-        "name_zh": "![Image 36 重槌]",
-        "name_en": "https://d2r.world/zh-TW/info/item/unique/hammers#hammers",
-        "old_name_zh": null,
-        "category": "手套",
-        "category_slug": "gloves",
-        "qlvl": null,
-        "tc": null,
-        "source_url": "https://d2r.world/zh-TW/info/item/unique/gloves"
-      }
-    },
-    {
-      "id": "unique-https-d2r-world-zh-tw-info-item-unique-scepters-scepters",
-      "label": "![Image 38 權杖] (https://d2r.world/zh-TW/info/item/unique/scepters#scepters)",
-      "category": "手套",
-      "aliases": [
-        "https://d2r.world/zh-TW/info/item/unique/scepters#scepters",
-        "https://d2r.world/zh TW/info/item/unique/scepters#scepters",
-        "![Image 38 權杖]"
-      ],
-      "d2r_world": {
-        "name_zh": "![Image 38 權杖]",
-        "name_en": "https://d2r.world/zh-TW/info/item/unique/scepters#scepters",
-        "old_name_zh": null,
-        "category": "手套",
-        "category_slug": "gloves",
-        "qlvl": null,
-        "tc": null,
-        "source_url": "https://d2r.world/zh-TW/info/item/unique/gloves"
-      }
-    },
-    {
-      "id": "unique-https-d2r-world-zh-tw-info-item-unique-staves-staves",
-      "label": "![Image 40 法杖] (https://d2r.world/zh-TW/info/item/unique/staves#staves)",
-      "category": "手套",
-      "aliases": [
-        "https://d2r.world/zh-TW/info/item/unique/staves#staves",
-        "https://d2r.world/zh TW/info/item/unique/staves#staves",
-        "![Image 40 法杖]"
-      ],
-      "d2r_world": {
-        "name_zh": "![Image 40 法杖]",
-        "name_en": "https://d2r.world/zh-TW/info/item/unique/staves#staves",
-        "old_name_zh": null,
-        "category": "手套",
-        "category_slug": "gloves",
-        "qlvl": null,
-        "tc": null,
-        "source_url": "https://d2r.world/zh-TW/info/item/unique/gloves"
-      }
-    },
-    {
-      "id": "unique-https-d2r-world-zh-tw-info-item-unique-orbs-orbs",
-      "label": "![Image 42 法珠] (https://d2r.world/zh-TW/info/item/unique/orbs#orbs)",
-      "category": "手套",
-      "aliases": [
-        "https://d2r.world/zh-TW/info/item/unique/orbs#orbs",
-        "https://d2r.world/zh TW/info/item/unique/orbs#orbs",
-        "![Image 42 法珠]"
-      ],
-      "d2r_world": {
-        "name_zh": "![Image 42 法珠]",
-        "name_en": "https://d2r.world/zh-TW/info/item/unique/orbs#orbs",
-        "old_name_zh": null,
-        "category": "手套",
-        "category_slug": "gloves",
-        "qlvl": null,
-        "tc": null,
-        "source_url": "https://d2r.world/zh-TW/info/item/unique/gloves"
-      }
-    },
-    {
-      "id": "unique-https-d2r-world-zh-tw-info-item-unique-wands-wands",
-      "label": "![Image 44 魔杖] (https://d2r.world/zh-TW/info/item/unique/wands#wands)",
-      "category": "手套",
-      "aliases": [
-        "https://d2r.world/zh-TW/info/item/unique/wands#wands",
-        "https://d2r.world/zh TW/info/item/unique/wands#wands",
-        "![Image 44 魔杖]"
-      ],
-      "d2r_world": {
-        "name_zh": "![Image 44 魔杖]",
-        "name_en": "https://d2r.world/zh-TW/info/item/unique/wands#wands",
-        "old_name_zh": null,
-        "category": "手套",
-        "category_slug": "gloves",
-        "qlvl": null,
-        "tc": null,
-        "source_url": "https://d2r.world/zh-TW/info/item/unique/gloves"
-      }
-    },
-    {
-      "id": "unique-https-d2r-world-zh-tw-info-item-unique-katars-katars",
-      "label": "![Image 46 拳刃] (https://d2r.world/zh-TW/info/item/unique/katars#katars)",
-      "category": "手套",
-      "aliases": [
-        "https://d2r.world/zh-TW/info/item/unique/katars#katars",
-        "https://d2r.world/zh TW/info/item/unique/katars#katars",
-        "![Image 46 拳刃]"
-      ],
-      "d2r_world": {
-        "name_zh": "![Image 46 拳刃]",
-        "name_en": "https://d2r.world/zh-TW/info/item/unique/katars#katars",
-        "old_name_zh": null,
-        "category": "手套",
-        "category_slug": "gloves",
-        "qlvl": null,
-        "tc": null,
-        "source_url": "https://d2r.world/zh-TW/info/item/unique/gloves"
-      }
-    },
-    {
-      "id": "unique-https-d2r-world-zh-tw-info-item-unique-bows-bows",
-      "label": "![Image 48 弓] (https://d2r.world/zh-TW/info/item/unique/bows#bows)",
-      "category": "手套",
-      "aliases": [
-        "https://d2r.world/zh-TW/info/item/unique/bows#bows",
-        "https://d2r.world/zh TW/info/item/unique/bows#bows",
-        "![Image 48 弓]"
-      ],
-      "d2r_world": {
-        "name_zh": "![Image 48 弓]",
-        "name_en": "https://d2r.world/zh-TW/info/item/unique/bows#bows",
-        "old_name_zh": null,
-        "category": "手套",
-        "category_slug": "gloves",
-        "qlvl": null,
-        "tc": null,
-        "source_url": "https://d2r.world/zh-TW/info/item/unique/gloves"
-      }
-    },
-    {
-      "id": "unique-https-d2r-world-zh-tw-info-item-unique-crossbows-crossbows",
-      "label": "![Image 50 弩] (https://d2r.world/zh-TW/info/item/unique/crossbows#crossbows)",
-      "category": "手套",
-      "aliases": [
-        "https://d2r.world/zh-TW/info/item/unique/crossbows#crossbows",
-        "https://d2r.world/zh TW/info/item/unique/crossbows#crossbows",
-        "![Image 50 弩]"
-      ],
-      "d2r_world": {
-        "name_zh": "![Image 50 弩]",
-        "name_en": "https://d2r.world/zh-TW/info/item/unique/crossbows#crossbows",
-        "old_name_zh": null,
-        "category": "手套",
-        "category_slug": "gloves",
-        "qlvl": null,
-        "tc": null,
-        "source_url": "https://d2r.world/zh-TW/info/item/unique/gloves"
-      }
-    },
-    {
-      "id": "unique-https-d2r-world-zh-tw-info-item-unique-javelins-javelins",
-      "label": "![Image 52 標槍] (https://d2r.world/zh-TW/info/item/unique/javelins#javelins)",
-      "category": "手套",
-      "aliases": [
-        "https://d2r.world/zh-TW/info/item/unique/javelins#javelins",
-        "https://d2r.world/zh TW/info/item/unique/javelins#javelins",
-        "![Image 52 標槍]"
-      ],
-      "d2r_world": {
-        "name_zh": "![Image 52 標槍]",
-        "name_en": "https://d2r.world/zh-TW/info/item/unique/javelins#javelins",
-        "old_name_zh": null,
-        "category": "手套",
-        "category_slug": "gloves",
-        "qlvl": null,
-        "tc": null,
-        "source_url": "https://d2r.world/zh-TW/info/item/unique/gloves"
-      }
-    },
-    {
-      "id": "unique-https-d2r-world-zh-tw-info-item-unique-throwings-throwings",
-      "label": "![Image 54 投擲武器] (https://d2r.world/zh-TW/info/item/unique/throwings#throwings)",
-      "category": "手套",
-      "aliases": [
-        "https://d2r.world/zh-TW/info/item/unique/throwings#throwings",
-        "https://d2r.world/zh TW/info/item/unique/throwings#throwings",
-        "![Image 54 投擲武器]"
-      ],
-      "d2r_world": {
-        "name_zh": "![Image 54 投擲武器]",
-        "name_en": "https://d2r.world/zh-TW/info/item/unique/throwings#throwings",
-        "old_name_zh": null,
-        "category": "手套",
-        "category_slug": "gloves",
-        "qlvl": null,
-        "tc": null,
-        "source_url": "https://d2r.world/zh-TW/info/item/unique/gloves"
       }
     },
     {

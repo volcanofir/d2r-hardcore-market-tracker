@@ -1,37 +1,37 @@
 {
-  "updated_at": "2026-09-02T10:50:43.783305+00:00",
+  "updated_at": "2026-09-02T11:34:55.359666+00:00",
   "source_policy": "season15-items-static-catalog-v3",
   "catalog_items": 585,
   "forum_pages": [
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123",
       "offset": 0,
-      "topics": 29,
-      "bytes": 10723
+      "topics": 30,
+      "bytes": 10705
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=25",
       "offset": 25,
-      "topics": 30,
-      "bytes": 10660
+      "topics": 38,
+      "bytes": 11163
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=50",
       "offset": 50,
-      "topics": 28,
-      "bytes": 7631
+      "topics": 27,
+      "bytes": 10486
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=75",
       "offset": 75,
-      "topics": 27,
-      "bytes": 10777
+      "topics": 30,
+      "bytes": 10973
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=100",
       "offset": 100,
-      "topics": 31,
-      "bytes": 10984
+      "topics": 29,
+      "bytes": 10648
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=125",
@@ -42,21 +42,28 @@
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=150",
       "offset": 150,
-      "topics": 37,
-      "bytes": 11526
+      "topics": 29,
+      "bytes": 10460
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=175",
       "offset": 175,
-      "topics": 37,
-      "bytes": 11383
+      "topics": 28,
+      "bytes": 10796
     }
   ],
-  "discovered_topics": 135,
-  "cached_topics": 135,
-  "selected_topics": 135,
-  "parsed_this_run": 135,
-  "combined_samples": 75,
-  "market_items": 58,
-  "topic_errors": []
+  "discovered_topics": 209,
+  "cached_topics": 342,
+  "selected_topics": 207,
+  "parsed_this_run": 206,
+  "combined_samples": 155,
+  "market_items": 95,
+  "topic_errors": [
+    {
+      "url": "https://forums.d2jsp.org/topic.php?t=110124893&f=123",
+      "title": "Hcl Daily Shop",
+      "reason": "new",
+      "error": "429 Too Many Requests (5/5)"
+    }
+  ]
 }

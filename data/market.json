@@ -1,14 +1,122 @@
 {
-  "updated_at": "2026-09-02T05:26:40.903323+00:00",
+  "updated_at": "2026-09-02T05:30:09.496693+00:00",
   "forum": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-  "topic_count": 204,
-  "cached_topics": 204,
-  "parsed_topics": 24,
-  "completed_topics": 8,
+  "topic_count": 254,
+  "cached_topics": 254,
+  "parsed_topics": 48,
+  "completed_topics": 10,
   "parsed_this_run": 24,
-  "sample_count": 6,
+  "sample_count": 10,
   "legacy_sample_count": 0,
   "market": [
+    {
+      "kind": "rune",
+      "id": "Ist",
+      "label": "Ist",
+      "fair_fg": 120.0,
+      "iso_fg": null,
+      "ft_fg": 120.0,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-09-02T05:29:37.712186+00:00",
+      "sources": [
+        {
+          "kind": "rune",
+          "id": "Ist",
+          "label": "Ist",
+          "side": "ft",
+          "price_fg": 120.0,
+          "title": "O Ist Gul",
+          "url": "https://forums.d2jsp.org/topic.php?t=110135680&f=123",
+          "observed_at": "2026-09-02T05:29:37.712186+00:00",
+          "topic_date": "2026-09-01",
+          "parser_v3": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
+        }
+      ]
+    },
+    {
+      "kind": "rune",
+      "id": "Gul",
+      "label": "Gul",
+      "fair_fg": 140.0,
+      "iso_fg": null,
+      "ft_fg": 140.0,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-09-02T05:29:37.712186+00:00",
+      "sources": [
+        {
+          "kind": "rune",
+          "id": "Gul",
+          "label": "Gul",
+          "side": "ft",
+          "price_fg": 140.0,
+          "title": "O Ist Gul",
+          "url": "https://forums.d2jsp.org/topic.php?t=110135680&f=123",
+          "observed_at": "2026-09-02T05:29:37.712186+00:00",
+          "topic_date": "2026-09-01",
+          "parser_v3": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
+        }
+      ]
+    },
+    {
+      "kind": "rune",
+      "id": "Cham",
+      "label": "Cham",
+      "fair_fg": 1000.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-09-02T05:29:27.774138+00:00",
+      "sources": [
+        {
+          "kind": "rune",
+          "id": "Cham",
+          "label": "Cham",
+          "side": "unknown",
+          "price_fg": 1000.0,
+          "title": "Overpay 4 Cham",
+          "url": "https://forums.d2jsp.org/topic.php?t=110133882&f=123",
+          "observed_at": "2026-09-02T05:29:27.774138+00:00",
+          "topic_date": "2026-09-01",
+          "parser_v3": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
+        }
+      ]
+    },
+    {
+      "kind": "rune",
+      "id": "Ohm",
+      "label": "Ohm",
+      "fair_fg": 400.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-09-02T05:29:31.295384+00:00",
+      "sources": [
+        {
+          "kind": "rune",
+          "id": "Ohm",
+          "label": "Ohm",
+          "side": "unknown",
+          "price_fg": 400.0,
+          "title": "Ohm Rune",
+          "url": "https://forums.d2jsp.org/topic.php?t=110133617&f=123",
+          "observed_at": "2026-09-02T05:29:31.295384+00:00",
+          "topic_date": "2026-09-01",
+          "parser_v3": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
+        }
+      ]
+    },
     {
       "kind": "item",
       "id": "cta",

@@ -6852,7 +6852,39 @@
       "completed": false,
       "status": "parsed",
       "samples": []
+    },
+    "https://forums.d2jsp.org/topic.php?t=110137424&f=123": {
+      "title": "O Shako & Vex & Arach",
+      "url": "https://forums.d2jsp.org/topic.php?t=110137424&f=123",
+      "first_seen_at": "2026-09-02T10:38:49.535072+00:00",
+      "last_checked_at": "2026-09-02T10:38:54.664505+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": [
+        {
+          "kind": "rune",
+          "id": "Vex",
+          "label": "Vex",
+          "side": "ft",
+          "price_fg": 215.0,
+          "title": "O Shako & Vex & Arach",
+          "url": "https://forums.d2jsp.org/topic.php?t=110137424&f=123",
+          "observed_at": "2026-09-02T10:38:54.664505+00:00",
+          "topic_date": "2026-09-02",
+          "parser_v4": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
+        }
+      ]
+    },
+    "https://forums.d2jsp.org/topic.php?t=110137390&f=123&o=10": {
+      "title": "2",
+      "url": "https://forums.d2jsp.org/topic.php?t=110137390&f=123&o=10",
+      "first_seen_at": "2026-09-02T10:38:49.535072+00:00",
+      "last_checked_at": "2026-09-02T10:38:55.114324+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": []
     }
   },
-  "updated_at": "2026-09-02T10:10:41.524828+00:00"
+  "updated_at": "2026-09-02T10:38:55.119550+00:00"
 }

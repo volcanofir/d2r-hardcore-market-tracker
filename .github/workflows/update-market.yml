@@ -36,13 +36,12 @@ jobs:
           cache: pip
       - run: pip install -r requirements.txt
       - name: Import D2R World set catalog once
+        if: github.event_name == 'push' && github.event.head_commit.message == 'Run one-time D2R World set catalog import'
         run: python sync_d2r_world_sets.py
       - name: Scrape Season 15 rune market
         run: |
-          # Lower concurrency for retry/incremental passes to reduce Jina 429s.
           sed -i 's/s.MAX_WORKERS = 4/s.MAX_WORKERS = 2/' season15_runner.py
           python season15_runner.py
-          # The sed change is runtime-only; keep the working tree clean for rebase/push.
           git checkout -- season15_runner.py
       - name: Scrape Season 15 equipment market
         run: python item_tracker.py

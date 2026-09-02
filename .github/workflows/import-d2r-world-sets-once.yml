@@ -5,7 +5,7 @@ on:
     branches: [main]
     paths:
       - '.github/workflows/import-d2r-world-sets-once.yml'
-      - 'sync_d2r_world_sets.py'
+      - 'sync_d2r_world_sets_v2.py'
   workflow_dispatch:
 
 permissions:
@@ -29,7 +29,7 @@ jobs:
           cache: pip
       - run: pip install -r requirements.txt
       - name: Import complete D2R World set catalog
-        run: python sync_d2r_world_sets.py
+        run: python sync_d2r_world_sets_v2.py
       - name: Commit static set catalog
         run: |
           git config user.name "github-actions[bot]"

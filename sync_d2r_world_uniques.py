@@ -16,46 +16,25 @@ SOURCE_PATH = DATA / "d2r_world_uniques.json"
 CATALOG_PATH = DATA / "catalog.json"
 BASE_URL = "https://d2r.world/zh-TW/info/item/unique"
 JINA_PREFIX = "https://r.jina.ai/https://"
+SOURCE_SCHEMA = 2
 STALE_DAYS = 30
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/126 Safari/537.36",
     "Accept-Language": "zh-TW,zh;q=0.9,en;q=0.8",
 }
 
-# Exact category slugs are taken from the site's category links.
 CATEGORIES = [
-    ("helms", "頭盔"),
-    ("armors", "護甲"),
-    ("shields", "盾牌"),
-    ("belts", "腰帶"),
-    ("boots", "鞋子"),
-    ("gloves", "手套"),
-    ("rings", "戒指"),
-    ("amulets", "護身符"),
-    ("charms", "咒符"),
-    ("jewels", "珠寶"),
-    ("swords", "刀劍"),
-    ("daggers", "匕首"),
-    ("axes", "斧"),
-    ("polearms", "長柄武器"),
-    ("spears", "長矛"),
-    ("clubs", "短棒"),
-    ("puremaces", "釘鎚"),
-    ("hammers", "重槌"),
-    ("scepters", "權杖"),
-    ("staves", "法杖"),
-    ("orbs", "法珠"),
-    ("wands", "魔杖"),
-    ("katars", "拳刃"),
-    ("bows", "弓"),
-    ("crossbows", "弩"),
-    ("javelins", "標槍"),
-    ("throwings", "投擲武器"),
+    ("helms", "頭盔"), ("armors", "護甲"), ("shields", "盾牌"),
+    ("belts", "腰帶"), ("boots", "鞋子"), ("gloves", "手套"),
+    ("rings", "戒指"), ("amulets", "護身符"), ("charms", "咒符"),
+    ("jewels", "珠寶"), ("swords", "刀劍"), ("daggers", "匕首"),
+    ("axes", "斧"), ("polearms", "長柄武器"), ("spears", "長矛"),
+    ("clubs", "短棒"), ("puremaces", "釘鎚"), ("hammers", "重槌"),
+    ("scepters", "權杖"), ("staves", "法杖"), ("orbs", "法珠"),
+    ("wands", "魔杖"), ("katars", "拳刃"), ("bows", "弓"),
+    ("crossbows", "弩"), ("javelins", "標槍"), ("throwings", "投擲武器"),
 ]
 
-# The first capture is the Traditional-Chinese name, the second is the English
-# canonical name. Keep the English side broad because a few uniques contain
-# punctuation beyond apostrophes/hyphens.
 ITEM_RE = re.compile(r"^(.{1,100}?)\s*\(([^()]{2,100})\)$")
 OLD_RE = re.compile(r"^舊名[：:]\s*(.+)$")
 QLVL_RE = re.compile(r"Qlvl\s*[：:]\s*(\d+)", re.I)
@@ -78,21 +57,17 @@ def now():
 
 
 def normalize(text):
-    text = unicodedata.normalize("NFKC", str(text or "")).lower()
-    text = text.replace("’", "'")
+    text = unicodedata.normalize("NFKC", str(text or "")).lower().replace("’", "'")
     text = re.sub(r"[^a-z0-9\u4e00-\u9fff]+", " ", text)
     return re.sub(r"\s+", " ", text).strip()
 
 
 def slugify(text):
-    value = normalize(text)
-    value = re.sub(r"[^a-z0-9]+", "-", value).strip("-")
-    return value or "unique-item"
+    return re.sub(r"[^a-z0-9]+", "-", normalize(text)).strip("-") or "unique-item"
 
 
 def clean_markdown_line(raw):
     line = str(raw or "").strip()
-    # Preserve visible link text and remove Markdown decoration.
     line = re.sub(r"\[([^\]]+)\]\([^)]*\)", r"\1", line)
     line = re.sub(r"^[\s#>*-]+", "", line)
     line = line.replace("**", "").replace("__", "").replace("`", "")
@@ -124,12 +99,10 @@ def readable_lines(url, retries=6):
 
 def alias_variants(english, chinese=None, old_chinese=None):
     aliases = []
-
     def add(value):
         value = re.sub(r"\s+", " ", str(value or "")).strip()
         if len(value) >= 2 and value.lower() not in {x.lower() for x in aliases}:
             aliases.append(value)
-
     add(english)
     add(english.replace("’", "'"))
     add(english.replace("'", ""))
@@ -154,32 +127,29 @@ def extract_value(lines, index, pattern):
     return None
 
 
-def looks_like_item(zh, en):
-    zh = zh.strip()
-    en = en.strip()
-    if zh in {"搜尋", "Search"} or len(en) < 3:
+def looks_like_item(lines, index, zh, en):
+    zh, en = zh.strip(), en.strip()
+    if zh in {"搜尋", "Search"} or len(en) < 3 or not re.search(r"[A-Za-z]", en):
         return False
-    if not re.search(r"[A-Za-z]", en):
-        return False
-    # UI/common non-item labels seen around the page shell.
     if normalize(en) in {"search", "qlvl", "tc", "privacy policy", "terms of service"}:
         return False
-    return True
+    # On D2R World, a real unique-item title is immediately followed by its
+    # item-value section. This removes translated stat labels/base-item labels
+    # that also happen to look like "中文 (English)" in the rendered page.
+    next_lines = lines[index + 1:min(len(lines), index + 5)]
+    return any(x == "物品數值" for x in next_lines)
 
 
 def parse_category(slug, category):
     url = f"{BASE_URL}/{slug}"
     lines = readable_lines(url)
-
-    items = []
-    current = None
-    seen = set()
+    items, current, seen = [], None, set()
 
     for i, line in enumerate(lines):
         m = ITEM_RE.match(line)
         if m:
             zh, en = (x.strip() for x in m.groups())
-            if not looks_like_item(zh, en):
+            if not looks_like_item(lines, i, zh, en):
                 continue
             key = normalize(en)
             if key in seen:
@@ -187,32 +157,24 @@ def parse_category(slug, category):
                 continue
             seen.add(key)
             current = {
-                "name_zh": zh,
-                "name_en": en,
-                "old_name_zh": None,
-                "category": category,
-                "category_slug": slug,
-                "qlvl": None,
-                "tc": None,
-                "source_url": url,
+                "name_zh": zh, "name_en": en, "old_name_zh": None,
+                "category": category, "category_slug": slug,
+                "qlvl": None, "tc": None, "source_url": url,
             }
             items.append(current)
             continue
 
         if current is None:
             continue
-
         old = OLD_RE.match(line)
         if old and not current.get("old_name_zh"):
             current["old_name_zh"] = old.group(1).strip()
             continue
-
         if "Qlvl" in line and current.get("qlvl") is None:
             value = extract_value(lines, i, QLVL_RE)
             if value and value.isdigit():
                 current["qlvl"] = int(value)
             continue
-
         if re.match(r"^TC\s*[：:]", line, re.I) and current.get("tc") is None:
             value = extract_value(lines, i, TC_RE)
             if value:
@@ -225,6 +187,8 @@ def parse_category(slug, category):
 
 def source_is_fresh(payload):
     try:
+        if payload.get("schema") != SOURCE_SCHEMA:
+            return False
         updated = datetime.fromisoformat(payload.get("updated_at", ""))
         if not updated.tzinfo:
             updated = updated.replace(tzinfo=timezone.utc)
@@ -239,46 +203,35 @@ def fetch_all(force=False):
         print(f"D2R World snapshot is fresh: {len(existing.get('items', []))} items")
         return existing
 
-    all_items = []
-    diagnostics = []
+    all_items, diagnostics = [], []
     for slug, category in CATEGORIES:
         try:
             rows = parse_category(slug, category)
             all_items.extend(rows)
             diagnostics.append({"slug": slug, "category": category, "items": len(rows), "ok": True})
             print(f"d2r.world {category}: {len(rows)}")
-            # Be gentle with the text gateway; this full sync only runs monthly.
             time.sleep(0.45 + random.uniform(0.0, 0.35))
         except Exception as exc:
             diagnostics.append({"slug": slug, "category": category, "items": 0, "ok": False, "error": str(exc)})
             print(f"d2r.world {category}: ERROR {exc}")
 
-    # Deduplicate across categories by canonical English name before validation.
     dedup = {}
     for item in all_items:
         dedup.setdefault(normalize(item["name_en"]), item)
 
     if len(dedup) < 250:
-        # Never replace a healthy snapshot with a partial/blocked scrape.
-        if existing.get("items"):
-            print(f"Only parsed {len(dedup)} items; keeping existing snapshot with {len(existing['items'])}")
-            return existing
-        raise RuntimeError(f"D2R World scrape incomplete: only {len(dedup)} unique items")
-
+        # A schema mismatch means the old snapshot may contain false positives,
+        # so never silently reuse it as a valid schema-2 catalog.
+        raise RuntimeError(f"D2R World scrape incomplete: only {len(dedup)} verified unique items")
     failed_categories = [x for x in diagnostics if not x.get("ok")]
     if failed_categories:
-        if existing.get("items"):
-            print(f"{len(failed_categories)} categories failed; keeping existing complete snapshot")
-            return existing
         raise RuntimeError(f"D2R World category sync incomplete: {len(failed_categories)} categories failed")
 
     payload = {
-        "updated_at": now().isoformat(),
-        "source": BASE_URL,
-        "category_count": len(CATEGORIES),
-        "item_count": len(dedup),
-        "categories": diagnostics,
-        "items": list(dedup.values()),
+        "schema": SOURCE_SCHEMA,
+        "updated_at": now().isoformat(), "source": BASE_URL,
+        "category_count": len(CATEGORIES), "item_count": len(dedup),
+        "categories": diagnostics, "items": list(dedup.values()),
     }
     save_json(SOURCE_PATH, payload)
     return payload
@@ -287,60 +240,46 @@ def fetch_all(force=False):
 def merge_catalog(source):
     manual_cfg = load_json(MANUAL_PATH, {})
     manual_items = [dict(x) for x in manual_cfg.get("items", [])]
+    manual_count = len(manual_items)
 
-    # Existing hand-curated items win IDs/labels/categories because market history
-    # already refers to those IDs and their JSP abbreviations are more specific.
     alias_index = {}
     for idx, item in enumerate(manual_items):
-        candidates = list(item.get("aliases", [])) + [item.get("label", "")]
-        for value in candidates:
+        for value in list(item.get("aliases", [])) + [item.get("label", "")]:
             n = normalize(value)
             if n:
                 alias_index.setdefault(n, idx)
 
-    merged = manual_items
+    merged = list(manual_items)
     added = 0
     merged_existing = 0
     for unique in source.get("items", []):
-        en = unique["name_en"]
-        zh = unique["name_zh"]
-        old_zh = unique.get("old_name_zh")
+        en, zh, old_zh = unique["name_en"], unique["name_zh"], unique.get("old_name_zh")
         variants = alias_variants(en, zh, old_zh)
-        match_idx = None
-        for alias in variants:
-            key = normalize(alias)
-            if key in alias_index:
-                match_idx = alias_index[key]
-                break
-
+        match_idx = next((alias_index[normalize(a)] for a in variants if normalize(a) in alias_index), None)
         metadata = {
-            "name_zh": zh,
-            "name_en": en,
-            "old_name_zh": old_zh,
-            "category": unique.get("category"),
-            "category_slug": unique.get("category_slug"),
-            "qlvl": unique.get("qlvl"),
-            "tc": unique.get("tc"),
+            "name_zh": zh, "name_en": en, "old_name_zh": old_zh,
+            "category": unique.get("category"), "category_slug": unique.get("category_slug"),
+            "qlvl": unique.get("qlvl"), "tc": unique.get("tc"),
             "source_url": unique.get("source_url"),
         }
 
         if match_idx is not None:
             item = merged[match_idx]
             aliases = list(item.get("aliases", []))
+            existing_aliases = {x.lower() for x in aliases}
             for alias in variants:
-                if alias.lower() not in {x.lower() for x in aliases}:
+                if alias.lower() not in existing_aliases:
                     aliases.append(alias)
+                    existing_aliases.add(alias.lower())
             item["aliases"] = aliases
             item["d2r_world"] = metadata
             merged_existing += 1
             continue
 
         item = {
-            "id": "unique-" + slugify(en),
-            "label": f"{zh} ({en})",
+            "id": "unique-" + slugify(en), "label": f"{zh} ({en})",
             "category": unique.get("category", "暗金裝備"),
-            "aliases": variants,
-            "d2r_world": metadata,
+            "aliases": variants, "d2r_world": metadata,
         }
         idx = len(merged)
         merged.append(item)
@@ -351,18 +290,15 @@ def merge_catalog(source):
         added += 1
 
     payload = {
-        "updated_at": now().isoformat(),
-        "source": source.get("source"),
+        "updated_at": now().isoformat(), "source": source.get("source"),
         "source_item_count": source.get("item_count", 0),
-        "manual_item_count": len(manual_items),
+        "manual_item_count": manual_count,
         "merged_existing_count": merged_existing,
-        "added_unique_count": added,
-        "item_count": len(merged),
-        "items": merged,
+        "added_unique_count": added, "item_count": len(merged), "items": merged,
     }
     save_json(CATALOG_PATH, payload)
     print(
-        f"catalog manual={len(manual_items)} source={source.get('item_count', 0)} "
+        f"catalog manual={manual_count} source={source.get('item_count', 0)} "
         f"merged_existing={merged_existing} added={added} total={len(merged)}"
     )
     return payload
@@ -370,12 +306,10 @@ def merge_catalog(source):
 
 def main():
     import argparse
-
     parser = argparse.ArgumentParser()
     parser.add_argument("--force", action="store_true", help="refresh D2R World even if snapshot is fresh")
     args = parser.parse_args()
-    source = fetch_all(force=args.force)
-    merge_catalog(source)
+    merge_catalog(fetch_all(force=args.force))
 
 
 if __name__ == "__main__":

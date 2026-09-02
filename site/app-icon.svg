@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-label="D2R Market Tracker">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="70%">
+      <stop offset="0" stop-color="#20262b"/>
+      <stop offset="0.55" stop-color="#0b0e11"/>
+      <stop offset="1" stop-color="#020304"/>
+    </radialGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d7bd83"/>
+      <stop offset="0.2" stop-color="#6f6044"/>
+      <stop offset="0.52" stop-color="#26292b"/>
+      <stop offset="0.8" stop-color="#8d7448"/>
+      <stop offset="1" stop-color="#e5c887"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff0a6"/>
+      <stop offset="0.18" stop-color="#ffc43b"/>
+      <stop offset="0.5" stop-color="#ff8a00"/>
+      <stop offset="0.78" stop-color="#ffba1f"/>
+      <stop offset="1" stop-color="#fff1a8"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d7f2ff"/>
+      <stop offset="0.5" stop-color="#168dff"/>
+      <stop offset="1" stop-color="#003a88"/>
+    </linearGradient>
+    <filter id="goldGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="14" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="blueGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="9" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="cracks" width="140" height="140" patternUnits="userSpaceOnUse">
+      <path d="M8 118 44 86 60 90 92 51 115 45 135 17M42 0 55 29 50 58 73 78M0 43 22 54 35 82" fill="none" stroke="#50616c" stroke-opacity=".13" stroke-width="3"/>
+    </pattern>
+  </defs>
+
+  <rect x="24" y="24" width="976" height="976" rx="220" fill="url(#bg)"/>
+  <rect x="24" y="24" width="976" height="976" rx="220" fill="url(#cracks)"/>
+  <rect x="42" y="42" width="940" height="940" rx="205" fill="none" stroke="url(#metal)" stroke-width="30"/>
+  <rect x="70" y="70" width="884" height="884" rx="184" fill="none" stroke="#d9a33d" stroke-opacity=".35" stroke-width="4"/>
+
+  <circle cx="526" cy="515" r="308" fill="none" stroke="#d98a21" stroke-opacity=".09" stroke-width="5"/>
+  <circle cx="526" cy="515" r="250" fill="none" stroke="#6ba8d8" stroke-opacity=".07" stroke-width="3"/>
+
+  <g filter="url(#goldGlow)">
+    <path d="M510 178 650 300 590 300 590 744 512 856 434 744 434 300 374 300Z" fill="url(#gold)" stroke="#7a3100" stroke-width="10" stroke-linejoin="round"/>
+    <path d="M370 306 300 208 472 252 512 170 552 252 724 208 654 306 580 282 512 326 444 282Z" fill="url(#gold)" stroke="#7a3100" stroke-width="10" stroke-linejoin="round"/>
+    <path d="M432 744 362 848 476 806 512 862 548 806 662 848 592 744 552 774 512 834 472 774Z" fill="url(#gold)" stroke="#7a3100" stroke-width="10" stroke-linejoin="round"/>
+  </g>
+
+  <g filter="url(#blueGlow)" font-family="Georgia,serif" font-weight="700">
+    <text x="158" y="520" font-size="185" fill="#d8dde2" stroke="#1c242b" stroke-width="6">D</text>
+    <text x="300" y="520" font-size="185" fill="url(#blue)" stroke="#082750" stroke-width="6">2</text>
+  </g>
+
+  <g filter="url(#goldGlow)" fill="none" stroke="url(#gold)" stroke-width="42" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M206 760 352 628 438 700 574 546 676 620 820 420"/>
+  </g>
+  <path d="M780 402 873 365 848 462Z" fill="url(#gold)" stroke="#6d2a00" stroke-width="8" filter="url(#goldGlow)"/>
+
+  <g transform="translate(727 690)">
+    <ellipse cx="95" cy="116" rx="106" ry="42" fill="#8b4d00" opacity=".75"/>
+    <g fill="url(#gold)" stroke="#7b4300" stroke-width="7">
+      <ellipse cx="76" cy="98" rx="103" ry="41"/>
+      <rect x="-27" y="64" width="206" height="34" fill="#d8870b"/>
+      <ellipse cx="76" cy="64" rx="103" ry="41"/>
+      <rect x="-12" y="31" width="206" height="34" fill="#e79b16"/>
+      <ellipse cx="91" cy="31" rx="103" ry="41"/>
+    </g>
+    <path d="m91 2 13 20 24 3-18 16 5 24-24-11-22 12 4-24-19-16 25-4Z" fill="#fff1a1" stroke="#8a5200" stroke-width="5"/>
+  </g>
+
+  <g fill="url(#blue)" stroke="#d9f2ff" stroke-opacity=".55" stroke-width="3" filter="url(#blueGlow)">
+    <path d="M512 56 534 87 512 118 490 87Z"/>
+    <path d="M512 906 534 937 512 968 490 937Z"/>
+    <path d="M56 512 87 490 118 512 87 534Z"/>
+    <path d="M906 512 937 490 968 512 937 534Z"/>
+  </g>
+</svg>

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T16:45:33.434184+00:00",
+  "updated_at": "2026-09-02T21:16:44.904480+00:00",
   "source_policy": "season15-items-static-catalog-v3",
   "catalog_items": 585,
   "forum_pages": [
@@ -18,14 +18,14 @@
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=50",
       "offset": 50,
-      "topics": 31,
-      "bytes": 10641
+      "topics": 34,
+      "bytes": 7770
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=75",
       "offset": 75,
-      "topics": 29,
-      "bytes": 10698
+      "topics": 26,
+      "bytes": 10222
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=100",
@@ -53,17 +53,10 @@
     }
   ],
   "discovered_topics": 60,
-  "cached_topics": 401,
-  "selected_topics": 60,
-  "parsed_this_run": 59,
-  "combined_samples": 199,
-  "market_items": 108,
-  "topic_errors": [
-    {
-      "url": "https://forums.d2jsp.org/topic.php?t=110141027&f=123",
-      "title": "Ft Ik Set Socketed",
-      "reason": "new",
-      "error": "429 Too Many Requests (5/5)"
-    }
-  ]
+  "cached_topics": 460,
+  "selected_topics": 80,
+  "parsed_this_run": 80,
+  "combined_samples": 268,
+  "market_items": 129,
+  "topic_errors": []
 }

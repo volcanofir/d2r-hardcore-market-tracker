@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T16:42:08.466118+00:00",
+  "updated_at": "2026-09-02T21:12:40.705189+00:00",
   "forum_pages": [
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&c=2",
@@ -22,26 +22,21 @@
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=25",
       "offset": 25,
-      "topics": 0,
-      "bytes": 0,
+      "topics": 25,
+      "bytes": 9818,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=25",
-          "topics": 0,
-          "bytes": 285
-        },
-        {
-          "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=25",
-          "topics": 0,
-          "bytes": 285
+          "topics": 25,
+          "bytes": 9818
         }
       ]
     },
     {
-      "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=50",
+      "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=50",
       "offset": 50,
-      "topics": 28,
-      "bytes": 10126,
+      "topics": 0,
+      "bytes": 0,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=50",
@@ -50,8 +45,8 @@
         },
         {
           "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=50",
-          "topics": 28,
-          "bytes": 10126
+          "topics": 0,
+          "bytes": 285
         }
       ]
     },
@@ -74,10 +69,10 @@
       ]
     },
     {
-      "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=100",
+      "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=100",
       "offset": 100,
-      "topics": 0,
-      "bytes": 0,
+      "topics": 26,
+      "bytes": 10505,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=100",
@@ -86,47 +81,52 @@
         },
         {
           "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=100",
-          "topics": 0,
-          "bytes": 286
+          "topics": 26,
+          "bytes": 10505
         }
       ]
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=125",
       "offset": 125,
-      "topics": 25,
-      "bytes": 10431,
+      "topics": 26,
+      "bytes": 10535,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=125",
-          "topics": 25,
-          "bytes": 10431
+          "topics": 26,
+          "bytes": 10535
         }
       ]
     },
     {
-      "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=150",
+      "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=150",
       "offset": 150,
       "topics": 26,
-      "bytes": 9950,
+      "bytes": 10193,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=150",
+          "topics": 0,
+          "bytes": 286
+        },
+        {
+          "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=150",
           "topics": 26,
-          "bytes": 9950
+          "bytes": 10193
         }
       ]
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=175",
       "offset": 175,
-      "topics": 27,
-      "bytes": 10185,
+      "topics": 26,
+      "bytes": 10596,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=175",
-          "topics": 27,
-          "bytes": 10185
+          "topics": 26,
+          "bytes": 10596
         }
       ]
     },
@@ -167,10 +167,10 @@
       ]
     },
     {
-      "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=250",
+      "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=250",
       "offset": 250,
-      "topics": 25,
-      "bytes": 10511,
+      "topics": 0,
+      "bytes": 0,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=250",
@@ -179,8 +179,8 @@
         },
         {
           "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=250",
-          "topics": 25,
-          "bytes": 10511
+          "topics": 0,
+          "bytes": 286
         }
       ]
     },
@@ -188,7 +188,7 @@
       "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=275",
       "offset": 275,
       "topics": 26,
-      "bytes": 10359,
+      "bytes": 10673,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=275",
@@ -198,15 +198,15 @@
         {
           "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=275",
           "topics": 26,
-          "bytes": 10359
+          "bytes": 10673
         }
       ]
     },
     {
-      "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=300",
+      "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=300",
       "offset": 300,
-      "topics": 25,
-      "bytes": 10412,
+      "topics": 0,
+      "bytes": 0,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=300",
@@ -215,36 +215,36 @@
         },
         {
           "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=300",
-          "topics": 25,
-          "bytes": 10412
+          "topics": 0,
+          "bytes": 286
         }
       ]
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=325",
       "offset": 325,
-      "topics": 25,
-      "bytes": 10322,
+      "topics": 26,
+      "bytes": 10263,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=325",
-          "topics": 25,
-          "bytes": 10322
+          "topics": 26,
+          "bytes": 10263
         }
       ]
     }
   ],
-  "discovered_topics": 207,
-  "cached_topics": 512,
-  "selected_topics": 91,
-  "parsed_this_run": 90,
-  "completed_this_run": 18,
+  "discovered_topics": 181,
+  "cached_topics": 629,
+  "selected_topics": 130,
+  "parsed_this_run": 129,
+  "completed_this_run": 45,
   "legacy_samples": 0,
-  "combined_samples": 256,
+  "combined_samples": 289,
   "topic_errors": [
     {
-      "url": "https://forums.d2jsp.org/topic.php?t=110137991&f=123",
-      "title": "Ber+sur Rune For Trade!",
+      "url": "https://forums.d2jsp.org/topic.php?t=110140960&f=123",
+      "title": "Fresh Sur",
       "reason": "new",
       "error": "429 Too Many Requests (5/5)"
     }

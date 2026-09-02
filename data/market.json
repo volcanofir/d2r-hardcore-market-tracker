@@ -1,26 +1,106 @@
 {
-  "updated_at": "2026-09-02T05:30:09.496693+00:00",
+  "updated_at": "2026-09-02T06:04:04.235899+00:00",
   "forum": "https://forums.d2jsp.org/forum.php?f=123&c=2",
   "topic_count": 254,
   "cached_topics": 254,
-  "parsed_topics": 48,
-  "completed_topics": 10,
+  "parsed_topics": 72,
+  "completed_topics": 14,
   "parsed_this_run": 24,
-  "sample_count": 10,
+  "sample_count": 17,
   "legacy_sample_count": 0,
   "market": [
     {
       "kind": "rune",
-      "id": "Ist",
-      "label": "Ist",
-      "fair_fg": 120.0,
-      "iso_fg": null,
-      "ft_fg": 120.0,
+      "id": "Eth",
+      "label": "Eth",
+      "fair_fg": 150.0,
+      "iso_fg": 150.0,
+      "ft_fg": null,
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-09-02T05:29:37.712186+00:00",
+      "last_seen_at": "2026-09-02T06:03:37.009988+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Eth",
+          "label": "Eth",
+          "side": "iso",
+          "price_fg": 150.0,
+          "title": "Foh Pala Iso",
+          "url": "https://forums.d2jsp.org/topic.php?t=110135734&f=123",
+          "observed_at": "2026-09-02T06:03:37.009988+00:00",
+          "topic_date": "2026-09-01",
+          "parser_v3": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
+        }
+      ]
+    },
+    {
+      "kind": "rune",
+      "id": "Lem",
+      "label": "Lem",
+      "fair_fg": 20.0,
+      "iso_fg": 20.0,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-09-02T06:03:37.009988+00:00",
+      "sources": [
+        {
+          "kind": "rune",
+          "id": "Lem",
+          "label": "Lem",
+          "side": "iso",
+          "price_fg": 20.0,
+          "title": "Foh Pala Iso",
+          "url": "https://forums.d2jsp.org/topic.php?t=110135734&f=123",
+          "observed_at": "2026-09-02T06:03:37.009988+00:00",
+          "topic_date": "2026-09-01",
+          "parser_v3": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
+        }
+      ]
+    },
+    {
+      "kind": "rune",
+      "id": "Ist",
+      "label": "Ist",
+      "fair_fg": 100.0,
+      "iso_fg": 97.5,
+      "ft_fg": 120.0,
+      "trade_fg": null,
+      "samples": 3,
+      "confidence": "low",
+      "last_seen_at": "2026-09-02T06:03:19.816478+00:00",
+      "sources": [
+        {
+          "kind": "rune",
+          "id": "Ist",
+          "label": "Ist",
+          "side": "iso",
+          "price_fg": 100.0,
+          "title": "Iso Zod And 3 Ist",
+          "url": "https://forums.d2jsp.org/topic.php?t=110133490&f=123",
+          "observed_at": "2026-09-02T06:03:19.816478+00:00",
+          "topic_date": "2026-09-01",
+          "parser_v3": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
+        },
+        {
+          "kind": "rune",
+          "id": "Ist",
+          "label": "Ist",
+          "side": "iso",
+          "price_fg": 95.0,
+          "title": "Iso Zod And 3 Ist",
+          "url": "https://forums.d2jsp.org/topic.php?t=110133490&f=123",
+          "observed_at": "2026-09-02T06:03:19.816478+00:00",
+          "topic_date": "2026-09-01",
+          "parser_v3": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
+        },
         {
           "kind": "rune",
           "id": "Ist",
@@ -92,16 +172,56 @@
     },
     {
       "kind": "rune",
+      "id": "Vex",
+      "label": "Vex",
+      "fair_fg": 245.0,
+      "iso_fg": null,
+      "ft_fg": 245.0,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-09-02T06:03:22.431396+00:00",
+      "sources": [
+        {
+          "kind": "rune",
+          "id": "Vex",
+          "label": "Vex",
+          "side": "ft",
+          "price_fg": 245.0,
+          "title": "Ft: Vex Rune 245fg",
+          "url": "https://forums.d2jsp.org/topic.php?t=110133622&f=123",
+          "observed_at": "2026-09-02T06:03:22.431396+00:00",
+          "topic_date": "2026-09-01",
+          "parser_v3": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
+        }
+      ]
+    },
+    {
+      "kind": "rune",
       "id": "Ohm",
       "label": "Ohm",
       "fair_fg": 400.0,
       "iso_fg": null,
       "ft_fg": null,
       "trade_fg": null,
-      "samples": 1,
+      "samples": 2,
       "confidence": "low",
-      "last_seen_at": "2026-09-02T05:29:31.295384+00:00",
+      "last_seen_at": "2026-09-02T06:03:32.764015+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Ohm",
+          "label": "Ohm",
+          "side": "unknown",
+          "price_fg": 400.0,
+          "title": "Ff9",
+          "url": "https://forums.d2jsp.org/topic.php?t=110133583&f=123",
+          "observed_at": "2026-09-02T06:03:32.764015+00:00",
+          "topic_date": "2026-09-01",
+          "parser_v3": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
+        },
         {
           "kind": "rune",
           "id": "Ohm",
@@ -111,6 +231,33 @@
           "title": "Ohm Rune",
           "url": "https://forums.d2jsp.org/topic.php?t=110133617&f=123",
           "observed_at": "2026-09-02T05:29:31.295384+00:00",
+          "topic_date": "2026-09-01",
+          "parser_v3": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
+        }
+      ]
+    },
+    {
+      "kind": "rune",
+      "id": "Ko",
+      "label": "Ko",
+      "fair_fg": 25.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-09-02T06:03:56.613752+00:00",
+      "sources": [
+        {
+          "kind": "rune",
+          "id": "Ko",
+          "label": "Ko",
+          "side": "unknown",
+          "price_fg": 25.0,
+          "title": "Ars Dul Meph Hota Shako",
+          "url": "https://forums.d2jsp.org/topic.php?t=110133493&f=123",
+          "observed_at": "2026-09-02T06:03:56.613752+00:00",
           "topic_date": "2026-09-01",
           "parser_v3": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"

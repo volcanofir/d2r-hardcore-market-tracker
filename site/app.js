@@ -1,4 +1,4 @@
-let DATA=[],CATALOG=[],kind='rune',runeCollapsed=true,itemCollapsed=true;
+let DATA=[],CATALOG=[],kind='rune',runeCollapsed=true,itemCollapsed=true,openItemGroups=new Set();
 const fmt=v=>v==null?'—':Number(v).toLocaleString(undefined,{maximumFractionDigits:2});
 const RUNES=[['艾爾','El',11],['艾德','Eld',11],['特爾','Tir',13],['那夫','Nef',13],['愛斯','Eth',15],['伊司','Ith',15],['塔爾','Tal',17],['拉爾','Ral',19],['歐特','Ort',21],['書爾','Thul',23],['安姆','Amn',25],['索爾','Sol',27],['夏','Shael',29],['多爾','Dol',31],['海爾','Hel',0],['埃歐','Io',35],['盧姆','Lum',37],['科','Ko',39],['法爾','Fal',41],['藍姆','Lem',43],['普爾','Pul',45],['烏姆','Um',47],['馬爾','Mal',49],['伊司特','Ist',51],['古爾','Gul',53],['伐克斯','Vex',55],['歐姆','Ohm',57],['羅','Lo',59],['瑟','Sur',61],['貝','Ber',63],['喬','Jah',65],['查姆','Cham',67],['薩德','Zod',69]];
 const RUNE_SPRITE='https://raw.githubusercontent.com/fabd/diablo2-runewizard/main/src/assets/images/runes-sprite.png?v=20260827-ghsprite1';
@@ -36,7 +36,16 @@ function renderItems(q,cards){
   if(!rows.length){cards.innerHTML='<p class="empty">找不到符合的裝備。</p>';return}
   const groups=[];
   for(const item of rows){let g=groups.find(x=>x.name===(item.category||'其他'));if(!g){g={name:item.category||'其他',items:[]};groups.push(g)}g.items.push(item)}
-  cards.innerHTML=groups.map(g=>`<section class="item-group"><div class="item-group-title"><h2>${g.name}</h2><span>${g.items.length}</span></div><div class="item-grid">${g.items.map(itemCard).join('')}</div></section>`).join('');
+  cards.innerHTML=groups.map(g=>{
+    const open=!!q||openItemGroups.has(g.name);
+    const key=encodeURIComponent(g.name);
+    return `<section class="item-group${open?' open':''}"><button class="item-group-title" type="button" data-group="${key}" aria-expanded="${open}"><h2>${g.name}</h2><div class="item-group-side"><span class="item-count">${g.items.length}</span><b>${open?'⌃':'⌄'}</b></div></button><div class="item-grid${open?'':' group-collapsed'}">${open?g.items.map(itemCard).join(''):''}</div></section>`
+  }).join('');
+  cards.querySelectorAll('.item-group-title').forEach(btn=>btn.onclick=()=>{
+    const name=decodeURIComponent(btn.dataset.group||'');
+    if(openItemGroups.has(name))openItemGroups.delete(name);else openItemGroups.add(name);
+    render();
+  });
 }
 function render(){
   const q=document.querySelector('#q').value.toLowerCase().trim();

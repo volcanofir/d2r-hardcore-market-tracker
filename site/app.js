@@ -1,4 +1,4 @@
-let DATA=[],CATALOG=[],kind='rune',runeCollapsed=true,itemCollapsed=true,openItemGroups=new Set();
+let DATA=[],CATALOG=[],kind='rune',runeCollapsed=true,itemCollapsed=true,openItemGroups=new Set(),openItemSubgroups=new Set();
 const fmt=v=>v==null?'—':Number(v).toLocaleString(undefined,{maximumFractionDigits:2});
 const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
 const RUNES=[['艾爾','El',11],['艾德','Eld',11],['特爾','Tir',13],['那夫','Nef',13],['愛斯','Eth',15],['伊司','Ith',15],['塔爾','Tal',17],['拉爾','Ral',19],['歐特','Ort',21],['書爾','Thul',23],['安姆','Amn',25],['索爾','Sol',27],['夏','Shael',29],['多爾','Dol',31],['海爾','Hel',0],['埃歐','Io',35],['盧姆','Lum',37],['科','Ko',39],['法爾','Fal',41],['藍姆','Lem',43],['普爾','Pul',45],['烏姆','Um',47],['馬爾','Mal',49],['伊司特','Ist',51],['古爾','Gul',53],['伐克斯','Vex',55],['歐姆','Ohm',57],['羅','Lo',59],['瑟','Sur',61],['貝','Ber',63],['喬','Jah',65],['查姆','Cham',67],['薩德','Zod',69]];
@@ -10,7 +10,7 @@ async function load(){
     const stamp=Date.now();
     const [marketRes,catalogRes]=await Promise.all([
       fetch('../data/market.json?'+stamp,{cache:'no-store'}),
-      fetch('../data/watchlist.json?'+stamp,{cache:'no-store'}).catch(()=>null)
+      fetch('../data/catalog.json?'+stamp,{cache:'no-store'}).catch(()=>null)
     ]);
     const d=await marketRes.json();DATA=d.market||[];
     if(catalogRes&&catalogRes.ok){const c=await catalogRes.json();CATALOG=c.items||[]}
@@ -45,19 +45,58 @@ function itemCard(item){
   const x=itemMarket(item.id),has=x.fair_fg!=null;
   return `<article class="item-card"><div class="item-head"><div><div class="item-category">${item.category||'其他'}</div><h2>${item.label}</h2></div><span class="item-state">${has?(x.confidence||'low'):'待樣本'}</span></div><div class="fair item-fair">${has?fmt(x.fair_fg)+' <span class="unit">FG</span>':'—'}</div><div class="stats"><div class="stat"><span>ISO 買價</span><b>${fmt(x.iso_fg)}</b></div><div class="stat"><span>FT / BIN</span><b>${fmt(x.ft_fg)}</b></div><div class="stat"><span>成交 / T4T</span><b>${fmt(x.trade_fg)}</b></div></div><div class="meta"><span>樣本 ${x.samples||0}</span><span>${has?'可信度 '+(x.confidence||'low'):'等待可靠行情'}</span></div>${sampleLinks(x)}</article>`
 }
+function categoryParts(category){
+  const raw=(category||'其他').trim()||'其他';
+  if(raw.startsWith('套裝'))return {parent:raw.slice(2)||'其他',subgroup:raw,set:true};
+  return {parent:raw,subgroup:`獨特${raw}`,set:false};
+}
 function renderItems(q,cards){
   const rows=CATALOG.filter(item=>((item.label||'')+' '+(item.category||'')+' '+(item.aliases||[]).join(' ')).toLowerCase().includes(q));
   if(!rows.length){cards.innerHTML='<p class="empty">找不到符合的裝備。</p>';return}
-  const groups=[];
-  for(const item of rows){let g=groups.find(x=>x.name===(item.category||'其他'));if(!g){g={name:item.category||'其他',items:[]};groups.push(g)}g.items.push(item)}
-  cards.innerHTML=groups.map(g=>{
-    const open=!!q||openItemGroups.has(g.name);
-    const key=encodeURIComponent(g.name);
-    return `<section class="item-group${open?' open':''}"><button class="item-group-title" type="button" data-group="${key}" aria-expanded="${open}"><h2>${g.name}</h2><div class="item-group-side"><span class="item-count">${g.items.length}</span><b>${open?'⌃':'⌄'}</b></div></button><div class="item-grid${open?'':' group-collapsed'}">${open?g.items.map(itemCard).join(''):''}</div></section>`
+
+  const parents=[];
+  for(const item of rows){
+    const part=categoryParts(item.category);
+    let parent=parents.find(x=>x.name===part.parent);
+    if(!parent){parent={name:part.parent,groups:[]};parents.push(parent)}
+    let subgroup=parent.groups.find(x=>x.name===part.subgroup);
+    if(!subgroup){subgroup={name:part.subgroup,raw:item.category||'其他',set:part.set,items:[]};parent.groups.push(subgroup)}
+    subgroup.items.push(item);
+  }
+
+  cards.innerHTML=parents.map(parent=>{
+    const total=parent.groups.reduce((n,g)=>n+g.items.length,0);
+    const hasSet=parent.groups.some(g=>g.set);
+    const hasUnique=parent.groups.some(g=>!g.set);
+    const nested=hasSet&&hasUnique;
+
+    if(!nested){
+      const g=parent.groups[0];
+      const name=g.raw||parent.name;
+      const open=!!q||openItemGroups.has(name);
+      const key=encodeURIComponent(name);
+      return `<section class="item-group${open?' open':''}"><button class="item-group-title" type="button" data-group="${key}" aria-expanded="${open}"><h2>${name}</h2><div class="item-group-side"><span class="item-count">${g.items.length}</span><b>${open?'⌃':'⌄'}</b></div></button><div class="item-grid${open?'':' group-collapsed'}">${open?g.items.map(itemCard).join(''):''}</div></section>`;
+    }
+
+    const parentOpen=!!q||openItemGroups.has(parent.name);
+    const parentKey=encodeURIComponent(parent.name);
+    const subgroups=parent.groups.sort((a,b)=>Number(a.set)-Number(b.set)).map(g=>{
+      const subKey=`${parent.name}::${g.name}`;
+      const subOpen=!!q||openItemSubgroups.has(subKey);
+      const encoded=encodeURIComponent(subKey);
+      return `<section style="margin:0 0 8px 12px"><button class="item-group-title" type="button" data-subgroup="${encoded}" aria-expanded="${subOpen}" style="background:#0d0f10"><h2>${g.name}</h2><div class="item-group-side"><span class="item-count">${g.items.length}</span><b>${subOpen?'⌃':'⌄'}</b></div></button><div class="item-grid${subOpen?'':' group-collapsed'}" style="${subOpen?'margin-top:9px':''}">${subOpen?g.items.map(itemCard).join(''):''}</div></section>`;
+    }).join('');
+    return `<section class="item-group"><button class="item-group-title" type="button" data-group="${parentKey}" aria-expanded="${parentOpen}"><h2>${parent.name}</h2><div class="item-group-side"><span class="item-count">${total}</span><b>${parentOpen?'⌃':'⌄'}</b></div></button><div class="${parentOpen?'':'group-collapsed'}" style="${parentOpen?'margin-top:9px':''}">${parentOpen?subgroups:''}</div></section>`;
   }).join('');
-  cards.querySelectorAll('.item-group-title').forEach(btn=>btn.onclick=()=>{
+
+  cards.querySelectorAll('button[data-group]').forEach(btn=>btn.onclick=()=>{
     const name=decodeURIComponent(btn.dataset.group||'');
     if(openItemGroups.has(name))openItemGroups.delete(name);else openItemGroups.add(name);
+    render();
+  });
+  cards.querySelectorAll('button[data-subgroup]').forEach(btn=>btn.onclick=()=>{
+    const name=decodeURIComponent(btn.dataset.subgroup||'');
+    if(openItemSubgroups.has(name))openItemSubgroups.delete(name);else openItemSubgroups.add(name);
     render();
   });
 }

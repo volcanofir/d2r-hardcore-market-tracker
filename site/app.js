@@ -1,4 +1,4 @@
-let DATA=[],kind='rune';
+let DATA=[],kind='rune',runeCollapsed=true;
 const fmt=v=>v==null?'—':Number(v).toLocaleString(undefined,{maximumFractionDigits:2});
 const RUNES=[['艾爾','El',11],['艾德','Eld',11],['特爾','Tir',13],['那夫','Nef',13],['愛斯','Eth',15],['伊司','Ith',15],['塔爾','Tal',17],['拉爾','Ral',19],['歐特','Ort',21],['書爾','Thul',23],['安姆','Amn',25],['索爾','Sol',27],['夏','Shael',29],['多爾','Dol',31],['海爾','Hel',0],['埃歐','Io',35],['盧姆','Lum',37],['科','Ko',39],['法爾','Fal',41],['藍姆','Lem',43],['普爾','Pul',45],['烏姆','Um',47],['馬爾','Mal',49],['伊司特','Ist',51],['古爾','Gul',53],['伐克斯','Vex',55],['歐姆','Ohm',57],['羅','Lo',59],['瑟','Sur',61],['貝','Ber',63],['喬','Jah',65],['查姆','Cham',67],['薩德','Zod',69]];
 const RUNE_SPRITE='https://raw.githubusercontent.com/fabd/diablo2-runewizard/main/src/assets/images/runes-sprite.png?v=20260827-ghsprite1';
@@ -12,16 +12,29 @@ async function load(){
   }catch(e){document.querySelector('#status').textContent='等待市場資料';render()}
 }
 function marketFor(en){return DATA.find(x=>x.kind==='rune'&&((x.id||'').toLowerCase()===en.toLowerCase()||(x.label||'').toLowerCase()===en.toLowerCase()))||{}}
+function updateRuneToggle(){
+  const t=document.querySelector('#rune-toggle');
+  if(kind!=='rune'){t.hidden=true;return}
+  t.hidden=false;
+  t.setAttribute('aria-expanded',String(!runeCollapsed));
+  t.innerHTML=runeCollapsed?'展開 33 種符文行情 <span>⌄</span>':'收起 33 種符文行情 <span>⌃</span>';
+}
 function render(){
   const q=document.querySelector('#q').value.toLowerCase();
+  const cards=document.querySelector('#cards');
+  updateRuneToggle();
   if(kind==='rune'){
+    if(runeCollapsed){cards.classList.add('collapsed');cards.innerHTML='';return}
+    cards.classList.remove('collapsed');
     const rows=RUNES.map((r,i)=>({r,i,x:marketFor(r[1])})).filter(o=>(o.r.join(' ')+' '+(o.x.label||'')).toLowerCase().includes(q));
-    document.querySelector('#cards').innerHTML=rows.map(({r,i,x})=>`<article class="card"><div class="rune-icon" style="${runeStyle(i)}" aria-label="${r[1]} rune"></div><div class="rune-name"><h2>${r[0]} <small>${r[1]} (${i+1})</small></h2><div class="level">等級 · ${r[2]}</div></div><div class="market"><div class="fair">${fmt(x.fair_fg)} <span class="unit">FG</span></div><div class="stats"><div class="stat"><span>ISO 買價</span><b>${fmt(x.iso_fg)}</b></div><div class="stat"><span>FT / BIN</span><b>${fmt(x.ft_fg)}</b></div><div class="stat"><span>成交 / T4T</span><b>${fmt(x.trade_fg)}</b></div></div><div class="meta"><span>樣本 ${x.samples||0}</span><span>可信度 ${x.confidence||'—'}</span></div><div class="sources">${(x.sources||[]).slice(0,2).map(s=>`<a href="${s.url}" target="_blank" rel="noreferrer">${s.title}</a>`).join('')}</div></div></article>`).join('')
+    cards.innerHTML=rows.map(({r,i,x})=>`<article class="card"><div class="rune-icon" style="${runeStyle(i)}" aria-label="${r[1]} rune"></div><div class="rune-name"><h2>${r[0]} <small>${r[1]} (${i+1})</small></h2><div class="level">等級 · ${r[2]}</div></div><div class="market"><div class="fair">${fmt(x.fair_fg)} <span class="unit">FG</span></div><div class="stats"><div class="stat"><span>ISO 買價</span><b>${fmt(x.iso_fg)}</b></div><div class="stat"><span>FT / BIN</span><b>${fmt(x.ft_fg)}</b></div><div class="stat"><span>成交 / T4T</span><b>${fmt(x.trade_fg)}</b></div></div><div class="meta"><span>樣本 ${x.samples||0}</span><span>可信度 ${x.confidence||'—'}</span></div><div class="sources">${(x.sources||[]).slice(0,2).map(s=>`<a href="${s.url}" target="_blank" rel="noreferrer">${s.title}</a>`).join('')}</div></div></article>`).join('')
   }else{
+    cards.classList.remove('collapsed');
     const rows=DATA.filter(x=>x.kind==='item'&&(x.label||'').toLowerCase().includes(q));
-    document.querySelector('#cards').innerHTML=rows.length?rows.map(x=>`<article class="card item-card"><h2>${x.label}</h2><div class="fair">${fmt(x.fair_fg)} <span class="unit">FG</span></div><div class="meta"><span>樣本 ${x.samples||0}</span><span>可信度 ${x.confidence||'—'}</span></div></article>`).join(''):'<p>目前沒有自訂裝備資料。</p>'
+    cards.innerHTML=rows.length?rows.map(x=>`<article class="card item-card"><h2>${x.label}</h2><div class="fair">${fmt(x.fair_fg)} <span class="unit">FG</span></div><div class="meta"><span>樣本 ${x.samples||0}</span><span>可信度 ${x.confidence||'—'}</span></div></article>`).join(''):'<p>目前沒有自訂裝備資料。</p>'
   }
 }
+document.querySelector('#rune-toggle').onclick=()=>{runeCollapsed=!runeCollapsed;render()};
 document.querySelectorAll('button[data-kind]').forEach(b=>b.onclick=()=>{kind=b.dataset.kind;document.querySelectorAll('button[data-kind]').forEach(x=>x.classList.toggle('active',x===b));render()});
-document.querySelector('#q').oninput=render;
+document.querySelector('#q').oninput=()=>{if(kind==='rune'&&runeCollapsed&&document.querySelector('#q').value.trim())runeCollapsed=false;render()};
 load();

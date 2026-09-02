@@ -1,9 +1,95 @@
 {
   "forum_id": 123,
   "pages": 8,
+  "item_pages": 8,
   "runes": ["El","Eld","Tir","Nef","Eth","Ith","Tal","Ral","Ort","Thul","Amn","Sol","Shael","Dol","Hel","Io","Lum","Ko","Fal","Lem","Pul","Um","Mal","Ist","Gul","Vex","Ohm","Lo","Sur","Ber","Jah","Cham","Zod"],
   "items": [
-    {"id":"griffon-20-15","label":"Griffon's Eye 20/15","aliases":["griffon 20/15","griffons 20/15","griff 20/15"]},
-    {"id":"cta","label":"Call to Arms (CTA)","aliases":["cta","call to arms"]}
+    {"id":"shako","label":"軍帽 (Harlequin Crest / Shako)","category":"頭盔","aliases":["harlequin crest","shako","unid shako"]},
+    {"id":"andariels-visage","label":"安達利爾的面容 (Andariel's Visage / Andy)","category":"頭盔","aliases":["andariel's visage","andariels visage","andariel visage","andy face","andy's face","andys face","unid andy","andy"]},
+    {"id":"guillaumes-face","label":"吉永之臉 (Guillaume's Face / GFace)","category":"頭盔","aliases":["guillaume's face","guillaumes face","gface","g face","guill face"]},
+    {"id":"griffons-eye","label":"獅鷲之眼 (Griffon's Eye / Griff)","category":"頭盔","aliases":["griffon's eye","griffons eye","griffon eye","griffon","griff"]},
+    {"id":"arreats-face","label":"亞瑞特的面容 (Arreat's Face)","category":"頭盔","aliases":["arreat's face","arreats face","arreat face","arreats","eth arreats"]},
+
+    {"id":"vipermagi","label":"蛇魔法師之皮 (Skin of the Vipermagi / Vmagi)","category":"胸甲","aliases":["skin of the vipermagi","vipermagi","viper magi","vmagi","viper"]},
+    {"id":"duriels-shell","label":"都瑞爾的殼 (Duriel's Shell)","category":"胸甲","aliases":["duriel's shell","duriels shell","duriel shell"]},
+    {"id":"tyraels-might","label":"提爾的聖度 (Tyrael's Might)","category":"胸甲","aliases":["tyrael's might","tyraels might","tyrael might","tyraels"]},
+
+    {"id":"oculus","label":"眼球 (The Oculus / Occy)","category":"武器","aliases":["the oculus","oculus","occy","ocy"]},
+    {"id":"wizardspike","label":"巫師之刺 (Wizardspike / Wizzy)","category":"武器","aliases":["wizardspike","wizard spike","wizzy"]},
+    {"id":"titans-revenge","label":"泰坦的復仇 (Titan's Revenge / Titans)","category":"武器","aliases":["titan's revenge","titans revenge","titan revenge","titans","eth titans"]},
+    {"id":"deaths-web","label":"死亡之網 (Death's Web / DWeb)","category":"武器","aliases":["death's web","deaths web","death web","dweb","d-web"]},
+    {"id":"suicide-branch","label":"自殘枝椏 (Suicide Branch)","category":"武器","aliases":["suicide branch","sbranch"]},
+    {"id":"thunderstroke","label":"雷擊 (Thunderstroke / Tstroke)","category":"武器","aliases":["thunderstroke","thunder stroke","tstroke","t-stroke","tstrokes"]},
+
+    {"id":"hoz","label":"撒卡蘭姆使者 (Herald of Zakarum / HoZ)","category":"盾牌","aliases":["herald of zakarum","hoz","upped hoz","eth hoz"]},
+    {"id":"stormshield","label":"暴風之盾 (Stormshield / SS)","category":"盾牌","aliases":["stormshield","storm shield","ss"]},
+    {"id":"homunculus","label":"侏儒 (Homunculus)","category":"盾牌","aliases":["homunculus","homo shield"]},
+
+    {"id":"magefist","label":"法師之拳 (Magefist)","category":"手套","aliases":["magefist","mage fist"]},
+    {"id":"trang-gloves","label":"塔格奧之爪 (Trang-Oul's Claws / Trang Gloves)","category":"手套","aliases":["trang-oul's claws","trang ouls claws","trang claws","trang gloves","trangs gloves"]},
+    {"id":"draculs-grasp","label":"卓古拉之握 (Dracul's Grasp / Dracs)","category":"手套","aliases":["dracul's grasp","draculs grasp","dracul grasp","dracs","drac's"]},
+    {"id":"chance-guards","label":"運氣守護 (Chance Guards / Chancies)","category":"手套","aliases":["chance guards","chance guard","chancies","chancy"]},
+
+    {"id":"arachnid-mesh","label":"蜘蛛之網 (Arachnid Mesh / Arach)","category":"腰帶","aliases":["arachnid mesh","arach","arachnid"]},
+    {"id":"tgods","label":"雷神之力 (Thundergod's Vigor / TGods)","category":"腰帶","aliases":["thundergod's vigor","thundergods vigor","tgods","t-gods"]},
+    {"id":"nosferatus-coil","label":"吸血鬼之聖 (Nosferatu's Coil / Nos)","category":"腰帶","aliases":["nosferatu's coil","nosferatus coil","nos coil","nosferatu"]},
+    {"id":"razortail","label":"剃刀之尾 (Razortail)","category":"腰帶","aliases":["razortail","razor tail"]},
+    {"id":"string-of-ears","label":"穿心 (String of Ears / SoE)","category":"腰帶","aliases":["string of ears","soe","string ears"]},
+
+    {"id":"gore-rider","label":"蝕肉騎士 (Gore Rider / Gores)","category":"靴子","aliases":["gore rider","gore riders","gores"]},
+    {"id":"war-traveler","label":"戰爭旅者 (War Traveler / War Travs)","category":"靴子","aliases":["war traveler","war travelers","war traveller","war travs","wartravs","wt"]},
+    {"id":"sandstorm-trek","label":"沙暴之旅 (Sandstorm Trek / Treks)","category":"靴子","aliases":["sandstorm trek","sandstorm treks","treks","eth treks"]},
+    {"id":"waterwalk","label":"水上飄 (Waterwalk / WWalk)","category":"靴子","aliases":["waterwalk","water walk","wwalk"]},
+
+    {"id":"soj","label":"喬丹之石 (Stone of Jordan / SoJ)","category":"戒指與護身符","aliases":["stone of jordan","soj"]},
+    {"id":"bk-ring","label":"布爾凱索的婚戒 (Bul-Kathos' Wedding Band / BK Ring)","category":"戒指與護身符","aliases":["bul-kathos' wedding band","bul kathos wedding band","bk ring","bk3","bk4","bk5"]},
+    {"id":"raven-frost","label":"烏鴉之霜 (Raven Frost / Raven)","category":"戒指與護身符","aliases":["raven frost","ravenfrost","raven ring"]},
+    {"id":"maras","label":"馬拉的萬花筒 (Mara's Kaleidoscope / Maras)","category":"戒指與護身符","aliases":["mara's kaleidoscope","maras kaleidoscope","mara kaleidoscope","maras","mara ammy"]},
+    {"id":"metalgrid","label":"金屬網格 (Metalgrid)","category":"戒指與護身符","aliases":["metalgrid","metal grid"]},
+    {"id":"highlords","label":"大君之怒 (Highlord's Wrath / Highlords)","category":"戒指與護身符","aliases":["highlord's wrath","highlords wrath","highlord wrath","highlords","highlord"]},
+
+    {"id":"tal-set","label":"塔·拉夏套裝 (Tal Rasha's Wrappings / Tal Set)","category":"熱門套裝部件","aliases":["tal rasha's wrappings","tal rashas wrappings","full tal set","full tals set","tal set","tals set"]},
+    {"id":"tal-armor","label":"漆黑甲 (Tal Rasha's Guardianship / Tal Armor)","category":"熱門套裝部件","aliases":["tal rasha's guardianship","tal rashas guardianship","tal armor","tal armour","tals armor","tals armour"]},
+    {"id":"tal-ammy","label":"塔拉夏護身符 (Tal Rasha's Adjudication / Tal Amulet)","category":"熱門套裝部件","aliases":["tal rasha's adjudication","tal rashas adjudication","tal amulet","tal ammy","tals amulet","tals ammy"]},
+    {"id":"trang-set","label":"塔格奧套裝 (Trang-Oul's Avatar / Trang Set)","category":"熱門套裝部件","aliases":["trang-oul's avatar","trang ouls avatar","full trang set","trang set","trangs set"]},
+    {"id":"trang-wing","label":"帶翼盾 (Trang-Oul's Wing / Trang Wing)","category":"熱門套裝部件","aliases":["trang-oul's wing","trang ouls wing","trang wing","trangs wing"]},
+    {"id":"bk-set","label":"布爾凱索套裝 (Bul-Kathos' Children / BK Set)","category":"熱門套裝部件","aliases":["bul-kathos' children","bul kathos children","bk set","bul kathos set"]},
+
+    {"id":"anni","label":"毀滅小護身符 (Annihilus / Anni)","category":"熱門護身符與暗金符咒","aliases":["annihilus","anni","unid anni"]},
+    {"id":"paladin-torch","label":"聖騎士地獄火炬 (Paladin Torch / PTorch)","category":"熱門護身符與暗金符咒","aliases":["paladin torch","pala torch","ptorch","p torch"]},
+    {"id":"sorc-torch","label":"法師地獄火炬 (Sorceress Torch / STorch)","category":"熱門護身符與暗金符咒","aliases":["sorceress torch","sorc torch","storch","s torch"]},
+    {"id":"gheeds","label":"基得的運氣 (Gheed's Fortune / Gheeds)","category":"熱門護身符與暗金符咒","aliases":["gheed's fortune","gheeds fortune","gheed fortune","gheeds","gheed"]},
+
+    {"id":"pcomb-skiller","label":"聖騎戰鬥技能超大護身符 (PComb)","category":"技能超大護身符","aliases":["pcomb","p comb","paladin combat skiller","pal combat skiller","pcombat gc","pcomb gc"]},
+    {"id":"sorc-light-skiller","label":"法師電擊技能超大護身符 (Lightning Skiller)","category":"技能超大護身符","aliases":["lightning skiller","light skiller","lite skiller","sorc light gc","sorc lite gc","light gc"]},
+    {"id":"sorc-cold-skiller","label":"法師冰冷技能超大護身符 (Cold Skiller)","category":"技能超大護身符","aliases":["cold skiller","sorc cold gc","cold gc"]},
+    {"id":"sorc-fire-skiller","label":"法師火焰技能超大護身符 (Fire Skiller)","category":"技能超大護身符","aliases":["fire skiller","sorc fire gc","fire gc"]},
+    {"id":"pnb-skiller","label":"巫師毒素與骨骼超大護身符 (PnB)","category":"技能超大護身符","aliases":["pnb","p&b","poison and bone skiller","poison bone skiller","pnb gc"]},
+    {"id":"trap-skiller","label":"刺客陷阱技能超大護身符 (Trap Skiller)","category":"技能超大護身符","aliases":["trap skiller","traps skiller","trap gc","traps gc"]},
+    {"id":"elemental-skiller","label":"德魯伊元素技能超大護身符 (Elemental Skiller)","category":"技能超大護身符","aliases":["elemental skiller","ele skiller","druid elemental gc","ele gc"]},
+
+    {"id":"sc-7mf","label":"7% MF 小護身符 (7mf SC)","category":"熱門小護身符","aliases":["7mf sc","7 mf sc","7% mf sc","7mf small charm","7 mf small charm"]},
+    {"id":"sc-20life","label":"20 生命小護身符 (20 Life SC)","category":"熱門小護身符","aliases":["20 life sc","20life sc","20 life small charm","20l sc"]},
+    {"id":"sc-5allres","label":"全抗 5 小護身符 (5@ SC)","category":"熱門小護身符","aliases":["5@ sc","5 all res sc","5 allres sc","5res sc","5 all resistance sc"]},
+    {"id":"sc-32020","label":"3/20/20 小護身符","category":"熱門小護身符","aliases":["3/20/20","3 20 20 sc","3max 20ar 20life sc","3 max 20 ar 20 life sc"]},
+
+    {"id":"base-cs-4os","label":"4洞水晶劍 (4os Crystal Sword / Spirit Base)","category":"熱門符文之語鑲底","aliases":["4os crystal sword","4os cs","4 socket crystal sword"]},
+    {"id":"base-cs-5os","label":"5洞水晶劍 (5os Crystal Sword / CTA Base)","category":"熱門符文之語鑲底","aliases":["5os crystal sword","5os cs","5 socket crystal sword"]},
+    {"id":"base-pb-5os","label":"5洞幻化之刃 (5os Phase Blade / Grief Base)","category":"熱門符文之語鑲底","aliases":["5os phase blade","5os pb","5 socket phase blade"]},
+    {"id":"base-pb-6os","label":"6洞幻化之刃 (6os Phase Blade / Last Wish Base)","category":"熱門符文之語鑲底","aliases":["6os phase blade","6os pb","6 socket phase blade"]},
+    {"id":"base-flail-4os","label":"4洞連枷 (4os Flail / HOTO Base)","category":"熱門符文之語鑲底","aliases":["4os flail","4 socket flail"]},
+    {"id":"base-flail-5os","label":"5洞連枷 (5os Flail / CTA Base)","category":"熱門符文之語鑲底","aliases":["5os flail","5 socket flail"]},
+    {"id":"base-monarch-white","label":"白色統治者大盾 (White / 0os Monarch)","category":"熱門符文之語鑲底","aliases":["white monarch","0os monarch","0 socket monarch","plain monarch"]},
+    {"id":"base-monarch-4os","label":"4洞統治者大盾 (4os Monarch / Spirit Base)","category":"熱門符文之語鑲底","aliases":["4os monarch","4 socket monarch"]},
+    {"id":"base-pally-4os-40res","label":"4洞聖騎士精英盾 40+全抗 (ST/SR 40+@)","category":"熱門符文之語鑲底","aliases":["4os sacred targe 40","4os sacred targe 41","4os sacred targe 42","4os sacred targe 43","4os sacred targe 44","4os sacred targe 45","4os st 40","4os st 41","4os st 42","4os st 43","4os st 44","4os st 45","4os sacred rondache 40","4os sacred rondache 41","4os sacred rondache 42","4os sacred rondache 43","4os sacred rondache 44","4os sacred rondache 45","4os sr 40","4os sr 41","4os sr 42","4os sr 43","4os sr 44","4os sr 45"]},
+    {"id":"base-eth-thresher-4os","label":"無形4洞銳利之斧 (Eth 4os Thresher)","category":"熱門符文之語鑲底","aliases":["4os eth thresher","eth 4os thresher","4 socket eth thresher","eth thresher 4os"]},
+    {"id":"base-eth-ca-4os","label":"無形4洞神秘之斧 (Eth 4os Cryptic Axe / CA)","category":"熱門符文之語鑲底","aliases":["4os eth cryptic axe","eth 4os cryptic axe","4os eth ca","eth ca 4os"]},
+    {"id":"base-eth-mancatcher-4os","label":"無形4洞捕人叉 (Eth 4os Mancatcher)","category":"熱門符文之語鑲底","aliases":["4os eth mancatcher","eth 4os mancatcher","4 socket eth mancatcher","eth mancatcher 4os"]},
+    {"id":"base-ap-3os","label":"3洞執政官鎧甲 (3os Archon Plate / AP)","category":"熱門符文之語鑲底","aliases":["3os archon plate","3os ap","3 socket archon plate"]},
+    {"id":"base-ds-3os","label":"3洞灰暮壽衣 (3os Dusk Shroud / DS)","category":"熱門符文之語鑲底","aliases":["3os dusk shroud","3os ds","3 socket dusk shroud"]},
+    {"id":"base-mp-3os","label":"3洞法師鎧甲 (3os Mage Plate / MP)","category":"熱門符文之語鑲底","aliases":["3os mage plate","3os mp","3 socket mage plate"]},
+    {"id":"base-eth-armor-4os","label":"無形4洞高防胸甲 (Eth 4os Armor / Fortitude Base)","category":"熱門符文之語鑲底","aliases":["4os eth archon plate","eth 4os archon plate","4os eth ap","eth ap 4os","4os eth dusk shroud","eth 4os dusk shroud","4os eth ds","eth ds 4os","4os eth mage plate","eth 4os mage plate","4os eth mp","eth mp 4os"]},
+
+    {"id":"cta","label":"戰爭召喚 (Call to Arms / CTA)","category":"符文之語成品","aliases":["call to arms","cta","6bo cta","6 bo cta"]}
   ]
 }

@@ -10,9 +10,10 @@ ROOT = Path(__file__).parent
 DATA = ROOT / "data"
 CACHE_PATH = DATA / "item_topic_cache.json"
 DIAGNOSTIC_PATH = DATA / "item_diagnostic.json"
+CATALOG_PATH = DATA / "catalog.json"
 START_DATE = datetime(2026, 8, 22).date()
 START_DT = datetime(2026, 8, 22, tzinfo=timezone.utc)
-SOURCE_POLICY = "season15-items-general-v1"
+SOURCE_POLICY = "season15-items-all-uniques-v2"
 MAX_WORKERS = 2
 RECHECK_AFTER_HOURS = 6
 CACHE_DAYS = 30
@@ -65,13 +66,25 @@ def topic_date(markdown):
         return None
 
 
+def tracked_items():
+    catalog = load(CATALOG_PATH, {})
+    items = catalog.get("items", [])
+    if items:
+        return items
+    return s.CFG.get("items", [])
+
+
+TRACKED_ITEMS = tracked_items()
+ITEM_BY_ID = {item["id"]: item for item in TRACKED_ITEMS if item.get("id")}
+
+
 def alias_regex(alias):
     escaped = re.escape(alias.lower()).replace(r"\ ", r"\s+")
     return re.compile(rf"(?<![a-z0-9]){escaped}(?![a-z0-9])", re.I)
 
 
 ITEM_PATTERNS = []
-for item in s.CFG.get("items", []):
+for item in TRACKED_ITEMS:
     patterns = [(alias, alias_regex(alias)) for alias in item.get("aliases", []) if alias.strip()]
     patterns.sort(key=lambda pair: len(pair[0]), reverse=True)
     ITEM_PATTERNS.append((item, patterns))
@@ -90,7 +103,17 @@ def item_hits(line):
                     best = candidate
         if best:
             hits.append((best[0], best[1], item, best[2]))
-    return sorted(hits, key=lambda x: x[0])
+
+    # When two catalog entries overlap the same text, keep the most specific
+    # (longest) match. This protects curated variants from generic names.
+    hits.sort(key=lambda x: (x[0], -(x[1] - x[0])))
+    filtered = []
+    for hit in hits:
+        start, end = hit[0], hit[1]
+        if any(not (end <= prev[0] or start >= prev[1]) for prev in filtered):
+            continue
+        filtered.append(hit)
+    return sorted(filtered, key=lambda x: x[0])
 
 
 def explicit_prices(line):
@@ -177,7 +200,7 @@ def parse_topic(title, url):
                 "url": url,
                 "observed_at": checked_at,
                 "topic_date": created.isoformat(),
-                "item_parser_v1": True,
+                "item_parser_v2": True,
             })
 
     # A thread-wide sold/T4T signal is only safe when exactly one tracked item
@@ -188,21 +211,22 @@ def parse_topic(title, url):
         item_id = next(iter(unique_item_ids))
         vals = prices_by_item.get(item_id, [])
         if vals:
-            item = next(x for x in s.CFG["items"] if x["id"] == item_id)
-            trade_value = sorted(vals)[len(vals) // 2]
-            samples.append({
-                "kind": "item",
-                "id": item_id,
-                "label": item["label"],
-                "category": item.get("category", "其他"),
-                "side": "trade",
-                "price_fg": trade_value,
-                "title": title + " · T4T/sold signal",
-                "url": url,
-                "observed_at": checked_at,
-                "topic_date": created.isoformat(),
-                "item_parser_v1": True,
-            })
+            item = ITEM_BY_ID.get(item_id)
+            if item:
+                trade_value = sorted(vals)[len(vals) // 2]
+                samples.append({
+                    "kind": "item",
+                    "id": item_id,
+                    "label": item["label"],
+                    "category": item.get("category", "其他"),
+                    "side": "trade",
+                    "price_fg": trade_value,
+                    "title": title + " · T4T/sold signal",
+                    "url": url,
+                    "observed_at": checked_at,
+                    "topic_date": created.isoformat(),
+                    "item_parser_v2": True,
+                })
 
     return {
         "title": title,
@@ -270,7 +294,7 @@ def aggregate(cache):
         if entry.get("status") != "parsed":
             continue
         for sample in entry.get("samples", []):
-            if sample.get("kind") != "item" or not sample.get("item_parser_v1"):
+            if sample.get("kind") != "item" or not sample.get("item_parser_v2"):
                 continue
             key = (sample.get("id"), sample.get("side"), sample.get("price_fg"), sample.get("url"))
             dedup[key] = sample
@@ -279,9 +303,9 @@ def aggregate(cache):
 
 def main():
     market = load(s.MARKET_PATH, {"market": []})
-    cache = prune(load(CACHE_PATH, {"version": 1, "topics": {}}))
+    cache = prune(load(CACHE_PATH, {"version": 2, "topics": {}}))
     if cache.get("source_policy") != SOURCE_POLICY:
-        cache = {"version": 1, "source_policy": SOURCE_POLICY, "topics": {}}
+        cache = {"version": 2, "source_policy": SOURCE_POLICY, "topics": {}}
 
     discovered, forum_pages = discover_topics()
     stamp = iso_now()
@@ -334,7 +358,7 @@ def main():
 
     samples = aggregate(cache)
     item_rows = [row for row in s.summarize(samples) if row.get("kind") == "item"]
-    categories = {item["id"]: item.get("category", "其他") for item in s.CFG.get("items", [])}
+    categories = {item["id"]: item.get("category", "其他") for item in TRACKED_ITEMS}
     for row in item_rows:
         row["category"] = categories.get(row.get("id"), "其他")
 
@@ -342,6 +366,7 @@ def main():
     market["market"] = rune_rows + item_rows
     market["updated_at"] = iso_now()
     market["item_source_policy"] = SOURCE_POLICY
+    market["item_catalog_count"] = len(TRACKED_ITEMS)
     market["item_topic_count"] = len(discovered)
     market["item_cached_topics"] = len(cache.get("topics", {}))
     market["item_parsed_topics"] = sum(1 for x in cache.get("topics", {}).values() if x.get("status") == "parsed")
@@ -351,6 +376,7 @@ def main():
     save(DIAGNOSTIC_PATH, {
         "updated_at": iso_now(),
         "source_policy": SOURCE_POLICY,
+        "catalog_items": len(TRACKED_ITEMS),
         "forum_pages": forum_pages,
         "discovered_topics": len(discovered),
         "cached_topics": len(cache.get("topics", {})),
@@ -371,9 +397,9 @@ def main():
     save(s.HISTORY_PATH, history)
 
     print(
-        f"items discovered={len(discovered)} selected={len(selected)} parsed_now={parsed_now} "
-        f"cache_parsed={market['item_parsed_topics']} samples={len(samples)} "
-        f"market_items={len(item_rows)} errors={len(errors)}"
+        f"items catalog={len(TRACKED_ITEMS)} discovered={len(discovered)} selected={len(selected)} "
+        f"parsed_now={parsed_now} cache_parsed={market['item_parsed_topics']} "
+        f"samples={len(samples)} market_items={len(item_rows)} errors={len(errors)}"
     )
 
 

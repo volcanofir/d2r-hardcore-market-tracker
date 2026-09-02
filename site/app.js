@@ -4,6 +4,7 @@ const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&
 const RUNES=[['艾爾','El',11],['艾德','Eld',11],['特爾','Tir',13],['那夫','Nef',13],['愛斯','Eth',15],['伊司','Ith',15],['塔爾','Tal',17],['拉爾','Ral',19],['歐特','Ort',21],['書爾','Thul',23],['安姆','Amn',25],['索爾','Sol',27],['夏','Shael',29],['多爾','Dol',31],['海爾','Hel',0],['埃歐','Io',35],['盧姆','Lum',37],['科','Ko',39],['法爾','Fal',41],['藍姆','Lem',43],['普爾','Pul',45],['烏姆','Um',47],['馬爾','Mal',49],['伊司特','Ist',51],['古爾','Gul',53],['伐克斯','Vex',55],['歐姆','Ohm',57],['羅','Lo',59],['瑟','Sur',61],['貝','Ber',63],['喬','Jah',65],['查姆','Cham',67],['薩德','Zod',69]];
 const RUNE_SPRITE='https://raw.githubusercontent.com/fabd/diablo2-runewizard/main/src/assets/images/runes-sprite.png?v=20260827-ghsprite1';
 const ICON_SIZE=72,SPRITE_W=792,SPRITE_H=216;
+const WEAPON_TYPES=new Set(['武器','刀劍','匕首','斧','長柄','長矛','短棒','釘鎚','重槌','權杖','法杖','法珠','魔杖','拳刃','弓','弩','標槍','投擲武器']);
 function runeStyle(i){const col=i%11,row=Math.floor(i/11),x=-(col*ICON_SIZE),y=-(row*ICON_SIZE);return `width:${ICON_SIZE}px;height:${ICON_SIZE}px;background-image:url('${RUNE_SPRITE}');background-repeat:no-repeat;background-size:${SPRITE_W}px ${SPRITE_H}px;background-position:${x}px ${y}px;background-color:transparent;`}
 async function load(){
   try{
@@ -41,54 +42,80 @@ function sampleLinks(x){
   }).join('');
   return `<details class="sample-links"><summary>查看樣本 <span>${unique.length}</span></summary><div class="sample-list">${links}</div></details>`;
 }
-function itemCard(item){
-  const x=itemMarket(item.id),has=x.fair_fg!=null;
-  return `<article class="item-card"><div class="item-head"><div><div class="item-category">${item.category||'其他'}</div><h2>${item.label}</h2></div><span class="item-state">${has?(x.confidence||'low'):'待樣本'}</span></div><div class="fair item-fair">${has?fmt(x.fair_fg)+' <span class="unit">FG</span>':'—'}</div><div class="stats"><div class="stat"><span>ISO 買價</span><b>${fmt(x.iso_fg)}</b></div><div class="stat"><span>FT / BIN</span><b>${fmt(x.ft_fg)}</b></div><div class="stat"><span>成交 / T4T</span><b>${fmt(x.trade_fg)}</b></div></div><div class="meta"><span>樣本 ${x.samples||0}</span><span>${has?'可信度 '+(x.confidence||'low'):'等待可靠行情'}</span></div>${sampleLinks(x)}</article>`
+function slotName(raw){
+  raw=(raw||'其他').replace(/^套裝/,'').trim()||'其他';
+  if(raw==='護甲'||raw==='胸甲')return '衣服';
+  if(raw==='鞋子'||raw==='靴子')return '靴子';
+  if(WEAPON_TYPES.has(raw))return '武器';
+  return raw;
 }
-function categoryParts(category){
-  const raw=(category||'其他').trim()||'其他';
-  if(raw.startsWith('套裝'))return {parent:raw.slice(2)||'其他',subgroup:raw,set:true};
-  return {parent:raw,subgroup:`獨特${raw}`,set:false};
+function baseParts(item){
+  const id=(item.id||'').toLowerCase();
+  if(/base-(ap|ds|mp|eth-armor)/.test(id))return {parent:'衣服',subgroup:'符文之語底材'};
+  if(/base-(monarch|pally)/.test(id))return {parent:'盾牌',subgroup:'符文之語底材'};
+  return {parent:'武器',subgroup:'符文之語底材'};
+}
+function categoryParts(item){
+  if(item.d2r_world_set_group)return {parent:'完整套裝',subgroup:'完整套裝'};
+  if(item.d2r_world_set){
+    const raw=(item.d2r_world_set.category||item.category||'其他').replace(/^套裝/,'');
+    const parent=slotName(raw);
+    return {parent,subgroup:`套裝${parent}`};
+  }
+  if(item.d2r_world){
+    const raw=item.d2r_world.category||item.category||'其他';
+    const parent=slotName(raw);
+    if(WEAPON_TYPES.has(raw))return {parent:'武器',subgroup:raw==='武器'?'獨特武器':`獨特${raw}`};
+    return {parent,subgroup:`獨特${parent}`};
+  }
+  const raw=(item.category||'其他').trim()||'其他';
+  if(raw==='熱門符文之語鑲底')return baseParts(item);
+  if(raw==='熱門護身符與暗金符咒')return {parent:'咒符',subgroup:(item.id||'').includes('torch')?'地獄火炬':'獨特咒符'};
+  if(raw==='技能超大護身符')return {parent:'咒符',subgroup:'技能超大護身符'};
+  if(raw==='熱門小護身符')return {parent:'咒符',subgroup:'小護身符'};
+  if(raw==='熱門套裝部件')return (item.id||'').endsWith('-set')?{parent:'完整套裝',subgroup:'完整套裝'}:{parent:'套裝',subgroup:'套裝'};
+  if(raw==='戒指與護身符'){
+    const rings=new Set(['soj','bk-ring','raven-frost']);
+    return rings.has(item.id)?{parent:'戒指',subgroup:'獨特戒指'}:{parent:'護身符',subgroup:'獨特護身符'};
+  }
+  if(raw.startsWith('套裝')){const parent=slotName(raw);return {parent,subgroup:`套裝${parent}`}}
+  const parent=slotName(raw);
+  if(WEAPON_TYPES.has(raw))return {parent:'武器',subgroup:'獨特武器'};
+  return {parent,subgroup:`獨特${parent}`};
+}
+function itemCard(item){
+  const x=itemMarket(item.id),has=x.fair_fg!=null,part=categoryParts(item);
+  return `<article class="item-card"><div class="item-head"><div><div class="item-category">${part.subgroup}</div><h2>${item.label}</h2></div><span class="item-state">${has?(x.confidence||'low'):'待樣本'}</span></div><div class="fair item-fair">${has?fmt(x.fair_fg)+' <span class="unit">FG</span>':'—'}</div><div class="stats"><div class="stat"><span>ISO 買價</span><b>${fmt(x.iso_fg)}</b></div><div class="stat"><span>FT / BIN</span><b>${fmt(x.ft_fg)}</b></div><div class="stat"><span>成交 / T4T</span><b>${fmt(x.trade_fg)}</b></div></div><div class="meta"><span>樣本 ${x.samples||0}</span><span>${has?'可信度 '+(x.confidence||'low'):'等待可靠行情'}</span></div>${sampleLinks(x)}</article>`
 }
 function renderItems(q,cards){
-  const rows=CATALOG.filter(item=>((item.label||'')+' '+(item.category||'')+' '+(item.aliases||[]).join(' ')).toLowerCase().includes(q));
+  const rows=CATALOG.filter(item=>{
+    const part=categoryParts(item);
+    return ((item.label||'')+' '+(item.category||'')+' '+part.parent+' '+part.subgroup+' '+(item.aliases||[]).join(' ')).toLowerCase().includes(q);
+  });
   if(!rows.length){cards.innerHTML='<p class="empty">找不到符合的裝備。</p>';return}
-
   const parents=[];
   for(const item of rows){
-    const part=categoryParts(item.category);
+    const part=categoryParts(item);
     let parent=parents.find(x=>x.name===part.parent);
     if(!parent){parent={name:part.parent,groups:[]};parents.push(parent)}
     let subgroup=parent.groups.find(x=>x.name===part.subgroup);
-    if(!subgroup){subgroup={name:part.subgroup,raw:item.category||'其他',set:part.set,items:[]};parent.groups.push(subgroup)}
+    if(!subgroup){subgroup={name:part.subgroup,items:[]};parent.groups.push(subgroup)}
     subgroup.items.push(item);
   }
-
   cards.innerHTML=parents.map(parent=>{
     const total=parent.groups.reduce((n,g)=>n+g.items.length,0);
-    const hasSet=parent.groups.some(g=>g.set);
-    const hasUnique=parent.groups.some(g=>!g.set);
-    const nested=hasSet&&hasUnique;
-
-    if(!nested){
-      const g=parent.groups[0];
-      const name=g.raw||parent.name;
-      const open=!!q||openItemGroups.has(name);
-      const key=encodeURIComponent(name);
-      return `<section class="item-group${open?' open':''}"><button class="item-group-title" type="button" data-group="${key}" aria-expanded="${open}"><h2>${name}</h2><div class="item-group-side"><span class="item-count">${g.items.length}</span><b>${open?'⌃':'⌄'}</b></div></button><div class="item-grid${open?'':' group-collapsed'}">${open?g.items.map(itemCard).join(''):''}</div></section>`;
+    const flat=parent.groups.length===1&&parent.groups[0].name===parent.name;
+    if(flat){
+      const g=parent.groups[0],open=!!q||openItemGroups.has(parent.name),key=encodeURIComponent(parent.name);
+      return `<section class="item-group${open?' open':''}"><button class="item-group-title" type="button" data-group="${key}" aria-expanded="${open}"><h2>${parent.name}</h2><div class="item-group-side"><span class="item-count">${g.items.length}</span><b>${open?'⌃':'⌄'}</b></div></button><div class="item-grid${open?'':' group-collapsed'}">${open?g.items.map(itemCard).join(''):''}</div></section>`;
     }
-
-    const parentOpen=!!q||openItemGroups.has(parent.name);
-    const parentKey=encodeURIComponent(parent.name);
-    const subgroups=parent.groups.sort((a,b)=>Number(a.set)-Number(b.set)).map(g=>{
-      const subKey=`${parent.name}::${g.name}`;
-      const subOpen=!!q||openItemSubgroups.has(subKey);
-      const encoded=encodeURIComponent(subKey);
+    const parentOpen=!!q||openItemGroups.has(parent.name),parentKey=encodeURIComponent(parent.name);
+    const subgroups=parent.groups.map(g=>{
+      const subKey=`${parent.name}::${g.name}`,subOpen=!!q||openItemSubgroups.has(subKey),encoded=encodeURIComponent(subKey);
       return `<section style="margin:0 0 8px 12px"><button class="item-group-title" type="button" data-subgroup="${encoded}" aria-expanded="${subOpen}" style="background:#0d0f10"><h2>${g.name}</h2><div class="item-group-side"><span class="item-count">${g.items.length}</span><b>${subOpen?'⌃':'⌄'}</b></div></button><div class="item-grid${subOpen?'':' group-collapsed'}" style="${subOpen?'margin-top:9px':''}">${subOpen?g.items.map(itemCard).join(''):''}</div></section>`;
     }).join('');
     return `<section class="item-group"><button class="item-group-title" type="button" data-group="${parentKey}" aria-expanded="${parentOpen}"><h2>${parent.name}</h2><div class="item-group-side"><span class="item-count">${total}</span><b>${parentOpen?'⌃':'⌄'}</b></div></button><div class="${parentOpen?'':'group-collapsed'}" style="${parentOpen?'margin-top:9px':''}">${parentOpen?subgroups:''}</div></section>`;
   }).join('');
-
   cards.querySelectorAll('button[data-group]').forEach(btn=>btn.onclick=()=>{
     const name=decodeURIComponent(btn.dataset.group||'');
     if(openItemGroups.has(name))openItemGroups.delete(name);else openItemGroups.add(name);

@@ -1,0 +1,1742 @@
+{
+  "schema": 1,
+  "updated_at": "2026-09-02T10:34:28.852604+00:00",
+  "source": "https://d2r.world/zh-TW/info/item/sets",
+  "category_count": 9,
+  "item_count": 147,
+  "set_count": 34,
+  "categories": [
+    {
+      "slug": "weapons",
+      "category": "套裝武器",
+      "items": 26,
+      "ok": true
+    },
+    {
+      "slug": "helms",
+      "category": "套裝頭盔",
+      "items": 24,
+      "ok": true
+    },
+    {
+      "slug": "armors",
+      "category": "套裝護甲",
+      "items": 25,
+      "ok": true
+    },
+    {
+      "slug": "shields",
+      "category": "套裝盾牌",
+      "items": 14,
+      "ok": true
+    },
+    {
+      "slug": "belts",
+      "category": "套裝腰帶",
+      "items": 14,
+      "ok": true
+    },
+    {
+      "slug": "boots",
+      "category": "套裝鞋子",
+      "items": 11,
+      "ok": true
+    },
+    {
+      "slug": "gloves",
+      "category": "套裝手套",
+      "items": 22,
+      "ok": true
+    },
+    {
+      "slug": "rings",
+      "category": "套裝戒指",
+      "items": 12,
+      "ok": true
+    },
+    {
+      "slug": "amulets",
+      "category": "套裝護身符",
+      "items": 19,
+      "ok": true
+    }
+  ],
+  "sets": [
+    {
+      "slug": "arctic-gear",
+      "name_zh": "北極裝備",
+      "name_en": "Arctic Gear",
+      "source_url": "https://d2r.world/zh-TW/info/item/sets"
+    },
+    {
+      "slug": "hsarus-defense",
+      "name_zh": "海沙魯的鐵禦",
+      "name_en": "Hsarus' Defense",
+      "source_url": "https://d2r.world/zh-TW/info/item/sets"
+    },
+    {
+      "slug": "berserker-s-arsenal",
+      "name_zh": "狂戰士的武裝",
+      "name_en": "Berserker's Arsenal",
+      "source_url": "https://d2r.world/zh-TW/info/item/sets"
+    },
+    {
+      "slug": "cleglaw-s-brace",
+      "name_zh": "克雷德勞的防備",
+      "name_en": "Cleglaw's Brace",
+      "source_url": "https://d2r.world/zh-TW/info/item/sets"
+    },
+    {
+      "slug": "infernal-tools",
+      "name_zh": "煉獄器具",
+      "name_en": "Infernal Tools",
+      "source_url": "https://d2r.world/zh-TW/info/item/sets"
+    },
+    {
+      "slug": "bane-s-garments",
+      "name_zh": "貝恩的衣裝",
+      "name_en": "Bane's Garments",
+      "source_url": "https://d2r.world/zh-TW/info/item/sets"
+    },
+    {
+      "slug": "death-s-disguise",
+      "name_zh": "死亡的偽裝",
+      "name_en": "Death's Disguise",
+      "source_url": "https://d2r.world/zh-TW/info/item/sets"
+    },
+    {
+      "slug": "sigon-s-complete-steel",
+      "name_zh": "西剛的全套鋼甲",
+      "name_en": "Sigon's Complete Steel",
+      "source_url": "https://d2r.world/zh-TW/info/item/sets"
+    },
+    {
+      "slug": "isenhart-s-armory",
+      "name_zh": "依森哈特的軍械",
+      "name_en": "Isenhart's Armory",
+      "source_url": "https://d2r.world/zh-TW/info/item/sets"
+    },
+    {
+      "slug": "civerb-s-vestments",
+      "name_zh": "克維雷布的法衣",
+      "name_en": "Civerb's Vestments",
+      "source_url": "https://d2r.world/zh-TW/info/item/sets"
+    },
+    {
+      "slug": "cathan-s-traps",
+      "name_zh": "卡珊的衣著",
+      "name_en": "Cathan's Traps",
+      "source_url": "https://d2r.world/zh-TW/info/item/sets"
+    },
+    {
+      "slug": "angelic-raiment",
+      "name_zh": "天使的衣裝",
+      "name_en": "Angelic Raiment",
+      "source_url": "https://d2r.world/zh-TW/info/item/sets"
+    },
+    {
+      "slug": "vidala-s-rig",
+      "name_zh": "維達拉的配備",
+      "name_en": "Vidala's Rig",
+      "source_url": "https://d2r.world/zh-TW/info/item/sets"
+    },
+    {
+      "slug": "cow-king-s-leathers",
+      "name_zh": "牛王皮甲",
+      "name_en": "Cow King's Leathers",
+      "source_url": "https://d2r.world/zh-TW/info/item/sets"
+    },
+    {
+      "slug": "arcanna-s-tricks",
+      "name_zh": "阿卡娜的詭計",
+      "name_en": "Arcanna's Tricks",
+      "source_url": "https://d2r.world/zh-TW/info/item/sets"
+    },
+    {
+      "slug": "sander-s-folly",
+      "name_zh": "山德的愚行",
+      "name_en": "Sander's Folly",
+      "source_url": "https://d2r.world/zh-TW/info/item/sets"
+    },
+    {
+      "slug": "iratha-s-finery",
+      "name_zh": "依雷撒的華服",
+      "name_en": "Iratha's Finery",
+      "source_url": "https://d2r.world/zh-TW/info/item/sets"
+    },
+    {
+      "slug": "m-avina-s-battle-hymn",
+      "name_zh": "馬維娜之戰鬥詩歌",
+      "name_en": "M'avina's Battle Hymn",
+      "source_url": "https://d2r.world/zh-TW/info/item/sets"
+    },
+    {
+      "slug": "natalya-s-odium",
+      "name_zh": "娜塔亞的非難",
+      "name_en": "Natalya's Odium",
+      "source_url": "https://d2r.world/zh-TW/info/item/sets"
+    },
+    {
+      "slug": "milabrega-s-regalia",
+      "name_zh": "米拉伯佳戰裝",
+      "name_en": "Milabrega's Regalia",
+      "source_url": "https://d2r.world/zh-TW/info/item/sets"
+    },
+    {
+      "slug": "tal-rasha-s-wrappings",
+      "name_zh": "塔拉夏的外袍",
+      "name_en": "Tal Rasha's Wrappings",
+      "source_url": "https://d2r.world/zh-TW/info/item/sets"
+    },
+    {
+      "slug": "tancred-s-battlegear",
+      "name_zh": "坦克雷的戰裝",
+      "name_en": "Tancred's Battlegear",
+      "source_url": "https://d2r.world/zh-TW/info/item/sets"
+    },
+    {
+      "slug": "hwanin-s-majesty",
+      "name_zh": "桓因的威嚴",
+      "name_en": "Hwanin's Majesty",
+      "source_url": "https://d2r.world/zh-TW/info/item/sets"
+    },
+    {
+      "slug": "aldur-s-watchtower",
+      "name_zh": "艾爾多的守衛",
+      "name_en": "Aldur's Watchtower",
+      "source_url": "https://d2r.world/zh-TW/info/item/sets"
+    },
+    {
+      "slug": "trang-oul-s-avatar",
+      "name_zh": "塔格奧的化身",
+      "name_en": "Trang-Oul's Avatar",
+      "source_url": "https://d2r.world/zh-TW/info/item/sets"
+    },
+    {
+      "slug": "sazabi-s-grand-tribute",
+      "name_zh": "沙薩比的崇高禮讚",
+      "name_en": "Sazabi's Grand Tribute",
+      "source_url": "https://d2r.world/zh-TW/info/item/sets"
+    },
+    {
+      "slug": "immortal-king",
+      "name_zh": "不朽之王",
+      "name_en": "Immortal King",
+      "source_url": "https://d2r.world/zh-TW/info/item/sets"
+    },
+    {
+      "slug": "the-disciple",
+      "name_zh": "門徒",
+      "name_en": "The Disciple",
+      "source_url": "https://d2r.world/zh-TW/info/item/sets"
+    },
+    {
+      "slug": "horazon-s-splendor",
+      "name_zh": "赫拉森的輝煌",
+      "name_en": "Horazon's Splendor",
+      "source_url": "https://d2r.world/zh-TW/info/item/sets"
+    },
+    {
+      "slug": "orphan-s-call",
+      "name_zh": "孤兒的呼喚",
+      "name_en": "Orphan's Call",
+      "source_url": "https://d2r.world/zh-TW/info/item/sets"
+    },
+    {
+      "slug": "naj-s-ancient-vestige",
+      "name_zh": "娜吉的上古遺物",
+      "name_en": "Naj's Ancient Vestige",
+      "source_url": "https://d2r.world/zh-TW/info/item/sets"
+    },
+    {
+      "slug": "griswold-s-legacy",
+      "name_zh": "格里斯瓦德的傳奇",
+      "name_en": "Griswold's Legacy",
+      "source_url": "https://d2r.world/zh-TW/info/item/sets"
+    },
+    {
+      "slug": "bul-kathos-children",
+      "name_zh": "布爾凱索的子嗣",
+      "name_en": "Bul-Kathos' Children",
+      "source_url": "https://d2r.world/zh-TW/info/item/sets"
+    },
+    {
+      "slug": "heaven-s-brethren",
+      "name_zh": "天堂的同胞",
+      "name_en": "Heaven's Brethren",
+      "source_url": "https://d2r.world/zh-TW/info/item/sets"
+    }
+  ],
+  "items": [
+    {
+      "name_zh": "北極號角",
+      "name_en": "Arctic Horn",
+      "old_name_zh": null,
+      "category": "套裝武器",
+      "category_slug": "weapons",
+      "qlvl": 3,
+      "tc": 27,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/weapons"
+    },
+    {
+      "name_zh": "狂戰士手斧",
+      "name_en": "Berserker's Hatchet",
+      "old_name_zh": "狂戰士的手斧",
+      "category": "套裝武器",
+      "category_slug": "weapons",
+      "qlvl": 5,
+      "tc": 15,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/weapons"
+    },
+    {
+      "name_zh": "克雷德勞之牙",
+      "name_en": "Cleglaw's Tooth",
+      "old_name_zh": "克雷得勞之牙",
+      "category": "套裝武器",
+      "category_slug": "weapons",
+      "qlvl": 6,
+      "tc": 21,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/weapons"
+    },
+    {
+      "name_zh": "煉獄火炬",
+      "name_en": "Infernal Torch",
+      "old_name_zh": "地獄火炬",
+      "category": "套裝武器",
+      "category_slug": "weapons",
+      "qlvl": 7,
+      "tc": 27,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/weapons"
+    },
+    {
+      "name_zh": "死亡之觸",
+      "name_en": "Death's Touch",
+      "old_name_zh": null,
+      "category": "套裝武器",
+      "category_slug": "weapons",
+      "qlvl": 8,
+      "tc": 27,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/weapons"
+    },
+    {
+      "name_zh": "依森哈特的光之烙鐵",
+      "name_en": "Isenhart's Lightbrand",
+      "old_name_zh": "依森哈德的光之烙鐵",
+      "category": "套裝武器",
+      "category_slug": "weapons",
+      "qlvl": 11,
+      "tc": 15,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/weapons"
+    },
+    {
+      "name_zh": "克維雷布的短棍",
+      "name_en": "Civerb's Cudgel",
+      "old_name_zh": "希弗伯的短棍",
+      "category": "套裝武器",
+      "category_slug": "weapons",
+      "qlvl": 13,
+      "tc": 15,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/weapons"
+    },
+    {
+      "name_zh": "卡珊的尺杖",
+      "name_en": "Cathan's Rule",
+      "old_name_zh": "卡珊之尺",
+      "category": "套裝武器",
+      "category_slug": "weapons",
+      "qlvl": 15,
+      "tc": 18,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/weapons"
+    },
+    {
+      "name_zh": "天使的鐮刀",
+      "name_en": "Angelic Sickle",
+      "old_name_zh": null,
+      "category": "套裝武器",
+      "category_slug": "weapons",
+      "qlvl": 17,
+      "tc": 9,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/weapons"
+    },
+    {
+      "name_zh": "維達拉的倒刺",
+      "name_en": "Vidala's Barb",
+      "old_name_zh": "維達拉之倒刺",
+      "category": "套裝武器",
+      "category_slug": "weapons",
+      "qlvl": 19,
+      "tc": 24,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/weapons"
+    },
+    {
+      "name_zh": "阿卡娜的死亡之杖",
+      "name_en": "Arcanna's Deathwand",
+      "old_name_zh": null,
+      "category": "套裝武器",
+      "category_slug": "weapons",
+      "qlvl": 20,
+      "tc": 24,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/weapons"
+    },
+    {
+      "name_zh": "山德的迷信",
+      "name_en": "Sander's Superstition",
+      "old_name_zh": null,
+      "category": "套裝武器",
+      "category_slug": "weapons",
+      "qlvl": 20,
+      "tc": 18,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/weapons"
+    },
+    {
+      "name_zh": "米拉伯佳節杖",
+      "name_en": "Milabrega's Rod",
+      "old_name_zh": "米拉伯佳之杖",
+      "category": "套裝武器",
+      "category_slug": "weapons",
+      "qlvl": 23,
+      "tc": 21,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/weapons"
+    },
+    {
+      "name_zh": "坦克雷的鴉嘴鎬",
+      "name_en": "Tancred's Crowbill",
+      "old_name_zh": "坦克雷的鴉嘴鉗",
+      "category": "套裝武器",
+      "category_slug": "weapons",
+      "qlvl": 27,
+      "tc": 21,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/weapons"
+    },
+    {
+      "name_zh": "塔拉夏的警惕之眼",
+      "name_en": "Tal Rasha's Lidless Eye",
+      "old_name_zh": "塔.拉夏的判決",
+      "category": "套裝武器",
+      "category_slug": "weapons",
+      "qlvl": 26,
+      "tc": 51,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/weapons"
+    },
+    {
+      "name_zh": "桓因的制裁",
+      "name_en": "Hwanin's Justice",
+      "old_name_zh": "華寧的正義",
+      "category": "套裝武器",
+      "category_slug": "weapons",
+      "qlvl": 28,
+      "tc": 39,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/weapons"
+    },
+    {
+      "name_zh": "艾爾多的律動",
+      "name_en": "Aldur's Rhythm",
+      "old_name_zh": null,
+      "category": "套裝武器",
+      "category_slug": "weapons",
+      "qlvl": 29,
+      "tc": 39,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/weapons"
+    },
+    {
+      "name_zh": "馬維娜的強弓",
+      "name_en": "M'avina's Caster",
+      "old_name_zh": "馬維娜的施展",
+      "category": "套裝武器",
+      "category_slug": "weapons",
+      "qlvl": 21,
+      "tc": 78,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/weapons"
+    },
+    {
+      "name_zh": "娜塔亞的印記",
+      "name_en": "Natalya's Mark",
+      "old_name_zh": "娜塔亞的記號",
+      "category": "套裝武器",
+      "category_slug": "weapons",
+      "qlvl": 22,
+      "tc": 87,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/weapons"
+    },
+    {
+      "name_zh": "沙薩比的救贖鈷劍",
+      "name_en": "Sazabi's Cobalt Redeemer",
+      "old_name_zh": "沙撒璧的懺悔之鈷",
+      "category": "套裝武器",
+      "category_slug": "weapons",
+      "qlvl": 34,
+      "tc": 84,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/weapons"
+    },
+    {
+      "name_zh": "不朽之王的碎魂者",
+      "name_en": "Immortal King's Stone Crusher",
+      "old_name_zh": null,
+      "category": "套裝武器",
+      "category_slug": "weapons",
+      "qlvl": 37,
+      "tc": 69,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/weapons"
+    },
+    {
+      "name_zh": "娜吉的解謎杖",
+      "name_en": "Naj's Puzzler",
+      "old_name_zh": "娜吉解迷杖",
+      "category": "套裝武器",
+      "category_slug": "weapons",
+      "qlvl": 43,
+      "tc": 75,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/weapons"
+    },
+    {
+      "name_zh": "格里斯瓦德的救贖",
+      "name_en": "Griswold's Redemption",
+      "old_name_zh": "格瑞斯華爾德的救贖",
+      "category": "套裝武器",
+      "category_slug": "weapons",
+      "qlvl": 44,
+      "tc": 87,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/weapons"
+    },
+    {
+      "name_zh": "布爾凱索的神聖職責",
+      "name_en": "Bul-Kathos' Sacred Charge",
+      "old_name_zh": "布爾凱索的神聖代價",
+      "category": "套裝武器",
+      "category_slug": "weapons",
+      "qlvl": 50,
+      "tc": 87,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/weapons"
+    },
+    {
+      "name_zh": "布爾凱索的部族守護",
+      "name_en": "Bul-Kathos' Tribal Guardian",
+      "old_name_zh": null,
+      "category": "套裝武器",
+      "category_slug": "weapons",
+      "qlvl": 50,
+      "tc": 87,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/weapons"
+    },
+    {
+      "name_zh": "檀君的教導",
+      "name_en": "Dangoon's Teaching",
+      "old_name_zh": "丹弓的教導",
+      "category": "套裝武器",
+      "category_slug": "weapons",
+      "qlvl": 55,
+      "tc": 63,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/weapons"
+    },
+    {
+      "name_zh": "狂戰士頭盔",
+      "name_en": "Berserker's Headgear",
+      "old_name_zh": "狂戰士的頭戴",
+      "category": "套裝頭盔",
+      "category_slug": "helms",
+      "qlvl": 5,
+      "tc": 12,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/helms"
+    },
+    {
+      "name_zh": "煉獄頭骨",
+      "name_en": "Infernal Cranium",
+      "old_name_zh": "地獄頭骨",
+      "category": "套裝頭盔",
+      "category_slug": "helms",
+      "qlvl": 7,
+      "tc": 3,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/helms"
+    },
+    {
+      "name_zh": "西剛的護面",
+      "name_en": "Sigon's Visor",
+      "old_name_zh": "西剛之面甲",
+      "category": "套裝頭盔",
+      "category_slug": "helms",
+      "qlvl": 9,
+      "tc": 24,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/helms"
+    },
+    {
+      "name_zh": "依森哈特的角盔",
+      "name_en": "Isenhart's Horns",
+      "old_name_zh": "依森哈德的號角",
+      "category": "套裝頭盔",
+      "category_slug": "helms",
+      "qlvl": 11,
+      "tc": 15,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/helms"
+    },
+    {
+      "name_zh": "卡珊的容貌",
+      "name_en": "Cathan's Visage",
+      "old_name_zh": null,
+      "category": "套裝頭盔",
+      "category_slug": "helms",
+      "qlvl": 15,
+      "tc": 21,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/helms"
+    },
+    {
+      "name_zh": "阿卡娜的頭",
+      "name_en": "Arcanna's Head",
+      "old_name_zh": null,
+      "category": "套裝頭盔",
+      "category_slug": "helms",
+      "qlvl": 20,
+      "tc": 6,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/helms"
+    },
+    {
+      "name_zh": "山德的模範",
+      "name_en": "Sander's Paragon",
+      "old_name_zh": null,
+      "category": "套裝頭盔",
+      "category_slug": "helms",
+      "qlvl": 20,
+      "tc": 3,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/helms"
+    },
+    {
+      "name_zh": "依雷撒的盤頂",
+      "name_en": "Iratha's Coil",
+      "old_name_zh": "依雷撒的線圈",
+      "category": "套裝頭盔",
+      "category_slug": "helms",
+      "qlvl": 21,
+      "tc": 30,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/helms"
+    },
+    {
+      "name_zh": "米拉伯佳權冠",
+      "name_en": "Milabrega's Diadem",
+      "old_name_zh": "米拉伯佳的王冠",
+      "category": "套裝頭盔",
+      "category_slug": "helms",
+      "qlvl": 23,
+      "tc": 30,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/helms"
+    },
+    {
+      "name_zh": "坦克雷的顱骨",
+      "name_en": "Tancred's Skull",
+      "old_name_zh": "坦克雷之骷髏",
+      "category": "套裝頭盔",
+      "category_slug": "helms",
+      "qlvl": 27,
+      "tc": 24,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/helms"
+    },
+    {
+      "name_zh": "不朽之王的意志",
+      "name_en": "Immortal King's Will",
+      "old_name_zh": null,
+      "category": "套裝頭盔",
+      "category_slug": "helms",
+      "qlvl": 37,
+      "tc": 24,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/helms"
+    },
+    {
+      "name_zh": "娜吉的頭環",
+      "name_en": "Naj's Circlet",
+      "old_name_zh": "娜吉的小環",
+      "category": "套裝頭盔",
+      "category_slug": "helms",
+      "qlvl": 43,
+      "tc": 24,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/helms"
+    },
+    {
+      "name_zh": "牛王之角",
+      "name_en": "Cow King's Horns",
+      "old_name_zh": "牛魔王之角",
+      "category": "套裝頭盔",
+      "category_slug": "helms",
+      "qlvl": 20,
+      "tc": 36,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/helms"
+    },
+    {
+      "name_zh": "娜塔亞的圖騰",
+      "name_en": "Natalya's Totem",
+      "old_name_zh": null,
+      "category": "套裝頭盔",
+      "category_slug": "helms",
+      "qlvl": 22,
+      "tc": 51,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/helms"
+    },
+    {
+      "name_zh": "塔拉夏的赫拉迪姆之冠",
+      "name_en": "Tal Rasha's Horadric Crest",
+      "old_name_zh": "塔.拉夏的赫拉迪克紋章",
+      "category": "套裝頭盔",
+      "category_slug": "helms",
+      "qlvl": 26,
+      "tc": 48,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/helms"
+    },
+    {
+      "name_zh": "桓因的光輝",
+      "name_en": "Hwanin's Splendor",
+      "old_name_zh": "華寧的光輝",
+      "category": "套裝頭盔",
+      "category_slug": "helms",
+      "qlvl": 28,
+      "tc": 57,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/helms"
+    },
+    {
+      "name_zh": "艾爾多的冷酷凝視",
+      "name_en": "Aldur's Stony Gaze",
+      "old_name_zh": null,
+      "category": "套裝頭盔",
+      "category_slug": "helms",
+      "qlvl": 29,
+      "tc": 48,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/helms"
+    },
+    {
+      "name_zh": "沙薩比的精神護罩",
+      "name_en": "Sazabi's Mental Sheath",
+      "old_name_zh": "沙撒璧的精神之鞘",
+      "category": "套裝頭盔",
+      "category_slug": "helms",
+      "qlvl": 34,
+      "tc": 45,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/helms"
+    },
+    {
+      "name_zh": "吉永之臉",
+      "name_en": "Guillaume's Face",
+      "old_name_zh": null,
+      "category": "套裝頭盔",
+      "category_slug": "helms",
+      "qlvl": 41,
+      "tc": 51,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/helms"
+    },
+    {
+      "name_zh": "馬維娜的真實之眼",
+      "name_en": "M'avina's True Sight",
+      "old_name_zh": null,
+      "category": "套裝頭盔",
+      "category_slug": "helms",
+      "qlvl": 21,
+      "tc": 87,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/helms"
+    },
+    {
+      "name_zh": "塔格奧之容",
+      "name_en": "Trang-Oul's Guise",
+      "old_name_zh": "塔格奧之外裝",
+      "category": "套裝頭盔",
+      "category_slug": "helms",
+      "qlvl": 32,
+      "tc": 84,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/helms"
+    },
+    {
+      "name_zh": "赫拉森的面容",
+      "name_en": "Horazon's Countenance",
+      "old_name_zh": null,
+      "category": "套裝頭盔",
+      "category_slug": "helms",
+      "qlvl": 40,
+      "tc": "-",
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/helms"
+    },
+    {
+      "name_zh": "格里斯瓦德的勇氣",
+      "name_en": "Griswold's Valor",
+      "old_name_zh": "格瑞斯華爾德的勇氣",
+      "category": "套裝頭盔",
+      "category_slug": "helms",
+      "qlvl": 44,
+      "tc": 87,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/helms"
+    },
+    {
+      "name_zh": "溫達的全靈",
+      "name_en": "Ondal's Almighty",
+      "old_name_zh": "安戴爾的全靈",
+      "category": "套裝頭盔",
+      "category_slug": "helms",
+      "qlvl": 55,
+      "tc": 81,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/helms"
+    },
+    {
+      "name_zh": "北極毛皮",
+      "name_en": "Arctic Furs",
+      "old_name_zh": null,
+      "category": "套裝護甲",
+      "category_slug": "armors",
+      "qlvl": 3,
+      "tc": 3,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/armors"
+    },
+    {
+      "name_zh": "狂戰士鎖子甲",
+      "name_en": "Berserker's Hauberk",
+      "old_name_zh": "狂戰士的鎖子甲",
+      "category": "套裝護甲",
+      "category_slug": "armors",
+      "qlvl": 5,
+      "tc": 21,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/armors"
+    },
+    {
+      "name_zh": "貝恩的靈膚",
+      "name_en": "Bane's Wraithskin",
+      "old_name_zh": null,
+      "category": "套裝護甲",
+      "category_slug": "armors",
+      "qlvl": 7,
+      "tc": "-",
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/armors"
+    },
+    {
+      "name_zh": "西剛的庇護",
+      "name_en": "Sigon's Shelter",
+      "old_name_zh": "西剛的遮蔽",
+      "category": "套裝護甲",
+      "category_slug": "armors",
+      "qlvl": 9,
+      "tc": 33,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/armors"
+    },
+    {
+      "name_zh": "依森哈特的外殼",
+      "name_en": "Isenhart's Case",
+      "old_name_zh": "依森哈德的外殼",
+      "category": "套裝護甲",
+      "category_slug": "armors",
+      "qlvl": 11,
+      "tc": 18,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/armors"
+    },
+    {
+      "name_zh": "卡珊的網衣",
+      "name_en": "Cathan's Mesh",
+      "old_name_zh": "卡珊之網",
+      "category": "套裝護甲",
+      "category_slug": "armors",
+      "qlvl": 15,
+      "tc": 15,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/armors"
+    },
+    {
+      "name_zh": "天使的披風",
+      "name_en": "Angelic Mantle",
+      "old_name_zh": null,
+      "category": "套裝護甲",
+      "category_slug": "armors",
+      "qlvl": 17,
+      "tc": 12,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/armors"
+    },
+    {
+      "name_zh": "維達拉的突襲",
+      "name_en": "Vidala's Ambush",
+      "old_name_zh": null,
+      "category": "套裝護甲",
+      "category_slug": "armors",
+      "qlvl": 19,
+      "tc": 3,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/armors"
+    },
+    {
+      "name_zh": "牛王之皮",
+      "name_en": "Cow King's Hide",
+      "old_name_zh": "牛魔王之皮",
+      "category": "套裝護甲",
+      "category_slug": "armors",
+      "qlvl": 20,
+      "tc": 9,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/armors"
+    },
+    {
+      "name_zh": "阿卡娜的血肉",
+      "name_en": "Arcanna's Flesh",
+      "old_name_zh": null,
+      "category": "套裝護甲",
+      "category_slug": "armors",
+      "qlvl": 20,
+      "tc": 36,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/armors"
+    },
+    {
+      "name_zh": "米拉伯佳外袍",
+      "name_en": "Milabrega's Robe",
+      "old_name_zh": "米拉伯佳之袍",
+      "category": "套裝護甲",
+      "category_slug": "armors",
+      "qlvl": 23,
+      "tc": 42,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/armors"
+    },
+    {
+      "name_zh": "坦克雷的脊柱",
+      "name_en": "Tancred's Spine",
+      "old_name_zh": null,
+      "category": "套裝護甲",
+      "category_slug": "armors",
+      "qlvl": 27,
+      "tc": 39,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/armors"
+    },
+    {
+      "name_zh": "桓因的庇佑",
+      "name_en": "Hwanin's Refuge",
+      "old_name_zh": "華寧的保護",
+      "category": "套裝護甲",
+      "category_slug": "armors",
+      "qlvl": 28,
+      "tc": 45,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/armors"
+    },
+    {
+      "name_zh": "塔格奧之鱗",
+      "name_en": "Trang-Oul's Scales",
+      "old_name_zh": null,
+      "category": "套裝護甲",
+      "category_slug": "armors",
+      "qlvl": 32,
+      "tc": 63,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/armors"
+    },
+    {
+      "name_zh": "格里斯瓦德之心",
+      "name_en": "Griswold's Heart",
+      "old_name_zh": "格瑞斯華爾德之心",
+      "category": "套裝護甲",
+      "category_slug": "armors",
+      "qlvl": 44,
+      "tc": 66,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/armors"
+    },
+    {
+      "name_zh": "解慕漱的堅決",
+      "name_en": "Haemosu's Adamant",
+      "old_name_zh": "黑摩蘇的堅決",
+      "category": "套裝護甲",
+      "category_slug": "armors",
+      "qlvl": 55,
+      "tc": 48,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/armors"
+    },
+    {
+      "name_zh": "馬維娜的擁抱",
+      "name_en": "M'avina's Embrace",
+      "old_name_zh": null,
+      "category": "套裝護甲",
+      "category_slug": "armors",
+      "qlvl": 21,
+      "tc": 81,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/armors"
+    },
+    {
+      "name_zh": "娜塔亞的影子",
+      "name_en": "Natalya's Shadow",
+      "old_name_zh": null,
+      "category": "套裝護甲",
+      "category_slug": "armors",
+      "qlvl": 22,
+      "tc": 75,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/armors"
+    },
+    {
+      "name_zh": "塔拉夏的守護",
+      "name_en": "Tal Rasha's Guardianship",
+      "old_name_zh": "塔.拉夏的守護",
+      "category": "套裝護甲",
+      "category_slug": "armors",
+      "qlvl": 26,
+      "tc": 84,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/armors"
+    },
+    {
+      "name_zh": "艾爾多的欺暪",
+      "name_en": "Aldur's Deception",
+      "old_name_zh": "艾爾多的欺瞞",
+      "category": "套裝護甲",
+      "category_slug": "armors",
+      "qlvl": 29,
+      "tc": 84,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/armors"
+    },
+    {
+      "name_zh": "沙薩比的解靈框體",
+      "name_en": "Sazabi's Ghost Liberator",
+      "old_name_zh": "沙撒璧的鬼魂釋放者",
+      "category": "套裝護甲",
+      "category_slug": "armors",
+      "qlvl": 34,
+      "tc": 78,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/armors"
+    },
+    {
+      "name_zh": "不朽之王的靈魂牢籠",
+      "name_en": "Immortal King's Soul Cage",
+      "old_name_zh": null,
+      "category": "套裝護甲",
+      "category_slug": "armors",
+      "qlvl": 37,
+      "tc": 87,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/armors"
+    },
+    {
+      "name_zh": "隱門徒",
+      "name_en": "Dark Adherent",
+      "old_name_zh": "黑暗信徒",
+      "category": "套裝護甲",
+      "category_slug": "armors",
+      "qlvl": 39,
+      "tc": 66,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/armors"
+    },
+    {
+      "name_zh": "赫拉森的統治",
+      "name_en": "Horazon's Dominion",
+      "old_name_zh": null,
+      "category": "套裝護甲",
+      "category_slug": "armors",
+      "qlvl": 40,
+      "tc": "-",
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/armors"
+    },
+    {
+      "name_zh": "娜吉的輕鎧",
+      "name_en": "Naj's Light Plate",
+      "old_name_zh": "娜吉的輕鎧甲",
+      "category": "套裝護甲",
+      "category_slug": "armors",
+      "qlvl": 43,
+      "tc": 78,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/armors"
+    },
+    {
+      "name_zh": "海沙魯的鐵拳",
+      "name_en": "Hsarus' Iron Fist",
+      "old_name_zh": null,
+      "category": "套裝盾牌",
+      "category_slug": "shields",
+      "qlvl": null,
+      "tc": null,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/shields"
+    },
+    {
+      "name_zh": "格擋機率：%",
+      "name_en": "Pal",
+      "old_name_zh": null,
+      "category": "套裝盾牌",
+      "category_slug": "shields",
+      "qlvl": null,
+      "tc": null,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/shields"
+    },
+    {
+      "name_zh": "格擋機率：%",
+      "name_en": "Ama/Asn/Bar",
+      "old_name_zh": null,
+      "category": "套裝盾牌",
+      "category_slug": "shields",
+      "qlvl": null,
+      "tc": null,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/shields"
+    },
+    {
+      "name_zh": "格擋機率：%",
+      "name_en": "Dru/Nec/Sor",
+      "old_name_zh": "哈斯拉柏的鐵拳",
+      "category": "套裝盾牌",
+      "category_slug": "shields",
+      "qlvl": 4,
+      "tc": 3,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/shields"
+    },
+    {
+      "name_zh": "克雷德勞之爪",
+      "name_en": "Cleglaw's Claw",
+      "old_name_zh": null,
+      "category": "套裝盾牌",
+      "category_slug": "shields",
+      "qlvl": null,
+      "tc": null,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/shields"
+    },
+    {
+      "name_zh": "西剛的守護",
+      "name_en": "Sigon's Guard",
+      "old_name_zh": null,
+      "category": "套裝盾牌",
+      "category_slug": "shields",
+      "qlvl": null,
+      "tc": null,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/shields"
+    },
+    {
+      "name_zh": "依森哈特的招架",
+      "name_en": "Isenhart's Parry",
+      "old_name_zh": null,
+      "category": "套裝盾牌",
+      "category_slug": "shields",
+      "qlvl": null,
+      "tc": null,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/shields"
+    },
+    {
+      "name_zh": "克維雷布的防護",
+      "name_en": "Civerb's Ward",
+      "old_name_zh": null,
+      "category": "套裝盾牌",
+      "category_slug": "shields",
+      "qlvl": null,
+      "tc": null,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/shields"
+    },
+    {
+      "name_zh": "米拉伯佳之球",
+      "name_en": "Milabrega's Orb",
+      "old_name_zh": null,
+      "category": "套裝盾牌",
+      "category_slug": "shields",
+      "qlvl": null,
+      "tc": null,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/shields"
+    },
+    {
+      "name_zh": "塔格奧之翼",
+      "name_en": "Trang-Oul's Wing",
+      "old_name_zh": null,
+      "category": "套裝盾牌",
+      "category_slug": "shields",
+      "qlvl": 32,
+      "tc": 51,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/shields"
+    },
+    {
+      "name_zh": "惠斯坦的守護",
+      "name_en": "Whitstan's Guard",
+      "old_name_zh": null,
+      "category": "套裝盾牌",
+      "category_slug": "shields",
+      "qlvl": null,
+      "tc": null,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/shields"
+    },
+    {
+      "name_zh": "赫拉森的秘密",
+      "name_en": "Horazon's Secrets",
+      "old_name_zh": null,
+      "category": "套裝盾牌",
+      "category_slug": "shields",
+      "qlvl": 40,
+      "tc": "-",
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/shields"
+    },
+    {
+      "name_zh": "格里斯瓦德的榮耀",
+      "name_en": "Griswold's Honor",
+      "old_name_zh": "格瑞斯華爾德的榮耀",
+      "category": "套裝盾牌",
+      "category_slug": "shields",
+      "qlvl": 44,
+      "tc": 87,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/shields"
+    },
+    {
+      "name_zh": "太白山的榮光",
+      "name_en": "Taebaek's Glory",
+      "old_name_zh": null,
+      "category": "套裝盾牌",
+      "category_slug": "shields",
+      "qlvl": null,
+      "tc": null,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/shields"
+    },
+    {
+      "name_zh": "北極捆索",
+      "name_en": "Arctic Binding",
+      "old_name_zh": "北極捆縛",
+      "category": "套裝腰帶",
+      "category_slug": "belts",
+      "qlvl": 3,
+      "tc": 9,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/belts"
+    },
+    {
+      "name_zh": "海沙魯的鐵扣",
+      "name_en": "Hsarus' Iron Stay",
+      "old_name_zh": "哈斯拉柏的鐵胸衣",
+      "category": "套裝腰帶",
+      "category_slug": "belts",
+      "qlvl": 4,
+      "tc": 12,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/belts"
+    },
+    {
+      "name_zh": "煉獄符印",
+      "name_en": "Infernal Sign",
+      "old_name_zh": "地獄符號",
+      "category": "套裝腰帶",
+      "category_slug": "belts",
+      "qlvl": 7,
+      "tc": 21,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/belts"
+    },
+    {
+      "name_zh": "貝恩的權威",
+      "name_en": "Bane's Authority",
+      "old_name_zh": null,
+      "category": "套裝腰帶",
+      "category_slug": "belts",
+      "qlvl": 7,
+      "tc": "-",
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/belts"
+    },
+    {
+      "name_zh": "死亡之護",
+      "name_en": "Death's Guard",
+      "old_name_zh": "死亡的守護",
+      "category": "套裝腰帶",
+      "category_slug": "belts",
+      "qlvl": 8,
+      "tc": 3,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/belts"
+    },
+    {
+      "name_zh": "西剛的裹腰",
+      "name_en": "Sigon's Wrap",
+      "old_name_zh": "西剛的披肩",
+      "category": "套裝腰帶",
+      "category_slug": "belts",
+      "qlvl": 9,
+      "tc": 27,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/belts"
+    },
+    {
+      "name_zh": "依雷撒的腰繩",
+      "name_en": "Iratha's Cord",
+      "old_name_zh": "依雷撒之繩",
+      "category": "套裝腰帶",
+      "category_slug": "belts",
+      "qlvl": 21,
+      "tc": 21,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/belts"
+    },
+    {
+      "name_zh": "桓因的祝福",
+      "name_en": "Hwanin's Blessing",
+      "old_name_zh": "華寧的祝福",
+      "category": "套裝腰帶",
+      "category_slug": "belts",
+      "qlvl": 28,
+      "tc": 12,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/belts"
+    },
+    {
+      "name_zh": "馬維娜的教義",
+      "name_en": "M'avina's Tenet",
+      "old_name_zh": null,
+      "category": "套裝腰帶",
+      "category_slug": "belts",
+      "qlvl": 21,
+      "tc": 39,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/belts"
+    },
+    {
+      "name_zh": "塔拉夏的精織腰布",
+      "name_en": "Tal Rasha's Fine-Spun Cloth",
+      "old_name_zh": "塔.拉夏的纖細衣服",
+      "category": "套裝腰帶",
+      "category_slug": "belts",
+      "qlvl": 26,
+      "tc": 45,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/belts"
+    },
+    {
+      "name_zh": "不朽之王的扈從",
+      "name_en": "Immortal King's Detail",
+      "old_name_zh": "不朽之王的瑣事",
+      "category": "套裝腰帶",
+      "category_slug": "belts",
+      "qlvl": 37,
+      "tc": 54,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/belts"
+    },
+    {
+      "name_zh": "威廉的自尊",
+      "name_en": "Wilhelm's Pride",
+      "old_name_zh": null,
+      "category": "套裝腰帶",
+      "category_slug": "belts",
+      "qlvl": 41,
+      "tc": 51,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/belts"
+    },
+    {
+      "name_zh": "塔格奧之腹",
+      "name_en": "Trang-Oul's Girth",
+      "old_name_zh": "塔格奧之束帶",
+      "category": "套裝腰帶",
+      "category_slug": "belts",
+      "qlvl": 32,
+      "tc": 84,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/belts"
+    },
+    {
+      "name_zh": "守信條",
+      "name_en": "Credendum",
+      "old_name_zh": "信條",
+      "category": "套裝腰帶",
+      "category_slug": "belts",
+      "qlvl": 39,
+      "tc": 75,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/belts"
+    },
+    {
+      "name_zh": "海沙魯的鐵跟",
+      "name_en": "Hsarus' Iron Heel",
+      "old_name_zh": "哈斯拉柏的鐵後跟",
+      "category": "套裝鞋子",
+      "category_slug": "boots",
+      "qlvl": 4,
+      "tc": 12,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/boots"
+    },
+    {
+      "name_zh": "西剛的硬靴",
+      "name_en": "Sigon's Sabot",
+      "old_name_zh": "西剛的木鞋",
+      "category": "套裝鞋子",
+      "category_slug": "boots",
+      "qlvl": 9,
+      "tc": 27,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/boots"
+    },
+    {
+      "name_zh": "維達拉的足距",
+      "name_en": "Vidala's Fetlock",
+      "old_name_zh": "維達拉的距毛",
+      "category": "套裝鞋子",
+      "category_slug": "boots",
+      "qlvl": 19,
+      "tc": 21,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/boots"
+    },
+    {
+      "name_zh": "牛王之蹄",
+      "name_en": "Cow King's Hooves",
+      "old_name_zh": "牛魔王之蹄",
+      "category": "套裝鞋子",
+      "category_slug": "boots",
+      "qlvl": 20,
+      "tc": 9,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/boots"
+    },
+    {
+      "name_zh": "山德的碎石",
+      "name_en": "Sander's Riprap",
+      "old_name_zh": null,
+      "category": "套裝鞋子",
+      "category_slug": "boots",
+      "qlvl": 20,
+      "tc": 9,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/boots"
+    },
+    {
+      "name_zh": "坦克雷的釘靴",
+      "name_en": "Tancred's Hobnails",
+      "old_name_zh": "坦克雷的平頭釘",
+      "category": "套裝鞋子",
+      "category_slug": "boots",
+      "qlvl": 27,
+      "tc": 3,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/boots"
+    },
+    {
+      "name_zh": "娜塔亞的靈魂",
+      "name_en": "Natalya's Soul",
+      "old_name_zh": null,
+      "category": "套裝鞋子",
+      "category_slug": "boots",
+      "qlvl": 22,
+      "tc": 45,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/boots"
+    },
+    {
+      "name_zh": "艾爾多的進擊",
+      "name_en": "Aldur's Advance",
+      "old_name_zh": "艾爾多的成長",
+      "category": "套裝鞋子",
+      "category_slug": "boots",
+      "qlvl": 29,
+      "tc": 51,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/boots"
+    },
+    {
+      "name_zh": "不朽之王之柱",
+      "name_en": "Immortal King's Pillar",
+      "old_name_zh": null,
+      "category": "套裝鞋子",
+      "category_slug": "boots",
+      "qlvl": 37,
+      "tc": 54,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/boots"
+    },
+    {
+      "name_zh": "入門式",
+      "name_en": "Rite of Passage",
+      "old_name_zh": "儀式的走道",
+      "category": "套裝鞋子",
+      "category_slug": "boots",
+      "qlvl": 39,
+      "tc": 36,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/boots"
+    },
+    {
+      "name_zh": "赫拉森的傳承",
+      "name_en": "Horazon's Legacy",
+      "old_name_zh": null,
+      "category": "套裝鞋子",
+      "category_slug": "boots",
+      "qlvl": 40,
+      "tc": "-",
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/boots"
+    },
+    {
+      "name_zh": "![Image 1]",
+      "name_en": "https://d2r.world/zh-TW",
+      "old_name_zh": null,
+      "category": "套裝手套",
+      "category_slug": "gloves",
+      "qlvl": null,
+      "tc": null,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/gloves"
+    },
+    {
+      "name_zh": "![Image 2 武器]",
+      "name_en": "https://d2r.world/zh-TW/info/item/sets/weapons#weapons",
+      "old_name_zh": null,
+      "category": "套裝手套",
+      "category_slug": "gloves",
+      "qlvl": null,
+      "tc": null,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/gloves"
+    },
+    {
+      "name_zh": "![Image 4 頭盔]",
+      "name_en": "https://d2r.world/zh-TW/info/item/sets/helms#helms",
+      "old_name_zh": null,
+      "category": "套裝手套",
+      "category_slug": "gloves",
+      "qlvl": null,
+      "tc": null,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/gloves"
+    },
+    {
+      "name_zh": "![Image 6 護甲]",
+      "name_en": "https://d2r.world/zh-TW/info/item/sets/armors#armors",
+      "old_name_zh": null,
+      "category": "套裝手套",
+      "category_slug": "gloves",
+      "qlvl": null,
+      "tc": null,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/gloves"
+    },
+    {
+      "name_zh": "![Image 8 盾牌]",
+      "name_en": "https://d2r.world/zh-TW/info/item/sets/shields#shields",
+      "old_name_zh": null,
+      "category": "套裝手套",
+      "category_slug": "gloves",
+      "qlvl": null,
+      "tc": null,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/gloves"
+    },
+    {
+      "name_zh": "![Image 10 腰帶]",
+      "name_en": "https://d2r.world/zh-TW/info/item/sets/belts#belts",
+      "old_name_zh": null,
+      "category": "套裝手套",
+      "category_slug": "gloves",
+      "qlvl": null,
+      "tc": null,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/gloves"
+    },
+    {
+      "name_zh": "![Image 12 鞋子]",
+      "name_en": "https://d2r.world/zh-TW/info/item/sets/boots#boots",
+      "old_name_zh": null,
+      "category": "套裝手套",
+      "category_slug": "gloves",
+      "qlvl": null,
+      "tc": null,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/gloves"
+    },
+    {
+      "name_zh": "![Image 14 手套]",
+      "name_en": "https://d2r.world/zh-TW/info/item/sets/gloves#gloves",
+      "old_name_zh": null,
+      "category": "套裝手套",
+      "category_slug": "gloves",
+      "qlvl": null,
+      "tc": null,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/gloves"
+    },
+    {
+      "name_zh": "![Image 16 戒指]",
+      "name_en": "https://d2r.world/zh-TW/info/item/sets/rings#rings",
+      "old_name_zh": null,
+      "category": "套裝手套",
+      "category_slug": "gloves",
+      "qlvl": null,
+      "tc": null,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/gloves"
+    },
+    {
+      "name_zh": "![Image 18 護身符]",
+      "name_en": "https://d2r.world/zh-TW/info/item/sets/amulets#amulets",
+      "old_name_zh": null,
+      "category": "套裝手套",
+      "category_slug": "gloves",
+      "qlvl": null,
+      "tc": null,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/gloves"
+    },
+    {
+      "name_zh": "北極手套",
+      "name_en": "Arctic Mitts",
+      "old_name_zh": null,
+      "category": "套裝手套",
+      "category_slug": "gloves",
+      "qlvl": 3,
+      "tc": 21,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/gloves"
+    },
+    {
+      "name_zh": "克雷德勞之鉗",
+      "name_en": "Cleglaw's Pincers",
+      "old_name_zh": "克雷得勞之鉗",
+      "category": "套裝手套",
+      "category_slug": "gloves",
+      "qlvl": 6,
+      "tc": 12,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/gloves"
+    },
+    {
+      "name_zh": "死亡之手",
+      "name_en": "Death's Hand",
+      "old_name_zh": null,
+      "category": "套裝手套",
+      "category_slug": "gloves",
+      "qlvl": 8,
+      "tc": 3,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/gloves"
+    },
+    {
+      "name_zh": "西剛的挑戰",
+      "name_en": "Sigon's Gage",
+      "old_name_zh": null,
+      "category": "套裝手套",
+      "category_slug": "gloves",
+      "qlvl": 9,
+      "tc": 27,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/gloves"
+    },
+    {
+      "name_zh": "山德的禁忌",
+      "name_en": "Sander's Taboo",
+      "old_name_zh": null,
+      "category": "套裝手套",
+      "category_slug": "gloves",
+      "qlvl": 20,
+      "tc": 9,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/gloves"
+    },
+    {
+      "name_zh": "依雷撒的袖銬",
+      "name_en": "Iratha's Cuff",
+      "old_name_zh": "依雷撒的袖口",
+      "category": "套裝手套",
+      "category_slug": "gloves",
+      "qlvl": 21,
+      "tc": 21,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/gloves"
+    },
+    {
+      "name_zh": "馬維娜的冰握",
+      "name_en": "M'avina's Icy Clutch",
+      "old_name_zh": null,
+      "category": "套裝手套",
+      "category_slug": "gloves",
+      "qlvl": 21,
+      "tc": 51,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/gloves"
+    },
+    {
+      "name_zh": "塔格奧之爪",
+      "name_en": "Trang-Oul's Claws",
+      "old_name_zh": "塔格奧之手",
+      "category": "套裝手套",
+      "category_slug": "gloves",
+      "qlvl": 32,
+      "tc": 45,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/gloves"
+    },
+    {
+      "name_zh": "不朽之王的熔爐",
+      "name_en": "Immortal King's Forge",
+      "old_name_zh": "不朽之王的融爐",
+      "category": "套裝手套",
+      "category_slug": "gloves",
+      "qlvl": 37,
+      "tc": 54,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/gloves"
+    },
+    {
+      "name_zh": "馬格納斯之皮",
+      "name_en": "Magnus' Skin",
+      "old_name_zh": null,
+      "category": "套裝手套",
+      "category_slug": "gloves",
+      "qlvl": 41,
+      "tc": 39,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/gloves"
+    },
+    {
+      "name_zh": "按手禮",
+      "name_en": "Laying of Hands",
+      "old_name_zh": "手掌的安置",
+      "category": "套裝手套",
+      "category_slug": "gloves",
+      "qlvl": 39,
+      "tc": 57,
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/gloves"
+    },
+    {
+      "name_zh": "赫拉森的掌控",
+      "name_en": "Horazon's Hold",
+      "old_name_zh": null,
+      "category": "套裝手套",
+      "category_slug": "gloves",
+      "qlvl": 40,
+      "tc": "-",
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/gloves"
+    },
+    {
+      "name_zh": "卡珊的封印",
+      "name_en": "Cathan's Seal",
+      "old_name_zh": null,
+      "category": "套裝戒指",
+      "category_slug": "rings",
+      "qlvl": 15,
+      "tc": "-",
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/rings"
+    },
+    {
+      "name_zh": "天使的光暈",
+      "name_en": "Angelic Halo",
+      "old_name_zh": "天使之光",
+      "category": "套裝戒指",
+      "category_slug": "rings",
+      "qlvl": 17,
+      "tc": "-",
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/rings"
+    },
+    {
+      "name_zh": "克維雷布的聖像",
+      "name_en": "Civerb's Icon",
+      "old_name_zh": "希弗伯的圖案",
+      "category": "套裝護身符",
+      "category_slug": "amulets",
+      "qlvl": 13,
+      "tc": "-",
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/amulets"
+    },
+    {
+      "name_zh": "卡珊的魔咒",
+      "name_en": "Cathan's Sigil",
+      "old_name_zh": null,
+      "category": "套裝護身符",
+      "category_slug": "amulets",
+      "qlvl": 15,
+      "tc": "-",
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/amulets"
+    },
+    {
+      "name_zh": "天使的翅膀",
+      "name_en": "Angelic Wings",
+      "old_name_zh": "天使之翼",
+      "category": "套裝護身符",
+      "category_slug": "amulets",
+      "qlvl": 17,
+      "tc": "-",
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/amulets"
+    },
+    {
+      "name_zh": "維達拉的圈套",
+      "name_en": "Vidala's Snare",
+      "old_name_zh": "維達拉的陷阱",
+      "category": "套裝護身符",
+      "category_slug": "amulets",
+      "qlvl": 19,
+      "tc": "-",
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/amulets"
+    },
+    {
+      "name_zh": "阿卡娜的符印",
+      "name_en": "Arcanna's Sign",
+      "old_name_zh": "阿卡娜的符號",
+      "category": "套裝護身符",
+      "category_slug": "amulets",
+      "qlvl": 20,
+      "tc": "-",
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/amulets"
+    },
+    {
+      "name_zh": "依雷撒的項圈",
+      "name_en": "Iratha's Collar",
+      "old_name_zh": null,
+      "category": "套裝護身符",
+      "category_slug": "amulets",
+      "qlvl": 21,
+      "tc": "-",
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/amulets"
+    },
+    {
+      "name_zh": "塔拉夏的判決",
+      "name_en": "Tal Rasha's Adjudication",
+      "old_name_zh": "塔.拉夏的判決",
+      "category": "套裝護身符",
+      "category_slug": "amulets",
+      "qlvl": 26,
+      "tc": "-",
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/amulets"
+    },
+    {
+      "name_zh": "坦克雷的怪誕",
+      "name_en": "Tancred's Weird",
+      "old_name_zh": null,
+      "category": "套裝護身符",
+      "category_slug": "amulets",
+      "qlvl": 27,
+      "tc": "-",
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/amulets"
+    },
+    {
+      "name_zh": "誦唸珠",
+      "name_en": "Telling of Beads",
+      "old_name_zh": "述說之珠",
+      "category": "套裝護身符",
+      "category_slug": "amulets",
+      "qlvl": 39,
+      "tc": "-",
+      "source_url": "https://d2r.world/zh-TW/info/item/sets/amulets"
+    }
+  ]
+}

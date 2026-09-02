@@ -1,11 +1,12 @@
 import json
+import random
 import re
+import time
 import unicodedata
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 import requests
-from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).parent
 DATA = ROOT / "data"
@@ -14,11 +15,14 @@ MANUAL_PATH = ROOT / "config" / "watchlist.json"
 SOURCE_PATH = DATA / "d2r_world_uniques.json"
 CATALOG_PATH = DATA / "catalog.json"
 BASE_URL = "https://d2r.world/zh-TW/info/item/unique"
+JINA_PREFIX = "https://r.jina.ai/https://"
 STALE_DAYS = 30
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/126 Safari/537.36"
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/126 Safari/537.36",
+    "Accept-Language": "zh-TW,zh;q=0.9,en;q=0.8",
 }
 
+# Exact category slugs are taken from the site's category links.
 CATEGORIES = [
     ("helms", "頭盔"),
     ("armors", "護甲"),
@@ -36,7 +40,7 @@ CATEGORIES = [
     ("polearms", "長柄武器"),
     ("spears", "長矛"),
     ("clubs", "短棒"),
-    ("maces", "釘鎚"),
+    ("puremaces", "釘鎚"),
     ("hammers", "重槌"),
     ("scepters", "權杖"),
     ("staves", "法杖"),
@@ -49,7 +53,10 @@ CATEGORIES = [
     ("throwings", "投擲武器"),
 ]
 
-ITEM_RE = re.compile(r"^(.{1,90}?)\s*\(([A-Za-z][A-Za-z0-9 '&’._\-]{2,90})\)$")
+# The first capture is the Traditional-Chinese name, the second is the English
+# canonical name. Keep the English side broad because a few uniques contain
+# punctuation beyond apostrophes/hyphens.
+ITEM_RE = re.compile(r"^(.{1,100}?)\s*\(([^()]{2,100})\)$")
 OLD_RE = re.compile(r"^舊名[：:]\s*(.+)$")
 QLVL_RE = re.compile(r"Qlvl\s*[：:]\s*(\d+)", re.I)
 TC_RE = re.compile(r"^TC\s*[：:]\s*([0-9]+|-)\s*$", re.I)
@@ -81,6 +88,38 @@ def slugify(text):
     value = normalize(text)
     value = re.sub(r"[^a-z0-9]+", "-", value).strip("-")
     return value or "unique-item"
+
+
+def clean_markdown_line(raw):
+    line = str(raw or "").strip()
+    # Preserve visible link text and remove Markdown decoration.
+    line = re.sub(r"\[([^\]]+)\]\([^)]*\)", r"\1", line)
+    line = re.sub(r"^[\s#>*-]+", "", line)
+    line = line.replace("**", "").replace("__", "").replace("`", "")
+    return re.sub(r"\s+", " ", line).strip()
+
+
+def readable_lines(url, retries=6):
+    target = JINA_PREFIX + url.removeprefix("https://").removeprefix("http://")
+    last_error = None
+    for attempt in range(retries):
+        try:
+            response = requests.get(target, headers=HEADERS, timeout=45)
+            if response.status_code == 429:
+                last_error = f"429 Too Many Requests ({attempt + 1}/{retries})"
+                time.sleep(min(35, 3 * (2 ** attempt)) + random.uniform(0.3, 1.2))
+                continue
+            response.raise_for_status()
+            text = response.text
+            if len(text) < 500:
+                raise RuntimeError(f"reader returned only {len(text)} bytes")
+            lines = [clean_markdown_line(x) for x in text.splitlines()]
+            return [x for x in lines if x]
+        except Exception as exc:
+            last_error = str(exc)
+            if attempt < retries - 1:
+                time.sleep(min(20, 2 * (attempt + 1)) + random.uniform(0.2, 0.8))
+    raise RuntimeError(last_error or "D2R World reader failed")
 
 
 def alias_variants(english, chinese=None, old_chinese=None):
@@ -115,12 +154,22 @@ def extract_value(lines, index, pattern):
     return None
 
 
+def looks_like_item(zh, en):
+    zh = zh.strip()
+    en = en.strip()
+    if zh in {"搜尋", "Search"} or len(en) < 3:
+        return False
+    if not re.search(r"[A-Za-z]", en):
+        return False
+    # UI/common non-item labels seen around the page shell.
+    if normalize(en) in {"search", "qlvl", "tc", "privacy policy", "terms of service"}:
+        return False
+    return True
+
+
 def parse_category(slug, category):
     url = f"{BASE_URL}/{slug}"
-    response = requests.get(url, headers=HEADERS, timeout=35)
-    response.raise_for_status()
-    soup = BeautifulSoup(response.text, "html.parser")
-    lines = [re.sub(r"\s+", " ", x).strip() for x in soup.stripped_strings]
+    lines = readable_lines(url)
 
     items = []
     current = None
@@ -129,9 +178,8 @@ def parse_category(slug, category):
     for i, line in enumerate(lines):
         m = ITEM_RE.match(line)
         if m:
-            zh, en = m.groups()
-            # Exclude UI shortcuts / non-item parentheticals.
-            if zh in {"搜尋", "Search"} or len(en.strip()) < 3:
+            zh, en = (x.strip() for x in m.groups())
+            if not looks_like_item(zh, en):
                 continue
             key = normalize(en)
             if key in seen:
@@ -139,8 +187,8 @@ def parse_category(slug, category):
                 continue
             seen.add(key)
             current = {
-                "name_zh": zh.strip(),
-                "name_en": en.strip(),
+                "name_zh": zh,
+                "name_en": en,
                 "old_name_zh": None,
                 "category": category,
                 "category_slug": slug,
@@ -188,6 +236,7 @@ def source_is_fresh(payload):
 def fetch_all(force=False):
     existing = load_json(SOURCE_PATH, {})
     if not force and source_is_fresh(existing):
+        print(f"D2R World snapshot is fresh: {len(existing.get('items', []))} items")
         return existing
 
     all_items = []
@@ -198,21 +247,31 @@ def fetch_all(force=False):
             all_items.extend(rows)
             diagnostics.append({"slug": slug, "category": category, "items": len(rows), "ok": True})
             print(f"d2r.world {category}: {len(rows)}")
+            # Be gentle with the text gateway; this full sync only runs monthly.
+            time.sleep(0.45 + random.uniform(0.0, 0.35))
         except Exception as exc:
             diagnostics.append({"slug": slug, "category": category, "items": 0, "ok": False, "error": str(exc)})
             print(f"d2r.world {category}: ERROR {exc}")
 
-    if len(all_items) < 250:
-        # Never replace a healthy snapshot with a partial/blocked scrape.
-        if existing.get("items"):
-            print(f"Only parsed {len(all_items)} items; keeping existing snapshot with {len(existing['items'])}")
-            return existing
-        raise RuntimeError(f"D2R World scrape incomplete: only {len(all_items)} unique items")
-
-    # Deduplicate across categories by canonical English name.
+    # Deduplicate across categories by canonical English name before validation.
     dedup = {}
     for item in all_items:
         dedup.setdefault(normalize(item["name_en"]), item)
+
+    if len(dedup) < 250:
+        # Never replace a healthy snapshot with a partial/blocked scrape.
+        if existing.get("items"):
+            print(f"Only parsed {len(dedup)} items; keeping existing snapshot with {len(existing['items'])}")
+            return existing
+        raise RuntimeError(f"D2R World scrape incomplete: only {len(dedup)} unique items")
+
+    failed_categories = [x for x in diagnostics if not x.get("ok")]
+    if failed_categories:
+        if existing.get("items"):
+            print(f"{len(failed_categories)} categories failed; keeping existing complete snapshot")
+            return existing
+        raise RuntimeError(f"D2R World category sync incomplete: {len(failed_categories)} categories failed")
+
     payload = {
         "updated_at": now().isoformat(),
         "source": BASE_URL,

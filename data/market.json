@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-09-02T08:40:30.187067+00:00",
+  "updated_at": "2026-09-02T08:52:43.642487+00:00",
   "forum": "https://forums.d2jsp.org/forum.php?f=123&c=2",
   "topic_count": 330,
   "cached_topics": 395,
   "parsed_topics": 395,
   "completed_topics": 84,
-  "parsed_this_run": 59,
+  "parsed_this_run": 0,
   "sample_count": 165,
   "legacy_sample_count": 0,
   "market": [
@@ -2990,6 +2990,1279 @@
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
         }
       ]
+    },
+    {
+      "kind": "item",
+      "id": "sorc-torch",
+      "label": "法師地獄火炬 (Sorceress Torch / STorch)",
+      "fair_fg": 1600.0,
+      "iso_fg": null,
+      "ft_fg": 350.0,
+      "trade_fg": null,
+      "samples": 5,
+      "confidence": "medium",
+      "last_seen_at": "2026-09-02T08:51:46.736197+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "sorc-torch",
+          "label": "法師地獄火炬 (Sorceress Torch / STorch)",
+          "category": "熱門護身符與暗金符咒",
+          "side": "unknown",
+          "price_fg": 1600.0,
+          "title": "2",
+          "url": "https://forums.d2jsp.org/topic.php?t=110133167&f=123&o=10",
+          "observed_at": "2026-09-02T08:51:46.736197+00:00",
+          "topic_date": "2026-09-02",
+          "item_parser_v1": true
+        },
+        {
+          "kind": "item",
+          "id": "sorc-torch",
+          "label": "法師地獄火炬 (Sorceress Torch / STorch)",
+          "category": "熱門護身符與暗金符咒",
+          "side": "unknown",
+          "price_fg": 1300.0,
+          "title": "3",
+          "url": "https://forums.d2jsp.org/topic.php?t=110123897&f=123&o=20",
+          "observed_at": "2026-09-02T08:50:58.170527+00:00",
+          "topic_date": "2026-09-02",
+          "item_parser_v1": true
+        },
+        {
+          "kind": "item",
+          "id": "sorc-torch",
+          "label": "法師地獄火炬 (Sorceress Torch / STorch)",
+          "category": "熱門護身符與暗金符咒",
+          "side": "unknown",
+          "price_fg": 1800.0,
+          "title": "Cheap Items For Afk",
+          "url": "https://forums.d2jsp.org/topic.php?t=110133167&f=123",
+          "observed_at": "2026-09-02T08:48:51.444091+00:00",
+          "topic_date": "2026-09-01",
+          "item_parser_v1": true
+        },
+        {
+          "kind": "item",
+          "id": "sorc-torch",
+          "label": "法師地獄火炬 (Sorceress Torch / STorch)",
+          "category": "熱門護身符與暗金符咒",
+          "side": "unknown",
+          "price_fg": 1600.0,
+          "title": "Cheap Items For Afk",
+          "url": "https://forums.d2jsp.org/topic.php?t=110133167&f=123",
+          "observed_at": "2026-09-02T08:48:51.444091+00:00",
+          "topic_date": "2026-09-01",
+          "item_parser_v1": true
+        },
+        {
+          "kind": "item",
+          "id": "sorc-torch",
+          "label": "法師地獄火炬 (Sorceress Torch / STorch)",
+          "category": "熱門護身符與暗金符咒",
+          "side": "ft",
+          "price_fg": 350.0,
+          "title": "Ft Assassin Torch 13/19",
+          "url": "https://forums.d2jsp.org/topic.php?t=110130436&f=123",
+          "observed_at": "2026-09-02T08:47:38.726074+00:00",
+          "topic_date": "2026-09-01",
+          "item_parser_v1": true
+        }
+      ],
+      "category": "熱門護身符與暗金符咒"
+    },
+    {
+      "kind": "item",
+      "id": "shako",
+      "label": "軍帽 (Harlequin Crest / Shako)",
+      "fair_fg": 290.0,
+      "iso_fg": 250.0,
+      "ft_fg": 300.0,
+      "trade_fg": null,
+      "samples": 3,
+      "confidence": "low",
+      "last_seen_at": "2026-09-02T08:48:00.948197+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "shako",
+          "label": "軍帽 (Harlequin Crest / Shako)",
+          "category": "頭盔",
+          "side": "unknown",
+          "price_fg": 290.0,
+          "title": "Fast Trade",
+          "url": "https://forums.d2jsp.org/topic.php?t=110136390&f=123",
+          "observed_at": "2026-09-02T08:48:00.948197+00:00",
+          "topic_date": "2026-09-02",
+          "item_parser_v1": true
+        },
+        {
+          "kind": "item",
+          "id": "shako",
+          "label": "軍帽 (Harlequin Crest / Shako)",
+          "category": "頭盔",
+          "side": "ft",
+          "price_fg": 300.0,
+          "title": "Ft Shako",
+          "url": "https://forums.d2jsp.org/topic.php?t=110136423&f=123",
+          "observed_at": "2026-09-02T08:47:32.133685+00:00",
+          "topic_date": "2026-09-02",
+          "item_parser_v1": true
+        },
+        {
+          "kind": "item",
+          "id": "shako",
+          "label": "軍帽 (Harlequin Crest / Shako)",
+          "category": "頭盔",
+          "side": "iso",
+          "price_fg": 250.0,
+          "title": "Need Read",
+          "url": "https://forums.d2jsp.org/topic.php?t=110130305&f=123",
+          "observed_at": "2026-09-02T08:44:44.996716+00:00",
+          "topic_date": "2026-09-01",
+          "item_parser_v1": true
+        }
+      ],
+      "category": "頭盔"
+    },
+    {
+      "kind": "item",
+      "id": "draculs-grasp",
+      "label": "卓古拉之握 (Dracul's Grasp / Dracs)",
+      "fair_fg": 70.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-09-02T08:48:00.948197+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "draculs-grasp",
+          "label": "卓古拉之握 (Dracul's Grasp / Dracs)",
+          "category": "手套",
+          "side": "unknown",
+          "price_fg": 70.0,
+          "title": "Fast Trade",
+          "url": "https://forums.d2jsp.org/topic.php?t=110136390&f=123",
+          "observed_at": "2026-09-02T08:48:00.948197+00:00",
+          "topic_date": "2026-09-02",
+          "item_parser_v1": true
+        }
+      ],
+      "category": "手套"
+    },
+    {
+      "kind": "item",
+      "id": "stormshield",
+      "label": "暴風之盾 (Stormshield / SS)",
+      "fair_fg": 70.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 2,
+      "confidence": "low",
+      "last_seen_at": "2026-09-02T08:49:37.395296+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "stormshield",
+          "label": "暴風之盾 (Stormshield / SS)",
+          "category": "盾牌",
+          "side": "unknown",
+          "price_fg": 70.0,
+          "title": "@@ Daily List With Prices @@",
+          "url": "https://forums.d2jsp.org/topic.php?t=110136184&f=123",
+          "observed_at": "2026-09-02T08:49:37.395296+00:00",
+          "topic_date": "2026-09-02",
+          "item_parser_v1": true
+        },
+        {
+          "kind": "item",
+          "id": "stormshield",
+          "label": "暴風之盾 (Stormshield / SS)",
+          "category": "盾牌",
+          "side": "unknown",
+          "price_fg": 70.0,
+          "title": "Fast Trade",
+          "url": "https://forums.d2jsp.org/topic.php?t=110136390&f=123",
+          "observed_at": "2026-09-02T08:48:00.948197+00:00",
+          "topic_date": "2026-09-02",
+          "item_parser_v1": true
+        }
+      ],
+      "category": "盾牌"
+    },
+    {
+      "kind": "item",
+      "id": "chance-guards",
+      "label": "運氣守護 (Chance Guards / Chancies)",
+      "fair_fg": 50.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-09-02T08:47:07.456057+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "chance-guards",
+          "label": "運氣守護 (Chance Guards / Chancies)",
+          "category": "手套",
+          "side": "unknown",
+          "price_fg": 50.0,
+          "title": "Hollow Shop",
+          "url": "https://forums.d2jsp.org/topic.php?t=109949945&f=123",
+          "observed_at": "2026-09-02T08:47:07.456057+00:00",
+          "topic_date": "2026-09-02",
+          "item_parser_v1": true
+        }
+      ],
+      "category": "手套"
+    },
+    {
+      "kind": "item",
+      "id": "pnb-skiller",
+      "label": "巫師毒素與骨骼超大護身符 (PnB)",
+      "fair_fg": 35.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 5,
+      "confidence": "medium",
+      "last_seen_at": "2026-09-02T08:49:33.092402+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "pnb-skiller",
+          "label": "巫師毒素與骨骼超大護身符 (PnB)",
+          "category": "技能超大護身符",
+          "side": "unknown",
+          "price_fg": 25.0,
+          "title": "@@ Green Shop @@",
+          "url": "https://forums.d2jsp.org/topic.php?t=110121565&f=123",
+          "observed_at": "2026-09-02T08:49:33.092402+00:00",
+          "topic_date": "2026-09-01",
+          "item_parser_v1": true
+        },
+        {
+          "kind": "item",
+          "id": "pnb-skiller",
+          "label": "巫師毒素與骨骼超大護身符 (PnB)",
+          "category": "技能超大護身符",
+          "side": "unknown",
+          "price_fg": 60.0,
+          "title": "A I Did This <<",
+          "url": "https://forums.d2jsp.org/topic.php?t=110127605&f=123",
+          "observed_at": "2026-09-02T08:49:31.965290+00:00",
+          "topic_date": "2026-09-01",
+          "item_parser_v1": true
+        },
+        {
+          "kind": "item",
+          "id": "pnb-skiller",
+          "label": "巫師毒素與骨骼超大護身符 (PnB)",
+          "category": "技能超大護身符",
+          "side": "unknown",
+          "price_fg": 35.0,
+          "title": "A I Did This <<",
+          "url": "https://forums.d2jsp.org/topic.php?t=110127605&f=123",
+          "observed_at": "2026-09-02T08:49:31.965290+00:00",
+          "topic_date": "2026-09-01",
+          "item_parser_v1": true
+        },
+        {
+          "kind": "item",
+          "id": "pnb-skiller",
+          "label": "巫師毒素與骨骼超大護身符 (PnB)",
+          "category": "技能超大護身符",
+          "side": "unknown",
+          "price_fg": 20.0,
+          "title": "Cheap Sales",
+          "url": "https://forums.d2jsp.org/topic.php?t=110121963&f=123",
+          "observed_at": "2026-09-02T08:48:49.961382+00:00",
+          "topic_date": "2026-09-02",
+          "item_parser_v1": true
+        },
+        {
+          "kind": "item",
+          "id": "pnb-skiller",
+          "label": "巫師毒素與骨骼超大護身符 (PnB)",
+          "category": "技能超大護身符",
+          "side": "unknown",
+          "price_fg": 100.0,
+          "title": "Hollow Shop",
+          "url": "https://forums.d2jsp.org/topic.php?t=109949945&f=123",
+          "observed_at": "2026-09-02T08:47:07.456057+00:00",
+          "topic_date": "2026-09-02",
+          "item_parser_v1": true
+        }
+      ],
+      "category": "技能超大護身符"
+    },
+    {
+      "kind": "item",
+      "id": "gheeds",
+      "label": "基得的運氣 (Gheed's Fortune / Gheeds)",
+      "fair_fg": 100.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-09-02T08:49:37.395296+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "gheeds",
+          "label": "基得的運氣 (Gheed's Fortune / Gheeds)",
+          "category": "熱門護身符與暗金符咒",
+          "side": "unknown",
+          "price_fg": 100.0,
+          "title": "@@ Daily List With Prices @@",
+          "url": "https://forums.d2jsp.org/topic.php?t=110136184&f=123",
+          "observed_at": "2026-09-02T08:49:37.395296+00:00",
+          "topic_date": "2026-09-02",
+          "item_parser_v1": true
+        }
+      ],
+      "category": "熱門護身符與暗金符咒"
+    },
+    {
+      "kind": "item",
+      "id": "waterwalk",
+      "label": "水上飄 (Waterwalk / WWalk)",
+      "fair_fg": 100.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": 100.0,
+      "samples": 3,
+      "confidence": "low",
+      "last_seen_at": "2026-09-02T08:51:28.711777+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "waterwalk",
+          "label": "水上飄 (Waterwalk / WWalk)",
+          "category": "靴子",
+          "side": "unknown",
+          "price_fg": 100.0,
+          "title": "2",
+          "url": "https://forums.d2jsp.org/topic.php?t=110130305&f=123&o=10",
+          "observed_at": "2026-09-02T08:51:28.711777+00:00",
+          "topic_date": "2026-09-01",
+          "item_parser_v1": true
+        },
+        {
+          "kind": "item",
+          "id": "waterwalk",
+          "label": "水上飄 (Waterwalk / WWalk)",
+          "category": "靴子",
+          "side": "trade",
+          "price_fg": 100.0,
+          "title": "2 · T4T/sold signal",
+          "url": "https://forums.d2jsp.org/topic.php?t=110130305&f=123&o=10",
+          "observed_at": "2026-09-02T08:51:28.711777+00:00",
+          "topic_date": "2026-09-01",
+          "item_parser_v1": true
+        },
+        {
+          "kind": "item",
+          "id": "waterwalk",
+          "label": "水上飄 (Waterwalk / WWalk)",
+          "category": "靴子",
+          "side": "unknown",
+          "price_fg": 80.0,
+          "title": ">> Well Shop Ladder <<",
+          "url": "https://forums.d2jsp.org/topic.php?t=110006789&f=123",
+          "observed_at": "2026-09-02T08:49:38.442843+00:00",
+          "topic_date": "2026-09-02",
+          "item_parser_v1": true
+        },
+        {
+          "kind": "item",
+          "id": "waterwalk",
+          "label": "水上飄 (Waterwalk / WWalk)",
+          "category": "靴子",
+          "side": "unknown",
+          "price_fg": 100.0,
+          "title": "@@ Daily List With Prices @@",
+          "url": "https://forums.d2jsp.org/topic.php?t=110136184&f=123",
+          "observed_at": "2026-09-02T08:49:37.395296+00:00",
+          "topic_date": "2026-09-02",
+          "item_parser_v1": true
+        }
+      ],
+      "category": "靴子"
+    },
+    {
+      "kind": "item",
+      "id": "tal-armor",
+      "label": "漆黑甲 (Tal Rasha's Guardianship / Tal Armor)",
+      "fair_fg": 465.0,
+      "iso_fg": 550.0,
+      "ft_fg": null,
+      "trade_fg": 550.0,
+      "samples": 2,
+      "confidence": "low",
+      "last_seen_at": "2026-09-02T08:49:37.395296+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "tal-armor",
+          "label": "漆黑甲 (Tal Rasha's Guardianship / Tal Armor)",
+          "category": "熱門套裝部件",
+          "side": "unknown",
+          "price_fg": 380.0,
+          "title": "@@ Daily List With Prices @@",
+          "url": "https://forums.d2jsp.org/topic.php?t=110136184&f=123",
+          "observed_at": "2026-09-02T08:49:37.395296+00:00",
+          "topic_date": "2026-09-02",
+          "item_parser_v1": true
+        },
+        {
+          "kind": "item",
+          "id": "tal-armor",
+          "label": "漆黑甲 (Tal Rasha's Guardianship / Tal Armor)",
+          "category": "熱門套裝部件",
+          "side": "iso",
+          "price_fg": 550.0,
+          "title": "N Sorch Stuf Tal And Death",
+          "url": "https://forums.d2jsp.org/topic.php?t=110136020&f=123",
+          "observed_at": "2026-09-02T08:45:17.878187+00:00",
+          "topic_date": "2026-09-02",
+          "item_parser_v1": true
+        },
+        {
+          "kind": "item",
+          "id": "tal-armor",
+          "label": "漆黑甲 (Tal Rasha's Guardianship / Tal Armor)",
+          "category": "熱門套裝部件",
+          "side": "trade",
+          "price_fg": 550.0,
+          "title": "N Sorch Stuf Tal And Death · T4T/sold signal",
+          "url": "https://forums.d2jsp.org/topic.php?t=110136020&f=123",
+          "observed_at": "2026-09-02T08:45:17.878187+00:00",
+          "topic_date": "2026-09-02",
+          "item_parser_v1": true
+        }
+      ],
+      "category": "熱門套裝部件"
+    },
+    {
+      "kind": "item",
+      "id": "titans-revenge",
+      "label": "泰坦的復仇 (Titan's Revenge / Titans)",
+      "fair_fg": 100.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-09-02T08:49:37.395296+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "titans-revenge",
+          "label": "泰坦的復仇 (Titan's Revenge / Titans)",
+          "category": "武器",
+          "side": "unknown",
+          "price_fg": 100.0,
+          "title": "@@ Daily List With Prices @@",
+          "url": "https://forums.d2jsp.org/topic.php?t=110136184&f=123",
+          "observed_at": "2026-09-02T08:49:37.395296+00:00",
+          "topic_date": "2026-09-02",
+          "item_parser_v1": true
+        }
+      ],
+      "category": "武器"
+    },
+    {
+      "kind": "item",
+      "id": "griffons-eye",
+      "label": "獅鷲之眼 (Griffon's Eye / Griff)",
+      "fair_fg": 1700.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 2,
+      "confidence": "low",
+      "last_seen_at": "2026-09-02T08:42:49.289508+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "griffons-eye",
+          "label": "獅鷲之眼 (Griffon's Eye / Griff)",
+          "category": "頭盔",
+          "side": "unknown",
+          "price_fg": 2000.0,
+          "title": "Sup Mini-store",
+          "url": "https://forums.d2jsp.org/topic.php?t=110111150&f=123",
+          "observed_at": "2026-09-02T08:42:49.289508+00:00",
+          "topic_date": "2026-08-31",
+          "item_parser_v1": true
+        },
+        {
+          "kind": "item",
+          "id": "griffons-eye",
+          "label": "獅鷲之眼 (Griffon's Eye / Griff)",
+          "category": "頭盔",
+          "side": "unknown",
+          "price_fg": 1400.0,
+          "title": "Sup Mini-store",
+          "url": "https://forums.d2jsp.org/topic.php?t=110111150&f=123",
+          "observed_at": "2026-09-02T08:42:49.289508+00:00",
+          "topic_date": "2026-08-31",
+          "item_parser_v1": true
+        }
+      ],
+      "category": "頭盔"
+    },
+    {
+      "kind": "item",
+      "id": "nosferatus-coil",
+      "label": "吸血鬼之聖 (Nosferatu's Coil / Nos)",
+      "fair_fg": 66.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-09-02T08:49:31.965290+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "nosferatus-coil",
+          "label": "吸血鬼之聖 (Nosferatu's Coil / Nos)",
+          "category": "腰帶",
+          "side": "unknown",
+          "price_fg": 66.0,
+          "title": "A I Did This <<",
+          "url": "https://forums.d2jsp.org/topic.php?t=110127605&f=123",
+          "observed_at": "2026-09-02T08:49:31.965290+00:00",
+          "topic_date": "2026-09-01",
+          "item_parser_v1": true
+        }
+      ],
+      "category": "腰帶"
+    },
+    {
+      "kind": "item",
+      "id": "cta",
+      "label": "戰爭召喚 (Call to Arms / CTA)",
+      "fair_fg": 60.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 2,
+      "confidence": "low",
+      "last_seen_at": "2026-09-02T08:49:31.965290+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "cta",
+          "label": "戰爭召喚 (Call to Arms / CTA)",
+          "category": "符文之語成品",
+          "side": "unknown",
+          "price_fg": 90.0,
+          "title": "A I Did This <<",
+          "url": "https://forums.d2jsp.org/topic.php?t=110127605&f=123",
+          "observed_at": "2026-09-02T08:49:31.965290+00:00",
+          "topic_date": "2026-09-01",
+          "item_parser_v1": true
+        },
+        {
+          "kind": "item",
+          "id": "cta",
+          "label": "戰爭召喚 (Call to Arms / CTA)",
+          "category": "符文之語成品",
+          "side": "unknown",
+          "price_fg": 30.0,
+          "title": "~ Weapon Bases ~",
+          "url": "https://forums.d2jsp.org/topic.php?t=110102914&f=123",
+          "observed_at": "2026-09-02T08:41:34.158251+00:00",
+          "topic_date": "2026-09-02",
+          "item_parser_v1": true
+        }
+      ],
+      "category": "符文之語成品"
+    },
+    {
+      "kind": "item",
+      "id": "wizardspike",
+      "label": "巫師之刺 (Wizardspike / Wizzy)",
+      "fair_fg": 15.0,
+      "iso_fg": 15.0,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 3,
+      "confidence": "low",
+      "last_seen_at": "2026-09-02T08:48:49.961382+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "wizardspike",
+          "label": "巫師之刺 (Wizardspike / Wizzy)",
+          "category": "武器",
+          "side": "unknown",
+          "price_fg": 10.0,
+          "title": "Cheap Sales",
+          "url": "https://forums.d2jsp.org/topic.php?t=110121963&f=123",
+          "observed_at": "2026-09-02T08:48:49.961382+00:00",
+          "topic_date": "2026-09-02",
+          "item_parser_v1": true
+        },
+        {
+          "kind": "item",
+          "id": "wizardspike",
+          "label": "巫師之刺 (Wizardspike / Wizzy)",
+          "category": "武器",
+          "side": "iso",
+          "price_fg": 15.0,
+          "title": "Need Read",
+          "url": "https://forums.d2jsp.org/topic.php?t=110130305&f=123",
+          "observed_at": "2026-09-02T08:44:44.996716+00:00",
+          "topic_date": "2026-09-01",
+          "item_parser_v1": true
+        },
+        {
+          "kind": "item",
+          "id": "wizardspike",
+          "label": "巫師之刺 (Wizardspike / Wizzy)",
+          "category": "武器",
+          "side": "unknown",
+          "price_fg": 15.0,
+          "title": "Zodd Hc Ladder Shop",
+          "url": "https://forums.d2jsp.org/topic.php?t=109971495&f=123",
+          "observed_at": "2026-09-02T08:41:35.832607+00:00",
+          "topic_date": "2026-09-02",
+          "item_parser_v1": true
+        }
+      ],
+      "category": "武器"
+    },
+    {
+      "kind": "item",
+      "id": "magefist",
+      "label": "法師之拳 (Magefist)",
+      "fair_fg": 15.0,
+      "iso_fg": 15.0,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-09-02T08:44:44.996716+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "magefist",
+          "label": "法師之拳 (Magefist)",
+          "category": "手套",
+          "side": "iso",
+          "price_fg": 15.0,
+          "title": "Need Read",
+          "url": "https://forums.d2jsp.org/topic.php?t=110130305&f=123",
+          "observed_at": "2026-09-02T08:44:44.996716+00:00",
+          "topic_date": "2026-09-01",
+          "item_parser_v1": true
+        }
+      ],
+      "category": "手套"
+    },
+    {
+      "kind": "item",
+      "id": "base-eth-thresher-4os",
+      "label": "無形4洞銳利之斧 (Eth 4os Thresher)",
+      "fair_fg": 250.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-09-02T08:43:11.339135+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "base-eth-thresher-4os",
+          "label": "無形4洞銳利之斧 (Eth 4os Thresher)",
+          "category": "熱門符文之語鑲底",
+          "side": "unknown",
+          "price_fg": 250.0,
+          "title": "Shmax's Goodies",
+          "url": "https://forums.d2jsp.org/topic.php?t=110120612&f=123",
+          "observed_at": "2026-09-02T08:43:11.339135+00:00",
+          "topic_date": "2026-09-02",
+          "item_parser_v1": true
+        }
+      ],
+      "category": "熱門符文之語鑲底"
+    },
+    {
+      "kind": "item",
+      "id": "trang-gloves",
+      "label": "塔格奧之爪 (Trang-Oul's Claws / Trang Gloves)",
+      "fair_fg": 40.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-09-02T08:49:33.092402+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "trang-gloves",
+          "label": "塔格奧之爪 (Trang-Oul's Claws / Trang Gloves)",
+          "category": "手套",
+          "side": "unknown",
+          "price_fg": 40.0,
+          "title": "@@ Green Shop @@",
+          "url": "https://forums.d2jsp.org/topic.php?t=110121565&f=123",
+          "observed_at": "2026-09-02T08:49:33.092402+00:00",
+          "topic_date": "2026-09-01",
+          "item_parser_v1": true
+        }
+      ],
+      "category": "手套"
+    },
+    {
+      "kind": "item",
+      "id": "string-of-ears",
+      "label": "穿心 (String of Ears / SoE)",
+      "fair_fg": 60.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 2,
+      "confidence": "low",
+      "last_seen_at": "2026-09-02T08:49:38.442843+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "string-of-ears",
+          "label": "穿心 (String of Ears / SoE)",
+          "category": "腰帶",
+          "side": "unknown",
+          "price_fg": 70.0,
+          "title": ">> Well Shop Ladder <<",
+          "url": "https://forums.d2jsp.org/topic.php?t=110006789&f=123",
+          "observed_at": "2026-09-02T08:49:38.442843+00:00",
+          "topic_date": "2026-09-02",
+          "item_parser_v1": true
+        },
+        {
+          "kind": "item",
+          "id": "string-of-ears",
+          "label": "穿心 (String of Ears / SoE)",
+          "category": "腰帶",
+          "side": "unknown",
+          "price_fg": 50.0,
+          "title": "@@ Green Shop @@",
+          "url": "https://forums.d2jsp.org/topic.php?t=110121565&f=123",
+          "observed_at": "2026-09-02T08:49:33.092402+00:00",
+          "topic_date": "2026-09-01",
+          "item_parser_v1": true
+        }
+      ],
+      "category": "腰帶"
+    },
+    {
+      "kind": "item",
+      "id": "thunderstroke",
+      "label": "雷擊 (Thunderstroke / Tstroke)",
+      "fair_fg": 120.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 3,
+      "confidence": "low",
+      "last_seen_at": "2026-09-02T08:49:38.442843+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "thunderstroke",
+          "label": "雷擊 (Thunderstroke / Tstroke)",
+          "category": "武器",
+          "side": "unknown",
+          "price_fg": 150.0,
+          "title": ">> Well Shop Ladder <<",
+          "url": "https://forums.d2jsp.org/topic.php?t=110006789&f=123",
+          "observed_at": "2026-09-02T08:49:38.442843+00:00",
+          "topic_date": "2026-09-02",
+          "item_parser_v1": true
+        },
+        {
+          "kind": "item",
+          "id": "thunderstroke",
+          "label": "雷擊 (Thunderstroke / Tstroke)",
+          "category": "武器",
+          "side": "unknown",
+          "price_fg": 120.0,
+          "title": "@@ Green Shop @@",
+          "url": "https://forums.d2jsp.org/topic.php?t=110121565&f=123",
+          "observed_at": "2026-09-02T08:49:33.092402+00:00",
+          "topic_date": "2026-09-01",
+          "item_parser_v1": true
+        },
+        {
+          "kind": "item",
+          "id": "thunderstroke",
+          "label": "雷擊 (Thunderstroke / Tstroke)",
+          "category": "武器",
+          "side": "unknown",
+          "price_fg": 20.0,
+          "title": "Offer Items",
+          "url": "https://forums.d2jsp.org/topic.php?t=110126023&f=123",
+          "observed_at": "2026-09-02T08:44:17.307739+00:00",
+          "topic_date": "2026-09-02",
+          "item_parser_v1": true
+        }
+      ],
+      "category": "武器"
+    },
+    {
+      "kind": "item",
+      "id": "base-flail-5os",
+      "label": "5洞連枷 (5os Flail / CTA Base)",
+      "fair_fg": 10.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 2,
+      "confidence": "low",
+      "last_seen_at": "2026-09-02T08:49:33.092402+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "base-flail-5os",
+          "label": "5洞連枷 (5os Flail / CTA Base)",
+          "category": "熱門符文之語鑲底",
+          "side": "unknown",
+          "price_fg": 10.0,
+          "title": "@@ Green Shop @@",
+          "url": "https://forums.d2jsp.org/topic.php?t=110121565&f=123",
+          "observed_at": "2026-09-02T08:49:33.092402+00:00",
+          "topic_date": "2026-09-01",
+          "item_parser_v1": true
+        },
+        {
+          "kind": "item",
+          "id": "base-flail-5os",
+          "label": "5洞連枷 (5os Flail / CTA Base)",
+          "category": "熱門符文之語鑲底",
+          "side": "unknown",
+          "price_fg": 10.0,
+          "title": "Cheap Sales",
+          "url": "https://forums.d2jsp.org/topic.php?t=110121963&f=123",
+          "observed_at": "2026-09-02T08:48:49.961382+00:00",
+          "topic_date": "2026-09-02",
+          "item_parser_v1": true
+        }
+      ],
+      "category": "熱門符文之語鑲底"
+    },
+    {
+      "kind": "item",
+      "id": "hoz",
+      "label": "撒卡蘭姆使者 (Herald of Zakarum / HoZ)",
+      "fair_fg": 200.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": 200.0,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-09-02T08:44:03.272112+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "hoz",
+          "label": "撒卡蘭姆使者 (Herald of Zakarum / HoZ)",
+          "category": "盾牌",
+          "side": "unknown",
+          "price_fg": 200.0,
+          "title": "Offers List Hoz Homu",
+          "url": "https://forums.d2jsp.org/topic.php?t=110068846&f=123",
+          "observed_at": "2026-09-02T08:44:03.272112+00:00",
+          "topic_date": "2026-08-29",
+          "item_parser_v1": true
+        },
+        {
+          "kind": "item",
+          "id": "hoz",
+          "label": "撒卡蘭姆使者 (Herald of Zakarum / HoZ)",
+          "category": "盾牌",
+          "side": "trade",
+          "price_fg": 200.0,
+          "title": "Offers List Hoz Homu · T4T/sold signal",
+          "url": "https://forums.d2jsp.org/topic.php?t=110068846&f=123",
+          "observed_at": "2026-09-02T08:44:03.272112+00:00",
+          "topic_date": "2026-08-29",
+          "item_parser_v1": true
+        }
+      ],
+      "category": "盾牌"
+    },
+    {
+      "kind": "item",
+      "id": "pcomb-skiller",
+      "label": "聖騎戰鬥技能超大護身符 (PComb)",
+      "fair_fg": 350.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 2,
+      "confidence": "low",
+      "last_seen_at": "2026-09-02T08:44:17.307739+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "pcomb-skiller",
+          "label": "聖騎戰鬥技能超大護身符 (PComb)",
+          "category": "技能超大護身符",
+          "side": "unknown",
+          "price_fg": 600.0,
+          "title": "Offer Items",
+          "url": "https://forums.d2jsp.org/topic.php?t=110126023&f=123",
+          "observed_at": "2026-09-02T08:44:17.307739+00:00",
+          "topic_date": "2026-09-02",
+          "item_parser_v1": true
+        },
+        {
+          "kind": "item",
+          "id": "pcomb-skiller",
+          "label": "聖騎戰鬥技能超大護身符 (PComb)",
+          "category": "技能超大護身符",
+          "side": "unknown",
+          "price_fg": 100.0,
+          "title": "Pally Combat Gc",
+          "url": "https://forums.d2jsp.org/topic.php?t=110136387&f=123",
+          "observed_at": "2026-09-02T08:43:58.980035+00:00",
+          "topic_date": "2026-09-02",
+          "item_parser_v1": true
+        }
+      ],
+      "category": "技能超大護身符"
+    },
+    {
+      "kind": "item",
+      "id": "base-pb-5os",
+      "label": "5洞幻化之刃 (5os Phase Blade / Grief Base)",
+      "fair_fg": 40.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-09-02T08:44:17.307739+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "base-pb-5os",
+          "label": "5洞幻化之刃 (5os Phase Blade / Grief Base)",
+          "category": "熱門符文之語鑲底",
+          "side": "unknown",
+          "price_fg": 40.0,
+          "title": "Offer Items",
+          "url": "https://forums.d2jsp.org/topic.php?t=110126023&f=123",
+          "observed_at": "2026-09-02T08:44:17.307739+00:00",
+          "topic_date": "2026-09-02",
+          "item_parser_v1": true
+        }
+      ],
+      "category": "熱門符文之語鑲底"
+    },
+    {
+      "kind": "item",
+      "id": "base-eth-armor-4os",
+      "label": "無形4洞高防胸甲 (Eth 4os Armor / Fortitude Base)",
+      "fair_fg": 50.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-09-02T08:44:17.307739+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "base-eth-armor-4os",
+          "label": "無形4洞高防胸甲 (Eth 4os Armor / Fortitude Base)",
+          "category": "熱門符文之語鑲底",
+          "side": "unknown",
+          "price_fg": 50.0,
+          "title": "Offer Items",
+          "url": "https://forums.d2jsp.org/topic.php?t=110126023&f=123",
+          "observed_at": "2026-09-02T08:44:17.307739+00:00",
+          "topic_date": "2026-09-02",
+          "item_parser_v1": true
+        }
+      ],
+      "category": "熱門符文之語鑲底"
+    },
+    {
+      "kind": "item",
+      "id": "base-flail-4os",
+      "label": "4洞連枷 (4os Flail / HOTO Base)",
+      "fair_fg": 20.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-09-02T08:44:17.307739+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "base-flail-4os",
+          "label": "4洞連枷 (4os Flail / HOTO Base)",
+          "category": "熱門符文之語鑲底",
+          "side": "unknown",
+          "price_fg": 20.0,
+          "title": "Offer Items",
+          "url": "https://forums.d2jsp.org/topic.php?t=110126023&f=123",
+          "observed_at": "2026-09-02T08:44:17.307739+00:00",
+          "topic_date": "2026-09-02",
+          "item_parser_v1": true
+        }
+      ],
+      "category": "熱門符文之語鑲底"
+    },
+    {
+      "kind": "item",
+      "id": "base-pb-6os",
+      "label": "6洞幻化之刃 (6os Phase Blade / Last Wish Base)",
+      "fair_fg": 20.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-09-02T08:44:17.307739+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "base-pb-6os",
+          "label": "6洞幻化之刃 (6os Phase Blade / Last Wish Base)",
+          "category": "熱門符文之語鑲底",
+          "side": "unknown",
+          "price_fg": 20.0,
+          "title": "Offer Items",
+          "url": "https://forums.d2jsp.org/topic.php?t=110126023&f=123",
+          "observed_at": "2026-09-02T08:44:17.307739+00:00",
+          "topic_date": "2026-09-02",
+          "item_parser_v1": true
+        }
+      ],
+      "category": "熱門符文之語鑲底"
+    },
+    {
+      "kind": "item",
+      "id": "maras",
+      "label": "馬拉的萬花筒 (Mara's Kaleidoscope / Maras)",
+      "fair_fg": 550.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-09-02T08:49:38.442843+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "maras",
+          "label": "馬拉的萬花筒 (Mara's Kaleidoscope / Maras)",
+          "category": "戒指與護身符",
+          "side": "unknown",
+          "price_fg": 550.0,
+          "title": ">> Well Shop Ladder <<",
+          "url": "https://forums.d2jsp.org/topic.php?t=110006789&f=123",
+          "observed_at": "2026-09-02T08:49:38.442843+00:00",
+          "topic_date": "2026-09-02",
+          "item_parser_v1": true
+        }
+      ],
+      "category": "戒指與護身符"
+    },
+    {
+      "kind": "item",
+      "id": "sandstorm-trek",
+      "label": "沙暴之旅 (Sandstorm Trek / Treks)",
+      "fair_fg": 60.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 2,
+      "confidence": "low",
+      "last_seen_at": "2026-09-02T08:49:38.442843+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "sandstorm-trek",
+          "label": "沙暴之旅 (Sandstorm Trek / Treks)",
+          "category": "靴子",
+          "side": "unknown",
+          "price_fg": 80.0,
+          "title": ">> Well Shop Ladder <<",
+          "url": "https://forums.d2jsp.org/topic.php?t=110006789&f=123",
+          "observed_at": "2026-09-02T08:49:38.442843+00:00",
+          "topic_date": "2026-09-02",
+          "item_parser_v1": true
+        },
+        {
+          "kind": "item",
+          "id": "sandstorm-trek",
+          "label": "沙暴之旅 (Sandstorm Trek / Treks)",
+          "category": "靴子",
+          "side": "unknown",
+          "price_fg": 40.0,
+          "title": "Cheap Sales",
+          "url": "https://forums.d2jsp.org/topic.php?t=110121963&f=123",
+          "observed_at": "2026-09-02T08:48:49.961382+00:00",
+          "topic_date": "2026-09-02",
+          "item_parser_v1": true
+        }
+      ],
+      "category": "靴子"
+    },
+    {
+      "kind": "item",
+      "id": "raven-frost",
+      "label": "烏鴉之霜 (Raven Frost / Raven)",
+      "fair_fg": 65.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 2,
+      "confidence": "low",
+      "last_seen_at": "2026-09-02T08:50:34.617237+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "raven-frost",
+          "label": "烏鴉之霜 (Raven Frost / Raven)",
+          "category": "戒指與護身符",
+          "side": "unknown",
+          "price_fg": 80.0,
+          "title": "4",
+          "url": "https://forums.d2jsp.org/topic.php?t=109971495&f=123&o=30",
+          "observed_at": "2026-09-02T08:50:34.617237+00:00",
+          "topic_date": "2026-09-01",
+          "item_parser_v1": true
+        },
+        {
+          "kind": "item",
+          "id": "raven-frost",
+          "label": "烏鴉之霜 (Raven Frost / Raven)",
+          "category": "戒指與護身符",
+          "side": "unknown",
+          "price_fg": 50.0,
+          "title": "4",
+          "url": "https://forums.d2jsp.org/topic.php?t=109971495&f=123&o=30",
+          "observed_at": "2026-09-02T08:50:34.617237+00:00",
+          "topic_date": "2026-09-01",
+          "item_parser_v1": true
+        }
+      ],
+      "category": "戒指與護身符"
+    },
+    {
+      "kind": "item",
+      "id": "vipermagi",
+      "label": "蛇魔法師之皮 (Skin of the Vipermagi / Vmagi)",
+      "fair_fg": 215.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 2,
+      "confidence": "low",
+      "last_seen_at": "2026-09-02T08:52:41.713834+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "vipermagi",
+          "label": "蛇魔法師之皮 (Skin of the Vipermagi / Vmagi)",
+          "category": "胸甲",
+          "side": "unknown",
+          "price_fg": 350.0,
+          "title": "-- Sellout, Organised And Priced --",
+          "url": "https://forums.d2jsp.org/topic.php?t=110111132&f=123",
+          "observed_at": "2026-09-02T08:52:41.713834+00:00",
+          "topic_date": "2026-08-31",
+          "item_parser_v1": true
+        },
+        {
+          "kind": "item",
+          "id": "vipermagi",
+          "label": "蛇魔法師之皮 (Skin of the Vipermagi / Vmagi)",
+          "category": "胸甲",
+          "side": "unknown",
+          "price_fg": 80.0,
+          "title": "4",
+          "url": "https://forums.d2jsp.org/topic.php?t=109971495&f=123&o=30",
+          "observed_at": "2026-09-02T08:50:34.617237+00:00",
+          "topic_date": "2026-09-01",
+          "item_parser_v1": true
+        }
+      ],
+      "category": "胸甲"
+    },
+    {
+      "kind": "item",
+      "id": "guillaumes-face",
+      "label": "吉永之臉 (Guillaume's Face / GFace)",
+      "fair_fg": 20.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-09-02T08:52:41.713834+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "guillaumes-face",
+          "label": "吉永之臉 (Guillaume's Face / GFace)",
+          "category": "頭盔",
+          "side": "unknown",
+          "price_fg": 20.0,
+          "title": "-- Sellout, Organised And Priced --",
+          "url": "https://forums.d2jsp.org/topic.php?t=110111132&f=123",
+          "observed_at": "2026-09-02T08:52:41.713834+00:00",
+          "topic_date": "2026-08-31",
+          "item_parser_v1": true
+        }
+      ],
+      "category": "頭盔"
+    },
+    {
+      "kind": "item",
+      "id": "base-cs-5os",
+      "label": "5洞水晶劍 (5os Crystal Sword / CTA Base)",
+      "fair_fg": 15.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-09-02T08:48:49.961382+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "base-cs-5os",
+          "label": "5洞水晶劍 (5os Crystal Sword / CTA Base)",
+          "category": "熱門符文之語鑲底",
+          "side": "unknown",
+          "price_fg": 15.0,
+          "title": "Cheap Sales",
+          "url": "https://forums.d2jsp.org/topic.php?t=110121963&f=123",
+          "observed_at": "2026-09-02T08:48:49.961382+00:00",
+          "topic_date": "2026-09-02",
+          "item_parser_v1": true
+        }
+      ],
+      "category": "熱門符文之語鑲底"
     }
   ],
   "season": 15,
@@ -2998,5 +4271,10 @@
   "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
   "rune_source_policy": "runes-c2-full-backfill-v4",
   "data_policy": "符文行情僅採用 d2jsp D2:R RotW Hardcore Ladder Trading 的 Runes 分類（f=123&c=2），只統計 2026/08/22（含）後主題；全量回填所有待解析主題，之後每 3 小時增量更新。明確 bundle 總價會換算單顆價格。",
-  "price_parser": "season15-runes-c2-full-v4"
+  "price_parser": "season15-runes-c2-full-v4",
+  "item_source_policy": "season15-items-general-v1",
+  "item_topic_count": 214,
+  "item_cached_topics": 214,
+  "item_parsed_topics": 214,
+  "item_sample_count": 58
 }

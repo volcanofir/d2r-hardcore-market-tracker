@@ -1,21 +1,16 @@
 {
-  "updated_at": "2026-09-03T16:32:33.978517+00:00",
+  "updated_at": "2026-09-03T21:09:05.504672+00:00",
   "forum_pages": [
     {
-      "url": "https://forums.d2jsp.org/forum.php?c=2&f=123",
+      "url": "https://forums.d2jsp.org/forum.php?f=123&c=2",
       "offset": 0,
-      "topics": 26,
-      "bytes": 7141,
+      "topics": 25,
+      "bytes": 9849,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topics": 0,
-          "bytes": 280
-        },
-        {
-          "url": "https://forums.d2jsp.org/forum.php?c=2&f=123",
-          "topics": 26,
-          "bytes": 7141
+          "topics": 25,
+          "bytes": 9849
         }
       ]
     },
@@ -38,20 +33,15 @@
       ]
     },
     {
-      "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=50",
+      "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=50",
       "offset": 50,
       "topics": 25,
-      "bytes": 10086,
+      "bytes": 9929,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=50",
-          "topics": 0,
-          "bytes": 285
-        },
-        {
-          "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=50",
           "topics": 25,
-          "bytes": 10086
+          "bytes": 9929
         }
       ]
     },
@@ -76,47 +66,62 @@
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=100",
       "offset": 100,
-      "topics": 26,
-      "bytes": 10462,
+      "topics": 0,
+      "bytes": 0,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=100",
-          "topics": 26,
-          "bytes": 10462
+          "topics": 0,
+          "bytes": 286
+        },
+        {
+          "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=100",
+          "topics": 0,
+          "bytes": 286
         }
       ]
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=125",
       "offset": 125,
-      "topics": 25,
-      "bytes": 10278,
+      "topics": 0,
+      "bytes": 0,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=125",
-          "topics": 25,
-          "bytes": 10278
+          "topics": 0,
+          "bytes": 286
+        },
+        {
+          "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=125",
+          "topics": 0,
+          "bytes": 286
         }
       ]
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=150",
       "offset": 150,
-      "topics": 25,
-      "bytes": 10277,
+      "topics": 0,
+      "bytes": 0,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=150",
-          "topics": 25,
-          "bytes": 10277
+          "topics": 0,
+          "bytes": 286
+        },
+        {
+          "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=150",
+          "topics": 0,
+          "bytes": 286
         }
       ]
     },
     {
-      "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=175",
+      "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=175",
       "offset": 175,
-      "topics": 0,
-      "bytes": 0,
+      "topics": 26,
+      "bytes": 10427,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=175",
@@ -125,16 +130,16 @@
         },
         {
           "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=175",
-          "topics": 0,
-          "bytes": 286
+          "topics": 26,
+          "bytes": 10427
         }
       ]
     },
     {
-      "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=200",
+      "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=200",
       "offset": 200,
-      "topics": 24,
-      "bytes": 10511,
+      "topics": 0,
+      "bytes": 0,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=200",
@@ -143,29 +148,29 @@
         },
         {
           "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=200",
-          "topics": 24,
-          "bytes": 10511
+          "topics": 0,
+          "bytes": 286
         }
       ]
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=225",
       "offset": 225,
-      "topics": 25,
-      "bytes": 10604,
+      "topics": 27,
+      "bytes": 10560,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=225",
-          "topics": 25,
-          "bytes": 10604
+          "topics": 27,
+          "bytes": 10560
         }
       ]
     },
     {
-      "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=250",
+      "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=250",
       "offset": 250,
-      "topics": 28,
-      "bytes": 10858,
+      "topics": 0,
+      "bytes": 0,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=250",
@@ -174,16 +179,16 @@
         },
         {
           "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=250",
-          "topics": 28,
-          "bytes": 10858
+          "topics": 0,
+          "bytes": 286
         }
       ]
     },
     {
-      "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=275",
+      "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=275",
       "offset": 275,
-      "topics": 25,
-      "bytes": 10090,
+      "topics": 0,
+      "bytes": 0,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=275",
@@ -192,26 +197,21 @@
         },
         {
           "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=275",
-          "topics": 25,
-          "bytes": 10090
+          "topics": 0,
+          "bytes": 286
         }
       ]
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=300",
       "offset": 300,
-      "topics": 0,
-      "bytes": 0,
+      "topics": 25,
+      "bytes": 10499,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=300",
-          "topics": 0,
-          "bytes": 286
-        },
-        {
-          "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=300",
-          "topics": 0,
-          "bytes": 286
+          "topics": 25,
+          "bytes": 10499
         }
       ]
     },
@@ -234,13 +234,13 @@
       ]
     }
   ],
-  "discovered_topics": 229,
-  "cached_topics": 1039,
-  "selected_topics": 164,
-  "parsed_this_run": 164,
-  "completed_this_run": 35,
+  "discovered_topics": 128,
+  "cached_topics": 1110,
+  "selected_topics": 83,
+  "parsed_this_run": 83,
+  "completed_this_run": 21,
   "legacy_samples": 0,
-  "combined_samples": 549,
+  "combined_samples": 578,
   "topic_errors": [],
   "season": 15,
   "season_label": "第 15 季天梯",

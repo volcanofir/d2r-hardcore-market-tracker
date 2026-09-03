@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T21:10:34.834123+00:00",
+  "updated_at": "2026-09-03T23:28:37.868714+00:00",
   "source_policy": "season15-items-static-catalog-v3",
   "catalog_items": 585,
   "forum_pages": [
@@ -30,8 +30,8 @@
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=100",
       "offset": 100,
-      "topics": 0,
-      "bytes": 282
+      "topics": 30,
+      "bytes": 10922
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=125",
@@ -42,8 +42,8 @@
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=150",
       "offset": 150,
-      "topics": 0,
-      "bytes": 282
+      "topics": 29,
+      "bytes": 7555
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=175",
@@ -52,11 +52,18 @@
       "bytes": 282
     }
   ],
-  "discovered_topics": 0,
-  "cached_topics": 617,
-  "selected_topics": 20,
-  "parsed_this_run": 20,
-  "combined_samples": 257,
-  "market_items": 131,
-  "topic_errors": []
+  "discovered_topics": 59,
+  "cached_topics": 674,
+  "selected_topics": 77,
+  "parsed_this_run": 76,
+  "combined_samples": 287,
+  "market_items": 143,
+  "topic_errors": [
+    {
+      "url": "https://forums.d2jsp.org/topic.php?t=110159652&f=123",
+      "title": "Iso Non Eth Skullder",
+      "reason": "new",
+      "error": "429 Too Many Requests (5/5)"
+    }
+  ]
 }

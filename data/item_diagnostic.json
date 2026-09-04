@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-09-04T16:34:54.691092+00:00",
+  "updated_at": "2026-09-04T20:59:00.122090+00:00",
   "source_policy": "season15-items-static-catalog-v3",
   "catalog_items": 585,
   "forum_pages": [
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123",
       "offset": 0,
-      "topics": 30,
-      "bytes": 8079
+      "topics": 0,
+      "bytes": 276
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=25",
       "offset": 25,
-      "topics": 29,
-      "bytes": 7637
+      "topics": 0,
+      "bytes": 281
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=50",
       "offset": 50,
-      "topics": 0,
-      "bytes": 281
+      "topics": 32,
+      "bytes": 7825
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=75",
@@ -31,7 +31,7 @@
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=100",
       "offset": 100,
       "topics": 29,
-      "bytes": 7438
+      "bytes": 7565
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=125",
@@ -48,15 +48,28 @@
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=175",
       "offset": 175,
-      "topics": 0,
-      "bytes": 282
+      "topics": 30,
+      "bytes": 7641
     }
   ],
-  "discovered_topics": 88,
-  "cached_topics": 869,
-  "selected_topics": 104,
-  "parsed_this_run": 104,
-  "combined_samples": 419,
-  "market_items": 177,
-  "topic_errors": []
+  "discovered_topics": 91,
+  "cached_topics": 950,
+  "selected_topics": 101,
+  "parsed_this_run": 99,
+  "combined_samples": 413,
+  "market_items": 175,
+  "topic_errors": [
+    {
+      "url": "https://forums.d2jsp.org/topic.php?t=110171113&f=123",
+      "title": "Wtb 4sojs 700 Fg Each Quick Trade",
+      "reason": "new",
+      "error": "429 Too Many Requests (5/5)"
+    },
+    {
+      "url": "https://forums.d2jsp.org/topic.php?t=110171006&f=123",
+      "title": "Lo Rune",
+      "reason": "new",
+      "error": "429 Too Many Requests (5/5)"
+    }
+  ]
 }

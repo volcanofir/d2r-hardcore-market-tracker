@@ -1,60 +1,55 @@
 {
-  "updated_at": "2026-09-03T23:24:20.374097+00:00",
+  "updated_at": "2026-09-04T04:46:10.125067+00:00",
   "forum_pages": [
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&c=2",
       "offset": 0,
       "topics": 25,
-      "bytes": 9928,
+      "bytes": 9730,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topics": 25,
-          "bytes": 9928
+          "bytes": 9730
         }
       ]
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=25",
       "offset": 25,
-      "topics": 26,
-      "bytes": 9966,
+      "topics": 25,
+      "bytes": 10317,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=25",
-          "topics": 26,
-          "bytes": 9966
+          "topics": 25,
+          "bytes": 10317
         }
       ]
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=50",
       "offset": 50,
-      "topics": 25,
-      "bytes": 9796,
+      "topics": 26,
+      "bytes": 10367,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=50",
-          "topics": 25,
-          "bytes": 9796
+          "topics": 26,
+          "bytes": 10367
         }
       ]
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=75",
       "offset": 75,
-      "topics": 0,
-      "bytes": 0,
+      "topics": 25,
+      "bytes": 10342,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=75",
-          "topics": 0,
-          "bytes": 285
-        },
-        {
-          "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=75",
-          "topics": 0,
-          "bytes": 285
+          "topics": 25,
+          "bytes": 10342
         }
       ]
     },
@@ -79,21 +74,21 @@
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=125",
       "offset": 125,
-      "topics": 28,
-      "bytes": 10475,
+      "topics": 26,
+      "bytes": 10308,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=125",
-          "topics": 28,
-          "bytes": 10475
+          "topics": 26,
+          "bytes": 10308
         }
       ]
     },
     {
-      "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=150",
+      "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=150",
       "offset": 150,
-      "topics": 0,
-      "bytes": 0,
+      "topics": 25,
+      "bytes": 10080,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=150",
@@ -102,21 +97,21 @@
         },
         {
           "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=150",
-          "topics": 0,
-          "bytes": 286
+          "topics": 25,
+          "bytes": 10080
         }
       ]
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=175",
       "offset": 175,
-      "topics": 26,
-      "bytes": 10449,
+      "topics": 27,
+      "bytes": 10381,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=175",
-          "topics": 26,
-          "bytes": 10449
+          "topics": 27,
+          "bytes": 10381
         }
       ]
     },
@@ -142,20 +137,20 @@
       "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=225",
       "offset": 225,
       "topics": 27,
-      "bytes": 10459,
+      "bytes": 10496,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=225",
           "topics": 27,
-          "bytes": 10459
+          "bytes": 10496
         }
       ]
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=250",
       "offset": 250,
-      "topics": 25,
-      "bytes": 10211,
+      "topics": 26,
+      "bytes": 10627,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=250",
@@ -164,8 +159,8 @@
         },
         {
           "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=250",
-          "topics": 25,
-          "bytes": 10211
+          "topics": 26,
+          "bytes": 10627
         }
       ]
     },
@@ -190,13 +185,18 @@
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=300",
       "offset": 300,
-      "topics": 26,
-      "bytes": 10580,
+      "topics": 0,
+      "bytes": 0,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=300",
-          "topics": 26,
-          "bytes": 10580
+          "topics": 0,
+          "bytes": 286
+        },
+        {
+          "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=300",
+          "topics": 0,
+          "bytes": 286
         }
       ]
     },
@@ -204,24 +204,43 @@
       "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=325",
       "offset": 325,
       "topics": 27,
-      "bytes": 10684,
+      "bytes": 10691,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=325",
           "topics": 27,
-          "bytes": 10684
+          "bytes": 10691
         }
       ]
     }
   ],
-  "discovered_topics": 235,
-  "cached_topics": 1217,
-  "selected_topics": 119,
-  "parsed_this_run": 119,
-  "completed_this_run": 27,
+  "discovered_topics": 259,
+  "cached_topics": 1356,
+  "selected_topics": 151,
+  "parsed_this_run": 148,
+  "completed_this_run": 38,
   "legacy_samples": 0,
-  "combined_samples": 626,
-  "topic_errors": [],
+  "combined_samples": 694,
+  "topic_errors": [
+    {
+      "url": "https://forums.d2jsp.org/topic.php?t=110155248&f=123",
+      "title": "Ohm Rune",
+      "reason": "new",
+      "error": "429 Too Many Requests (5/5)"
+    },
+    {
+      "url": "https://forums.d2jsp.org/topic.php?t=110161908&f=123",
+      "title": "Ist Rune Ft",
+      "reason": "new",
+      "error": "429 Too Many Requests (5/5)"
+    },
+    {
+      "url": "https://forums.d2jsp.org/topic.php?t=110161724&f=123",
+      "title": "Fresh Lo 450",
+      "reason": "new",
+      "error": "429 Too Many Requests (5/5)"
+    }
+  ],
   "season": 15,
   "season_label": "第 15 季天梯",
   "data_start": "2026-08-22",

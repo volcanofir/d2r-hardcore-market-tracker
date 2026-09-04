@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T23:28:37.868714+00:00",
+  "updated_at": "2026-09-04T04:50:36.855853+00:00",
   "source_policy": "season15-items-static-catalog-v3",
   "catalog_items": 585,
   "forum_pages": [
@@ -30,8 +30,8 @@
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=100",
       "offset": 100,
-      "topics": 30,
-      "bytes": 10922
+      "topics": 32,
+      "bytes": 10787
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=125",
@@ -42,8 +42,8 @@
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=150",
       "offset": 150,
-      "topics": 29,
-      "bytes": 7555
+      "topics": 35,
+      "bytes": 11108
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=175",
@@ -52,18 +52,11 @@
       "bytes": 282
     }
   ],
-  "discovered_topics": 59,
-  "cached_topics": 674,
-  "selected_topics": 77,
-  "parsed_this_run": 76,
-  "combined_samples": 287,
-  "market_items": 143,
-  "topic_errors": [
-    {
-      "url": "https://forums.d2jsp.org/topic.php?t=110159652&f=123",
-      "title": "Iso Non Eth Skullder",
-      "reason": "new",
-      "error": "429 Too Many Requests (5/5)"
-    }
-  ]
+  "discovered_topics": 67,
+  "cached_topics": 735,
+  "selected_topics": 82,
+  "parsed_this_run": 82,
+  "combined_samples": 308,
+  "market_items": 148,
+  "topic_errors": []
 }

@@ -1,0 +1,15 @@
+.eyebrow{
+  line-height:1.5;
+  margin-top:0;
+}
+.eyebrow .eyebrow-line{
+  display:block;
+}
+@media(max-width:600px){
+  main{
+    padding-top:calc(36px + env(safe-area-inset-top));
+    padding-right:calc(12px + env(safe-area-inset-right));
+    padding-bottom:26px;
+    padding-left:calc(12px + env(safe-area-inset-left));
+  }
+}

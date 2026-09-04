@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-09-04T20:59:00.122090+00:00",
+  "updated_at": "2026-09-04T23:14:55.588972+00:00",
   "source_policy": "season15-items-static-catalog-v3",
   "catalog_items": 585,
   "forum_pages": [
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123",
       "offset": 0,
-      "topics": 0,
-      "bytes": 276
+      "topics": 32,
+      "bytes": 11148
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=25",
       "offset": 25,
-      "topics": 0,
-      "bytes": 281
+      "topics": 27,
+      "bytes": 10484
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=50",
       "offset": 50,
-      "topics": 32,
-      "bytes": 7825
+      "topics": 33,
+      "bytes": 10961
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=75",
@@ -30,8 +30,8 @@
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=100",
       "offset": 100,
-      "topics": 29,
-      "bytes": 7565
+      "topics": 0,
+      "bytes": 282
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=125",
@@ -48,26 +48,20 @@
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=175",
       "offset": 175,
-      "topics": 30,
-      "bytes": 7641
+      "topics": 31,
+      "bytes": 7861
     }
   ],
-  "discovered_topics": 91,
-  "cached_topics": 950,
-  "selected_topics": 101,
-  "parsed_this_run": 99,
-  "combined_samples": 413,
-  "market_items": 175,
+  "discovered_topics": 123,
+  "cached_topics": 1058,
+  "selected_topics": 130,
+  "parsed_this_run": 129,
+  "combined_samples": 438,
+  "market_items": 181,
   "topic_errors": [
     {
-      "url": "https://forums.d2jsp.org/topic.php?t=110171113&f=123",
-      "title": "Wtb 4sojs 700 Fg Each Quick Trade",
-      "reason": "new",
-      "error": "429 Too Many Requests (5/5)"
-    },
-    {
-      "url": "https://forums.d2jsp.org/topic.php?t=110171006&f=123",
-      "title": "Lo Rune",
+      "url": "https://forums.d2jsp.org/topic.php?t=110172824&f=123",
+      "title": "Unid Andys",
       "reason": "new",
       "error": "429 Too Many Requests (5/5)"
     }

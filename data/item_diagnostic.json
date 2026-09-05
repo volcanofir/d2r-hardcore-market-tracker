@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T20:30:52.285803+00:00",
+  "updated_at": "2026-09-05T23:06:41.828586+00:00",
   "source_policy": "season15-items-static-catalog-v3",
   "catalog_items": 585,
   "forum_pages": [
@@ -30,8 +30,8 @@
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=100",
       "offset": 100,
-      "topics": 0,
-      "bytes": 282
+      "topics": 38,
+      "bytes": 11341
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=125",
@@ -42,8 +42,8 @@
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=150",
       "offset": 150,
-      "topics": 0,
-      "bytes": 282
+      "topics": 31,
+      "bytes": 7619
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=175",
@@ -52,11 +52,18 @@
       "bytes": 282
     }
   ],
-  "discovered_topics": 0,
-  "cached_topics": 1172,
-  "selected_topics": 20,
-  "parsed_this_run": 20,
-  "combined_samples": 469,
+  "discovered_topics": 69,
+  "cached_topics": 1236,
+  "selected_topics": 84,
+  "parsed_this_run": 83,
+  "combined_samples": 464,
   "market_items": 183,
-  "topic_errors": []
+  "topic_errors": [
+    {
+      "url": "https://forums.d2jsp.org/topic.php?t=110099965&f=123",
+      "title": "Skiller Gc",
+      "reason": "new",
+      "error": "429 Too Many Requests (5/5)"
+    }
+  ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-06T11:06:24.439852+00:00",
+  "updated_at": "2026-09-06T15:34:36.541213+00:00",
   "source_policy": "season15-items-static-catalog-v3",
   "catalog_items": 585,
   "forum_pages": [
@@ -30,8 +30,8 @@
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=100",
       "offset": 100,
-      "topics": 0,
-      "bytes": 282
+      "topics": 32,
+      "bytes": 7847
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=125",
@@ -52,18 +52,11 @@
       "bytes": 282
     }
   ],
-  "discovered_topics": 0,
-  "cached_topics": 1287,
-  "selected_topics": 21,
-  "parsed_this_run": 20,
-  "combined_samples": 475,
-  "market_items": 183,
-  "topic_errors": [
-    {
-      "url": "https://forums.d2jsp.org/topic.php?t=110188281&f=123",
-      "title": "Some Items With Sockets",
-      "reason": "recheck",
-      "error": "429 Too Many Requests (5/5)"
-    }
-  ]
+  "discovered_topics": 32,
+  "cached_topics": 1315,
+  "selected_topics": 48,
+  "parsed_this_run": 48,
+  "combined_samples": 498,
+  "market_items": 185,
+  "topic_errors": []
 }

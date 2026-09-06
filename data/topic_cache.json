@@ -34964,8 +34964,8 @@
       "title": "O Mal N Um Lem",
       "url": "https://forums.d2jsp.org/topic.php?t=110192466&f=123",
       "first_seen_at": "2026-09-06T11:01:13.824759+00:00",
-      "last_checked_at": "2026-09-06T11:02:27.651104+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-06T20:31:30.120293+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -35000,8 +35000,8 @@
       "title": "Vex Lo Sur Cham",
       "url": "https://forums.d2jsp.org/topic.php?t=110192357&f=123",
       "first_seen_at": "2026-09-06T11:01:13.824759+00:00",
-      "last_checked_at": "2026-09-06T11:01:42.590988+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-06T20:31:28.087598+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -35036,24 +35036,10 @@
       "title": "Vex - 150 Ea",
       "url": "https://forums.d2jsp.org/topic.php?t=110192301&f=123",
       "first_seen_at": "2026-09-06T11:01:13.824759+00:00",
-      "last_checked_at": "2026-09-06T11:01:47.413216+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-06T20:31:28.654253+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Vex",
-          "label": "Vex",
-          "side": "unknown",
-          "price_fg": 150.0,
-          "title": "Vex - 150 Ea",
-          "url": "https://forums.d2jsp.org/topic.php?t=110192301&f=123",
-          "observed_at": "2026-09-06T11:01:47.413216+00:00",
-          "topic_date": "2026-09-06",
-          "parser_v4": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110192297&f=123": {
       "title": "List Iso",
@@ -35104,8 +35090,8 @@
       "title": "Shards ,runes , Pg ,statue",
       "url": "https://forums.d2jsp.org/topic.php?t=110192236&f=123",
       "first_seen_at": "2026-09-06T11:01:13.824759+00:00",
-      "last_checked_at": "2026-09-06T11:01:54.513661+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-06T20:31:29.019295+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -35154,73 +35140,19 @@
       "title": "Need Items",
       "url": "https://forums.d2jsp.org/topic.php?t=110192144&f=123",
       "first_seen_at": "2026-09-06T11:01:13.824759+00:00",
-      "last_checked_at": "2026-09-06T11:02:15.778490+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-06T20:31:30.504183+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Pul",
-          "label": "Pul",
-          "side": "iso",
-          "price_fg": 25.0,
-          "title": "Need Items",
-          "url": "https://forums.d2jsp.org/topic.php?t=110192144&f=123",
-          "observed_at": "2026-09-06T11:02:15.778490+00:00",
-          "topic_date": "2026-09-06",
-          "parser_v4": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Pul",
-          "label": "Pul",
-          "side": "iso",
-          "price_fg": 50.0,
-          "title": "Need Items",
-          "url": "https://forums.d2jsp.org/topic.php?t=110192144&f=123",
-          "observed_at": "2026-09-06T11:02:15.778490+00:00",
-          "topic_date": "2026-09-06",
-          "parser_v4": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Pul",
-          "label": "Pul",
-          "side": "iso",
-          "price_fg": 200.0,
-          "title": "Need Items",
-          "url": "https://forums.d2jsp.org/topic.php?t=110192144&f=123",
-          "observed_at": "2026-09-06T11:02:15.778490+00:00",
-          "topic_date": "2026-09-06",
-          "parser_v4": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110192132&f=123": {
       "title": "Ohm - 300 Fg",
       "url": "https://forums.d2jsp.org/topic.php?t=110192132&f=123",
       "first_seen_at": "2026-09-06T11:01:13.824759+00:00",
-      "last_checked_at": "2026-09-06T11:02:03.269408+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-06T20:31:29.972054+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Ohm",
-          "label": "Ohm",
-          "side": "ft",
-          "price_fg": 300.0,
-          "title": "Ohm - 300 Fg",
-          "url": "https://forums.d2jsp.org/topic.php?t=110192132&f=123",
-          "observed_at": "2026-09-06T11:02:03.269408+00:00",
-          "topic_date": "2026-09-06",
-          "parser_v4": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110192071&f=123": {
       "title": "Iso Gheed's Wager",
@@ -35285,8 +35217,8 @@
       "title": "N Vex Rune",
       "url": "https://forums.d2jsp.org/topic.php?t=110191944&f=123",
       "first_seen_at": "2026-09-06T11:01:13.824759+00:00",
-      "last_checked_at": "2026-09-06T11:02:20.789679+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-06T20:31:30.657673+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -35294,24 +35226,10 @@
       "title": "Ohm - 330 Fg",
       "url": "https://forums.d2jsp.org/topic.php?t=110191941&f=123",
       "first_seen_at": "2026-09-06T11:01:13.824759+00:00",
-      "last_checked_at": "2026-09-06T11:02:02.012293+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-06T20:31:29.678088+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Ohm",
-          "label": "Ohm",
-          "side": "ft",
-          "price_fg": 330.0,
-          "title": "Ohm - 330 Fg",
-          "url": "https://forums.d2jsp.org/topic.php?t=110191941&f=123",
-          "observed_at": "2026-09-06T11:02:02.012293+00:00",
-          "topic_date": "2026-09-06",
-          "parser_v4": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110191911&f=123": {
       "title": "Iso Ko Fal Um Ist",
@@ -35366,8 +35284,8 @@
       "title": "O 1x Vex",
       "url": "https://forums.d2jsp.org/topic.php?t=110186539&f=123",
       "first_seen_at": "2026-09-06T11:01:13.824759+00:00",
-      "last_checked_at": "2026-09-06T11:02:14.580629+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-06T20:31:30.402081+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -35429,24 +35347,10 @@
       "title": "Ohm - 350 Fg",
       "url": "https://forums.d2jsp.org/topic.php?t=110186292&f=123",
       "first_seen_at": "2026-09-06T11:01:13.824759+00:00",
-      "last_checked_at": "2026-09-06T11:02:08.400240+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-06T20:31:29.647743+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Ohm",
-          "label": "Ohm",
-          "side": "ft",
-          "price_fg": 350.0,
-          "title": "Ohm - 350 Fg",
-          "url": "https://forums.d2jsp.org/topic.php?t=110186292&f=123",
-          "observed_at": "2026-09-06T11:02:08.400240+00:00",
-          "topic_date": "2026-09-05",
-          "parser_v4": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110186249&f=123": {
       "title": "Iso Mal Rune",
@@ -35475,31 +35379,17 @@
       "title": "Ohm Rune",
       "url": "https://forums.d2jsp.org/topic.php?t=110186240&f=123",
       "first_seen_at": "2026-09-06T11:01:13.824759+00:00",
-      "last_checked_at": "2026-09-06T11:02:00.062400+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-06T20:31:29.287612+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Ohm",
-          "label": "Ohm",
-          "side": "unknown",
-          "price_fg": 380.0,
-          "title": "Ohm Rune",
-          "url": "https://forums.d2jsp.org/topic.php?t=110186240&f=123",
-          "observed_at": "2026-09-06T11:02:00.062400+00:00",
-          "topic_date": "2026-09-05",
-          "parser_v4": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110186237&f=123": {
       "title": "Paying Fg For My Iso List",
       "url": "https://forums.d2jsp.org/topic.php?t=110186237&f=123",
       "first_seen_at": "2026-09-06T11:01:13.824759+00:00",
-      "last_checked_at": "2026-09-06T11:01:54.297506+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-06T20:31:29.271189+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -35754,7 +35644,402 @@
       "completed": false,
       "status": "parsed",
       "samples": []
+    },
+    "https://forums.d2jsp.org/topic.php?t=110196752&f=123": {
+      "title": "Iso Some Stuff",
+      "url": "https://forums.d2jsp.org/topic.php?t=110196752&f=123",
+      "first_seen_at": "2026-09-06T20:26:56.975808+00:00",
+      "last_checked_at": "2026-09-06T20:29:22.725099+00:00",
+      "completed": true,
+      "status": "parsed",
+      "samples": []
+    },
+    "https://forums.d2jsp.org/topic.php?t=110196752&f=123&o=10": {
+      "title": "2",
+      "url": "https://forums.d2jsp.org/topic.php?t=110196752&f=123&o=10",
+      "first_seen_at": "2026-09-06T20:26:56.975808+00:00",
+      "last_checked_at": "2026-09-06T20:31:28.862517+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": [
+        {
+          "kind": "rune",
+          "id": "Lo",
+          "label": "Lo",
+          "side": "unknown",
+          "price_fg": 400.0,
+          "title": "2",
+          "url": "https://forums.d2jsp.org/topic.php?t=110196752&f=123&o=10",
+          "observed_at": "2026-09-06T20:31:28.862517+00:00",
+          "topic_date": "2026-09-06",
+          "parser_v4": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
+        }
+      ]
+    },
+    "https://forums.d2jsp.org/topic.php?t=110196725&f=123": {
+      "title": "Um Rune Ft",
+      "url": "https://forums.d2jsp.org/topic.php?t=110196725&f=123",
+      "first_seen_at": "2026-09-06T20:26:56.975808+00:00",
+      "last_checked_at": "2026-09-06T20:27:27.292765+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": []
+    },
+    "https://forums.d2jsp.org/topic.php?t=110196714&f=123": {
+      "title": "Ft: Sur Rune - Low Bin 450fg",
+      "url": "https://forums.d2jsp.org/topic.php?t=110196714&f=123",
+      "first_seen_at": "2026-09-06T20:26:56.975808+00:00",
+      "last_checked_at": "2026-09-06T20:30:03.906334+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": [
+        {
+          "kind": "rune",
+          "id": "Sur",
+          "label": "Sur",
+          "side": "ft",
+          "price_fg": 450.0,
+          "title": "Ft: Sur Rune - Low Bin 450fg",
+          "url": "https://forums.d2jsp.org/topic.php?t=110196714&f=123",
+          "observed_at": "2026-09-06T20:30:03.906334+00:00",
+          "topic_date": "2026-09-06",
+          "parser_v4": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
+        }
+      ]
+    },
+    "https://forums.d2jsp.org/topic.php?t=110196711&f=123": {
+      "title": "Iso Vex And 4os Flail",
+      "url": "https://forums.d2jsp.org/topic.php?t=110196711&f=123",
+      "first_seen_at": "2026-09-06T20:26:56.975808+00:00",
+      "last_checked_at": "2026-09-06T20:28:43.984644+00:00",
+      "completed": true,
+      "status": "parsed",
+      "samples": []
+    },
+    "https://forums.d2jsp.org/topic.php?t=110196674&f=123": {
+      "title": "N 2 X Um Rune",
+      "url": "https://forums.d2jsp.org/topic.php?t=110196674&f=123",
+      "first_seen_at": "2026-09-06T20:26:56.975808+00:00",
+      "last_checked_at": "2026-09-06T20:27:53.267601+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": [
+        {
+          "kind": "rune",
+          "id": "Um",
+          "label": "Um",
+          "side": "iso",
+          "price_fg": 35.0,
+          "title": "N 2 X Um Rune",
+          "url": "https://forums.d2jsp.org/topic.php?t=110196674&f=123",
+          "observed_at": "2026-09-06T20:27:53.267601+00:00",
+          "topic_date": "2026-09-06",
+          "parser_v4": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
+        }
+      ]
+    },
+    "https://forums.d2jsp.org/topic.php?t=110196658&f=123": {
+      "title": "Um",
+      "url": "https://forums.d2jsp.org/topic.php?t=110196658&f=123",
+      "first_seen_at": "2026-09-06T20:26:56.975808+00:00",
+      "last_checked_at": "2026-09-06T20:27:28.242028+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": []
+    },
+    "https://forums.d2jsp.org/topic.php?t=110196646&f=123": {
+      "title": "Pul",
+      "url": "https://forums.d2jsp.org/topic.php?t=110196646&f=123",
+      "first_seen_at": "2026-09-06T20:26:56.975808+00:00",
+      "last_checked_at": "2026-09-06T20:27:43.971809+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": []
+    },
+    "https://forums.d2jsp.org/topic.php?t=110196608&f=123": {
+      "title": "Iso Insight Normal Base + Runes",
+      "url": "https://forums.d2jsp.org/topic.php?t=110196608&f=123",
+      "first_seen_at": "2026-09-06T20:26:56.975808+00:00",
+      "last_checked_at": "2026-09-06T20:30:07.673912+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": []
+    },
+    "https://forums.d2jsp.org/topic.php?t=110196591&f=123": {
+      "title": "99 Fire Druid Gear And Loot Sale",
+      "url": "https://forums.d2jsp.org/topic.php?t=110196591&f=123",
+      "first_seen_at": "2026-09-06T20:26:56.975808+00:00",
+      "last_checked_at": "2026-09-06T20:30:49.529530+00:00",
+      "completed": true,
+      "status": "parsed",
+      "samples": []
+    },
+    "https://forums.d2jsp.org/topic.php?t=110196569&f=123": {
+      "title": "Iso Blizzard Sorc Gear",
+      "url": "https://forums.d2jsp.org/topic.php?t=110196569&f=123",
+      "first_seen_at": "2026-09-06T20:26:56.975808+00:00",
+      "last_checked_at": "2026-09-06T20:29:23.918631+00:00",
+      "completed": true,
+      "status": "parsed",
+      "samples": []
+    },
+    "https://forums.d2jsp.org/topic.php?t=110196569&f=123&o=10": {
+      "title": "2",
+      "url": "https://forums.d2jsp.org/topic.php?t=110196569&f=123&o=10",
+      "first_seen_at": "2026-09-06T20:26:56.975808+00:00",
+      "last_checked_at": "2026-09-06T20:31:27.624880+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": [
+        {
+          "kind": "rune",
+          "id": "Um",
+          "label": "Um",
+          "side": "unknown",
+          "price_fg": 110.0,
+          "title": "2",
+          "url": "https://forums.d2jsp.org/topic.php?t=110196569&f=123&o=10",
+          "observed_at": "2026-09-06T20:31:27.624880+00:00",
+          "topic_date": "2026-09-06",
+          "parser_v4": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
+        }
+      ]
+    },
+    "https://forums.d2jsp.org/topic.php?t=110196537&f=123": {
+      "title": "Buying Lem + Ko Rune",
+      "url": "https://forums.d2jsp.org/topic.php?t=110196537&f=123",
+      "first_seen_at": "2026-09-06T20:26:56.975808+00:00",
+      "last_checked_at": "2026-09-06T20:30:09.187904+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": []
+    },
+    "https://forums.d2jsp.org/topic.php?t=110196474&f=123": {
+      "title": "Sur Rune",
+      "url": "https://forums.d2jsp.org/topic.php?t=110196474&f=123",
+      "first_seen_at": "2026-09-06T20:26:56.975808+00:00",
+      "last_checked_at": "2026-09-06T20:27:35.801029+00:00",
+      "completed": true,
+      "status": "parsed",
+      "samples": []
+    },
+    "https://forums.d2jsp.org/topic.php?t=110196466&f=123": {
+      "title": "Forti Runes",
+      "url": "https://forums.d2jsp.org/topic.php?t=110196466&f=123",
+      "first_seen_at": "2026-09-06T20:26:56.975808+00:00",
+      "last_checked_at": "2026-09-06T20:31:26.493940+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": []
+    },
+    "https://forums.d2jsp.org/topic.php?t=110196465&f=123": {
+      "title": "Sol Rune",
+      "url": "https://forums.d2jsp.org/topic.php?t=110196465&f=123",
+      "first_seen_at": "2026-09-06T20:26:56.975808+00:00",
+      "last_checked_at": "2026-09-06T20:27:37.061481+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": []
+    },
+    "https://forums.d2jsp.org/topic.php?t=110196460&f=123": {
+      "title": "Lo Rune",
+      "url": "https://forums.d2jsp.org/topic.php?t=110196460&f=123",
+      "first_seen_at": "2026-09-06T20:26:56.975808+00:00",
+      "last_checked_at": "2026-09-06T20:27:58.649572+00:00",
+      "completed": true,
+      "status": "parsed",
+      "samples": []
+    },
+    "https://forums.d2jsp.org/topic.php?t=110196456&f=123": {
+      "title": "Gul Rune",
+      "url": "https://forums.d2jsp.org/topic.php?t=110196456&f=123",
+      "first_seen_at": "2026-09-06T20:26:56.975808+00:00",
+      "last_checked_at": "2026-09-06T20:29:25.006574+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": []
+    },
+    "https://forums.d2jsp.org/topic.php?t=110196455&f=123": {
+      "title": "O Sur N 600fg",
+      "url": "https://forums.d2jsp.org/topic.php?t=110196455&f=123",
+      "first_seen_at": "2026-09-06T20:26:56.975808+00:00",
+      "last_checked_at": "2026-09-06T20:27:55.619272+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": [
+        {
+          "kind": "rune",
+          "id": "Sur",
+          "label": "Sur",
+          "side": "ft",
+          "price_fg": 600.0,
+          "title": "O Sur N 600fg",
+          "url": "https://forums.d2jsp.org/topic.php?t=110196455&f=123",
+          "observed_at": "2026-09-06T20:27:55.619272+00:00",
+          "topic_date": "2026-09-06",
+          "parser_v4": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
+        }
+      ]
+    },
+    "https://forums.d2jsp.org/topic.php?t=110196443&f=123": {
+      "title": "Fresh Cham Rune Fast Sell",
+      "url": "https://forums.d2jsp.org/topic.php?t=110196443&f=123",
+      "first_seen_at": "2026-09-06T20:26:56.975808+00:00",
+      "last_checked_at": "2026-09-06T20:30:07.681658+00:00",
+      "completed": true,
+      "status": "parsed",
+      "samples": []
+    },
+    "https://forums.d2jsp.org/topic.php?t=110196417&f=123": {
+      "title": "Selling",
+      "url": "https://forums.d2jsp.org/topic.php?t=110196417&f=123",
+      "first_seen_at": "2026-09-06T20:26:56.975808+00:00",
+      "last_checked_at": "2026-09-06T20:27:38.110859+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": [
+        {
+          "kind": "rune",
+          "id": "Ohm",
+          "label": "Ohm",
+          "side": "ft",
+          "price_fg": 295.0,
+          "title": "Selling",
+          "url": "https://forums.d2jsp.org/topic.php?t=110196417&f=123",
+          "observed_at": "2026-09-06T20:27:38.110859+00:00",
+          "topic_date": "2026-09-06",
+          "parser_v4": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
+        }
+      ]
+    },
+    "https://forums.d2jsp.org/topic.php?t=110196359&f=123": {
+      "title": "Ft: Runes",
+      "url": "https://forums.d2jsp.org/topic.php?t=110196359&f=123",
+      "first_seen_at": "2026-09-06T20:26:56.975808+00:00",
+      "last_checked_at": "2026-09-06T20:30:04.949944+00:00",
+      "completed": true,
+      "status": "parsed",
+      "samples": [
+        {
+          "kind": "rune",
+          "id": "Pul",
+          "label": "Pul",
+          "side": "ft",
+          "price_fg": 50.0,
+          "title": "Ft: Runes",
+          "url": "https://forums.d2jsp.org/topic.php?t=110196359&f=123",
+          "observed_at": "2026-09-06T20:30:04.949944+00:00",
+          "topic_date": "2026-09-06",
+          "parser_v4": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
+        },
+        {
+          "kind": "rune",
+          "id": "Pul",
+          "label": "Pul",
+          "side": "trade",
+          "price_fg": 50.0,
+          "title": "Ft: Runes · T4T/sold signal",
+          "url": "https://forums.d2jsp.org/topic.php?t=110196359&f=123",
+          "observed_at": "2026-09-06T20:30:04.949944+00:00",
+          "topic_date": "2026-09-06",
+          "parser_v4": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
+        }
+      ]
+    },
+    "https://forums.d2jsp.org/topic.php?t=110196358&f=123": {
+      "title": "Ber Rune Ft",
+      "url": "https://forums.d2jsp.org/topic.php?t=110196358&f=123",
+      "first_seen_at": "2026-09-06T20:26:56.975808+00:00",
+      "last_checked_at": "2026-09-06T20:30:10.257817+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": []
+    },
+    "https://forums.d2jsp.org/topic.php?t=110196349&f=123": {
+      "title": "Pul Runes",
+      "url": "https://forums.d2jsp.org/topic.php?t=110196349&f=123",
+      "first_seen_at": "2026-09-06T20:26:56.975808+00:00",
+      "last_checked_at": "2026-09-06T20:27:42.921641+00:00",
+      "completed": true,
+      "status": "parsed",
+      "samples": []
+    },
+    "https://forums.d2jsp.org/topic.php?t=110196345&f=123": {
+      "title": "Unid Chains Of Honor In 15ed Dusk",
+      "url": "https://forums.d2jsp.org/topic.php?t=110196345&f=123",
+      "first_seen_at": "2026-09-06T20:26:56.975808+00:00",
+      "last_checked_at": "2026-09-06T20:27:47.219188+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": []
+    },
+    "https://forums.d2jsp.org/topic.php?t=110196326&f=123": {
+      "title": "Items Ft",
+      "url": "https://forums.d2jsp.org/topic.php?t=110196326&f=123",
+      "first_seen_at": "2026-09-06T20:26:56.975808+00:00",
+      "last_checked_at": "2026-09-06T20:28:49.525751+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": [
+        {
+          "kind": "rune",
+          "id": "Ko",
+          "label": "Ko",
+          "side": "ft",
+          "price_fg": 20.0,
+          "title": "Items Ft",
+          "url": "https://forums.d2jsp.org/topic.php?t=110196326&f=123",
+          "observed_at": "2026-09-06T20:28:49.525751+00:00",
+          "topic_date": "2026-09-06",
+          "parser_v4": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
+        }
+      ]
+    },
+    "https://forums.d2jsp.org/topic.php?t=110196287&f=123": {
+      "title": "O Latent Crack Of Heavens Light Sunder",
+      "url": "https://forums.d2jsp.org/topic.php?t=110196287&f=123",
+      "first_seen_at": "2026-09-06T20:26:56.975808+00:00",
+      "last_checked_at": "2026-09-06T20:27:52.093796+00:00",
+      "completed": true,
+      "status": "parsed",
+      "samples": [
+        {
+          "kind": "rune",
+          "id": "Fal",
+          "label": "Fal",
+          "side": "ft",
+          "price_fg": 350.0,
+          "title": "O Latent Crack Of Heavens Light Sunder",
+          "url": "https://forums.d2jsp.org/topic.php?t=110196287&f=123",
+          "observed_at": "2026-09-06T20:27:52.093796+00:00",
+          "topic_date": "2026-09-06",
+          "parser_v4": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
+        },
+        {
+          "kind": "rune",
+          "id": "Fal",
+          "label": "Fal",
+          "side": "trade",
+          "price_fg": 350.0,
+          "title": "O Latent Crack Of Heavens Light Sunder · T4T/sold signal",
+          "url": "https://forums.d2jsp.org/topic.php?t=110196287&f=123",
+          "observed_at": "2026-09-06T20:27:52.093796+00:00",
+          "topic_date": "2026-09-06",
+          "parser_v4": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
+        }
+      ]
     }
   },
-  "updated_at": "2026-09-06T15:31:45.236683+00:00"
+  "updated_at": "2026-09-06T20:31:30.659147+00:00"
 }

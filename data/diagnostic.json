@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T04:43:02.794477+00:00",
+  "updated_at": "2026-09-08T11:27:53.424905+00:00",
   "forum_pages": [
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&c=2",
@@ -40,36 +40,26 @@
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=50",
       "offset": 50,
-      "topics": 0,
-      "bytes": 0,
+      "topics": 26,
+      "bytes": 10313,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=50",
-          "topics": 0,
-          "bytes": 285
-        },
-        {
-          "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=50",
-          "topics": 0,
-          "bytes": 285
+          "topics": 26,
+          "bytes": 10313
         }
       ]
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=75",
       "offset": 75,
-      "topics": 0,
-      "bytes": 0,
+      "topics": 25,
+      "bytes": 10188,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=75",
-          "topics": 0,
-          "bytes": 285
-        },
-        {
-          "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=75",
-          "topics": 0,
-          "bytes": 285
+          "topics": 25,
+          "bytes": 10188
         }
       ]
     },
@@ -202,18 +192,13 @@
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=275",
       "offset": 275,
-      "topics": 0,
-      "bytes": 0,
+      "topics": 25,
+      "bytes": 10748,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=275",
-          "topics": 0,
-          "bytes": 286
-        },
-        {
-          "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=275",
-          "topics": 0,
-          "bytes": 286
+          "topics": 25,
+          "bytes": 10748
         }
       ]
     },
@@ -254,14 +239,21 @@
       ]
     }
   ],
-  "discovered_topics": 0,
-  "cached_topics": 2569,
-  "selected_topics": 12,
-  "parsed_this_run": 12,
-  "completed_this_run": 11,
+  "discovered_topics": 76,
+  "cached_topics": 2643,
+  "selected_topics": 86,
+  "parsed_this_run": 85,
+  "completed_this_run": 30,
   "legacy_samples": 0,
-  "combined_samples": 1176,
-  "topic_errors": [],
+  "combined_samples": 1205,
+  "topic_errors": [
+    {
+      "url": "https://forums.d2jsp.org/topic.php?t=110217531&f=123",
+      "title": "Ft 20x Hel Rune Pack",
+      "reason": "new",
+      "error": "429 Too Many Requests (5/5)"
+    }
+  ],
   "season": 15,
   "season_label": "第 15 季天梯",
   "data_start": "2026-08-22",

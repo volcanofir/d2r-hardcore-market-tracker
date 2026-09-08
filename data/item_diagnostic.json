@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T23:35:49.623699+00:00",
+  "updated_at": "2026-09-08T04:44:31.703093+00:00",
   "source_policy": "season15-items-static-catalog-v3",
   "catalog_items": 585,
   "forum_pages": [
@@ -30,8 +30,8 @@
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=100",
       "offset": 100,
-      "topics": 30,
-      "bytes": 10953
+      "topics": 0,
+      "bytes": 282
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=125",
@@ -52,18 +52,11 @@
       "bytes": 282
     }
   ],
-  "discovered_topics": 30,
+  "discovered_topics": 0,
   "cached_topics": 1463,
-  "selected_topics": 49,
-  "parsed_this_run": 48,
-  "combined_samples": 611,
+  "selected_topics": 21,
+  "parsed_this_run": 21,
+  "combined_samples": 608,
   "market_items": 203,
-  "topic_errors": [
-    {
-      "url": "https://forums.d2jsp.org/topic.php?t=110214782&f=123",
-      "title": "Pnb Skiller",
-      "reason": "new",
-      "error": "429 Too Many Requests (5/5)"
-    }
-  ]
+  "topic_errors": []
 }

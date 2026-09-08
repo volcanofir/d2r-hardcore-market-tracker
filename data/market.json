@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-07T23:35:49.608018+00:00",
+  "updated_at": "2026-09-08T04:44:31.687840+00:00",
   "forum": "https://forums.d2jsp.org/forum.php?f=123&c=2",
   "topic_count": 0,
   "cached_topics": 2569,
   "parsed_topics": 2569,
-  "completed_topics": 822,
+  "completed_topics": 833,
   "parsed_this_run": 12,
-  "sample_count": 999,
+  "sample_count": 995,
   "legacy_sample_count": 0,
   "market": [
     {
@@ -341,9 +341,9 @@
       "label": "Lem",
       "fair_fg": 20.0,
       "iso_fg": 22.0,
-      "ft_fg": 22.5,
+      "ft_fg": 20.0,
       "trade_fg": 15.0,
-      "samples": 45,
+      "samples": 44,
       "confidence": "high",
       "last_seen_at": "2026-09-07T19:14:15.642367+00:00",
       "sources": [
@@ -356,19 +356,6 @@
           "title": "Lem And 2 Terror Keys",
           "url": "https://forums.d2jsp.org/topic.php?t=110210303&f=123",
           "observed_at": "2026-09-07T19:14:15.642367+00:00",
-          "topic_date": "2026-09-07",
-          "parser_v4": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Lem",
-          "label": "Lem",
-          "side": "ft",
-          "price_fg": 65.0,
-          "title": "Um+pul+lem - 65 Fg Pack",
-          "url": "https://forums.d2jsp.org/topic.php?t=110205166&f=123",
-          "observed_at": "2026-09-07T19:12:38.938900+00:00",
           "topic_date": "2026-09-07",
           "parser_v4": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
@@ -658,6 +645,19 @@
           "topic_date": "2026-09-03",
           "parser_v4": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
+        },
+        {
+          "kind": "rune",
+          "id": "Lem",
+          "label": "Lem",
+          "side": "iso",
+          "price_fg": 30.0,
+          "title": "Iso Few Things",
+          "url": "https://forums.d2jsp.org/topic.php?t=110157692&f=123",
+          "observed_at": "2026-09-03T21:07:06.860247+00:00",
+          "topic_date": "2026-09-03",
+          "parser_v4": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
         }
       ]
     },
@@ -669,7 +669,7 @@
       "iso_fg": 100.0,
       "ft_fg": 90.0,
       "trade_fg": 95.0,
-      "samples": 107,
+      "samples": 106,
       "confidence": "high",
       "last_seen_at": "2026-09-07T19:14:53.732149+00:00",
       "sources": [
@@ -682,19 +682,6 @@
           "title": "Iso Ist O 80fg's",
           "url": "https://forums.d2jsp.org/topic.php?t=110211224&f=123",
           "observed_at": "2026-09-07T19:14:53.732149+00:00",
-          "topic_date": "2026-09-07",
-          "parser_v4": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Ist",
-          "label": "Ist",
-          "side": "ft",
-          "price_fg": 90.0,
-          "title": "Runes Ft",
-          "url": "https://forums.d2jsp.org/topic.php?t=110210210&f=123",
-          "observed_at": "2026-09-07T19:12:59.408977+00:00",
           "topic_date": "2026-09-07",
           "parser_v4": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
@@ -981,6 +968,19 @@
           "title": "Need Ist Mal",
           "url": "https://forums.d2jsp.org/topic.php?t=110177450&f=123",
           "observed_at": "2026-09-05T15:19:54.514473+00:00",
+          "topic_date": "2026-09-05",
+          "parser_v4": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
+        },
+        {
+          "kind": "rune",
+          "id": "Ist",
+          "label": "Ist",
+          "side": "iso",
+          "price_fg": 75.0,
+          "title": "Iso Ist - 75fg",
+          "url": "https://forums.d2jsp.org/topic.php?t=110178311&f=123",
+          "observed_at": "2026-09-05T10:43:20.962870+00:00",
           "topic_date": "2026-09-05",
           "parser_v4": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
@@ -5929,7 +5929,7 @@
       "iso_fg": 200.0,
       "ft_fg": 200.0,
       "trade_fg": 210.0,
-      "samples": 36,
+      "samples": 35,
       "confidence": "high",
       "last_seen_at": "2026-09-07T19:15:30.689168+00:00",
       "sources": [
@@ -5969,19 +5969,6 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110204547&f=123",
           "observed_at": "2026-09-07T19:14:41.861499+00:00",
           "topic_date": "2026-09-06",
-          "parser_v4": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Vex",
-          "label": "Vex",
-          "side": "ft",
-          "price_fg": 180.0,
-          "title": "Runes Ft",
-          "url": "https://forums.d2jsp.org/topic.php?t=110210210&f=123",
-          "observed_at": "2026-09-07T19:12:59.408977+00:00",
-          "topic_date": "2026-09-07",
           "parser_v4": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
         },
@@ -6241,6 +6228,19 @@
           "title": "Ft 2x Vex 200fg Each",
           "url": "https://forums.d2jsp.org/topic.php?t=110148697&f=123",
           "observed_at": "2026-09-03T04:39:49.142559+00:00",
+          "topic_date": "2026-09-02",
+          "parser_v4": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
+        },
+        {
+          "kind": "rune",
+          "id": "Vex",
+          "label": "Vex",
+          "side": "iso",
+          "price_fg": 230.0,
+          "title": "Iso Vex",
+          "url": "https://forums.d2jsp.org/topic.php?t=110144001&f=123",
+          "observed_at": "2026-09-03T04:38:55.971013+00:00",
           "topic_date": "2026-09-02",
           "parser_v4": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
@@ -6907,23 +6907,10 @@
       "iso_fg": 525.0,
       "ft_fg": 662.5,
       "trade_fg": 675.0,
-      "samples": 21,
+      "samples": 20,
       "confidence": "high",
-      "last_seen_at": "2026-09-07T19:12:53.615395+00:00",
+      "last_seen_at": "2026-09-07T12:42:36.287213+00:00",
       "sources": [
-        {
-          "kind": "rune",
-          "id": "Sur",
-          "label": "Sur",
-          "side": "unknown",
-          "price_fg": 575.0,
-          "title": "Sur",
-          "url": "https://forums.d2jsp.org/topic.php?t=110204972&f=123",
-          "observed_at": "2026-09-07T19:12:53.615395+00:00",
-          "topic_date": "2026-09-06",
-          "parser_v4": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
         {
           "kind": "rune",
           "id": "Sur",
@@ -18403,12 +18390,12 @@
       "kind": "item",
       "id": "base-monarch-4os",
       "label": "4洞統治者大盾 (4os Monarch / Spirit Base)",
-      "fair_fg": 27.0,
+      "fair_fg": 26.0,
       "iso_fg": null,
       "ft_fg": 20.0,
       "trade_fg": 30.0,
-      "samples": 12,
-      "confidence": "high",
+      "samples": 9,
+      "confidence": "medium",
       "last_seen_at": "2026-09-07T23:33:32.060649+00:00",
       "sources": [
         {
@@ -18512,45 +18499,6 @@
           "title": "Hannibals Shop Vol 2",
           "url": "https://forums.d2jsp.org/topic.php?t=110151015&f=123",
           "observed_at": "2026-09-07T19:18:38.619261+00:00",
-          "topic_date": "2026-09-07",
-          "item_parser_v2": true
-        },
-        {
-          "kind": "item",
-          "id": "base-monarch-4os",
-          "label": "4洞統治者大盾 (4os Monarch / Spirit Base)",
-          "category": "熱門符文之語鑲底",
-          "side": "unknown",
-          "price_fg": 30.0,
-          "title": "Monarch 4sox",
-          "url": "https://forums.d2jsp.org/topic.php?t=110211729&f=123",
-          "observed_at": "2026-09-07T19:18:02.496136+00:00",
-          "topic_date": "2026-09-07",
-          "item_parser_v2": true
-        },
-        {
-          "kind": "item",
-          "id": "base-monarch-4os",
-          "label": "4洞統治者大盾 (4os Monarch / Spirit Base)",
-          "category": "熱門符文之語鑲底",
-          "side": "unknown",
-          "price_fg": 28.0,
-          "title": "Monarch 4sox",
-          "url": "https://forums.d2jsp.org/topic.php?t=110211729&f=123",
-          "observed_at": "2026-09-07T19:18:02.496136+00:00",
-          "topic_date": "2026-09-07",
-          "item_parser_v2": true
-        },
-        {
-          "kind": "item",
-          "id": "base-monarch-4os",
-          "label": "4洞統治者大盾 (4os Monarch / Spirit Base)",
-          "category": "熱門符文之語鑲底",
-          "side": "unknown",
-          "price_fg": 26.0,
-          "title": "Monarch 4sox",
-          "url": "https://forums.d2jsp.org/topic.php?t=110211729&f=123",
-          "observed_at": "2026-09-07T19:18:02.496136+00:00",
           "topic_date": "2026-09-07",
           "item_parser_v2": true
         },
@@ -19399,8 +19347,8 @@
   "price_parser": "season15-runes-c2-full-v4",
   "item_source_policy": "season15-items-static-catalog-v3",
   "item_catalog_count": 585,
-  "item_topic_count": 30,
+  "item_topic_count": 0,
   "item_cached_topics": 1463,
-  "item_parsed_topics": 1462,
-  "item_sample_count": 586
+  "item_parsed_topics": 1463,
+  "item_sample_count": 583
 }

@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-09-08T16:53:30.365689+00:00",
+  "updated_at": "2026-09-08T21:24:26.063923+00:00",
   "source_policy": "season15-items-static-catalog-v3",
   "catalog_items": 585,
   "forum_pages": [
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123",
       "offset": 0,
-      "topics": 0,
-      "bytes": 276
+      "topics": 38,
+      "bytes": 11429
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=25",
@@ -24,8 +24,8 @@
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=75",
       "offset": 75,
-      "topics": 0,
-      "bytes": 281
+      "topics": 33,
+      "bytes": 7790
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=100",
@@ -36,14 +36,14 @@
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=125",
       "offset": 125,
-      "topics": 32,
-      "bytes": 7880
+      "topics": 0,
+      "bytes": 282
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=150",
       "offset": 150,
-      "topics": 0,
-      "bytes": 282
+      "topics": 33,
+      "bytes": 7646
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=175",
@@ -52,18 +52,11 @@
       "bytes": 282
     }
   ],
-  "discovered_topics": 32,
-  "cached_topics": 1526,
-  "selected_topics": 50,
-  "parsed_this_run": 49,
-  "combined_samples": 649,
-  "market_items": 207,
-  "topic_errors": [
-    {
-      "url": "https://forums.d2jsp.org/topic.php?t=110218355&f=123",
-      "title": "Bahamut's Ring Of The Apprentice",
-      "reason": "new",
-      "error": "429 Too Many Requests (5/5)"
-    }
-  ]
+  "discovered_topics": 104,
+  "cached_topics": 1614,
+  "selected_topics": 109,
+  "parsed_this_run": 109,
+  "combined_samples": 770,
+  "market_items": 218,
+  "topic_errors": []
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T11:30:56.304536+00:00",
+  "updated_at": "2026-09-08T16:53:30.365689+00:00",
   "source_policy": "season15-items-static-catalog-v3",
   "catalog_items": 585,
   "forum_pages": [
@@ -36,8 +36,8 @@
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=125",
       "offset": 125,
-      "topics": 33,
-      "bytes": 7891
+      "topics": 32,
+      "bytes": 7880
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=150",
@@ -52,11 +52,18 @@
       "bytes": 282
     }
   ],
-  "discovered_topics": 33,
-  "cached_topics": 1496,
-  "selected_topics": 53,
-  "parsed_this_run": 53,
-  "combined_samples": 584,
-  "market_items": 201,
-  "topic_errors": []
+  "discovered_topics": 32,
+  "cached_topics": 1526,
+  "selected_topics": 50,
+  "parsed_this_run": 49,
+  "combined_samples": 649,
+  "market_items": 207,
+  "topic_errors": [
+    {
+      "url": "https://forums.d2jsp.org/topic.php?t=110218355&f=123",
+      "title": "Bahamut's Ring Of The Apprentice",
+      "reason": "new",
+      "error": "429 Too Many Requests (5/5)"
+    }
+  ]
 }

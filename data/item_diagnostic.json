@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-09-09T21:09:23.890701+00:00",
+  "updated_at": "2026-09-09T23:30:53.348523+00:00",
   "source_policy": "season15-items-static-catalog-v3",
   "catalog_items": 585,
   "forum_pages": [
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123",
       "offset": 0,
-      "topics": 31,
-      "bytes": 10744
+      "topics": 27,
+      "bytes": 10650
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=25",
@@ -24,39 +24,46 @@
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=75",
       "offset": 75,
-      "topics": 32,
-      "bytes": 7430
+      "topics": 0,
+      "bytes": 281
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=100",
       "offset": 100,
-      "topics": 36,
-      "bytes": 8185
+      "topics": 0,
+      "bytes": 282
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=125",
       "offset": 125,
-      "topics": 0,
-      "bytes": 282
+      "topics": 31,
+      "bytes": 10963
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=150",
       "offset": 150,
-      "topics": 0,
-      "bytes": 282
+      "topics": 31,
+      "bytes": 10887
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=175",
       "offset": 175,
-      "topics": 0,
-      "bytes": 282
+      "topics": 33,
+      "bytes": 11154
     }
   ],
-  "discovered_topics": 99,
-  "cached_topics": 2078,
-  "selected_topics": 107,
-  "parsed_this_run": 107,
-  "combined_samples": 897,
+  "discovered_topics": 122,
+  "cached_topics": 2189,
+  "selected_topics": 131,
+  "parsed_this_run": 130,
+  "combined_samples": 922,
   "market_items": 248,
-  "topic_errors": []
+  "topic_errors": [
+    {
+      "url": "https://forums.d2jsp.org/topic.php?t=110234827&f=123",
+      "title": "Unid Gheeds",
+      "reason": "new",
+      "error": "429 Too Many Requests (5/5)"
+    }
+  ]
 }

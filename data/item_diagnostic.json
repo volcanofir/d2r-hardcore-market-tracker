@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-09-09T04:53:34.286347+00:00",
+  "updated_at": "2026-09-09T11:35:19.677489+00:00",
   "source_policy": "season15-items-static-catalog-v3",
   "catalog_items": 585,
   "forum_pages": [
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123",
       "offset": 0,
-      "topics": 0,
-      "bytes": 276
+      "topics": 35,
+      "bytes": 8223
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=25",
@@ -36,27 +36,34 @@
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=125",
       "offset": 125,
-      "topics": 34,
-      "bytes": 11195
+      "topics": 0,
+      "bytes": 282
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=150",
       "offset": 150,
-      "topics": 0,
-      "bytes": 282
+      "topics": 39,
+      "bytes": 8325
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=175",
       "offset": 175,
-      "topics": 0,
-      "bytes": 282
+      "topics": 33,
+      "bytes": 11078
     }
   ],
-  "discovered_topics": 34,
-  "cached_topics": 1765,
-  "selected_topics": 50,
-  "parsed_this_run": 50,
-  "combined_samples": 737,
-  "market_items": 217,
-  "topic_errors": []
+  "discovered_topics": 107,
+  "cached_topics": 1857,
+  "selected_topics": 112,
+  "parsed_this_run": 111,
+  "combined_samples": 780,
+  "market_items": 224,
+  "topic_errors": [
+    {
+      "url": "https://forums.d2jsp.org/topic.php?t=110229647&f=123",
+      "title": "2x Bk3ll",
+      "reason": "new",
+      "error": "429 Too Many Requests (5/5)"
+    }
+  ]
 }

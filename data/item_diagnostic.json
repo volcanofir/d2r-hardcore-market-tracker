@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-09-09T23:30:53.348523+00:00",
+  "updated_at": "2026-09-10T04:58:30.332545+00:00",
   "source_policy": "season15-items-static-catalog-v3",
   "catalog_items": 585,
   "forum_pages": [
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123",
       "offset": 0,
-      "topics": 27,
-      "bytes": 10650
+      "topics": 0,
+      "bytes": 276
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=25",
@@ -30,38 +30,38 @@
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=100",
       "offset": 100,
-      "topics": 0,
-      "bytes": 282
+      "topics": 31,
+      "bytes": 10983
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=125",
       "offset": 125,
-      "topics": 31,
-      "bytes": 10963
+      "topics": 30,
+      "bytes": 7748
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=150",
       "offset": 150,
       "topics": 31,
-      "bytes": 10887
+      "bytes": 11185
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=175",
       "offset": 175,
       "topics": 33,
-      "bytes": 11154
+      "bytes": 10862
     }
   ],
-  "discovered_topics": 122,
-  "cached_topics": 2189,
-  "selected_topics": 131,
-  "parsed_this_run": 130,
-  "combined_samples": 922,
-  "market_items": 248,
+  "discovered_topics": 125,
+  "cached_topics": 2290,
+  "selected_topics": 122,
+  "parsed_this_run": 121,
+  "combined_samples": 996,
+  "market_items": 250,
   "topic_errors": [
     {
-      "url": "https://forums.d2jsp.org/topic.php?t=110234827&f=123",
-      "title": "Unid Gheeds",
+      "url": "https://forums.d2jsp.org/topic.php?t=110237188&f=123",
+      "title": "Shard Auction 15 Minutes",
       "reason": "new",
       "error": "429 Too Many Requests (5/5)"
     }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10T21:00:52.733101+00:00",
+  "updated_at": "2026-09-10T23:18:34.859476+00:00",
   "source_policy": "season15-items-static-catalog-v3",
   "catalog_items": 585,
   "forum_pages": [
@@ -12,8 +12,8 @@
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=25",
       "offset": 25,
-      "topics": 33,
-      "bytes": 7967
+      "topics": 0,
+      "bytes": 281
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=50",
@@ -48,15 +48,22 @@
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=175",
       "offset": 175,
-      "topics": 0,
-      "bytes": 282
+      "topics": 33,
+      "bytes": 11027
     }
   ],
   "discovered_topics": 33,
-  "cached_topics": 2374,
+  "cached_topics": 2406,
   "selected_topics": 52,
-  "parsed_this_run": 52,
-  "combined_samples": 1014,
-  "market_items": 251,
-  "topic_errors": []
+  "parsed_this_run": 51,
+  "combined_samples": 1104,
+  "market_items": 279,
+  "topic_errors": [
+    {
+      "url": "https://forums.d2jsp.org/topic.php?t=110244433&f=123",
+      "title": "Lf Some Soso Items",
+      "reason": "new",
+      "error": "429 Too Many Requests (5/5)"
+    }
+  ]
 }

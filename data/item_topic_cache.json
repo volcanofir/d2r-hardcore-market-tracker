@@ -36222,11 +36222,11 @@
       "title": "Iso Barb Items And Charms",
       "url": "https://forums.d2jsp.org/topic.php?t=110011615&f=123",
       "first_seen_at": "2026-09-10T20:58:15.227849+00:00",
-      "last_checked_at": "2026-09-10T20:58:53.122429+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-11T04:51:57.197306+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": [],
-      "topic_date": "2026-08-25"
+      "topic_date": null
     },
     "https://forums.d2jsp.org/topic.php?t=110011615&f=123&o=10": {
       "title": "2",
@@ -36242,25 +36242,11 @@
       "title": "Asoverto#2295 Is His Battle.net",
       "url": "https://forums.d2jsp.org/topic.php?t=110243021&f=123",
       "first_seen_at": "2026-09-10T20:58:15.227849+00:00",
-      "last_checked_at": "2026-09-10T20:59:18.446139+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-11T04:52:20.699577+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "item",
-          "id": "griffons-eye",
-          "label": "獅鷲之眼 (Griffon's Eye / Griff)",
-          "category": "頭盔",
-          "side": "unknown",
-          "price_fg": 5250.0,
-          "title": "Asoverto#2295 Is His Battle.net",
-          "url": "https://forums.d2jsp.org/topic.php?t=110243021&f=123",
-          "observed_at": "2026-09-10T20:59:18.446139+00:00",
-          "topic_date": "2026-09-10",
-          "item_parser_v2": true
-        }
-      ],
-      "topic_date": "2026-09-10"
+      "samples": [],
+      "topic_date": null
     },
     "https://forums.d2jsp.org/topic.php?t=110243021&f=123&o=10": {
       "title": "2",
@@ -36286,293 +36272,57 @@
       "title": "Cleaning My Stash Need Fg, Not Dust",
       "url": "https://forums.d2jsp.org/topic.php?t=110242233&f=123",
       "first_seen_at": "2026-09-10T20:58:15.227849+00:00",
-      "last_checked_at": "2026-09-10T20:59:05.536687+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-11T04:52:15.237281+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "item",
-          "id": "set-tal-rasha-s-horadric-crest",
-          "label": "塔拉夏的赫拉迪姆之冠 (Tal Rasha's Horadric Crest)",
-          "category": "套裝頭盔",
-          "side": "iso",
-          "price_fg": 10.0,
-          "title": "Cleaning My Stash Need Fg, Not Dust",
-          "url": "https://forums.d2jsp.org/topic.php?t=110242233&f=123",
-          "observed_at": "2026-09-10T20:59:05.536687+00:00",
-          "topic_date": "2026-09-10",
-          "item_parser_v2": true
-        },
-        {
-          "kind": "item",
-          "id": "set-tal-rasha-s-fine-spun-cloth",
-          "label": "塔拉夏的精織腰布 (Tal Rasha's Fine-Spun Cloth)",
-          "category": "套裝腰帶",
-          "side": "iso",
-          "price_fg": 10.0,
-          "title": "Cleaning My Stash Need Fg, Not Dust",
-          "url": "https://forums.d2jsp.org/topic.php?t=110242233&f=123",
-          "observed_at": "2026-09-10T20:59:05.536687+00:00",
-          "topic_date": "2026-09-10",
-          "item_parser_v2": true
-        },
-        {
-          "kind": "item",
-          "id": "set-natalya-s-shadow",
-          "label": "娜塔亞的影子 (Natalya's Shadow)",
-          "category": "套裝護甲",
-          "side": "iso",
-          "price_fg": 15.0,
-          "title": "Cleaning My Stash Need Fg, Not Dust",
-          "url": "https://forums.d2jsp.org/topic.php?t=110242233&f=123",
-          "observed_at": "2026-09-10T20:59:05.536687+00:00",
-          "topic_date": "2026-09-10",
-          "item_parser_v2": true
-        },
-        {
-          "kind": "item",
-          "id": "set-natalya-s-totem",
-          "label": "娜塔亞的圖騰 (Natalya's Totem)",
-          "category": "套裝頭盔",
-          "side": "iso",
-          "price_fg": 10.0,
-          "title": "Cleaning My Stash Need Fg, Not Dust",
-          "url": "https://forums.d2jsp.org/topic.php?t=110242233&f=123",
-          "observed_at": "2026-09-10T20:59:05.536687+00:00",
-          "topic_date": "2026-09-10",
-          "item_parser_v2": true
-        },
-        {
-          "kind": "item",
-          "id": "andariels-visage",
-          "label": "安達利爾的面容 (Andariel's Visage / Andy)",
-          "category": "頭盔",
-          "side": "iso",
-          "price_fg": 30.0,
-          "title": "Cleaning My Stash Need Fg, Not Dust",
-          "url": "https://forums.d2jsp.org/topic.php?t=110242233&f=123",
-          "observed_at": "2026-09-10T20:59:05.536687+00:00",
-          "topic_date": "2026-09-10",
-          "item_parser_v2": true
-        },
-        {
-          "kind": "item",
-          "id": "unique-eschuta-s-temper",
-          "label": "艾斯屈塔的憤怒 (Eschuta's Temper)",
-          "category": "法珠",
-          "side": "iso",
-          "price_fg": 25.0,
-          "title": "Cleaning My Stash Need Fg, Not Dust",
-          "url": "https://forums.d2jsp.org/topic.php?t=110242233&f=123",
-          "observed_at": "2026-09-10T20:59:05.536687+00:00",
-          "topic_date": "2026-09-10",
-          "item_parser_v2": true
-        },
-        {
-          "kind": "item",
-          "id": "unique-skullder-s-ire",
-          "label": "斯寇德的憤怒 (Skullder's Ire)",
-          "category": "護甲",
-          "side": "iso",
-          "price_fg": 10.0,
-          "title": "Cleaning My Stash Need Fg, Not Dust",
-          "url": "https://forums.d2jsp.org/topic.php?t=110242233&f=123",
-          "observed_at": "2026-09-10T20:59:05.536687+00:00",
-          "topic_date": "2026-09-10",
-          "item_parser_v2": true
-        },
-        {
-          "kind": "item",
-          "id": "chance-guards",
-          "label": "運氣守護 (Chance Guards / Chancies)",
-          "category": "手套",
-          "side": "iso",
-          "price_fg": 15.0,
-          "title": "Cleaning My Stash Need Fg, Not Dust",
-          "url": "https://forums.d2jsp.org/topic.php?t=110242233&f=123",
-          "observed_at": "2026-09-10T20:59:05.536687+00:00",
-          "topic_date": "2026-09-10",
-          "item_parser_v2": true
-        },
-        {
-          "kind": "item",
-          "id": "unique-venom-grip",
-          "label": "劇毒之握 (Venom Grip)",
-          "category": "手套",
-          "side": "iso",
-          "price_fg": 8.0,
-          "title": "Cleaning My Stash Need Fg, Not Dust",
-          "url": "https://forums.d2jsp.org/topic.php?t=110242233&f=123",
-          "observed_at": "2026-09-10T20:59:05.536687+00:00",
-          "topic_date": "2026-09-10",
-          "item_parser_v2": true
-        },
-        {
-          "kind": "item",
-          "id": "gheeds",
-          "label": "基得的運氣 (Gheed's Fortune / Gheeds)",
-          "category": "熱門護身符與暗金符咒",
-          "side": "iso",
-          "price_fg": 25.0,
-          "title": "Cleaning My Stash Need Fg, Not Dust",
-          "url": "https://forums.d2jsp.org/topic.php?t=110242233&f=123",
-          "observed_at": "2026-09-10T20:59:05.536687+00:00",
-          "topic_date": "2026-09-10",
-          "item_parser_v2": true
-        },
-        {
-          "kind": "item",
-          "id": "unique-nokozan-relic",
-          "label": "諾科藍遺物 (Nokozan Relic)",
-          "category": "護身符",
-          "side": "iso",
-          "price_fg": 10.0,
-          "title": "Cleaning My Stash Need Fg, Not Dust",
-          "url": "https://forums.d2jsp.org/topic.php?t=110242233&f=123",
-          "observed_at": "2026-09-10T20:59:05.536687+00:00",
-          "topic_date": "2026-09-10",
-          "item_parser_v2": true
-        },
-        {
-          "kind": "item",
-          "id": "unique-shadow-killer",
-          "label": "影殺者 (Shadow Killer)",
-          "category": "拳刃",
-          "side": "iso",
-          "price_fg": 15.0,
-          "title": "Cleaning My Stash Need Fg, Not Dust",
-          "url": "https://forums.d2jsp.org/topic.php?t=110242233&f=123",
-          "observed_at": "2026-09-10T20:59:05.536687+00:00",
-          "topic_date": "2026-09-10",
-          "item_parser_v2": true
-        },
-        {
-          "kind": "item",
-          "id": "unique-jade-talon",
-          "label": "碧玉爪 (Jade Talon)",
-          "category": "拳刃",
-          "side": "iso",
-          "price_fg": 15.0,
-          "title": "Cleaning My Stash Need Fg, Not Dust",
-          "url": "https://forums.d2jsp.org/topic.php?t=110242233&f=123",
-          "observed_at": "2026-09-10T20:59:05.536687+00:00",
-          "topic_date": "2026-09-10",
-          "item_parser_v2": true
-        },
-        {
-          "kind": "item",
-          "id": "titans-revenge",
-          "label": "泰坦的復仇 (Titan's Revenge / Titans)",
-          "category": "武器",
-          "side": "iso",
-          "price_fg": 7.0,
-          "title": "Cleaning My Stash Need Fg, Not Dust",
-          "url": "https://forums.d2jsp.org/topic.php?t=110242233&f=123",
-          "observed_at": "2026-09-10T20:59:05.536687+00:00",
-          "topic_date": "2026-09-10",
-          "item_parser_v2": true
-        },
-        {
-          "kind": "item",
-          "id": "war-traveler",
-          "label": "戰爭旅者 (War Traveler / War Travs)",
-          "category": "靴子",
-          "side": "iso",
-          "price_fg": 35.0,
-          "title": "Cleaning My Stash Need Fg, Not Dust",
-          "url": "https://forums.d2jsp.org/topic.php?t=110242233&f=123",
-          "observed_at": "2026-09-10T20:59:05.536687+00:00",
-          "topic_date": "2026-09-10",
-          "item_parser_v2": true
-        },
-        {
-          "kind": "item",
-          "id": "pnb-skiller",
-          "label": "巫師毒素與骨骼超大護身符 (PnB)",
-          "category": "技能超大護身符",
-          "side": "iso",
-          "price_fg": 10.0,
-          "title": "Cleaning My Stash Need Fg, Not Dust",
-          "url": "https://forums.d2jsp.org/topic.php?t=110242233&f=123",
-          "observed_at": "2026-09-10T20:59:05.536687+00:00",
-          "topic_date": "2026-09-10",
-          "item_parser_v2": true
-        },
-        {
-          "kind": "item",
-          "id": "base-flail-4os",
-          "label": "4洞連枷 (4os Flail / HOTO Base)",
-          "category": "熱門符文之語鑲底",
-          "side": "iso",
-          "price_fg": 5.0,
-          "title": "Cleaning My Stash Need Fg, Not Dust",
-          "url": "https://forums.d2jsp.org/topic.php?t=110242233&f=123",
-          "observed_at": "2026-09-10T20:59:05.536687+00:00",
-          "topic_date": "2026-09-10",
-          "item_parser_v2": true
-        }
-      ],
-      "topic_date": "2026-09-10"
+      "samples": [],
+      "topic_date": null
     },
     "https://forums.d2jsp.org/topic.php?t=110188176&f=123": {
       "title": "5@ Sc +3frw",
       "url": "https://forums.d2jsp.org/topic.php?t=110188176&f=123",
       "first_seen_at": "2026-09-10T20:58:15.227849+00:00",
-      "last_checked_at": "2026-09-10T20:59:19.732986+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-11T04:52:32.215122+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": [],
-      "topic_date": "2026-09-05"
+      "topic_date": null
     },
     "https://forums.d2jsp.org/topic.php?t=110238343&f=123": {
       "title": "Draculs Grasp 9ll/11str",
       "url": "https://forums.d2jsp.org/topic.php?t=110238343&f=123",
       "first_seen_at": "2026-09-10T20:58:15.227849+00:00",
-      "last_checked_at": "2026-09-10T20:59:04.421786+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-11T04:52:08.966548+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": [],
-      "topic_date": "2026-09-10"
+      "topic_date": null
     },
     "https://forums.d2jsp.org/topic.php?t=110241724&f=123": {
       "title": "Unid Torch",
       "url": "https://forums.d2jsp.org/topic.php?t=110241724&f=123",
       "first_seen_at": "2026-09-10T20:58:15.227849+00:00",
-      "last_checked_at": "2026-09-10T20:58:23.192007+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-11T04:51:33.604770+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": [],
-      "topic_date": "2026-09-10"
+      "topic_date": null
     },
     "https://forums.d2jsp.org/topic.php?t=110243542&f=123": {
       "title": "Iso 5+ Bo Cta And Arach",
       "url": "https://forums.d2jsp.org/topic.php?t=110243542&f=123",
       "first_seen_at": "2026-09-10T20:58:15.227849+00:00",
-      "last_checked_at": "2026-09-10T20:58:48.585445+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-11T04:52:04.521304+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "item",
-          "id": "cta",
-          "label": "戰爭召喚 (Call to Arms / CTA)",
-          "category": "符文之語成品",
-          "side": "iso",
-          "price_fg": 750.0,
-          "title": "Iso 5+ Bo Cta And Arach",
-          "url": "https://forums.d2jsp.org/topic.php?t=110243542&f=123",
-          "observed_at": "2026-09-10T20:58:48.585445+00:00",
-          "topic_date": "2026-09-10",
-          "item_parser_v2": true
-        }
-      ],
-      "topic_date": "2026-09-10"
+      "samples": [],
+      "topic_date": null
     },
     "https://forums.d2jsp.org/topic.php?t=110184664&f=123": {
       "title": "Offer Java Sk With 12 Fhr",
       "url": "https://forums.d2jsp.org/topic.php?t=110184664&f=123",
       "first_seen_at": "2026-09-10T20:58:15.227849+00:00",
-      "last_checked_at": "2026-09-10T20:58:29.327865+00:00",
+      "last_checked_at": "2026-09-11T04:51:38.087343+00:00",
       "completed": false,
       "status": "parsed",
       "samples": [],
@@ -36592,11 +36342,11 @@
       "title": "^^ Cheapest Grush World ^^",
       "url": "https://forums.d2jsp.org/topic.php?t=110232491&f=123",
       "first_seen_at": "2026-09-10T20:58:15.227849+00:00",
-      "last_checked_at": "2026-09-10T20:58:20.597199+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-11T04:51:25.797151+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": [],
-      "topic_date": "2026-09-09"
+      "topic_date": null
     },
     "https://forums.d2jsp.org/topic.php?t=110232491&f=123&o=20": {
       "title": "3",
@@ -36622,7 +36372,7 @@
       "title": "Unid War Traveler",
       "url": "https://forums.d2jsp.org/topic.php?t=110243732&f=123",
       "first_seen_at": "2026-09-10T20:58:15.227849+00:00",
-      "last_checked_at": "2026-09-10T20:58:32.083914+00:00",
+      "last_checked_at": "2026-09-11T04:51:37.629824+00:00",
       "completed": false,
       "status": "parsed",
       "samples": [],
@@ -36632,27 +36382,27 @@
       "title": "Kill My Anci On Hell Pls",
       "url": "https://forums.d2jsp.org/topic.php?t=110242996&f=123",
       "first_seen_at": "2026-09-10T20:58:15.227849+00:00",
-      "last_checked_at": "2026-09-10T20:58:43.815239+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-11T04:51:53.045310+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": [],
-      "topic_date": "2026-09-10"
+      "topic_date": null
     },
     "https://forums.d2jsp.org/topic.php?t=110243495&f=123": {
       "title": "Many Jah, Ber And Sur",
       "url": "https://forums.d2jsp.org/topic.php?t=110243495&f=123",
       "first_seen_at": "2026-09-10T20:58:15.227849+00:00",
-      "last_checked_at": "2026-09-10T20:58:34.629376+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-11T04:51:41.985483+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": [],
-      "topic_date": "2026-09-10"
+      "topic_date": null
     },
     "https://forums.d2jsp.org/topic.php?t=110243721&f=123": {
       "title": "Blasphemous Compendium - Blood Boil",
       "url": "https://forums.d2jsp.org/topic.php?t=110243721&f=123",
       "first_seen_at": "2026-09-10T20:58:15.227849+00:00",
-      "last_checked_at": "2026-09-10T20:59:22.230635+00:00",
+      "last_checked_at": "2026-09-11T04:52:20.169233+00:00",
       "completed": false,
       "status": "parsed",
       "samples": [],
@@ -36692,31 +36442,31 @@
       "title": "Gheed Wager 20/20/20/-4/105ed/6@/46eg",
       "url": "https://forums.d2jsp.org/topic.php?t=110238107&f=123",
       "first_seen_at": "2026-09-10T20:58:15.227849+00:00",
-      "last_checked_at": "2026-09-10T20:58:58.319131+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-11T04:52:10.967409+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": [],
-      "topic_date": "2026-09-10"
+      "topic_date": null
     },
     "https://forums.d2jsp.org/topic.php?t=110243710&f=123": {
       "title": "Gheed's Wager 19/18/15/-4/15allres",
       "url": "https://forums.d2jsp.org/topic.php?t=110243710&f=123",
       "first_seen_at": "2026-09-10T20:58:15.227849+00:00",
-      "last_checked_at": "2026-09-10T20:59:13.962311+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-11T04:52:01.701072+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": [],
-      "topic_date": "2026-09-10"
+      "topic_date": null
     },
     "https://forums.d2jsp.org/topic.php?t=110243526&f=123": {
       "title": "Tri Res Gloves With Mf",
       "url": "https://forums.d2jsp.org/topic.php?t=110243526&f=123",
       "first_seen_at": "2026-09-10T20:58:15.227849+00:00",
-      "last_checked_at": "2026-09-10T20:58:28.201547+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-11T04:51:44.004949+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": [],
-      "topic_date": "2026-09-10"
+      "topic_date": null
     },
     "https://forums.d2jsp.org/topic.php?t=110240078&f=123": {
       "title": "500 Fg To Roll Your Obsession",
@@ -36732,11 +36482,11 @@
       "title": "Iso: Tals Set And Cold Sunder",
       "url": "https://forums.d2jsp.org/topic.php?t=110243639&f=123",
       "first_seen_at": "2026-09-10T20:58:15.227849+00:00",
-      "last_checked_at": "2026-09-10T20:58:39.672354+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-11T04:51:48.262054+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": [],
-      "topic_date": "2026-09-10"
+      "topic_date": null
     },
     "https://forums.d2jsp.org/topic.php?t=110225261&f=123": {
       "title": "Gt Trades With Bins",
@@ -37052,31 +36802,31 @@
       "title": "Gheed 40 Mf",
       "url": "https://forums.d2jsp.org/topic.php?t=110239777&f=123",
       "first_seen_at": "2026-09-10T20:58:15.227849+00:00",
-      "last_checked_at": "2026-09-10T20:58:59.366706+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-11T04:52:04.973655+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": [],
-      "topic_date": "2026-09-10"
+      "topic_date": null
     },
     "https://forums.d2jsp.org/topic.php?t=110241084&f=123": {
       "title": "Cheap Bone Break - See Pic",
       "url": "https://forums.d2jsp.org/topic.php?t=110241084&f=123",
       "first_seen_at": "2026-09-10T20:58:15.227849+00:00",
-      "last_checked_at": "2026-09-10T20:59:10.977131+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-11T04:52:25.585848+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": [],
-      "topic_date": "2026-09-10"
+      "topic_date": null
     },
     "https://forums.d2jsp.org/topic.php?t=110233935&f=123": {
       "title": "Iso Renewed Cleft Vs 150",
       "url": "https://forums.d2jsp.org/topic.php?t=110233935&f=123",
       "first_seen_at": "2026-09-10T20:58:15.227849+00:00",
-      "last_checked_at": "2026-09-10T20:58:40.870060+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-11T04:51:52.272136+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": [],
-      "topic_date": "2026-09-09"
+      "topic_date": null
     },
     "https://forums.d2jsp.org/topic.php?t=110244480&f=123": {
       "title": "Sorc Torch 14/20",
@@ -37405,12 +37155,12 @@
       "title": "Lf Some Soso Items",
       "url": "https://forums.d2jsp.org/topic.php?t=110244433&f=123",
       "first_seen_at": "2026-09-10T23:16:03.001800+00:00",
-      "last_checked_at": null,
+      "last_checked_at": "2026-09-11T04:51:29.740389+00:00",
       "completed": false,
-      "status": "pending",
+      "status": "parsed",
       "samples": [],
       "last_attempt_at": "2026-09-10T23:18:01.688840+00:00",
-      "last_error": "429 Too Many Requests (5/5)"
+      "topic_date": "2026-09-10"
     },
     "https://forums.d2jsp.org/topic.php?t=110244469&f=123": {
       "title": "Sell Ohm Rune",
@@ -38679,7 +38429,757 @@
       "status": "parsed",
       "samples": [],
       "topic_date": "2026-09-10"
+    },
+    "https://forums.d2jsp.org/topic.php?t=110246922&f=123": {
+      "title": "Key Sets",
+      "url": "https://forums.d2jsp.org/topic.php?t=110246922&f=123",
+      "first_seen_at": "2026-09-11T04:49:04.097065+00:00",
+      "last_checked_at": "2026-09-11T04:50:15.096369+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": [],
+      "topic_date": "2026-09-10"
+    },
+    "https://forums.d2jsp.org/topic.php?t=110246767&f=123": {
+      "title": "Iso 1 15ias Jewel Any 2nd Mod",
+      "url": "https://forums.d2jsp.org/topic.php?t=110246767&f=123",
+      "first_seen_at": "2026-09-11T04:49:04.097065+00:00",
+      "last_checked_at": "2026-09-11T04:50:39.164892+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": [],
+      "topic_date": "2026-09-10"
+    },
+    "https://forums.d2jsp.org/topic.php?t=110246273&f=123": {
+      "title": "O Vex",
+      "url": "https://forums.d2jsp.org/topic.php?t=110246273&f=123",
+      "first_seen_at": "2026-09-11T04:49:04.097065+00:00",
+      "last_checked_at": "2026-09-11T04:49:57.121959+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": [],
+      "topic_date": "2026-09-10"
+    },
+    "https://forums.d2jsp.org/topic.php?t=110246915&f=123": {
+      "title": "--> +1 Traps / +41 Life Grand Charm <--",
+      "url": "https://forums.d2jsp.org/topic.php?t=110246915&f=123",
+      "first_seen_at": "2026-09-11T04:49:04.097065+00:00",
+      "last_checked_at": "2026-09-11T04:51:25.242787+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": [],
+      "topic_date": "2026-09-10"
+    },
+    "https://forums.d2jsp.org/topic.php?t=110217879&f=123": {
+      "title": "Torches For Trade",
+      "url": "https://forums.d2jsp.org/topic.php?t=110217879&f=123",
+      "first_seen_at": "2026-09-11T04:49:04.097065+00:00",
+      "last_checked_at": "2026-09-11T04:49:27.185924+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": [],
+      "topic_date": "2026-09-08"
+    },
+    "https://forums.d2jsp.org/topic.php?t=110244544&f=123": {
+      "title": "O Eth Ca Insight 245% Ed",
+      "url": "https://forums.d2jsp.org/topic.php?t=110244544&f=123",
+      "first_seen_at": "2026-09-11T04:49:04.097065+00:00",
+      "last_checked_at": "2026-09-11T04:50:08.629925+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": [],
+      "topic_date": "2026-09-10"
+    },
+    "https://forums.d2jsp.org/topic.php?t=110237613&f=123": {
+      "title": "Soso Torch 20ar",
+      "url": "https://forums.d2jsp.org/topic.php?t=110237613&f=123",
+      "first_seen_at": "2026-09-11T04:49:04.097065+00:00",
+      "last_checked_at": "2026-09-11T04:49:37.928698+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": [],
+      "topic_date": "2026-09-09"
+    },
+    "https://forums.d2jsp.org/topic.php?t=110246807&f=123": {
+      "title": "Small List With Bins, Tals Arm, Ss, Fire Sund",
+      "url": "https://forums.d2jsp.org/topic.php?t=110246807&f=123",
+      "first_seen_at": "2026-09-11T04:49:04.097065+00:00",
+      "last_checked_at": "2026-09-11T04:49:44.917704+00:00",
+      "completed": true,
+      "status": "parsed",
+      "samples": [
+        {
+          "kind": "item",
+          "id": "tal-armor",
+          "label": "漆黑甲 (Tal Rasha's Guardianship / Tal Armor)",
+          "category": "熱門套裝部件",
+          "side": "unknown",
+          "price_fg": 150.0,
+          "title": "Small List With Bins, Tals Arm, Ss, Fire Sund",
+          "url": "https://forums.d2jsp.org/topic.php?t=110246807&f=123",
+          "observed_at": "2026-09-11T04:49:44.917704+00:00",
+          "topic_date": "2026-09-10",
+          "item_parser_v2": true
+        },
+        {
+          "kind": "item",
+          "id": "stormshield",
+          "label": "暴風之盾 (Stormshield / SS)",
+          "category": "盾牌",
+          "side": "unknown",
+          "price_fg": 60.0,
+          "title": "Small List With Bins, Tals Arm, Ss, Fire Sund",
+          "url": "https://forums.d2jsp.org/topic.php?t=110246807&f=123",
+          "observed_at": "2026-09-11T04:49:44.917704+00:00",
+          "topic_date": "2026-09-10",
+          "item_parser_v2": true
+        },
+        {
+          "kind": "item",
+          "id": "gore-rider",
+          "label": "蝕肉騎士 (Gore Rider / Gores)",
+          "category": "靴子",
+          "side": "unknown",
+          "price_fg": 30.0,
+          "title": "Small List With Bins, Tals Arm, Ss, Fire Sund",
+          "url": "https://forums.d2jsp.org/topic.php?t=110246807&f=123",
+          "observed_at": "2026-09-11T04:49:44.917704+00:00",
+          "topic_date": "2026-09-10",
+          "item_parser_v2": true
+        },
+        {
+          "kind": "item",
+          "id": "thunderstroke",
+          "label": "雷擊 (Thunderstroke / Tstroke)",
+          "category": "武器",
+          "side": "unknown",
+          "price_fg": 25.0,
+          "title": "Small List With Bins, Tals Arm, Ss, Fire Sund",
+          "url": "https://forums.d2jsp.org/topic.php?t=110246807&f=123",
+          "observed_at": "2026-09-11T04:49:44.917704+00:00",
+          "topic_date": "2026-09-10",
+          "item_parser_v2": true
+        },
+        {
+          "kind": "item",
+          "id": "set-aldur-s-advance",
+          "label": "艾爾多的進擊 (Aldur's Advance)",
+          "category": "套裝鞋子",
+          "side": "unknown",
+          "price_fg": 15.0,
+          "title": "Small List With Bins, Tals Arm, Ss, Fire Sund",
+          "url": "https://forums.d2jsp.org/topic.php?t=110246807&f=123",
+          "observed_at": "2026-09-11T04:49:44.917704+00:00",
+          "topic_date": "2026-09-10",
+          "item_parser_v2": true
+        }
+      ],
+      "topic_date": "2026-09-10"
+    },
+    "https://forums.d2jsp.org/topic.php?t=110246902&f=123": {
+      "title": "Tals Armor",
+      "url": "https://forums.d2jsp.org/topic.php?t=110246902&f=123",
+      "first_seen_at": "2026-09-11T04:49:04.097065+00:00",
+      "last_checked_at": "2026-09-11T04:49:21.677533+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": [],
+      "topic_date": "2026-09-10"
+    },
+    "https://forums.d2jsp.org/topic.php?t=110246879&f=123": {
+      "title": "Pul + Ko",
+      "url": "https://forums.d2jsp.org/topic.php?t=110246879&f=123",
+      "first_seen_at": "2026-09-11T04:49:04.097065+00:00",
+      "last_checked_at": "2026-09-11T04:49:50.484148+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": [],
+      "topic_date": "2026-09-10"
+    },
+    "https://forums.d2jsp.org/topic.php?t=110216917&f=123": {
+      "title": "Iso Zon List Items",
+      "url": "https://forums.d2jsp.org/topic.php?t=110216917&f=123",
+      "first_seen_at": "2026-09-11T04:49:04.097065+00:00",
+      "last_checked_at": "2026-09-11T04:50:21.737489+00:00",
+      "completed": true,
+      "status": "parsed",
+      "samples": [
+        {
+          "kind": "item",
+          "id": "highlords",
+          "label": "大君之怒 (Highlord's Wrath / Highlords)",
+          "category": "戒指與護身符",
+          "side": "iso",
+          "price_fg": 100.0,
+          "title": "Iso Zon List Items",
+          "url": "https://forums.d2jsp.org/topic.php?t=110216917&f=123",
+          "observed_at": "2026-09-11T04:50:21.737489+00:00",
+          "topic_date": "2026-09-07",
+          "item_parser_v2": true
+        },
+        {
+          "kind": "item",
+          "id": "highlords",
+          "label": "大君之怒 (Highlord's Wrath / Highlords)",
+          "category": "戒指與護身符",
+          "side": "trade",
+          "price_fg": 100.0,
+          "title": "Iso Zon List Items · T4T/sold signal",
+          "url": "https://forums.d2jsp.org/topic.php?t=110216917&f=123",
+          "observed_at": "2026-09-11T04:50:21.737489+00:00",
+          "topic_date": "2026-09-07",
+          "item_parser_v2": true
+        }
+      ],
+      "topic_date": "2026-09-07"
+    },
+    "https://forums.d2jsp.org/topic.php?t=110216917&f=123&o=10": {
+      "title": "2",
+      "url": "https://forums.d2jsp.org/topic.php?t=110216917&f=123&o=10",
+      "first_seen_at": "2026-09-11T04:49:04.097065+00:00",
+      "last_checked_at": "2026-09-11T04:51:08.883892+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": [
+        {
+          "kind": "item",
+          "id": "shako",
+          "label": "軍帽 (Harlequin Crest / Shako)",
+          "category": "頭盔",
+          "side": "unknown",
+          "price_fg": 220.0,
+          "title": "2",
+          "url": "https://forums.d2jsp.org/topic.php?t=110216917&f=123&o=10",
+          "observed_at": "2026-09-11T04:51:08.883892+00:00",
+          "topic_date": "2026-09-08",
+          "item_parser_v2": true
+        }
+      ],
+      "topic_date": "2026-09-08"
+    },
+    "https://forums.d2jsp.org/topic.php?t=110230520&f=123": {
+      "title": "Superior Eth Giant Thresher",
+      "url": "https://forums.d2jsp.org/topic.php?t=110230520&f=123",
+      "first_seen_at": "2026-09-11T04:49:04.097065+00:00",
+      "last_checked_at": "2026-09-11T04:49:32.537744+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": [],
+      "topic_date": "2026-09-09"
+    },
+    "https://forums.d2jsp.org/topic.php?t=110246886&f=123": {
+      "title": "Unid Arach",
+      "url": "https://forums.d2jsp.org/topic.php?t=110246886&f=123",
+      "first_seen_at": "2026-09-11T04:49:04.097065+00:00",
+      "last_checked_at": "2026-09-11T04:49:19.394343+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": [],
+      "topic_date": "2026-09-10"
+    },
+    "https://forums.d2jsp.org/topic.php?t=110242924&f=123": {
+      "title": "~ Foh Pala Iso ~",
+      "url": "https://forums.d2jsp.org/topic.php?t=110242924&f=123",
+      "first_seen_at": "2026-09-11T04:49:04.097065+00:00",
+      "last_checked_at": "2026-09-11T04:49:08.919810+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": [
+        {
+          "kind": "item",
+          "id": "hoz",
+          "label": "撒卡蘭姆使者 (Herald of Zakarum / HoZ)",
+          "category": "盾牌",
+          "side": "iso",
+          "price_fg": 80.0,
+          "title": "~ Foh Pala Iso ~",
+          "url": "https://forums.d2jsp.org/topic.php?t=110242924&f=123",
+          "observed_at": "2026-09-11T04:49:08.919810+00:00",
+          "topic_date": "2026-09-10",
+          "item_parser_v2": true
+        },
+        {
+          "kind": "item",
+          "id": "arachnid-mesh",
+          "label": "蜘蛛之網 (Arachnid Mesh / Arach)",
+          "category": "腰帶",
+          "side": "iso",
+          "price_fg": 200.0,
+          "title": "~ Foh Pala Iso ~",
+          "url": "https://forums.d2jsp.org/topic.php?t=110242924&f=123",
+          "observed_at": "2026-09-11T04:49:08.919810+00:00",
+          "topic_date": "2026-09-10",
+          "item_parser_v2": true
+        },
+        {
+          "kind": "item",
+          "id": "unique-latent-black-cleft",
+          "label": "潛伏漆黑裂口 (Latent Black Cleft)",
+          "category": "咒符",
+          "side": "iso",
+          "price_fg": 100.0,
+          "title": "~ Foh Pala Iso ~",
+          "url": "https://forums.d2jsp.org/topic.php?t=110242924&f=123",
+          "observed_at": "2026-09-11T04:49:08.919810+00:00",
+          "topic_date": "2026-09-10",
+          "item_parser_v2": true
+        },
+        {
+          "kind": "item",
+          "id": "bk-ring",
+          "label": "布爾凱索的婚戒 (Bul-Kathos' Wedding Band / BK Ring)",
+          "category": "戒指與護身符",
+          "side": "iso",
+          "price_fg": 150.0,
+          "title": "~ Foh Pala Iso ~",
+          "url": "https://forums.d2jsp.org/topic.php?t=110242924&f=123",
+          "observed_at": "2026-09-11T04:49:08.919810+00:00",
+          "topic_date": "2026-09-10",
+          "item_parser_v2": true
+        }
+      ],
+      "topic_date": "2026-09-10"
+    },
+    "https://forums.d2jsp.org/topic.php?t=110246855&f=123": {
+      "title": "Iso Sur",
+      "url": "https://forums.d2jsp.org/topic.php?t=110246855&f=123",
+      "first_seen_at": "2026-09-11T04:49:04.097065+00:00",
+      "last_checked_at": "2026-09-11T04:50:32.574285+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": [],
+      "topic_date": "2026-09-10"
+    },
+    "https://forums.d2jsp.org/topic.php?t=110246867&f=123": {
+      "title": "Sup Eth Wyrmhide 4os Ft",
+      "url": "https://forums.d2jsp.org/topic.php?t=110246867&f=123",
+      "first_seen_at": "2026-09-11T04:49:04.097065+00:00",
+      "last_checked_at": "2026-09-11T04:49:32.155031+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": [],
+      "topic_date": "2026-09-10"
+    },
+    "https://forums.d2jsp.org/topic.php?t=110245646&f=123": {
+      "title": "Small List",
+      "url": "https://forums.d2jsp.org/topic.php?t=110245646&f=123",
+      "first_seen_at": "2026-09-11T04:49:04.097065+00:00",
+      "last_checked_at": "2026-09-11T04:49:39.118911+00:00",
+      "completed": true,
+      "status": "parsed",
+      "samples": [],
+      "topic_date": null
+    },
+    "https://forums.d2jsp.org/topic.php?t=110218569&f=123": {
+      "title": "O: 99 Juves = 25fg",
+      "url": "https://forums.d2jsp.org/topic.php?t=110218569&f=123",
+      "first_seen_at": "2026-09-11T04:49:04.097065+00:00",
+      "last_checked_at": "2026-09-11T04:50:01.887382+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": [],
+      "topic_date": "2026-09-08"
+    },
+    "https://forums.d2jsp.org/topic.php?t=110229863&f=123": {
+      "title": "10fcr/82ar/20str/14dex/10all/38fr 6pt Ring",
+      "url": "https://forums.d2jsp.org/topic.php?t=110229863&f=123",
+      "first_seen_at": "2026-09-11T04:49:04.097065+00:00",
+      "last_checked_at": "2026-09-11T04:51:24.435731+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": [],
+      "topic_date": "2026-09-09"
+    },
+    "https://forums.d2jsp.org/topic.php?t=110224764&f=123": {
+      "title": "Selling Item Cheap",
+      "url": "https://forums.d2jsp.org/topic.php?t=110224764&f=123",
+      "first_seen_at": "2026-09-11T04:49:04.097065+00:00",
+      "last_checked_at": "2026-09-11T04:49:44.748765+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": [
+        {
+          "kind": "item",
+          "id": "andariels-visage",
+          "label": "安達利爾的面容 (Andariel's Visage / Andy)",
+          "category": "頭盔",
+          "side": "ft",
+          "price_fg": 50.0,
+          "title": "Selling Item Cheap",
+          "url": "https://forums.d2jsp.org/topic.php?t=110224764&f=123",
+          "observed_at": "2026-09-11T04:49:44.748765+00:00",
+          "topic_date": "2026-09-10",
+          "item_parser_v2": true
+        },
+        {
+          "kind": "item",
+          "id": "stormshield",
+          "label": "暴風之盾 (Stormshield / SS)",
+          "category": "盾牌",
+          "side": "ft",
+          "price_fg": 50.0,
+          "title": "Selling Item Cheap",
+          "url": "https://forums.d2jsp.org/topic.php?t=110224764&f=123",
+          "observed_at": "2026-09-11T04:49:44.748765+00:00",
+          "topic_date": "2026-09-10",
+          "item_parser_v2": true
+        },
+        {
+          "kind": "item",
+          "id": "thunderstroke",
+          "label": "雷擊 (Thunderstroke / Tstroke)",
+          "category": "武器",
+          "side": "ft",
+          "price_fg": 50.0,
+          "title": "Selling Item Cheap",
+          "url": "https://forums.d2jsp.org/topic.php?t=110224764&f=123",
+          "observed_at": "2026-09-11T04:49:44.748765+00:00",
+          "topic_date": "2026-09-10",
+          "item_parser_v2": true
+        },
+        {
+          "kind": "item",
+          "id": "paladin-torch",
+          "label": "聖騎士地獄火炬 (Paladin Torch / PTorch)",
+          "category": "熱門護身符與暗金符咒",
+          "side": "ft",
+          "price_fg": 350.0,
+          "title": "Selling Item Cheap",
+          "url": "https://forums.d2jsp.org/topic.php?t=110224764&f=123",
+          "observed_at": "2026-09-11T04:49:44.748765+00:00",
+          "topic_date": "2026-09-10",
+          "item_parser_v2": true
+        },
+        {
+          "kind": "item",
+          "id": "unique-renewed-flame-rift",
+          "label": "新生火焰裂隙 (Renewed Flame Rift)",
+          "category": "咒符",
+          "side": "ft",
+          "price_fg": 300.0,
+          "title": "Selling Item Cheap",
+          "url": "https://forums.d2jsp.org/topic.php?t=110224764&f=123",
+          "observed_at": "2026-09-11T04:49:44.748765+00:00",
+          "topic_date": "2026-09-10",
+          "item_parser_v2": true
+        }
+      ],
+      "topic_date": "2026-09-10"
+    },
+    "https://forums.d2jsp.org/topic.php?t=110224764&f=123&o=10": {
+      "title": "2",
+      "url": "https://forums.d2jsp.org/topic.php?t=110224764&f=123&o=10",
+      "first_seen_at": "2026-09-11T04:49:04.097065+00:00",
+      "last_checked_at": "2026-09-11T04:51:07.750940+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": [
+        {
+          "kind": "item",
+          "id": "andariels-visage",
+          "label": "安達利爾的面容 (Andariel's Visage / Andy)",
+          "category": "頭盔",
+          "side": "unknown",
+          "price_fg": 50.0,
+          "title": "2",
+          "url": "https://forums.d2jsp.org/topic.php?t=110224764&f=123&o=10",
+          "observed_at": "2026-09-11T04:51:07.750940+00:00",
+          "topic_date": "2026-09-09",
+          "item_parser_v2": true
+        },
+        {
+          "kind": "item",
+          "id": "unique-windforce",
+          "label": "風之力 (Windforce)",
+          "category": "弓",
+          "side": "unknown",
+          "price_fg": 50.0,
+          "title": "2",
+          "url": "https://forums.d2jsp.org/topic.php?t=110224764&f=123&o=10",
+          "observed_at": "2026-09-11T04:51:07.750940+00:00",
+          "topic_date": "2026-09-09",
+          "item_parser_v2": true
+        }
+      ],
+      "topic_date": "2026-09-09"
+    },
+    "https://forums.d2jsp.org/topic.php?t=110173187&f=123": {
+      "title": "All Perfect Gems Here",
+      "url": "https://forums.d2jsp.org/topic.php?t=110173187&f=123",
+      "first_seen_at": "2026-09-11T04:49:04.097065+00:00",
+      "last_checked_at": "2026-09-11T04:50:49.175300+00:00",
+      "completed": true,
+      "status": "parsed",
+      "samples": [],
+      "topic_date": "2026-09-04"
+    },
+    "https://forums.d2jsp.org/topic.php?t=110173187&f=123&o=10": {
+      "title": "2",
+      "url": "https://forums.d2jsp.org/topic.php?t=110173187&f=123&o=10",
+      "first_seen_at": "2026-09-11T04:49:04.097065+00:00",
+      "last_checked_at": "2026-09-11T04:51:11.227521+00:00",
+      "completed": true,
+      "status": "parsed",
+      "samples": [],
+      "topic_date": "2026-09-07"
+    },
+    "https://forums.d2jsp.org/topic.php?t=110173187&f=123&o=20": {
+      "title": "3",
+      "url": "https://forums.d2jsp.org/topic.php?t=110173187&f=123&o=20",
+      "first_seen_at": "2026-09-11T04:49:04.097065+00:00",
+      "last_checked_at": "2026-09-11T04:51:17.155126+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": [],
+      "topic_date": "2026-09-10"
+    },
+    "https://forums.d2jsp.org/topic.php?t=110240515&f=123": {
+      "title": "Latent Bone Break",
+      "url": "https://forums.d2jsp.org/topic.php?t=110240515&f=123",
+      "first_seen_at": "2026-09-11T04:49:04.097065+00:00",
+      "last_checked_at": "2026-09-11T04:50:13.859332+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": [],
+      "topic_date": "2026-09-10"
+    },
+    "https://forums.d2jsp.org/topic.php?t=110135715&f=123&o=70": {
+      "title": "8",
+      "url": "https://forums.d2jsp.org/topic.php?t=110135715&f=123&o=70",
+      "first_seen_at": "2026-09-11T04:49:04.097065+00:00",
+      "last_checked_at": "2026-09-11T04:50:59.980952+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": [],
+      "topic_date": "2026-09-10"
+    },
+    "https://forums.d2jsp.org/topic.php?t=110245282&f=123": {
+      "title": "--> Bring Me All Res Jewel With A 2nd Mod <--",
+      "url": "https://forums.d2jsp.org/topic.php?t=110245282&f=123",
+      "first_seen_at": "2026-09-11T04:49:04.097065+00:00",
+      "last_checked_at": "2026-09-11T04:51:18.410701+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": [],
+      "topic_date": "2026-09-10"
+    },
+    "https://forums.d2jsp.org/topic.php?t=110246712&f=123": {
+      "title": "Lf Cheapest Barb T",
+      "url": "https://forums.d2jsp.org/topic.php?t=110246712&f=123",
+      "first_seen_at": "2026-09-11T04:49:04.097065+00:00",
+      "last_checked_at": "2026-09-11T04:50:21.258245+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": [],
+      "topic_date": "2026-09-10"
+    },
+    "https://forums.d2jsp.org/topic.php?t=110246664&f=123": {
+      "title": "Iso Normal Rush- In A2 Atm",
+      "url": "https://forums.d2jsp.org/topic.php?t=110246664&f=123",
+      "first_seen_at": "2026-09-11T04:49:04.097065+00:00",
+      "last_checked_at": "2026-09-11T04:50:39.627545+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": [],
+      "topic_date": "2026-09-10"
+    },
+    "https://forums.d2jsp.org/topic.php?t=110246706&f=123": {
+      "title": "Unid Torch",
+      "url": "https://forums.d2jsp.org/topic.php?t=110246706&f=123",
+      "first_seen_at": "2026-09-11T04:49:04.097065+00:00",
+      "last_checked_at": "2026-09-11T04:49:14.073476+00:00",
+      "completed": true,
+      "status": "parsed",
+      "samples": [],
+      "topic_date": "2026-09-10"
+    },
+    "https://forums.d2jsp.org/topic.php?t=110083111&f=123": {
+      "title": "Red Chaos Is Up Again!",
+      "url": "https://forums.d2jsp.org/topic.php?t=110083111&f=123",
+      "first_seen_at": "2026-09-11T04:49:04.097065+00:00",
+      "last_checked_at": "2026-09-11T04:49:50.174098+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": [],
+      "topic_date": "2026-08-29"
+    },
+    "https://forums.d2jsp.org/topic.php?t=110083111&f=123&o=40": {
+      "title": "5",
+      "url": "https://forums.d2jsp.org/topic.php?t=110083111&f=123&o=40",
+      "first_seen_at": "2026-09-11T04:49:04.097065+00:00",
+      "last_checked_at": "2026-09-11T04:50:56.692096+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": [],
+      "topic_date": "2026-09-07"
+    },
+    "https://forums.d2jsp.org/topic.php?t=110083111&f=123&o=50": {
+      "title": "6",
+      "url": "https://forums.d2jsp.org/topic.php?t=110083111&f=123&o=50",
+      "first_seen_at": "2026-09-11T04:49:04.097065+00:00",
+      "last_checked_at": "2026-09-11T04:50:50.446018+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": [],
+      "topic_date": "2026-09-09"
+    },
+    "https://forums.d2jsp.org/topic.php?t=110128670&f=123&o=30": {
+      "title": "4",
+      "url": "https://forums.d2jsp.org/topic.php?t=110128670&f=123&o=30",
+      "first_seen_at": "2026-09-11T04:49:04.097065+00:00",
+      "last_checked_at": "2026-09-11T04:51:01.969181+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": [],
+      "topic_date": "2026-09-10"
+    },
+    "https://forums.d2jsp.org/topic.php?t=110246699&f=123": {
+      "title": "Sur",
+      "url": "https://forums.d2jsp.org/topic.php?t=110246699&f=123",
+      "first_seen_at": "2026-09-11T04:49:04.097065+00:00",
+      "last_checked_at": "2026-09-11T04:49:27.446266+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": [],
+      "topic_date": "2026-09-10"
+    },
+    "https://forums.d2jsp.org/topic.php?t=110246698&f=123": {
+      "title": "Iso Tarnhelm Pref With Socket",
+      "url": "https://forums.d2jsp.org/topic.php?t=110246698&f=123",
+      "first_seen_at": "2026-09-11T04:49:04.097065+00:00",
+      "last_checked_at": "2026-09-11T04:50:27.295246+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": [],
+      "topic_date": "2026-09-10"
+    },
+    "https://forums.d2jsp.org/topic.php?t=110246693&f=123": {
+      "title": "Nice Chaos Skills Ammy",
+      "url": "https://forums.d2jsp.org/topic.php?t=110246693&f=123",
+      "first_seen_at": "2026-09-11T04:49:04.097065+00:00",
+      "last_checked_at": "2026-09-11T04:50:03.243916+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": [],
+      "topic_date": "2026-09-10"
+    },
+    "https://forums.d2jsp.org/topic.php?t=110230832&f=123": {
+      "title": "Iso T Key /25 Ea",
+      "url": "https://forums.d2jsp.org/topic.php?t=110230832&f=123",
+      "first_seen_at": "2026-09-11T04:49:04.097065+00:00",
+      "last_checked_at": "2026-09-11T04:50:27.173970+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": [],
+      "topic_date": "2026-09-09"
+    },
+    "https://forums.d2jsp.org/topic.php?t=110246686&f=123": {
+      "title": "Iso Latent Crack Of Heaven",
+      "url": "https://forums.d2jsp.org/topic.php?t=110246686&f=123",
+      "first_seen_at": "2026-09-11T04:49:04.097065+00:00",
+      "last_checked_at": "2026-09-11T04:50:33.820682+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": [],
+      "topic_date": "2026-09-10"
+    },
+    "https://forums.d2jsp.org/topic.php?t=110246679&f=123": {
+      "title": "Eth Skullders",
+      "url": "https://forums.d2jsp.org/topic.php?t=110246679&f=123",
+      "first_seen_at": "2026-09-11T04:49:04.097065+00:00",
+      "last_checked_at": "2026-09-11T04:50:45.160781+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": [],
+      "topic_date": "2026-09-10"
+    },
+    "https://forums.d2jsp.org/topic.php?t=110240718&f=123": {
+      "title": "Wts Unid Torch X 2",
+      "url": "https://forums.d2jsp.org/topic.php?t=110240718&f=123",
+      "first_seen_at": "2026-09-11T04:49:04.097065+00:00",
+      "last_checked_at": "2026-09-11T04:49:09.748514+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": [],
+      "topic_date": "2026-09-10"
+    },
+    "https://forums.d2jsp.org/topic.php?t=110240848&f=123": {
+      "title": "Unid Arach, Andarials, Eth Skullders",
+      "url": "https://forums.d2jsp.org/topic.php?t=110240848&f=123",
+      "first_seen_at": "2026-09-11T04:49:04.097065+00:00",
+      "last_checked_at": "2026-09-11T04:49:14.431762+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": [
+        {
+          "kind": "item",
+          "id": "arachnid-mesh",
+          "label": "蜘蛛之網 (Arachnid Mesh / Arach)",
+          "category": "腰帶",
+          "side": "unknown",
+          "price_fg": 320.0,
+          "title": "Unid Arach, Andarials, Eth Skullders",
+          "url": "https://forums.d2jsp.org/topic.php?t=110240848&f=123",
+          "observed_at": "2026-09-11T04:49:14.431762+00:00",
+          "topic_date": "2026-09-10",
+          "item_parser_v2": true
+        },
+        {
+          "kind": "item",
+          "id": "andariels-visage",
+          "label": "安達利爾的面容 (Andariel's Visage / Andy)",
+          "category": "頭盔",
+          "side": "unknown",
+          "price_fg": 60.0,
+          "title": "Unid Arach, Andarials, Eth Skullders",
+          "url": "https://forums.d2jsp.org/topic.php?t=110240848&f=123",
+          "observed_at": "2026-09-11T04:49:14.431762+00:00",
+          "topic_date": "2026-09-10",
+          "item_parser_v2": true
+        }
+      ],
+      "topic_date": "2026-09-10"
+    },
+    "https://forums.d2jsp.org/topic.php?t=110246672&f=123": {
+      "title": "Ohm",
+      "url": "https://forums.d2jsp.org/topic.php?t=110246672&f=123",
+      "first_seen_at": "2026-09-11T04:49:04.097065+00:00",
+      "last_checked_at": "2026-09-11T04:49:55.684671+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": [],
+      "topic_date": "2026-09-10"
+    },
+    "https://forums.d2jsp.org/topic.php?t=110246671&f=123": {
+      "title": "Guardians Light Magic",
+      "url": "https://forums.d2jsp.org/topic.php?t=110246671&f=123",
+      "first_seen_at": "2026-09-11T04:49:04.097065+00:00",
+      "last_checked_at": "2026-09-11T04:50:43.653920+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": [],
+      "topic_date": "2026-09-10"
+    },
+    "https://forums.d2jsp.org/topic.php?t=110246669&f=123": {
+      "title": "Need D Key",
+      "url": "https://forums.d2jsp.org/topic.php?t=110246669&f=123",
+      "first_seen_at": "2026-09-11T04:49:04.097065+00:00",
+      "last_checked_at": "2026-09-11T04:50:08.590844+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": [],
+      "topic_date": "2026-09-10"
+    },
+    "https://forums.d2jsp.org/topic.php?t=110246667&f=123": {
+      "title": "15ias / 12@ Jewel",
+      "url": "https://forums.d2jsp.org/topic.php?t=110246667&f=123",
+      "first_seen_at": "2026-09-11T04:49:04.097065+00:00",
+      "last_checked_at": "2026-09-11T04:51:12.511623+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": [],
+      "topic_date": "2026-09-10"
     }
   },
-  "updated_at": "2026-09-10T23:18:34.810235+00:00"
+  "updated_at": "2026-09-11T04:52:32.216193+00:00"
 }

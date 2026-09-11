@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T21:04:16.824594+00:00",
+  "updated_at": "2026-09-11T23:22:33.747929+00:00",
   "forum_pages": [
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&c=2",
@@ -23,7 +23,7 @@
       "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=25",
       "offset": 25,
       "topics": 26,
-      "bytes": 10247,
+      "bytes": 10190,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=25",
@@ -33,7 +33,7 @@
         {
           "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=25",
           "topics": 26,
-          "bytes": 10247
+          "bytes": 10190
         }
       ]
     },
@@ -113,7 +113,7 @@
       "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=150",
       "offset": 150,
       "topics": 25,
-      "bytes": 10367,
+      "bytes": 10205,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=150",
@@ -123,7 +123,7 @@
         {
           "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=150",
           "topics": 25,
-          "bytes": 10367
+          "bytes": 10205
         }
       ]
     },
@@ -221,7 +221,7 @@
       "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=300",
       "offset": 300,
       "topics": 27,
-      "bytes": 10769,
+      "bytes": 10656,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=300",
@@ -231,7 +231,7 @@
         {
           "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=300",
           "topics": 27,
-          "bytes": 10769
+          "bytes": 10656
         }
       ]
     },
@@ -255,13 +255,20 @@
     }
   ],
   "discovered_topics": 78,
-  "cached_topics": 3817,
-  "selected_topics": 72,
-  "parsed_this_run": 72,
-  "completed_this_run": 33,
+  "cached_topics": 3895,
+  "selected_topics": 90,
+  "parsed_this_run": 89,
+  "completed_this_run": 28,
   "legacy_samples": 0,
-  "combined_samples": 1758,
-  "topic_errors": [],
+  "combined_samples": 1804,
+  "topic_errors": [
+    {
+      "url": "https://forums.d2jsp.org/topic.php?t=110245646&f=123",
+      "title": "Small List",
+      "reason": "new",
+      "error": "429 Too Many Requests (5/5)"
+    }
+  ],
   "season": 15,
   "season_label": "第 15 季天梯",
   "data_start": "2026-08-22",

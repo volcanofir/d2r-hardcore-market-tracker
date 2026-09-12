@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-09-12T04:43:51.169315+00:00",
+  "updated_at": "2026-09-12T10:56:33.809265+00:00",
   "forum": "https://forums.d2jsp.org/forum.php?f=123&c=2",
   "topic_count": 26,
-  "cached_topics": 3907,
-  "parsed_topics": 3907,
-  "completed_topics": 1361,
-  "parsed_this_run": 25,
+  "cached_topics": 3933,
+  "parsed_topics": 3932,
+  "completed_topics": 1379,
+  "parsed_this_run": 37,
   "sample_count": 1510,
   "legacy_sample_count": 0,
   "market": [
@@ -19,7 +19,7 @@
       "trade_fg": 50.0,
       "samples": 134,
       "confidence": "high",
-      "last_seen_at": "2026-09-12T04:40:17.816238+00:00",
+      "last_seen_at": "2026-09-12T10:53:11.031813+00:00",
       "sources": [
         {
           "kind": "rune",
@@ -29,8 +29,8 @@
           "price_fg": 75.0,
           "title": "~ Items 4 Trade ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110254081&f=123",
-          "observed_at": "2026-09-12T04:40:17.816238+00:00",
-          "topic_date": "2026-09-11",
+          "observed_at": "2026-09-12T10:53:11.031813+00:00",
+          "topic_date": "2026-09-12",
           "parser_v4": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
         },
@@ -42,8 +42,8 @@
           "price_fg": 70.0,
           "title": "~ Items 4 Trade ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110254081&f=123",
-          "observed_at": "2026-09-12T04:40:17.816238+00:00",
-          "topic_date": "2026-09-11",
+          "observed_at": "2026-09-12T10:53:11.031813+00:00",
+          "topic_date": "2026-09-12",
           "parser_v4": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
         },
@@ -669,7 +669,7 @@
       "iso_fg": 95.0,
       "ft_fg": 85.0,
       "trade_fg": 90.0,
-      "samples": 148,
+      "samples": 147,
       "confidence": "high",
       "last_seen_at": "2026-09-11T23:20:24.146222+00:00",
       "sources": [
@@ -722,19 +722,6 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110253566&f=123",
           "observed_at": "2026-09-11T23:19:06.639489+00:00",
           "topic_date": "2026-09-11",
-          "parser_v4": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Ist",
-          "label": "Ist",
-          "side": "iso",
-          "price_fg": 50.0,
-          "title": "Wtb 2x Ist 50fg Ea",
-          "url": "https://forums.d2jsp.org/topic.php?t=110245269&f=123",
-          "observed_at": "2026-09-11T23:18:22.555508+00:00",
-          "topic_date": "2026-09-10",
           "parser_v4": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
         },
@@ -984,6 +971,19 @@
           "topic_date": "2026-09-09",
           "parser_v4": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
+        },
+        {
+          "kind": "rune",
+          "id": "Ist",
+          "label": "Ist",
+          "side": "ft",
+          "price_fg": 75.0,
+          "title": "Wts Gul , 3x Ist",
+          "url": "https://forums.d2jsp.org/topic.php?t=110229280&f=123",
+          "observed_at": "2026-09-09T23:23:25.455102+00:00",
+          "topic_date": "2026-09-09",
+          "parser_v4": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
         }
       ]
     },
@@ -991,27 +991,14 @@
       "kind": "rune",
       "id": "Gul",
       "label": "Gul",
-      "fair_fg": 90.0,
+      "fair_fg": 95.0,
       "iso_fg": 80.0,
       "ft_fg": 90.0,
       "trade_fg": 100.0,
-      "samples": 65,
+      "samples": 63,
       "confidence": "high",
-      "last_seen_at": "2026-09-12T04:41:04.155371+00:00",
+      "last_seen_at": "2026-09-11T23:20:52.032827+00:00",
       "sources": [
-        {
-          "kind": "rune",
-          "id": "Gul",
-          "label": "Gul",
-          "side": "ft",
-          "price_fg": 65.0,
-          "title": "Gul Flash Sale - 65fg",
-          "url": "https://forums.d2jsp.org/topic.php?t=110254177&f=123",
-          "observed_at": "2026-09-12T04:41:04.155371+00:00",
-          "topic_date": "2026-09-11",
-          "parser_v4": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
         {
           "kind": "rune",
           "id": "Gul",
@@ -1074,19 +1061,6 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110253566&f=123",
           "observed_at": "2026-09-11T23:19:06.639489+00:00",
           "topic_date": "2026-09-11",
-          "parser_v4": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Gul",
-          "label": "Gul",
-          "side": "unknown",
-          "price_fg": 90.0,
-          "title": "Warcries Sk X3, Cold Sk X2, Tal Armor, Gul",
-          "url": "https://forums.d2jsp.org/topic.php?t=110245565&f=123",
-          "observed_at": "2026-09-11T23:18:23.690722+00:00",
-          "topic_date": "2026-09-10",
           "parser_v4": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
         },
@@ -1307,6 +1281,32 @@
           "title": "Runes And 1 Ring Freshly Found/ Mfed Takke A Look",
           "url": "https://forums.d2jsp.org/topic.php?t=110223814&f=123",
           "observed_at": "2026-09-08T21:13:40.005912+00:00",
+          "topic_date": "2026-09-08",
+          "parser_v4": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
+        },
+        {
+          "kind": "rune",
+          "id": "Gul",
+          "label": "Gul",
+          "side": "ft",
+          "price_fg": 75.0,
+          "title": "Gul Vs 75fg",
+          "url": "https://forums.d2jsp.org/topic.php?t=110214786&f=123",
+          "observed_at": "2026-09-08T16:46:49.570475+00:00",
+          "topic_date": "2026-09-07",
+          "parser_v4": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
+        },
+        {
+          "kind": "rune",
+          "id": "Gul",
+          "label": "Gul",
+          "side": "unknown",
+          "price_fg": 80.0,
+          "title": "Littel List",
+          "url": "https://forums.d2jsp.org/topic.php?t=110219744&f=123",
+          "observed_at": "2026-09-08T16:44:46.537508+00:00",
           "topic_date": "2026-09-08",
           "parser_v4": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
@@ -3841,10 +3841,23 @@
       "iso_fg": 6.0,
       "ft_fg": 7.5,
       "trade_fg": 10.0,
-      "samples": 44,
+      "samples": 45,
       "confidence": "high",
-      "last_seen_at": "2026-09-11T23:19:15.453434+00:00",
+      "last_seen_at": "2026-09-12T10:52:40.966490+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Hel",
+          "label": "Hel",
+          "side": "unknown",
+          "price_fg": 200.0,
+          "title": "Insight Eth Gt",
+          "url": "https://forums.d2jsp.org/topic.php?t=110257403&f=123",
+          "observed_at": "2026-09-12T10:52:40.966490+00:00",
+          "topic_date": "2026-09-11",
+          "parser_v4": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
+        },
         {
           "kind": "rune",
           "id": "Hel",
@@ -4143,19 +4156,6 @@
           "topic_date": "2026-09-04",
           "parser_v4": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Hel",
-          "label": "Hel",
-          "side": "trade",
-          "price_fg": 10.0,
-          "title": "=iso Eth Cryptic Axe 4soc, 4x Hel= · T4T/sold signal",
-          "url": "https://forums.d2jsp.org/topic.php?t=110170002&f=123",
-          "observed_at": "2026-09-04T23:06:54.340644+00:00",
-          "topic_date": "2026-09-04",
-          "parser_v4": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
         }
       ]
     },
@@ -4163,14 +4163,27 @@
       "kind": "rune",
       "id": "Io",
       "label": "Io",
-      "fair_fg": 5.5,
-      "iso_fg": 6.0,
+      "fair_fg": 5.0,
+      "iso_fg": 5.5,
       "ft_fg": 6.0,
       "trade_fg": 4.5,
-      "samples": 32,
+      "samples": 33,
       "confidence": "high",
-      "last_seen_at": "2026-09-11T11:27:00.206993+00:00",
+      "last_seen_at": "2026-09-12T10:52:27.832299+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Io",
+          "label": "Io",
+          "side": "iso",
+          "price_fg": 5.0,
+          "title": "Iso Io Rune And 3os Bone Visage",
+          "url": "https://forums.d2jsp.org/topic.php?t=110257171&f=123",
+          "observed_at": "2026-09-12T10:52:27.832299+00:00",
+          "topic_date": "2026-09-11",
+          "parser_v4": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
+        },
         {
           "kind": "rune",
           "id": "Io",
@@ -4466,19 +4479,6 @@
           "title": "200 Per Latent Flame Rift",
           "url": "https://forums.d2jsp.org/topic.php?t=110161820&f=123",
           "observed_at": "2026-09-04T04:45:11.810823+00:00",
-          "topic_date": "2026-09-03",
-          "parser_v4": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Io",
-          "label": "Io",
-          "side": "unknown",
-          "price_fg": 5.0,
-          "title": "Easy Needs",
-          "url": "https://forums.d2jsp.org/topic.php?t=110157280&f=123",
-          "observed_at": "2026-09-04T04:44:03.769907+00:00",
           "topic_date": "2026-09-03",
           "parser_v4": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
@@ -4821,7 +4821,7 @@
       "trade_fg": 12.5,
       "samples": 51,
       "confidence": "high",
-      "last_seen_at": "2026-09-12T04:40:17.816238+00:00",
+      "last_seen_at": "2026-09-12T10:53:11.031813+00:00",
       "sources": [
         {
           "kind": "rune",
@@ -4831,8 +4831,8 @@
           "price_fg": 15.0,
           "title": "~ Items 4 Trade ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110254081&f=123",
-          "observed_at": "2026-09-12T04:40:17.816238+00:00",
-          "topic_date": "2026-09-11",
+          "observed_at": "2026-09-12T10:53:11.031813+00:00",
+          "topic_date": "2026-09-12",
           "parser_v4": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
         },
@@ -5796,11 +5796,63 @@
       "fair_fg": 45.0,
       "iso_fg": 45.0,
       "ft_fg": 45.0,
-      "trade_fg": 45.0,
-      "samples": 127,
+      "trade_fg": 47.0,
+      "samples": 128,
       "confidence": "high",
-      "last_seen_at": "2026-09-11T23:20:04.261837+00:00",
+      "last_seen_at": "2026-09-12T10:53:09.801030+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Mal",
+          "label": "Mal",
+          "side": "unknown",
+          "price_fg": 277.0,
+          "title": "// Runes For Sale //",
+          "url": "https://forums.d2jsp.org/topic.php?t=110257266&f=123",
+          "observed_at": "2026-09-12T10:53:09.801030+00:00",
+          "topic_date": "2026-09-11",
+          "parser_v4": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
+        },
+        {
+          "kind": "rune",
+          "id": "Mal",
+          "label": "Mal",
+          "side": "trade",
+          "price_fg": 277.0,
+          "title": "// Runes For Sale // · T4T/sold signal",
+          "url": "https://forums.d2jsp.org/topic.php?t=110257266&f=123",
+          "observed_at": "2026-09-12T10:53:09.801030+00:00",
+          "topic_date": "2026-09-11",
+          "parser_v4": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
+        },
+        {
+          "kind": "rune",
+          "id": "Mal",
+          "label": "Mal",
+          "side": "iso",
+          "price_fg": 900.0,
+          "title": "Iso 2 Ber 1 Mal 1 Ist",
+          "url": "https://forums.d2jsp.org/topic.php?t=110257401&f=123",
+          "observed_at": "2026-09-12T10:52:39.378979+00:00",
+          "topic_date": "2026-09-11",
+          "parser_v4": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
+        },
+        {
+          "kind": "rune",
+          "id": "Mal",
+          "label": "Mal",
+          "side": "trade",
+          "price_fg": 900.0,
+          "title": "Iso 2 Ber 1 Mal 1 Ist · T4T/sold signal",
+          "url": "https://forums.d2jsp.org/topic.php?t=110257401&f=123",
+          "observed_at": "2026-09-12T10:52:39.378979+00:00",
+          "topic_date": "2026-09-11",
+          "parser_v4": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
+        },
         {
           "kind": "rune",
           "id": "Mal",
@@ -5862,19 +5914,6 @@
           "title": "N Gul And Mal Rune",
           "url": "https://forums.d2jsp.org/topic.php?t=110253460&f=123",
           "observed_at": "2026-09-11T23:19:23.090801+00:00",
-          "topic_date": "2026-09-11",
-          "parser_v4": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Mal",
-          "label": "Mal",
-          "side": "ft",
-          "price_fg": 30.0,
-          "title": "Wts Mal For 30 Fg",
-          "url": "https://forums.d2jsp.org/topic.php?t=110253553&f=123",
-          "observed_at": "2026-09-11T23:18:12.622658+00:00",
           "topic_date": "2026-09-11",
           "parser_v4": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
@@ -6073,45 +6112,6 @@
           "topic_date": "2026-09-09",
           "parser_v4": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Mal",
-          "label": "Mal",
-          "side": "ft",
-          "price_fg": 45.0,
-          "title": "Selling Runes",
-          "url": "https://forums.d2jsp.org/topic.php?t=110236310&f=123",
-          "observed_at": "2026-09-10T11:25:10.918141+00:00",
-          "topic_date": "2026-09-09",
-          "parser_v4": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Mal",
-          "label": "Mal",
-          "side": "iso",
-          "price_fg": 45.0,
-          "title": "Iso List",
-          "url": "https://forums.d2jsp.org/topic.php?t=110231340&f=123",
-          "observed_at": "2026-09-10T04:49:08.925607+00:00",
-          "topic_date": "2026-09-09",
-          "parser_v4": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Mal",
-          "label": "Mal",
-          "side": "unknown",
-          "price_fg": 100.0,
-          "title": "Mal Ist",
-          "url": "https://forums.d2jsp.org/topic.php?t=110234915&f=123",
-          "observed_at": "2026-09-09T23:20:12.544567+00:00",
-          "topic_date": "2026-09-09",
-          "parser_v4": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
         }
       ]
     },
@@ -6119,27 +6119,14 @@
       "kind": "rune",
       "id": "Um",
       "label": "Um",
-      "fair_fg": 39.0,
+      "fair_fg": 38.0,
       "iso_fg": 40.0,
       "ft_fg": 30.0,
       "trade_fg": 40.0,
-      "samples": 142,
+      "samples": 141,
       "confidence": "high",
-      "last_seen_at": "2026-09-12T04:40:28.786499+00:00",
+      "last_seen_at": "2026-09-11T23:20:52.032827+00:00",
       "sources": [
-        {
-          "kind": "rune",
-          "id": "Um",
-          "label": "Um",
-          "side": "iso",
-          "price_fg": 271.0,
-          "title": "( Iso Ohm Um Lo Cham )",
-          "url": "https://forums.d2jsp.org/topic.php?t=110254364&f=123",
-          "observed_at": "2026-09-12T04:40:28.786499+00:00",
-          "topic_date": "2026-09-11",
-          "parser_v4": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
         {
           "kind": "rune",
           "id": "Um",
@@ -6433,6 +6420,19 @@
           "side": "unknown",
           "price_fg": 30.0,
           "title": "Wedensday Sellout (enigma Ect)",
+          "url": "https://forums.d2jsp.org/topic.php?t=110234000&f=123",
+          "observed_at": "2026-09-09T20:58:40.056208+00:00",
+          "topic_date": "2026-09-09",
+          "parser_v4": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
+        },
+        {
+          "kind": "rune",
+          "id": "Um",
+          "label": "Um",
+          "side": "trade",
+          "price_fg": 30.0,
+          "title": "Wedensday Sellout (enigma Ect) · T4T/sold signal",
           "url": "https://forums.d2jsp.org/topic.php?t=110234000&f=123",
           "observed_at": "2026-09-09T20:58:40.056208+00:00",
           "topic_date": "2026-09-09",
@@ -6771,23 +6771,36 @@
       "kind": "rune",
       "id": "Ohm",
       "label": "Ohm",
-      "fair_fg": 320.0,
+      "fair_fg": 315.0,
       "iso_fg": 272.0,
-      "ft_fg": 320.0,
+      "ft_fg": 310.0,
       "trade_fg": 300.0,
-      "samples": 73,
+      "samples": 74,
       "confidence": "high",
-      "last_seen_at": "2026-09-12T04:40:11.843923+00:00",
+      "last_seen_at": "2026-09-12T10:52:09.366318+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Ohm",
+          "label": "Ohm",
+          "side": "ft",
+          "price_fg": 250.0,
+          "title": "Ohm Vs 250fg",
+          "url": "https://forums.d2jsp.org/topic.php?t=110257598&f=123",
+          "observed_at": "2026-09-12T10:52:09.366318+00:00",
+          "topic_date": "2026-09-11",
+          "parser_v4": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
+        },
         {
           "kind": "rune",
           "id": "Ohm",
           "label": "Ohm",
           "side": "iso",
           "price_fg": 240.0,
-          "title": "Need Ohm-rune, Tal Armor And Belt",
-          "url": "https://forums.d2jsp.org/topic.php?t=110254103&f=123",
-          "observed_at": "2026-09-12T04:40:11.843923+00:00",
+          "title": "Need Ohm Ist Mal 5os War Axe",
+          "url": "https://forums.d2jsp.org/topic.php?t=110257174&f=123",
+          "observed_at": "2026-09-12T10:52:04.670411+00:00",
           "topic_date": "2026-09-11",
           "parser_v4": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
@@ -7075,19 +7088,6 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110222971&f=123",
           "observed_at": "2026-09-08T23:26:15.942444+00:00",
           "topic_date": "2026-09-08",
-          "parser_v4": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Ohm",
-          "label": "Ohm",
-          "side": "iso",
-          "price_fg": 300.0,
-          "title": "Iso Ohm Mal",
-          "url": "https://forums.d2jsp.org/topic.php?t=110216706&f=123",
-          "observed_at": "2026-09-08T21:16:02.661040+00:00",
-          "topic_date": "2026-09-07",
           "parser_v4": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
         }
@@ -9637,7 +9637,7 @@
       "trade_fg": null,
       "samples": 12,
       "confidence": "high",
-      "last_seen_at": "2026-09-12T04:41:39.307715+00:00",
+      "last_seen_at": "2026-09-12T10:55:36.763387+00:00",
       "sources": [
         {
           "kind": "item",
@@ -9648,7 +9648,7 @@
           "price_fg": 20.0,
           "title": "Wiz",
           "url": "https://forums.d2jsp.org/topic.php?t=110256942&f=123",
-          "observed_at": "2026-09-12T04:41:39.307715+00:00",
+          "observed_at": "2026-09-12T10:55:36.763387+00:00",
           "topic_date": "2026-09-11",
           "item_parser_v2": true
         },
@@ -10280,25 +10280,12 @@
       "label": "吉永之臉 (Guillaume's Face / GFace)",
       "fair_fg": 30.0,
       "iso_fg": 350.0,
-      "ft_fg": 20.0,
+      "ft_fg": 25.0,
       "trade_fg": 34.0,
-      "samples": 14,
+      "samples": 13,
       "confidence": "high",
-      "last_seen_at": "2026-09-12T04:42:31.947223+00:00",
+      "last_seen_at": "2026-09-10T20:58:49.749089+00:00",
       "sources": [
-        {
-          "kind": "item",
-          "id": "guillaumes-face",
-          "label": "吉永之臉 (Guillaume's Face / GFace)",
-          "category": "頭盔",
-          "side": "ft",
-          "price_fg": 15.0,
-          "title": "99 Full Rejuvs Ft",
-          "url": "https://forums.d2jsp.org/topic.php?t=110256960&f=123",
-          "observed_at": "2026-09-12T04:42:31.947223+00:00",
-          "topic_date": "2026-09-11",
-          "item_parser_v2": true
-        },
         {
           "kind": "item",
           "id": "guillaumes-face",
@@ -12343,7 +12330,7 @@
       "trade_fg": null,
       "samples": 6,
       "confidence": "medium",
-      "last_seen_at": "2026-09-12T04:42:22.615611+00:00",
+      "last_seen_at": "2026-09-12T10:56:15.850983+00:00",
       "sources": [
         {
           "kind": "item",
@@ -12354,8 +12341,8 @@
           "price_fg": 100.0,
           "title": "Ft Enigma/mara/6bo Cta/eth Obsession/arach/gc",
           "url": "https://forums.d2jsp.org/topic.php?t=110254957&f=123",
-          "observed_at": "2026-09-12T04:42:22.615611+00:00",
-          "topic_date": "2026-09-11",
+          "observed_at": "2026-09-12T10:56:15.850983+00:00",
+          "topic_date": "2026-09-12",
           "item_parser_v2": true
         },
         {
@@ -12880,27 +12867,14 @@
       "kind": "item",
       "id": "set-pal",
       "label": "格擋機率：% (Pal)",
-      "fair_fg": 220.0,
+      "fair_fg": 265.0,
       "iso_fg": null,
       "ft_fg": 265.0,
       "trade_fg": null,
-      "samples": 3,
+      "samples": 2,
       "confidence": "low",
-      "last_seen_at": "2026-09-12T04:41:39.407551+00:00",
+      "last_seen_at": "2026-09-09T23:29:03.648615+00:00",
       "sources": [
-        {
-          "kind": "item",
-          "id": "set-pal",
-          "label": "格擋機率：% (Pal)",
-          "category": "套裝盾牌",
-          "side": "unknown",
-          "price_fg": 220.0,
-          "title": "Unid Torch 280",
-          "url": "https://forums.d2jsp.org/topic.php?t=110248766&f=123",
-          "observed_at": "2026-09-12T04:41:39.407551+00:00",
-          "topic_date": "2026-09-11",
-          "item_parser_v2": true
-        },
         {
           "kind": "item",
           "id": "set-pal",
@@ -15220,27 +15194,14 @@
       "kind": "item",
       "id": "cta",
       "label": "戰爭召喚 (Call to Arms / CTA)",
-      "fair_fg": 300.0,
+      "fair_fg": 285.0,
       "iso_fg": null,
-      "ft_fg": 525.0,
+      "ft_fg": 250.0,
       "trade_fg": null,
-      "samples": 15,
+      "samples": 14,
       "confidence": "high",
-      "last_seen_at": "2026-09-12T04:42:22.615611+00:00",
+      "last_seen_at": "2026-09-10T16:31:02.786058+00:00",
       "sources": [
-        {
-          "kind": "item",
-          "id": "cta",
-          "label": "戰爭召喚 (Call to Arms / CTA)",
-          "category": "符文之語成品",
-          "side": "ft",
-          "price_fg": 800.0,
-          "title": "Ft Enigma/mara/6bo Cta/eth Obsession/arach/gc",
-          "url": "https://forums.d2jsp.org/topic.php?t=110254957&f=123",
-          "observed_at": "2026-09-12T04:42:22.615611+00:00",
-          "topic_date": "2026-09-11",
-          "item_parser_v2": true
-        },
         {
           "kind": "item",
           "id": "cta",
@@ -16058,7 +16019,7 @@
       "trade_fg": 17.5,
       "samples": 22,
       "confidence": "high",
-      "last_seen_at": "2026-09-12T04:42:22.615611+00:00",
+      "last_seen_at": "2026-09-12T10:56:15.850983+00:00",
       "sources": [
         {
           "kind": "item",
@@ -16069,8 +16030,8 @@
           "price_fg": 100.0,
           "title": "Ft Enigma/mara/6bo Cta/eth Obsession/arach/gc",
           "url": "https://forums.d2jsp.org/topic.php?t=110254957&f=123",
-          "observed_at": "2026-09-12T04:42:22.615611+00:00",
-          "topic_date": "2026-09-11",
+          "observed_at": "2026-09-12T10:56:15.850983+00:00",
+          "topic_date": "2026-09-12",
           "item_parser_v2": true
         },
         {
@@ -16783,7 +16744,7 @@
       "trade_fg": 150.0,
       "samples": 16,
       "confidence": "high",
-      "last_seen_at": "2026-09-12T04:42:22.615611+00:00",
+      "last_seen_at": "2026-09-12T10:56:15.850983+00:00",
       "sources": [
         {
           "kind": "item",
@@ -16791,11 +16752,11 @@
           "label": "軍帽 (Harlequin Crest / Shako)",
           "category": "頭盔",
           "side": "ft",
-          "price_fg": 600.0,
+          "price_fg": 550.0,
           "title": "Ft Enigma/mara/6bo Cta/eth Obsession/arach/gc",
           "url": "https://forums.d2jsp.org/topic.php?t=110254957&f=123",
-          "observed_at": "2026-09-12T04:42:22.615611+00:00",
-          "topic_date": "2026-09-11",
+          "observed_at": "2026-09-12T10:56:15.850983+00:00",
+          "topic_date": "2026-09-12",
           "item_parser_v2": true
         },
         {
@@ -17171,14 +17132,27 @@
       "kind": "item",
       "id": "arachnid-mesh",
       "label": "蜘蛛之網 (Arachnid Mesh / Arach)",
-      "fair_fg": 455.0,
+      "fair_fg": 450.0,
       "iso_fg": 450.0,
-      "ft_fg": 455.0,
+      "ft_fg": 450.0,
       "trade_fg": 450.0,
-      "samples": 12,
+      "samples": 13,
       "confidence": "high",
-      "last_seen_at": "2026-09-10T23:17:53.128395+00:00",
+      "last_seen_at": "2026-09-12T10:54:12.367981+00:00",
       "sources": [
+        {
+          "kind": "item",
+          "id": "arachnid-mesh",
+          "label": "蜘蛛之網 (Arachnid Mesh / Arach)",
+          "category": "腰帶",
+          "side": "ft",
+          "price_fg": 280.0,
+          "title": "Wts Unid Arach+tal Arm932",
+          "url": "https://forums.d2jsp.org/topic.php?t=110257710&f=123",
+          "observed_at": "2026-09-12T10:54:12.367981+00:00",
+          "topic_date": "2026-09-12",
+          "item_parser_v2": true
+        },
         {
           "kind": "item",
           "id": "arachnid-mesh",
@@ -18449,7 +18423,7 @@
       "trade_fg": 15.0,
       "samples": 14,
       "confidence": "high",
-      "last_seen_at": "2026-09-12T04:42:22.615611+00:00",
+      "last_seen_at": "2026-09-12T10:56:15.850983+00:00",
       "sources": [
         {
           "kind": "item",
@@ -18460,8 +18434,8 @@
           "price_fg": 50.0,
           "title": "Ft Enigma/mara/6bo Cta/eth Obsession/arach/gc",
           "url": "https://forums.d2jsp.org/topic.php?t=110254957&f=123",
-          "observed_at": "2026-09-12T04:42:22.615611+00:00",
-          "topic_date": "2026-09-11",
+          "observed_at": "2026-09-12T10:56:15.850983+00:00",
+          "topic_date": "2026-09-12",
           "item_parser_v2": true
         },
         {
@@ -18919,14 +18893,40 @@
       "kind": "item",
       "id": "war-traveler",
       "label": "戰爭旅者 (War Traveler / War Travs)",
-      "fair_fg": 100.0,
-      "iso_fg": 600.0,
+      "fair_fg": 87.5,
+      "iso_fg": 337.5,
       "ft_fg": 70.0,
-      "trade_fg": null,
-      "samples": 9,
-      "confidence": "medium",
-      "last_seen_at": "2026-09-11T23:23:32.355307+00:00",
+      "trade_fg": 75.0,
+      "samples": 10,
+      "confidence": "high",
+      "last_seen_at": "2026-09-12T10:54:41.305577+00:00",
       "sources": [
+        {
+          "kind": "item",
+          "id": "war-traveler",
+          "label": "戰爭旅者 (War Traveler / War Travs)",
+          "category": "靴子",
+          "side": "iso",
+          "price_fg": 75.0,
+          "title": "Iso Easy Item",
+          "url": "https://forums.d2jsp.org/topic.php?t=110259230&f=123",
+          "observed_at": "2026-09-12T10:54:41.305577+00:00",
+          "topic_date": "2026-09-12",
+          "item_parser_v2": true
+        },
+        {
+          "kind": "item",
+          "id": "war-traveler",
+          "label": "戰爭旅者 (War Traveler / War Travs)",
+          "category": "靴子",
+          "side": "trade",
+          "price_fg": 75.0,
+          "title": "Iso Easy Item · T4T/sold signal",
+          "url": "https://forums.d2jsp.org/topic.php?t=110259230&f=123",
+          "observed_at": "2026-09-12T10:54:41.305577+00:00",
+          "topic_date": "2026-09-12",
+          "item_parser_v2": true
+        },
         {
           "kind": "item",
           "id": "war-traveler",
@@ -19414,27 +19414,14 @@
       "kind": "item",
       "id": "unique-latent-black-cleft",
       "label": "潛伏漆黑裂口 (Latent Black Cleft)",
-      "fair_fg": 400.0,
-      "iso_fg": 400.0,
+      "fair_fg": 350.0,
+      "iso_fg": null,
       "ft_fg": null,
       "trade_fg": null,
-      "samples": 3,
+      "samples": 2,
       "confidence": "low",
-      "last_seen_at": "2026-09-12T04:41:56.137047+00:00",
+      "last_seen_at": "2026-09-02T23:28:23.470086+00:00",
       "sources": [
-        {
-          "kind": "item",
-          "id": "unique-latent-black-cleft",
-          "label": "潛伏漆黑裂口 (Latent Black Cleft)",
-          "category": "咒符",
-          "side": "iso",
-          "price_fg": 400.0,
-          "title": "Iso: Latent Black Cleft=400fg",
-          "url": "https://forums.d2jsp.org/topic.php?t=110237835&f=123",
-          "observed_at": "2026-09-12T04:41:56.137047+00:00",
-          "topic_date": "2026-09-09",
-          "item_parser_v2": true
-        },
         {
           "kind": "item",
           "id": "unique-latent-black-cleft",
@@ -20113,7 +20100,7 @@
       "trade_fg": null,
       "samples": 14,
       "confidence": "high",
-      "last_seen_at": "2026-09-12T04:42:22.615611+00:00",
+      "last_seen_at": "2026-09-12T10:56:15.850983+00:00",
       "sources": [
         {
           "kind": "item",
@@ -20124,8 +20111,8 @@
           "price_fg": 50.0,
           "title": "Ft Enigma/mara/6bo Cta/eth Obsession/arach/gc",
           "url": "https://forums.d2jsp.org/topic.php?t=110254957&f=123",
-          "observed_at": "2026-09-12T04:42:22.615611+00:00",
-          "topic_date": "2026-09-11",
+          "observed_at": "2026-09-12T10:56:15.850983+00:00",
+          "topic_date": "2026-09-12",
           "item_parser_v2": true
         },
         {
@@ -27428,8 +27415,8 @@
   "price_parser": "season15-runes-c2-full-v4",
   "item_source_policy": "season15-items-static-catalog-v3",
   "item_catalog_count": 585,
-  "item_topic_count": 32,
-  "item_cached_topics": 2565,
-  "item_parsed_topics": 2564,
-  "item_sample_count": 1031
+  "item_topic_count": 30,
+  "item_cached_topics": 2593,
+  "item_parsed_topics": 2593,
+  "item_sample_count": 1029
 }

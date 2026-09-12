@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T04:41:08.794974+00:00",
+  "updated_at": "2026-09-12T10:53:47.756760+00:00",
   "forum_pages": [
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&c=2",
@@ -56,20 +56,15 @@
       ]
     },
     {
-      "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=75",
+      "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=75",
       "offset": 75,
       "topics": 26,
-      "bytes": 10454,
+      "bytes": 10482,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=75",
-          "topics": 0,
-          "bytes": 285
-        },
-        {
-          "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=75",
           "topics": 26,
-          "bytes": 10454
+          "bytes": 10482
         }
       ]
     },
@@ -255,13 +250,20 @@
     }
   ],
   "discovered_topics": 26,
-  "cached_topics": 3907,
-  "selected_topics": 25,
-  "parsed_this_run": 25,
-  "completed_this_run": 17,
+  "cached_topics": 3933,
+  "selected_topics": 38,
+  "parsed_this_run": 37,
+  "completed_this_run": 18,
   "legacy_samples": 0,
-  "combined_samples": 1809,
-  "topic_errors": [],
+  "combined_samples": 1811,
+  "topic_errors": [
+    {
+      "url": "https://forums.d2jsp.org/topic.php?t=110257604&f=123",
+      "title": "Jav Iso Pieces Or Full",
+      "reason": "new",
+      "error": "429 Too Many Requests (5/5)"
+    }
+  ],
   "season": 15,
   "season_label": "第 15 季天梯",
   "data_start": "2026-08-22",

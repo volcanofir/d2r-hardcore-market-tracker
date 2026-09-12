@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T20:43:24.370977+00:00",
+  "updated_at": "2026-09-12T23:10:42.011208+00:00",
   "source_policy": "season15-items-static-catalog-v3",
   "catalog_items": 585,
   "forum_pages": [
@@ -12,8 +12,8 @@
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=25",
       "offset": 25,
-      "topics": 0,
-      "bytes": 281
+      "topics": 32,
+      "bytes": 7772
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=50",
@@ -30,8 +30,8 @@
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=100",
       "offset": 100,
-      "topics": 39,
-      "bytes": 8227
+      "topics": 29,
+      "bytes": 10833
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=125",
@@ -52,11 +52,18 @@
       "bytes": 282
     }
   ],
-  "discovered_topics": 39,
-  "cached_topics": 2627,
-  "selected_topics": 54,
-  "parsed_this_run": 54,
-  "combined_samples": 1072,
-  "market_items": 272,
-  "topic_errors": []
+  "discovered_topics": 61,
+  "cached_topics": 2683,
+  "selected_topics": 76,
+  "parsed_this_run": 75,
+  "combined_samples": 1169,
+  "market_items": 283,
+  "topic_errors": [
+    {
+      "url": "https://forums.d2jsp.org/topic.php?t=110228829&f=123",
+      "title": "O 15 Ias 34 Ed Jewel",
+      "reason": "recheck",
+      "error": "429 Too Many Requests (5/5)"
+    }
+  ]
 }

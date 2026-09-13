@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T12:04:47.585886+00:00",
+  "updated_at": "2026-09-13T16:29:08.048637+00:00",
   "source_policy": "season15-items-static-catalog-v3",
   "catalog_items": 585,
   "forum_pages": [
@@ -24,8 +24,8 @@
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=75",
       "offset": 75,
-      "topics": 39,
-      "bytes": 8281
+      "topics": 33,
+      "bytes": 7862
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=100",
@@ -52,18 +52,11 @@
       "bytes": 282
     }
   ],
-  "discovered_topics": 39,
-  "cached_topics": 2743,
+  "discovered_topics": 33,
+  "cached_topics": 2775,
   "selected_topics": 53,
-  "parsed_this_run": 52,
-  "combined_samples": 1193,
-  "market_items": 285,
-  "topic_errors": [
-    {
-      "url": "https://forums.d2jsp.org/topic.php?t=110254828&f=123",
-      "title": "5/5 Fire Facet, Green, Die",
-      "reason": "new",
-      "error": "429 Too Many Requests (5/5)"
-    }
-  ]
+  "parsed_this_run": 53,
+  "combined_samples": 1106,
+  "market_items": 275,
+  "topic_errors": []
 }

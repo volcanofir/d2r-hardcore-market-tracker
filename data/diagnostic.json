@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T16:26:03.745611+00:00",
+  "updated_at": "2026-09-13T20:54:56.558702+00:00",
   "forum_pages": [
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&c=2",
@@ -56,10 +56,10 @@
       ]
     },
     {
-      "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=75",
+      "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=75",
       "offset": 75,
-      "topics": 26,
-      "bytes": 10427,
+      "topics": 0,
+      "bytes": 0,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=75",
@@ -68,21 +68,26 @@
         },
         {
           "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=75",
-          "topics": 26,
-          "bytes": 10427
+          "topics": 0,
+          "bytes": 285
         }
       ]
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=100",
       "offset": 100,
-      "topics": 25,
-      "bytes": 10294,
+      "topics": 0,
+      "bytes": 0,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=100",
-          "topics": 25,
-          "bytes": 10294
+          "topics": 0,
+          "bytes": 286
+        },
+        {
+          "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=100",
+          "topics": 0,
+          "bytes": 286
         }
       ]
     },
@@ -159,20 +164,15 @@
       ]
     },
     {
-      "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=225",
+      "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=225",
       "offset": 225,
       "topics": 26,
-      "bytes": 10394,
+      "bytes": 10651,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=225",
-          "topics": 0,
-          "bytes": 286
-        },
-        {
-          "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=225",
           "topics": 26,
-          "bytes": 10394
+          "bytes": 10651
         }
       ]
     },
@@ -249,27 +249,14 @@
       ]
     }
   ],
-  "discovered_topics": 77,
-  "cached_topics": 4251,
-  "selected_topics": 80,
-  "parsed_this_run": 78,
-  "completed_this_run": 24,
+  "discovered_topics": 26,
+  "cached_topics": 4269,
+  "selected_topics": 32,
+  "parsed_this_run": 32,
+  "completed_this_run": 16,
   "legacy_samples": 0,
-  "combined_samples": 1913,
-  "topic_errors": [
-    {
-      "url": "https://forums.d2jsp.org/topic.php?t=110267885&f=123",
-      "title": "Zod Cham Jah Ber Sur Oh Lo Vex",
-      "reason": "new",
-      "error": "429 Too Many Requests (5/5)"
-    },
-    {
-      "url": "https://forums.d2jsp.org/topic.php?t=110271574&f=123",
-      "title": "Lo Rune",
-      "reason": "new",
-      "error": "429 Too Many Requests (5/5)"
-    }
-  ],
+  "combined_samples": 1942,
+  "topic_errors": [],
   "season": 15,
   "season_label": "第 15 季天梯",
   "data_start": "2026-08-22",

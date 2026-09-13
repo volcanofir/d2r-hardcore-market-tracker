@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T23:10:42.011208+00:00",
+  "updated_at": "2026-09-13T04:56:46.436957+00:00",
   "source_policy": "season15-items-static-catalog-v3",
   "catalog_items": 585,
   "forum_pages": [
@@ -12,8 +12,8 @@
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=25",
       "offset": 25,
-      "topics": 32,
-      "bytes": 7772
+      "topics": 30,
+      "bytes": 10362
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=50",
@@ -30,8 +30,8 @@
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=100",
       "offset": 100,
-      "topics": 29,
-      "bytes": 10833
+      "topics": 0,
+      "bytes": 282
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=125",
@@ -52,18 +52,11 @@
       "bytes": 282
     }
   ],
-  "discovered_topics": 61,
-  "cached_topics": 2683,
-  "selected_topics": 76,
-  "parsed_this_run": 75,
-  "combined_samples": 1169,
-  "market_items": 283,
-  "topic_errors": [
-    {
-      "url": "https://forums.d2jsp.org/topic.php?t=110228829&f=123",
-      "title": "O 15 Ias 34 Ed Jewel",
-      "reason": "recheck",
-      "error": "429 Too Many Requests (5/5)"
-    }
-  ]
+  "discovered_topics": 30,
+  "cached_topics": 2710,
+  "selected_topics": 47,
+  "parsed_this_run": 47,
+  "combined_samples": 1175,
+  "market_items": 284,
+  "topic_errors": []
 }

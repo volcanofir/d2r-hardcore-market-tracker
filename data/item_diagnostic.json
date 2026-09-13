@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T04:56:46.436957+00:00",
+  "updated_at": "2026-09-13T12:04:47.585886+00:00",
   "source_policy": "season15-items-static-catalog-v3",
   "catalog_items": 585,
   "forum_pages": [
@@ -12,8 +12,8 @@
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=25",
       "offset": 25,
-      "topics": 30,
-      "bytes": 10362
+      "topics": 0,
+      "bytes": 281
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=50",
@@ -24,8 +24,8 @@
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=75",
       "offset": 75,
-      "topics": 0,
-      "bytes": 281
+      "topics": 39,
+      "bytes": 8281
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=100",
@@ -52,11 +52,18 @@
       "bytes": 282
     }
   ],
-  "discovered_topics": 30,
-  "cached_topics": 2710,
-  "selected_topics": 47,
-  "parsed_this_run": 47,
-  "combined_samples": 1175,
-  "market_items": 284,
-  "topic_errors": []
+  "discovered_topics": 39,
+  "cached_topics": 2743,
+  "selected_topics": 53,
+  "parsed_this_run": 52,
+  "combined_samples": 1193,
+  "market_items": 285,
+  "topic_errors": [
+    {
+      "url": "https://forums.d2jsp.org/topic.php?t=110254828&f=123",
+      "title": "5/5 Fire Facet, Green, Die",
+      "reason": "new",
+      "error": "429 Too Many Requests (5/5)"
+    }
+  ]
 }

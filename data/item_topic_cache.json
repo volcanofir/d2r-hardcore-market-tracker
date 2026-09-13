@@ -42022,48 +42022,21 @@
       "title": "Shop",
       "url": "https://forums.d2jsp.org/topic.php?t=109956415&f=123",
       "first_seen_at": "2026-09-13T16:26:24.666770+00:00",
-      "last_checked_at": "2026-09-13T16:26:35.892139+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-13T23:13:19.822914+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": [],
-      "topic_date": "2026-09-13"
+      "topic_date": null
     },
     "https://forums.d2jsp.org/topic.php?t=109956415&f=123&o=80": {
       "title": "9",
       "url": "https://forums.d2jsp.org/topic.php?t=109956415&f=123&o=80",
       "first_seen_at": "2026-09-13T16:26:24.666770+00:00",
-      "last_checked_at": "2026-09-13T16:27:34.340406+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-13T23:14:03.940558+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "item",
-          "id": "trap-skiller",
-          "label": "刺客陷阱技能超大護身符 (Trap Skiller)",
-          "category": "技能超大護身符",
-          "side": "unknown",
-          "price_fg": 100.0,
-          "title": "9",
-          "url": "https://forums.d2jsp.org/topic.php?t=109956415&f=123&o=80",
-          "observed_at": "2026-09-13T16:27:34.340406+00:00",
-          "topic_date": "2026-09-12",
-          "item_parser_v2": true
-        },
-        {
-          "kind": "item",
-          "id": "chance-guards",
-          "label": "運氣守護 (Chance Guards / Chancies)",
-          "category": "手套",
-          "side": "unknown",
-          "price_fg": 5.0,
-          "title": "9",
-          "url": "https://forums.d2jsp.org/topic.php?t=109956415&f=123&o=80",
-          "observed_at": "2026-09-13T16:27:34.340406+00:00",
-          "topic_date": "2026-09-12",
-          "item_parser_v2": true
-        }
-      ],
-      "topic_date": "2026-09-12"
+      "samples": [],
+      "topic_date": null
     },
     "https://forums.d2jsp.org/topic.php?t=109956415&f=123&o=90": {
       "title": "10",
@@ -42119,17 +42092,17 @@
       "title": "Defenders Fire 10 10",
       "url": "https://forums.d2jsp.org/topic.php?t=110222180&f=123",
       "first_seen_at": "2026-09-13T16:26:24.666770+00:00",
-      "last_checked_at": "2026-09-13T16:27:22.160384+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-13T23:13:48.313990+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": [],
-      "topic_date": "2026-09-08"
+      "topic_date": null
     },
     "https://forums.d2jsp.org/topic.php?t=110193337&f=123": {
       "title": "Grush Starting Now All In Game We Need Bumper",
       "url": "https://forums.d2jsp.org/topic.php?t=110193337&f=123",
       "first_seen_at": "2026-09-13T16:26:24.666770+00:00",
-      "last_checked_at": "2026-09-13T16:27:19.479111+00:00",
+      "last_checked_at": "2026-09-13T23:13:40.439873+00:00",
       "completed": false,
       "status": "parsed",
       "samples": [],
@@ -42189,71 +42162,71 @@
       "title": "Tgod",
       "url": "https://forums.d2jsp.org/topic.php?t=110255446&f=123",
       "first_seen_at": "2026-09-13T16:26:24.666770+00:00",
-      "last_checked_at": "2026-09-13T16:26:34.371782+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-13T23:13:15.766094+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": [],
-      "topic_date": "2026-09-11"
+      "topic_date": null
     },
     "https://forums.d2jsp.org/topic.php?t=110273280&f=123": {
       "title": "Iso Some Random Warlock Gear",
       "url": "https://forums.d2jsp.org/topic.php?t=110273280&f=123",
       "first_seen_at": "2026-09-13T16:26:24.666770+00:00",
-      "last_checked_at": "2026-09-13T16:26:58.614094+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-13T23:13:36.358838+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": [],
-      "topic_date": "2026-09-13"
+      "topic_date": null
     },
     "https://forums.d2jsp.org/topic.php?t=110269950&f=123": {
       "title": "Unid Tal Armor",
       "url": "https://forums.d2jsp.org/topic.php?t=110269950&f=123",
       "first_seen_at": "2026-09-13T16:26:24.666770+00:00",
-      "last_checked_at": "2026-09-13T16:26:29.432085+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-13T23:13:15.525398+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": [],
-      "topic_date": "2026-09-13"
+      "topic_date": null
     },
     "https://forums.d2jsp.org/topic.php?t=110261218&f=123": {
       "title": "Fire Warlock",
       "url": "https://forums.d2jsp.org/topic.php?t=110261218&f=123",
       "first_seen_at": "2026-09-13T16:26:24.666770+00:00",
-      "last_checked_at": "2026-09-13T16:27:12.417341+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-13T23:13:44.188067+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": [],
-      "topic_date": "2026-09-12"
+      "topic_date": null
     },
     "https://forums.d2jsp.org/topic.php?t=110273526&f=123": {
       "title": "Blizzard Ormus",
       "url": "https://forums.d2jsp.org/topic.php?t=110273526&f=123",
       "first_seen_at": "2026-09-13T16:26:24.666770+00:00",
-      "last_checked_at": "2026-09-13T16:27:23.566334+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-13T23:13:51.930673+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": [],
-      "topic_date": "2026-09-13"
+      "topic_date": null
     },
     "https://forums.d2jsp.org/topic.php?t=110273524&f=123": {
       "title": "Latent Cold Rupture",
       "url": "https://forums.d2jsp.org/topic.php?t=110273524&f=123",
       "first_seen_at": "2026-09-13T16:26:24.666770+00:00",
-      "last_checked_at": "2026-09-13T16:26:47.207746+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-13T23:13:24.552054+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": [],
-      "topic_date": "2026-09-13"
+      "topic_date": null
     },
     "https://forums.d2jsp.org/topic.php?t=110155755&f=123": {
       "title": "Eth Mancatcher 0os Vs Fg",
       "url": "https://forums.d2jsp.org/topic.php?t=110155755&f=123",
       "first_seen_at": "2026-09-13T16:26:24.666770+00:00",
-      "last_checked_at": "2026-09-13T16:27:27.918610+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-13T23:13:55.585913+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": [],
-      "topic_date": "2026-09-03"
+      "topic_date": null
     },
     "https://forums.d2jsp.org/topic.php?t=110155755&f=123&o=10": {
       "title": "2",
@@ -42269,71 +42242,71 @@
       "title": "O Cham Rune",
       "url": "https://forums.d2jsp.org/topic.php?t=110271179&f=123",
       "first_seen_at": "2026-09-13T16:26:24.666770+00:00",
-      "last_checked_at": "2026-09-13T16:26:46.106731+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-13T23:13:24.192731+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": [],
-      "topic_date": "2026-09-13"
+      "topic_date": null
     },
     "https://forums.d2jsp.org/topic.php?t=110273208&f=123": {
       "title": "Barb Torch. Btorch",
       "url": "https://forums.d2jsp.org/topic.php?t=110273208&f=123",
       "first_seen_at": "2026-09-13T16:26:24.666770+00:00",
-      "last_checked_at": "2026-09-13T16:27:29.144653+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-13T23:13:59.848482+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": [],
-      "topic_date": "2026-09-13"
+      "topic_date": null
     },
     "https://forums.d2jsp.org/topic.php?t=110273508&f=123": {
       "title": "Opalvein Light",
       "url": "https://forums.d2jsp.org/topic.php?t=110273508&f=123",
       "first_seen_at": "2026-09-13T16:26:24.666770+00:00",
-      "last_checked_at": "2026-09-13T16:26:41.594321+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-13T23:13:27.138318+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": [],
-      "topic_date": "2026-09-13"
+      "topic_date": null
     },
     "https://forums.d2jsp.org/topic.php?t=110266653&f=123": {
       "title": "Iso Cold Skill 30+ Life Gc's",
       "url": "https://forums.d2jsp.org/topic.php?t=110266653&f=123",
       "first_seen_at": "2026-09-13T16:26:24.666770+00:00",
-      "last_checked_at": "2026-09-13T16:26:55.392761+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-13T23:13:36.034583+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": [],
-      "topic_date": "2026-09-12"
+      "topic_date": null
     },
     "https://forums.d2jsp.org/topic.php?t=110273492&f=123": {
       "title": "Ber",
       "url": "https://forums.d2jsp.org/topic.php?t=110273492&f=123",
       "first_seen_at": "2026-09-13T16:26:24.666770+00:00",
-      "last_checked_at": "2026-09-13T16:27:28.146882+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-13T23:14:15.180523+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": [],
-      "topic_date": "2026-09-13"
+      "topic_date": null
     },
     "https://forums.d2jsp.org/topic.php?t=110263113&f=123": {
       "title": "Barb And War Lock Torch",
       "url": "https://forums.d2jsp.org/topic.php?t=110263113&f=123",
       "first_seen_at": "2026-09-13T16:26:24.666770+00:00",
-      "last_checked_at": "2026-09-13T16:27:33.607954+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-13T23:14:00.247114+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": [],
-      "topic_date": "2026-09-12"
+      "topic_date": null
     },
     "https://forums.d2jsp.org/topic.php?t=109927732&f=123": {
       "title": "Iso Gg Rare 2/2/40 Or 4/40 Javelins",
       "url": "https://forums.d2jsp.org/topic.php?t=109927732&f=123",
       "first_seen_at": "2026-09-13T16:26:24.666770+00:00",
-      "last_checked_at": "2026-09-13T16:26:53.913533+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-13T23:13:31.247270+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": [],
-      "topic_date": "2026-08-22"
+      "topic_date": null
     },
     "https://forums.d2jsp.org/topic.php?t=109927732&f=123&o=70": {
       "title": "8",
@@ -42349,22 +42322,22 @@
       "title": "9",
       "url": "https://forums.d2jsp.org/topic.php?t=109927732&f=123&o=80",
       "first_seen_at": "2026-09-13T16:26:24.666770+00:00",
-      "last_checked_at": "2026-09-13T16:27:38.531178+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-13T23:14:08.037442+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": [],
-      "topic_date": "2026-09-12"
+      "topic_date": null
     },
     "https://forums.d2jsp.org/topic.php?t=110273496&f=123": {
       "title": "Green Essence",
       "url": "https://forums.d2jsp.org/topic.php?t=110273496&f=123",
       "first_seen_at": "2026-09-13T16:26:24.666770+00:00",
-      "last_checked_at": "2026-09-13T16:27:03.406487+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-13T23:13:47.979873+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": [],
-      "topic_date": "2026-09-13"
+      "topic_date": null
     }
   },
-  "updated_at": "2026-09-13T20:56:22.966298+00:00"
+  "updated_at": "2026-09-13T23:14:15.181818+00:00"
 }

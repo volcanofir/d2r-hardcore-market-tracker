@@ -10,8 +10,8 @@ SEASON_LABEL = "第 15 季天梯"
 DATA_START = "2026-08-22"
 START_DATE = datetime(2026, 8, 22).date()
 START_DT = datetime(2026, 8, 22, tzinfo=timezone.utc)
-SOURCE_POLICY = "runes-c2-full-backfill-v4"
-PRICE_PARSER = "season15-runes-c2-full-v4"
+SOURCE_POLICY = "runes-c2-full-backfill-v5-eth-disambiguation"
+PRICE_PARSER = "season15-runes-c2-full-v5"
 RUNE_SOURCE = s.RUNE_FORUM
 ALT_RUNE_SOURCE = f"https://forums.d2jsp.org/forum.php?c=2&f={s.CFG['forum_id']}"
 
@@ -36,7 +36,7 @@ for names, cap in [
 
 RUNEWORD_CONTEXT = re.compile(
     r"\b(?:smoke|enigma|spirit|insight|infinity|hoto|heart of the oak|grief|fortitude|"
-    r"treachery|lore|stealth|obedience|cta|call to arms|ancients pledge)\b",
+    r"treachery|lore|stealth|obedience|cta|call to arms|ancients pledge|oath|rhyme)\b",
     re.I,
 )
 
@@ -82,6 +82,63 @@ def named_rune_context(rune, text):
     return False
 
 
+def eth_explicit_rune_context(text):
+    """Return True only when 'eth' is explicitly being used as rune #5.
+
+    'eth' is also the dominant d2jsp abbreviation for ethereal gear.  We therefore
+    require rune wording, a rune quantity, or a price directly attached to Eth.
+    Generic phrases such as 'eth thresher 150fg' or 'eth oath 75fg' stay excluded.
+    """
+    low = (text or "").lower()
+    if not re.search(r"(?<![a-z])eth(?![a-z])", low):
+        return False
+
+    if re.search(r"\bethereal\b", low):
+        return False
+
+    # If a runeword/item context is present, only an explicit "eth rune" phrase
+    # is strong enough to override the usual ethereal shorthand meaning.
+    explicit_name = bool(
+        re.search(r"\beth\s+runes?\b", low)
+        or re.search(r"\brunes?\s*(?:=|:|-)?\s*eth\b", low)
+    )
+    if RUNEWORD_CONTEXT.search(low) and not explicit_name:
+        return False
+    if explicit_name:
+        return True
+
+    # Quantified rune listings, e.g. "20x Eth 5fg" / "Eth x20 5fg".
+    if (
+        re.search(r"\b\d+\s*x\s*eth\b", low)
+        or re.search(r"\beth\s*x\s*\d+\b", low)
+        or re.search(
+            rf"\b\d+\s+eth\b\s*(?:runes?\s*)?(?:=|:|-|@|for)?\s*{s.PRICE}\s*(?:fg|forum\s*gold)\b",
+            low,
+            re.I,
+        )
+    ):
+        return True
+
+    # Directly priced rune listing, e.g. "Eth - 2fg", "Eth 2 FG".
+    if re.search(
+        rf"\beth\b\s*(?:rune\s*)?(?:=|:|-|@|for|vs|at|bin|price|pay|paying|sell(?:ing)?|ft|is)?\s*"
+        rf"{s.PRICE}\s*(?:fg|forum\s*gold)\b",
+        low,
+        re.I,
+    ):
+        return True
+
+    # Reverse price form, e.g. "2fg Eth", but reject if a runeword context exists.
+    if re.search(
+        rf"{s.PRICE}\s*(?:fg|forum\s*gold)\b\s*(?:each|ea|for|@|=|:|-|paying|pay)?\s*\beth\b",
+        low,
+        re.I,
+    ):
+        return True
+
+    return False
+
+
 def quantity_for_rune(rune, text):
     low = (text or "").lower()
     token = re.escape(rune.lower())
@@ -104,7 +161,14 @@ def quantity_for_rune(rune, text):
 def ambiguous_rune_context(rune, text):
     if _original_ambiguous(rune, text) or named_rune_context(rune, text):
         return True
+
     low = (text or "").lower()
+
+    # Eth is special: on d2jsp "eth" overwhelmingly means ethereal equipment.
+    # Do not count it as rune #5 unless the line explicitly proves rune intent.
+    if rune.lower() == "eth":
+        return not eth_explicit_rune_context(text)
+
     if RUNEWORD_CONTEXT.search(low) and not re.search(r"\brunes?\b", low):
         return True
     return False
@@ -124,9 +188,19 @@ def sample_valid(sample):
     if value > RUNE_MAX_FG[rune] or named_rune_context(rune, title):
         return False
 
-    if sample.get("parser_v4") is True:
+    # A runeword-heavy title is another strong hint that Eth means ethereal gear.
+    if rune == "Eth" and RUNEWORD_CONTEXT.search(title) and not re.search(r"\brunes?\b", title, re.I):
+        return False
+
+    if sample.get("parser_v5") is True:
         return True
-    if sample.get("parser_v3") or sample.get("parser_v2") or sample.get("legacy") or sample.get("topic_date"):
+    if (
+        sample.get("parser_v4")
+        or sample.get("parser_v3")
+        or sample.get("parser_v2")
+        or sample.get("legacy")
+        or sample.get("topic_date")
+    ):
         return False
     return True
 
@@ -151,6 +225,9 @@ def strict_line_prices(line):
         after = low[end:min(next_start, end + 80)]
         around = low[max(0, start - 45):min(len(low), end + 90)]
         price = None
+
+        if rune == "Eth" and not eth_explicit_rune_context(around):
+            continue
 
         qty = quantity_for_rune(rune, around)
         per_unit = bool(re.search(r"\b(?:each|ea|per\s+rune|apiece)\b", around))
@@ -240,7 +317,7 @@ def season_parse_topic(title, url):
         if sample.get("kind") != "rune":
             continue
         sample["topic_date"] = created.isoformat()
-        sample["parser_v4"] = True
+        sample["parser_v5"] = True
         sample["rune_source"] = RUNE_SOURCE
         if sample_valid(sample):
             clean.append(sample)
@@ -293,8 +370,8 @@ def season_discover_topics():
 
 
 def merge_with_previous(new_rows, previous_market):
-    # v4 rune data is rebuilt from scratch. Old custom-item samples were polluted
-    # by parser v2, so do not carry them into the full-backfill snapshot.
+    # v5 rune data is rebuilt from scratch. Do not carry older parser samples
+    # into the clean snapshot because Eth/ethereal was previously ambiguous.
     return [row for row in new_rows if row.get("kind") == "rune"]
 
 
@@ -308,7 +385,7 @@ def prepare_state():
 
     if policy_changed:
         save(s.CACHE_PATH, {
-            "version": 4,
+            "version": 5,
             "season": SEASON,
             "season_label": SEASON_LABEL,
             "data_start": DATA_START,
@@ -337,14 +414,14 @@ def finalize_state():
         "forum": RUNE_SOURCE,
         "rune_source": RUNE_SOURCE,
         "rune_source_policy": SOURCE_POLICY,
-        "data_policy": "符文行情僅採用 d2jsp D2:R RotW Hardcore Ladder Trading 的 Runes 分類（f=123&c=2），只統計 2026/08/22（含）後主題；全量回填所有待解析主題，之後每 3 小時增量更新。明確 bundle 總價會換算單顆價格。",
+        "data_policy": "符文行情僅採用 d2jsp D2:R RotW Hardcore Ladder Trading 的 Runes 分類（f=123&c=2），只統計 2026/08/22（含）後主題；全量回填所有待解析主題，之後每 3 小時增量更新。明確 bundle 總價會換算單顆價格；Eth 僅在明確符文語境下計入，排除 eth/ethereal 無形裝備縮寫。",
         "price_parser": PRICE_PARSER,
     })
     save(s.MARKET_PATH, market)
 
     cache = load(s.CACHE_PATH, {"topics": {}})
     cache.update({
-        "version": 4,
+        "version": 5,
         "season": SEASON,
         "season_label": SEASON_LABEL,
         "data_start": DATA_START,

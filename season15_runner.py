@@ -175,7 +175,10 @@ def ambiguous_rune_context(rune, text):
 
 
 def sample_valid(sample):
-    if not _original_sample_valid(sample):
+    # For Eth, validation is handled by the v5 line parser. Calling the legacy
+    # validator here would re-check only the topic title and wrongly discard
+    # valid Eth-rune lines from generic-titled posts.
+    if sample.get("id") != "Eth" and not _original_sample_valid(sample):
         return False
     if sample.get("kind") != "rune":
         return False

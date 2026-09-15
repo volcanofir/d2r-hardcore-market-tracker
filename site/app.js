@@ -29,6 +29,21 @@ function updateMarketToggle(){
   t.setAttribute('aria-expanded',String(!collapsed));
   t.innerHTML=collapsed?`展開${label}行情 <span>⌄</span>`:`收起${label}行情 <span>⌃</span>`;
 }
+function sourceDateText(s){
+  if(s.topic_time)return `來源時間 ${esc(s.topic_time)}`;
+  if(s.topic_date){
+    const p=String(s.topic_date).split('-');
+    if(p.length===3)return `來源日期 ${Number(p[0])}/${Number(p[1])}/${Number(p[2])}`;
+    return `來源日期 ${esc(s.topic_date)}`;
+  }
+  return '';
+}
+function observedText(s){
+  if(!s.observed_at)return '';
+  const d=new Date(s.observed_at);
+  if(Number.isNaN(d.getTime()))return '';
+  return `擷取 ${d.toLocaleString('zh-TW',{month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit',hour12:false})}`;
+}
 function sampleLinks(x){
   const unique=[];
   for(const s of (x.sources||[])){
@@ -37,10 +52,11 @@ function sampleLinks(x){
   }
   if(!unique.length)return '';
   const links=unique.map((s,i)=>{
-    const side=s.side==='trade'?'T4T / 成交':s.side==='ft'?'FT / BIN':s.side==='iso'?'ISO':'樣本';
-    return `<a class="sample-link" href="${esc(s.url)}" target="_blank" rel="noopener noreferrer"><span class="sample-index">${i+1}</span><span class="sample-main"><b>${esc(s.title||'市場樣本')}</b><small>${side}${s.price_fg!=null?' · '+fmt(s.price_fg)+' FG':''}</small></span><span class="sample-open">↗</span></a>`;
+    const side=s.side==='trade'?'T4T / 成交':s.side==='ft'?'FT / BIN':s.side==='iso'?'ISO':'來源';
+    const timing=[sourceDateText(s),observedText(s)].filter(Boolean).join(' · ');
+    return `<a class="sample-link" href="${esc(s.url)}" target="_blank" rel="noopener noreferrer"><span class="sample-index">${i+1}</span><span class="sample-main"><b>${esc(s.title||'市場來源')}</b><small>${side}${s.price_fg!=null?' · '+fmt(s.price_fg)+' FG':''}</small>${timing?`<small>${timing}</small>`:''}</span><span class="sample-open">↗</span></a>`;
   }).join('');
-  return `<details class="sample-links"><summary>查看樣本 <span>${unique.length}</span></summary><div class="sample-list">${links}</div></details>`;
+  return `<details class="sample-links"><summary>查看來源 <span>${unique.length}</span></summary><div class="sample-list">${links}</div></details>`;
 }
 function slotName(raw){
   raw=(raw||'其他').replace(/^套裝/,'').trim()||'其他';
@@ -85,7 +101,7 @@ function categoryParts(item){
 }
 function itemCard(item){
   const x=itemMarket(item.id),has=x.fair_fg!=null,part=categoryParts(item);
-  return `<article class="item-card"><div class="item-head"><div><div class="item-category">${part.subgroup}</div><h2>${item.label}</h2></div><span class="item-state">${has?(x.confidence||'low'):'待樣本'}</span></div><div class="fair item-fair">${has?fmt(x.fair_fg)+' <span class="unit">FG</span>':'—'}</div><div class="stats"><div class="stat"><span>ISO 買價</span><b>${fmt(x.iso_fg)}</b></div><div class="stat"><span>FT / BIN</span><b>${fmt(x.ft_fg)}</b></div><div class="stat"><span>成交 / T4T</span><b>${fmt(x.trade_fg)}</b></div></div><div class="meta"><span>樣本 ${x.samples||0}</span><span>${has?'可信度 '+(x.confidence||'low'):'等待可靠行情'}</span></div>${sampleLinks(x)}</article>`
+  return `<article class="item-card"><div class="item-head"><div><div class="item-category">${part.subgroup}</div><h2>${item.label}</h2></div><span class="item-state">${has?(x.confidence||'low'):'待來源'}</span></div><div class="fair item-fair">${has?fmt(x.fair_fg)+' <span class="unit">FG</span>':'—'}</div><div class="stats"><div class="stat"><span>ISO 買價</span><b>${fmt(x.iso_fg)}</b></div><div class="stat"><span>FT / BIN</span><b>${fmt(x.ft_fg)}</b></div><div class="stat"><span>成交 / T4T</span><b>${fmt(x.trade_fg)}</b></div></div><div class="meta"><span>來源 ${x.samples||0}</span><span>${has?'可信度 '+(x.confidence||'low'):'等待可靠行情'}</span></div>${sampleLinks(x)}</article>`
 }
 function renderItems(q,cards){
   const rows=CATALOG.filter(item=>{
@@ -136,7 +152,7 @@ function render(){
     if(runeCollapsed){cards.classList.add('collapsed');cards.innerHTML='';return}
     cards.classList.remove('collapsed');
     const rows=RUNES.map((r,i)=>({r,i,x:marketFor(r[1])})).filter(o=>(o.r.join(' ')+' '+(o.x.label||'')).toLowerCase().includes(q));
-    cards.innerHTML=rows.map(({r,i,x})=>`<article class="card"><div class="rune-icon" style="${runeStyle(i)}" aria-label="${r[1]} rune"></div><div class="rune-name"><h2>${r[0]} <small>${r[1]} (${i+1})</small></h2><div class="level">等級 · ${r[2]}</div></div><div class="market"><div class="fair">${fmt(x.fair_fg)} <span class="unit">FG</span></div><div class="stats"><div class="stat"><span>ISO 買價</span><b>${fmt(x.iso_fg)}</b></div><div class="stat"><span>FT / BIN</span><b>${fmt(x.ft_fg)}</b></div><div class="stat"><span>成交 / T4T</span><b>${fmt(x.trade_fg)}</b></div></div><div class="meta"><span>樣本 ${x.samples||0}</span><span>可信度 ${x.confidence||'—'}</span></div>${sampleLinks(x)}</div></article>`).join('')
+    cards.innerHTML=rows.map(({r,i,x})=>`<article class="card"><div class="rune-icon" style="${runeStyle(i)}" aria-label="${r[1]} rune"></div><div class="rune-name"><h2>${r[0]} <small>${r[1]} (${i+1})</small></h2><div class="level">等級 · ${r[2]}</div></div><div class="market"><div class="fair">${fmt(x.fair_fg)} <span class="unit">FG</span></div><div class="stats"><div class="stat"><span>ISO 買價</span><b>${fmt(x.iso_fg)}</b></div><div class="stat"><span>FT / BIN</span><b>${fmt(x.ft_fg)}</b></div><div class="stat"><span>成交 / T4T</span><b>${fmt(x.trade_fg)}</b></div></div><div class="meta"><span>來源 ${x.samples||0}</span><span>可信度 ${x.confidence||'—'}</span></div>${sampleLinks(x)}</div></article>`).join('')
   }else{
     cards.classList.add('item-mode');
     if(itemCollapsed){cards.classList.add('collapsed');cards.innerHTML='';return}

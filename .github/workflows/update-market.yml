@@ -9,6 +9,7 @@ on:
       - 'season15_runner.py'
       - 'item_tracker.py'
       - 'item_tracker_catalog.py'
+      - 'source_time_fix.py'
       - 'config/**'
       - 'requirements.txt'
       - '.github/workflows/update-market.yml'
@@ -42,11 +43,13 @@ jobs:
           git checkout -- season15_runner.py
       - name: Scrape Season 15 equipment market
         run: python item_tracker_catalog.py
+      - name: Correct d2jsp source times
+        run: python source_time_fix.py
       - name: Commit refreshed market data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/market.json data/history.json data/diagnostic.json data/topic_cache.json data/item_topic_cache.json data/item_diagnostic.json
+          git add data/market.json data/history.json data/diagnostic.json data/topic_cache.json data/item_topic_cache.json data/item_diagnostic.json data/source_time_cache.json
           if git diff --cached --quiet; then
             echo "No data changes"
             exit 0

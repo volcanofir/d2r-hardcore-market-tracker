@@ -836,7 +836,7 @@
       "title": "X2 Ber",
       "url": "https://forums.d2jsp.org/topic.php?t=110284893&f=123",
       "first_seen_at": "2026-09-15T03:09:40.672302+00:00",
-      "last_checked_at": "2026-09-15T03:09:51.091186+00:00",
+      "last_checked_at": "2026-09-15T17:03:10.005243+00:00",
       "completed": false,
       "status": "parsed",
       "samples": []
@@ -1277,7 +1277,7 @@
       "title": "Wts Zod Rune",
       "url": "https://forums.d2jsp.org/topic.php?t=110283625&f=123",
       "first_seen_at": "2026-09-15T03:09:40.672302+00:00",
-      "last_checked_at": "2026-09-15T03:09:51.228487+00:00",
+      "last_checked_at": "2026-09-15T17:03:11.089837+00:00",
       "completed": false,
       "status": "parsed",
       "samples": []
@@ -1619,7 +1619,7 @@
       "title": "Zod",
       "url": "https://forums.d2jsp.org/topic.php?t=110282509&f=123",
       "first_seen_at": "2026-09-15T03:09:40.672302+00:00",
-      "last_checked_at": "2026-09-15T03:09:50.108197+00:00",
+      "last_checked_at": "2026-09-15T17:03:08.593592+00:00",
       "completed": false,
       "status": "parsed",
       "samples": [
@@ -1631,7 +1631,7 @@
           "price_fg": 1450.0,
           "title": "Zod",
           "url": "https://forums.d2jsp.org/topic.php?t=110282509&f=123",
-          "observed_at": "2026-09-15T03:09:50.108197+00:00",
+          "observed_at": "2026-09-15T17:03:08.593592+00:00",
           "topic_date": "2026-09-14",
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
@@ -1732,7 +1732,7 @@
       "title": "Zod",
       "url": "https://forums.d2jsp.org/topic.php?t=110282443&f=123",
       "first_seen_at": "2026-09-15T03:09:40.672302+00:00",
-      "last_checked_at": "2026-09-15T03:09:50.599050+00:00",
+      "last_checked_at": "2026-09-15T17:03:09.741598+00:00",
       "completed": false,
       "status": "parsed",
       "samples": []
@@ -2667,7 +2667,7 @@
       "title": "Zod Rune",
       "url": "https://forums.d2jsp.org/topic.php?t=110280627&f=123",
       "first_seen_at": "2026-09-15T03:09:40.672302+00:00",
-      "last_checked_at": "2026-09-15T03:09:50.131235+00:00",
+      "last_checked_at": "2026-09-15T17:03:08.312554+00:00",
       "completed": false,
       "status": "parsed",
       "samples": []
@@ -3982,8 +3982,8 @@
       "title": "Craft Pack X 10",
       "url": "https://forums.d2jsp.org/topic.php?t=110288455&f=123",
       "first_seen_at": "2026-09-15T04:58:20.818310+00:00",
-      "last_checked_at": "2026-09-15T04:59:29.412900+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-15T17:03:06.168299+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -4000,8 +4000,8 @@
       "title": "// Runes For Sale //",
       "url": "https://forums.d2jsp.org/topic.php?t=110288391&f=123",
       "first_seen_at": "2026-09-15T04:58:20.818310+00:00",
-      "last_checked_at": "2026-09-15T04:59:47.037101+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-15T17:03:07.084793+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -4009,8 +4009,8 @@
       "title": "Ft Ber X3",
       "url": "https://forums.d2jsp.org/topic.php?t=110288367&f=123",
       "first_seen_at": "2026-09-15T04:58:20.818310+00:00",
-      "last_checked_at": "2026-09-15T04:59:23.995793+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-15T17:03:05.685883+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -4027,8 +4027,8 @@
       "title": "Fresh Ohm Vs 180",
       "url": "https://forums.d2jsp.org/topic.php?t=110288311&f=123",
       "first_seen_at": "2026-09-15T04:58:20.818310+00:00",
-      "last_checked_at": "2026-09-15T04:59:24.320720+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-15T17:03:05.657711+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -4072,63 +4072,10 @@
       "title": "10 Min Bedtime Shop",
       "url": "https://forums.d2jsp.org/topic.php?t=110288052&f=123",
       "first_seen_at": "2026-09-15T04:58:20.818310+00:00",
-      "last_checked_at": "2026-09-15T04:59:45.999786+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-15T17:03:06.732395+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Fal",
-          "label": "Fal",
-          "side": "unknown",
-          "price_fg": 10.0,
-          "title": "10 Min Bedtime Shop",
-          "url": "https://forums.d2jsp.org/topic.php?t=110288052&f=123",
-          "observed_at": "2026-09-15T04:59:45.999786+00:00",
-          "topic_date": "2026-09-14",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Ko",
-          "label": "Ko",
-          "side": "unknown",
-          "price_fg": 10.0,
-          "title": "10 Min Bedtime Shop",
-          "url": "https://forums.d2jsp.org/topic.php?t=110288052&f=123",
-          "observed_at": "2026-09-15T04:59:45.999786+00:00",
-          "topic_date": "2026-09-14",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Lum",
-          "label": "Lum",
-          "side": "unknown",
-          "price_fg": 10.0,
-          "title": "10 Min Bedtime Shop",
-          "url": "https://forums.d2jsp.org/topic.php?t=110288052&f=123",
-          "observed_at": "2026-09-15T04:59:45.999786+00:00",
-          "topic_date": "2026-09-14",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Hel",
-          "label": "Hel",
-          "side": "unknown",
-          "price_fg": 10.0,
-          "title": "10 Min Bedtime Shop",
-          "url": "https://forums.d2jsp.org/topic.php?t=110288052&f=123",
-          "observed_at": "2026-09-15T04:59:45.999786+00:00",
-          "topic_date": "2026-09-14",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110288033&f=123": {
       "title": "Jah Ft",
@@ -4162,115 +4109,10 @@
       "title": "Base Rune Skiller Sc Gc Uber Jwl Anni Etc",
       "url": "https://forums.d2jsp.org/topic.php?t=110286947&f=123",
       "first_seen_at": "2026-09-15T04:58:20.818310+00:00",
-      "last_checked_at": "2026-09-15T04:59:34.267524+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-15T17:03:06.185926+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Lum",
-          "label": "Lum",
-          "side": "unknown",
-          "price_fg": 6.0,
-          "title": "Base Rune Skiller Sc Gc Uber Jwl Anni Etc",
-          "url": "https://forums.d2jsp.org/topic.php?t=110286947&f=123",
-          "observed_at": "2026-09-15T04:59:34.267524+00:00",
-          "topic_date": "2026-09-14",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Fal",
-          "label": "Fal",
-          "side": "unknown",
-          "price_fg": 6.0,
-          "title": "Base Rune Skiller Sc Gc Uber Jwl Anni Etc",
-          "url": "https://forums.d2jsp.org/topic.php?t=110286947&f=123",
-          "observed_at": "2026-09-15T04:59:34.267524+00:00",
-          "topic_date": "2026-09-14",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Ko",
-          "label": "Ko",
-          "side": "unknown",
-          "price_fg": 8.0,
-          "title": "Base Rune Skiller Sc Gc Uber Jwl Anni Etc",
-          "url": "https://forums.d2jsp.org/topic.php?t=110286947&f=123",
-          "observed_at": "2026-09-15T04:59:34.267524+00:00",
-          "topic_date": "2026-09-14",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Lem",
-          "label": "Lem",
-          "side": "unknown",
-          "price_fg": 8.0,
-          "title": "Base Rune Skiller Sc Gc Uber Jwl Anni Etc",
-          "url": "https://forums.d2jsp.org/topic.php?t=110286947&f=123",
-          "observed_at": "2026-09-15T04:59:34.267524+00:00",
-          "topic_date": "2026-09-14",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Pul",
-          "label": "Pul",
-          "side": "unknown",
-          "price_fg": 20.0,
-          "title": "Base Rune Skiller Sc Gc Uber Jwl Anni Etc",
-          "url": "https://forums.d2jsp.org/topic.php?t=110286947&f=123",
-          "observed_at": "2026-09-15T04:59:34.267524+00:00",
-          "topic_date": "2026-09-14",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Ohm",
-          "label": "Ohm",
-          "side": "unknown",
-          "price_fg": 240.0,
-          "title": "Base Rune Skiller Sc Gc Uber Jwl Anni Etc",
-          "url": "https://forums.d2jsp.org/topic.php?t=110286947&f=123",
-          "observed_at": "2026-09-15T04:59:34.267524+00:00",
-          "topic_date": "2026-09-14",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Eth",
-          "label": "Eth",
-          "side": "unknown",
-          "price_fg": 16.67,
-          "title": "Base Rune Skiller Sc Gc Uber Jwl Anni Etc",
-          "url": "https://forums.d2jsp.org/topic.php?t=110286947&f=123",
-          "observed_at": "2026-09-15T04:59:34.267524+00:00",
-          "topic_date": "2026-09-14",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Eth",
-          "label": "Eth",
-          "side": "unknown",
-          "price_fg": 50.0,
-          "title": "Base Rune Skiller Sc Gc Uber Jwl Anni Etc",
-          "url": "https://forums.d2jsp.org/topic.php?t=110286947&f=123",
-          "observed_at": "2026-09-15T04:59:34.267524+00:00",
-          "topic_date": "2026-09-14",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110286946&f=123": {
       "title": "Ohm Ft",
@@ -4330,37 +4172,10 @@
       "title": "4",
       "url": "https://forums.d2jsp.org/topic.php?t=110282495&f=123&o=30",
       "first_seen_at": "2026-09-15T04:58:20.818310+00:00",
-      "last_checked_at": "2026-09-15T04:59:40.397982+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-15T17:03:06.588207+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Vex",
-          "label": "Vex",
-          "side": "unknown",
-          "price_fg": 100.0,
-          "title": "4",
-          "url": "https://forums.d2jsp.org/topic.php?t=110282495&f=123&o=30",
-          "observed_at": "2026-09-15T04:59:40.397982+00:00",
-          "topic_date": "2026-09-14",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Ist",
-          "label": "Ist",
-          "side": "unknown",
-          "price_fg": 40.0,
-          "title": "4",
-          "url": "https://forums.d2jsp.org/topic.php?t=110282495&f=123&o=30",
-          "observed_at": "2026-09-15T04:59:40.397982+00:00",
-          "topic_date": "2026-09-14",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110278171&f=123": {
       "title": "My Try Hard List",
@@ -4444,5 +4259,5 @@
       "samples": []
     }
   },
-  "updated_at": "2026-09-15T11:49:39.925965+00:00"
+  "updated_at": "2026-09-15T17:03:11.092955+00:00"
 }

@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-09-15T17:03:52.147671+00:00",
+  "updated_at": "2026-09-15T21:26:44.050667+00:00",
   "forum": "https://forums.d2jsp.org/forum.php?f=123&c=2",
   "topic_count": 0,
   "cached_topics": 380,
   "parsed_topics": 380,
-  "completed_topics": 289,
+  "completed_topics": 290,
   "parsed_this_run": 12,
   "sample_count": 47,
   "legacy_sample_count": 0,
@@ -257,8 +257,22 @@
       "trade_fg": 72.5,
       "samples": 8,
       "confidence": "medium",
-      "last_seen_at": "2026-09-15T04:59:00.635714+00:00",
+      "last_seen_at": "2026-09-15T21:24:51.399129+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Gul",
+          "label": "Gul",
+          "side": "ft",
+          "price_fg": 70.0,
+          "title": "Wts Gul 70fg",
+          "url": "https://forums.d2jsp.org/topic.php?t=110278218&f=123",
+          "observed_at": "2026-09-15T21:24:51.399129+00:00",
+          "topic_date": "2026-09-13",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/9/13 18:43"
+        },
         {
           "kind": "rune",
           "id": "Gul",
@@ -384,20 +398,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/9/13 23:20"
-        },
-        {
-          "kind": "rune",
-          "id": "Gul",
-          "label": "Gul",
-          "side": "ft",
-          "price_fg": 70.0,
-          "title": "Wts Gul 70fg",
-          "url": "https://forums.d2jsp.org/topic.php?t=110278218&f=123",
-          "observed_at": "2026-09-15T03:10:03.235973+00:00",
-          "topic_date": "2026-09-13",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/9/13 18:43"
         }
       ]
     },
@@ -411,8 +411,36 @@
       "trade_fg": 160.0,
       "samples": 4,
       "confidence": "medium",
-      "last_seen_at": "2026-09-15T04:59:55.600308+00:00",
+      "last_seen_at": "2026-09-15T21:25:23.979843+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Vex",
+          "label": "Vex",
+          "side": "unknown",
+          "price_fg": 110.0,
+          "title": "Vex",
+          "url": "https://forums.d2jsp.org/topic.php?t=110285779&f=123",
+          "observed_at": "2026-09-15T21:25:23.979843+00:00",
+          "topic_date": "2026-09-14",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/9/14 15:33"
+        },
+        {
+          "kind": "rune",
+          "id": "Vex",
+          "label": "Vex",
+          "side": "iso",
+          "price_fg": 130.0,
+          "title": "Wtb Rune Vex1 130fg",
+          "url": "https://forums.d2jsp.org/topic.php?t=110277863&f=123",
+          "observed_at": "2026-09-15T21:24:57.246930+00:00",
+          "topic_date": "2026-09-13",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/9/13 17:55"
+        },
         {
           "kind": "rune",
           "id": "Vex",
@@ -454,34 +482,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/9/14 22:47"
-        },
-        {
-          "kind": "rune",
-          "id": "Vex",
-          "label": "Vex",
-          "side": "unknown",
-          "price_fg": 110.0,
-          "title": "Vex",
-          "url": "https://forums.d2jsp.org/topic.php?t=110285779&f=123",
-          "observed_at": "2026-09-15T03:10:35.709951+00:00",
-          "topic_date": "2026-09-14",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/9/14 15:33"
-        },
-        {
-          "kind": "rune",
-          "id": "Vex",
-          "label": "Vex",
-          "side": "iso",
-          "price_fg": 130.0,
-          "title": "Wtb Rune Vex1 130fg",
-          "url": "https://forums.d2jsp.org/topic.php?t=110277863&f=123",
-          "observed_at": "2026-09-15T03:10:18.059510+00:00",
-          "topic_date": "2026-09-13",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/9/13 17:55"
         }
       ]
     },
@@ -495,8 +495,22 @@
       "trade_fg": 60.0,
       "samples": 5,
       "confidence": "medium",
-      "last_seen_at": "2026-09-15T03:21:23.108358+00:00",
+      "last_seen_at": "2026-09-15T21:24:56.008255+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Ist",
+          "label": "Ist",
+          "side": "iso",
+          "price_fg": 50.0,
+          "title": "Wtb: 5x Ist @ 250fg",
+          "url": "https://forums.d2jsp.org/topic.php?t=110279015&f=123",
+          "observed_at": "2026-09-15T21:24:56.008255+00:00",
+          "topic_date": "2026-09-13",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/9/13 20:44"
+        },
         {
           "kind": "rune",
           "id": "Ist",
@@ -580,20 +594,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/9/14 06:28"
-        },
-        {
-          "kind": "rune",
-          "id": "Ist",
-          "label": "Ist",
-          "side": "iso",
-          "price_fg": 50.0,
-          "title": "Wtb: 5x Ist @ 250fg",
-          "url": "https://forums.d2jsp.org/topic.php?t=110279015&f=123",
-          "observed_at": "2026-09-15T03:10:14.242353+00:00",
-          "topic_date": "2026-09-13",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/9/13 20:44"
         }
       ]
     },
@@ -971,8 +971,22 @@
       "trade_fg": null,
       "samples": 2,
       "confidence": "low",
-      "last_seen_at": "2026-09-15T03:17:36.834748+00:00",
+      "last_seen_at": "2026-09-15T21:25:09.050330+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Jah",
+          "label": "Jah",
+          "side": "iso",
+          "price_fg": 1400.0,
+          "title": "Wtb Jah For 1400 Fg",
+          "url": "https://forums.d2jsp.org/topic.php?t=110277630&f=123",
+          "observed_at": "2026-09-15T21:25:09.050330+00:00",
+          "topic_date": "2026-09-13",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/9/13 17:22"
+        },
         {
           "kind": "rune",
           "id": "Jah",
@@ -986,20 +1000,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/9/14 05:00"
-        },
-        {
-          "kind": "rune",
-          "id": "Jah",
-          "label": "Jah",
-          "side": "iso",
-          "price_fg": 1400.0,
-          "title": "Wtb Jah For 1400 Fg",
-          "url": "https://forums.d2jsp.org/topic.php?t=110277630&f=123",
-          "observed_at": "2026-09-15T03:10:26.899910+00:00",
-          "topic_date": "2026-09-13",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/9/13 17:22"
         }
       ]
     },
@@ -2085,8 +2085,9 @@
           "title": "Differently",
           "url": "https://forums.d2jsp.org/topic.php?t=110224038&f=123",
           "observed_at": "2026-09-08T21:21:33.624412+00:00",
-          "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "topic_date": "2026-09-15",
+          "item_parser_v2": true,
+          "topic_time": "2026/9/15 12:23"
         },
         {
           "kind": "item",
@@ -2279,7 +2280,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110224263&f=123",
           "observed_at": "2026-09-08T21:20:39.753053+00:00",
           "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/8 15:09"
         },
         {
           "kind": "item",
@@ -2487,7 +2489,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110208064&f=123&o=20",
           "observed_at": "2026-09-08T21:22:26.883101+00:00",
           "topic_date": "2026-09-07",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/7 17:49"
         },
         {
           "kind": "item",
@@ -5899,7 +5902,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110178220&f=123&o=10",
           "observed_at": "2026-09-08T21:22:52.211820+00:00",
           "topic_date": "2026-09-06",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/6 07:38"
         },
         {
           "kind": "item",
@@ -9818,7 +9822,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110202726&f=123",
           "observed_at": "2026-09-08T21:21:33.231439+00:00",
           "topic_date": "2026-09-06",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/6 18:53"
         },
         {
           "kind": "item",
@@ -9831,7 +9836,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110202726&f=123",
           "observed_at": "2026-09-08T21:21:33.231439+00:00",
           "topic_date": "2026-09-06",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/6 18:53"
         },
         {
           "kind": "item",
@@ -9844,7 +9850,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110202726&f=123",
           "observed_at": "2026-09-08T21:21:33.231439+00:00",
           "topic_date": "2026-09-06",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/6 18:53"
         },
         {
           "kind": "item",
@@ -9857,7 +9864,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110202726&f=123",
           "observed_at": "2026-09-08T21:21:33.231439+00:00",
           "topic_date": "2026-09-06",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/6 18:53"
         },
         {
           "kind": "item",
@@ -9870,7 +9878,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110202726&f=123",
           "observed_at": "2026-09-08T21:21:33.231439+00:00",
           "topic_date": "2026-09-06",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/6 18:53"
         },
         {
           "kind": "item",
@@ -9883,7 +9892,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110202726&f=123",
           "observed_at": "2026-09-08T21:21:33.231439+00:00",
           "topic_date": "2026-09-06",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/6 18:53"
         },
         {
           "kind": "item",
@@ -12050,7 +12060,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110174507&f=123&o=20",
           "observed_at": "2026-09-08T21:22:30.599414+00:00",
           "topic_date": "2026-09-07",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/7 12:00"
         },
         {
           "kind": "item",
@@ -14608,28 +14619,14 @@
       "kind": "item",
       "id": "vipermagi",
       "label": "蛇魔法師之皮 (Skin of the Vipermagi / Vmagi)",
-      "fair_fg": 50.0,
+      "fair_fg": 45.0,
       "iso_fg": 40.0,
       "ft_fg": 20.0,
       "trade_fg": 40.0,
-      "samples": 17,
+      "samples": 16,
       "confidence": "high",
-      "last_seen_at": "2026-09-15T11:51:01.581161+00:00",
+      "last_seen_at": "2026-09-11T11:30:34.160766+00:00",
       "sources": [
-        {
-          "kind": "item",
-          "id": "vipermagi",
-          "label": "蛇魔法師之皮 (Skin of the Vipermagi / Vmagi)",
-          "category": "胸甲",
-          "side": "unknown",
-          "price_fg": 70.0,
-          "title": "4",
-          "url": "https://forums.d2jsp.org/topic.php?t=110210270&f=123&o=30",
-          "observed_at": "2026-09-15T11:51:01.581161+00:00",
-          "topic_date": "2026-09-15",
-          "item_parser_v2": true,
-          "topic_time": "2026/9/15 05:05"
-        },
         {
           "kind": "item",
           "id": "vipermagi",
@@ -14774,7 +14771,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110208064&f=123&o=20",
           "observed_at": "2026-09-08T21:22:26.883101+00:00",
           "topic_date": "2026-09-07",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/7 17:49"
         },
         {
           "kind": "item",
@@ -14787,7 +14785,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110092811&f=123&o=30",
           "observed_at": "2026-09-08T21:22:14.719939+00:00",
           "topic_date": "2026-09-06",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/6 06:06"
         },
         {
           "kind": "item",
@@ -14800,7 +14799,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110092811&f=123&o=30",
           "observed_at": "2026-09-08T21:22:14.719939+00:00",
           "topic_date": "2026-09-06",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/6 06:06"
         },
         {
           "kind": "item",
@@ -16083,8 +16083,9 @@
           "title": "Differently",
           "url": "https://forums.d2jsp.org/topic.php?t=110224038&f=123",
           "observed_at": "2026-09-08T21:21:33.624412+00:00",
-          "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "topic_date": "2026-09-15",
+          "item_parser_v2": true,
+          "topic_time": "2026/9/15 12:23"
         },
         {
           "kind": "item",
@@ -16265,7 +16266,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110092811&f=123&o=30",
           "observed_at": "2026-09-08T21:22:14.719939+00:00",
           "topic_date": "2026-09-06",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/6 06:06"
         },
         {
           "kind": "item",
@@ -16841,8 +16843,9 @@
           "title": "Differently",
           "url": "https://forums.d2jsp.org/topic.php?t=110224038&f=123",
           "observed_at": "2026-09-08T21:21:33.624412+00:00",
-          "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "topic_date": "2026-09-15",
+          "item_parser_v2": true,
+          "topic_time": "2026/9/15 12:23"
         },
         {
           "kind": "item",
@@ -17772,7 +17775,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110128670&f=123&o=10",
           "observed_at": "2026-09-08T21:23:11.412408+00:00",
           "topic_date": "2026-09-05",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/5 01:22"
         },
         {
           "kind": "item",
@@ -17785,7 +17789,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110128670&f=123&o=10",
           "observed_at": "2026-09-08T21:23:11.412408+00:00",
           "topic_date": "2026-09-05",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/5 01:22"
         }
       ],
       "category": "長柄武器"
@@ -17853,7 +17858,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110223804&f=123",
           "observed_at": "2026-09-08T21:21:01.260857+00:00",
           "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/8 14:25"
         },
         {
           "kind": "item",
@@ -17866,7 +17872,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110223804&f=123",
           "observed_at": "2026-09-08T21:21:01.260857+00:00",
           "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/8 14:25"
         },
         {
           "kind": "item",
@@ -17947,8 +17954,9 @@
           "title": "Differently",
           "url": "https://forums.d2jsp.org/topic.php?t=110224038&f=123",
           "observed_at": "2026-09-08T21:21:33.624412+00:00",
-          "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "topic_date": "2026-09-15",
+          "item_parser_v2": true,
+          "topic_time": "2026/9/15 12:23"
         }
       ],
       "category": "咒符"
@@ -20329,5 +20337,5 @@
   "item_topic_count": 0,
   "item_cached_topics": 2927,
   "item_parsed_topics": 2927,
-  "item_sample_count": 1047
+  "item_sample_count": 1046
 }

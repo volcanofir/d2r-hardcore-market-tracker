@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-09-16T17:04:16.579129+00:00",
+  "updated_at": "2026-09-16T21:21:37.609941+00:00",
   "forum": "https://forums.d2jsp.org/forum.php?f=123&c=2",
   "topic_count": 0,
   "cached_topics": 407,
   "parsed_topics": 407,
-  "completed_topics": 333,
+  "completed_topics": 337,
   "parsed_this_run": 12,
   "sample_count": 44,
   "legacy_sample_count": 0,
@@ -1278,7 +1278,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110038575&f=123",
           "observed_at": "2026-09-09T21:04:42.784795+00:00",
           "topic_date": "2026-08-27",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/8/27 12:18"
         },
         {
           "kind": "item",
@@ -1291,7 +1292,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110038575&f=123",
           "observed_at": "2026-09-09T21:04:42.784795+00:00",
           "topic_date": "2026-08-27",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/8/27 12:18"
         },
         {
           "kind": "item",
@@ -1901,7 +1903,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110203361&f=123&o=20",
           "observed_at": "2026-09-09T21:07:24.385305+00:00",
           "topic_date": "2026-09-07",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/7 07:49"
         },
         {
           "kind": "item",
@@ -1914,7 +1917,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110207922&f=123&o=20",
           "observed_at": "2026-09-09T21:07:19.336252+00:00",
           "topic_date": "2026-09-09",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/9 12:55"
         },
         {
           "kind": "item",
@@ -2247,7 +2251,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110226325&f=123&o=10",
           "observed_at": "2026-09-09T21:07:41.502967+00:00",
           "topic_date": "2026-09-09",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/9 13:07"
         },
         {
           "kind": "item",
@@ -2260,7 +2265,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110226325&f=123&o=10",
           "observed_at": "2026-09-09T21:07:41.502967+00:00",
           "topic_date": "2026-09-09",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/9 13:07"
         },
         {
           "kind": "item",
@@ -2482,7 +2488,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110234055&f=123",
           "observed_at": "2026-09-09T21:05:54.485687+00:00",
           "topic_date": "2026-09-09",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/9 14:32"
         },
         {
           "kind": "item",
@@ -3710,11 +3717,11 @@
       "kind": "item",
       "id": "unique-crescent-moon",
       "label": "新月 (Crescent Moon)",
-      "fair_fg": 20.0,
+      "fair_fg": 25.0,
       "iso_fg": null,
       "ft_fg": 35.0,
       "trade_fg": null,
-      "samples": 7,
+      "samples": 6,
       "confidence": "medium",
       "last_seen_at": "2026-09-10T20:58:49.749089+00:00",
       "sources": [
@@ -3731,19 +3738,6 @@
           "topic_date": "2026-09-08",
           "item_parser_v2": true,
           "topic_time": "2026/9/8 17:00"
-        },
-        {
-          "kind": "item",
-          "id": "unique-crescent-moon",
-          "label": "新月 (Crescent Moon)",
-          "category": "護身符",
-          "side": "unknown",
-          "price_fg": 15.0,
-          "title": "(= Shop Shop =)",
-          "url": "https://forums.d2jsp.org/topic.php?t=110206080&f=123",
-          "observed_at": "2026-09-10T04:57:14.323165+00:00",
-          "topic_date": "2026-09-07",
-          "item_parser_v2": true
         },
         {
           "kind": "item",
@@ -5308,8 +5302,22 @@
       "trade_fg": null,
       "samples": 6,
       "confidence": "medium",
-      "last_seen_at": "2026-09-10T20:58:49.749089+00:00",
+      "last_seen_at": "2026-09-16T21:21:25.559719+00:00",
       "sources": [
+        {
+          "kind": "item",
+          "id": "unique-hellwarden-s-will",
+          "label": "地獄刑長的意志 (Hellwarden's Will)",
+          "category": "頭盔",
+          "side": "unknown",
+          "price_fg": 30.0,
+          "title": "2",
+          "url": "https://forums.d2jsp.org/topic.php?t=110166414&f=123&o=10",
+          "observed_at": "2026-09-16T21:21:25.559719+00:00",
+          "topic_date": "2026-09-05",
+          "item_parser_v2": true,
+          "topic_time": "2026/9/5 08:15"
+        },
         {
           "kind": "item",
           "id": "unique-hellwarden-s-will",
@@ -5323,20 +5331,6 @@
           "topic_date": "2026-09-08",
           "item_parser_v2": true,
           "topic_time": "2026/9/8 17:00"
-        },
-        {
-          "kind": "item",
-          "id": "unique-hellwarden-s-will",
-          "label": "地獄刑長的意志 (Hellwarden's Will)",
-          "category": "頭盔",
-          "side": "unknown",
-          "price_fg": 30.0,
-          "title": "2",
-          "url": "https://forums.d2jsp.org/topic.php?t=110166414&f=123&o=10",
-          "observed_at": "2026-09-10T04:56:57.219639+00:00",
-          "topic_date": "2026-09-05",
-          "item_parser_v2": true,
-          "topic_time": "2026/9/5 08:15"
         },
         {
           "kind": "item",
@@ -7932,11 +7926,11 @@
       "kind": "item",
       "id": "unique-goblin-toe",
       "label": "哥布林腳趾 (Goblin Toe)",
-      "fair_fg": 12.5,
+      "fair_fg": 10.0,
       "iso_fg": null,
       "ft_fg": 7.5,
       "trade_fg": null,
-      "samples": 6,
+      "samples": 5,
       "confidence": "medium",
       "last_seen_at": "2026-09-13T04:55:17.633326+00:00",
       "sources": [
@@ -7966,19 +7960,6 @@
           "topic_date": "2026-09-09",
           "item_parser_v2": true,
           "topic_time": "2026/9/9 00:31"
-        },
-        {
-          "kind": "item",
-          "id": "unique-goblin-toe",
-          "label": "哥布林腳趾 (Goblin Toe)",
-          "category": "鞋子",
-          "side": "unknown",
-          "price_fg": 15.0,
-          "title": "(= Shop Shop =)",
-          "url": "https://forums.d2jsp.org/topic.php?t=110206080&f=123",
-          "observed_at": "2026-09-10T04:57:14.323165+00:00",
-          "topic_date": "2026-09-07",
-          "item_parser_v2": true
         },
         {
           "kind": "item",
@@ -8147,8 +8128,8 @@
       "iso_fg": null,
       "ft_fg": 30.0,
       "trade_fg": null,
-      "samples": 10,
-      "confidence": "high",
+      "samples": 9,
+      "confidence": "medium",
       "last_seen_at": "2026-09-13T04:55:17.633326+00:00",
       "sources": [
         {
@@ -8162,19 +8143,6 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110046751&f=123",
           "observed_at": "2026-09-13T04:55:17.633326+00:00",
           "topic_date": "2026-08-27",
-          "item_parser_v2": true
-        },
-        {
-          "kind": "item",
-          "id": "unique-measured-wrath",
-          "label": "審慎之怒 (Measured Wrath)",
-          "category": "盾牌",
-          "side": "unknown",
-          "price_fg": 10.0,
-          "title": "2",
-          "url": "https://forums.d2jsp.org/topic.php?t=110206080&f=123&o=10",
-          "observed_at": "2026-09-10T04:56:55.745655+00:00",
-          "topic_date": "2026-09-09",
           "item_parser_v2": true
         },
         {
@@ -8649,7 +8617,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110228273&f=123&o=10",
           "observed_at": "2026-09-09T21:07:41.203221+00:00",
           "topic_date": "2026-09-09",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/9 09:58"
         },
         {
           "kind": "item",
@@ -8662,7 +8631,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110228273&f=123&o=10",
           "observed_at": "2026-09-09T21:07:41.203221+00:00",
           "topic_date": "2026-09-09",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/9 09:58"
         },
         {
           "kind": "item",
@@ -8759,7 +8729,7 @@
       "iso_fg": null,
       "ft_fg": 15.0,
       "trade_fg": 10.0,
-      "samples": 8,
+      "samples": 7,
       "confidence": "medium",
       "last_seen_at": "2026-09-10T20:58:49.749089+00:00",
       "sources": [
@@ -8776,19 +8746,6 @@
           "topic_date": "2026-09-08",
           "item_parser_v2": true,
           "topic_time": "2026/9/8 17:00"
-        },
-        {
-          "kind": "item",
-          "id": "unique-infernostride",
-          "label": "地獄闊步 (Infernostride)",
-          "category": "鞋子",
-          "side": "unknown",
-          "price_fg": 10.0,
-          "title": "2",
-          "url": "https://forums.d2jsp.org/topic.php?t=110218533&f=123&o=10",
-          "observed_at": "2026-09-10T04:56:45.785204+00:00",
-          "topic_date": "2026-09-09",
-          "item_parser_v2": true
         },
         {
           "kind": "item",
@@ -9333,7 +9290,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110188094&f=123&o=10",
           "observed_at": "2026-09-09T21:07:58.058855+00:00",
           "topic_date": "2026-09-06",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/6 20:15"
         },
         {
           "kind": "item",
@@ -9346,7 +9304,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110188094&f=123&o=10",
           "observed_at": "2026-09-09T21:07:58.058855+00:00",
           "topic_date": "2026-09-06",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/6 20:15"
         },
         {
           "kind": "item",
@@ -9359,7 +9318,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110203361&f=123&o=10",
           "observed_at": "2026-09-09T21:07:48.530013+00:00",
           "topic_date": "2026-09-06",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/6 22:50"
         },
         {
           "kind": "item",
@@ -10030,23 +9990,10 @@
       "iso_fg": null,
       "ft_fg": null,
       "trade_fg": null,
-      "samples": 3,
+      "samples": 2,
       "confidence": "low",
-      "last_seen_at": "2026-09-10T04:57:14.323165+00:00",
+      "last_seen_at": "2026-09-03T11:26:41.389555+00:00",
       "sources": [
-        {
-          "kind": "item",
-          "id": "unique-seraph-s-hymn",
-          "label": "熾天使之韻 (Seraph's Hymn)",
-          "category": "護身符",
-          "side": "unknown",
-          "price_fg": 30.0,
-          "title": "(= Shop Shop =)",
-          "url": "https://forums.d2jsp.org/topic.php?t=110206080&f=123",
-          "observed_at": "2026-09-10T04:57:14.323165+00:00",
-          "topic_date": "2026-09-07",
-          "item_parser_v2": true
-        },
         {
           "kind": "item",
           "id": "unique-seraph-s-hymn",
@@ -10278,27 +10225,14 @@
       "kind": "item",
       "id": "unique-carrion-wind",
       "label": "腐肉之風 (Carrion Wind)",
-      "fair_fg": 10.0,
+      "fair_fg": 12.5,
       "iso_fg": null,
       "ft_fg": null,
       "trade_fg": null,
-      "samples": 5,
+      "samples": 4,
       "confidence": "medium",
-      "last_seen_at": "2026-09-10T04:57:14.323165+00:00",
+      "last_seen_at": "2026-09-04T16:32:50.811496+00:00",
       "sources": [
-        {
-          "kind": "item",
-          "id": "unique-carrion-wind",
-          "label": "腐肉之風 (Carrion Wind)",
-          "category": "戒指",
-          "side": "unknown",
-          "price_fg": 10.0,
-          "title": "(= Shop Shop =)",
-          "url": "https://forums.d2jsp.org/topic.php?t=110206080&f=123",
-          "observed_at": "2026-09-10T04:57:14.323165+00:00",
-          "topic_date": "2026-09-07",
-          "item_parser_v2": true
-        },
         {
           "kind": "item",
           "id": "unique-carrion-wind",
@@ -10810,11 +10744,11 @@
       "kind": "item",
       "id": "trang-gloves",
       "label": "塔格奧之爪 (Trang-Oul's Claws / Trang Gloves)",
-      "fair_fg": 16.0,
+      "fair_fg": 17.0,
       "iso_fg": 30.0,
       "ft_fg": 20.0,
       "trade_fg": 15.0,
-      "samples": 12,
+      "samples": 11,
       "confidence": "high",
       "last_seen_at": "2026-09-13T12:02:27.376573+00:00",
       "sources": [
@@ -10829,19 +10763,6 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110239362&f=123",
           "observed_at": "2026-09-13T12:02:27.376573+00:00",
           "topic_date": "2026-09-10",
-          "item_parser_v2": true
-        },
-        {
-          "kind": "item",
-          "id": "trang-gloves",
-          "label": "塔格奧之爪 (Trang-Oul's Claws / Trang Gloves)",
-          "category": "手套",
-          "side": "unknown",
-          "price_fg": 15.0,
-          "title": "(= Shop Shop =)",
-          "url": "https://forums.d2jsp.org/topic.php?t=110206080&f=123",
-          "observed_at": "2026-09-10T04:57:14.323165+00:00",
-          "topic_date": "2026-09-07",
           "item_parser_v2": true
         },
         {
@@ -12579,7 +12500,7 @@
       "iso_fg": null,
       "ft_fg": 15.0,
       "trade_fg": null,
-      "samples": 11,
+      "samples": 10,
       "confidence": "high",
       "last_seen_at": "2026-09-10T20:58:49.749089+00:00",
       "sources": [
@@ -12596,19 +12517,6 @@
           "topic_date": "2026-09-08",
           "item_parser_v2": true,
           "topic_time": "2026/9/8 17:00"
-        },
-        {
-          "kind": "item",
-          "id": "unique-goldwrap",
-          "label": "黃金裹腰 (Goldwrap)",
-          "category": "腰帶",
-          "side": "unknown",
-          "price_fg": 15.0,
-          "title": "(= Shop Shop =)",
-          "url": "https://forums.d2jsp.org/topic.php?t=110206080&f=123",
-          "observed_at": "2026-09-10T04:57:14.323165+00:00",
-          "topic_date": "2026-09-07",
-          "item_parser_v2": true
         },
         {
           "kind": "item",
@@ -13258,7 +13166,7 @@
       "iso_fg": 30.0,
       "ft_fg": 20.0,
       "trade_fg": null,
-      "samples": 11,
+      "samples": 10,
       "confidence": "high",
       "last_seen_at": "2026-09-11T04:49:44.917704+00:00",
       "sources": [
@@ -13273,19 +13181,6 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110246807&f=123",
           "observed_at": "2026-09-11T04:49:44.917704+00:00",
           "topic_date": "2026-09-10",
-          "item_parser_v2": true
-        },
-        {
-          "kind": "item",
-          "id": "thunderstroke",
-          "label": "雷擊 (Thunderstroke / Tstroke)",
-          "category": "武器",
-          "side": "unknown",
-          "price_fg": 15.0,
-          "title": "(= Shop Shop =)",
-          "url": "https://forums.d2jsp.org/topic.php?t=110206080&f=123",
-          "observed_at": "2026-09-10T04:57:14.323165+00:00",
-          "topic_date": "2026-09-07",
           "item_parser_v2": true
         },
         {
@@ -14199,8 +14094,22 @@
       "trade_fg": null,
       "samples": 6,
       "confidence": "medium",
-      "last_seen_at": "2026-09-13T04:55:17.633326+00:00",
+      "last_seen_at": "2026-09-16T21:21:25.559719+00:00",
       "sources": [
+        {
+          "kind": "item",
+          "id": "unique-raven-claw",
+          "label": "掠鴉之爪 (Raven Claw)",
+          "category": "弓",
+          "side": "unknown",
+          "price_fg": 10.0,
+          "title": "2",
+          "url": "https://forums.d2jsp.org/topic.php?t=110166414&f=123&o=10",
+          "observed_at": "2026-09-16T21:21:25.559719+00:00",
+          "topic_date": "2026-09-05",
+          "item_parser_v2": true,
+          "topic_time": "2026/9/5 08:15"
+        },
         {
           "kind": "item",
           "id": "unique-raven-claw",
@@ -14226,20 +14135,6 @@
           "observed_at": "2026-09-10T23:16:45.418890+00:00",
           "topic_date": "2026-09-10",
           "item_parser_v2": true
-        },
-        {
-          "kind": "item",
-          "id": "unique-raven-claw",
-          "label": "掠鴉之爪 (Raven Claw)",
-          "category": "弓",
-          "side": "unknown",
-          "price_fg": 10.0,
-          "title": "2",
-          "url": "https://forums.d2jsp.org/topic.php?t=110166414&f=123&o=10",
-          "observed_at": "2026-09-10T04:56:57.219639+00:00",
-          "topic_date": "2026-09-05",
-          "item_parser_v2": true,
-          "topic_time": "2026/9/5 08:15"
         },
         {
           "kind": "item",
@@ -16996,23 +16891,10 @@
       "iso_fg": null,
       "ft_fg": null,
       "trade_fg": 400.0,
-      "samples": 5,
+      "samples": 4,
       "confidence": "medium",
-      "last_seen_at": "2026-09-10T04:56:50.700536+00:00",
+      "last_seen_at": "2026-09-10T04:53:50.788632+00:00",
       "sources": [
-        {
-          "kind": "item",
-          "id": "unique-renewed-black-cleft",
-          "label": "新生漆黑裂口 (Renewed Black Cleft)",
-          "category": "咒符",
-          "side": "unknown",
-          "price_fg": 450.0,
-          "title": "2",
-          "url": "https://forums.d2jsp.org/topic.php?t=110212201&f=123&o=10",
-          "observed_at": "2026-09-10T04:56:50.700536+00:00",
-          "topic_date": "2026-09-09",
-          "item_parser_v2": true
-        },
         {
           "kind": "item",
           "id": "unique-renewed-black-cleft",
@@ -19212,7 +19094,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-09-10T04:56:57.219639+00:00",
+      "last_seen_at": "2026-09-16T21:21:25.559719+00:00",
       "sources": [
         {
           "kind": "item",
@@ -19223,7 +19105,7 @@
           "price_fg": 20.0,
           "title": "2",
           "url": "https://forums.d2jsp.org/topic.php?t=110166414&f=123&o=10",
-          "observed_at": "2026-09-10T04:56:57.219639+00:00",
+          "observed_at": "2026-09-16T21:21:25.559719+00:00",
           "topic_date": "2026-09-05",
           "item_parser_v2": true,
           "topic_time": "2026/9/5 08:15"
@@ -19328,34 +19210,6 @@
         }
       ],
       "category": "咒符"
-    },
-    {
-      "kind": "item",
-      "id": "unique-windforce",
-      "label": "風之力 (Windforce)",
-      "fair_fg": 60.0,
-      "iso_fg": null,
-      "ft_fg": null,
-      "trade_fg": null,
-      "samples": 1,
-      "confidence": "low",
-      "last_seen_at": "2026-09-10T04:57:14.323165+00:00",
-      "sources": [
-        {
-          "kind": "item",
-          "id": "unique-windforce",
-          "label": "風之力 (Windforce)",
-          "category": "弓",
-          "side": "unknown",
-          "price_fg": 60.0,
-          "title": "(= Shop Shop =)",
-          "url": "https://forums.d2jsp.org/topic.php?t=110206080&f=123",
-          "observed_at": "2026-09-10T04:57:14.323165+00:00",
-          "topic_date": "2026-09-07",
-          "item_parser_v2": true
-        }
-      ],
-      "category": "弓"
     },
     {
       "kind": "item",
@@ -20110,5 +19964,5 @@
   "item_topic_count": 0,
   "item_cached_topics": 2927,
   "item_parsed_topics": 2927,
-  "item_sample_count": 1017
+  "item_sample_count": 1006
 }

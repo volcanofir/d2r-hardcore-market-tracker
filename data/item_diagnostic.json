@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T17:04:16.594448+00:00",
+  "updated_at": "2026-09-16T21:21:37.617801+00:00",
   "source_policy": "season15-items-static-catalog-v3",
   "catalog_items": 585,
   "forum_pages": [
@@ -55,15 +55,8 @@
   "discovered_topics": 0,
   "cached_topics": 2927,
   "selected_topics": 20,
-  "parsed_this_run": 19,
-  "combined_samples": 1075,
-  "market_items": 274,
-  "topic_errors": [
-    {
-      "url": "https://forums.d2jsp.org/topic.php?t=110236849&f=123",
-      "title": "Enigma In Sup Mp",
-      "reason": "recheck",
-      "error": "429 Too Many Requests (5/5)"
-    }
-  ]
+  "parsed_this_run": 20,
+  "combined_samples": 1064,
+  "market_items": 273,
+  "topic_errors": []
 }

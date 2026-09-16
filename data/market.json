@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-15T21:26:44.050667+00:00",
+  "updated_at": "2026-09-16T04:57:04.017484+00:00",
   "forum": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-  "topic_count": 0,
-  "cached_topics": 380,
-  "parsed_topics": 380,
-  "completed_topics": 290,
-  "parsed_this_run": 12,
-  "sample_count": 47,
+  "topic_count": 27,
+  "cached_topics": 407,
+  "parsed_topics": 407,
+  "completed_topics": 309,
+  "parsed_this_run": 39,
+  "sample_count": 49,
   "legacy_sample_count": 0,
   "market": [
     {
@@ -97,14 +97,28 @@
       "kind": "rune",
       "id": "Fal",
       "label": "Fal",
-      "fair_fg": 10.0,
-      "iso_fg": null,
+      "fair_fg": 5.0,
+      "iso_fg": 5.0,
       "ft_fg": null,
       "trade_fg": null,
-      "samples": 2,
+      "samples": 3,
       "confidence": "low",
-      "last_seen_at": "2026-09-15T03:23:04.651067+00:00",
+      "last_seen_at": "2026-09-16T04:54:53.257470+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Fal",
+          "label": "Fal",
+          "side": "iso",
+          "price_fg": 5.0,
+          "title": "Iso Fal Rune For 5fg",
+          "url": "https://forums.d2jsp.org/topic.php?t=110291597&f=123",
+          "observed_at": "2026-09-16T04:54:53.257470+00:00",
+          "topic_date": "2026-09-15",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/9/15 09:39"
+        },
         {
           "kind": "rune",
           "id": "Fal",
@@ -251,27 +265,27 @@
       "kind": "rune",
       "id": "Gul",
       "label": "Gul",
-      "fair_fg": 67.5,
+      "fair_fg": 65.0,
       "iso_fg": 390.0,
       "ft_fg": 65.0,
       "trade_fg": 72.5,
       "samples": 8,
       "confidence": "medium",
-      "last_seen_at": "2026-09-15T21:24:51.399129+00:00",
+      "last_seen_at": "2026-09-16T04:54:16.440916+00:00",
       "sources": [
         {
           "kind": "rune",
           "id": "Gul",
           "label": "Gul",
-          "side": "ft",
-          "price_fg": 70.0,
-          "title": "Wts Gul 70fg",
-          "url": "https://forums.d2jsp.org/topic.php?t=110278218&f=123",
-          "observed_at": "2026-09-15T21:24:51.399129+00:00",
-          "topic_date": "2026-09-13",
+          "side": "unknown",
+          "price_fg": 65.0,
+          "title": "Sur, Ist",
+          "url": "https://forums.d2jsp.org/topic.php?t=110291521&f=123",
+          "observed_at": "2026-09-16T04:54:16.440916+00:00",
+          "topic_date": "2026-09-15",
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/9/13 18:43"
+          "topic_time": "2026/9/15 09:27"
         },
         {
           "kind": "rune",
@@ -405,14 +419,28 @@
       "kind": "rune",
       "id": "Vex",
       "label": "Vex",
-      "fair_fg": 120.0,
-      "iso_fg": 145.0,
+      "fair_fg": 115.0,
+      "iso_fg": 160.0,
       "ft_fg": null,
       "trade_fg": 160.0,
       "samples": 4,
       "confidence": "medium",
-      "last_seen_at": "2026-09-15T21:25:23.979843+00:00",
+      "last_seen_at": "2026-09-16T04:53:46.601627+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Vex",
+          "label": "Vex",
+          "side": "unknown",
+          "price_fg": 120.0,
+          "title": "Vex For Sale",
+          "url": "https://forums.d2jsp.org/topic.php?t=110291536&f=123",
+          "observed_at": "2026-09-16T04:53:46.601627+00:00",
+          "topic_date": "2026-09-15",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/9/15 09:29"
+        },
         {
           "kind": "rune",
           "id": "Vex",
@@ -426,20 +454,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/9/14 15:33"
-        },
-        {
-          "kind": "rune",
-          "id": "Vex",
-          "label": "Vex",
-          "side": "iso",
-          "price_fg": 130.0,
-          "title": "Wtb Rune Vex1 130fg",
-          "url": "https://forums.d2jsp.org/topic.php?t=110277863&f=123",
-          "observed_at": "2026-09-15T21:24:57.246930+00:00",
-          "topic_date": "2026-09-13",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/9/13 17:55"
         },
         {
           "kind": "rune",
@@ -490,27 +504,13 @@
       "id": "Ist",
       "label": "Ist",
       "fair_fg": 60.0,
-      "iso_fg": 50.0,
+      "iso_fg": null,
       "ft_fg": 60.0,
       "trade_fg": 60.0,
-      "samples": 5,
+      "samples": 4,
       "confidence": "medium",
-      "last_seen_at": "2026-09-15T21:24:56.008255+00:00",
+      "last_seen_at": "2026-09-15T03:21:23.108358+00:00",
       "sources": [
-        {
-          "kind": "rune",
-          "id": "Ist",
-          "label": "Ist",
-          "side": "iso",
-          "price_fg": 50.0,
-          "title": "Wtb: 5x Ist @ 250fg",
-          "url": "https://forums.d2jsp.org/topic.php?t=110279015&f=123",
-          "observed_at": "2026-09-15T21:24:56.008255+00:00",
-          "topic_date": "2026-09-13",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/9/13 20:44"
-        },
         {
           "kind": "rune",
           "id": "Ist",
@@ -636,34 +636,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/9/14 13:09"
-        }
-      ]
-    },
-    {
-      "kind": "rune",
-      "id": "Zod",
-      "label": "Zod",
-      "fair_fg": 1450.0,
-      "iso_fg": null,
-      "ft_fg": null,
-      "trade_fg": null,
-      "samples": 1,
-      "confidence": "low",
-      "last_seen_at": "2026-09-15T17:03:08.593592+00:00",
-      "sources": [
-        {
-          "kind": "rune",
-          "id": "Zod",
-          "label": "Zod",
-          "side": "unknown",
-          "price_fg": 1450.0,
-          "title": "Zod",
-          "url": "https://forums.d2jsp.org/topic.php?t=110282509&f=123",
-          "observed_at": "2026-09-15T17:03:08.593592+00:00",
-          "topic_date": "2026-09-14",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/9/14 09:01"
         }
       ]
     },
@@ -881,14 +853,28 @@
       "kind": "rune",
       "id": "Um",
       "label": "Um",
-      "fair_fg": 45.0,
+      "fair_fg": 30.0,
       "iso_fg": 30.0,
       "ft_fg": null,
       "trade_fg": 60.0,
-      "samples": 4,
+      "samples": 5,
       "confidence": "medium",
-      "last_seen_at": "2026-09-15T03:18:17.329972+00:00",
+      "last_seen_at": "2026-09-16T04:53:55.298432+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Um",
+          "label": "Um",
+          "side": "unknown",
+          "price_fg": 25.0,
+          "title": "Um",
+          "url": "https://forums.d2jsp.org/topic.php?t=110291439&f=123",
+          "observed_at": "2026-09-16T04:53:55.298432+00:00",
+          "topic_date": "2026-09-15",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/9/15 09:15"
+        },
         {
           "kind": "rune",
           "id": "Um",
@@ -965,28 +951,14 @@
       "kind": "rune",
       "id": "Jah",
       "label": "Jah",
-      "fair_fg": 1500.0,
-      "iso_fg": 1400.0,
+      "fair_fg": 1600.0,
+      "iso_fg": null,
       "ft_fg": null,
       "trade_fg": null,
-      "samples": 2,
+      "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-09-15T21:25:09.050330+00:00",
+      "last_seen_at": "2026-09-15T03:17:36.834748+00:00",
       "sources": [
-        {
-          "kind": "rune",
-          "id": "Jah",
-          "label": "Jah",
-          "side": "iso",
-          "price_fg": 1400.0,
-          "title": "Wtb Jah For 1400 Fg",
-          "url": "https://forums.d2jsp.org/topic.php?t=110277630&f=123",
-          "observed_at": "2026-09-15T21:25:09.050330+00:00",
-          "topic_date": "2026-09-13",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/9/13 17:22"
-        },
         {
           "kind": "rune",
           "id": "Jah",
@@ -1098,6 +1070,132 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/9/13 23:51"
+        }
+      ]
+    },
+    {
+      "kind": "rune",
+      "id": "Ral",
+      "label": "Ral",
+      "fair_fg": 3.33,
+      "iso_fg": 3.33,
+      "ft_fg": null,
+      "trade_fg": 3.33,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-09-16T04:54:01.351789+00:00",
+      "sources": [
+        {
+          "kind": "rune",
+          "id": "Ral",
+          "label": "Ral",
+          "side": "iso",
+          "price_fg": 3.33,
+          "title": "Need Warlock Items",
+          "url": "https://forums.d2jsp.org/topic.php?t=110291662&f=123",
+          "observed_at": "2026-09-16T04:54:01.351789+00:00",
+          "topic_date": "2026-09-15",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/9/15 09:50"
+        },
+        {
+          "kind": "rune",
+          "id": "Ral",
+          "label": "Ral",
+          "side": "trade",
+          "price_fg": 3.33,
+          "title": "Need Warlock Items · T4T/sold signal",
+          "url": "https://forums.d2jsp.org/topic.php?t=110291662&f=123",
+          "observed_at": "2026-09-16T04:54:01.351789+00:00",
+          "topic_date": "2026-09-15",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/9/15 09:50"
+        }
+      ]
+    },
+    {
+      "kind": "rune",
+      "id": "Ohm",
+      "label": "Ohm",
+      "fair_fg": 1400.0,
+      "iso_fg": 1400.0,
+      "ft_fg": null,
+      "trade_fg": 1400.0,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-09-16T04:54:01.351789+00:00",
+      "sources": [
+        {
+          "kind": "rune",
+          "id": "Ohm",
+          "label": "Ohm",
+          "side": "iso",
+          "price_fg": 1400.0,
+          "title": "Need Warlock Items",
+          "url": "https://forums.d2jsp.org/topic.php?t=110291662&f=123",
+          "observed_at": "2026-09-16T04:54:01.351789+00:00",
+          "topic_date": "2026-09-15",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/9/15 09:50"
+        },
+        {
+          "kind": "rune",
+          "id": "Ohm",
+          "label": "Ohm",
+          "side": "trade",
+          "price_fg": 1400.0,
+          "title": "Need Warlock Items · T4T/sold signal",
+          "url": "https://forums.d2jsp.org/topic.php?t=110291662&f=123",
+          "observed_at": "2026-09-16T04:54:01.351789+00:00",
+          "topic_date": "2026-09-15",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/9/15 09:50"
+        }
+      ]
+    },
+    {
+      "kind": "rune",
+      "id": "Thul",
+      "label": "Thul",
+      "fair_fg": 2.0,
+      "iso_fg": 2.0,
+      "ft_fg": null,
+      "trade_fg": 2.0,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-09-16T04:54:28.896068+00:00",
+      "sources": [
+        {
+          "kind": "rune",
+          "id": "Thul",
+          "label": "Thul",
+          "side": "iso",
+          "price_fg": 2.0,
+          "title": "Iso Materials",
+          "url": "https://forums.d2jsp.org/topic.php?t=110291649&f=123",
+          "observed_at": "2026-09-16T04:54:28.896068+00:00",
+          "topic_date": "2026-09-15",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/9/15 09:48"
+        },
+        {
+          "kind": "rune",
+          "id": "Thul",
+          "label": "Thul",
+          "side": "trade",
+          "price_fg": 2.0,
+          "title": "Iso Materials · T4T/sold signal",
+          "url": "https://forums.d2jsp.org/topic.php?t=110291649&f=123",
+          "observed_at": "2026-09-16T04:54:28.896068+00:00",
+          "topic_date": "2026-09-15",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/9/15 09:48"
         }
       ]
     },
@@ -1498,8 +1596,9 @@
           "title": "A Mix Of Items",
           "url": "https://forums.d2jsp.org/topic.php?t=110181314&f=123",
           "observed_at": "2026-09-08T23:35:21.553794+00:00",
-          "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "topic_date": "2026-09-14",
+          "item_parser_v2": true,
+          "topic_time": "2026/9/14 00:37"
         },
         {
           "kind": "item",
@@ -1922,8 +2021,9 @@
           "title": "A Mix Of Items",
           "url": "https://forums.d2jsp.org/topic.php?t=110181314&f=123",
           "observed_at": "2026-09-08T23:35:21.553794+00:00",
-          "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "topic_date": "2026-09-14",
+          "item_parser_v2": true,
+          "topic_time": "2026/9/14 00:37"
         },
         {
           "kind": "item",
@@ -2407,7 +2507,7 @@
       "trade_fg": 17.5,
       "samples": 12,
       "confidence": "high",
-      "last_seen_at": "2026-09-15T00:02:41.452593+00:00",
+      "last_seen_at": "2026-09-16T04:56:22.660548+00:00",
       "sources": [
         {
           "kind": "item",
@@ -2418,7 +2518,7 @@
           "price_fg": 20.0,
           "title": "Shop Song",
           "url": "https://forums.d2jsp.org/topic.php?t=110035008&f=123",
-          "observed_at": "2026-09-15T00:02:41.452593+00:00",
+          "observed_at": "2026-09-16T04:56:22.660548+00:00",
           "topic_date": "2026-09-03",
           "item_parser_v2": true,
           "topic_time": "2026/9/3 10:04"
@@ -2644,7 +2744,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110222669&f=123",
           "observed_at": "2026-09-08T23:33:57.412856+00:00",
           "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/8 12:18"
         },
         {
           "kind": "item",
@@ -2892,7 +2993,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110222669&f=123",
           "observed_at": "2026-09-08T23:33:57.412856+00:00",
           "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/8 12:18"
         },
         {
           "kind": "item",
@@ -3214,7 +3316,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110222669&f=123",
           "observed_at": "2026-09-08T23:33:57.412856+00:00",
           "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/8 12:18"
         },
         {
           "kind": "item",
@@ -3509,7 +3612,7 @@
       "trade_fg": null,
       "samples": 8,
       "confidence": "medium",
-      "last_seen_at": "2026-09-15T00:02:41.452593+00:00",
+      "last_seen_at": "2026-09-16T04:56:22.660548+00:00",
       "sources": [
         {
           "kind": "item",
@@ -3520,7 +3623,7 @@
           "price_fg": 30.0,
           "title": "Shop Song",
           "url": "https://forums.d2jsp.org/topic.php?t=110035008&f=123",
-          "observed_at": "2026-09-15T00:02:41.452593+00:00",
+          "observed_at": "2026-09-16T04:56:22.660548+00:00",
           "topic_date": "2026-09-03",
           "item_parser_v2": true,
           "topic_time": "2026/9/3 10:04"
@@ -3661,8 +3764,9 @@
           "title": "Banned Shop",
           "url": "https://forums.d2jsp.org/topic.php?t=110192833&f=123",
           "observed_at": "2026-09-08T23:36:00.842781+00:00",
-          "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "topic_date": "2026-09-06",
+          "item_parser_v2": true,
+          "topic_time": "2026/9/6 04:43"
         },
         {
           "kind": "item",
@@ -3759,7 +3863,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110222669&f=123",
           "observed_at": "2026-09-08T23:33:57.412856+00:00",
           "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/8 12:18"
         },
         {
           "kind": "item",
@@ -4110,8 +4215,9 @@
           "title": "Banned Shop",
           "url": "https://forums.d2jsp.org/topic.php?t=110192833&f=123",
           "observed_at": "2026-09-08T23:36:00.842781+00:00",
-          "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "topic_date": "2026-09-06",
+          "item_parser_v2": true,
+          "topic_time": "2026/9/6 04:43"
         },
         {
           "kind": "item",
@@ -4390,8 +4496,9 @@
           "title": "Banned Shop",
           "url": "https://forums.d2jsp.org/topic.php?t=110192833&f=123",
           "observed_at": "2026-09-08T23:36:00.842781+00:00",
-          "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "topic_date": "2026-09-06",
+          "item_parser_v2": true,
+          "topic_time": "2026/9/6 04:43"
         },
         {
           "kind": "item",
@@ -4434,7 +4541,7 @@
       "trade_fg": null,
       "samples": 11,
       "confidence": "high",
-      "last_seen_at": "2026-09-15T00:02:41.452593+00:00",
+      "last_seen_at": "2026-09-16T04:56:22.660548+00:00",
       "sources": [
         {
           "kind": "item",
@@ -4445,7 +4552,7 @@
           "price_fg": 30.0,
           "title": "Shop Song",
           "url": "https://forums.d2jsp.org/topic.php?t=110035008&f=123",
-          "observed_at": "2026-09-15T00:02:41.452593+00:00",
+          "observed_at": "2026-09-16T04:56:22.660548+00:00",
           "topic_date": "2026-09-03",
           "item_parser_v2": true,
           "topic_time": "2026/9/3 10:04"
@@ -4486,8 +4593,9 @@
           "title": "A Mix Of Items",
           "url": "https://forums.d2jsp.org/topic.php?t=110181314&f=123",
           "observed_at": "2026-09-08T23:35:21.553794+00:00",
-          "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "topic_date": "2026-09-14",
+          "item_parser_v2": true,
+          "topic_time": "2026/9/14 00:37"
         },
         {
           "kind": "item",
@@ -4500,7 +4608,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110222669&f=123",
           "observed_at": "2026-09-08T23:33:57.412856+00:00",
           "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/8 12:18"
         },
         {
           "kind": "item",
@@ -4823,7 +4932,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110211135&f=123&o=10",
           "observed_at": "2026-09-08T23:36:46.788543+00:00",
           "topic_date": "2026-09-07",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/7 17:05"
         },
         {
           "kind": "item",
@@ -4835,8 +4945,9 @@
           "title": "A Mix Of Items",
           "url": "https://forums.d2jsp.org/topic.php?t=110181314&f=123",
           "observed_at": "2026-09-08T23:35:21.553794+00:00",
-          "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "topic_date": "2026-09-14",
+          "item_parser_v2": true,
+          "topic_time": "2026/9/14 00:37"
         },
         {
           "kind": "item",
@@ -4949,7 +5060,7 @@
       "trade_fg": 100.0,
       "samples": 21,
       "confidence": "high",
-      "last_seen_at": "2026-09-15T00:02:41.452593+00:00",
+      "last_seen_at": "2026-09-16T04:56:22.660548+00:00",
       "sources": [
         {
           "kind": "item",
@@ -4960,7 +5071,7 @@
           "price_fg": 100.0,
           "title": "Shop Song",
           "url": "https://forums.d2jsp.org/topic.php?t=110035008&f=123",
-          "observed_at": "2026-09-15T00:02:41.452593+00:00",
+          "observed_at": "2026-09-16T04:56:22.660548+00:00",
           "topic_date": "2026-09-03",
           "item_parser_v2": true,
           "topic_time": "2026/9/3 10:04"
@@ -5055,7 +5166,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110225333&f=123",
           "observed_at": "2026-09-08T23:33:07.365512+00:00",
           "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/8 17:07"
         },
         {
           "kind": "item",
@@ -5550,7 +5662,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110222669&f=123",
           "observed_at": "2026-09-08T23:33:57.412856+00:00",
           "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/8 12:18"
         },
         {
           "kind": "item",
@@ -5764,7 +5877,7 @@
       "trade_fg": 100.0,
       "samples": 6,
       "confidence": "medium",
-      "last_seen_at": "2026-09-15T00:02:41.452593+00:00",
+      "last_seen_at": "2026-09-16T04:56:22.660548+00:00",
       "sources": [
         {
           "kind": "item",
@@ -5775,7 +5888,7 @@
           "price_fg": 100.0,
           "title": "Shop Song",
           "url": "https://forums.d2jsp.org/topic.php?t=110035008&f=123",
-          "observed_at": "2026-09-15T00:02:41.452593+00:00",
+          "observed_at": "2026-09-16T04:56:22.660548+00:00",
           "topic_date": "2026-09-03",
           "item_parser_v2": true,
           "topic_time": "2026/9/3 10:04"
@@ -5889,7 +6002,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110222669&f=123",
           "observed_at": "2026-09-08T23:33:57.412856+00:00",
           "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/8 12:18"
         },
         {
           "kind": "item",
@@ -6155,7 +6269,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110222669&f=123",
           "observed_at": "2026-09-08T23:33:57.412856+00:00",
           "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/8 12:18"
         },
         {
           "kind": "item",
@@ -6795,7 +6910,7 @@
       "trade_fg": 20.0,
       "samples": 9,
       "confidence": "medium",
-      "last_seen_at": "2026-09-15T00:02:41.452593+00:00",
+      "last_seen_at": "2026-09-16T04:56:22.660548+00:00",
       "sources": [
         {
           "kind": "item",
@@ -6806,7 +6921,7 @@
           "price_fg": 100.0,
           "title": "Shop Song",
           "url": "https://forums.d2jsp.org/topic.php?t=110035008&f=123",
-          "observed_at": "2026-09-15T00:02:41.452593+00:00",
+          "observed_at": "2026-09-16T04:56:22.660548+00:00",
           "topic_date": "2026-09-03",
           "item_parser_v2": true,
           "topic_time": "2026/9/3 10:04"
@@ -6874,7 +6989,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110222669&f=123",
           "observed_at": "2026-09-08T23:33:57.412856+00:00",
           "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/8 12:18"
         },
         {
           "kind": "item",
@@ -7372,28 +7488,14 @@
       "kind": "item",
       "id": "unique-latent-flame-rift",
       "label": "潛伏火焰裂隙 (Latent Flame Rift)",
-      "fair_fg": 275.0,
+      "fair_fg": 300.0,
       "iso_fg": 300.0,
       "ft_fg": null,
       "trade_fg": null,
-      "samples": 4,
-      "confidence": "medium",
-      "last_seen_at": "2026-09-10T23:17:38.722791+00:00",
+      "samples": 3,
+      "confidence": "low",
+      "last_seen_at": "2026-09-06T15:33:02.834433+00:00",
       "sources": [
-        {
-          "kind": "item",
-          "id": "unique-latent-flame-rift",
-          "label": "潛伏火焰裂隙 (Latent Flame Rift)",
-          "category": "咒符",
-          "side": "unknown",
-          "price_fg": 120.0,
-          "title": "Warlock List",
-          "url": "https://forums.d2jsp.org/topic.php?t=110241426&f=123",
-          "observed_at": "2026-09-10T23:17:38.722791+00:00",
-          "topic_date": "2026-09-10",
-          "item_parser_v2": true,
-          "topic_time": "2026/9/10 10:23"
-        },
         {
           "kind": "item",
           "id": "unique-latent-flame-rift",
@@ -7472,27 +7574,14 @@
       "kind": "item",
       "id": "cta",
       "label": "戰爭召喚 (Call to Arms / CTA)",
-      "fair_fg": 285.0,
+      "fair_fg": 270.0,
       "iso_fg": null,
       "ft_fg": 250.0,
       "trade_fg": null,
-      "samples": 14,
+      "samples": 13,
       "confidence": "high",
-      "last_seen_at": "2026-09-10T16:31:02.786058+00:00",
+      "last_seen_at": "2026-09-08T16:51:55.323453+00:00",
       "sources": [
-        {
-          "kind": "item",
-          "id": "cta",
-          "label": "戰爭召喚 (Call to Arms / CTA)",
-          "category": "符文之語成品",
-          "side": "unknown",
-          "price_fg": 1000.0,
-          "title": "8",
-          "url": "https://forums.d2jsp.org/topic.php?t=110132898&f=123&o=70",
-          "observed_at": "2026-09-10T16:31:02.786058+00:00",
-          "topic_date": "2026-09-08",
-          "item_parser_v2": true
-        },
         {
           "kind": "item",
           "id": "cta",
@@ -7757,7 +7846,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110222669&f=123",
           "observed_at": "2026-09-08T23:33:57.412856+00:00",
           "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/8 12:18"
         },
         {
           "kind": "item",
@@ -8137,8 +8227,9 @@
           "title": "Banned Shop",
           "url": "https://forums.d2jsp.org/topic.php?t=110192833&f=123",
           "observed_at": "2026-09-08T23:36:00.842781+00:00",
-          "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "topic_date": "2026-09-06",
+          "item_parser_v2": true,
+          "topic_time": "2026/9/6 04:43"
         },
         {
           "kind": "item",
@@ -8262,8 +8353,9 @@
           "title": "Banned Shop",
           "url": "https://forums.d2jsp.org/topic.php?t=110192833&f=123",
           "observed_at": "2026-09-08T23:36:00.842781+00:00",
-          "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "topic_date": "2026-09-06",
+          "item_parser_v2": true,
+          "topic_time": "2026/9/6 04:43"
         },
         {
           "kind": "item",
@@ -8369,28 +8461,14 @@
       "kind": "item",
       "id": "gheeds",
       "label": "基得的運氣 (Gheed's Fortune / Gheeds)",
-      "fair_fg": 60.0,
+      "fair_fg": 50.0,
       "iso_fg": 170.0,
       "ft_fg": 20.0,
       "trade_fg": 17.5,
-      "samples": 21,
+      "samples": 20,
       "confidence": "high",
-      "last_seen_at": "2026-09-10T23:17:38.722791+00:00",
+      "last_seen_at": "2026-09-10T11:32:25.882726+00:00",
       "sources": [
-        {
-          "kind": "item",
-          "id": "gheeds",
-          "label": "基得的運氣 (Gheed's Fortune / Gheeds)",
-          "category": "熱門護身符與暗金符咒",
-          "side": "unknown",
-          "price_fg": 150.0,
-          "title": "Warlock List",
-          "url": "https://forums.d2jsp.org/topic.php?t=110241426&f=123",
-          "observed_at": "2026-09-10T23:17:38.722791+00:00",
-          "topic_date": "2026-09-10",
-          "item_parser_v2": true,
-          "topic_time": "2026/9/10 10:23"
-        },
         {
           "kind": "item",
           "id": "gheeds",
@@ -8495,7 +8573,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110222669&f=123",
           "observed_at": "2026-09-08T23:33:57.412856+00:00",
           "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/8 12:18"
         },
         {
           "kind": "item",
@@ -8758,8 +8837,9 @@
           "title": "A Mix Of Items",
           "url": "https://forums.d2jsp.org/topic.php?t=110181314&f=123",
           "observed_at": "2026-09-08T23:35:21.553794+00:00",
-          "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "topic_date": "2026-09-14",
+          "item_parser_v2": true,
+          "topic_time": "2026/9/14 00:37"
         },
         {
           "kind": "item",
@@ -9230,7 +9310,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110206591&f=123",
           "observed_at": "2026-09-09T04:51:39.696997+00:00",
           "topic_date": "2026-09-07",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/7 04:16"
         },
         {
           "kind": "item",
@@ -9462,8 +9543,9 @@
           "title": "2",
           "url": "https://forums.d2jsp.org/topic.php?t=110176275&f=123&o=10",
           "observed_at": "2026-09-08T23:37:11.834687+00:00",
-          "topic_date": "2026-09-07",
-          "item_parser_v2": true
+          "topic_date": "2026-09-06",
+          "item_parser_v2": true,
+          "topic_time": "2026/9/6 15:22"
         },
         {
           "kind": "item",
@@ -9475,8 +9557,9 @@
           "title": "2",
           "url": "https://forums.d2jsp.org/topic.php?t=110176275&f=123&o=10",
           "observed_at": "2026-09-08T23:37:11.834687+00:00",
-          "topic_date": "2026-09-07",
-          "item_parser_v2": true
+          "topic_date": "2026-09-06",
+          "item_parser_v2": true,
+          "topic_time": "2026/9/6 15:22"
         },
         {
           "kind": "item",
@@ -9541,11 +9624,11 @@
       "kind": "item",
       "id": "arachnid-mesh",
       "label": "蜘蛛之網 (Arachnid Mesh / Arach)",
-      "fair_fg": 450.0,
+      "fair_fg": 455.0,
       "iso_fg": 450.0,
-      "ft_fg": 455.0,
+      "ft_fg": 460.0,
       "trade_fg": 450.0,
-      "samples": 13,
+      "samples": 12,
       "confidence": "high",
       "last_seen_at": "2026-09-13T12:02:27.376573+00:00",
       "sources": [
@@ -9559,19 +9642,6 @@
           "title": "Offerlist With Bins",
           "url": "https://forums.d2jsp.org/topic.php?t=110239362&f=123",
           "observed_at": "2026-09-13T12:02:27.376573+00:00",
-          "topic_date": "2026-09-10",
-          "item_parser_v2": true
-        },
-        {
-          "kind": "item",
-          "id": "arachnid-mesh",
-          "label": "蜘蛛之網 (Arachnid Mesh / Arach)",
-          "category": "腰帶",
-          "side": "ft",
-          "price_fg": 200.0,
-          "title": "Selling My Sorc",
-          "url": "https://forums.d2jsp.org/topic.php?t=110238327&f=123",
-          "observed_at": "2026-09-10T23:17:53.128395+00:00",
           "topic_date": "2026-09-10",
           "item_parser_v2": true
         },
@@ -9599,7 +9669,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110206591&f=123",
           "observed_at": "2026-09-09T04:51:39.696997+00:00",
           "topic_date": "2026-09-07",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/7 04:16"
         },
         {
           "kind": "item",
@@ -10060,7 +10131,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110222669&f=123",
           "observed_at": "2026-09-08T23:33:57.412856+00:00",
           "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/8 12:18"
         },
         {
           "kind": "item",
@@ -10170,23 +10242,10 @@
       "iso_fg": null,
       "ft_fg": 40.0,
       "trade_fg": null,
-      "samples": 8,
+      "samples": 7,
       "confidence": "medium",
-      "last_seen_at": "2026-09-10T16:30:46.853180+00:00",
+      "last_seen_at": "2026-09-09T21:06:11.739844+00:00",
       "sources": [
-        {
-          "kind": "item",
-          "id": "unique-arioc-s-needle",
-          "label": "愛理歐克之針 (Arioc's Needle)",
-          "category": "長矛",
-          "side": "unknown",
-          "price_fg": 30.0,
-          "title": "6",
-          "url": "https://forums.d2jsp.org/topic.php?t=110072766&f=123&o=50",
-          "observed_at": "2026-09-10T16:30:46.853180+00:00",
-          "topic_date": "2026-09-07",
-          "item_parser_v2": true
-        },
         {
           "kind": "item",
           "id": "unique-arioc-s-needle",
@@ -10212,7 +10271,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110222669&f=123",
           "observed_at": "2026-09-08T23:33:57.412856+00:00",
           "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/8 12:18"
         },
         {
           "kind": "item",
@@ -10464,7 +10524,7 @@
       "trade_fg": null,
       "samples": 6,
       "confidence": "medium",
-      "last_seen_at": "2026-09-15T00:02:41.452593+00:00",
+      "last_seen_at": "2026-09-16T04:56:22.660548+00:00",
       "sources": [
         {
           "kind": "item",
@@ -10475,7 +10535,7 @@
           "price_fg": 250.0,
           "title": "Shop Song",
           "url": "https://forums.d2jsp.org/topic.php?t=110035008&f=123",
-          "observed_at": "2026-09-15T00:02:41.452593+00:00",
+          "observed_at": "2026-09-16T04:56:22.660548+00:00",
           "topic_date": "2026-09-03",
           "item_parser_v2": true,
           "topic_time": "2026/9/3 10:04"
@@ -10733,8 +10793,9 @@
           "title": "2",
           "url": "https://forums.d2jsp.org/topic.php?t=110176275&f=123&o=10",
           "observed_at": "2026-09-08T23:37:11.834687+00:00",
-          "topic_date": "2026-09-07",
-          "item_parser_v2": true
+          "topic_date": "2026-09-06",
+          "item_parser_v2": true,
+          "topic_time": "2026/9/6 15:22"
         },
         {
           "kind": "item",
@@ -10845,8 +10906,9 @@
           "title": "Banned Shop",
           "url": "https://forums.d2jsp.org/topic.php?t=110192833&f=123",
           "observed_at": "2026-09-08T23:36:00.842781+00:00",
-          "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "topic_date": "2026-09-06",
+          "item_parser_v2": true,
+          "topic_time": "2026/9/6 04:43"
         },
         {
           "kind": "item",
@@ -10889,7 +10951,7 @@
       "trade_fg": null,
       "samples": 2,
       "confidence": "low",
-      "last_seen_at": "2026-09-15T00:02:41.452593+00:00",
+      "last_seen_at": "2026-09-16T04:56:22.660548+00:00",
       "sources": [
         {
           "kind": "item",
@@ -10900,7 +10962,7 @@
           "price_fg": 80.0,
           "title": "Shop Song",
           "url": "https://forums.d2jsp.org/topic.php?t=110035008&f=123",
-          "observed_at": "2026-09-15T00:02:41.452593+00:00",
+          "observed_at": "2026-09-16T04:56:22.660548+00:00",
           "topic_date": "2026-09-03",
           "item_parser_v2": true,
           "topic_time": "2026/9/3 10:04"
@@ -10932,7 +10994,7 @@
       "trade_fg": 15.0,
       "samples": 14,
       "confidence": "high",
-      "last_seen_at": "2026-09-15T00:02:41.452593+00:00",
+      "last_seen_at": "2026-09-16T04:56:22.660548+00:00",
       "sources": [
         {
           "kind": "item",
@@ -10943,7 +11005,7 @@
           "price_fg": 40.0,
           "title": "Shop Song",
           "url": "https://forums.d2jsp.org/topic.php?t=110035008&f=123",
-          "observed_at": "2026-09-15T00:02:41.452593+00:00",
+          "observed_at": "2026-09-16T04:56:22.660548+00:00",
           "topic_date": "2026-09-03",
           "item_parser_v2": true,
           "topic_time": "2026/9/3 10:04"
@@ -11234,8 +11296,9 @@
           "title": "Banned Shop",
           "url": "https://forums.d2jsp.org/topic.php?t=110192833&f=123",
           "observed_at": "2026-09-08T23:36:00.842781+00:00",
-          "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "topic_date": "2026-09-06",
+          "item_parser_v2": true,
+          "topic_time": "2026/9/6 04:43"
         },
         {
           "kind": "item",
@@ -11537,7 +11600,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110206591&f=123",
           "observed_at": "2026-09-09T04:51:39.696997+00:00",
           "topic_date": "2026-09-07",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/7 04:16"
         },
         {
           "kind": "item",
@@ -11764,7 +11828,7 @@
       "trade_fg": null,
       "samples": 6,
       "confidence": "medium",
-      "last_seen_at": "2026-09-15T00:02:41.452593+00:00",
+      "last_seen_at": "2026-09-16T04:56:22.660548+00:00",
       "sources": [
         {
           "kind": "item",
@@ -11775,7 +11839,7 @@
           "price_fg": 20.0,
           "title": "Shop Song",
           "url": "https://forums.d2jsp.org/topic.php?t=110035008&f=123",
-          "observed_at": "2026-09-15T00:02:41.452593+00:00",
+          "observed_at": "2026-09-16T04:56:22.660548+00:00",
           "topic_date": "2026-09-03",
           "item_parser_v2": true,
           "topic_time": "2026/9/3 10:04"
@@ -11805,7 +11869,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110181314&f=123&o=10",
           "observed_at": "2026-09-08T23:37:04.181925+00:00",
           "topic_date": "2026-09-06",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/6 14:26"
         },
         {
           "kind": "item",
@@ -11817,8 +11882,9 @@
           "title": "A Mix Of Items",
           "url": "https://forums.d2jsp.org/topic.php?t=110181314&f=123",
           "observed_at": "2026-09-08T23:35:21.553794+00:00",
-          "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "topic_date": "2026-09-14",
+          "item_parser_v2": true,
+          "topic_time": "2026/9/14 00:37"
         },
         {
           "kind": "item",
@@ -11861,7 +11927,7 @@
       "trade_fg": null,
       "samples": 3,
       "confidence": "low",
-      "last_seen_at": "2026-09-15T00:02:41.452593+00:00",
+      "last_seen_at": "2026-09-16T04:56:22.660548+00:00",
       "sources": [
         {
           "kind": "item",
@@ -11872,7 +11938,7 @@
           "price_fg": 50.0,
           "title": "Shop Song",
           "url": "https://forums.d2jsp.org/topic.php?t=110035008&f=123",
-          "observed_at": "2026-09-15T00:02:41.452593+00:00",
+          "observed_at": "2026-09-16T04:56:22.660548+00:00",
           "topic_date": "2026-09-03",
           "item_parser_v2": true,
           "topic_time": "2026/9/3 10:04"
@@ -12486,7 +12552,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110222669&f=123",
           "observed_at": "2026-09-08T23:33:57.412856+00:00",
           "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/8 12:18"
         },
         {
           "kind": "item",
@@ -12726,7 +12793,7 @@
       "iso_fg": null,
       "ft_fg": 15.0,
       "trade_fg": null,
-      "samples": 13,
+      "samples": 12,
       "confidence": "high",
       "last_seen_at": "2026-09-10T20:58:49.749089+00:00",
       "sources": [
@@ -12743,19 +12810,6 @@
           "topic_date": "2026-09-08",
           "item_parser_v2": true,
           "topic_time": "2026/9/8 17:00"
-        },
-        {
-          "kind": "item",
-          "id": "unique-goldwrap",
-          "label": "黃金裹腰 (Goldwrap)",
-          "category": "腰帶",
-          "side": "unknown",
-          "price_fg": 10.0,
-          "title": "6",
-          "url": "https://forums.d2jsp.org/topic.php?t=110072766&f=123&o=50",
-          "observed_at": "2026-09-10T16:30:46.853180+00:00",
-          "topic_date": "2026-09-07",
-          "item_parser_v2": true
         },
         {
           "kind": "item",
@@ -13174,7 +13228,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110222669&f=123",
           "observed_at": "2026-09-08T23:33:57.412856+00:00",
           "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/8 12:18"
         },
         {
           "kind": "item",
@@ -13229,7 +13284,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110222669&f=123",
           "observed_at": "2026-09-08T23:33:57.412856+00:00",
           "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/8 12:18"
         },
         {
           "kind": "item",
@@ -13242,7 +13298,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110222669&f=123",
           "observed_at": "2026-09-08T23:33:57.412856+00:00",
           "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/8 12:18"
         },
         {
           "kind": "item",
@@ -13750,8 +13807,9 @@
           "title": "A Mix Of Items",
           "url": "https://forums.d2jsp.org/topic.php?t=110181314&f=123",
           "observed_at": "2026-09-08T23:35:21.553794+00:00",
-          "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "topic_date": "2026-09-14",
+          "item_parser_v2": true,
+          "topic_time": "2026/9/14 00:37"
         },
         {
           "kind": "item",
@@ -13989,7 +14047,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110222669&f=123",
           "observed_at": "2026-09-08T23:33:57.412856+00:00",
           "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/8 12:18"
         },
         {
           "kind": "item",
@@ -14071,7 +14130,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110222669&f=123",
           "observed_at": "2026-09-08T23:33:57.412856+00:00",
           "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/8 12:18"
         },
         {
           "kind": "item",
@@ -14293,7 +14353,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110222669&f=123",
           "observed_at": "2026-09-08T23:33:57.412856+00:00",
           "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/8 12:18"
         },
         {
           "kind": "item",
@@ -14456,8 +14517,9 @@
           "title": "Banned Shop",
           "url": "https://forums.d2jsp.org/topic.php?t=110192833&f=123",
           "observed_at": "2026-09-08T23:36:00.842781+00:00",
-          "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "topic_date": "2026-09-06",
+          "item_parser_v2": true,
+          "topic_time": "2026/9/6 04:43"
         },
         {
           "kind": "item",
@@ -14540,7 +14602,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110222669&f=123",
           "observed_at": "2026-09-08T23:33:57.412856+00:00",
           "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/8 12:18"
         },
         {
           "kind": "item",
@@ -15040,7 +15103,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110222669&f=123",
           "observed_at": "2026-09-08T23:33:57.412856+00:00",
           "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/8 12:18"
         },
         {
           "kind": "item",
@@ -15180,7 +15244,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110222669&f=123",
           "observed_at": "2026-09-08T23:33:57.412856+00:00",
           "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/8 12:18"
         },
         {
           "kind": "item",
@@ -15261,7 +15326,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110222669&f=123",
           "observed_at": "2026-09-08T23:33:57.412856+00:00",
           "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/8 12:18"
         },
         {
           "kind": "item",
@@ -15359,7 +15425,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110222669&f=123",
           "observed_at": "2026-09-08T23:33:57.412856+00:00",
           "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/8 12:18"
         },
         {
           "kind": "item",
@@ -15400,7 +15467,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110222669&f=123",
           "observed_at": "2026-09-08T23:33:57.412856+00:00",
           "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/8 12:18"
         },
         {
           "kind": "item",
@@ -15455,7 +15523,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110222669&f=123",
           "observed_at": "2026-09-08T23:33:57.412856+00:00",
           "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/8 12:18"
         },
         {
           "kind": "item",
@@ -15468,7 +15537,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110222669&f=123",
           "observed_at": "2026-09-08T23:33:57.412856+00:00",
           "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/8 12:18"
         },
         {
           "kind": "item",
@@ -15509,7 +15579,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110222669&f=123",
           "observed_at": "2026-09-08T23:33:57.412856+00:00",
           "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/8 12:18"
         },
         {
           "kind": "item",
@@ -15564,7 +15635,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110222669&f=123",
           "observed_at": "2026-09-08T23:33:57.412856+00:00",
           "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/8 12:18"
         },
         {
           "kind": "item",
@@ -15633,7 +15705,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110222669&f=123",
           "observed_at": "2026-09-08T23:33:57.412856+00:00",
           "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/8 12:18"
         },
         {
           "kind": "item",
@@ -15674,7 +15747,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110222669&f=123",
           "observed_at": "2026-09-08T23:33:57.412856+00:00",
           "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/8 12:18"
         },
         {
           "kind": "item",
@@ -15729,7 +15803,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110222669&f=123",
           "observed_at": "2026-09-08T23:33:57.412856+00:00",
           "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/8 12:18"
         },
         {
           "kind": "item",
@@ -15798,7 +15873,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110222669&f=123",
           "observed_at": "2026-09-08T23:33:57.412856+00:00",
           "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/8 12:18"
         },
         {
           "kind": "item",
@@ -15852,7 +15928,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110222669&f=123",
           "observed_at": "2026-09-08T23:33:57.412856+00:00",
           "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/8 12:18"
         },
         {
           "kind": "item",
@@ -15906,8 +15983,9 @@
           "title": "A Mix Of Items",
           "url": "https://forums.d2jsp.org/topic.php?t=110181314&f=123",
           "observed_at": "2026-09-08T23:35:21.553794+00:00",
-          "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "topic_date": "2026-09-14",
+          "item_parser_v2": true,
+          "topic_time": "2026/9/14 00:37"
         },
         {
           "kind": "item",
@@ -15920,7 +15998,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110222669&f=123",
           "observed_at": "2026-09-08T23:33:57.412856+00:00",
           "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/8 12:18"
         },
         {
           "kind": "item",
@@ -15989,7 +16068,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110222669&f=123",
           "observed_at": "2026-09-08T23:33:57.412856+00:00",
           "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/8 12:18"
         },
         {
           "kind": "item",
@@ -16043,7 +16123,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110222669&f=123",
           "observed_at": "2026-09-08T23:33:57.412856+00:00",
           "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/8 12:18"
         },
         {
           "kind": "item",
@@ -16141,7 +16222,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110206591&f=123",
           "observed_at": "2026-09-09T04:51:39.696997+00:00",
           "topic_date": "2026-09-07",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/7 04:16"
         },
         {
           "kind": "item",
@@ -16153,8 +16235,9 @@
           "title": "Banned Shop",
           "url": "https://forums.d2jsp.org/topic.php?t=110192833&f=123",
           "observed_at": "2026-09-08T23:36:00.842781+00:00",
-          "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "topic_date": "2026-09-06",
+          "item_parser_v2": true,
+          "topic_time": "2026/9/6 04:43"
         },
         {
           "kind": "item",
@@ -16350,8 +16433,9 @@
           "title": "Banned Shop",
           "url": "https://forums.d2jsp.org/topic.php?t=110192833&f=123",
           "observed_at": "2026-09-08T23:36:00.842781+00:00",
-          "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "topic_date": "2026-09-06",
+          "item_parser_v2": true,
+          "topic_time": "2026/9/6 04:43"
         },
         {
           "kind": "item",
@@ -16394,7 +16478,7 @@
       "trade_fg": 30.0,
       "samples": 11,
       "confidence": "high",
-      "last_seen_at": "2026-09-15T00:02:41.452593+00:00",
+      "last_seen_at": "2026-09-16T04:56:22.660548+00:00",
       "sources": [
         {
           "kind": "item",
@@ -16405,7 +16489,7 @@
           "price_fg": 30.0,
           "title": "Shop Song",
           "url": "https://forums.d2jsp.org/topic.php?t=110035008&f=123",
-          "observed_at": "2026-09-15T00:02:41.452593+00:00",
+          "observed_at": "2026-09-16T04:56:22.660548+00:00",
           "topic_date": "2026-09-03",
           "item_parser_v2": true,
           "topic_time": "2026/9/3 10:04"
@@ -16748,7 +16832,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110184222&f=123&o=10",
           "observed_at": "2026-09-08T23:37:00.367336+00:00",
           "topic_date": "2026-09-07",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/7 11:38"
         },
         {
           "kind": "item",
@@ -17040,27 +17125,14 @@
       "kind": "item",
       "id": "unique-protector-s-stone",
       "label": "保衛者的岩石 (Protector's Stone)",
-      "fair_fg": 137.5,
+      "fair_fg": 125.0,
       "iso_fg": null,
       "ft_fg": null,
       "trade_fg": null,
-      "samples": 2,
+      "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-09-10T16:30:46.853180+00:00",
+      "last_seen_at": "2026-09-06T20:31:41.087557+00:00",
       "sources": [
-        {
-          "kind": "item",
-          "id": "unique-protector-s-stone",
-          "label": "保衛者的岩石 (Protector's Stone)",
-          "category": "珠寶",
-          "side": "unknown",
-          "price_fg": 150.0,
-          "title": "6",
-          "url": "https://forums.d2jsp.org/topic.php?t=110072766&f=123&o=50",
-          "observed_at": "2026-09-10T16:30:46.853180+00:00",
-          "topic_date": "2026-09-07",
-          "item_parser_v2": true
-        },
         {
           "kind": "item",
           "id": "unique-protector-s-stone",
@@ -17115,7 +17187,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110222669&f=123",
           "observed_at": "2026-09-08T23:33:57.412856+00:00",
           "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/8 12:18"
         },
         {
           "kind": "item",
@@ -17293,7 +17366,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110206591&f=123",
           "observed_at": "2026-09-09T04:51:39.696997+00:00",
           "topic_date": "2026-09-07",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/7 04:16"
         },
         {
           "kind": "item",
@@ -17886,7 +17960,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110224326&f=123",
           "observed_at": "2026-09-08T21:20:59.906162+00:00",
           "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/8 15:16"
         }
       ],
       "category": "腰帶"
@@ -18011,8 +18086,9 @@
           "title": "Banned Shop",
           "url": "https://forums.d2jsp.org/topic.php?t=110192833&f=123",
           "observed_at": "2026-09-08T23:36:00.842781+00:00",
-          "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "topic_date": "2026-09-06",
+          "item_parser_v2": true,
+          "topic_time": "2026/9/6 04:43"
         }
       ],
       "category": "匕首"
@@ -18052,8 +18128,9 @@
           "title": "Banned Shop",
           "url": "https://forums.d2jsp.org/topic.php?t=110192833&f=123",
           "observed_at": "2026-09-08T23:36:00.842781+00:00",
-          "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "topic_date": "2026-09-06",
+          "item_parser_v2": true,
+          "topic_time": "2026/9/6 04:43"
         },
         {
           "kind": "item",
@@ -18065,8 +18142,9 @@
           "title": "A Mix Of Items",
           "url": "https://forums.d2jsp.org/topic.php?t=110181314&f=123",
           "observed_at": "2026-09-08T23:35:21.553794+00:00",
-          "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "topic_date": "2026-09-14",
+          "item_parser_v2": true,
+          "topic_time": "2026/9/14 00:37"
         }
       ],
       "category": "護甲"
@@ -18093,8 +18171,9 @@
           "title": "Banned Shop",
           "url": "https://forums.d2jsp.org/topic.php?t=110192833&f=123",
           "observed_at": "2026-09-08T23:36:00.842781+00:00",
-          "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "topic_date": "2026-09-06",
+          "item_parser_v2": true,
+          "topic_time": "2026/9/6 04:43"
         }
       ],
       "category": "腰帶"
@@ -18150,7 +18229,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110222669&f=123",
           "observed_at": "2026-09-08T23:33:57.412856+00:00",
           "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/8 12:18"
         }
       ],
       "category": "套裝護甲"
@@ -18178,7 +18258,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110206591&f=123",
           "observed_at": "2026-09-09T04:51:39.696997+00:00",
           "topic_date": "2026-09-07",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/7 04:16"
         },
         {
           "kind": "item",
@@ -18191,7 +18272,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110206591&f=123",
           "observed_at": "2026-09-09T04:51:39.696997+00:00",
           "topic_date": "2026-09-07",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/7 04:16"
         },
         {
           "kind": "item",
@@ -18204,7 +18286,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110211135&f=123&o=10",
           "observed_at": "2026-09-08T23:36:46.788543+00:00",
           "topic_date": "2026-09-07",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/7 17:05"
         },
         {
           "kind": "item",
@@ -18217,7 +18300,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110193214&f=123",
           "observed_at": "2026-09-08T23:32:21.201472+00:00",
           "topic_date": "2026-09-06",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/6 05:26"
         }
       ],
       "category": "戒指"
@@ -18285,7 +18369,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110206591&f=123",
           "observed_at": "2026-09-09T04:51:39.696997+00:00",
           "topic_date": "2026-09-07",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/7 04:16"
         },
         {
           "kind": "item",
@@ -18298,7 +18383,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110225178&f=123",
           "observed_at": "2026-09-08T23:31:51.990820+00:00",
           "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/8 16:49"
         },
         {
           "kind": "item",
@@ -18311,7 +18397,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110225178&f=123",
           "observed_at": "2026-09-08T23:31:51.990820+00:00",
           "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/8 16:49"
         }
       ],
       "category": "熱門護身符與暗金符咒"
@@ -18338,8 +18425,9 @@
           "title": "A Mix Of Items",
           "url": "https://forums.d2jsp.org/topic.php?t=110181314&f=123",
           "observed_at": "2026-09-08T23:35:21.553794+00:00",
-          "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "topic_date": "2026-09-14",
+          "item_parser_v2": true,
+          "topic_time": "2026/9/14 00:37"
         }
       ],
       "category": "法珠"
@@ -18366,8 +18454,9 @@
           "title": "A Mix Of Items",
           "url": "https://forums.d2jsp.org/topic.php?t=110181314&f=123",
           "observed_at": "2026-09-08T23:35:21.553794+00:00",
-          "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "topic_date": "2026-09-14",
+          "item_parser_v2": true,
+          "topic_time": "2026/9/14 00:37"
         }
       ],
       "category": "護甲"
@@ -18394,8 +18483,9 @@
           "title": "A Mix Of Items",
           "url": "https://forums.d2jsp.org/topic.php?t=110181314&f=123",
           "observed_at": "2026-09-08T23:35:21.553794+00:00",
-          "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "topic_date": "2026-09-14",
+          "item_parser_v2": true,
+          "topic_time": "2026/9/14 00:37"
         }
       ],
       "category": "護甲"
@@ -18612,7 +18702,7 @@
       "trade_fg": null,
       "samples": 3,
       "confidence": "low",
-      "last_seen_at": "2026-09-15T00:02:41.452593+00:00",
+      "last_seen_at": "2026-09-16T04:56:22.660548+00:00",
       "sources": [
         {
           "kind": "item",
@@ -18623,7 +18713,7 @@
           "price_fg": 40.0,
           "title": "Shop Song",
           "url": "https://forums.d2jsp.org/topic.php?t=110035008&f=123",
-          "observed_at": "2026-09-15T00:02:41.452593+00:00",
+          "observed_at": "2026-09-16T04:56:22.660548+00:00",
           "topic_date": "2026-09-03",
           "item_parser_v2": true,
           "topic_time": "2026/9/3 10:04"
@@ -20337,5 +20427,5 @@
   "item_topic_count": 0,
   "item_cached_topics": 2927,
   "item_parsed_topics": 2927,
-  "item_sample_count": 1046
+  "item_sample_count": 1039
 }

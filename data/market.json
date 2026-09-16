@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-16T04:57:04.017484+00:00",
+  "updated_at": "2026-09-16T11:43:17.995930+00:00",
   "forum": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-  "topic_count": 27,
+  "topic_count": 0,
   "cached_topics": 407,
   "parsed_topics": 407,
-  "completed_topics": 309,
-  "parsed_this_run": 39,
-  "sample_count": 49,
+  "completed_topics": 321,
+  "parsed_this_run": 12,
+  "sample_count": 46,
   "legacy_sample_count": 0,
   "market": [
     {
@@ -269,24 +269,10 @@
       "iso_fg": 390.0,
       "ft_fg": 65.0,
       "trade_fg": 72.5,
-      "samples": 8,
+      "samples": 7,
       "confidence": "medium",
-      "last_seen_at": "2026-09-16T04:54:16.440916+00:00",
+      "last_seen_at": "2026-09-15T04:59:00.635714+00:00",
       "sources": [
-        {
-          "kind": "rune",
-          "id": "Gul",
-          "label": "Gul",
-          "side": "unknown",
-          "price_fg": 65.0,
-          "title": "Sur, Ist",
-          "url": "https://forums.d2jsp.org/topic.php?t=110291521&f=123",
-          "observed_at": "2026-09-16T04:54:16.440916+00:00",
-          "topic_date": "2026-09-15",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/9/15 09:27"
-        },
         {
           "kind": "rune",
           "id": "Gul",
@@ -419,28 +405,14 @@
       "kind": "rune",
       "id": "Vex",
       "label": "Vex",
-      "fair_fg": 115.0,
+      "fair_fg": 110.0,
       "iso_fg": 160.0,
       "ft_fg": null,
       "trade_fg": 160.0,
-      "samples": 4,
-      "confidence": "medium",
-      "last_seen_at": "2026-09-16T04:53:46.601627+00:00",
+      "samples": 3,
+      "confidence": "low",
+      "last_seen_at": "2026-09-15T21:25:23.979843+00:00",
       "sources": [
-        {
-          "kind": "rune",
-          "id": "Vex",
-          "label": "Vex",
-          "side": "unknown",
-          "price_fg": 120.0,
-          "title": "Vex For Sale",
-          "url": "https://forums.d2jsp.org/topic.php?t=110291536&f=123",
-          "observed_at": "2026-09-16T04:53:46.601627+00:00",
-          "topic_date": "2026-09-15",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/9/15 09:29"
-        },
         {
           "kind": "rune",
           "id": "Vex",
@@ -853,28 +825,14 @@
       "kind": "rune",
       "id": "Um",
       "label": "Um",
-      "fair_fg": 30.0,
+      "fair_fg": 45.0,
       "iso_fg": 30.0,
       "ft_fg": null,
       "trade_fg": 60.0,
-      "samples": 5,
+      "samples": 4,
       "confidence": "medium",
-      "last_seen_at": "2026-09-16T04:53:55.298432+00:00",
+      "last_seen_at": "2026-09-15T03:18:17.329972+00:00",
       "sources": [
-        {
-          "kind": "rune",
-          "id": "Um",
-          "label": "Um",
-          "side": "unknown",
-          "price_fg": 25.0,
-          "title": "Um",
-          "url": "https://forums.d2jsp.org/topic.php?t=110291439&f=123",
-          "observed_at": "2026-09-16T04:53:55.298432+00:00",
-          "topic_date": "2026-09-15",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/9/15 09:15"
-        },
         {
           "kind": "rune",
           "id": "Um",
@@ -1320,23 +1278,10 @@
       "iso_fg": null,
       "ft_fg": 10.0,
       "trade_fg": 15.0,
-      "samples": 13,
+      "samples": 12,
       "confidence": "high",
-      "last_seen_at": "2026-09-10T11:32:25.882726+00:00",
+      "last_seen_at": "2026-09-09T23:28:18.713143+00:00",
       "sources": [
-        {
-          "kind": "item",
-          "id": "unique-frostburn",
-          "label": "霜燃 (Frostburn)",
-          "category": "手套",
-          "side": "unknown",
-          "price_fg": 20.0,
-          "title": "Some Items",
-          "url": "https://forums.d2jsp.org/topic.php?t=110232425&f=123",
-          "observed_at": "2026-09-10T11:32:25.882726+00:00",
-          "topic_date": "2026-09-10",
-          "item_parser_v2": true
-        },
         {
           "kind": "item",
           "id": "unique-frostburn",
@@ -2173,7 +2118,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110229290&f=123",
           "observed_at": "2026-09-09T11:31:35.335595+00:00",
           "topic_date": "2026-09-09",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/9 04:13"
         },
         {
           "kind": "item",
@@ -2505,24 +2451,10 @@
       "iso_fg": 22.5,
       "ft_fg": 15.0,
       "trade_fg": 17.5,
-      "samples": 12,
+      "samples": 11,
       "confidence": "high",
-      "last_seen_at": "2026-09-16T04:56:22.660548+00:00",
+      "last_seen_at": "2026-09-10T20:58:49.749089+00:00",
       "sources": [
-        {
-          "kind": "item",
-          "id": "base-cs-5os",
-          "label": "5洞水晶劍 (5os Crystal Sword / CTA Base)",
-          "category": "熱門符文之語鑲底",
-          "side": "unknown",
-          "price_fg": 20.0,
-          "title": "Shop Song",
-          "url": "https://forums.d2jsp.org/topic.php?t=110035008&f=123",
-          "observed_at": "2026-09-16T04:56:22.660548+00:00",
-          "topic_date": "2026-09-03",
-          "item_parser_v2": true,
-          "topic_time": "2026/9/3 10:04"
-        },
         {
           "kind": "item",
           "id": "base-cs-5os",
@@ -3606,28 +3538,14 @@
       "kind": "item",
       "id": "unique-peasant-crown",
       "label": "農夫王冠 (Peasant Crown)",
-      "fair_fg": 12.5,
+      "fair_fg": 10.0,
       "iso_fg": null,
       "ft_fg": 25.0,
       "trade_fg": null,
-      "samples": 8,
+      "samples": 7,
       "confidence": "medium",
-      "last_seen_at": "2026-09-16T04:56:22.660548+00:00",
+      "last_seen_at": "2026-09-09T16:51:07.138598+00:00",
       "sources": [
-        {
-          "kind": "item",
-          "id": "unique-peasant-crown",
-          "label": "農夫王冠 (Peasant Crown)",
-          "category": "頭盔",
-          "side": "unknown",
-          "price_fg": 30.0,
-          "title": "Shop Song",
-          "url": "https://forums.d2jsp.org/topic.php?t=110035008&f=123",
-          "observed_at": "2026-09-16T04:56:22.660548+00:00",
-          "topic_date": "2026-09-03",
-          "item_parser_v2": true,
-          "topic_time": "2026/9/3 10:04"
-        },
         {
           "kind": "item",
           "id": "unique-peasant-crown",
@@ -4120,7 +4038,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110184538&f=123&o=10",
           "observed_at": "2026-09-09T11:33:52.764665+00:00",
           "topic_date": "2026-09-07",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/7 05:58"
         },
         {
           "kind": "item",
@@ -4133,7 +4052,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110184538&f=123&o=10",
           "observed_at": "2026-09-09T11:33:52.764665+00:00",
           "topic_date": "2026-09-07",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/7 05:58"
         },
         {
           "kind": "item",
@@ -4539,24 +4459,10 @@
       "iso_fg": null,
       "ft_fg": 30.0,
       "trade_fg": null,
-      "samples": 11,
+      "samples": 10,
       "confidence": "high",
-      "last_seen_at": "2026-09-16T04:56:22.660548+00:00",
+      "last_seen_at": "2026-09-09T16:52:38.735692+00:00",
       "sources": [
-        {
-          "kind": "item",
-          "id": "base-pb-5os",
-          "label": "5洞幻化之刃 (5os Phase Blade / Grief Base)",
-          "category": "熱門符文之語鑲底",
-          "side": "unknown",
-          "price_fg": 30.0,
-          "title": "Shop Song",
-          "url": "https://forums.d2jsp.org/topic.php?t=110035008&f=123",
-          "observed_at": "2026-09-16T04:56:22.660548+00:00",
-          "topic_date": "2026-09-03",
-          "item_parser_v2": true,
-          "topic_time": "2026/9/3 10:04"
-        },
         {
           "kind": "item",
           "id": "base-pb-5os",
@@ -5058,24 +4964,10 @@
       "iso_fg": 80.0,
       "ft_fg": 77.5,
       "trade_fg": 100.0,
-      "samples": 21,
+      "samples": 20,
       "confidence": "high",
-      "last_seen_at": "2026-09-16T04:56:22.660548+00:00",
+      "last_seen_at": "2026-09-13T12:02:27.376573+00:00",
       "sources": [
-        {
-          "kind": "item",
-          "id": "stormshield",
-          "label": "暴風之盾 (Stormshield / SS)",
-          "category": "盾牌",
-          "side": "unknown",
-          "price_fg": 100.0,
-          "title": "Shop Song",
-          "url": "https://forums.d2jsp.org/topic.php?t=110035008&f=123",
-          "observed_at": "2026-09-16T04:56:22.660548+00:00",
-          "topic_date": "2026-09-03",
-          "item_parser_v2": true,
-          "topic_time": "2026/9/3 10:04"
-        },
         {
           "kind": "item",
           "id": "stormshield",
@@ -5875,24 +5767,10 @@
       "iso_fg": 100.0,
       "ft_fg": 150.0,
       "trade_fg": 100.0,
-      "samples": 6,
+      "samples": 5,
       "confidence": "medium",
-      "last_seen_at": "2026-09-16T04:56:22.660548+00:00",
+      "last_seen_at": "2026-09-13T12:02:31.917240+00:00",
       "sources": [
-        {
-          "kind": "item",
-          "id": "hoz",
-          "label": "撒卡蘭姆使者 (Herald of Zakarum / HoZ)",
-          "category": "盾牌",
-          "side": "unknown",
-          "price_fg": 100.0,
-          "title": "Shop Song",
-          "url": "https://forums.d2jsp.org/topic.php?t=110035008&f=123",
-          "observed_at": "2026-09-16T04:56:22.660548+00:00",
-          "topic_date": "2026-09-03",
-          "item_parser_v2": true,
-          "topic_time": "2026/9/3 10:04"
-        },
         {
           "kind": "item",
           "id": "hoz",
@@ -5918,7 +5796,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110206890&f=123",
           "observed_at": "2026-09-08T23:34:17.100865+00:00",
           "topic_date": "2026-09-07",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/7 05:04"
         },
         {
           "kind": "item",
@@ -6505,23 +6384,10 @@
       "iso_fg": null,
       "ft_fg": null,
       "trade_fg": null,
-      "samples": 6,
+      "samples": 5,
       "confidence": "medium",
-      "last_seen_at": "2026-09-10T11:32:25.882726+00:00",
+      "last_seen_at": "2026-09-09T16:48:07.139193+00:00",
       "sources": [
-        {
-          "kind": "item",
-          "id": "unique-tomb-reaver",
-          "label": "盜墓者 (Tomb Reaver)",
-          "category": "長柄武器",
-          "side": "unknown",
-          "price_fg": 30.0,
-          "title": "Some Items",
-          "url": "https://forums.d2jsp.org/topic.php?t=110232425&f=123",
-          "observed_at": "2026-09-10T11:32:25.882726+00:00",
-          "topic_date": "2026-09-10",
-          "item_parser_v2": true
-        },
         {
           "kind": "item",
           "id": "unique-tomb-reaver",
@@ -6904,28 +6770,14 @@
       "kind": "item",
       "id": "gore-rider",
       "label": "蝕肉騎士 (Gore Rider / Gores)",
-      "fair_fg": 40.0,
+      "fair_fg": 35.0,
       "iso_fg": null,
       "ft_fg": 50.0,
       "trade_fg": 20.0,
-      "samples": 9,
+      "samples": 8,
       "confidence": "medium",
-      "last_seen_at": "2026-09-16T04:56:22.660548+00:00",
+      "last_seen_at": "2026-09-15T00:01:48.366436+00:00",
       "sources": [
-        {
-          "kind": "item",
-          "id": "gore-rider",
-          "label": "蝕肉騎士 (Gore Rider / Gores)",
-          "category": "靴子",
-          "side": "unknown",
-          "price_fg": 100.0,
-          "title": "Shop Song",
-          "url": "https://forums.d2jsp.org/topic.php?t=110035008&f=123",
-          "observed_at": "2026-09-16T04:56:22.660548+00:00",
-          "topic_date": "2026-09-03",
-          "item_parser_v2": true,
-          "topic_time": "2026/9/3 10:04"
-        },
         {
           "kind": "item",
           "id": "gore-rider",
@@ -8461,27 +8313,14 @@
       "kind": "item",
       "id": "gheeds",
       "label": "基得的運氣 (Gheed's Fortune / Gheeds)",
-      "fair_fg": 50.0,
+      "fair_fg": 40.0,
       "iso_fg": 170.0,
       "ft_fg": 20.0,
       "trade_fg": 17.5,
-      "samples": 20,
+      "samples": 19,
       "confidence": "high",
-      "last_seen_at": "2026-09-10T11:32:25.882726+00:00",
+      "last_seen_at": "2026-09-10T11:30:20.736676+00:00",
       "sources": [
-        {
-          "kind": "item",
-          "id": "gheeds",
-          "label": "基得的運氣 (Gheed's Fortune / Gheeds)",
-          "category": "熱門護身符與暗金符咒",
-          "side": "unknown",
-          "price_fg": 500.0,
-          "title": "Some Items",
-          "url": "https://forums.d2jsp.org/topic.php?t=110232425&f=123",
-          "observed_at": "2026-09-10T11:32:25.882726+00:00",
-          "topic_date": "2026-09-10",
-          "item_parser_v2": true
-        },
         {
           "kind": "item",
           "id": "gheeds",
@@ -9133,7 +8972,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110206890&f=123",
           "observed_at": "2026-09-08T23:34:17.100865+00:00",
           "topic_date": "2026-09-07",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/7 05:04"
         },
         {
           "kind": "item",
@@ -9656,7 +9496,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110229456&f=123&o=10",
           "observed_at": "2026-09-09T11:33:27.839390+00:00",
           "topic_date": "2026-09-09",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/9 05:01"
         },
         {
           "kind": "item",
@@ -10518,28 +10359,14 @@
       "kind": "item",
       "id": "duriels-shell",
       "label": "都瑞爾的殼 (Duriel's Shell)",
-      "fair_fg": 32.5,
+      "fair_fg": 25.0,
       "iso_fg": null,
       "ft_fg": 15.0,
       "trade_fg": null,
-      "samples": 6,
+      "samples": 5,
       "confidence": "medium",
-      "last_seen_at": "2026-09-16T04:56:22.660548+00:00",
+      "last_seen_at": "2026-09-09T21:06:11.739844+00:00",
       "sources": [
-        {
-          "kind": "item",
-          "id": "duriels-shell",
-          "label": "都瑞爾的殼 (Duriel's Shell)",
-          "category": "胸甲",
-          "side": "unknown",
-          "price_fg": 250.0,
-          "title": "Shop Song",
-          "url": "https://forums.d2jsp.org/topic.php?t=110035008&f=123",
-          "observed_at": "2026-09-16T04:56:22.660548+00:00",
-          "topic_date": "2026-09-03",
-          "item_parser_v2": true,
-          "topic_time": "2026/9/3 10:04"
-        },
         {
           "kind": "item",
           "id": "duriels-shell",
@@ -10621,7 +10448,7 @@
       "iso_fg": null,
       "ft_fg": 10.0,
       "trade_fg": 15.0,
-      "samples": 16,
+      "samples": 15,
       "confidence": "high",
       "last_seen_at": "2026-09-13T12:02:27.376573+00:00",
       "sources": [
@@ -10662,19 +10489,6 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110257633&f=123",
           "observed_at": "2026-09-13T04:55:49.129050+00:00",
           "topic_date": "2026-09-11",
-          "item_parser_v2": true
-        },
-        {
-          "kind": "item",
-          "id": "magefist",
-          "label": "法師之拳 (Magefist)",
-          "category": "手套",
-          "side": "unknown",
-          "price_fg": 20.0,
-          "title": "Some Items",
-          "url": "https://forums.d2jsp.org/topic.php?t=110232425&f=123",
-          "observed_at": "2026-09-10T11:32:25.882726+00:00",
-          "topic_date": "2026-09-10",
           "item_parser_v2": true
         },
         {
@@ -10754,7 +10568,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110144895&f=123&o=90",
           "observed_at": "2026-09-09T11:34:11.065863+00:00",
           "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/8 18:02"
         },
         {
           "kind": "item",
@@ -10780,8 +10595,9 @@
           "title": "No Bot Item Shop",
           "url": "https://forums.d2jsp.org/topic.php?t=110222649&f=123",
           "observed_at": "2026-09-09T11:31:02.254570+00:00",
-          "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "topic_date": "2026-09-09",
+          "item_parser_v2": true,
+          "topic_time": "2026/9/9 15:29"
         },
         {
           "kind": "item",
@@ -10945,28 +10761,14 @@
       "kind": "item",
       "id": "homunculus",
       "label": "侏儒 (Homunculus)",
-      "fair_fg": 55.0,
+      "fair_fg": 30.0,
       "iso_fg": null,
       "ft_fg": null,
       "trade_fg": null,
-      "samples": 2,
+      "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-09-16T04:56:22.660548+00:00",
+      "last_seen_at": "2026-09-02T11:33:33.033018+00:00",
       "sources": [
-        {
-          "kind": "item",
-          "id": "homunculus",
-          "label": "侏儒 (Homunculus)",
-          "category": "盾牌",
-          "side": "unknown",
-          "price_fg": 80.0,
-          "title": "Shop Song",
-          "url": "https://forums.d2jsp.org/topic.php?t=110035008&f=123",
-          "observed_at": "2026-09-16T04:56:22.660548+00:00",
-          "topic_date": "2026-09-03",
-          "item_parser_v2": true,
-          "topic_time": "2026/9/3 10:04"
-        },
         {
           "kind": "item",
           "id": "homunculus",
@@ -10988,28 +10790,14 @@
       "kind": "item",
       "id": "trang-gloves",
       "label": "塔格奧之爪 (Trang-Oul's Claws / Trang Gloves)",
-      "fair_fg": 18.5,
+      "fair_fg": 16.0,
       "iso_fg": 30.0,
       "ft_fg": 20.0,
       "trade_fg": 15.0,
-      "samples": 14,
+      "samples": 12,
       "confidence": "high",
-      "last_seen_at": "2026-09-16T04:56:22.660548+00:00",
+      "last_seen_at": "2026-09-13T12:02:27.376573+00:00",
       "sources": [
-        {
-          "kind": "item",
-          "id": "trang-gloves",
-          "label": "塔格奧之爪 (Trang-Oul's Claws / Trang Gloves)",
-          "category": "手套",
-          "side": "unknown",
-          "price_fg": 40.0,
-          "title": "Shop Song",
-          "url": "https://forums.d2jsp.org/topic.php?t=110035008&f=123",
-          "observed_at": "2026-09-16T04:56:22.660548+00:00",
-          "topic_date": "2026-09-03",
-          "item_parser_v2": true,
-          "topic_time": "2026/9/3 10:04"
-        },
         {
           "kind": "item",
           "id": "trang-gloves",
@@ -11020,19 +10808,6 @@
           "title": "Offerlist With Bins",
           "url": "https://forums.d2jsp.org/topic.php?t=110239362&f=123",
           "observed_at": "2026-09-13T12:02:27.376573+00:00",
-          "topic_date": "2026-09-10",
-          "item_parser_v2": true
-        },
-        {
-          "kind": "item",
-          "id": "trang-gloves",
-          "label": "塔格奧之爪 (Trang-Oul's Claws / Trang Gloves)",
-          "category": "手套",
-          "side": "unknown",
-          "price_fg": 20.0,
-          "title": "Some Items",
-          "url": "https://forums.d2jsp.org/topic.php?t=110232425&f=123",
-          "observed_at": "2026-09-10T11:32:25.882726+00:00",
           "topic_date": "2026-09-10",
           "item_parser_v2": true
         },
@@ -11826,24 +11601,10 @@
       "iso_fg": null,
       "ft_fg": null,
       "trade_fg": null,
-      "samples": 6,
+      "samples": 5,
       "confidence": "medium",
-      "last_seen_at": "2026-09-16T04:56:22.660548+00:00",
+      "last_seen_at": "2026-09-10T04:57:55.840108+00:00",
       "sources": [
-        {
-          "kind": "item",
-          "id": "base-cs-4os",
-          "label": "4洞水晶劍 (4os Crystal Sword / Spirit Base)",
-          "category": "熱門符文之語鑲底",
-          "side": "unknown",
-          "price_fg": 20.0,
-          "title": "Shop Song",
-          "url": "https://forums.d2jsp.org/topic.php?t=110035008&f=123",
-          "observed_at": "2026-09-16T04:56:22.660548+00:00",
-          "topic_date": "2026-09-03",
-          "item_parser_v2": true,
-          "topic_time": "2026/9/3 10:04"
-        },
         {
           "kind": "item",
           "id": "base-cs-4os",
@@ -11921,28 +11682,14 @@
       "kind": "item",
       "id": "base-eth-mancatcher-4os",
       "label": "無形4洞捕人叉 (Eth 4os Mancatcher)",
-      "fair_fg": 90.0,
+      "fair_fg": 95.0,
       "iso_fg": null,
       "ft_fg": 100.0,
       "trade_fg": null,
-      "samples": 3,
+      "samples": 2,
       "confidence": "low",
-      "last_seen_at": "2026-09-16T04:56:22.660548+00:00",
+      "last_seen_at": "2026-09-06T15:32:38.107934+00:00",
       "sources": [
-        {
-          "kind": "item",
-          "id": "base-eth-mancatcher-4os",
-          "label": "無形4洞捕人叉 (Eth 4os Mancatcher)",
-          "category": "熱門符文之語鑲底",
-          "side": "unknown",
-          "price_fg": 50.0,
-          "title": "Shop Song",
-          "url": "https://forums.d2jsp.org/topic.php?t=110035008&f=123",
-          "observed_at": "2026-09-16T04:56:22.660548+00:00",
-          "topic_date": "2026-09-03",
-          "item_parser_v2": true,
-          "topic_time": "2026/9/3 10:04"
-        },
         {
           "kind": "item",
           "id": "base-eth-mancatcher-4os",
@@ -12793,7 +12540,7 @@
       "iso_fg": null,
       "ft_fg": 15.0,
       "trade_fg": null,
-      "samples": 12,
+      "samples": 11,
       "confidence": "high",
       "last_seen_at": "2026-09-10T20:58:49.749089+00:00",
       "sources": [
@@ -12810,19 +12557,6 @@
           "topic_date": "2026-09-08",
           "item_parser_v2": true,
           "topic_time": "2026/9/8 17:00"
-        },
-        {
-          "kind": "item",
-          "id": "unique-goldwrap",
-          "label": "黃金裹腰 (Goldwrap)",
-          "category": "腰帶",
-          "side": "unknown",
-          "price_fg": 30.0,
-          "title": "Some Items",
-          "url": "https://forums.d2jsp.org/topic.php?t=110232425&f=123",
-          "observed_at": "2026-09-10T11:32:25.882726+00:00",
-          "topic_date": "2026-09-10",
-          "item_parser_v2": true
         },
         {
           "kind": "item",
@@ -14271,7 +14005,7 @@
       "iso_fg": null,
       "ft_fg": 42.5,
       "trade_fg": null,
-      "samples": 12,
+      "samples": 11,
       "confidence": "high",
       "last_seen_at": "2026-09-12T23:08:43.957052+00:00",
       "sources": [
@@ -14314,19 +14048,6 @@
           "topic_date": "2026-09-08",
           "item_parser_v2": true,
           "topic_time": "2026/9/8 17:00"
-        },
-        {
-          "kind": "item",
-          "id": "unique-dwarf-star",
-          "label": "矮人之星 (Dwarf Star)",
-          "category": "戒指",
-          "side": "unknown",
-          "price_fg": 50.0,
-          "title": "Some Items",
-          "url": "https://forums.d2jsp.org/topic.php?t=110232425&f=123",
-          "observed_at": "2026-09-10T11:32:25.882726+00:00",
-          "topic_date": "2026-09-10",
-          "item_parser_v2": true
         },
         {
           "kind": "item",
@@ -14542,27 +14263,14 @@
       "kind": "item",
       "id": "unique-the-rising-sun",
       "label": "旭日東升 (The Rising Sun)",
-      "fair_fg": 20.0,
+      "fair_fg": 22.5,
       "iso_fg": null,
       "ft_fg": 25.0,
       "trade_fg": null,
-      "samples": 7,
+      "samples": 6,
       "confidence": "medium",
-      "last_seen_at": "2026-09-10T11:32:25.882726+00:00",
+      "last_seen_at": "2026-09-09T21:06:11.739844+00:00",
       "sources": [
-        {
-          "kind": "item",
-          "id": "unique-the-rising-sun",
-          "label": "旭日東升 (The Rising Sun)",
-          "category": "護身符",
-          "side": "unknown",
-          "price_fg": 20.0,
-          "title": "Some Items",
-          "url": "https://forums.d2jsp.org/topic.php?t=110232425&f=123",
-          "observed_at": "2026-09-10T11:32:25.882726+00:00",
-          "topic_date": "2026-09-10",
-          "item_parser_v2": true
-        },
         {
           "kind": "item",
           "id": "unique-the-rising-sun",
@@ -16472,28 +16180,14 @@
       "kind": "item",
       "id": "base-monarch-4os",
       "label": "4洞統治者大盾 (4os Monarch / Spirit Base)",
-      "fair_fg": 28.0,
+      "fair_fg": 27.0,
       "iso_fg": null,
       "ft_fg": null,
       "trade_fg": 30.0,
-      "samples": 11,
+      "samples": 10,
       "confidence": "high",
-      "last_seen_at": "2026-09-16T04:56:22.660548+00:00",
+      "last_seen_at": "2026-09-10T04:57:55.840108+00:00",
       "sources": [
-        {
-          "kind": "item",
-          "id": "base-monarch-4os",
-          "label": "4洞統治者大盾 (4os Monarch / Spirit Base)",
-          "category": "熱門符文之語鑲底",
-          "side": "unknown",
-          "price_fg": 30.0,
-          "title": "Shop Song",
-          "url": "https://forums.d2jsp.org/topic.php?t=110035008&f=123",
-          "observed_at": "2026-09-16T04:56:22.660548+00:00",
-          "topic_date": "2026-09-03",
-          "item_parser_v2": true,
-          "topic_time": "2026/9/3 10:04"
-        },
         {
           "kind": "item",
           "id": "base-monarch-4os",
@@ -16846,7 +16540,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110206890&f=123",
           "observed_at": "2026-09-08T23:34:17.100865+00:00",
           "topic_date": "2026-09-07",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/7 05:04"
         },
         {
           "kind": "item",
@@ -16883,27 +16578,14 @@
       "kind": "item",
       "id": "unique-renewed-bone-break",
       "label": "新生分筋裂骨 (Renewed Bone Break)",
-      "fair_fg": 200.0,
+      "fair_fg": 132.5,
       "iso_fg": 65.0,
       "ft_fg": null,
       "trade_fg": null,
-      "samples": 5,
+      "samples": 4,
       "confidence": "medium",
-      "last_seen_at": "2026-09-10T11:32:25.882726+00:00",
+      "last_seen_at": "2026-09-09T16:48:07.139193+00:00",
       "sources": [
-        {
-          "kind": "item",
-          "id": "unique-renewed-bone-break",
-          "label": "新生分筋裂骨 (Renewed Bone Break)",
-          "category": "咒符",
-          "side": "unknown",
-          "price_fg": 250.0,
-          "title": "Some Items",
-          "url": "https://forums.d2jsp.org/topic.php?t=110232425&f=123",
-          "observed_at": "2026-09-10T11:32:25.882726+00:00",
-          "topic_date": "2026-09-10",
-          "item_parser_v2": true
-        },
         {
           "kind": "item",
           "id": "unique-renewed-bone-break",
@@ -17244,7 +16926,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110144895&f=123&o=90",
           "observed_at": "2026-09-09T11:34:11.065863+00:00",
           "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/8 18:02"
         },
         {
           "kind": "item",
@@ -17257,7 +16940,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110144895&f=123&o=90",
           "observed_at": "2026-09-09T11:34:11.065863+00:00",
           "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/8 18:02"
         },
         {
           "kind": "item",
@@ -17340,7 +17024,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110202393&f=123",
           "observed_at": "2026-09-09T11:30:27.270546+00:00",
           "topic_date": "2026-09-06",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/6 18:16"
         },
         {
           "kind": "item",
@@ -17353,7 +17038,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110202393&f=123",
           "observed_at": "2026-09-09T11:30:27.270546+00:00",
           "topic_date": "2026-09-06",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/6 18:16"
         },
         {
           "kind": "item",
@@ -17877,23 +17563,10 @@
       "iso_fg": 40.0,
       "ft_fg": null,
       "trade_fg": null,
-      "samples": 6,
+      "samples": 5,
       "confidence": "medium",
-      "last_seen_at": "2026-09-10T11:32:25.882726+00:00",
+      "last_seen_at": "2026-09-09T16:48:07.139193+00:00",
       "sources": [
-        {
-          "kind": "item",
-          "id": "tgods",
-          "label": "雷神之力 (Thundergod's Vigor / TGods)",
-          "category": "腰帶",
-          "side": "unknown",
-          "price_fg": 100.0,
-          "title": "Some Items",
-          "url": "https://forums.d2jsp.org/topic.php?t=110232425&f=123",
-          "observed_at": "2026-09-10T11:32:25.882726+00:00",
-          "topic_date": "2026-09-10",
-          "item_parser_v2": true
-        },
         {
           "kind": "item",
           "id": "tgods",
@@ -17918,8 +17591,9 @@
           "title": "No Bot Item Shop",
           "url": "https://forums.d2jsp.org/topic.php?t=110222649&f=123",
           "observed_at": "2026-09-09T11:31:02.254570+00:00",
-          "topic_date": "2026-09-08",
-          "item_parser_v2": true
+          "topic_date": "2026-09-09",
+          "item_parser_v2": true,
+          "topic_time": "2026/9/9 15:29"
         },
         {
           "kind": "item",
@@ -18059,7 +17733,8 @@
           "url": "https://forums.d2jsp.org/topic.php?t=110206890&f=123",
           "observed_at": "2026-09-08T23:34:17.100865+00:00",
           "topic_date": "2026-09-07",
-          "item_parser_v2": true
+          "item_parser_v2": true,
+          "topic_time": "2026/9/7 05:04"
         }
       ],
       "category": "權杖"
@@ -18696,28 +18371,14 @@
       "kind": "item",
       "id": "set-tal-rasha-s-fine-spun-cloth",
       "label": "塔拉夏的精織腰布 (Tal Rasha's Fine-Spun Cloth)",
-      "fair_fg": 40.0,
+      "fair_fg": 37.5,
       "iso_fg": null,
       "ft_fg": null,
       "trade_fg": null,
-      "samples": 3,
+      "samples": 2,
       "confidence": "low",
-      "last_seen_at": "2026-09-16T04:56:22.660548+00:00",
+      "last_seen_at": "2026-09-09T11:33:11.464511+00:00",
       "sources": [
-        {
-          "kind": "item",
-          "id": "set-tal-rasha-s-fine-spun-cloth",
-          "label": "塔拉夏的精織腰布 (Tal Rasha's Fine-Spun Cloth)",
-          "category": "套裝腰帶",
-          "side": "unknown",
-          "price_fg": 40.0,
-          "title": "Shop Song",
-          "url": "https://forums.d2jsp.org/topic.php?t=110035008&f=123",
-          "observed_at": "2026-09-16T04:56:22.660548+00:00",
-          "topic_date": "2026-09-03",
-          "item_parser_v2": true,
-          "topic_time": "2026/9/3 10:04"
-        },
         {
           "kind": "item",
           "id": "set-tal-rasha-s-fine-spun-cloth",
@@ -20427,5 +20088,5 @@
   "item_topic_count": 0,
   "item_cached_topics": 2927,
   "item_parsed_topics": 2927,
-  "item_sample_count": 1039
+  "item_sample_count": 1016
 }

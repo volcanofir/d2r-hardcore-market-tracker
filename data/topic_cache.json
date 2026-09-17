@@ -10,8 +10,8 @@
       "title": "Iso: 1x Lo Rune",
       "url": "https://forums.d2jsp.org/topic.php?t=110287986&f=123",
       "first_seen_at": "2026-09-15T03:09:40.672302+00:00",
-      "last_checked_at": "2026-09-15T03:18:09.026233+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-17T21:26:27.860137+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -69,8 +69,8 @@
       "title": "Looking To Buy Ohm + Mal",
       "url": "https://forums.d2jsp.org/topic.php?t=110287805&f=123",
       "first_seen_at": "2026-09-15T03:09:40.672302+00:00",
-      "last_checked_at": "2026-09-15T03:16:27.227273+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-17T21:26:14.377109+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -660,37 +660,10 @@
       "title": "Runes Ft",
       "url": "https://forums.d2jsp.org/topic.php?t=110285631&f=123",
       "first_seen_at": "2026-09-15T03:09:40.672302+00:00",
-      "last_checked_at": "2026-09-17T11:47:37.142832+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-17T21:26:05.217437+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Gul",
-          "label": "Gul",
-          "side": "ft",
-          "price_fg": 65.0,
-          "title": "Runes Ft",
-          "url": "https://forums.d2jsp.org/topic.php?t=110285631&f=123",
-          "observed_at": "2026-09-17T11:47:37.142832+00:00",
-          "topic_date": "2026-09-14",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Ist",
-          "label": "Ist",
-          "side": "ft",
-          "price_fg": 60.0,
-          "title": "Runes Ft",
-          "url": "https://forums.d2jsp.org/topic.php?t=110285631&f=123",
-          "observed_at": "2026-09-17T11:47:37.142832+00:00",
-          "topic_date": "2026-09-14",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110285627&f=123": {
       "title": "Fresh Found Jah - 1600fg",
@@ -894,8 +867,8 @@
       "title": "Some Last Needs",
       "url": "https://forums.d2jsp.org/topic.php?t=110284745&f=123",
       "first_seen_at": "2026-09-15T03:09:40.672302+00:00",
-      "last_checked_at": "2026-09-17T11:47:12.682249+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-17T21:26:20.645074+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -1416,8 +1389,8 @@
       "title": "Some Stuff",
       "url": "https://forums.d2jsp.org/topic.php?t=110283232&f=123",
       "first_seen_at": "2026-09-15T03:09:40.672302+00:00",
-      "last_checked_at": "2026-09-17T11:47:10.261323+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-17T21:26:00.114513+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -2057,8 +2030,8 @@
       "title": "Jah",
       "url": "https://forums.d2jsp.org/topic.php?t=110281530&f=123",
       "first_seen_at": "2026-09-15T03:09:40.672302+00:00",
-      "last_checked_at": "2026-09-15T03:17:35.229783+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-17T21:26:19.119812+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -2102,24 +2075,10 @@
       "title": "Mal Gul - 85fg",
       "url": "https://forums.d2jsp.org/topic.php?t=110281452&f=123",
       "first_seen_at": "2026-09-15T03:09:40.672302+00:00",
-      "last_checked_at": "2026-09-15T03:16:18.318091+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-17T21:26:14.038364+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Gul",
-          "label": "Gul",
-          "side": "ft",
-          "price_fg": 85.0,
-          "title": "Mal Gul - 85fg",
-          "url": "https://forums.d2jsp.org/topic.php?t=110281452&f=123",
-          "observed_at": "2026-09-15T03:16:18.318091+00:00",
-          "topic_date": "2026-09-14",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110281315&f=123": {
       "title": "Um",
@@ -2295,24 +2254,10 @@
       "title": "Jah",
       "url": "https://forums.d2jsp.org/topic.php?t=110281119&f=123",
       "first_seen_at": "2026-09-15T03:09:40.672302+00:00",
-      "last_checked_at": "2026-09-15T03:17:36.834748+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-17T21:26:23.547671+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Jah",
-          "label": "Jah",
-          "side": "unknown",
-          "price_fg": 1600.0,
-          "title": "Jah",
-          "url": "https://forums.d2jsp.org/topic.php?t=110281119&f=123",
-          "observed_at": "2026-09-15T03:17:36.834748+00:00",
-          "topic_date": "2026-09-14",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110281118&f=123": {
       "title": "Iso Mal Rune",
@@ -2345,8 +2290,8 @@
       "title": "Jah",
       "url": "https://forums.d2jsp.org/topic.php?t=110281071&f=123",
       "first_seen_at": "2026-09-15T03:09:40.672302+00:00",
-      "last_checked_at": "2026-09-15T03:17:41.613954+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-17T21:26:31.341486+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -2372,24 +2317,10 @@
       "title": "N Cham Rune Or Mist Demon Crossbow",
       "url": "https://forums.d2jsp.org/topic.php?t=110280994&f=123",
       "first_seen_at": "2026-09-15T03:09:40.672302+00:00",
-      "last_checked_at": "2026-09-15T03:15:41.397810+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-17T21:26:09.878653+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Gul",
-          "label": "Gul",
-          "side": "iso",
-          "price_fg": 700.0,
-          "title": "N Cham Rune Or Mist Demon Crossbow",
-          "url": "https://forums.d2jsp.org/topic.php?t=110280994&f=123",
-          "observed_at": "2026-09-15T03:15:41.397810+00:00",
-          "topic_date": "2026-09-14",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110280981&f=123": {
       "title": "Shako / +40 Hoto / Skillers / Necro Torch / Cta",
@@ -3428,7 +3359,7 @@
       "title": "Iso Warlock Torch/um Rune/unmade Cta",
       "url": "https://forums.d2jsp.org/topic.php?t=110278266&f=123",
       "first_seen_at": "2026-09-15T03:09:40.672302+00:00",
-      "last_checked_at": "2026-09-15T03:18:17.329972+00:00",
+      "last_checked_at": "2026-09-17T21:26:33.387030+00:00",
       "completed": false,
       "status": "parsed",
       "samples": [
@@ -3440,7 +3371,7 @@
           "price_fg": 30.0,
           "title": "Iso Warlock Torch/um Rune/unmade Cta",
           "url": "https://forums.d2jsp.org/topic.php?t=110278266&f=123",
-          "observed_at": "2026-09-15T03:18:17.329972+00:00",
+          "observed_at": "2026-09-17T21:26:33.387030+00:00",
           "topic_date": "2026-09-13",
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
@@ -3451,8 +3382,8 @@
       "title": "Selling Gul Bin 150",
       "url": "https://forums.d2jsp.org/topic.php?t=110278242&f=123",
       "first_seen_at": "2026-09-15T03:09:40.672302+00:00",
-      "last_checked_at": "2026-09-17T11:47:28.170528+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-17T21:26:04.838341+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -4821,5 +4752,5 @@
       "samples": []
     }
   },
-  "updated_at": "2026-09-17T17:03:47.239157+00:00"
+  "updated_at": "2026-09-17T21:26:33.399739+00:00"
 }

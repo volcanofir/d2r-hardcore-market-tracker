@@ -579,8 +579,8 @@
       "title": "Sur Rune",
       "url": "https://forums.d2jsp.org/topic.php?t=110285837&f=123",
       "first_seen_at": "2026-09-15T03:09:40.672302+00:00",
-      "last_checked_at": "2026-09-16T21:21:11.679353+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-17T04:57:12.821765+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -777,8 +777,8 @@
       "title": "Sur Rune",
       "url": "https://forums.d2jsp.org/topic.php?t=110285172&f=123",
       "first_seen_at": "2026-09-15T03:09:40.672302+00:00",
-      "last_checked_at": "2026-09-16T21:21:10.861462+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-17T04:57:16.591621+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -1200,8 +1200,8 @@
       "title": "Um Mal Gul",
       "url": "https://forums.d2jsp.org/topic.php?t=110283953&f=123",
       "first_seen_at": "2026-09-15T03:09:40.672302+00:00",
-      "last_checked_at": "2026-09-16T21:21:07.687954+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-17T04:57:08.444760+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -1326,8 +1326,8 @@
       "title": "Sur Rune Ft",
       "url": "https://forums.d2jsp.org/topic.php?t=110283420&f=123",
       "first_seen_at": "2026-09-15T03:09:40.672302+00:00",
-      "last_checked_at": "2026-09-16T21:21:09.420524+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-17T04:57:12.431157+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -1335,8 +1335,8 @@
       "title": "Sur Rune",
       "url": "https://forums.d2jsp.org/topic.php?t=110283418&f=123",
       "first_seen_at": "2026-09-15T03:09:40.672302+00:00",
-      "last_checked_at": "2026-09-16T21:21:14.811244+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-17T04:57:20.700456+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -1551,8 +1551,8 @@
       "title": "Um Mal Ist",
       "url": "https://forums.d2jsp.org/topic.php?t=110282590&f=123",
       "first_seen_at": "2026-09-15T03:09:40.672302+00:00",
-      "last_checked_at": "2026-09-16T21:21:07.479289+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-17T04:57:28.462322+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -1569,7 +1569,7 @@
       "title": "Sur",
       "url": "https://forums.d2jsp.org/topic.php?t=110282583&f=123",
       "first_seen_at": "2026-09-15T03:09:40.672302+00:00",
-      "last_checked_at": "2026-09-15T03:11:50.384807+00:00",
+      "last_checked_at": "2026-09-17T04:57:37.756764+00:00",
       "completed": false,
       "status": "parsed",
       "samples": []
@@ -1722,10 +1722,115 @@
       "title": "Ssgoku's Trade Room",
       "url": "https://forums.d2jsp.org/topic.php?t=110282413&f=123",
       "first_seen_at": "2026-09-15T03:09:40.672302+00:00",
-      "last_checked_at": "2026-09-15T03:12:03.470624+00:00",
+      "last_checked_at": "2026-09-17T04:57:41.272018+00:00",
       "completed": false,
       "status": "parsed",
-      "samples": []
+      "samples": [
+        {
+          "kind": "rune",
+          "id": "Pul",
+          "label": "Pul",
+          "side": "unknown",
+          "price_fg": 20.0,
+          "title": "Ssgoku's Trade Room",
+          "url": "https://forums.d2jsp.org/topic.php?t=110282413&f=123",
+          "observed_at": "2026-09-17T04:57:41.272018+00:00",
+          "topic_date": "2026-09-16",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
+        },
+        {
+          "kind": "rune",
+          "id": "Mal",
+          "label": "Mal",
+          "side": "unknown",
+          "price_fg": 40.0,
+          "title": "Ssgoku's Trade Room",
+          "url": "https://forums.d2jsp.org/topic.php?t=110282413&f=123",
+          "observed_at": "2026-09-17T04:57:41.272018+00:00",
+          "topic_date": "2026-09-16",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
+        },
+        {
+          "kind": "rune",
+          "id": "Ist",
+          "label": "Ist",
+          "side": "unknown",
+          "price_fg": 55.0,
+          "title": "Ssgoku's Trade Room",
+          "url": "https://forums.d2jsp.org/topic.php?t=110282413&f=123",
+          "observed_at": "2026-09-17T04:57:41.272018+00:00",
+          "topic_date": "2026-09-16",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
+        },
+        {
+          "kind": "rune",
+          "id": "Vex",
+          "label": "Vex",
+          "side": "unknown",
+          "price_fg": 115.0,
+          "title": "Ssgoku's Trade Room",
+          "url": "https://forums.d2jsp.org/topic.php?t=110282413&f=123",
+          "observed_at": "2026-09-17T04:57:41.272018+00:00",
+          "topic_date": "2026-09-16",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
+        },
+        {
+          "kind": "rune",
+          "id": "Ohm",
+          "label": "Ohm",
+          "side": "unknown",
+          "price_fg": 200.0,
+          "title": "Ssgoku's Trade Room",
+          "url": "https://forums.d2jsp.org/topic.php?t=110282413&f=123",
+          "observed_at": "2026-09-17T04:57:41.272018+00:00",
+          "topic_date": "2026-09-16",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
+        },
+        {
+          "kind": "rune",
+          "id": "Lo",
+          "label": "Lo",
+          "side": "unknown",
+          "price_fg": 400.0,
+          "title": "Ssgoku's Trade Room",
+          "url": "https://forums.d2jsp.org/topic.php?t=110282413&f=123",
+          "observed_at": "2026-09-17T04:57:41.272018+00:00",
+          "topic_date": "2026-09-16",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
+        },
+        {
+          "kind": "rune",
+          "id": "Sur",
+          "label": "Sur",
+          "side": "unknown",
+          "price_fg": 450.0,
+          "title": "Ssgoku's Trade Room",
+          "url": "https://forums.d2jsp.org/topic.php?t=110282413&f=123",
+          "observed_at": "2026-09-17T04:57:41.272018+00:00",
+          "topic_date": "2026-09-16",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
+        },
+        {
+          "kind": "rune",
+          "id": "Ber",
+          "label": "Ber",
+          "side": "unknown",
+          "price_fg": 900.0,
+          "title": "Ssgoku's Trade Room",
+          "url": "https://forums.d2jsp.org/topic.php?t=110282413&f=123",
+          "observed_at": "2026-09-17T04:57:41.272018+00:00",
+          "topic_date": "2026-09-16",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
+        }
+      ]
     },
     "https://forums.d2jsp.org/topic.php?t=110282413&f=123&o=10": {
       "title": "2",
@@ -1904,7 +2009,7 @@
       "title": "Starshine Store With Bins",
       "url": "https://forums.d2jsp.org/topic.php?t=110281935&f=123",
       "first_seen_at": "2026-09-15T03:09:40.672302+00:00",
-      "last_checked_at": "2026-09-15T03:12:02.772609+00:00",
+      "last_checked_at": "2026-09-17T04:57:35.025856+00:00",
       "completed": false,
       "status": "parsed",
       "samples": []
@@ -2803,8 +2908,8 @@
       "title": "Sur And Ber",
       "url": "https://forums.d2jsp.org/topic.php?t=110280173&f=123",
       "first_seen_at": "2026-09-15T03:09:40.672302+00:00",
-      "last_checked_at": "2026-09-16T21:21:14.262311+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-17T04:57:25.689025+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -3401,8 +3506,8 @@
       "title": "Sur Rune",
       "url": "https://forums.d2jsp.org/topic.php?t=110278622&f=123",
       "first_seen_at": "2026-09-15T03:09:40.672302+00:00",
-      "last_checked_at": "2026-09-16T21:21:13.041258+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-17T04:57:25.335014+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -3685,7 +3790,7 @@
       "title": "Sur",
       "url": "https://forums.d2jsp.org/topic.php?t=110277626&f=123",
       "first_seen_at": "2026-09-15T03:09:40.672302+00:00",
-      "last_checked_at": "2026-09-15T03:11:58.411836+00:00",
+      "last_checked_at": "2026-09-17T04:57:33.759078+00:00",
       "completed": false,
       "status": "parsed",
       "samples": []
@@ -4498,5 +4603,5 @@
       "samples": []
     }
   },
-  "updated_at": "2026-09-16T21:21:14.815887+00:00"
+  "updated_at": "2026-09-17T04:57:41.346461+00:00"
 }

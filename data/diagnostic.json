@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T20:57:50.050233+00:00",
+  "updated_at": "2026-09-18T23:22:28.693071+00:00",
   "forum_pages": [
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&c=2",
@@ -110,10 +110,10 @@
       ]
     },
     {
-      "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=150",
+      "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=150",
       "offset": 150,
-      "topics": 0,
-      "bytes": 0,
+      "topics": 27,
+      "bytes": 10600,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=150",
@@ -122,8 +122,8 @@
         },
         {
           "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=150",
-          "topics": 0,
-          "bytes": 286
+          "topics": 27,
+          "bytes": 10600
         }
       ]
     },
@@ -254,14 +254,21 @@
       ]
     }
   ],
-  "discovered_topics": 0,
-  "cached_topics": 482,
-  "selected_topics": 12,
-  "parsed_this_run": 12,
-  "completed_this_run": 11,
+  "discovered_topics": 27,
+  "cached_topics": 509,
+  "selected_topics": 39,
+  "parsed_this_run": 38,
+  "completed_this_run": 21,
   "legacy_samples": 0,
-  "combined_samples": 59,
-  "topic_errors": [],
+  "combined_samples": 68,
+  "topic_errors": [
+    {
+      "url": "https://forums.d2jsp.org/topic.php?t=110316313&f=123",
+      "title": "Sur Rune",
+      "reason": "new",
+      "error": "429 Too Many Requests (5/5)"
+    }
+  ],
   "season": 15,
   "season_label": "第 15 季天梯",
   "data_start": "2026-08-22",

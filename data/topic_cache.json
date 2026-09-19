@@ -5230,8 +5230,8 @@
       "title": "Iso Items Paying Fgs",
       "url": "https://forums.d2jsp.org/topic.php?t=110325745&f=123",
       "first_seen_at": "2026-09-19T15:54:50.740839+00:00",
-      "last_checked_at": "2026-09-19T15:56:04.140055+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-19T23:10:41.018796+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -5239,8 +5239,8 @@
       "title": "Iso Sur",
       "url": "https://forums.d2jsp.org/topic.php?t=110325719&f=123",
       "first_seen_at": "2026-09-19T15:54:50.740839+00:00",
-      "last_checked_at": "2026-09-19T15:55:53.357346+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-19T23:10:32.543331+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -5248,8 +5248,8 @@
       "title": "Ist Mal 5um 2lem",
       "url": "https://forums.d2jsp.org/topic.php?t=110325658&f=123",
       "first_seen_at": "2026-09-19T15:54:50.740839+00:00",
-      "last_checked_at": "2026-09-19T15:55:46.657294+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-19T23:10:28.187182+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -5257,8 +5257,8 @@
       "title": "Wts Fresh Lo",
       "url": "https://forums.d2jsp.org/topic.php?t=110325645&f=123",
       "first_seen_at": "2026-09-19T15:54:50.740839+00:00",
-      "last_checked_at": "2026-09-19T15:55:19.353824+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-19T23:10:10.678498+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -5302,83 +5302,17 @@
       "title": "Weekend Goodies",
       "url": "https://forums.d2jsp.org/topic.php?t=110325555&f=123",
       "first_seen_at": "2026-09-19T15:54:50.740839+00:00",
-      "last_checked_at": "2026-09-19T15:55:22.844012+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-19T23:10:14.508506+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Ist",
-          "label": "Ist",
-          "side": "unknown",
-          "price_fg": 58.0,
-          "title": "Weekend Goodies",
-          "url": "https://forums.d2jsp.org/topic.php?t=110325555&f=123",
-          "observed_at": "2026-09-19T15:55:22.844012+00:00",
-          "topic_date": "2026-09-19",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Mal",
-          "label": "Mal",
-          "side": "unknown",
-          "price_fg": 35.0,
-          "title": "Weekend Goodies",
-          "url": "https://forums.d2jsp.org/topic.php?t=110325555&f=123",
-          "observed_at": "2026-09-19T15:55:22.844012+00:00",
-          "topic_date": "2026-09-19",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Um",
-          "label": "Um",
-          "side": "unknown",
-          "price_fg": 22.0,
-          "title": "Weekend Goodies",
-          "url": "https://forums.d2jsp.org/topic.php?t=110325555&f=123",
-          "observed_at": "2026-09-19T15:55:22.844012+00:00",
-          "topic_date": "2026-09-19",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Pul",
-          "label": "Pul",
-          "side": "unknown",
-          "price_fg": 15.0,
-          "title": "Weekend Goodies",
-          "url": "https://forums.d2jsp.org/topic.php?t=110325555&f=123",
-          "observed_at": "2026-09-19T15:55:22.844012+00:00",
-          "topic_date": "2026-09-19",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Eth",
-          "label": "Eth",
-          "side": "unknown",
-          "price_fg": 20.0,
-          "title": "Weekend Goodies",
-          "url": "https://forums.d2jsp.org/topic.php?t=110325555&f=123",
-          "observed_at": "2026-09-19T15:55:22.844012+00:00",
-          "topic_date": "2026-09-19",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110325529&f=123": {
       "title": "Iso Lo",
       "url": "https://forums.d2jsp.org/topic.php?t=110325529&f=123",
       "first_seen_at": "2026-09-19T15:54:50.740839+00:00",
-      "last_checked_at": "2026-09-19T15:56:03.141629+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-19T23:10:45.989971+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -5404,24 +5338,10 @@
       "title": "Need Zod Ist Lem",
       "url": "https://forums.d2jsp.org/topic.php?t=110325511&f=123",
       "first_seen_at": "2026-09-19T15:54:50.740839+00:00",
-      "last_checked_at": "2026-09-19T15:55:37.243555+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-19T23:10:23.455532+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Lem",
-          "label": "Lem",
-          "side": "iso",
-          "price_fg": 70.0,
-          "title": "Need Zod Ist Lem",
-          "url": "https://forums.d2jsp.org/topic.php?t=110325511&f=123",
-          "observed_at": "2026-09-19T15:55:37.243555+00:00",
-          "topic_date": "2026-09-19",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110325482&f=123": {
       "title": "Iso 1x Mal Rune",
@@ -5459,8 +5379,8 @@
       "title": "Ohm",
       "url": "https://forums.d2jsp.org/topic.php?t=110325417&f=123",
       "first_seen_at": "2026-09-19T15:54:50.740839+00:00",
-      "last_checked_at": "2026-09-19T15:55:36.051727+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-19T23:10:19.316595+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -5495,50 +5415,10 @@
       "title": "Iso Some Easy Runes",
       "url": "https://forums.d2jsp.org/topic.php?t=110325341&f=123",
       "first_seen_at": "2026-09-19T15:54:50.740839+00:00",
-      "last_checked_at": "2026-09-19T15:55:57.712831+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-19T23:10:37.334314+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Ko",
-          "label": "Ko",
-          "side": "iso",
-          "price_fg": 5.0,
-          "title": "Iso Some Easy Runes",
-          "url": "https://forums.d2jsp.org/topic.php?t=110325341&f=123",
-          "observed_at": "2026-09-19T15:55:57.712831+00:00",
-          "topic_date": "2026-09-19",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Um",
-          "label": "Um",
-          "side": "iso",
-          "price_fg": 30.0,
-          "title": "Iso Some Easy Runes",
-          "url": "https://forums.d2jsp.org/topic.php?t=110325341&f=123",
-          "observed_at": "2026-09-19T15:55:57.712831+00:00",
-          "topic_date": "2026-09-19",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Ist",
-          "label": "Ist",
-          "side": "iso",
-          "price_fg": 60.0,
-          "title": "Iso Some Easy Runes",
-          "url": "https://forums.d2jsp.org/topic.php?t=110325341&f=123",
-          "observed_at": "2026-09-19T15:55:57.712831+00:00",
-          "topic_date": "2026-09-19",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110325318&f=123": {
       "title": "Ft Lo Rune",
@@ -5567,8 +5447,8 @@
       "title": "Pwn's Flea Market",
       "url": "https://forums.d2jsp.org/topic.php?t=110325308&f=123",
       "first_seen_at": "2026-09-19T15:54:50.740839+00:00",
-      "last_checked_at": "2026-09-19T15:55:28.405984+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-19T23:10:18.926234+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -5576,8 +5456,8 @@
       "title": "Unid Annis Here Cheap",
       "url": "https://forums.d2jsp.org/topic.php?t=110325303&f=123",
       "first_seen_at": "2026-09-19T15:54:50.740839+00:00",
-      "last_checked_at": "2026-09-19T15:55:31.030613+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-19T23:10:35.206170+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -5594,8 +5474,8 @@
       "title": "Lo",
       "url": "https://forums.d2jsp.org/topic.php?t=110325253&f=123",
       "first_seen_at": "2026-09-19T15:54:50.740839+00:00",
-      "last_checked_at": "2026-09-19T15:55:41.857076+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-19T23:10:27.611221+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -5637,5 +5517,5 @@
       "last_attempt_at": "2026-09-19T15:57:17.938649+00:00"
     }
   },
-  "updated_at": "2026-09-19T20:45:27.423955+00:00"
+  "updated_at": "2026-09-19T23:10:45.990513+00:00"
 }

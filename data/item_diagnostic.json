@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T20:46:47.223348+00:00",
+  "updated_at": "2026-09-19T23:13:40.022946+00:00",
   "source_policy": "season15-items-static-catalog-v3",
   "catalog_items": 585,
   "forum_pages": [
@@ -30,8 +30,8 @@
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=100",
       "offset": 100,
-      "topics": 0,
-      "bytes": 282
+      "topics": 31,
+      "bytes": 7673
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=125",
@@ -52,11 +52,18 @@
       "bytes": 282
     }
   ],
-  "discovered_topics": 0,
-  "cached_topics": 2997,
-  "selected_topics": 20,
-  "parsed_this_run": 20,
-  "combined_samples": 982,
+  "discovered_topics": 31,
+  "cached_topics": 3027,
+  "selected_topics": 50,
+  "parsed_this_run": 49,
+  "combined_samples": 979,
   "market_items": 256,
-  "topic_errors": []
+  "topic_errors": [
+    {
+      "url": "https://forums.d2jsp.org/topic.php?t=110329119&f=123",
+      "title": "Few Things",
+      "reason": "new",
+      "error": "429 Too Many Requests (5/5)"
+    }
+  ]
 }

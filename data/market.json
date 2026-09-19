@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-19T20:46:47.209612+00:00",
+  "updated_at": "2026-09-19T23:13:40.015573+00:00",
   "forum": "https://forums.d2jsp.org/forum.php?f=123&c=2",
   "topic_count": 0,
   "cached_topics": 534,
   "parsed_topics": 534,
-  "completed_topics": 507,
-  "parsed_this_run": 13,
-  "sample_count": 39,
+  "completed_topics": 519,
+  "parsed_this_run": 12,
+  "sample_count": 30,
   "legacy_sample_count": 0,
   "market": [
     {
@@ -112,11 +112,11 @@
       "id": "Ist",
       "label": "Ist",
       "fair_fg": 60.0,
-      "iso_fg": 60.0,
+      "iso_fg": null,
       "ft_fg": 60.0,
       "trade_fg": 60.0,
-      "samples": 5,
-      "confidence": "medium",
+      "samples": 3,
+      "confidence": "low",
       "last_seen_at": "2026-09-19T15:56:28.490703+00:00",
       "sources": [
         {
@@ -132,34 +132,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/9/19 08:55"
-        },
-        {
-          "kind": "rune",
-          "id": "Ist",
-          "label": "Ist",
-          "side": "iso",
-          "price_fg": 60.0,
-          "title": "Iso Some Easy Runes",
-          "url": "https://forums.d2jsp.org/topic.php?t=110325341&f=123",
-          "observed_at": "2026-09-19T15:55:57.712831+00:00",
-          "topic_date": "2026-09-19",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/9/19 08:36"
-        },
-        {
-          "kind": "rune",
-          "id": "Ist",
-          "label": "Ist",
-          "side": "unknown",
-          "price_fg": 58.0,
-          "title": "Weekend Goodies",
-          "url": "https://forums.d2jsp.org/topic.php?t=110325555&f=123",
-          "observed_at": "2026-09-19T15:55:22.844012+00:00",
-          "topic_date": "2026-09-19",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/9/19 09:51"
         },
         {
           "kind": "rune",
@@ -405,11 +377,11 @@
       "kind": "rune",
       "id": "Mal",
       "label": "Mal",
-      "fair_fg": 35.0,
+      "fair_fg": 37.5,
       "iso_fg": 57.5,
       "ft_fg": 37.5,
       "trade_fg": 62.5,
-      "samples": 5,
+      "samples": 4,
       "confidence": "medium",
       "last_seen_at": "2026-09-19T20:44:48.823858+00:00",
       "sources": [
@@ -454,20 +426,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/9/19 09:09"
-        },
-        {
-          "kind": "rune",
-          "id": "Mal",
-          "label": "Mal",
-          "side": "unknown",
-          "price_fg": 35.0,
-          "title": "Weekend Goodies",
-          "url": "https://forums.d2jsp.org/topic.php?t=110325555&f=123",
-          "observed_at": "2026-09-19T15:55:22.844012+00:00",
-          "topic_date": "2026-09-19",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/9/19 09:51"
         },
         {
           "kind": "rune",
@@ -588,11 +546,11 @@
       "id": "Um",
       "label": "Um",
       "fair_fg": 25.0,
-      "iso_fg": 25.0,
+      "iso_fg": 23.75,
       "ft_fg": null,
       "trade_fg": 41.25,
-      "samples": 5,
-      "confidence": "medium",
+      "samples": 3,
+      "confidence": "low",
       "last_seen_at": "2026-09-19T20:44:48.823858+00:00",
       "sources": [
         {
@@ -608,34 +566,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/9/19 08:22"
-        },
-        {
-          "kind": "rune",
-          "id": "Um",
-          "label": "Um",
-          "side": "iso",
-          "price_fg": 30.0,
-          "title": "Iso Some Easy Runes",
-          "url": "https://forums.d2jsp.org/topic.php?t=110325341&f=123",
-          "observed_at": "2026-09-19T15:55:57.712831+00:00",
-          "topic_date": "2026-09-19",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/9/19 08:36"
-        },
-        {
-          "kind": "rune",
-          "id": "Um",
-          "label": "Um",
-          "side": "unknown",
-          "price_fg": 22.0,
-          "title": "Weekend Goodies",
-          "url": "https://forums.d2jsp.org/topic.php?t=110325555&f=123",
-          "observed_at": "2026-09-19T15:55:22.844012+00:00",
-          "topic_date": "2026-09-19",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/9/19 09:51"
         },
         {
           "kind": "rune",
@@ -703,24 +633,10 @@
       "iso_fg": 15.0,
       "ft_fg": null,
       "trade_fg": 13.75,
-      "samples": 4,
-      "confidence": "medium",
-      "last_seen_at": "2026-09-19T15:55:22.844012+00:00",
+      "samples": 3,
+      "confidence": "low",
+      "last_seen_at": "2026-09-18T16:29:45.662218+00:00",
       "sources": [
-        {
-          "kind": "rune",
-          "id": "Pul",
-          "label": "Pul",
-          "side": "unknown",
-          "price_fg": 15.0,
-          "title": "Weekend Goodies",
-          "url": "https://forums.d2jsp.org/topic.php?t=110325555&f=123",
-          "observed_at": "2026-09-19T15:55:22.844012+00:00",
-          "topic_date": "2026-09-19",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/9/19 09:51"
-        },
         {
           "kind": "rune",
           "id": "Pul",
@@ -965,28 +881,14 @@
       "kind": "rune",
       "id": "Ko",
       "label": "Ko",
-      "fair_fg": 17.5,
-      "iso_fg": 17.5,
+      "fair_fg": 30.0,
+      "iso_fg": 30.0,
       "ft_fg": null,
       "trade_fg": 30.0,
-      "samples": 2,
+      "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-09-19T15:55:57.712831+00:00",
+      "last_seen_at": "2026-09-18T23:21:38.678142+00:00",
       "sources": [
-        {
-          "kind": "rune",
-          "id": "Ko",
-          "label": "Ko",
-          "side": "iso",
-          "price_fg": 5.0,
-          "title": "Iso Some Easy Runes",
-          "url": "https://forums.d2jsp.org/topic.php?t=110325341&f=123",
-          "observed_at": "2026-09-19T15:55:57.712831+00:00",
-          "topic_date": "2026-09-19",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/9/19 08:36"
-        },
         {
           "kind": "rune",
           "id": "Ko",
@@ -1056,62 +958,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/9/18 08:30"
-        }
-      ]
-    },
-    {
-      "kind": "rune",
-      "id": "Eth",
-      "label": "Eth",
-      "fair_fg": 20.0,
-      "iso_fg": null,
-      "ft_fg": null,
-      "trade_fg": null,
-      "samples": 1,
-      "confidence": "low",
-      "last_seen_at": "2026-09-19T15:55:22.844012+00:00",
-      "sources": [
-        {
-          "kind": "rune",
-          "id": "Eth",
-          "label": "Eth",
-          "side": "unknown",
-          "price_fg": 20.0,
-          "title": "Weekend Goodies",
-          "url": "https://forums.d2jsp.org/topic.php?t=110325555&f=123",
-          "observed_at": "2026-09-19T15:55:22.844012+00:00",
-          "topic_date": "2026-09-19",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/9/19 09:51"
-        }
-      ]
-    },
-    {
-      "kind": "rune",
-      "id": "Lem",
-      "label": "Lem",
-      "fair_fg": 70.0,
-      "iso_fg": 70.0,
-      "ft_fg": null,
-      "trade_fg": null,
-      "samples": 1,
-      "confidence": "low",
-      "last_seen_at": "2026-09-19T15:55:37.243555+00:00",
-      "sources": [
-        {
-          "kind": "rune",
-          "id": "Lem",
-          "label": "Lem",
-          "side": "iso",
-          "price_fg": 70.0,
-          "title": "Need Zod Ist Lem",
-          "url": "https://forums.d2jsp.org/topic.php?t=110325511&f=123",
-          "observed_at": "2026-09-19T15:55:37.243555+00:00",
-          "topic_date": "2026-09-19",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/9/19 09:02"
         }
       ]
     },
@@ -1764,11 +1610,11 @@
       "kind": "item",
       "id": "string-of-ears",
       "label": "穿心 (String of Ears / SoE)",
-      "fair_fg": 17.5,
+      "fair_fg": 20.0,
       "iso_fg": 250.0,
       "ft_fg": null,
       "trade_fg": 130.0,
-      "samples": 12,
+      "samples": 10,
       "confidence": "high",
       "last_seen_at": "2026-09-15T00:01:15.119409+00:00",
       "sources": [
@@ -1837,34 +1683,6 @@
           "topic_date": "2026-09-08",
           "item_parser_v2": true,
           "topic_time": "2026/9/8 17:00"
-        },
-        {
-          "kind": "item",
-          "id": "string-of-ears",
-          "label": "穿心 (String of Ears / SoE)",
-          "category": "腰帶",
-          "side": "unknown",
-          "price_fg": 15.0,
-          "title": "3",
-          "url": "https://forums.d2jsp.org/topic.php?t=110203361&f=123&o=20",
-          "observed_at": "2026-09-09T21:07:24.385305+00:00",
-          "topic_date": "2026-09-07",
-          "item_parser_v2": true,
-          "topic_time": "2026/9/7 07:49"
-        },
-        {
-          "kind": "item",
-          "id": "string-of-ears",
-          "label": "穿心 (String of Ears / SoE)",
-          "category": "腰帶",
-          "side": "unknown",
-          "price_fg": 15.0,
-          "title": "3",
-          "url": "https://forums.d2jsp.org/topic.php?t=110207922&f=123&o=20",
-          "observed_at": "2026-09-09T21:07:19.336252+00:00",
-          "topic_date": "2026-09-09",
-          "item_parser_v2": true,
-          "topic_time": "2026/9/9 12:55"
         },
         {
           "kind": "item",
@@ -1971,14 +1789,28 @@
       "kind": "item",
       "id": "andariels-visage",
       "label": "安達利爾的面容 (Andariel's Visage / Andy)",
-      "fair_fg": 60.0,
+      "fair_fg": 70.0,
       "iso_fg": 80.0,
       "ft_fg": null,
       "trade_fg": 20.0,
-      "samples": 6,
+      "samples": 7,
       "confidence": "medium",
-      "last_seen_at": "2026-09-15T00:02:17.356221+00:00",
+      "last_seen_at": "2026-09-19T23:12:15.781768+00:00",
       "sources": [
+        {
+          "kind": "item",
+          "id": "andariels-visage",
+          "label": "安達利爾的面容 (Andariel's Visage / Andy)",
+          "category": "頭盔",
+          "side": "unknown",
+          "price_fg": 75.0,
+          "title": "6",
+          "url": "https://forums.d2jsp.org/topic.php?t=110137211&f=123&o=50",
+          "observed_at": "2026-09-19T23:12:15.781768+00:00",
+          "topic_date": "2026-09-17",
+          "item_parser_v2": true,
+          "topic_time": "2026/9/17 14:32"
+        },
         {
           "kind": "item",
           "id": "andariels-visage",
@@ -6110,24 +5942,10 @@
       "iso_fg": null,
       "ft_fg": null,
       "trade_fg": null,
-      "samples": 6,
+      "samples": 5,
       "confidence": "medium",
-      "last_seen_at": "2026-09-19T15:58:07.816659+00:00",
+      "last_seen_at": "2026-09-09T16:48:07.139193+00:00",
       "sources": [
-        {
-          "kind": "item",
-          "id": "unique-tomb-reaver",
-          "label": "盜墓者 (Tomb Reaver)",
-          "category": "長柄武器",
-          "side": "unknown",
-          "price_fg": 50.0,
-          "title": "Fury Druid Items",
-          "url": "https://forums.d2jsp.org/topic.php?t=110234270&f=123",
-          "observed_at": "2026-09-19T15:58:07.816659+00:00",
-          "topic_date": "2026-09-09",
-          "item_parser_v2": true,
-          "topic_time": "2026/9/9 14:54"
-        },
         {
           "kind": "item",
           "id": "unique-tomb-reaver",
@@ -8909,8 +8727,8 @@
       "iso_fg": 20.0,
       "ft_fg": null,
       "trade_fg": 5.0,
-      "samples": 10,
-      "confidence": "high",
+      "samples": 9,
+      "confidence": "medium",
       "last_seen_at": "2026-09-13T12:02:27.376573+00:00",
       "sources": [
         {
@@ -8953,20 +8771,6 @@
           "topic_date": "2026-09-06",
           "item_parser_v2": true,
           "topic_time": "2026/9/6 20:15"
-        },
-        {
-          "kind": "item",
-          "id": "razortail",
-          "label": "剃刀之尾 (Razortail)",
-          "category": "腰帶",
-          "side": "unknown",
-          "price_fg": 5.0,
-          "title": "2",
-          "url": "https://forums.d2jsp.org/topic.php?t=110203361&f=123&o=10",
-          "observed_at": "2026-09-09T21:07:48.530013+00:00",
-          "topic_date": "2026-09-06",
-          "item_parser_v2": true,
-          "topic_time": "2026/9/6 22:50"
         },
         {
           "kind": "item",
@@ -10982,28 +10786,14 @@
       "kind": "item",
       "id": "anni",
       "label": "毀滅小護身符 (Annihilus / Anni)",
-      "fair_fg": 5500.0,
+      "fair_fg": 5250.0,
       "iso_fg": 6000.0,
       "ft_fg": null,
       "trade_fg": null,
-      "samples": 3,
+      "samples": 2,
       "confidence": "low",
-      "last_seen_at": "2026-09-09T21:07:33.067153+00:00",
+      "last_seen_at": "2026-09-06T15:33:02.834433+00:00",
       "sources": [
-        {
-          "kind": "item",
-          "id": "anni",
-          "label": "毀滅小護身符 (Annihilus / Anni)",
-          "category": "熱門護身符與暗金符咒",
-          "side": "unknown",
-          "price_fg": 5500.0,
-          "title": "3",
-          "url": "https://forums.d2jsp.org/topic.php?t=110143553&f=123&o=20",
-          "observed_at": "2026-09-09T21:07:33.067153+00:00",
-          "topic_date": "2026-09-09",
-          "item_parser_v2": true,
-          "topic_time": "2026/9/9 14:39"
-        },
         {
           "kind": "item",
           "id": "anni",
@@ -17382,14 +17172,28 @@
       "kind": "item",
       "id": "unique-the-gladiator-s-bane",
       "label": "鬥士之禍 (The Gladiator's Bane)",
-      "fair_fg": 30.0,
+      "fair_fg": 47.5,
       "iso_fg": null,
       "ft_fg": null,
       "trade_fg": null,
-      "samples": 1,
+      "samples": 2,
       "confidence": "low",
-      "last_seen_at": "2026-09-09T11:32:28.664389+00:00",
+      "last_seen_at": "2026-09-19T23:12:15.781768+00:00",
       "sources": [
+        {
+          "kind": "item",
+          "id": "unique-the-gladiator-s-bane",
+          "label": "鬥士之禍 (The Gladiator's Bane)",
+          "category": "護甲",
+          "side": "unknown",
+          "price_fg": 65.0,
+          "title": "6",
+          "url": "https://forums.d2jsp.org/topic.php?t=110137211&f=123&o=50",
+          "observed_at": "2026-09-19T23:12:15.781768+00:00",
+          "topic_date": "2026-09-17",
+          "item_parser_v2": true,
+          "topic_time": "2026/9/17 14:32"
+        },
         {
           "kind": "item",
           "id": "unique-the-gladiator-s-bane",
@@ -18627,8 +18431,8 @@
   "price_parser": "season15-runes-c2-full-v5",
   "item_source_policy": "season15-items-static-catalog-v3",
   "item_catalog_count": 585,
-  "item_topic_count": 0,
-  "item_cached_topics": 2997,
-  "item_parsed_topics": 2997,
-  "item_sample_count": 923
+  "item_topic_count": 31,
+  "item_cached_topics": 3027,
+  "item_parsed_topics": 3026,
+  "item_sample_count": 920
 }

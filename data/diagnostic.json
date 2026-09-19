@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-09-19T15:57:17.945783+00:00",
+  "updated_at": "2026-09-19T20:45:27.430699+00:00",
   "forum_pages": [
     {
-      "url": "https://forums.d2jsp.org/forum.php?c=2&f=123",
+      "url": "https://forums.d2jsp.org/forum.php?f=123&c=2",
       "offset": 0,
-      "topics": 25,
-      "bytes": 10172,
+      "topics": 0,
+      "bytes": 0,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2",
@@ -14,8 +14,8 @@
         },
         {
           "url": "https://forums.d2jsp.org/forum.php?c=2&f=123",
-          "topics": 25,
-          "bytes": 10172
+          "topics": 0,
+          "bytes": 280
         }
       ]
     },
@@ -254,21 +254,14 @@
       ]
     }
   ],
-  "discovered_topics": 25,
+  "discovered_topics": 0,
   "cached_topics": 534,
-  "selected_topics": 37,
-  "parsed_this_run": 36,
-  "completed_this_run": 18,
+  "selected_topics": 13,
+  "parsed_this_run": 13,
+  "completed_this_run": 12,
   "legacy_samples": 0,
-  "combined_samples": 65,
-  "topic_errors": [
-    {
-      "url": "https://forums.d2jsp.org/topic.php?t=110325235&f=123",
-      "title": "Iso List Necro",
-      "reason": "new",
-      "error": "429 Too Many Requests (5/5)"
-    }
-  ],
+  "combined_samples": 61,
+  "topic_errors": [],
   "season": 15,
   "season_label": "第 15 季天梯",
   "data_start": "2026-08-22",

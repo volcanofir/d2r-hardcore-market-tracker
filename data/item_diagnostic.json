@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T23:13:40.022946+00:00",
+  "updated_at": "2026-09-20T05:03:14.454393+00:00",
   "source_policy": "season15-items-static-catalog-v3",
   "catalog_items": 585,
   "forum_pages": [
@@ -12,8 +12,8 @@
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=25",
       "offset": 25,
-      "topics": 0,
-      "bytes": 281
+      "topics": 40,
+      "bytes": 8183
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=50",
@@ -30,8 +30,8 @@
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=100",
       "offset": 100,
-      "topics": 31,
-      "bytes": 7673
+      "topics": 0,
+      "bytes": 282
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=125",
@@ -52,17 +52,17 @@
       "bytes": 282
     }
   ],
-  "discovered_topics": 31,
-  "cached_topics": 3027,
-  "selected_topics": 50,
-  "parsed_this_run": 49,
-  "combined_samples": 979,
-  "market_items": 256,
+  "discovered_topics": 40,
+  "cached_topics": 3065,
+  "selected_topics": 59,
+  "parsed_this_run": 58,
+  "combined_samples": 1121,
+  "market_items": 266,
   "topic_errors": [
     {
-      "url": "https://forums.d2jsp.org/topic.php?t=110329119&f=123",
-      "title": "Few Things",
-      "reason": "new",
+      "url": "https://forums.d2jsp.org/topic.php?t=110234201&f=123",
+      "title": "Chantress Pieces/ +fire Skills",
+      "reason": "recheck",
       "error": "429 Too Many Requests (5/5)"
     }
   ]

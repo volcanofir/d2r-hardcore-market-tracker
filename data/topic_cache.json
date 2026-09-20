@@ -37,8 +37,8 @@
       "title": "2",
       "url": "https://forums.d2jsp.org/topic.php?t=110287884&f=123&o=10",
       "first_seen_at": "2026-09-15T03:09:40.672302+00:00",
-      "last_checked_at": "2026-09-15T03:25:47.317819+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-20T16:11:33.817633+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -73,8 +73,8 @@
       "title": "2",
       "url": "https://forums.d2jsp.org/topic.php?t=110287796&f=123&o=10",
       "first_seen_at": "2026-09-15T03:09:40.672302+00:00",
-      "last_checked_at": "2026-09-15T03:25:49.534050+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-20T16:11:34.179324+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -3008,7 +3008,7 @@
       "title": "2 X Ber",
       "url": "https://forums.d2jsp.org/topic.php?t=110278875&f=123",
       "first_seen_at": "2026-09-15T03:09:40.672302+00:00",
-      "last_checked_at": "2026-09-15T03:25:42.021577+00:00",
+      "last_checked_at": "2026-09-20T16:11:29.929339+00:00",
       "completed": false,
       "status": "parsed",
       "samples": []
@@ -5423,8 +5423,8 @@
       "title": "2",
       "url": "https://forums.d2jsp.org/topic.php?t=110325235&f=123&o=10",
       "first_seen_at": "2026-09-20T04:57:16.599452+00:00",
-      "last_checked_at": "2026-09-20T04:58:44.908096+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-20T16:11:39.976392+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -5495,8 +5495,8 @@
       "title": "1 Gul 21 Pul 42 Lem Package",
       "url": "https://forums.d2jsp.org/topic.php?t=110325140&f=123",
       "first_seen_at": "2026-09-20T04:57:16.599452+00:00",
-      "last_checked_at": "2026-09-20T04:58:57.692772+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-20T16:11:24.891594+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -5594,8 +5594,8 @@
       "title": "Cham Rune",
       "url": "https://forums.d2jsp.org/topic.php?t=110324849&f=123",
       "first_seen_at": "2026-09-20T04:57:16.599452+00:00",
-      "last_checked_at": "2026-09-20T04:58:43.944053+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-20T16:11:20.218325+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -5720,25 +5720,11 @@
       "title": "10x Hel Runes (4fg Ea)",
       "url": "https://forums.d2jsp.org/topic.php?t=110324575&f=123",
       "first_seen_at": "2026-09-20T04:57:16.599452+00:00",
-      "last_checked_at": "2026-09-20T04:58:52.474083+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-20T16:11:24.606394+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Hel",
-          "label": "Hel",
-          "side": "ft",
-          "price_fg": 4.0,
-          "title": "10x Hel Runes (4fg Ea)",
-          "url": "https://forums.d2jsp.org/topic.php?t=110324575&f=123",
-          "observed_at": "2026-09-20T04:58:52.474083+00:00",
-          "topic_date": "2026-09-19",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     }
   },
-  "updated_at": "2026-09-20T11:30:08.294607+00:00"
+  "updated_at": "2026-09-20T16:11:39.978120+00:00"
 }

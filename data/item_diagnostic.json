@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T05:03:14.454393+00:00",
+  "updated_at": "2026-09-20T11:31:27.859699+00:00",
   "source_policy": "season15-items-static-catalog-v3",
   "catalog_items": 585,
   "forum_pages": [
@@ -12,8 +12,8 @@
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=25",
       "offset": 25,
-      "topics": 40,
-      "bytes": 8183
+      "topics": 0,
+      "bytes": 281
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=50",
@@ -52,18 +52,11 @@
       "bytes": 282
     }
   ],
-  "discovered_topics": 40,
+  "discovered_topics": 0,
   "cached_topics": 3065,
-  "selected_topics": 59,
-  "parsed_this_run": 58,
-  "combined_samples": 1121,
-  "market_items": 266,
-  "topic_errors": [
-    {
-      "url": "https://forums.d2jsp.org/topic.php?t=110234201&f=123",
-      "title": "Chantress Pieces/ +fire Skills",
-      "reason": "recheck",
-      "error": "429 Too Many Requests (5/5)"
-    }
-  ]
+  "selected_topics": 20,
+  "parsed_this_run": 20,
+  "combined_samples": 988,
+  "market_items": 256,
+  "topic_errors": []
 }

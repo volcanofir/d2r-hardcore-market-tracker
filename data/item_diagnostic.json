@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T00:15:49.270965+00:00",
+  "updated_at": "2026-09-22T05:13:56.111894+00:00",
   "source_policy": "season15-items-static-catalog-v3",
   "catalog_items": 585,
   "forum_pages": [
@@ -42,8 +42,8 @@
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=150",
       "offset": 150,
-      "topics": 29,
-      "bytes": 10845
+      "topics": 0,
+      "bytes": 282
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=175",
@@ -52,11 +52,11 @@
       "bytes": 282
     }
   ],
-  "discovered_topics": 29,
+  "discovered_topics": 0,
   "cached_topics": 3159,
-  "selected_topics": 48,
-  "parsed_this_run": 48,
-  "combined_samples": 999,
+  "selected_topics": 20,
+  "parsed_this_run": 20,
+  "combined_samples": 992,
   "market_items": 255,
   "topic_errors": []
 }

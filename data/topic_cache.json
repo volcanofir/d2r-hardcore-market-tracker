@@ -7774,24 +7774,10 @@
       "title": "Quick Sale : Gul Rune + Um Rune @ 70fg",
       "url": "https://forums.d2jsp.org/topic.php?t=110347968&f=123",
       "first_seen_at": "2026-09-22T05:01:31.044856+00:00",
-      "last_checked_at": "2026-09-22T05:03:34.215619+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-24T04:57:33.952145+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Um",
-          "label": "Um",
-          "side": "ft",
-          "price_fg": 70.0,
-          "title": "Quick Sale : Gul Rune + Um Rune @ 70fg",
-          "url": "https://forums.d2jsp.org/topic.php?t=110347968&f=123",
-          "observed_at": "2026-09-22T05:03:34.215619+00:00",
-          "topic_date": "2026-09-21",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110347889&f=123": {
       "title": "Iso Zod/ Ist Rune",
@@ -9118,24 +9104,10 @@
       "title": "Ohm 180 Fg",
       "url": "https://forums.d2jsp.org/topic.php?t=110342832&f=123",
       "first_seen_at": "2026-09-22T05:01:31.044856+00:00",
-      "last_checked_at": "2026-09-22T05:03:50.714794+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-24T04:57:23.365292+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Ohm",
-          "label": "Ohm",
-          "side": "ft",
-          "price_fg": 180.0,
-          "title": "Ohm 180 Fg",
-          "url": "https://forums.d2jsp.org/topic.php?t=110342832&f=123",
-          "observed_at": "2026-09-22T05:03:50.714794+00:00",
-          "topic_date": "2026-09-21",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110342821&f=123": {
       "title": "Ber 750 Bin",
@@ -9292,8 +9264,8 @@
       "title": "Ohm Rune",
       "url": "https://forums.d2jsp.org/topic.php?t=110342679&f=123",
       "first_seen_at": "2026-09-22T05:01:31.044856+00:00",
-      "last_checked_at": "2026-09-22T05:03:41.178989+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-24T04:57:18.693080+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -9860,8 +9832,8 @@
       "title": "Ohm Rune",
       "url": "https://forums.d2jsp.org/topic.php?t=110341918&f=123",
       "first_seen_at": "2026-09-22T05:01:31.044856+00:00",
-      "last_checked_at": "2026-09-22T05:03:46.052425+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-24T04:57:19.079511+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -11229,8 +11201,8 @@
       "title": "Chills Stop And Shop",
       "url": "https://forums.d2jsp.org/topic.php?t=110352656&f=123",
       "first_seen_at": "2026-09-23T11:42:27.205528+00:00",
-      "last_checked_at": "2026-09-23T11:43:58.003948+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-24T04:57:06.037192+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -11256,37 +11228,10 @@
       "title": "Ft Gul = 45 Fg / Ist = 40 Fg Mara 20 = 180 Fg",
       "url": "https://forums.d2jsp.org/topic.php?t=110352580&f=123",
       "first_seen_at": "2026-09-23T11:42:27.205528+00:00",
-      "last_checked_at": "2026-09-23T11:43:48.469669+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-24T04:56:57.945663+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Gul",
-          "label": "Gul",
-          "side": "ft",
-          "price_fg": 45.0,
-          "title": "Ft Gul = 45 Fg / Ist = 40 Fg Mara 20 = 180 Fg",
-          "url": "https://forums.d2jsp.org/topic.php?t=110352580&f=123",
-          "observed_at": "2026-09-23T11:43:48.469669+00:00",
-          "topic_date": "2026-09-22",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Ist",
-          "label": "Ist",
-          "side": "ft",
-          "price_fg": 40.0,
-          "title": "Ft Gul = 45 Fg / Ist = 40 Fg Mara 20 = 180 Fg",
-          "url": "https://forums.d2jsp.org/topic.php?t=110352580&f=123",
-          "observed_at": "2026-09-23T11:43:48.469669+00:00",
-          "topic_date": "2026-09-22",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110352565&f=123": {
       "title": "Ohm Rune Ft - Bin",
@@ -11337,8 +11282,8 @@
       "title": "Fresh Jah",
       "url": "https://forums.d2jsp.org/topic.php?t=110352359&f=123",
       "first_seen_at": "2026-09-23T11:42:27.205528+00:00",
-      "last_checked_at": "2026-09-23T11:44:02.013119+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-24T04:57:09.928470+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -11355,8 +11300,8 @@
       "title": "Iso Crystal Sword 5 Os + Amn Ral Mal Ist Ohm",
       "url": "https://forums.d2jsp.org/topic.php?t=110352102&f=123",
       "first_seen_at": "2026-09-23T11:42:27.205528+00:00",
-      "last_checked_at": "2026-09-23T11:43:35.755825+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-24T04:56:53.928048+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -11364,8 +11309,8 @@
       "title": "Buy 1 Ist And 1 Tal Amu",
       "url": "https://forums.d2jsp.org/topic.php?t=110352061&f=123",
       "first_seen_at": "2026-09-23T11:42:27.205528+00:00",
-      "last_checked_at": "2026-09-23T11:43:59.192190+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-24T04:57:10.029473+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -11391,8 +11336,8 @@
       "title": "Fresh Lo Ft",
       "url": "https://forums.d2jsp.org/topic.php?t=110351936&f=123",
       "first_seen_at": "2026-09-23T11:42:27.205528+00:00",
-      "last_checked_at": "2026-09-23T11:43:49.633054+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-24T04:56:58.406831+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -11601,24 +11546,10 @@
       "title": "4trade",
       "url": "https://forums.d2jsp.org/topic.php?t=110351866&f=123",
       "first_seen_at": "2026-09-23T11:42:27.205528+00:00",
-      "last_checked_at": "2026-09-23T11:44:07.430888+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-24T04:57:13.907298+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Gul",
-          "label": "Gul",
-          "side": "unknown",
-          "price_fg": 50.0,
-          "title": "4trade",
-          "url": "https://forums.d2jsp.org/topic.php?t=110351866&f=123",
-          "observed_at": "2026-09-23T11:44:07.430888+00:00",
-          "topic_date": "2026-09-22",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110351844&f=123": {
       "title": "Ber / 2x Sur / Coh Vs 650fg",
@@ -11633,8 +11564,8 @@
       "title": "Ft Mara 20 / Ist Rune / Gul Rune",
       "url": "https://forums.d2jsp.org/topic.php?t=110351803&f=123",
       "first_seen_at": "2026-09-23T11:42:27.205528+00:00",
-      "last_checked_at": "2026-09-23T11:43:47.270017+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-24T04:57:01.349693+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -11666,5 +11597,5 @@
       "samples": []
     }
   },
-  "updated_at": "2026-09-23T21:33:29.114120+00:00"
+  "updated_at": "2026-09-24T04:57:33.952974+00:00"
 }

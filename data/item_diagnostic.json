@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T21:36:15.631429+00:00",
+  "updated_at": "2026-09-25T05:05:42.043600+00:00",
   "source_policy": "season15-items-static-catalog-v3",
   "catalog_items": 585,
   "forum_pages": [
@@ -48,22 +48,15 @@
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=175",
       "offset": 175,
-      "topics": 0,
-      "bytes": 282
+      "topics": 31,
+      "bytes": 10894
     }
   ],
-  "discovered_topics": 0,
-  "cached_topics": 3220,
-  "selected_topics": 20,
-  "parsed_this_run": 19,
-  "combined_samples": 962,
-  "market_items": 250,
-  "topic_errors": [
-    {
-      "url": "https://forums.d2jsp.org/topic.php?t=110348893&f=123",
-      "title": "Welcome To The Shop Updated V1",
-      "reason": "recheck",
-      "error": "429 Too Many Requests (5/5)"
-    }
-  ]
+  "discovered_topics": 31,
+  "cached_topics": 3251,
+  "selected_topics": 51,
+  "parsed_this_run": 51,
+  "combined_samples": 968,
+  "market_items": 249,
+  "topic_errors": []
 }

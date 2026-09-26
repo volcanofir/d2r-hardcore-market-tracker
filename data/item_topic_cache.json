@@ -24598,11 +24598,11 @@
       "title": "20xral20xpametys20xjewel",
       "url": "https://forums.d2jsp.org/topic.php?t=110225398&f=123",
       "first_seen_at": "2026-09-08T23:31:30.884275+00:00",
-      "last_checked_at": "2026-09-08T23:36:39.488910+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-26T16:29:16.985762+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": [],
-      "topic_date": "2026-09-08"
+      "topic_date": null
     },
     "https://forums.d2jsp.org/topic.php?t=110214829&f=123": {
       "title": "Good Fcr Ring",
@@ -24618,7 +24618,7 @@
       "title": "222 Def Eth 45@res Sacred Targe",
       "url": "https://forums.d2jsp.org/topic.php?t=110185221&f=123",
       "first_seen_at": "2026-09-08T23:31:30.884275+00:00",
-      "last_checked_at": "2026-09-08T23:36:34.005658+00:00",
+      "last_checked_at": "2026-09-26T16:29:10.759485+00:00",
       "completed": false,
       "status": "parsed",
       "samples": [],
@@ -24832,7 +24832,7 @@
       "title": "4",
       "url": "https://forums.d2jsp.org/topic.php?t=110212093&f=123&o=30",
       "first_seen_at": "2026-09-08T23:31:30.884275+00:00",
-      "last_checked_at": "2026-09-08T23:35:49.242199+00:00",
+      "last_checked_at": "2026-09-26T16:28:34.867038+00:00",
       "completed": false,
       "status": "parsed",
       "samples": [],
@@ -24842,11 +24842,11 @@
       "title": "5",
       "url": "https://forums.d2jsp.org/topic.php?t=110212093&f=123&o=40",
       "first_seen_at": "2026-09-08T23:31:30.884275+00:00",
-      "last_checked_at": "2026-09-08T23:35:41.871632+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-26T16:28:23.208605+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": [],
-      "topic_date": "2026-09-08"
+      "topic_date": null
     },
     "https://forums.d2jsp.org/topic.php?t=110225357&f=123": {
       "title": "Soj 600 Bin",
@@ -24892,7 +24892,7 @@
       "title": "70 Pgms",
       "url": "https://forums.d2jsp.org/topic.php?t=110225350&f=123",
       "first_seen_at": "2026-09-08T23:31:30.884275+00:00",
-      "last_checked_at": "2026-09-08T23:35:34.854498+00:00",
+      "last_checked_at": "2026-09-26T16:28:28.041633+00:00",
       "completed": false,
       "status": "parsed",
       "samples": [],
@@ -24912,7 +24912,7 @@
       "title": "40 P Amesthy And Igg 4m",
       "url": "https://forums.d2jsp.org/topic.php?t=110225334&f=123",
       "first_seen_at": "2026-09-08T23:31:30.884275+00:00",
-      "last_checked_at": "2026-09-08T23:35:48.078406+00:00",
+      "last_checked_at": "2026-09-26T16:28:29.651195+00:00",
       "completed": false,
       "status": "parsed",
       "samples": [],
@@ -24922,7 +24922,7 @@
       "title": "3os Superior Dusk",
       "url": "https://forums.d2jsp.org/topic.php?t=110225317&f=123",
       "first_seen_at": "2026-09-08T23:31:30.884275+00:00",
-      "last_checked_at": "2026-09-08T23:35:59.613236+00:00",
+      "last_checked_at": "2026-09-26T16:28:47.116810+00:00",
       "completed": false,
       "status": "parsed",
       "samples": [],
@@ -25066,8 +25066,8 @@
       "title": "3",
       "url": "https://forums.d2jsp.org/topic.php?t=110186547&f=123&o=20",
       "first_seen_at": "2026-09-08T23:31:30.884275+00:00",
-      "last_checked_at": "2026-09-08T23:36:10.682095+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-26T16:28:51.026695+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": [],
       "topic_date": "2026-09-08"
@@ -25150,10 +25150,50 @@
       "title": "3",
       "url": "https://forums.d2jsp.org/topic.php?t=110192833&f=123&o=20",
       "first_seen_at": "2026-09-08T23:31:30.884275+00:00",
-      "last_checked_at": "2026-09-08T23:36:09.550428+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-26T16:28:59.135739+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [],
+      "samples": [
+        {
+          "kind": "item",
+          "id": "unique-wraithstep",
+          "label": "怨靈步伐 (Wraithstep)",
+          "category": "鞋子",
+          "side": "unknown",
+          "price_fg": 30.0,
+          "title": "3",
+          "url": "https://forums.d2jsp.org/topic.php?t=110192833&f=123&o=20",
+          "observed_at": "2026-09-26T16:28:59.135739+00:00",
+          "topic_date": "2026-09-08",
+          "item_parser_v2": true
+        },
+        {
+          "kind": "item",
+          "id": "unique-measured-wrath",
+          "label": "審慎之怒 (Measured Wrath)",
+          "category": "盾牌",
+          "side": "unknown",
+          "price_fg": 20.0,
+          "title": "3",
+          "url": "https://forums.d2jsp.org/topic.php?t=110192833&f=123&o=20",
+          "observed_at": "2026-09-26T16:28:59.135739+00:00",
+          "topic_date": "2026-09-08",
+          "item_parser_v2": true
+        },
+        {
+          "kind": "item",
+          "id": "arachnid-mesh",
+          "label": "蜘蛛之網 (Arachnid Mesh / Arach)",
+          "category": "腰帶",
+          "side": "unknown",
+          "price_fg": 340.0,
+          "title": "3",
+          "url": "https://forums.d2jsp.org/topic.php?t=110192833&f=123&o=20",
+          "observed_at": "2026-09-26T16:28:59.135739+00:00",
+          "topic_date": "2026-09-08",
+          "item_parser_v2": true
+        }
+      ],
       "topic_date": "2026-09-08"
     },
     "https://forums.d2jsp.org/topic.php?t=110175571&f=123": {
@@ -25363,7 +25403,7 @@
       "title": "4",
       "url": "https://forums.d2jsp.org/topic.php?t=110032377&f=123&o=30",
       "first_seen_at": "2026-09-08T23:31:30.884275+00:00",
-      "last_checked_at": "2026-09-08T23:35:54.994525+00:00",
+      "last_checked_at": "2026-09-26T16:28:39.290151+00:00",
       "completed": false,
       "status": "parsed",
       "samples": [
@@ -25376,7 +25416,7 @@
           "price_fg": 550.0,
           "title": "4",
           "url": "https://forums.d2jsp.org/topic.php?t=110032377&f=123&o=30",
-          "observed_at": "2026-09-08T23:35:54.994525+00:00",
+          "observed_at": "2026-09-26T16:28:39.290151+00:00",
           "topic_date": "2026-09-05",
           "item_parser_v2": true
         }
@@ -25387,11 +25427,11 @@
       "title": "5",
       "url": "https://forums.d2jsp.org/topic.php?t=110032377&f=123&o=40",
       "first_seen_at": "2026-09-08T23:31:30.884275+00:00",
-      "last_checked_at": "2026-09-08T23:35:42.987416+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-26T16:28:35.710296+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": [],
-      "topic_date": "2026-09-08"
+      "topic_date": null
     },
     "https://forums.d2jsp.org/topic.php?t=110220484&f=123": {
       "title": "+14/-15 Griffon",
@@ -25471,11 +25511,11 @@
       "title": "2x Vex Bin 180fg Each",
       "url": "https://forums.d2jsp.org/topic.php?t=110225199&f=123",
       "first_seen_at": "2026-09-08T23:31:30.884275+00:00",
-      "last_checked_at": "2026-09-08T23:36:28.739693+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-26T16:29:12.594169+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": [],
-      "topic_date": "2026-09-08"
+      "topic_date": null
     },
     "https://forums.d2jsp.org/topic.php?t=110203531&f=123": {
       "title": "Wtb Pompai's Wrath Unique Crowbill",
@@ -25541,7 +25581,7 @@
       "title": "2x Ohm Pack",
       "url": "https://forums.d2jsp.org/topic.php?t=110225185&f=123",
       "first_seen_at": "2026-09-08T23:31:30.884275+00:00",
-      "last_checked_at": "2026-09-08T23:36:32.770078+00:00",
+      "last_checked_at": "2026-09-26T16:29:05.319479+00:00",
       "completed": false,
       "status": "parsed",
       "samples": [],
@@ -25551,7 +25591,7 @@
       "title": "3os Eth Armor Cheap",
       "url": "https://forums.d2jsp.org/topic.php?t=110224952&f=123",
       "first_seen_at": "2026-09-08T23:31:30.884275+00:00",
-      "last_checked_at": "2026-09-08T23:36:04.600684+00:00",
+      "last_checked_at": "2026-09-26T16:28:44.505928+00:00",
       "completed": false,
       "status": "parsed",
       "samples": [],
@@ -25608,17 +25648,17 @@
       "title": "3",
       "url": "https://forums.d2jsp.org/topic.php?t=110211135&f=123&o=20",
       "first_seen_at": "2026-09-08T23:31:30.884275+00:00",
-      "last_checked_at": "2026-09-08T23:36:12.604702+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-26T16:28:49.228031+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": [],
-      "topic_date": "2026-09-08"
+      "topic_date": null
     },
     "https://forums.d2jsp.org/topic.php?t=110225180&f=123": {
       "title": "20frw/30 Light/37fire/19 Mf Boots",
       "url": "https://forums.d2jsp.org/topic.php?t=110225180&f=123",
       "first_seen_at": "2026-09-08T23:31:30.884275+00:00",
-      "last_checked_at": "2026-09-08T23:36:59.227319+00:00",
+      "last_checked_at": "2026-09-26T16:29:17.950421+00:00",
       "completed": false,
       "status": "parsed",
       "samples": [],
@@ -25648,7 +25688,7 @@
       "title": "3",
       "url": "https://forums.d2jsp.org/topic.php?t=110113934&f=123&o=20",
       "first_seen_at": "2026-09-08T23:31:30.884275+00:00",
-      "last_checked_at": "2026-09-08T23:36:22.858661+00:00",
+      "last_checked_at": "2026-09-26T16:28:58.020469+00:00",
       "completed": false,
       "status": "parsed",
       "samples": [],
@@ -25725,11 +25765,11 @@
       "title": "7% Mf 9% Cold Res Sc",
       "url": "https://forums.d2jsp.org/topic.php?t=110208181&f=123",
       "first_seen_at": "2026-09-08T23:31:30.884275+00:00",
-      "last_checked_at": "2026-09-08T23:35:40.304573+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-26T16:28:21.958980+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": [],
-      "topic_date": "2026-09-07"
+      "topic_date": null
     },
     "https://forums.d2jsp.org/topic.php?t=110225170&f=123": {
       "title": "Cold Sunder",
@@ -25775,11 +25815,11 @@
       "title": "3",
       "url": "https://forums.d2jsp.org/topic.php?t=110064630&f=123&o=20",
       "first_seen_at": "2026-09-08T23:31:30.884275+00:00",
-      "last_checked_at": "2026-09-08T23:36:28.399036+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-26T16:29:04.133888+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": [],
-      "topic_date": "2026-09-07"
+      "topic_date": null
     },
     "https://forums.d2jsp.org/topic.php?t=110225164&f=123": {
       "title": "Offer Shako141",
@@ -26094,10 +26134,24 @@
       "title": "3",
       "url": "https://forums.d2jsp.org/topic.php?t=110181314&f=123&o=20",
       "first_seen_at": "2026-09-08T23:31:30.884275+00:00",
-      "last_checked_at": "2026-09-08T23:36:16.579782+00:00",
+      "last_checked_at": "2026-09-26T16:28:55.854659+00:00",
       "completed": false,
       "status": "parsed",
-      "samples": [],
+      "samples": [
+        {
+          "kind": "item",
+          "id": "unique-ars-tor-baalos",
+          "label": "托巴爾羅斯學術 (Ars Tor'Baalos)",
+          "category": "盾牌",
+          "side": "unknown",
+          "price_fg": 100.0,
+          "title": "3",
+          "url": "https://forums.d2jsp.org/topic.php?t=110181314&f=123&o=20",
+          "observed_at": "2026-09-26T16:28:55.854659+00:00",
+          "topic_date": "2026-09-08",
+          "item_parser_v2": true
+        }
+      ],
       "topic_date": "2026-09-08"
     },
     "https://forums.d2jsp.org/topic.php?t=110225122&f=123": {
@@ -44594,5 +44648,5 @@
       "topic_date": null
     }
   },
-  "updated_at": "2026-09-26T13:52:54.551282+00:00"
+  "updated_at": "2026-09-26T16:29:18.089218+00:00"
 }

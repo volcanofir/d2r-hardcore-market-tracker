@@ -7626,8 +7626,8 @@
       "title": "Ber Rune",
       "url": "https://forums.d2jsp.org/topic.php?t=110348177&f=123",
       "first_seen_at": "2026-09-22T05:01:31.044856+00:00",
-      "last_checked_at": "2026-09-22T05:10:25.052370+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-26T23:40:02.178050+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -7868,8 +7868,8 @@
       "title": "Big Jah Here",
       "url": "https://forums.d2jsp.org/topic.php?t=110347690&f=123",
       "first_seen_at": "2026-09-22T05:01:31.044856+00:00",
-      "last_checked_at": "2026-09-22T05:10:10.653440+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-26T23:39:58.116942+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -8119,8 +8119,8 @@
       "title": "Barb Pieces Or Full",
       "url": "https://forums.d2jsp.org/topic.php?t=110347197&f=123",
       "first_seen_at": "2026-09-22T05:01:31.044856+00:00",
-      "last_checked_at": "2026-09-22T05:10:37.856002+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-26T23:40:25.663007+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -8286,8 +8286,8 @@
       "title": "Ber",
       "url": "https://forums.d2jsp.org/topic.php?t=110345834&f=123",
       "first_seen_at": "2026-09-22T05:01:31.044856+00:00",
-      "last_checked_at": "2026-09-22T05:10:33.172210+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-26T23:40:14.542425+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -8295,50 +8295,10 @@
       "title": "Ber Sur Lo",
       "url": "https://forums.d2jsp.org/topic.php?t=110345797&f=123",
       "first_seen_at": "2026-09-22T05:01:31.044856+00:00",
-      "last_checked_at": "2026-09-22T05:10:15.585163+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-26T23:39:57.722128+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Ber",
-          "label": "Ber",
-          "side": "unknown",
-          "price_fg": 800.0,
-          "title": "Ber Sur Lo",
-          "url": "https://forums.d2jsp.org/topic.php?t=110345797&f=123",
-          "observed_at": "2026-09-22T05:10:15.585163+00:00",
-          "topic_date": "2026-09-21",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Sur",
-          "label": "Sur",
-          "side": "unknown",
-          "price_fg": 400.0,
-          "title": "Ber Sur Lo",
-          "url": "https://forums.d2jsp.org/topic.php?t=110345797&f=123",
-          "observed_at": "2026-09-22T05:10:15.585163+00:00",
-          "topic_date": "2026-09-21",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Lo",
-          "label": "Lo",
-          "side": "unknown",
-          "price_fg": 300.0,
-          "title": "Ber Sur Lo",
-          "url": "https://forums.d2jsp.org/topic.php?t=110345797&f=123",
-          "observed_at": "2026-09-22T05:10:15.585163+00:00",
-          "topic_date": "2026-09-21",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110345767&f=123": {
       "title": "Ber",
@@ -8988,8 +8948,8 @@
       "title": "Ber 750 Bin",
       "url": "https://forums.d2jsp.org/topic.php?t=110342821&f=123",
       "first_seen_at": "2026-09-22T05:01:31.044856+00:00",
-      "last_checked_at": "2026-09-22T05:10:29.725552+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-26T23:40:09.853801+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -9370,37 +9330,10 @@
       "title": "@@ Green Shop @@",
       "url": "https://forums.d2jsp.org/topic.php?t=110342337&f=123",
       "first_seen_at": "2026-09-22T05:01:31.044856+00:00",
-      "last_checked_at": "2026-09-22T05:10:39.189921+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-26T23:40:22.692941+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Shael",
-          "label": "Shael",
-          "side": "unknown",
-          "price_fg": 10.0,
-          "title": "@@ Green Shop @@",
-          "url": "https://forums.d2jsp.org/topic.php?t=110342337&f=123",
-          "observed_at": "2026-09-22T05:10:39.189921+00:00",
-          "topic_date": "2026-09-21",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Shael",
-          "label": "Shael",
-          "side": "unknown",
-          "price_fg": 15.0,
-          "title": "@@ Green Shop @@",
-          "url": "https://forums.d2jsp.org/topic.php?t=110342337&f=123",
-          "observed_at": "2026-09-22T05:10:39.189921+00:00",
-          "topic_date": "2026-09-21",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110342297&f=123": {
       "title": "Need Cham Rune",
@@ -9680,8 +9613,8 @@
       "title": "750 V 1x Ber",
       "url": "https://forums.d2jsp.org/topic.php?t=110341813&f=123",
       "first_seen_at": "2026-09-22T05:01:31.044856+00:00",
-      "last_checked_at": "2026-09-22T05:10:47.588748+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-26T23:40:34.841367+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -9752,24 +9685,10 @@
       "title": "=// Runes Shop //=",
       "url": "https://forums.d2jsp.org/topic.php?t=110341656&f=123",
       "first_seen_at": "2026-09-22T05:01:31.044856+00:00",
-      "last_checked_at": "2026-09-22T05:10:46.568739+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-26T23:40:23.123777+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Gul",
-          "label": "Gul",
-          "side": "unknown",
-          "price_fg": 160.0,
-          "title": "=// Runes Shop //=",
-          "url": "https://forums.d2jsp.org/topic.php?t=110341656&f=123",
-          "observed_at": "2026-09-22T05:10:46.568739+00:00",
-          "topic_date": "2026-09-20",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110341655&f=123": {
       "title": "Warlock + Bo Barb Sellout - Rest Of The Stuff",
@@ -9820,8 +9739,8 @@
       "title": "Ber Rune",
       "url": "https://forums.d2jsp.org/topic.php?t=110341581&f=123",
       "first_seen_at": "2026-09-22T05:01:31.044856+00:00",
-      "last_checked_at": "2026-09-22T05:10:22.842261+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-26T23:40:09.492422+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -9924,8 +9843,8 @@
       "title": "Ber For 630",
       "url": "https://forums.d2jsp.org/topic.php?t=110341494&f=123",
       "first_seen_at": "2026-09-22T05:01:31.044856+00:00",
-      "last_checked_at": "2026-09-22T05:10:28.613544+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-26T23:40:18.055431+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -10068,8 +9987,8 @@
       "title": "Ber Rune",
       "url": "https://forums.d2jsp.org/topic.php?t=110340980&f=123",
       "first_seen_at": "2026-09-22T05:01:31.044856+00:00",
-      "last_checked_at": "2026-09-22T05:10:24.018300+00:00",
-      "completed": false,
+      "last_checked_at": "2026-09-26T23:40:06.007909+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -13101,5 +13020,5 @@
       "samples": []
     }
   },
-  "updated_at": "2026-09-26T21:16:06.175910+00:00"
+  "updated_at": "2026-09-26T23:40:34.842400+00:00"
 }

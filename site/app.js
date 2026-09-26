@@ -1,4 +1,4 @@
-let DATA=[],CATALOG=[],kind='rune',runeCollapsed=true,itemCollapsed=true,openItemGroups=new Set(),openItemSubgroups=new Set();
+let DATA=[],CATALOG=[],HISTORY=[],kind='rune',runeCollapsed=true,itemCollapsed=true,openItemGroups=new Set(),openItemSubgroups=new Set();
 const fmt=v=>v==null?'—':Number(v).toLocaleString(undefined,{maximumFractionDigits:2});
 const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
 const RUNES=[['艾爾','El',11],['艾德','Eld',11],['特爾','Tir',13],['那夫','Nef',13],['愛斯','Eth',15],['伊司','Ith',15],['塔爾','Tal',17],['拉爾','Ral',19],['歐特','Ort',21],['書爾','Thul',23],['安姆','Amn',25],['索爾','Sol',27],['夏','Shael',29],['多爾','Dol',31],['海爾','Hel',0],['埃歐','Io',35],['盧姆','Lum',37],['科','Ko',39],['法爾','Fal',41],['藍姆','Lem',43],['普爾','Pul',45],['烏姆','Um',47],['馬爾','Mal',49],['伊司特','Ist',51],['古爾','Gul',53],['伐克斯','Vex',55],['歐姆','Ohm',57],['羅','Lo',59],['瑟','Sur',61],['貝','Ber',63],['喬','Jah',65],['查姆','Cham',67],['薩德','Zod',69]];
@@ -9,12 +9,14 @@ function runeStyle(i){const col=i%11,row=Math.floor(i/11),x=-(col*ICON_SIZE),y=-
 async function load(){
   try{
     const stamp=Date.now();
-    const [marketRes,catalogRes]=await Promise.all([
+    const [marketRes,catalogRes,historyRes]=await Promise.all([
       fetch('../data/market.json?'+stamp,{cache:'no-store'}),
-      fetch('../data/catalog.json?'+stamp,{cache:'no-store'}).catch(()=>null)
+      fetch('../data/catalog.json?'+stamp,{cache:'no-store'}).catch(()=>null),
+      fetch('../data/history.json?'+stamp,{cache:'no-store'}).catch(()=>null)
     ]);
     const d=await marketRes.json();DATA=d.market||[];
     if(catalogRes&&catalogRes.ok){const c=await catalogRes.json();CATALOG=c.items||[]}
+    if(historyRes&&historyRes.ok){const h=await historyRes.json();HISTORY=Array.isArray(h)?h:[]}
     if(!CATALOG.length)CATALOG=DATA.filter(x=>x.kind==='item').map(x=>({id:x.id,label:x.label,category:x.category||'其他',aliases:[]}));
     document.querySelector('#status').textContent=d.updated_at?'更新 '+new Date(d.updated_at).toLocaleString('zh-TW'):'等待第一次爬取';render();
   }catch(e){document.querySelector('#status').textContent='等待市場資料';render()}
@@ -58,6 +60,74 @@ function sampleLinks(x){
   }).join('');
   return `<details class="sample-links"><summary>查看來源 <span>${unique.length}</span></summary><div class="sample-list">${links}</div></details>`;
 }
+
+const DAY_MS=86400000;
+function historySeries(id,days=30){
+  const cutoff=Date.now()-days*DAY_MS;
+  const daily=new Map();
+  for(const snap of HISTORY){
+    if(!snap||!snap.at||!snap.prices)continue;
+    const at=new Date(snap.at);
+    const value=Number(snap.prices[id]);
+    if(Number.isNaN(at.getTime())||at.getTime()<cutoff||!Number.isFinite(value))continue;
+    const key=at.toISOString().slice(0,10);
+    daily.set(key,{at,value});
+  }
+  return [...daily.values()].sort((a,b)=>a.at-b.at);
+}
+function historyChange(series){
+  if(series.length<2||!series[0].value)return null;
+  return ((series[series.length-1].value-series[0].value)/series[0].value)*100;
+}
+function changeLabel(series){
+  const change=historyChange(series);
+  if(change==null||!Number.isFinite(change))return '資料累積中';
+  const sign=change>0?'+':'';
+  return `${sign}${change.toFixed(1)}%`;
+}
+function chartSvg(series,large=false){
+  if(series.length<2)return '';
+  const w=large?600:300,h=large?156:52,pad=large?14:3;
+  const values=series.map(p=>p.value);
+  let lo=Math.min(...values),hi=Math.max(...values);
+  if(lo===hi){const bump=Math.max(Math.abs(lo)*.06,1);lo-=bump;hi+=bump}
+  else{const bump=(hi-lo)*.08;lo-=bump;hi+=bump}
+  const x=i=>pad+(series.length===1?0:i*(w-pad*2)/(series.length-1));
+  const y=v=>pad+(hi-v)*(h-pad*2)/(hi-lo);
+  const pts=series.map((p,i)=>`${x(i).toFixed(1)},${y(p.value).toFixed(1)}`).join(' ');
+  const last=series[series.length-1];
+  const grid=large?`<line x1="${pad}" y1="${(h/2).toFixed(1)}" x2="${w-pad}" y2="${(h/2).toFixed(1)}" class="history-grid-line"/>`:'';
+  return `<svg class="${large?'history-svg':'spark-svg'}" viewBox="0 0 ${w} ${h}" preserveAspectRatio="none" role="img" aria-label="價格走勢">${grid}<polyline points="${pts}" fill="none" vector-effect="non-scaling-stroke"/>${large?`<circle cx="${x(series.length-1).toFixed(1)}" cy="${y(last.value).toFixed(1)}" r="4"/>`:''}</svg>`;
+}
+function detailHistory(id,days=30){
+  const series=historySeries(id,days);
+  if(series.length<2)return '<div class="history-empty">歷史資料仍在累積中。</div>';
+  const vals=series.map(p=>p.value),first=series[0],last=series[series.length-1];
+  const firstDate=first.at.toLocaleDateString('zh-TW',{month:'numeric',day:'numeric'});
+  const lastDate=last.at.toLocaleDateString('zh-TW',{month:'numeric',day:'numeric'});
+  return `<div class="history-stats"><span>目前 <b>${fmt(last.value)} FG</b></span><span>最高 <b>${fmt(Math.max(...vals))}</b></span><span>最低 <b>${fmt(Math.min(...vals))}</b></span><span>區間 <b>${changeLabel(series)}</b></span></div>${chartSvg(series,true)}<div class="history-axis"><span>${firstDate}</span><span>${lastDate}</span></div>`;
+}
+function historyWidgets(id){
+  const series=historySeries(id,30);
+  if(series.length<2)return '';
+  return `<div class="price-spark"><div><span>近30日</span><b>${changeLabel(series)}</b></div>${chartSvg(series,false)}</div><details class="price-history" data-history-id="${esc(id)}"><summary>價格走勢 <span>30 / 60 天</span></summary><div class="history-panel"><div class="history-range"><button type="button" class="active" data-history-range="30">30天</button><button type="button" data-history-range="60">60天</button></div><div class="history-chart">${detailHistory(id,30)}</div></div></details>`;
+}
+function bindHistoryControls(root){
+  root.querySelectorAll('.price-history').forEach(box=>{
+    box.querySelectorAll('button[data-history-range]').forEach(btn=>{
+      btn.onclick=e=>{
+        e.preventDefault();
+        e.stopPropagation();
+        const days=Number(btn.dataset.historyRange)||30;
+        box.querySelectorAll('button[data-history-range]').forEach(x=>x.classList.toggle('active',x===btn));
+        const id=box.dataset.historyId||'';
+        const target=box.querySelector('.history-chart');
+        if(target)target.innerHTML=detailHistory(id,days);
+      };
+    });
+  });
+}
+
 function slotName(raw){
   raw=(raw||'其他').replace(/^套裝/,'').trim()||'其他';
   if(raw==='護甲'||raw==='胸甲')return '衣服';
@@ -101,7 +171,7 @@ function categoryParts(item){
 }
 function itemCard(item){
   const x=itemMarket(item.id),has=x.fair_fg!=null,part=categoryParts(item);
-  return `<article class="item-card"><div class="item-head"><div><div class="item-category">${part.subgroup}</div><h2>${item.label}</h2></div><span class="item-state">${has?(x.confidence||'low'):'待來源'}</span></div><div class="fair item-fair">${has?fmt(x.fair_fg)+' <span class="unit">FG</span>':'—'}</div><div class="stats"><div class="stat"><span>ISO 買價</span><b>${fmt(x.iso_fg)}</b></div><div class="stat"><span>FT / BIN</span><b>${fmt(x.ft_fg)}</b></div><div class="stat"><span>成交 / T4T</span><b>${fmt(x.trade_fg)}</b></div></div><div class="meta"><span>來源 ${x.samples||0}</span><span>${has?'可信度 '+(x.confidence||'low'):'等待可靠行情'}</span></div>${sampleLinks(x)}</article>`
+  return `<article class="item-card"><div class="item-head"><div><div class="item-category">${part.subgroup}</div><h2>${item.label}</h2></div><span class="item-state">${has?(x.confidence||'low'):'待來源'}</span></div><div class="fair item-fair">${has?fmt(x.fair_fg)+' <span class="unit">FG</span>':'—'}</div><div class="stats"><div class="stat"><span>ISO 買價</span><b>${fmt(x.iso_fg)}</b></div><div class="stat"><span>FT / BIN</span><b>${fmt(x.ft_fg)}</b></div><div class="stat"><span>成交 / T4T</span><b>${fmt(x.trade_fg)}</b></div></div><div class="meta"><span>來源 ${x.samples||0}</span><span>${has?'可信度 '+(x.confidence||'low'):'等待可靠行情'}</span></div>${historyWidgets(item.id)}${sampleLinks(x)}</article>`
 }
 function renderItems(q,cards){
   const rows=CATALOG.filter(item=>{
@@ -142,6 +212,7 @@ function renderItems(q,cards){
     if(openItemSubgroups.has(name))openItemSubgroups.delete(name);else openItemSubgroups.add(name);
     render();
   });
+  bindHistoryControls(cards);
 }
 function render(){
   const q=document.querySelector('#q').value.toLowerCase().trim();
@@ -152,7 +223,7 @@ function render(){
     if(runeCollapsed){cards.classList.add('collapsed');cards.innerHTML='';return}
     cards.classList.remove('collapsed');
     const rows=RUNES.map((r,i)=>({r,i,x:marketFor(r[1])})).filter(o=>(o.r.join(' ')+' '+(o.x.label||'')).toLowerCase().includes(q));
-    cards.innerHTML=rows.map(({r,i,x})=>`<article class="card"><div class="rune-icon" style="${runeStyle(i)}" aria-label="${r[1]} rune"></div><div class="rune-name"><h2>${r[0]} <small>${r[1]} (${i+1})</small></h2><div class="level">等級 · ${r[2]}</div></div><div class="market"><div class="fair">${fmt(x.fair_fg)} <span class="unit">FG</span></div><div class="stats"><div class="stat"><span>ISO 買價</span><b>${fmt(x.iso_fg)}</b></div><div class="stat"><span>FT / BIN</span><b>${fmt(x.ft_fg)}</b></div><div class="stat"><span>成交 / T4T</span><b>${fmt(x.trade_fg)}</b></div></div><div class="meta"><span>來源 ${x.samples||0}</span><span>可信度 ${x.confidence||'—'}</span></div>${sampleLinks(x)}</div></article>`).join('')
+    cards.innerHTML=rows.map(({r,i,x})=>`<article class="card"><div class="rune-icon" style="${runeStyle(i)}" aria-label="${r[1]} rune"></div><div class="rune-name"><h2>${r[0]} <small>${r[1]} (${i+1})</small></h2><div class="level">等級 · ${r[2]}</div></div><div class="market"><div class="fair">${fmt(x.fair_fg)} <span class="unit">FG</span></div><div class="stats"><div class="stat"><span>ISO 買價</span><b>${fmt(x.iso_fg)}</b></div><div class="stat"><span>FT / BIN</span><b>${fmt(x.ft_fg)}</b></div><div class="stat"><span>成交 / T4T</span><b>${fmt(x.trade_fg)}</b></div></div><div class="meta"><span>來源 ${x.samples||0}</span><span>可信度 ${x.confidence||'—'}</span></div>${historyWidgets(r[1])}${sampleLinks(x)}</div></article>`).join('');bindHistoryControls(cards)
   }else{
     cards.classList.add('item-mode');
     if(itemCollapsed){cards.classList.add('collapsed');cards.innerHTML='';return}

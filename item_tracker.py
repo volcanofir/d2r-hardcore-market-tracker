@@ -1,5 +1,6 @@
 import json
 import re
+import statistics
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
@@ -301,6 +302,84 @@ def aggregate(cache):
     return list(dedup.values())
 
 
+RECENT_PRICE_DAYS = 7
+
+
+def sample_topic_date(sample):
+    raw = sample.get("topic_date")
+    if not raw:
+        return None
+    try:
+        return datetime.fromisoformat(raw).date()
+    except Exception:
+        return None
+
+
+def median_price(samples):
+    values = [
+        x.get("price_fg") for x in samples
+        if isinstance(x.get("price_fg"), (int, float))
+    ]
+    return round(statistics.median(values), 2) if values else None
+
+
+def apply_recent_item_pricing(rows, samples):
+    """Prefer current market evidence without deleting historical sources.
+
+    When an item has at least two independent non-ISO source threads in the
+    last seven days, its headline fair price follows those recent sources.
+    For duplicate observations from the same thread, trade beats FT, and FT
+    beats an unclassified listing so one thread is not double-counted.
+    """
+    cutoff = now().date() - timedelta(days=RECENT_PRICE_DAYS - 1)
+    groups = {}
+    for sample in samples:
+        if sample.get("kind") != "item":
+            continue
+        created = sample_topic_date(sample)
+        if created is None or created < cutoff:
+            continue
+        groups.setdefault(sample.get("id"), []).append(sample)
+
+    priority = {"trade": 3, "ft": 2, "unknown": 1}
+    for row in rows:
+        recent = groups.get(row.get("id"), [])
+        if not recent:
+            continue
+
+        by_url = {}
+        for sample in recent:
+            if sample.get("side") == "iso":
+                continue
+            url = sample.get("url")
+            if not url:
+                continue
+            current = by_url.get(url)
+            if current is None or priority.get(sample.get("side"), 0) > priority.get(current.get("side"), 0):
+                by_url[url] = sample
+
+        market_sources = list(by_url.values())
+        if len(market_sources) >= 2:
+            fair = median_price(market_sources)
+            if fair is not None:
+                row["fair_fg"] = fair
+                row["pricing_window_days"] = RECENT_PRICE_DAYS
+                row["recent_source_count"] = len(market_sources)
+
+        recent_ft = [x for x in recent if x.get("side") == "ft"]
+        recent_trade = [x for x in recent if x.get("side") == "trade"]
+        recent_iso = [x for x in recent if x.get("side") == "iso"]
+
+        if recent_ft:
+            row["ft_fg"] = median_price(recent_ft)
+        if recent_trade:
+            row["trade_fg"] = median_price(recent_trade)
+        if recent_iso:
+            row["iso_fg"] = median_price(recent_iso)
+
+    return rows
+
+
 def main():
     market = load(s.MARKET_PATH, {"market": []})
     cache = prune(load(CACHE_PATH, {"version": 2, "topics": {}}))
@@ -358,6 +437,7 @@ def main():
 
     samples = aggregate(cache)
     item_rows = [row for row in s.summarize(samples) if row.get("kind") == "item"]
+    item_rows = apply_recent_item_pricing(item_rows, samples)
     categories = {item["id"]: item.get("category", "其他") for item in TRACKED_ITEMS}
     for row in item_rows:
         row["category"] = categories.get(row.get("id"), "其他")

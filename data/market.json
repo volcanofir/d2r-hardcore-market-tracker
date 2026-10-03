@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-03T15:03:04.858879+00:00",
+  "updated_at": "2026-10-03T16:23:10.463706+00:00",
   "forum": "https://forums.d2jsp.org/forum.php?f=123&c=2",
   "topic_count": 0,
   "cached_topics": 1660,
   "parsed_topics": 1660,
-  "completed_topics": 1598,
+  "completed_topics": 1610,
   "parsed_this_run": 12,
-  "sample_count": 181,
+  "sample_count": 177,
   "legacy_sample_count": 0,
   "market": [
     {
@@ -461,12 +461,12 @@
       "kind": "rune",
       "id": "Sur",
       "label": "Sur",
-      "fair_fg": 362.5,
-      "iso_fg": 282.5,
+      "fair_fg": 365.0,
+      "iso_fg": 290.0,
       "ft_fg": 375.0,
       "trade_fg": 362.5,
-      "samples": 10,
-      "confidence": "high",
+      "samples": 9,
+      "confidence": "medium",
       "last_seen_at": "2026-10-01T18:28:08.173580+00:00",
       "sources": [
         {
@@ -538,20 +538,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/9/28 10:18"
-        },
-        {
-          "kind": "rune",
-          "id": "Sur",
-          "label": "Sur",
-          "side": "iso",
-          "price_fg": 40.0,
-          "title": "Iso Lo + 40 Fg For Sur",
-          "url": "https://forums.d2jsp.org/topic.php?t=110384309&f=123",
-          "observed_at": "2026-09-28T21:16:36.350175+00:00",
-          "topic_date": "2026-09-27",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/9/27 05:48"
         },
         {
           "kind": "rune",
@@ -3009,11 +2995,11 @@
       "kind": "rune",
       "id": "Ohm",
       "label": "Ohm",
-      "fair_fg": 150.0,
+      "fair_fg": 162.5,
       "iso_fg": 140.0,
       "ft_fg": 162.5,
       "trade_fg": 150.0,
-      "samples": 11,
+      "samples": 10,
       "confidence": "high",
       "last_seen_at": "2026-10-03T05:23:16.693055+00:00",
       "sources": [
@@ -3128,20 +3114,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/9/28 05:11"
-        },
-        {
-          "kind": "rune",
-          "id": "Ohm",
-          "label": "Ohm",
-          "side": "iso",
-          "price_fg": 140.0,
-          "title": "Need List",
-          "url": "https://forums.d2jsp.org/topic.php?t=110384351&f=123",
-          "observed_at": "2026-09-28T21:16:09.551609+00:00",
-          "topic_date": "2026-09-27",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/9/27 05:58"
         },
         {
           "kind": "rune",
@@ -4395,11 +4367,11 @@
       "kind": "rune",
       "id": "Shael",
       "label": "Shael",
-      "fair_fg": 5.0,
+      "fair_fg": 2.73,
       "iso_fg": null,
       "ft_fg": null,
       "trade_fg": 2.73,
-      "samples": 3,
+      "samples": 2,
       "confidence": "low",
       "last_seen_at": "2026-10-02T17:55:50.641377+00:00",
       "sources": [
@@ -4430,20 +4402,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/2 08:36"
-        },
-        {
-          "kind": "rune",
-          "id": "Shael",
-          "label": "Shael",
-          "side": "unknown",
-          "price_fg": 30.0,
-          "title": "Everything Must Go!!",
-          "url": "https://forums.d2jsp.org/topic.php?t=110384256&f=123",
-          "observed_at": "2026-09-28T21:16:49.711632+00:00",
-          "topic_date": "2026-09-28",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/9/28 07:39"
         },
         {
           "kind": "rune",
@@ -4472,62 +4430,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/9/26 14:13"
-        }
-      ]
-    },
-    {
-      "kind": "rune",
-      "id": "Tal",
-      "label": "Tal",
-      "fair_fg": 31.5,
-      "iso_fg": null,
-      "ft_fg": null,
-      "trade_fg": 3.0,
-      "samples": 2,
-      "confidence": "low",
-      "last_seen_at": "2026-10-02T17:55:50.641377+00:00",
-      "sources": [
-        {
-          "kind": "rune",
-          "id": "Tal",
-          "label": "Tal",
-          "side": "unknown",
-          "price_fg": 3.0,
-          "title": "Hardcore Sale 5.0",
-          "url": "https://forums.d2jsp.org/topic.php?t=110410992&f=123",
-          "observed_at": "2026-10-02T17:55:50.641377+00:00",
-          "topic_date": "2026-10-02",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/2 08:36"
-        },
-        {
-          "kind": "rune",
-          "id": "Tal",
-          "label": "Tal",
-          "side": "trade",
-          "price_fg": 3.0,
-          "title": "Hardcore Sale 5.0 · T4T/sold signal",
-          "url": "https://forums.d2jsp.org/topic.php?t=110410992&f=123",
-          "observed_at": "2026-10-02T17:55:50.641377+00:00",
-          "topic_date": "2026-10-02",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/2 08:36"
-        },
-        {
-          "kind": "rune",
-          "id": "Tal",
-          "label": "Tal",
-          "side": "unknown",
-          "price_fg": 60.0,
-          "title": "Everything Must Go!!",
-          "url": "https://forums.d2jsp.org/topic.php?t=110384256&f=123",
-          "observed_at": "2026-09-28T21:16:49.711632+00:00",
-          "topic_date": "2026-09-28",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/9/28 07:39"
         }
       ]
     },
@@ -4689,6 +4591,48 @@
           "label": "Dol",
           "side": "trade",
           "price_fg": 5.0,
+          "title": "Hardcore Sale 5.0 · T4T/sold signal",
+          "url": "https://forums.d2jsp.org/topic.php?t=110410992&f=123",
+          "observed_at": "2026-10-02T17:55:50.641377+00:00",
+          "topic_date": "2026-10-02",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/2 08:36"
+        }
+      ]
+    },
+    {
+      "kind": "rune",
+      "id": "Tal",
+      "label": "Tal",
+      "fair_fg": 3.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": 3.0,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-10-02T17:55:50.641377+00:00",
+      "sources": [
+        {
+          "kind": "rune",
+          "id": "Tal",
+          "label": "Tal",
+          "side": "unknown",
+          "price_fg": 3.0,
+          "title": "Hardcore Sale 5.0",
+          "url": "https://forums.d2jsp.org/topic.php?t=110410992&f=123",
+          "observed_at": "2026-10-02T17:55:50.641377+00:00",
+          "topic_date": "2026-10-02",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/2 08:36"
+        },
+        {
+          "kind": "rune",
+          "id": "Tal",
+          "label": "Tal",
+          "side": "trade",
+          "price_fg": 3.0,
           "title": "Hardcore Sale 5.0 · T4T/sold signal",
           "url": "https://forums.d2jsp.org/topic.php?t=110410992&f=123",
           "observed_at": "2026-10-02T17:55:50.641377+00:00",
@@ -5924,8 +5868,22 @@
       "trade_fg": 400.0,
       "samples": 9,
       "confidence": "medium",
-      "last_seen_at": "2026-10-02T09:52:01.698070+00:00",
+      "last_seen_at": "2026-10-03T16:22:04.407855+00:00",
       "sources": [
+        {
+          "kind": "item",
+          "id": "unique-gheed-s-wager",
+          "label": "基德的賭注 (Gheed's Wager)",
+          "category": "腰帶",
+          "side": "unknown",
+          "price_fg": 100.0,
+          "title": "3",
+          "url": "https://forums.d2jsp.org/topic.php?t=110141709&f=123&o=20",
+          "observed_at": "2026-10-03T16:22:04.407855+00:00",
+          "topic_date": "2026-09-04",
+          "item_parser_v2": true,
+          "topic_time": "2026/9/4 12:20"
+        },
         {
           "kind": "item",
           "id": "unique-gheed-s-wager",
@@ -6051,20 +6009,6 @@
           "topic_date": "2026-09-05",
           "item_parser_v2": true,
           "topic_time": "2026/9/5 07:04"
-        },
-        {
-          "kind": "item",
-          "id": "unique-gheed-s-wager",
-          "label": "基德的賭注 (Gheed's Wager)",
-          "category": "腰帶",
-          "side": "unknown",
-          "price_fg": 100.0,
-          "title": "3",
-          "url": "https://forums.d2jsp.org/topic.php?t=110141709&f=123&o=20",
-          "observed_at": "2026-09-04T23:12:30.862032+00:00",
-          "topic_date": "2026-09-04",
-          "item_parser_v2": true,
-          "topic_time": "2026/9/4 12:20"
         },
         {
           "kind": "item",
@@ -6476,8 +6420,36 @@
       "trade_fg": 15.0,
       "samples": 9,
       "confidence": "medium",
-      "last_seen_at": "2026-09-13T12:02:27.376573+00:00",
+      "last_seen_at": "2026-10-03T16:22:09.548423+00:00",
       "sources": [
+        {
+          "kind": "item",
+          "id": "magefist",
+          "label": "法師之拳 (Magefist)",
+          "category": "手套",
+          "side": "unknown",
+          "price_fg": 15.0,
+          "title": "3",
+          "url": "https://forums.d2jsp.org/topic.php?t=110169711&f=123&o=20",
+          "observed_at": "2026-10-03T16:22:09.548423+00:00",
+          "topic_date": "2026-09-04",
+          "item_parser_v2": true,
+          "topic_time": "2026/9/4 16:59"
+        },
+        {
+          "kind": "item",
+          "id": "magefist",
+          "label": "法師之拳 (Magefist)",
+          "category": "手套",
+          "side": "trade",
+          "price_fg": 15.0,
+          "title": "3 · T4T/sold signal",
+          "url": "https://forums.d2jsp.org/topic.php?t=110169711&f=123&o=20",
+          "observed_at": "2026-10-03T16:22:09.548423+00:00",
+          "topic_date": "2026-09-04",
+          "item_parser_v2": true,
+          "topic_time": "2026/9/4 16:59"
+        },
         {
           "kind": "item",
           "id": "magefist",
@@ -6617,20 +6589,6 @@
           "topic_date": "2026-09-06",
           "item_parser_v2": true,
           "topic_time": "2026/9/6 08:39"
-        },
-        {
-          "kind": "item",
-          "id": "magefist",
-          "label": "法師之拳 (Magefist)",
-          "category": "手套",
-          "side": "unknown",
-          "price_fg": 15.0,
-          "title": "3",
-          "url": "https://forums.d2jsp.org/topic.php?t=110169711&f=123&o=20",
-          "observed_at": "2026-09-04T23:12:32.108148+00:00",
-          "topic_date": "2026-09-04",
-          "item_parser_v2": true,
-          "topic_time": "2026/9/4 16:59"
         },
         {
           "kind": "item",
@@ -8323,8 +8281,22 @@
       "trade_fg": 50.0,
       "samples": 8,
       "confidence": "medium",
-      "last_seen_at": "2026-09-12T23:08:43.957052+00:00",
+      "last_seen_at": "2026-10-03T16:22:22.779321+00:00",
       "sources": [
+        {
+          "kind": "item",
+          "id": "titans-revenge",
+          "label": "泰坦的復仇 (Titan's Revenge / Titans)",
+          "category": "武器",
+          "side": "unknown",
+          "price_fg": 75.0,
+          "title": "2",
+          "url": "https://forums.d2jsp.org/topic.php?t=110171882&f=123&o=10",
+          "observed_at": "2026-10-03T16:22:22.779321+00:00",
+          "topic_date": "2026-09-04",
+          "item_parser_v2": true,
+          "topic_time": "2026/9/4 16:34"
+        },
         {
           "kind": "item",
           "id": "titans-revenge",
@@ -8380,20 +8352,6 @@
           "topic_date": "2026-09-12",
           "item_parser_v2": true,
           "topic_time": "2026/9/12 14:50"
-        },
-        {
-          "kind": "item",
-          "id": "titans-revenge",
-          "label": "泰坦的復仇 (Titan's Revenge / Titans)",
-          "category": "武器",
-          "side": "unknown",
-          "price_fg": 75.0,
-          "title": "2",
-          "url": "https://forums.d2jsp.org/topic.php?t=110171882&f=123&o=10",
-          "observed_at": "2026-09-04T23:12:52.796970+00:00",
-          "topic_date": "2026-09-04",
-          "item_parser_v2": true,
-          "topic_time": "2026/9/4 16:34"
         },
         {
           "kind": "item",
@@ -9272,8 +9230,22 @@
       "trade_fg": null,
       "samples": 11,
       "confidence": "high",
-      "last_seen_at": "2026-09-21T20:01:25.879687+00:00",
+      "last_seen_at": "2026-10-03T16:22:25.469738+00:00",
       "sources": [
+        {
+          "kind": "item",
+          "id": "cta",
+          "label": "戰爭召喚 (Call to Arms / CTA)",
+          "category": "符文之語成品",
+          "side": "unknown",
+          "price_fg": 300.0,
+          "title": "2",
+          "url": "https://forums.d2jsp.org/topic.php?t=110169711&f=123&o=10",
+          "observed_at": "2026-10-03T16:22:25.469738+00:00",
+          "topic_date": "2026-09-04",
+          "item_parser_v2": true,
+          "topic_time": "2026/9/4 12:31"
+        },
         {
           "kind": "item",
           "id": "cta",
@@ -9399,20 +9371,6 @@
           "topic_date": "2026-09-06",
           "item_parser_v2": true,
           "topic_time": "2026/9/6 05:59"
-        },
-        {
-          "kind": "item",
-          "id": "cta",
-          "label": "戰爭召喚 (Call to Arms / CTA)",
-          "category": "符文之語成品",
-          "side": "unknown",
-          "price_fg": 300.0,
-          "title": "2",
-          "url": "https://forums.d2jsp.org/topic.php?t=110169711&f=123&o=10",
-          "observed_at": "2026-09-04T23:12:58.290993+00:00",
-          "topic_date": "2026-09-04",
-          "item_parser_v2": true,
-          "topic_time": "2026/9/4 12:31"
         },
         {
           "kind": "item",
@@ -11296,14 +11254,28 @@
       "kind": "item",
       "id": "set-https-d2r-world-zh-tw",
       "label": "![Image 1] (https://d2r.world/zh-TW)",
-      "fair_fg": 100.0,
+      "fair_fg": 150.0,
       "iso_fg": 5.0,
       "ft_fg": 200.0,
       "trade_fg": 50.0,
-      "samples": 4,
+      "samples": 5,
       "confidence": "medium",
-      "last_seen_at": "2026-10-03T14:44:39.717356+00:00",
+      "last_seen_at": "2026-10-03T16:23:10.226330+00:00",
       "sources": [
+        {
+          "kind": "item",
+          "id": "set-https-d2r-world-zh-tw",
+          "label": "![Image 1] (https://d2r.world/zh-TW)",
+          "category": "套裝手套",
+          "side": "unknown",
+          "price_fg": 199.0,
+          "title": "2",
+          "url": "https://forums.d2jsp.org/topic.php?t=110170392&f=123&o=10",
+          "observed_at": "2026-10-03T16:23:10.226330+00:00",
+          "topic_date": "2026-09-04",
+          "item_parser_v2": true,
+          "topic_time": "2026/9/4 14:29"
+        },
         {
           "kind": "item",
           "id": "set-https-d2r-world-zh-tw",
@@ -11574,6 +11546,119 @@
         }
       ],
       "category": "珠寶"
+    },
+    {
+      "kind": "item",
+      "id": "oculus",
+      "label": "眼球 (The Oculus / Occy)",
+      "fair_fg": 25.0,
+      "iso_fg": null,
+      "ft_fg": 15.0,
+      "trade_fg": null,
+      "samples": 7,
+      "confidence": "medium",
+      "last_seen_at": "2026-10-03T16:22:04.407855+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "oculus",
+          "label": "眼球 (The Oculus / Occy)",
+          "category": "武器",
+          "side": "unknown",
+          "price_fg": 30.0,
+          "title": "3",
+          "url": "https://forums.d2jsp.org/topic.php?t=110141709&f=123&o=20",
+          "observed_at": "2026-10-03T16:22:04.407855+00:00",
+          "topic_date": "2026-09-04",
+          "item_parser_v2": true,
+          "topic_time": "2026/9/4 12:20"
+        },
+        {
+          "kind": "item",
+          "id": "oculus",
+          "label": "眼球 (The Oculus / Occy)",
+          "category": "武器",
+          "side": "unknown",
+          "price_fg": 25.0,
+          "title": "Random Stuff Mostly Druid",
+          "url": "https://forums.d2jsp.org/topic.php?t=110381798&f=123",
+          "observed_at": "2026-09-29T01:08:26.252845+00:00",
+          "topic_date": "2026-09-26",
+          "item_parser_v2": true,
+          "topic_time": "2026/9/26 19:29"
+        },
+        {
+          "kind": "item",
+          "id": "oculus",
+          "label": "眼球 (The Oculus / Occy)",
+          "category": "武器",
+          "side": "unknown",
+          "price_fg": 20.0,
+          "title": "5",
+          "url": "https://forums.d2jsp.org/topic.php?t=110300188&f=123&o=40",
+          "observed_at": "2026-09-20T05:01:20.172243+00:00",
+          "topic_date": "2026-09-19",
+          "item_parser_v2": true,
+          "topic_time": "2026/9/19 19:47"
+        },
+        {
+          "kind": "item",
+          "id": "oculus",
+          "label": "眼球 (The Oculus / Occy)",
+          "category": "武器",
+          "side": "unknown",
+          "price_fg": 50.0,
+          "title": "2",
+          "url": "https://forums.d2jsp.org/topic.php?t=110212116&f=123&o=10",
+          "observed_at": "2026-09-14T20:03:13.754618+00:00",
+          "topic_date": "2026-09-08",
+          "item_parser_v2": true,
+          "topic_time": "2026/9/8 19:21"
+        },
+        {
+          "kind": "item",
+          "id": "oculus",
+          "label": "眼球 (The Oculus / Occy)",
+          "category": "武器",
+          "side": "unknown",
+          "price_fg": 190.0,
+          "title": "Sorc Stuff Tg Gloves, Cold Sunder, Oculus, Gheed",
+          "url": "https://forums.d2jsp.org/topic.php?t=110239110&f=123",
+          "observed_at": "2026-09-10T11:30:20.736676+00:00",
+          "topic_date": "2026-09-10",
+          "item_parser_v2": true,
+          "topic_time": "2026/9/10 04:24"
+        },
+        {
+          "kind": "item",
+          "id": "oculus",
+          "label": "眼球 (The Oculus / Occy)",
+          "category": "武器",
+          "side": "ft",
+          "price_fg": 15.0,
+          "title": "Ft List Sorcs Items",
+          "url": "https://forums.d2jsp.org/topic.php?t=110207799&f=123",
+          "observed_at": "2026-09-08T23:34:14.528916+00:00",
+          "topic_date": "2026-09-07",
+          "item_parser_v2": true,
+          "topic_time": "2026/9/7 07:02"
+        },
+        {
+          "kind": "item",
+          "id": "oculus",
+          "label": "眼球 (The Oculus / Occy)",
+          "category": "武器",
+          "side": "unknown",
+          "price_fg": 15.0,
+          "title": "3",
+          "url": "https://forums.d2jsp.org/topic.php?t=110146010&f=123&o=20",
+          "observed_at": "2026-09-07T19:19:50.583066+00:00",
+          "topic_date": "2026-09-05",
+          "item_parser_v2": true,
+          "topic_time": "2026/9/5 20:19"
+        }
+      ],
+      "category": "武器"
     },
     {
       "kind": "item",
@@ -11870,8 +11955,22 @@
       "trade_fg": null,
       "samples": 3,
       "confidence": "low",
-      "last_seen_at": "2026-09-20T05:01:20.172243+00:00",
+      "last_seen_at": "2026-10-03T16:22:22.779321+00:00",
       "sources": [
+        {
+          "kind": "item",
+          "id": "unique-lidless-wall",
+          "label": "警戒之牆 (Lidless Wall)",
+          "category": "盾牌",
+          "side": "unknown",
+          "price_fg": 5.0,
+          "title": "2",
+          "url": "https://forums.d2jsp.org/topic.php?t=110171882&f=123&o=10",
+          "observed_at": "2026-10-03T16:22:22.779321+00:00",
+          "topic_date": "2026-09-04",
+          "item_parser_v2": true,
+          "topic_time": "2026/9/4 16:34"
+        },
         {
           "kind": "item",
           "id": "unique-lidless-wall",
@@ -11899,20 +11998,6 @@
           "topic_date": "2026-09-08",
           "item_parser_v2": true,
           "topic_time": "2026/9/8 19:21"
-        },
-        {
-          "kind": "item",
-          "id": "unique-lidless-wall",
-          "label": "警戒之牆 (Lidless Wall)",
-          "category": "盾牌",
-          "side": "unknown",
-          "price_fg": 5.0,
-          "title": "2",
-          "url": "https://forums.d2jsp.org/topic.php?t=110171882&f=123&o=10",
-          "observed_at": "2026-09-04T23:12:52.796970+00:00",
-          "topic_date": "2026-09-04",
-          "item_parser_v2": true,
-          "topic_time": "2026/9/4 16:34"
         }
       ],
       "category": "盾牌"
@@ -13905,105 +13990,6 @@
         }
       ],
       "category": "刀劍"
-    },
-    {
-      "kind": "item",
-      "id": "oculus",
-      "label": "眼球 (The Oculus / Occy)",
-      "fair_fg": 22.5,
-      "iso_fg": null,
-      "ft_fg": 15.0,
-      "trade_fg": null,
-      "samples": 6,
-      "confidence": "medium",
-      "last_seen_at": "2026-09-29T01:08:26.252845+00:00",
-      "sources": [
-        {
-          "kind": "item",
-          "id": "oculus",
-          "label": "眼球 (The Oculus / Occy)",
-          "category": "武器",
-          "side": "unknown",
-          "price_fg": 25.0,
-          "title": "Random Stuff Mostly Druid",
-          "url": "https://forums.d2jsp.org/topic.php?t=110381798&f=123",
-          "observed_at": "2026-09-29T01:08:26.252845+00:00",
-          "topic_date": "2026-09-26",
-          "item_parser_v2": true,
-          "topic_time": "2026/9/26 19:29"
-        },
-        {
-          "kind": "item",
-          "id": "oculus",
-          "label": "眼球 (The Oculus / Occy)",
-          "category": "武器",
-          "side": "unknown",
-          "price_fg": 20.0,
-          "title": "5",
-          "url": "https://forums.d2jsp.org/topic.php?t=110300188&f=123&o=40",
-          "observed_at": "2026-09-20T05:01:20.172243+00:00",
-          "topic_date": "2026-09-19",
-          "item_parser_v2": true,
-          "topic_time": "2026/9/19 19:47"
-        },
-        {
-          "kind": "item",
-          "id": "oculus",
-          "label": "眼球 (The Oculus / Occy)",
-          "category": "武器",
-          "side": "unknown",
-          "price_fg": 50.0,
-          "title": "2",
-          "url": "https://forums.d2jsp.org/topic.php?t=110212116&f=123&o=10",
-          "observed_at": "2026-09-14T20:03:13.754618+00:00",
-          "topic_date": "2026-09-08",
-          "item_parser_v2": true,
-          "topic_time": "2026/9/8 19:21"
-        },
-        {
-          "kind": "item",
-          "id": "oculus",
-          "label": "眼球 (The Oculus / Occy)",
-          "category": "武器",
-          "side": "unknown",
-          "price_fg": 190.0,
-          "title": "Sorc Stuff Tg Gloves, Cold Sunder, Oculus, Gheed",
-          "url": "https://forums.d2jsp.org/topic.php?t=110239110&f=123",
-          "observed_at": "2026-09-10T11:30:20.736676+00:00",
-          "topic_date": "2026-09-10",
-          "item_parser_v2": true,
-          "topic_time": "2026/9/10 04:24"
-        },
-        {
-          "kind": "item",
-          "id": "oculus",
-          "label": "眼球 (The Oculus / Occy)",
-          "category": "武器",
-          "side": "ft",
-          "price_fg": 15.0,
-          "title": "Ft List Sorcs Items",
-          "url": "https://forums.d2jsp.org/topic.php?t=110207799&f=123",
-          "observed_at": "2026-09-08T23:34:14.528916+00:00",
-          "topic_date": "2026-09-07",
-          "item_parser_v2": true,
-          "topic_time": "2026/9/7 07:02"
-        },
-        {
-          "kind": "item",
-          "id": "oculus",
-          "label": "眼球 (The Oculus / Occy)",
-          "category": "武器",
-          "side": "unknown",
-          "price_fg": 15.0,
-          "title": "3",
-          "url": "https://forums.d2jsp.org/topic.php?t=110146010&f=123&o=20",
-          "observed_at": "2026-09-07T19:19:50.583066+00:00",
-          "topic_date": "2026-09-05",
-          "item_parser_v2": true,
-          "topic_time": "2026/9/5 20:19"
-        }
-      ],
-      "category": "武器"
     },
     {
       "kind": "item",
@@ -16600,5 +16586,5 @@
   "item_topic_count": 1,
   "item_cached_topics": 2928,
   "item_parsed_topics": 2928,
-  "item_sample_count": 564
+  "item_sample_count": 566
 }

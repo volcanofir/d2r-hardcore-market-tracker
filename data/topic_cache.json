@@ -13719,8 +13719,8 @@
       "title": "Fresh Ber",
       "url": "https://forums.d2jsp.org/topic.php?t=110384996&f=123",
       "first_seen_at": "2026-09-28T21:15:24.434355+00:00",
-      "last_checked_at": "2026-09-28T21:16:43.872641+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-03T16:21:23.716446+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -13751,8 +13751,8 @@
       "title": "Fresh Ohm",
       "url": "https://forums.d2jsp.org/topic.php?t=110384896&f=123",
       "first_seen_at": "2026-09-28T21:15:24.434355+00:00",
-      "last_checked_at": "2026-09-28T21:16:38.375540+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-03T16:21:26.621556+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -13851,8 +13851,8 @@
       "title": "Lo",
       "url": "https://forums.d2jsp.org/topic.php?t=110384707&f=123",
       "first_seen_at": "2026-09-28T21:15:24.434355+00:00",
-      "last_checked_at": "2026-09-28T21:16:17.295508+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-03T16:21:04.357827+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -13860,8 +13860,8 @@
       "title": "Lo",
       "url": "https://forums.d2jsp.org/topic.php?t=110384593&f=123",
       "first_seen_at": "2026-09-28T21:15:24.434355+00:00",
-      "last_checked_at": "2026-09-28T21:16:22.548658+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-03T16:21:09.847076+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -13878,8 +13878,8 @@
       "title": "Jah Ft",
       "url": "https://forums.d2jsp.org/topic.php?t=110384513&f=123",
       "first_seen_at": "2026-09-28T21:15:24.434355+00:00",
-      "last_checked_at": "2026-09-28T21:16:26.934022+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-03T16:21:10.366754+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -13896,8 +13896,8 @@
       "title": "Vex + Anni + Lock Torch",
       "url": "https://forums.d2jsp.org/topic.php?t=110384405&f=123",
       "first_seen_at": "2026-09-28T21:15:24.434355+00:00",
-      "last_checked_at": "2026-09-28T21:16:02.177826+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-03T16:21:14.960964+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -13914,8 +13914,8 @@
       "title": "Ohm Lo Ber / 48 War Travs / Andys",
       "url": "https://forums.d2jsp.org/topic.php?t=110384379&f=123",
       "first_seen_at": "2026-09-28T21:15:24.434355+00:00",
-      "last_checked_at": "2026-09-28T21:16:26.512181+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-03T16:20:55.580552+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -13932,8 +13932,8 @@
       "title": "Ist",
       "url": "https://forums.d2jsp.org/topic.php?t=110384368&f=123",
       "first_seen_at": "2026-09-28T21:15:24.434355+00:00",
-      "last_checked_at": "2026-09-28T21:16:31.708799+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-03T16:21:15.213833+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -13977,24 +13977,10 @@
       "title": "Need List",
       "url": "https://forums.d2jsp.org/topic.php?t=110384351&f=123",
       "first_seen_at": "2026-09-28T21:15:24.434355+00:00",
-      "last_checked_at": "2026-09-28T21:16:09.551609+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-03T16:20:59.542321+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Ohm",
-          "label": "Ohm",
-          "side": "iso",
-          "price_fg": 140.0,
-          "title": "Need List",
-          "url": "https://forums.d2jsp.org/topic.php?t=110384351&f=123",
-          "observed_at": "2026-09-28T21:16:09.551609+00:00",
-          "topic_date": "2026-09-27",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110384351&f=123&o=10": {
       "title": "2",
@@ -14009,31 +13995,17 @@
       "title": "Iso Lo + 40 Fg For Sur",
       "url": "https://forums.d2jsp.org/topic.php?t=110384309&f=123",
       "first_seen_at": "2026-09-28T21:15:24.434355+00:00",
-      "last_checked_at": "2026-09-28T21:16:36.350175+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-03T16:21:19.072734+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Sur",
-          "label": "Sur",
-          "side": "iso",
-          "price_fg": 40.0,
-          "title": "Iso Lo + 40 Fg For Sur",
-          "url": "https://forums.d2jsp.org/topic.php?t=110384309&f=123",
-          "observed_at": "2026-09-28T21:16:36.350175+00:00",
-          "topic_date": "2026-09-27",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110384276&f=123": {
       "title": "N 2x Ber",
       "url": "https://forums.d2jsp.org/topic.php?t=110384276&f=123",
       "first_seen_at": "2026-09-28T21:15:24.434355+00:00",
-      "last_checked_at": "2026-09-28T21:16:10.665199+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-03T16:20:59.942682+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -14059,37 +14031,10 @@
       "title": "Everything Must Go!!",
       "url": "https://forums.d2jsp.org/topic.php?t=110384256&f=123",
       "first_seen_at": "2026-09-28T21:15:24.434355+00:00",
-      "last_checked_at": "2026-09-28T21:16:49.711632+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-03T16:21:24.400811+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Shael",
-          "label": "Shael",
-          "side": "unknown",
-          "price_fg": 30.0,
-          "title": "Everything Must Go!!",
-          "url": "https://forums.d2jsp.org/topic.php?t=110384256&f=123",
-          "observed_at": "2026-09-28T21:16:49.711632+00:00",
-          "topic_date": "2026-09-28",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Tal",
-          "label": "Tal",
-          "side": "unknown",
-          "price_fg": 60.0,
-          "title": "Everything Must Go!!",
-          "url": "https://forums.d2jsp.org/topic.php?t=110384256&f=123",
-          "observed_at": "2026-09-28T21:16:49.711632+00:00",
-          "topic_date": "2026-09-28",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110384256&f=123&o=10": {
       "title": "2",
@@ -19306,5 +19251,5 @@
       "samples": []
     }
   },
-  "updated_at": "2026-10-03T15:01:38.888170+00:00"
+  "updated_at": "2026-10-03T16:21:26.622843+00:00"
 }

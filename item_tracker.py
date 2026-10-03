@@ -402,6 +402,7 @@ def aggregate(cache):
 
 
 RECENT_PRICE_DAYS = 7
+KEY_PRICE_DAYS = 10
 
 
 def sample_topic_date(sample):
@@ -443,6 +444,36 @@ def apply_recent_item_pricing(rows, samples):
     priority = {"trade": 3, "ft": 2, "unknown": 1}
     for row in rows:
         recent = groups.get(row.get("id"), [])
+        if str(row.get("id", "")).startswith("key"):
+            key_cutoff = now().date() - timedelta(days=KEY_PRICE_DAYS - 1)
+            key_recent = [
+                sample for sample in samples
+                if sample.get("id") == row.get("id")
+                and (sample_topic_date(sample) or datetime.min.date()) >= key_cutoff
+            ]
+            key_by_url = {}
+            key_priority = {"trade": 3, "ft": 2, "unknown": 1}
+            for sample in key_recent:
+                if sample.get("side") == "iso" or not sample.get("url"):
+                    continue
+                current = key_by_url.get(sample["url"])
+                if current is None or key_priority.get(sample.get("side"), 0) > key_priority.get(current.get("side"), 0):
+                    key_by_url[sample["url"]] = sample
+            key_market = list(key_by_url.values())
+            if key_market:
+                row["fair_fg"] = median_price(key_market)
+                row["pricing_window_days"] = KEY_PRICE_DAYS
+                row["recent_source_count"] = len(key_market)
+            key_ft = [x for x in key_recent if x.get("side") == "ft"]
+            key_trade = [x for x in key_recent if x.get("side") == "trade"]
+            key_iso = [x for x in key_recent if x.get("side") == "iso"]
+            if key_ft:
+                row["ft_fg"] = median_price(key_ft)
+            if key_trade:
+                row["trade_fg"] = median_price(key_trade)
+            if key_iso:
+                row["iso_fg"] = median_price(key_iso)
+            continue
         if not recent:
             continue
 

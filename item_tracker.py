@@ -1,9 +1,12 @@
 import json
+import html
 import re
 import statistics
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
+
+import requests
 
 import scraper_live as s
 
@@ -20,6 +23,9 @@ RECHECK_AFTER_HOURS = 6
 CACHE_DAYS = 30
 KEY_TOPIC_RE = re.compile(r"(?:\bkey(?:s|set|sets)?\b|\bterror\b|\bhate\b|\bdestruction\b|\bd\s*key\b|\bt\s*key\b|\bh\s*key\b)", re.I)
 REPARSE_BATCH = 50
+KEY_SEED_TOPICS = {
+    "https://forums.d2jsp.org/topic.php?f=123&t=110372497&v=1": "Keys Ft",
+}
 DATE_RE = re.compile(
     r"\b(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+"
     r"(\d{1,2})\s+(\d{4})\s+(\d{1,2}:\d{2})(am|pm)\b",
@@ -270,20 +276,71 @@ def parse_topic(title, url):
     }
 
 
+def direct_forum_topics(url):
+    """Fallback to the real d2jsp forum HTML when the reader proxy is empty."""
+    response = requests.get(url, headers=s.HEADERS, timeout=25)
+    response.raise_for_status()
+    raw = response.text
+    found = []
+    seen = set()
+    pattern = re.compile(
+        r'<a[^>]+href=["\']([^"\']*topic\.php\?[^"\']+)["\'][^>]*>(.*?)</a>',
+        re.I | re.S,
+    )
+    for href, label in pattern.findall(raw):
+        href = html.unescape(href)
+        if "t=" not in href or "f=123" not in href:
+            continue
+        if href.startswith("/"):
+            topic_url = "https://forums.d2jsp.org" + href
+        elif href.startswith("http"):
+            topic_url = href
+        else:
+            topic_url = "https://forums.d2jsp.org/" + href.lstrip("./")
+        title = re.sub(r"<[^>]+>", " ", label)
+        title = html.unescape(re.sub(r"\s+", " ", title)).strip()
+        if not title or topic_url in seen:
+            continue
+        seen.add(topic_url)
+        found.append((title, topic_url))
+    return found, len(raw)
+
+
 def discover_topics():
     diagnostics = []
-    discovered = {}
+    discovered = dict(KEY_SEED_TOPICS)
     pages = max(1, int(s.CFG.get("item_pages", 8)))
     for offset in range(0, pages * 25, 25):
         url = s.FORUM if offset == 0 else s.FORUM + f"&o={offset}"
+        found = []
+        reader_bytes = 0
+        direct_bytes = 0
+        reader_error = None
+        direct_error = None
         try:
-            markdown = s.reader(url, retries=4)
+            markdown = s.reader(url, retries=2)
+            reader_bytes = len(markdown)
             found = s.topic_links(markdown)
-            diagnostics.append({"url": url, "offset": offset, "topics": len(found), "bytes": len(markdown)})
-            for title, topic_url in found:
-                discovered.setdefault(topic_url, title)
         except Exception as exc:
-            diagnostics.append({"url": url, "offset": offset, "error": str(exc)})
+            reader_error = str(exc)
+
+        if not found:
+            try:
+                found, direct_bytes = direct_forum_topics(url)
+            except Exception as exc:
+                direct_error = str(exc)
+
+        diagnostics.append({
+            "url": url,
+            "offset": offset,
+            "topics": len(found),
+            "reader_bytes": reader_bytes,
+            "direct_bytes": direct_bytes,
+            "reader_error": reader_error,
+            "direct_error": direct_error,
+        })
+        for title, topic_url in found:
+            discovered.setdefault(topic_url, title)
     return discovered, diagnostics
 
 
@@ -451,6 +508,14 @@ def main():
             }
         else:
             topics[url]["title"] = title or topics[url].get("title")
+
+        if url in KEY_SEED_TOPICS:
+            has_key_sample = any(
+                str(sample.get("id", "")).startswith("key")
+                for sample in topics[url].get("samples", [])
+            )
+            if not has_key_sample:
+                topics[url]["needs_reparse"] = True
 
     selected = selected_topics(cache)
     errors = []

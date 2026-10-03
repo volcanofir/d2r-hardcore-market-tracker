@@ -18,7 +18,7 @@ SOURCE_POLICY = "season15-items-all-uniques-v2"
 MAX_WORKERS = 2
 RECHECK_AFTER_HOURS = 6
 CACHE_DAYS = 30
-KEY_TOPIC_RE = re.compile(r"(?:\\bkey(?:s|set|sets)?\\b|\\bterror\\b|\\bhate\\b|\\bdestruction\\b|\\bd\\s*key\\b|\\bt\\s*key\\b|\\bh\\s*key\\b)", re.I)
+KEY_TOPIC_RE = re.compile(r"(?:\bkey(?:s|set|sets)?\b|\bterror\b|\bhate\b|\bdestruction\b|\bd\s*key\b|\bt\s*key\b|\bh\s*key\b)", re.I)
 REPARSE_BATCH = 50
 DATE_RE = re.compile(
     r"\b(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+"

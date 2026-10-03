@@ -888,7 +888,8 @@
         "tkey",
         "t key",
         "t-key",
-        "恐懼之鑰"
+        "恐懼之鑰",
+        "tkeys"
       ]
     },
     {
@@ -902,7 +903,8 @@
         "hkey",
         "h key",
         "h-key",
-        "憎恨之鑰"
+        "憎恨之鑰",
+        "hkeys"
       ]
     },
     {
@@ -916,7 +918,24 @@
         "dkey",
         "d key",
         "d-key",
-        "毀滅之鑰"
+        "毀滅之鑰",
+        "dkeys",
+        "dest key",
+        "dest keys"
+      ]
+    },
+    {
+      "id": "keyset-3x3",
+      "label": "3×3 鑰匙組 (3x3 Keyset)",
+      "category": "鑰匙",
+      "aliases": [
+        "3x3 keyset",
+        "3x3 keysets",
+        "keyset 3x3",
+        "keysets 3x3",
+        "3x3 keys",
+        "3 x 3 keyset",
+        "3 x 3 keys"
       ]
     }
   ]

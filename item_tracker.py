@@ -143,7 +143,7 @@ def key_fallback_prices(line, hits):
         next_start = key_hits[index + 1][0] if index + 1 < len(key_hits) else min(len(line), end + 120)
         segment = line[end:next_start]
         m = re.search(
-            r"(?:—|–|-|=|:|@)\s*(\d+(?:\.\d+)?)\s*(?:fg\b|ea\b|each\b|per\b|$)",
+            r"(?:—|–|-|=|:|@|/)\s*(\d+(?:\.\d+)?)\s*(?:fg\b|ea\b|each\b|per\b|$)",
             segment,
             re.I,
         )
@@ -322,8 +322,11 @@ def selected_topics(cache):
     fresh = [x for x in pending if not cache.get("topics", {}).get(x[2], {}).get("needs_reparse")]
     reparses.sort(reverse=True)
     fresh.sort(reverse=True)
-    selected_pending = reparses[:REPARSE_BATCH] + fresh[:20]
-    return [(title, url, "reparse" if cache.get("topics", {}).get(url, {}).get("needs_reparse") else "new") for _, title, url in selected_pending] + [
+    if reparses:
+        selected_pending = reparses[:REPARSE_BATCH]
+        return [(title, url, "reparse") for _, title, url in selected_pending]
+    selected_pending = fresh[:20]
+    return [(title, url, "new") for _, title, url in selected_pending] + [
         (title, url, "recheck") for _, title, url in recheck[:20]
     ]
 

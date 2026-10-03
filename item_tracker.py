@@ -18,6 +18,8 @@ SOURCE_POLICY = "season15-items-all-uniques-v2"
 MAX_WORKERS = 2
 RECHECK_AFTER_HOURS = 6
 CACHE_DAYS = 30
+KEY_TOPIC_RE = re.compile(r"(?:\\bkey(?:s|set|sets)?\\b|\\bterror\\b|\\bhate\\b|\\bdestruction\\b|\\bd\\s*key\\b|\\bt\\s*key\\b|\\bh\\s*key\\b)", re.I)
+REPARSE_BATCH = 50
 DATE_RE = re.compile(
     r"\b(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+"
     r"(\d{1,2})\s+(\d{4})\s+(\d{1,2}:\d{2})(am|pm)\b",
@@ -316,7 +318,12 @@ def selected_topics(cache):
     recheck.sort(reverse=True)
     # Full pending backfill on the first catalog run; later runs are naturally
     # incremental because parsed topics remain cached.
-    return [(title, url, "new") for _, title, url in pending] + [
+    reparses = [x for x in pending if cache.get("topics", {}).get(x[2], {}).get("needs_reparse")]
+    fresh = [x for x in pending if not cache.get("topics", {}).get(x[2], {}).get("needs_reparse")]
+    reparses.sort(reverse=True)
+    fresh.sort(reverse=True)
+    selected_pending = reparses[:REPARSE_BATCH] + fresh[:20]
+    return [(title, url, "reparse" if cache.get("topics", {}).get(url, {}).get("needs_reparse") else "new") for _, title, url in selected_pending] + [
         (title, url, "recheck") for _, title, url in recheck[:20]
     ]
 
@@ -416,11 +423,14 @@ def main():
     market = load(s.MARKET_PATH, {"market": []})
     cache = prune(load(CACHE_PATH, {"version": 2, "topics": {}}))
     if cache.get("source_policy") != SOURCE_POLICY:
-        # Never wipe a good cache when parser/catalog rules change. Keep the
-        # previous parsed samples live, and reparse topics opportunistically.
+        # Preserve the existing market cache. Parser/catalog migrations for
+        # quest keys only reparse topics whose titles explicitly mention keys,
+        # avoiding a 45-minute full-catalog rebuild.
         cache["source_policy"] = SOURCE_POLICY
         for entry in cache.setdefault("topics", {}).values():
-            entry["needs_reparse"] = True
+            title = str(entry.get("title", ""))
+            if KEY_TOPIC_RE.search(title):
+                entry["needs_reparse"] = True
 
     discovered, forum_pages = discover_topics()
     stamp = iso_now()

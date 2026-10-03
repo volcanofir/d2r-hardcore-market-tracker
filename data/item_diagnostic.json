@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T16:23:10.475176+00:00",
+  "updated_at": "2026-10-03T21:24:54.134766+00:00",
   "source_policy": "season15-items-static-catalog-v7-uber-keys",
   "catalog_items": 589,
   "forum_pages": [
@@ -77,10 +77,17 @@
     }
   ],
   "discovered_topics": 1,
-  "cached_topics": 2928,
+  "cached_topics": 2904,
   "selected_topics": 20,
-  "parsed_this_run": 20,
-  "combined_samples": 630,
-  "market_items": 201,
-  "topic_errors": []
+  "parsed_this_run": 19,
+  "combined_samples": 617,
+  "market_items": 197,
+  "topic_errors": [
+    {
+      "url": "https://forums.d2jsp.org/topic.php?t=110342914&f=123",
+      "title": "Iso 2terro Keys",
+      "reason": "recheck",
+      "error": "429 Too Many Requests (5/5)"
+    }
+  ]
 }

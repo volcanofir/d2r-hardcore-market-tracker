@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-10-03T16:21:26.644156+00:00",
+  "updated_at": "2026-10-03T21:23:07.353887+00:00",
   "forum_pages": [
     {
-      "url": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+      "url": "https://forums.d2jsp.org/forum.php?c=2&f=123",
       "offset": 0,
-      "topics": 0,
-      "bytes": 0,
+      "topics": 25,
+      "bytes": 10146,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2",
@@ -14,8 +14,8 @@
         },
         {
           "url": "https://forums.d2jsp.org/forum.php?c=2&f=123",
-          "topics": 0,
-          "bytes": 280
+          "topics": 25,
+          "bytes": 10146
         }
       ]
     },
@@ -254,14 +254,21 @@
       ]
     }
   ],
-  "discovered_topics": 0,
-  "cached_topics": 1660,
-  "selected_topics": 12,
-  "parsed_this_run": 12,
-  "completed_this_run": 12,
+  "discovered_topics": 25,
+  "cached_topics": 1685,
+  "selected_topics": 37,
+  "parsed_this_run": 36,
+  "completed_this_run": 19,
   "legacy_samples": 0,
-  "combined_samples": 323,
-  "topic_errors": [],
+  "combined_samples": 326,
+  "topic_errors": [
+    {
+      "url": "https://forums.d2jsp.org/topic.php?t=110423734&f=123",
+      "title": "Runes Ft",
+      "reason": "new",
+      "error": "429 Too Many Requests (5/5)"
+    }
+  ],
   "season": 15,
   "season_label": "第 15 季天梯",
   "data_start": "2026-08-22",

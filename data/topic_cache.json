@@ -14141,8 +14141,8 @@
       "title": "Fort Runes",
       "url": "https://forums.d2jsp.org/topic.php?t=110394701&f=123",
       "first_seen_at": "2026-09-29T01:02:52.667891+00:00",
-      "last_checked_at": "2026-09-29T01:06:21.018266+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-03T14:57:19.015190+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -14231,8 +14231,8 @@
       "title": "Fresh Ber",
       "url": "https://forums.d2jsp.org/topic.php?t=110394453&f=123",
       "first_seen_at": "2026-09-29T01:02:52.667891+00:00",
-      "last_checked_at": "2026-09-29T01:06:15.977793+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-03T14:57:07.216189+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -14294,8 +14294,8 @@
       "title": "Cham Bin Now 600",
       "url": "https://forums.d2jsp.org/topic.php?t=110394199&f=123",
       "first_seen_at": "2026-09-29T01:02:52.667891+00:00",
-      "last_checked_at": "2026-09-29T01:06:32.336458+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-03T14:57:23.094527+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -14312,24 +14312,10 @@
       "title": "Clearance Rip When U Join Pubs With Nubs",
       "url": "https://forums.d2jsp.org/topic.php?t=110394152&f=123",
       "first_seen_at": "2026-09-29T01:02:52.667891+00:00",
-      "last_checked_at": "2026-09-29T01:06:46.106226+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-03T14:57:15.308490+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Um",
-          "label": "Um",
-          "side": "unknown",
-          "price_fg": 45.0,
-          "title": "Clearance Rip When U Join Pubs With Nubs",
-          "url": "https://forums.d2jsp.org/topic.php?t=110394152&f=123",
-          "observed_at": "2026-09-29T01:06:46.106226+00:00",
-          "topic_date": "2026-09-28",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110394089&f=123": {
       "title": "Iso Ist",
@@ -14371,24 +14357,10 @@
       "title": "Cham Rune Vs 600 Fg",
       "url": "https://forums.d2jsp.org/topic.php?t=110394000&f=123",
       "first_seen_at": "2026-09-29T01:02:52.667891+00:00",
-      "last_checked_at": "2026-09-29T01:06:30.584939+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-03T14:57:19.914203+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Cham",
-          "label": "Cham",
-          "side": "ft",
-          "price_fg": 600.0,
-          "title": "Cham Rune Vs 600 Fg",
-          "url": "https://forums.d2jsp.org/topic.php?t=110394000&f=123",
-          "observed_at": "2026-09-29T01:06:30.584939+00:00",
-          "topic_date": "2026-09-28",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110393990&f=123": {
       "title": "Jah Rune",
@@ -14421,50 +14393,10 @@
       "title": "Gul Mal Ko Ko",
       "url": "https://forums.d2jsp.org/topic.php?t=110393893&f=123",
       "first_seen_at": "2026-09-29T01:02:52.667891+00:00",
-      "last_checked_at": "2026-09-29T01:06:03.637907+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-03T14:56:57.908265+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Ko",
-          "label": "Ko",
-          "side": "unknown",
-          "price_fg": 2.5,
-          "title": "Gul Mal Ko Ko",
-          "url": "https://forums.d2jsp.org/topic.php?t=110393893&f=123",
-          "observed_at": "2026-09-29T01:06:03.637907+00:00",
-          "topic_date": "2026-09-28",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Mal",
-          "label": "Mal",
-          "side": "unknown",
-          "price_fg": 20.0,
-          "title": "Gul Mal Ko Ko",
-          "url": "https://forums.d2jsp.org/topic.php?t=110393893&f=123",
-          "observed_at": "2026-09-29T01:06:03.637907+00:00",
-          "topic_date": "2026-09-28",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Gul",
-          "label": "Gul",
-          "side": "unknown",
-          "price_fg": 30.0,
-          "title": "Gul Mal Ko Ko",
-          "url": "https://forums.d2jsp.org/topic.php?t=110393893&f=123",
-          "observed_at": "2026-09-29T01:06:03.637907+00:00",
-          "topic_date": "2026-09-28",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110393890&f=123": {
       "title": "Rest Of My Hardcore Stuff 220 Bin",
@@ -14479,8 +14411,8 @@
       "title": "Ft Gul Ist Mal",
       "url": "https://forums.d2jsp.org/topic.php?t=110393853&f=123",
       "first_seen_at": "2026-09-29T01:02:52.667891+00:00",
-      "last_checked_at": "2026-09-29T01:06:14.560255+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-03T14:57:02.338475+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -14578,8 +14510,8 @@
       "title": "Fresh Jah Here",
       "url": "https://forums.d2jsp.org/topic.php?t=110393646&f=123",
       "first_seen_at": "2026-09-29T01:02:52.667891+00:00",
-      "last_checked_at": "2026-09-29T01:06:22.116559+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-03T14:57:02.779796+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -14623,8 +14555,8 @@
       "title": "Iso 100x Ral Runes",
       "url": "https://forums.d2jsp.org/topic.php?t=110393558&f=123",
       "first_seen_at": "2026-09-29T01:02:52.667891+00:00",
-      "last_checked_at": "2026-09-29T01:06:09.765084+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-03T14:56:53.981928+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -14641,8 +14573,8 @@
       "title": "Iso Ber Ist",
       "url": "https://forums.d2jsp.org/topic.php?t=110393508&f=123",
       "first_seen_at": "2026-09-29T01:02:52.667891+00:00",
-      "last_checked_at": "2026-09-29T01:05:52.470750+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-03T14:57:10.875844+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -14812,24 +14744,10 @@
       "title": "Few Iso",
       "url": "https://forums.d2jsp.org/topic.php?t=110392633&f=123",
       "first_seen_at": "2026-09-29T01:02:52.667891+00:00",
-      "last_checked_at": "2026-09-29T01:06:25.778274+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-03T14:57:11.180935+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Um",
-          "label": "Um",
-          "side": "iso",
-          "price_fg": 100.0,
-          "title": "Few Iso",
-          "url": "https://forums.d2jsp.org/topic.php?t=110392633&f=123",
-          "observed_at": "2026-09-29T01:06:25.778274+00:00",
-          "topic_date": "2026-09-28",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110392633&f=123&o=10": {
       "title": "2",
@@ -14911,8 +14829,8 @@
       "title": "Iso 5 Fhr Sc Life Is Bonus",
       "url": "https://forums.d2jsp.org/topic.php?t=110392578&f=123",
       "first_seen_at": "2026-09-29T01:02:52.667891+00:00",
-      "last_checked_at": "2026-09-29T01:05:57.437625+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-03T14:56:50.337768+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -19456,5 +19374,5 @@
       "samples": []
     }
   },
-  "updated_at": "2026-10-03T14:49:15.536225+00:00"
+  "updated_at": "2026-10-03T14:57:23.095789+00:00"
 }

@@ -14572,14 +14572,12 @@
       "title": "Need 3x Tkey 3x Dkey",
       "url": "https://forums.d2jsp.org/topic.php?t=110223639&f=123",
       "first_seen_at": "2026-09-08T21:18:55.667668+00:00",
-      "last_checked_at": "2026-09-28T05:31:35.126341+00:00",
+      "last_checked_at": "2026-10-03T14:57:54.393748+00:00",
       "completed": true,
       "status": "parsed",
       "samples": [],
       "topic_date": null,
-      "needs_reparse": true,
-      "last_attempt_at": "2026-10-03T14:51:50.112387+00:00",
-      "last_error": "429 Too Many Requests (5/5)"
+      "last_attempt_at": "2026-10-03T14:51:50.112387+00:00"
     },
     "https://forums.d2jsp.org/topic.php?t=110223841&f=123": {
       "title": "Iso Death Belt And Gloves",
@@ -37525,7 +37523,70 @@
       "status": "parsed",
       "samples": [],
       "topic_date": null
+    },
+    "https://forums.d2jsp.org/topic.php?f=123&t=110372497&v=1": {
+      "title": "Keys Ft",
+      "url": "https://forums.d2jsp.org/topic.php?f=123&t=110372497&v=1",
+      "first_seen_at": "2026-10-03T14:57:50.266776+00:00",
+      "last_checked_at": "2026-10-03T14:57:51.610739+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": [
+        {
+          "kind": "item",
+          "id": "keyset-3x3",
+          "label": "3×3 鑰匙組 (3x3 Keyset)",
+          "category": "鑰匙",
+          "side": "ft",
+          "price_fg": 140.0,
+          "title": "Keys Ft",
+          "url": "https://forums.d2jsp.org/topic.php?f=123&t=110372497&v=1",
+          "observed_at": "2026-10-03T14:57:51.610739+00:00",
+          "topic_date": "2026-09-25",
+          "item_parser_v2": true
+        },
+        {
+          "kind": "item",
+          "id": "key-terror",
+          "label": "恐懼之鑰 (Key of Terror / TKey)",
+          "category": "鑰匙",
+          "side": "ft",
+          "price_fg": 15.0,
+          "title": "Keys Ft",
+          "url": "https://forums.d2jsp.org/topic.php?f=123&t=110372497&v=1",
+          "observed_at": "2026-10-03T14:57:51.610739+00:00",
+          "topic_date": "2026-09-25",
+          "item_parser_v2": true
+        },
+        {
+          "kind": "item",
+          "id": "key-hate",
+          "label": "憎恨之鑰 (Key of Hate / HKey)",
+          "category": "鑰匙",
+          "side": "ft",
+          "price_fg": 15.0,
+          "title": "Keys Ft",
+          "url": "https://forums.d2jsp.org/topic.php?f=123&t=110372497&v=1",
+          "observed_at": "2026-10-03T14:57:51.610739+00:00",
+          "topic_date": "2026-09-25",
+          "item_parser_v2": true
+        },
+        {
+          "kind": "item",
+          "id": "key-destruction",
+          "label": "毀滅之鑰 (Key of Destruction / DKey)",
+          "category": "鑰匙",
+          "side": "ft",
+          "price_fg": 20.0,
+          "title": "Keys Ft",
+          "url": "https://forums.d2jsp.org/topic.php?f=123&t=110372497&v=1",
+          "observed_at": "2026-10-03T14:57:51.610739+00:00",
+          "topic_date": "2026-09-25",
+          "item_parser_v2": true
+        }
+      ],
+      "topic_date": "2026-09-25"
     }
   },
-  "updated_at": "2026-10-03T14:51:50.114175+00:00"
+  "updated_at": "2026-10-03T14:57:54.395616+00:00"
 }

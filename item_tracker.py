@@ -126,11 +126,40 @@ def explicit_prices(line):
     return prices
 
 
+def key_fallback_prices(line, hits):
+    """Parse common d2jsp key formats that omit the literal FG suffix.
+
+    Examples: "KEYSETS 3x3 — 180 ea", "Terror Key x2 - 15 fg per".
+    Only applies to tracked key IDs and requires a price separator, avoiding
+    quantities such as 3x3, x7, x15 from being mistaken for prices.
+    """
+    results = []
+    key_hits = [hit for hit in hits if str(hit[2].get("id", "")).startswith("key")]
+    if not key_hits:
+        return results
+    for index, (start, end, item, _alias) in enumerate(key_hits):
+        next_start = key_hits[index + 1][0] if index + 1 < len(key_hits) else min(len(line), end + 120)
+        segment = line[end:next_start]
+        m = re.search(
+            r"(?:—|–|-|=|:|@)\s*(\d+(?:\.\d+)?)\s*(?:fg\b|ea\b|each\b|per\b|$)",
+            segment,
+            re.I,
+        )
+        if not m:
+            continue
+        value = s.nval(m.group(1))
+        if value is not None:
+            results.append((item, value))
+    return results
+
+
 def line_item_prices(line):
     hits = item_hits(line)
     prices = explicit_prices(line)
-    if not hits or not prices:
+    if not hits:
         return []
+    if not prices:
+        return key_fallback_prices(line, hits)
 
     # One named item + one explicit FG amount is a high-confidence pairing.
     if len(hits) == 1 and len(prices) == 1:

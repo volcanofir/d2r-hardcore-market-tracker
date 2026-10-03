@@ -301,6 +301,9 @@ def selected_topics(cache):
     pending = []
     recheck = []
     for url, entry in cache.get("topics", {}).items():
+        if entry.get("needs_reparse"):
+            pending.append((entry.get("first_seen_at", ""), entry.get("title", "d2jsp topic"), url))
+            continue
         if entry.get("status") != "parsed":
             pending.append((entry.get("first_seen_at", ""), entry.get("title", "d2jsp topic"), url))
             continue
@@ -413,7 +416,11 @@ def main():
     market = load(s.MARKET_PATH, {"market": []})
     cache = prune(load(CACHE_PATH, {"version": 2, "topics": {}}))
     if cache.get("source_policy") != SOURCE_POLICY:
-        cache = {"version": 2, "source_policy": SOURCE_POLICY, "topics": {}}
+        # Never wipe a good cache when parser/catalog rules change. Keep the
+        # previous parsed samples live, and reparse topics opportunistically.
+        cache["source_policy"] = SOURCE_POLICY
+        for entry in cache.setdefault("topics", {}).values():
+            entry["needs_reparse"] = True
 
     discovered, forum_pages = discover_topics()
     stamp = iso_now()
@@ -451,6 +458,7 @@ def main():
                 entry["completed"] = result["completed"]
                 entry["status"] = "parsed"
                 entry["samples"] = result["samples"]
+                entry.pop("needs_reparse", None)
                 entry.pop("last_error", None)
                 parsed_now += 1
             except Exception as exc:

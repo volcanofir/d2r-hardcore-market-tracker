@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "source_policy": "season15-items-static-catalog-v5-uber-keys",
+  "source_policy": "season15-items-static-catalog-v6-uber-keys",
   "topics": {
     "https://forums.d2jsp.org/topic.php?t=110154885&f=123": {
       "title": "Iso List",
@@ -5697,8 +5697,8 @@
       "title": "Iso Lo",
       "url": "https://forums.d2jsp.org/topic.php?t=110173155&f=123",
       "first_seen_at": "2026-09-04T23:08:23.780690+00:00",
-      "last_checked_at": "2026-09-04T23:10:31.021233+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-03T14:44:50.616948+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": [],
       "topic_date": "2026-09-04"
@@ -5717,20 +5717,47 @@
       "title": "Iso One Socket Punch",
       "url": "https://forums.d2jsp.org/topic.php?t=110173144&f=123",
       "first_seen_at": "2026-09-04T23:08:23.780690+00:00",
-      "last_checked_at": "2026-09-04T23:10:29.931608+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-03T14:44:49.293131+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": [],
-      "topic_date": "2026-09-04"
+      "topic_date": null
     },
     "https://forums.d2jsp.org/topic.php?t=110173150&f=123": {
       "title": "N Sigon Shield O 5fg",
       "url": "https://forums.d2jsp.org/topic.php?t=110173150&f=123",
       "first_seen_at": "2026-09-04T23:08:23.780690+00:00",
-      "last_checked_at": "2026-09-04T23:10:11.022026+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-03T14:44:38.167603+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [],
+      "samples": [
+        {
+          "kind": "item",
+          "id": "set-https-d2r-world-zh-tw",
+          "label": "![Image 1] (https://d2r.world/zh-TW)",
+          "category": "套裝手套",
+          "side": "iso",
+          "price_fg": 5.0,
+          "title": "N Sigon Shield O 5fg",
+          "url": "https://forums.d2jsp.org/topic.php?t=110173150&f=123",
+          "observed_at": "2026-10-03T14:44:38.167603+00:00",
+          "topic_date": "2026-09-04",
+          "item_parser_v2": true
+        },
+        {
+          "kind": "item",
+          "id": "set-https-d2r-world-zh-tw",
+          "label": "![Image 1] (https://d2r.world/zh-TW)",
+          "category": "套裝手套",
+          "side": "trade",
+          "price_fg": 5.0,
+          "title": "N Sigon Shield O 5fg · T4T/sold signal",
+          "url": "https://forums.d2jsp.org/topic.php?t=110173150&f=123",
+          "observed_at": "2026-10-03T14:44:38.167603+00:00",
+          "topic_date": "2026-09-04",
+          "item_parser_v2": true
+        }
+      ],
       "topic_date": "2026-09-04"
     },
     "https://forums.d2jsp.org/topic.php?t=110172824&f=123": {
@@ -5822,7 +5849,7 @@
       "title": "Ist Rune",
       "url": "https://forums.d2jsp.org/topic.php?t=110173110&f=123",
       "first_seen_at": "2026-09-04T23:08:23.780690+00:00",
-      "last_checked_at": "2026-09-04T23:10:28.649636+00:00",
+      "last_checked_at": "2026-10-03T14:44:46.015645+00:00",
       "completed": false,
       "status": "parsed",
       "samples": [],
@@ -5842,7 +5869,7 @@
       "title": "N Trang Gloves, Viper Magi",
       "url": "https://forums.d2jsp.org/topic.php?t=110173094&f=123",
       "first_seen_at": "2026-09-04T23:08:23.780690+00:00",
-      "last_checked_at": "2026-09-04T23:10:06.451927+00:00",
+      "last_checked_at": "2026-10-03T14:44:32.338178+00:00",
       "completed": false,
       "status": "parsed",
       "samples": [
@@ -5855,7 +5882,7 @@
           "price_fg": 30.0,
           "title": "N Trang Gloves, Viper Magi",
           "url": "https://forums.d2jsp.org/topic.php?t=110173094&f=123",
-          "observed_at": "2026-09-04T23:10:06.451927+00:00",
+          "observed_at": "2026-10-03T14:44:32.338178+00:00",
           "topic_date": "2026-09-04",
           "item_parser_v2": true
         }
@@ -5866,8 +5893,8 @@
       "title": "Lvl 25 Rare Jewel -15% Requrements 29% Lr ++",
       "url": "https://forums.d2jsp.org/topic.php?t=110165628&f=123",
       "first_seen_at": "2026-09-04T23:08:23.780690+00:00",
-      "last_checked_at": "2026-09-04T23:10:20.997008+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-03T14:45:03.863108+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": [],
       "topic_date": "2026-09-04"
@@ -5934,10 +5961,24 @@
       "title": "Mara 250fg",
       "url": "https://forums.d2jsp.org/topic.php?t=110173142&f=123",
       "first_seen_at": "2026-09-04T23:08:23.780690+00:00",
-      "last_checked_at": "2026-09-04T23:10:35.939548+00:00",
+      "last_checked_at": "2026-10-03T14:44:39.717356+00:00",
       "completed": false,
       "status": "parsed",
-      "samples": [],
+      "samples": [
+        {
+          "kind": "item",
+          "id": "set-https-d2r-world-zh-tw",
+          "label": "![Image 1] (https://d2r.world/zh-TW)",
+          "category": "套裝手套",
+          "side": "ft",
+          "price_fg": 250.0,
+          "title": "Mara 250fg",
+          "url": "https://forums.d2jsp.org/topic.php?t=110173142&f=123",
+          "observed_at": "2026-10-03T14:44:39.717356+00:00",
+          "topic_date": "2026-09-04",
+          "item_parser_v2": true
+        }
+      ],
       "topic_date": "2026-09-04"
     },
     "https://forums.d2jsp.org/topic.php?t=110134356&f=123": {
@@ -5974,7 +6015,7 @@
       "title": "Gg Horker Amulet Ft",
       "url": "https://forums.d2jsp.org/topic.php?t=110167599&f=123",
       "first_seen_at": "2026-09-04T23:08:23.780690+00:00",
-      "last_checked_at": "2026-09-04T23:11:05.207329+00:00",
+      "last_checked_at": "2026-10-03T14:45:25.235301+00:00",
       "completed": false,
       "status": "parsed",
       "samples": [],
@@ -6105,7 +6146,7 @@
       "title": "Iso 5/5 Light Facet",
       "url": "https://forums.d2jsp.org/topic.php?t=110173123&f=123",
       "first_seen_at": "2026-09-04T23:08:23.780690+00:00",
-      "last_checked_at": "2026-09-04T23:10:53.814391+00:00",
+      "last_checked_at": "2026-10-03T14:45:10.937140+00:00",
       "completed": false,
       "status": "parsed",
       "samples": [],
@@ -6125,8 +6166,8 @@
       "title": "Iso Anni",
       "url": "https://forums.d2jsp.org/topic.php?t=110168578&f=123",
       "first_seen_at": "2026-09-04T23:08:23.780690+00:00",
-      "last_checked_at": "2026-09-04T23:10:42.146154+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-03T14:45:09.281020+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": [],
       "topic_date": "2026-09-04"
@@ -6189,7 +6230,7 @@
       "title": "Iso Dece Pal Spirit Base",
       "url": "https://forums.d2jsp.org/topic.php?t=110173037&f=123",
       "first_seen_at": "2026-09-04T23:08:23.780690+00:00",
-      "last_checked_at": "2026-09-04T23:10:47.875417+00:00",
+      "last_checked_at": "2026-10-03T14:45:02.726673+00:00",
       "completed": false,
       "status": "parsed",
       "samples": [],
@@ -6249,8 +6290,8 @@
       "title": "Guardian's Thunder Jewel",
       "url": "https://forums.d2jsp.org/topic.php?t=110140430&f=123",
       "first_seen_at": "2026-09-04T23:08:23.780690+00:00",
-      "last_checked_at": "2026-09-04T23:11:12.996741+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-03T14:45:20.272264+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": [],
       "topic_date": "2026-09-02"
@@ -6470,7 +6511,7 @@
       "title": "Iso 4soc Monarch",
       "url": "https://forums.d2jsp.org/topic.php?t=110173000&f=123",
       "first_seen_at": "2026-09-04T23:08:23.780690+00:00",
-      "last_checked_at": "2026-09-04T23:11:00.137795+00:00",
+      "last_checked_at": "2026-10-03T14:45:14.513498+00:00",
       "completed": false,
       "status": "parsed",
       "samples": [
@@ -6483,7 +6524,7 @@
           "price_fg": 10.0,
           "title": "Iso 4soc Monarch",
           "url": "https://forums.d2jsp.org/topic.php?t=110173000&f=123",
-          "observed_at": "2026-09-04T23:11:00.137795+00:00",
+          "observed_at": "2026-10-03T14:45:14.513498+00:00",
           "topic_date": "2026-09-04",
           "item_parser_v2": true
         }
@@ -6534,7 +6575,7 @@
       "title": "Iso 2sin 2os Circlet",
       "url": "https://forums.d2jsp.org/topic.php?t=110172980&f=123",
       "first_seen_at": "2026-09-04T23:08:23.780690+00:00",
-      "last_checked_at": "2026-09-04T23:10:55.164951+00:00",
+      "last_checked_at": "2026-10-03T14:46:05.522686+00:00",
       "completed": false,
       "status": "parsed",
       "samples": [],
@@ -6564,7 +6605,7 @@
       "title": "Horazon Boots",
       "url": "https://forums.d2jsp.org/topic.php?t=110173062&f=123",
       "first_seen_at": "2026-09-04T23:08:23.780690+00:00",
-      "last_checked_at": "2026-09-04T23:11:00.460457+00:00",
+      "last_checked_at": "2026-10-03T14:45:18.911508+00:00",
       "completed": false,
       "status": "parsed",
       "samples": [],
@@ -6879,7 +6920,7 @@
       "title": "Iso List",
       "url": "https://forums.d2jsp.org/topic.php?t=110172568&f=123",
       "first_seen_at": "2026-09-04T23:08:23.780690+00:00",
-      "last_checked_at": "2026-09-04T23:10:35.724805+00:00",
+      "last_checked_at": "2026-10-03T14:44:56.409094+00:00",
       "completed": false,
       "status": "parsed",
       "samples": [],
@@ -6966,7 +7007,7 @@
       "title": "Iso Light Gcs And Others",
       "url": "https://forums.d2jsp.org/topic.php?t=110172711&f=123",
       "first_seen_at": "2026-09-04T23:08:23.780690+00:00",
-      "last_checked_at": "2026-09-04T23:10:40.741795+00:00",
+      "last_checked_at": "2026-10-03T14:44:57.524210+00:00",
       "completed": false,
       "status": "parsed",
       "samples": [],
@@ -6986,7 +7027,7 @@
       "title": "Low Rune",
       "url": "https://forums.d2jsp.org/topic.php?t=110172737&f=123",
       "first_seen_at": "2026-09-04T23:08:23.780690+00:00",
-      "last_checked_at": "2026-09-04T23:10:22.153018+00:00",
+      "last_checked_at": "2026-10-03T14:44:41.356683+00:00",
       "completed": false,
       "status": "parsed",
       "samples": [],
@@ -7046,7 +7087,7 @@
       "title": "My 750 For A Socketed Chant Ormus",
       "url": "https://forums.d2jsp.org/topic.php?t=110130997&f=123",
       "first_seen_at": "2026-09-04T23:08:23.780690+00:00",
-      "last_checked_at": "2026-09-04T23:10:15.755839+00:00",
+      "last_checked_at": "2026-10-03T14:44:33.735892+00:00",
       "completed": false,
       "status": "parsed",
       "samples": [],
@@ -7066,7 +7107,7 @@
       "title": "Iso : Java Sk",
       "url": "https://forums.d2jsp.org/topic.php?t=110172735&f=123",
       "first_seen_at": "2026-09-04T23:08:23.780690+00:00",
-      "last_checked_at": "2026-09-04T23:10:47.759638+00:00",
+      "last_checked_at": "2026-10-03T14:45:05.630411+00:00",
       "completed": false,
       "status": "parsed",
       "samples": [],
@@ -37399,5 +37440,5 @@
       "topic_date": null
     }
   },
-  "updated_at": "2026-10-03T14:39:38.454925+00:00"
+  "updated_at": "2026-10-03T14:46:05.562879+00:00"
 }

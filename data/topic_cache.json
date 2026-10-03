@@ -15493,8 +15493,8 @@
       "title": "Ber Rune",
       "url": "https://forums.d2jsp.org/topic.php?t=110398910&f=123",
       "first_seen_at": "2026-09-29T18:06:20.142213+00:00",
-      "last_checked_at": "2026-09-29T18:14:42.704536+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-03T14:43:45.643034+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -15565,8 +15565,8 @@
       "title": "Cham And Zod",
       "url": "https://forums.d2jsp.org/topic.php?t=110398677&f=123",
       "first_seen_at": "2026-09-29T18:06:20.142213+00:00",
-      "last_checked_at": "2026-09-29T18:13:57.861959+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-03T14:43:36.551330+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -15691,50 +15691,10 @@
       "title": "Bloods Baal Shop - Skillers Runes Uniques",
       "url": "https://forums.d2jsp.org/topic.php?t=110398345&f=123",
       "first_seen_at": "2026-09-29T18:06:20.142213+00:00",
-      "last_checked_at": "2026-09-29T18:14:09.079975+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-03T14:43:37.903203+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Um",
-          "label": "Um",
-          "side": "unknown",
-          "price_fg": 15.0,
-          "title": "Bloods Baal Shop - Skillers Runes Uniques",
-          "url": "https://forums.d2jsp.org/topic.php?t=110398345&f=123",
-          "observed_at": "2026-09-29T18:14:09.079975+00:00",
-          "topic_date": "2026-09-29",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Ist",
-          "label": "Ist",
-          "side": "unknown",
-          "price_fg": 35.0,
-          "title": "Bloods Baal Shop - Skillers Runes Uniques",
-          "url": "https://forums.d2jsp.org/topic.php?t=110398345&f=123",
-          "observed_at": "2026-09-29T18:14:09.079975+00:00",
-          "topic_date": "2026-09-29",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Um",
-          "label": "Um",
-          "side": "unknown",
-          "price_fg": 25.0,
-          "title": "Bloods Baal Shop - Skillers Runes Uniques",
-          "url": "https://forums.d2jsp.org/topic.php?t=110398345&f=123",
-          "observed_at": "2026-09-29T18:14:09.079975+00:00",
-          "topic_date": "2026-09-29",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110398326&f=123": {
       "title": "Sur Rune",
@@ -16321,8 +16281,8 @@
       "title": "Another Sur",
       "url": "https://forums.d2jsp.org/topic.php?t=110397026&f=123",
       "first_seen_at": "2026-09-29T18:06:20.142213+00:00",
-      "last_checked_at": "2026-09-29T18:14:43.305700+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-03T14:44:07.553726+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -16348,8 +16308,8 @@
       "title": "Ber+jah+ohm",
       "url": "https://forums.d2jsp.org/topic.php?t=110396256&f=123",
       "first_seen_at": "2026-09-29T18:06:20.142213+00:00",
-      "last_checked_at": "2026-09-29T18:14:21.608949+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-03T14:43:40.994633+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -16384,24 +16344,10 @@
       "title": "Ber+jah+ohm",
       "url": "https://forums.d2jsp.org/topic.php?t=110396146&f=123",
       "first_seen_at": "2026-09-29T18:06:20.142213+00:00",
-      "last_checked_at": "2026-09-29T18:14:16.204061+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-03T14:43:49.675347+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Ohm",
-          "label": "Ohm",
-          "side": "unknown",
-          "price_fg": 648.0,
-          "title": "Ber+jah+ohm",
-          "url": "https://forums.d2jsp.org/topic.php?t=110396146&f=123",
-          "observed_at": "2026-09-29T18:14:16.204061+00:00",
-          "topic_date": "2026-09-28",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110395987&f=123": {
       "title": "Anni 20/17 /10 Bin Jah Or 1000 Fg",
@@ -16466,37 +16412,10 @@
       "title": "Ber And Ohm Ft",
       "url": "https://forums.d2jsp.org/topic.php?t=110395836&f=123",
       "first_seen_at": "2026-09-29T18:06:20.142213+00:00",
-      "last_checked_at": "2026-09-29T18:14:28.784657+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-03T14:43:54.227174+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Ber",
-          "label": "Ber",
-          "side": "ft",
-          "price_fg": 590.0,
-          "title": "Ber And Ohm Ft",
-          "url": "https://forums.d2jsp.org/topic.php?t=110395836&f=123",
-          "observed_at": "2026-09-29T18:14:28.784657+00:00",
-          "topic_date": "2026-09-28",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Ohm",
-          "label": "Ohm",
-          "side": "ft",
-          "price_fg": 140.0,
-          "title": "Ber And Ohm Ft",
-          "url": "https://forums.d2jsp.org/topic.php?t=110395836&f=123",
-          "observed_at": "2026-09-29T18:14:28.784657+00:00",
-          "topic_date": "2026-09-28",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110395798&f=123": {
       "title": "Iso Vex Rune Fast",
@@ -16538,24 +16457,10 @@
       "title": "Cham Here",
       "url": "https://forums.d2jsp.org/topic.php?t=110395714&f=123",
       "first_seen_at": "2026-09-29T18:06:20.142213+00:00",
-      "last_checked_at": "2026-09-29T18:13:56.133138+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-03T14:43:29.446646+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Cham",
-          "label": "Cham",
-          "side": "unknown",
-          "price_fg": 550.0,
-          "title": "Cham Here",
-          "url": "https://forums.d2jsp.org/topic.php?t=110395714&f=123",
-          "observed_at": "2026-09-29T18:13:56.133138+00:00",
-          "topic_date": "2026-09-28",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110395702&f=123": {
       "title": "10 Min Rune Auction #8 - Ohm + Lo + Sur + Ber",
@@ -16624,8 +16529,8 @@
       "title": "Ber - 580 Bin",
       "url": "https://forums.d2jsp.org/topic.php?t=110395482&f=123",
       "first_seen_at": "2026-09-29T18:06:20.142213+00:00",
-      "last_checked_at": "2026-09-29T18:14:35.101632+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-03T14:43:58.809607+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -16651,37 +16556,10 @@
       "title": "Ber Ohm",
       "url": "https://forums.d2jsp.org/topic.php?t=110392131&f=123",
       "first_seen_at": "2026-09-29T18:06:20.142213+00:00",
-      "last_checked_at": "2026-09-29T18:14:27.472263+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-03T14:43:50.070475+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Ber",
-          "label": "Ber",
-          "side": "unknown",
-          "price_fg": 600.0,
-          "title": "Ber Ohm",
-          "url": "https://forums.d2jsp.org/topic.php?t=110392131&f=123",
-          "observed_at": "2026-09-29T18:14:27.472263+00:00",
-          "topic_date": "2026-09-28",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Ohm",
-          "label": "Ohm",
-          "side": "unknown",
-          "price_fg": 140.0,
-          "title": "Ber Ohm",
-          "url": "https://forums.d2jsp.org/topic.php?t=110392131&f=123",
-          "observed_at": "2026-09-29T18:14:27.472263+00:00",
-          "topic_date": "2026-09-28",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110392090&f=123": {
       "title": "Iso Ber Jah Or Enigma Mageplate",
@@ -16966,8 +16844,8 @@
       "title": "Ber Rune",
       "url": "https://forums.d2jsp.org/topic.php?t=110390641&f=123",
       "first_seen_at": "2026-09-29T18:06:20.142213+00:00",
-      "last_checked_at": "2026-09-29T18:14:22.844092+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-03T14:43:56.950251+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -17380,8 +17258,8 @@
       "title": "Buying Ist",
       "url": "https://forums.d2jsp.org/topic.php?t=110388964&f=123",
       "first_seen_at": "2026-09-29T18:06:20.142213+00:00",
-      "last_checked_at": "2026-09-29T18:14:09.774250+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-03T14:43:33.403933+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -19674,5 +19552,5 @@
       "samples": []
     }
   },
-  "updated_at": "2026-10-03T14:38:13.561772+00:00"
+  "updated_at": "2026-10-03T14:44:07.554516+00:00"
 }

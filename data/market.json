@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-05T05:48:17.553409+00:00",
+  "updated_at": "2026-10-05T14:48:38.835091+00:00",
   "forum": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-  "topic_count": 28,
+  "topic_count": 0,
   "cached_topics": 1744,
   "parsed_topics": 1744,
-  "completed_topics": 1690,
-  "parsed_this_run": 16,
-  "sample_count": 193,
+  "completed_topics": 1702,
+  "parsed_this_run": 12,
+  "sample_count": 191,
   "legacy_sample_count": 0,
   "market": [
     {
@@ -741,12 +741,12 @@
       "kind": "rune",
       "id": "Lo",
       "label": "Lo",
-      "fair_fg": 235.0,
+      "fair_fg": 250.0,
       "iso_fg": 435.0,
-      "ft_fg": 220.0,
+      "ft_fg": 250.0,
       "trade_fg": 220.0,
-      "samples": 10,
-      "confidence": "high",
+      "samples": 9,
+      "confidence": "medium",
       "last_seen_at": "2026-10-05T05:47:40.760210+00:00",
       "sources": [
         {
@@ -776,20 +776,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/9/21 12:00"
-        },
-        {
-          "kind": "rune",
-          "id": "Lo",
-          "label": "Lo",
-          "side": "ft",
-          "price_fg": 190.0,
-          "title": "Lo 190fg",
-          "url": "https://forums.d2jsp.org/topic.php?t=110428078&f=123",
-          "observed_at": "2026-10-04T23:59:16.379106+00:00",
-          "topic_date": "2026-10-04",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/4 07:32"
         },
         {
           "kind": "rune",
@@ -993,11 +979,11 @@
       "kind": "rune",
       "id": "Ber",
       "label": "Ber",
-      "fair_fg": 680.0,
+      "fair_fg": 700.0,
       "iso_fg": 800.0,
-      "ft_fg": 625.0,
+      "ft_fg": 650.0,
       "trade_fg": 660.0,
-      "samples": 16,
+      "samples": 15,
       "confidence": "high",
       "last_seen_at": "2026-10-05T05:47:40.760210+00:00",
       "sources": [
@@ -1042,20 +1028,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/4 10:42"
-        },
-        {
-          "kind": "rune",
-          "id": "Ber",
-          "label": "Ber",
-          "side": "ft",
-          "price_fg": 500.0,
-          "title": "O Jah",
-          "url": "https://forums.d2jsp.org/topic.php?t=110428564&f=123",
-          "observed_at": "2026-10-04T23:58:46.551207+00:00",
-          "topic_date": "2026-10-04",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/4 09:05"
         },
         {
           "kind": "rune",
@@ -1330,6 +1302,20 @@
           "side": "unknown",
           "price_fg": 750.0,
           "title": "Sellout",
+          "url": "https://forums.d2jsp.org/topic.php?t=110342240&f=123",
+          "observed_at": "2026-09-22T05:02:53.571153+00:00",
+          "topic_date": "2026-09-21",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/9/21 01:52"
+        },
+        {
+          "kind": "rune",
+          "id": "Ber",
+          "label": "Ber",
+          "side": "trade",
+          "price_fg": 750.0,
+          "title": "Sellout · T4T/sold signal",
           "url": "https://forums.d2jsp.org/topic.php?t=110342240&f=123",
           "observed_at": "2026-09-22T05:02:53.571153+00:00",
           "topic_date": "2026-09-21",
@@ -5216,64 +5202,6 @@
           "topic_time": "2026/10/2 08:36"
         }
       ]
-    },
-    {
-      "kind": "item",
-      "id": "unique-renewed-bone-break",
-      "label": "新生分筋裂骨 (Renewed Bone Break)",
-      "fair_fg": 200.0,
-      "iso_fg": null,
-      "ft_fg": null,
-      "trade_fg": null,
-      "samples": 1,
-      "confidence": "low",
-      "last_seen_at": "2026-09-05T10:47:41.980188+00:00",
-      "sources": [
-        {
-          "kind": "item",
-          "id": "unique-renewed-bone-break",
-          "label": "新生分筋裂骨 (Renewed Bone Break)",
-          "category": "咒符",
-          "side": "unknown",
-          "price_fg": 200.0,
-          "title": "5",
-          "url": "https://forums.d2jsp.org/topic.php?t=110144895&f=123&o=40",
-          "observed_at": "2026-09-05T10:47:41.980188+00:00",
-          "topic_date": "2026-09-04",
-          "item_parser_v2": true,
-          "topic_time": "2026/9/4 21:06"
-        }
-      ],
-      "category": "咒符"
-    },
-    {
-      "kind": "item",
-      "id": "unique-lacerator",
-      "label": "撕裂者 (Lacerator)",
-      "fair_fg": 10.0,
-      "iso_fg": null,
-      "ft_fg": null,
-      "trade_fg": null,
-      "samples": 1,
-      "confidence": "low",
-      "last_seen_at": "2026-09-05T10:47:41.980188+00:00",
-      "sources": [
-        {
-          "kind": "item",
-          "id": "unique-lacerator",
-          "label": "撕裂者 (Lacerator)",
-          "category": "投擲武器",
-          "side": "unknown",
-          "price_fg": 10.0,
-          "title": "5",
-          "url": "https://forums.d2jsp.org/topic.php?t=110144895&f=123&o=40",
-          "observed_at": "2026-09-05T10:47:41.980188+00:00",
-          "topic_date": "2026-09-04",
-          "item_parser_v2": true,
-          "topic_time": "2026/9/4 21:06"
-        }
-      ],
-      "category": "投擲武器"
     },
     {
       "kind": "item",
@@ -13146,8 +13074,8 @@
   "price_parser": "season15-runes-c2-full-v5",
   "item_source_policy": "season15-items-static-catalog-v7-uber-keys",
   "item_catalog_count": 589,
-  "item_topic_count": 1,
-  "item_cached_topics": 2465,
-  "item_parsed_topics": 2405,
-  "item_sample_count": 353
+  "item_topic_count": 45,
+  "item_cached_topics": 2482,
+  "item_parsed_topics": 2378,
+  "item_sample_count": 351
 }

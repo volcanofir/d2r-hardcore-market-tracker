@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-08T01:03:41.845260+00:00",
+  "updated_at": "2026-10-08T10:40:54.142560+00:00",
   "forum": "https://forums.d2jsp.org/forum.php?f=123&c=2",
   "topic_count": 0,
   "cached_topics": 2103,
   "parsed_topics": 2103,
-  "completed_topics": 1911,
+  "completed_topics": 1923,
   "parsed_this_run": 12,
-  "sample_count": 345,
+  "sample_count": 342,
   "legacy_sample_count": 0,
   "market": [
     {
@@ -825,11 +825,11 @@
       "kind": "rune",
       "id": "Lo",
       "label": "Lo",
-      "fair_fg": 205.0,
+      "fair_fg": 210.0,
       "iso_fg": 200.0,
-      "ft_fg": 225.0,
+      "ft_fg": 250.0,
       "trade_fg": 215.0,
-      "samples": 16,
+      "samples": 15,
       "confidence": "high",
       "last_seen_at": "2026-10-06T22:48:59.205793+00:00",
       "sources": [
@@ -916,20 +916,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/4 23:15"
-        },
-        {
-          "kind": "rune",
-          "id": "Lo",
-          "label": "Lo",
-          "side": "ft",
-          "price_fg": 200.0,
-          "title": "Lo Ft",
-          "url": "https://forums.d2jsp.org/topic.php?t=110439283&f=123",
-          "observed_at": "2026-10-06T22:44:47.725767+00:00",
-          "topic_date": "2026-10-06",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/6 08:05"
         },
         {
           "kind": "rune",
@@ -1162,6 +1148,20 @@
           "side": "ft",
           "price_fg": 80.0,
           "title": "O Sur Lo",
+          "url": "https://forums.d2jsp.org/topic.php?t=110281313&f=123",
+          "observed_at": "2026-09-15T03:14:19.166768+00:00",
+          "topic_date": "2026-09-14",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/9/14 05:38"
+        },
+        {
+          "kind": "rune",
+          "id": "Lo",
+          "label": "Lo",
+          "side": "trade",
+          "price_fg": 80.0,
+          "title": "O Sur Lo · T4T/sold signal",
           "url": "https://forums.d2jsp.org/topic.php?t=110281313&f=123",
           "observed_at": "2026-09-15T03:14:19.166768+00:00",
           "topic_date": "2026-09-14",
@@ -3457,11 +3457,11 @@
       "kind": "rune",
       "id": "Ral",
       "label": "Ral",
-      "fair_fg": 1.92,
-      "iso_fg": 1.92,
+      "fair_fg": 1.96,
+      "iso_fg": 2.62,
       "ft_fg": 1.37,
       "trade_fg": 1.96,
-      "samples": 13,
+      "samples": 12,
       "confidence": "high",
       "last_seen_at": "2026-10-06T22:48:52.862835+00:00",
       "sources": [
@@ -3478,20 +3478,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/5 03:31"
-        },
-        {
-          "kind": "rune",
-          "id": "Ral",
-          "label": "Ral",
-          "side": "iso",
-          "price_fg": 1.92,
-          "title": "N 40 Ral 40 P Amethist",
-          "url": "https://forums.d2jsp.org/topic.php?t=110439818&f=123",
-          "observed_at": "2026-10-06T22:44:08.873511+00:00",
-          "topic_date": "2026-10-06",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/6 10:18"
         },
         {
           "kind": "rune",
@@ -4661,11 +4647,11 @@
       "kind": "rune",
       "id": "Jah",
       "label": "Jah",
-      "fair_fg": 970.0,
+      "fair_fg": 975.0,
       "iso_fg": 1175.0,
       "ft_fg": 965.0,
       "trade_fg": 1000.0,
-      "samples": 11,
+      "samples": 10,
       "confidence": "high",
       "last_seen_at": "2026-10-06T22:45:38.625652+00:00",
       "sources": [
@@ -4710,20 +4696,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/6 15:24"
-        },
-        {
-          "kind": "rune",
-          "id": "Jah",
-          "label": "Jah",
-          "side": "unknown",
-          "price_fg": 935.0,
-          "title": "Jah Rune",
-          "url": "https://forums.d2jsp.org/topic.php?t=110441317&f=123",
-          "observed_at": "2026-10-06T22:44:56.261607+00:00",
-          "topic_date": "2026-10-06",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/6 15:42"
         },
         {
           "kind": "rune",

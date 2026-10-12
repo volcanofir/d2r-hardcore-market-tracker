@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-12T10:58:04.851667+00:00",
+  "updated_at": "2026-10-12T21:18:48.396124+00:00",
   "forum": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-  "topic_count": 30,
+  "topic_count": 0,
   "cached_topics": 2256,
   "parsed_topics": 2256,
-  "completed_topics": 2128,
-  "parsed_this_run": 19,
-  "sample_count": 344,
+  "completed_topics": 2140,
+  "parsed_this_run": 12,
+  "sample_count": 339,
   "legacy_sample_count": 0,
   "market": [
     {
@@ -2201,24 +2201,10 @@
       "iso_fg": 18.75,
       "ft_fg": 17.5,
       "trade_fg": 20.0,
-      "samples": 26,
+      "samples": 25,
       "confidence": "high",
-      "last_seen_at": "2026-10-12T10:57:03.756897+00:00",
+      "last_seen_at": "2026-10-10T21:49:33.736853+00:00",
       "sources": [
-        {
-          "kind": "rune",
-          "id": "Um",
-          "label": "Um",
-          "side": "unknown",
-          "price_fg": 15.0,
-          "title": "Mid Lvl Runes",
-          "url": "https://forums.d2jsp.org/topic.php?t=110460978&f=123",
-          "observed_at": "2026-10-12T10:57:03.756897+00:00",
-          "topic_date": "2026-10-10",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/10 16:58"
-        },
         {
           "kind": "rune",
           "id": "Um",
@@ -2540,6 +2526,20 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/2 08:36"
+        },
+        {
+          "kind": "rune",
+          "id": "Um",
+          "label": "Um",
+          "side": "iso",
+          "price_fg": 12.0,
+          "title": "Iso Items And Rune",
+          "url": "https://forums.d2jsp.org/topic.php?t=110413118&f=123",
+          "observed_at": "2026-10-02T17:55:42.108380+00:00",
+          "topic_date": "2026-10-01",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/1 18:47"
         }
       ]
     },
@@ -2551,24 +2551,10 @@
       "iso_fg": 10.0,
       "ft_fg": 10.0,
       "trade_fg": 12.5,
-      "samples": 20,
+      "samples": 19,
       "confidence": "high",
-      "last_seen_at": "2026-10-12T10:57:03.756897+00:00",
+      "last_seen_at": "2026-10-10T21:49:33.736853+00:00",
       "sources": [
-        {
-          "kind": "rune",
-          "id": "Pul",
-          "label": "Pul",
-          "side": "unknown",
-          "price_fg": 10.0,
-          "title": "Mid Lvl Runes",
-          "url": "https://forums.d2jsp.org/topic.php?t=110460978&f=123",
-          "observed_at": "2026-10-12T10:57:03.756897+00:00",
-          "topic_date": "2026-10-10",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/10 16:58"
-        },
         {
           "kind": "rune",
           "id": "Pul",
@@ -2890,6 +2876,20 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/9/21 01:52"
+        },
+        {
+          "kind": "rune",
+          "id": "Pul",
+          "label": "Pul",
+          "side": "unknown",
+          "price_fg": 10.0,
+          "title": "Chip Items Here",
+          "url": "https://forums.d2jsp.org/topic.php?t=110344814&f=123",
+          "observed_at": "2026-09-22T00:12:26.169777+00:00",
+          "topic_date": "2026-09-21",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/9/21 11:07"
         }
       ]
     },
@@ -4199,28 +4199,14 @@
       "kind": "rune",
       "id": "Ko",
       "label": "Ko",
-      "fair_fg": 7.5,
+      "fair_fg": 10.0,
       "iso_fg": 20.0,
       "ft_fg": 4.0,
       "trade_fg": 10.0,
-      "samples": 12,
+      "samples": 11,
       "confidence": "high",
-      "last_seen_at": "2026-10-12T10:57:03.756897+00:00",
+      "last_seen_at": "2026-10-10T17:22:58.554146+00:00",
       "sources": [
-        {
-          "kind": "rune",
-          "id": "Ko",
-          "label": "Ko",
-          "side": "unknown",
-          "price_fg": 5.0,
-          "title": "Mid Lvl Runes",
-          "url": "https://forums.d2jsp.org/topic.php?t=110460978&f=123",
-          "observed_at": "2026-10-12T10:57:03.756897+00:00",
-          "topic_date": "2026-10-10",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/10 16:58"
-        },
         {
           "kind": "rune",
           "id": "Ko",
@@ -5361,28 +5347,14 @@
       "kind": "rune",
       "id": "Lem",
       "label": "Lem",
-      "fair_fg": 10.0,
+      "fair_fg": 9.0,
       "iso_fg": 8.0,
       "ft_fg": 7.0,
       "trade_fg": 8.0,
-      "samples": 13,
+      "samples": 12,
       "confidence": "high",
-      "last_seen_at": "2026-10-12T10:57:03.756897+00:00",
+      "last_seen_at": "2026-10-06T22:50:50.327646+00:00",
       "sources": [
-        {
-          "kind": "rune",
-          "id": "Lem",
-          "label": "Lem",
-          "side": "unknown",
-          "price_fg": 10.0,
-          "title": "Mid Lvl Runes",
-          "url": "https://forums.d2jsp.org/topic.php?t=110460978&f=123",
-          "observed_at": "2026-10-12T10:57:03.756897+00:00",
-          "topic_date": "2026-10-10",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/10 16:58"
-        },
         {
           "kind": "rune",
           "id": "Lem",
@@ -6233,24 +6205,10 @@
       "iso_fg": null,
       "ft_fg": 3.0,
       "trade_fg": 5.0,
-      "samples": 7,
+      "samples": 6,
       "confidence": "medium",
-      "last_seen_at": "2026-10-12T10:57:03.756897+00:00",
+      "last_seen_at": "2026-10-06T22:42:51.659459+00:00",
       "sources": [
-        {
-          "kind": "rune",
-          "id": "Fal",
-          "label": "Fal",
-          "side": "unknown",
-          "price_fg": 5.0,
-          "title": "Mid Lvl Runes",
-          "url": "https://forums.d2jsp.org/topic.php?t=110460978&f=123",
-          "observed_at": "2026-10-12T10:57:03.756897+00:00",
-          "topic_date": "2026-10-10",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/10 16:58"
-        },
         {
           "kind": "rune",
           "id": "Fal",
@@ -10942,8 +10900,8 @@
   "price_parser": "season15-runes-c2-full-v5",
   "item_source_policy": "season15-items-static-catalog-v7-uber-keys",
   "item_catalog_count": 589,
-  "item_topic_count": 39,
-  "item_cached_topics": 1303,
-  "item_parsed_topics": 968,
+  "item_topic_count": 33,
+  "item_cached_topics": 1300,
+  "item_parsed_topics": 934,
   "item_sample_count": 167
 }

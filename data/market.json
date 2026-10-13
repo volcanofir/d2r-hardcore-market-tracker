@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-12T21:18:48.396124+00:00",
+  "updated_at": "2026-10-13T06:51:53.583445+00:00",
   "forum": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-  "topic_count": 0,
-  "cached_topics": 2256,
-  "parsed_topics": 2256,
-  "completed_topics": 2140,
-  "parsed_this_run": 12,
-  "sample_count": 339,
+  "topic_count": 27,
+  "cached_topics": 2266,
+  "parsed_topics": 2266,
+  "completed_topics": 2153,
+  "parsed_this_run": 22,
+  "sample_count": 340,
   "legacy_sample_count": 0,
   "market": [
     {
@@ -195,14 +195,28 @@
       "kind": "rune",
       "id": "Ist",
       "label": "Ist",
-      "fair_fg": 40.0,
+      "fair_fg": 37.5,
       "iso_fg": 33.0,
       "ft_fg": 50.0,
       "trade_fg": 40.0,
       "samples": 28,
       "confidence": "high",
-      "last_seen_at": "2026-10-10T17:22:58.554146+00:00",
+      "last_seen_at": "2026-10-13T06:50:33.060200+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Ist",
+          "label": "Ist",
+          "side": "unknown",
+          "price_fg": 30.0,
+          "title": "Runes Shop (high, Middle, Low)",
+          "url": "https://forums.d2jsp.org/topic.php?t=110461132&f=123",
+          "observed_at": "2026-10-13T06:50:33.060200+00:00",
+          "topic_date": "2026-10-10",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/10 17:46"
+        },
         {
           "kind": "rune",
           "id": "Ist",
@@ -244,20 +258,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/5 04:09"
-        },
-        {
-          "kind": "rune",
-          "id": "Ist",
-          "label": "Ist",
-          "side": "unknown",
-          "price_fg": 40.0,
-          "title": "2x Ber + Ist + Sorc T",
-          "url": "https://forums.d2jsp.org/topic.php?t=110438942&f=123",
-          "observed_at": "2026-10-06T22:50:01.870507+00:00",
-          "topic_date": "2026-10-06",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/6 06:44"
         },
         {
           "kind": "rune",
@@ -1147,28 +1147,14 @@
       "kind": "rune",
       "id": "Ber",
       "label": "Ber",
-      "fair_fg": 600.0,
+      "fair_fg": 625.0,
       "iso_fg": 800.0,
       "ft_fg": 600.0,
       "trade_fg": 655.0,
-      "samples": 21,
+      "samples": 20,
       "confidence": "high",
-      "last_seen_at": "2026-10-06T22:50:01.870507+00:00",
+      "last_seen_at": "2026-10-06T16:05:10.463014+00:00",
       "sources": [
-        {
-          "kind": "rune",
-          "id": "Ber",
-          "label": "Ber",
-          "side": "unknown",
-          "price_fg": 500.0,
-          "title": "2x Ber + Ist + Sorc T",
-          "url": "https://forums.d2jsp.org/topic.php?t=110438942&f=123",
-          "observed_at": "2026-10-06T22:50:01.870507+00:00",
-          "topic_date": "2026-10-06",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/6 06:44"
-        },
         {
           "kind": "rune",
           "id": "Ber",
@@ -1490,6 +1476,20 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/9/24 12:33"
+        },
+        {
+          "kind": "rune",
+          "id": "Ber",
+          "label": "Ber",
+          "side": "trade",
+          "price_fg": 750.0,
+          "title": "O Ber Cham · T4T/sold signal",
+          "url": "https://forums.d2jsp.org/topic.php?t=110366014&f=123",
+          "observed_at": "2026-09-25T17:16:06.770419+00:00",
+          "topic_date": "2026-09-24",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/9/24 12:33"
         }
       ]
     },
@@ -1498,13 +1498,41 @@
       "id": "Mal",
       "label": "Mal",
       "fair_fg": 25.0,
-      "iso_fg": 20.0,
+      "iso_fg": 25.0,
       "ft_fg": 25.0,
       "trade_fg": 25.0,
-      "samples": 24,
+      "samples": 25,
       "confidence": "high",
-      "last_seen_at": "2026-10-12T00:37:00.287250+00:00",
+      "last_seen_at": "2026-10-13T06:50:25.173883+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Mal",
+          "label": "Mal",
+          "side": "iso",
+          "price_fg": 30.0,
+          "title": "Small Iso List",
+          "url": "https://forums.d2jsp.org/topic.php?t=110461154&f=123",
+          "observed_at": "2026-10-13T06:50:25.173883+00:00",
+          "topic_date": "2026-10-10",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/10 17:54"
+        },
+        {
+          "kind": "rune",
+          "id": "Mal",
+          "label": "Mal",
+          "side": "iso",
+          "price_fg": 50.0,
+          "title": "Small Iso List",
+          "url": "https://forums.d2jsp.org/topic.php?t=110461154&f=123",
+          "observed_at": "2026-10-13T06:50:25.173883+00:00",
+          "topic_date": "2026-10-10",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/10 17:54"
+        },
         {
           "kind": "rune",
           "id": "Mal",
@@ -1663,20 +1691,6 @@
           "kind": "rune",
           "id": "Mal",
           "label": "Mal",
-          "side": "ft",
-          "price_fg": 30.0,
-          "title": "30fg For Mal Lem",
-          "url": "https://forums.d2jsp.org/topic.php?t=110441514&f=123",
-          "observed_at": "2026-10-06T22:49:54.947978+00:00",
-          "topic_date": "2026-10-06",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/6 16:32"
-        },
-        {
-          "kind": "rune",
-          "id": "Mal",
-          "label": "Mal",
           "side": "unknown",
           "price_fg": 20.0,
           "title": "Grief Stuff",
@@ -1826,20 +1840,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/2 02:58"
-        },
-        {
-          "kind": "rune",
-          "id": "Mal",
-          "label": "Mal",
-          "side": "trade",
-          "price_fg": 20.0,
-          "title": "Runes Ft Need Fgs · T4T/sold signal",
-          "url": "https://forums.d2jsp.org/topic.php?t=110414694&f=123",
-          "observed_at": "2026-10-03T05:23:16.693055+00:00",
-          "topic_date": "2026-10-02",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/2 02:58"
         }
       ]
     },
@@ -1847,27 +1847,41 @@
       "kind": "rune",
       "id": "Gul",
       "label": "Gul",
-      "fair_fg": 36.5,
+      "fair_fg": 38.0,
       "iso_fg": 43.0,
-      "ft_fg": 35.0,
+      "ft_fg": 42.5,
       "trade_fg": 50.0,
-      "samples": 16,
+      "samples": 17,
       "confidence": "high",
-      "last_seen_at": "2026-10-06T22:49:47.822923+00:00",
+      "last_seen_at": "2026-10-13T06:50:45.707019+00:00",
       "sources": [
         {
           "kind": "rune",
           "id": "Gul",
           "label": "Gul",
-          "side": "ft",
-          "price_fg": 30.0,
-          "title": "3x Gul 30fg Each / 80fg For Pack",
-          "url": "https://forums.d2jsp.org/topic.php?t=110429606&f=123",
-          "observed_at": "2026-10-06T22:49:47.822923+00:00",
-          "topic_date": "2026-10-04",
+          "side": "unknown",
+          "price_fg": 40.0,
+          "title": "Barb Torch Any",
+          "url": "https://forums.d2jsp.org/topic.php?t=110461401&f=123",
+          "observed_at": "2026-10-13T06:50:45.707019+00:00",
+          "topic_date": "2026-10-10",
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/4 12:09"
+          "topic_time": "2026/10/10 19:10"
+        },
+        {
+          "kind": "rune",
+          "id": "Gul",
+          "label": "Gul",
+          "side": "unknown",
+          "price_fg": 35.0,
+          "title": "Runes Shop (high, Middle, Low)",
+          "url": "https://forums.d2jsp.org/topic.php?t=110461132&f=123",
+          "observed_at": "2026-10-13T06:50:33.060200+00:00",
+          "topic_date": "2026-10-10",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/10 17:46"
         },
         {
           "kind": "rune",
@@ -2176,20 +2190,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/9/14 22:47"
-        },
-        {
-          "kind": "rune",
-          "id": "Gul",
-          "label": "Gul",
-          "side": "trade",
-          "price_fg": 80.0,
-          "title": "Iso Pul Ist Gul Vex Sol · T4T/sold signal",
-          "url": "https://forums.d2jsp.org/topic.php?t=110288498&f=123",
-          "observed_at": "2026-09-15T04:59:00.635714+00:00",
-          "topic_date": "2026-09-14",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/9/14 22:47"
         }
       ]
     },
@@ -2199,12 +2199,26 @@
       "label": "Um",
       "fair_fg": 20.0,
       "iso_fg": 18.75,
-      "ft_fg": 17.5,
+      "ft_fg": 20.0,
       "trade_fg": 20.0,
       "samples": 25,
       "confidence": "high",
-      "last_seen_at": "2026-10-10T21:49:33.736853+00:00",
+      "last_seen_at": "2026-10-13T06:50:33.060200+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Um",
+          "label": "Um",
+          "side": "unknown",
+          "price_fg": 15.0,
+          "title": "Runes Shop (high, Middle, Low)",
+          "url": "https://forums.d2jsp.org/topic.php?t=110461132&f=123",
+          "observed_at": "2026-10-13T06:50:33.060200+00:00",
+          "topic_date": "2026-10-10",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/10 17:46"
+        },
         {
           "kind": "rune",
           "id": "Um",
@@ -2316,20 +2330,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/9 10:09"
-        },
-        {
-          "kind": "rune",
-          "id": "Um",
-          "label": "Um",
-          "side": "ft",
-          "price_fg": 5.0,
-          "title": "20fg 4 Um",
-          "url": "https://forums.d2jsp.org/topic.php?t=110433064&f=123",
-          "observed_at": "2026-10-06T22:50:06.820154+00:00",
-          "topic_date": "2026-10-05",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/5 02:51"
         },
         {
           "kind": "rune",
@@ -2551,10 +2551,24 @@
       "iso_fg": 10.0,
       "ft_fg": 10.0,
       "trade_fg": 12.5,
-      "samples": 19,
+      "samples": 20,
       "confidence": "high",
-      "last_seen_at": "2026-10-10T21:49:33.736853+00:00",
+      "last_seen_at": "2026-10-13T06:50:33.060200+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Pul",
+          "label": "Pul",
+          "side": "unknown",
+          "price_fg": 10.0,
+          "title": "Runes Shop (high, Middle, Low)",
+          "url": "https://forums.d2jsp.org/topic.php?t=110461132&f=123",
+          "observed_at": "2026-10-13T06:50:33.060200+00:00",
+          "topic_date": "2026-10-10",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/10 17:46"
+        },
         {
           "kind": "rune",
           "id": "Pul",
@@ -2876,20 +2890,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/9/21 01:52"
-        },
-        {
-          "kind": "rune",
-          "id": "Pul",
-          "label": "Pul",
-          "side": "unknown",
-          "price_fg": 10.0,
-          "title": "Chip Items Here",
-          "url": "https://forums.d2jsp.org/topic.php?t=110344814&f=123",
-          "observed_at": "2026-09-22T00:12:26.169777+00:00",
-          "topic_date": "2026-09-21",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/9/21 11:07"
         }
       ]
     },
@@ -4479,28 +4479,14 @@
       "kind": "rune",
       "id": "Cham",
       "label": "Cham",
-      "fair_fg": 612.5,
+      "fair_fg": 625.0,
       "iso_fg": 675.0,
       "ft_fg": null,
       "trade_fg": 625.0,
-      "samples": 6,
+      "samples": 5,
       "confidence": "medium",
-      "last_seen_at": "2026-10-12T00:37:09.477572+00:00",
+      "last_seen_at": "2026-10-06T16:04:15.828717+00:00",
       "sources": [
-        {
-          "kind": "rune",
-          "id": "Cham",
-          "label": "Cham",
-          "side": "unknown",
-          "price_fg": 500.0,
-          "title": "3x Jah 1x Ber 1x Cham",
-          "url": "https://forums.d2jsp.org/topic.php?t=110463716&f=123",
-          "observed_at": "2026-10-12T00:37:09.477572+00:00",
-          "topic_date": "2026-10-11",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/11 07:13"
-        },
         {
           "kind": "rune",
           "id": "Cham",
@@ -6969,466 +6955,6 @@
     },
     {
       "kind": "item",
-      "id": "titans-revenge",
-      "label": "泰坦的復仇 (Titan's Revenge / Titans)",
-      "fair_fg": 22.5,
-      "iso_fg": null,
-      "ft_fg": null,
-      "trade_fg": null,
-      "samples": 4,
-      "confidence": "medium",
-      "last_seen_at": "2026-09-12T23:08:43.957052+00:00",
-      "sources": [
-        {
-          "kind": "item",
-          "id": "titans-revenge",
-          "label": "泰坦的復仇 (Titan's Revenge / Titans)",
-          "category": "武器",
-          "side": "unknown",
-          "price_fg": 25.0,
-          "title": "6",
-          "url": "https://forums.d2jsp.org/topic.php?t=110234876&f=123&o=50",
-          "observed_at": "2026-09-12T23:08:43.957052+00:00",
-          "topic_date": "2026-09-12",
-          "item_parser_v2": true,
-          "topic_time": "2026/9/12 06:32"
-        },
-        {
-          "kind": "item",
-          "id": "titans-revenge",
-          "label": "泰坦的復仇 (Titan's Revenge / Titans)",
-          "category": "武器",
-          "side": "unknown",
-          "price_fg": 50.0,
-          "title": "6",
-          "url": "https://forums.d2jsp.org/topic.php?t=110234876&f=123&o=50",
-          "observed_at": "2026-09-12T23:08:43.957052+00:00",
-          "topic_date": "2026-09-12",
-          "item_parser_v2": true,
-          "topic_time": "2026/9/12 06:32"
-        },
-        {
-          "kind": "item",
-          "id": "titans-revenge",
-          "label": "泰坦的復仇 (Titan's Revenge / Titans)",
-          "category": "武器",
-          "side": "unknown",
-          "price_fg": 20.0,
-          "title": "6",
-          "url": "https://forums.d2jsp.org/topic.php?t=110234876&f=123&o=50",
-          "observed_at": "2026-09-12T23:08:43.957052+00:00",
-          "topic_date": "2026-09-12",
-          "item_parser_v2": true,
-          "topic_time": "2026/9/12 06:32"
-        },
-        {
-          "kind": "item",
-          "id": "titans-revenge",
-          "label": "泰坦的復仇 (Titan's Revenge / Titans)",
-          "category": "武器",
-          "side": "unknown",
-          "price_fg": 20.0,
-          "title": "7",
-          "url": "https://forums.d2jsp.org/topic.php?t=110234876&f=123&o=60",
-          "observed_at": "2026-09-12T23:08:42.588204+00:00",
-          "topic_date": "2026-09-12",
-          "item_parser_v2": true,
-          "topic_time": "2026/9/12 14:50"
-        }
-      ],
-      "category": "武器"
-    },
-    {
-      "kind": "item",
-      "id": "unique-guardian-s-thunder",
-      "label": "守護者的閃電 (Guardian's Thunder)",
-      "fair_fg": 50.0,
-      "iso_fg": null,
-      "ft_fg": null,
-      "trade_fg": null,
-      "samples": 1,
-      "confidence": "low",
-      "last_seen_at": "2026-09-12T23:08:43.957052+00:00",
-      "sources": [
-        {
-          "kind": "item",
-          "id": "unique-guardian-s-thunder",
-          "label": "守護者的閃電 (Guardian's Thunder)",
-          "category": "珠寶",
-          "side": "unknown",
-          "price_fg": 50.0,
-          "title": "6",
-          "url": "https://forums.d2jsp.org/topic.php?t=110234876&f=123&o=50",
-          "observed_at": "2026-09-12T23:08:43.957052+00:00",
-          "topic_date": "2026-09-12",
-          "item_parser_v2": true,
-          "topic_time": "2026/9/12 06:32"
-        }
-      ],
-      "category": "珠寶"
-    },
-    {
-      "kind": "item",
-      "id": "unique-dwarf-star",
-      "label": "矮人之星 (Dwarf Star)",
-      "fair_fg": 35.0,
-      "iso_fg": null,
-      "ft_fg": null,
-      "trade_fg": null,
-      "samples": 1,
-      "confidence": "low",
-      "last_seen_at": "2026-09-12T23:08:43.957052+00:00",
-      "sources": [
-        {
-          "kind": "item",
-          "id": "unique-dwarf-star",
-          "label": "矮人之星 (Dwarf Star)",
-          "category": "戒指",
-          "side": "unknown",
-          "price_fg": 35.0,
-          "title": "6",
-          "url": "https://forums.d2jsp.org/topic.php?t=110234876&f=123&o=50",
-          "observed_at": "2026-09-12T23:08:43.957052+00:00",
-          "topic_date": "2026-09-12",
-          "item_parser_v2": true,
-          "topic_time": "2026/9/12 06:32"
-        }
-      ],
-      "category": "戒指"
-    },
-    {
-      "kind": "item",
-      "id": "griffons-eye",
-      "label": "獅鷲之眼 (Griffon's Eye / Griff)",
-      "fair_fg": 1189.5,
-      "iso_fg": null,
-      "ft_fg": null,
-      "trade_fg": null,
-      "samples": 2,
-      "confidence": "low",
-      "last_seen_at": "2026-10-02T09:53:06.165550+00:00",
-      "sources": [
-        {
-          "kind": "item",
-          "id": "griffons-eye",
-          "label": "獅鷲之眼 (Griffon's Eye / Griff)",
-          "category": "頭盔",
-          "side": "unknown",
-          "price_fg": 1200.0,
-          "title": "6",
-          "url": "https://forums.d2jsp.org/topic.php?t=110358378&f=123&o=50",
-          "observed_at": "2026-10-02T09:53:06.165550+00:00",
-          "topic_date": "2026-09-30",
-          "item_parser_v2": true,
-          "topic_time": "2026/9/30 14:40"
-        },
-        {
-          "kind": "item",
-          "id": "griffons-eye",
-          "label": "獅鷲之眼 (Griffon's Eye / Griff)",
-          "category": "頭盔",
-          "side": "unknown",
-          "price_fg": 1179.0,
-          "title": "6",
-          "url": "https://forums.d2jsp.org/topic.php?t=110234876&f=123&o=50",
-          "observed_at": "2026-09-12T23:08:43.957052+00:00",
-          "topic_date": "2026-09-12",
-          "item_parser_v2": true,
-          "topic_time": "2026/9/12 06:32"
-        }
-      ],
-      "category": "頭盔"
-    },
-    {
-      "kind": "item",
-      "id": "set-aldur-s-advance",
-      "label": "艾爾多的進擊 (Aldur's Advance)",
-      "fair_fg": 30.0,
-      "iso_fg": null,
-      "ft_fg": null,
-      "trade_fg": null,
-      "samples": 1,
-      "confidence": "low",
-      "last_seen_at": "2026-09-12T23:08:42.588204+00:00",
-      "sources": [
-        {
-          "kind": "item",
-          "id": "set-aldur-s-advance",
-          "label": "艾爾多的進擊 (Aldur's Advance)",
-          "category": "套裝鞋子",
-          "side": "unknown",
-          "price_fg": 30.0,
-          "title": "7",
-          "url": "https://forums.d2jsp.org/topic.php?t=110234876&f=123&o=60",
-          "observed_at": "2026-09-12T23:08:42.588204+00:00",
-          "topic_date": "2026-09-12",
-          "item_parser_v2": true,
-          "topic_time": "2026/9/12 14:50"
-        }
-      ],
-      "category": "套裝鞋子"
-    },
-    {
-      "kind": "item",
-      "id": "magefist",
-      "label": "法師之拳 (Magefist)",
-      "fair_fg": 15.0,
-      "iso_fg": null,
-      "ft_fg": 10.0,
-      "trade_fg": 10.0,
-      "samples": 2,
-      "confidence": "low",
-      "last_seen_at": "2026-09-13T12:02:27.376573+00:00",
-      "sources": [
-        {
-          "kind": "item",
-          "id": "magefist",
-          "label": "法師之拳 (Magefist)",
-          "category": "手套",
-          "side": "unknown",
-          "price_fg": 20.0,
-          "title": "Offerlist With Bins",
-          "url": "https://forums.d2jsp.org/topic.php?t=110239362&f=123",
-          "observed_at": "2026-09-13T12:02:27.376573+00:00",
-          "topic_date": "2026-09-10",
-          "item_parser_v2": true,
-          "topic_time": "2026/9/10 05:17"
-        },
-        {
-          "kind": "item",
-          "id": "magefist",
-          "label": "法師之拳 (Magefist)",
-          "category": "手套",
-          "side": "ft",
-          "price_fg": 10.0,
-          "title": "10fg Shop",
-          "url": "https://forums.d2jsp.org/topic.php?t=110257633&f=123",
-          "observed_at": "2026-09-13T04:55:49.129050+00:00",
-          "topic_date": "2026-09-15",
-          "item_parser_v2": true,
-          "topic_time": "2026/9/15 12:48"
-        },
-        {
-          "kind": "item",
-          "id": "magefist",
-          "label": "法師之拳 (Magefist)",
-          "category": "手套",
-          "side": "trade",
-          "price_fg": 10.0,
-          "title": "10fg Shop · T4T/sold signal",
-          "url": "https://forums.d2jsp.org/topic.php?t=110257633&f=123",
-          "observed_at": "2026-09-13T04:55:49.129050+00:00",
-          "topic_date": "2026-09-15",
-          "item_parser_v2": true,
-          "topic_time": "2026/9/15 12:48"
-        }
-      ],
-      "category": "手套"
-    },
-    {
-      "kind": "item",
-      "id": "unique-raven-claw",
-      "label": "掠鴉之爪 (Raven Claw)",
-      "fair_fg": 10.0,
-      "iso_fg": null,
-      "ft_fg": 10.0,
-      "trade_fg": null,
-      "samples": 1,
-      "confidence": "low",
-      "last_seen_at": "2026-09-13T04:55:17.633326+00:00",
-      "sources": [
-        {
-          "kind": "item",
-          "id": "unique-raven-claw",
-          "label": "掠鴉之爪 (Raven Claw)",
-          "category": "弓",
-          "side": "ft",
-          "price_fg": 10.0,
-          "title": ";;; Wts ;;; Small Trades List ;;;",
-          "url": "https://forums.d2jsp.org/topic.php?t=110046751&f=123",
-          "observed_at": "2026-09-13T04:55:17.633326+00:00",
-          "topic_date": "2026-08-27",
-          "item_parser_v2": true,
-          "topic_time": "2026/8/27 22:27"
-        }
-      ],
-      "category": "弓"
-    },
-    {
-      "kind": "item",
-      "id": "unique-nightsmoke",
-      "label": "夜煙 (Nightsmoke)",
-      "fair_fg": 8.0,
-      "iso_fg": null,
-      "ft_fg": 8.0,
-      "trade_fg": null,
-      "samples": 1,
-      "confidence": "low",
-      "last_seen_at": "2026-09-13T04:55:17.633326+00:00",
-      "sources": [
-        {
-          "kind": "item",
-          "id": "unique-nightsmoke",
-          "label": "夜煙 (Nightsmoke)",
-          "category": "腰帶",
-          "side": "ft",
-          "price_fg": 8.0,
-          "title": ";;; Wts ;;; Small Trades List ;;;",
-          "url": "https://forums.d2jsp.org/topic.php?t=110046751&f=123",
-          "observed_at": "2026-09-13T04:55:17.633326+00:00",
-          "topic_date": "2026-08-27",
-          "item_parser_v2": true,
-          "topic_time": "2026/8/27 22:27"
-        }
-      ],
-      "category": "腰帶"
-    },
-    {
-      "kind": "item",
-      "id": "unique-measured-wrath",
-      "label": "審慎之怒 (Measured Wrath)",
-      "fair_fg": 27.5,
-      "iso_fg": null,
-      "ft_fg": 40.0,
-      "trade_fg": null,
-      "samples": 2,
-      "confidence": "low",
-      "last_seen_at": "2026-10-11T05:53:51.998698+00:00",
-      "sources": [
-        {
-          "kind": "item",
-          "id": "unique-measured-wrath",
-          "label": "審慎之怒 (Measured Wrath)",
-          "category": "盾牌",
-          "side": "ft",
-          "price_fg": 40.0,
-          "title": "The Big Bin - 200+ Items, Quick Drops, Fair Bins",
-          "url": "https://forums.d2jsp.org/topic.php?t=110449594&f=123",
-          "observed_at": "2026-10-11T05:53:51.998698+00:00",
-          "topic_date": "2026-10-10",
-          "item_parser_v2": true,
-          "topic_time": "2026/10/10 23:36"
-        },
-        {
-          "kind": "item",
-          "id": "unique-measured-wrath",
-          "label": "審慎之怒 (Measured Wrath)",
-          "category": "盾牌",
-          "side": "ft",
-          "price_fg": 15.0,
-          "title": ";;; Wts ;;; Small Trades List ;;;",
-          "url": "https://forums.d2jsp.org/topic.php?t=110046751&f=123",
-          "observed_at": "2026-09-13T04:55:17.633326+00:00",
-          "topic_date": "2026-08-27",
-          "item_parser_v2": true,
-          "topic_time": "2026/8/27 22:27"
-        }
-      ],
-      "category": "盾牌"
-    },
-    {
-      "kind": "item",
-      "id": "unique-goblin-toe",
-      "label": "哥布林腳趾 (Goblin Toe)",
-      "fair_fg": 5.0,
-      "iso_fg": null,
-      "ft_fg": 5.0,
-      "trade_fg": null,
-      "samples": 1,
-      "confidence": "low",
-      "last_seen_at": "2026-09-13T04:55:17.633326+00:00",
-      "sources": [
-        {
-          "kind": "item",
-          "id": "unique-goblin-toe",
-          "label": "哥布林腳趾 (Goblin Toe)",
-          "category": "鞋子",
-          "side": "ft",
-          "price_fg": 5.0,
-          "title": ";;; Wts ;;; Small Trades List ;;;",
-          "url": "https://forums.d2jsp.org/topic.php?t=110046751&f=123",
-          "observed_at": "2026-09-13T04:55:17.633326+00:00",
-          "topic_date": "2026-08-27",
-          "item_parser_v2": true,
-          "topic_time": "2026/8/27 22:27"
-        }
-      ],
-      "category": "鞋子"
-    },
-    {
-      "kind": "item",
-      "id": "set-credendum",
-      "label": "守信條 (Credendum)",
-      "fair_fg": 10.0,
-      "iso_fg": null,
-      "ft_fg": 10.0,
-      "trade_fg": null,
-      "samples": 1,
-      "confidence": "low",
-      "last_seen_at": "2026-09-13T04:55:17.633326+00:00",
-      "sources": [
-        {
-          "kind": "item",
-          "id": "set-credendum",
-          "label": "守信條 (Credendum)",
-          "category": "套裝腰帶",
-          "side": "ft",
-          "price_fg": 10.0,
-          "title": ";;; Wts ;;; Small Trades List ;;;",
-          "url": "https://forums.d2jsp.org/topic.php?t=110046751&f=123",
-          "observed_at": "2026-09-13T04:55:17.633326+00:00",
-          "topic_date": "2026-08-27",
-          "item_parser_v2": true,
-          "topic_time": "2026/8/27 22:27"
-        }
-      ],
-      "category": "套裝腰帶"
-    },
-    {
-      "kind": "item",
-      "id": "unique-twitchthroe",
-      "label": "抽動掙扎 (Twitchthroe)",
-      "fair_fg": 5.0,
-      "iso_fg": null,
-      "ft_fg": null,
-      "trade_fg": 5.0,
-      "samples": 1,
-      "confidence": "low",
-      "last_seen_at": "2026-09-13T04:55:30.185488+00:00",
-      "sources": [
-        {
-          "kind": "item",
-          "id": "unique-twitchthroe",
-          "label": "抽動掙扎 (Twitchthroe)",
-          "category": "護甲",
-          "side": "unknown",
-          "price_fg": 5.0,
-          "title": "2",
-          "url": "https://forums.d2jsp.org/topic.php?t=110046751&f=123&o=10",
-          "observed_at": "2026-09-13T04:55:30.185488+00:00",
-          "topic_date": "2026-09-05",
-          "item_parser_v2": true,
-          "topic_time": "2026/9/5 05:49"
-        },
-        {
-          "kind": "item",
-          "id": "unique-twitchthroe",
-          "label": "抽動掙扎 (Twitchthroe)",
-          "category": "護甲",
-          "side": "trade",
-          "price_fg": 5.0,
-          "title": "2 · T4T/sold signal",
-          "url": "https://forums.d2jsp.org/topic.php?t=110046751&f=123&o=10",
-          "observed_at": "2026-09-13T04:55:30.185488+00:00",
-          "topic_date": "2026-09-05",
-          "item_parser_v2": true,
-          "topic_time": "2026/9/5 05:49"
-        }
-      ],
-      "category": "護甲"
-    },
-    {
-      "kind": "item",
       "id": "stormshield",
       "label": "暴風之盾 (Stormshield / SS)",
       "fair_fg": 50.0,
@@ -7684,6 +7210,35 @@
           "kind": "item",
           "id": "trang-gloves",
           "label": "塔格奧之爪 (Trang-Oul's Claws / Trang Gloves)",
+          "category": "手套",
+          "side": "unknown",
+          "price_fg": 20.0,
+          "title": "Offerlist With Bins",
+          "url": "https://forums.d2jsp.org/topic.php?t=110239362&f=123",
+          "observed_at": "2026-09-13T12:02:27.376573+00:00",
+          "topic_date": "2026-09-10",
+          "item_parser_v2": true,
+          "topic_time": "2026/9/10 05:17"
+        }
+      ],
+      "category": "手套"
+    },
+    {
+      "kind": "item",
+      "id": "magefist",
+      "label": "法師之拳 (Magefist)",
+      "fair_fg": 20.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-09-13T12:02:27.376573+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "magefist",
+          "label": "法師之拳 (Magefist)",
           "category": "手套",
           "side": "unknown",
           "price_fg": 20.0,
@@ -10143,6 +9698,35 @@
     },
     {
       "kind": "item",
+      "id": "griffons-eye",
+      "label": "獅鷲之眼 (Griffon's Eye / Griff)",
+      "fair_fg": 1200.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-10-02T09:53:06.165550+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "griffons-eye",
+          "label": "獅鷲之眼 (Griffon's Eye / Griff)",
+          "category": "頭盔",
+          "side": "unknown",
+          "price_fg": 1200.0,
+          "title": "6",
+          "url": "https://forums.d2jsp.org/topic.php?t=110358378&f=123&o=50",
+          "observed_at": "2026-10-02T09:53:06.165550+00:00",
+          "topic_date": "2026-09-30",
+          "item_parser_v2": true,
+          "topic_time": "2026/9/30 14:40"
+        }
+      ],
+      "category": "頭盔"
+    },
+    {
+      "kind": "item",
       "id": "unique-opalvein",
       "label": "蛋白石脈 (Opalvein)",
       "fair_fg": 500.0,
@@ -10485,6 +10069,35 @@
         }
       ],
       "category": "套裝鞋子"
+    },
+    {
+      "kind": "item",
+      "id": "unique-measured-wrath",
+      "label": "審慎之怒 (Measured Wrath)",
+      "fair_fg": 40.0,
+      "iso_fg": null,
+      "ft_fg": 40.0,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-10-11T05:53:51.998698+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "unique-measured-wrath",
+          "label": "審慎之怒 (Measured Wrath)",
+          "category": "盾牌",
+          "side": "ft",
+          "price_fg": 40.0,
+          "title": "The Big Bin - 200+ Items, Quick Drops, Fair Bins",
+          "url": "https://forums.d2jsp.org/topic.php?t=110449594&f=123",
+          "observed_at": "2026-10-11T05:53:51.998698+00:00",
+          "topic_date": "2026-10-10",
+          "item_parser_v2": true,
+          "topic_time": "2026/10/10 23:36"
+        }
+      ],
+      "category": "盾牌"
     },
     {
       "kind": "item",
@@ -10900,8 +10513,8 @@
   "price_parser": "season15-runes-c2-full-v5",
   "item_source_policy": "season15-items-static-catalog-v7-uber-keys",
   "item_catalog_count": 589,
-  "item_topic_count": 33,
-  "item_cached_topics": 1300,
-  "item_parsed_topics": 934,
-  "item_sample_count": 167
+  "item_topic_count": 66,
+  "item_cached_topics": 1277,
+  "item_parsed_topics": 851,
+  "item_sample_count": 152
 }

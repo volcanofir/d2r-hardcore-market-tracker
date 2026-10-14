@@ -31993,8 +31993,8 @@
       "title": "Fresh Lo",
       "url": "https://forums.d2jsp.org/topic.php?t=110476700&f=123",
       "first_seen_at": "2026-10-14T04:58:19.407193+00:00",
-      "last_checked_at": "2026-10-14T05:00:30.707675+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-14T21:44:54.668576+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -32092,8 +32092,8 @@
       "title": "Fresh Ber For Sale",
       "url": "https://forums.d2jsp.org/topic.php?t=110476065&f=123",
       "first_seen_at": "2026-10-14T04:58:19.407193+00:00",
-      "last_checked_at": "2026-10-14T05:00:48.198612+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-14T21:45:04.165249+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -32146,8 +32146,8 @@
       "title": "Fresh Jah",
       "url": "https://forums.d2jsp.org/topic.php?t=110475776&f=123",
       "first_seen_at": "2026-10-14T04:58:19.407193+00:00",
-      "last_checked_at": "2026-10-14T05:00:43.010995+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-14T21:44:59.419821+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -32606,44 +32606,17 @@
       "title": "Need Mal Ist Ohm",
       "url": "https://forums.d2jsp.org/topic.php?t=110468725&f=123",
       "first_seen_at": "2026-10-14T11:58:15.371795+00:00",
-      "last_checked_at": "2026-10-14T11:58:41.415441+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-14T21:44:34.864641+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Ist",
-          "label": "Ist",
-          "side": "iso",
-          "price_fg": 50.0,
-          "title": "Need Mal Ist Ohm",
-          "url": "https://forums.d2jsp.org/topic.php?t=110468725&f=123",
-          "observed_at": "2026-10-14T11:58:41.415441+00:00",
-          "topic_date": "2026-10-12",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Ohm",
-          "label": "Ohm",
-          "side": "iso",
-          "price_fg": 130.0,
-          "title": "Need Mal Ist Ohm",
-          "url": "https://forums.d2jsp.org/topic.php?t=110468725&f=123",
-          "observed_at": "2026-10-14T11:58:41.415441+00:00",
-          "topic_date": "2026-10-12",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110468655&f=123": {
       "title": "Iso: 64 Ral Runes",
       "url": "https://forums.d2jsp.org/topic.php?t=110468655&f=123",
       "first_seen_at": "2026-10-14T11:58:15.371795+00:00",
-      "last_checked_at": "2026-10-14T11:58:53.088555+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-14T21:44:41.891526+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -32651,31 +32624,17 @@
       "title": "Jah",
       "url": "https://forums.d2jsp.org/topic.php?t=110468643&f=123",
       "first_seen_at": "2026-10-14T11:58:15.371795+00:00",
-      "last_checked_at": "2026-10-14T11:58:44.388959+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-14T21:44:31.497720+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Jah",
-          "label": "Jah",
-          "side": "unknown",
-          "price_fg": 825.0,
-          "title": "Jah",
-          "url": "https://forums.d2jsp.org/topic.php?t=110468643&f=123",
-          "observed_at": "2026-10-14T11:58:44.388959+00:00",
-          "topic_date": "2026-10-12",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110468601&f=123": {
       "title": "Fresh Jah",
       "url": "https://forums.d2jsp.org/topic.php?t=110468601&f=123",
       "first_seen_at": "2026-10-14T11:58:15.371795+00:00",
-      "last_checked_at": "2026-10-14T11:58:58.113165+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-14T21:45:07.679167+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -32683,8 +32642,8 @@
       "title": "Iso Zod Rune",
       "url": "https://forums.d2jsp.org/topic.php?t=110468528&f=123",
       "first_seen_at": "2026-10-14T11:58:15.371795+00:00",
-      "last_checked_at": "2026-10-14T11:58:49.230784+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-14T21:44:39.013766+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -32692,8 +32651,8 @@
       "title": "Iso Ist Rune",
       "url": "https://forums.d2jsp.org/topic.php?t=110468518&f=123",
       "first_seen_at": "2026-10-14T11:58:15.371795+00:00",
-      "last_checked_at": "2026-10-14T11:58:50.452969+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-14T21:44:43.484025+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -32701,8 +32660,8 @@
       "title": "Iso 2x Ber",
       "url": "https://forums.d2jsp.org/topic.php?t=110468440&f=123",
       "first_seen_at": "2026-10-14T11:58:15.371795+00:00",
-      "last_checked_at": "2026-10-14T11:59:02.180094+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-14T21:44:46.559735+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -32710,24 +32669,10 @@
       "title": "30 Fg For Mal",
       "url": "https://forums.d2jsp.org/topic.php?t=110468437&f=123",
       "first_seen_at": "2026-10-14T11:58:15.371795+00:00",
-      "last_checked_at": "2026-10-14T11:58:59.279220+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-14T21:44:50.343404+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Mal",
-          "label": "Mal",
-          "side": "ft",
-          "price_fg": 30.0,
-          "title": "30 Fg For Mal",
-          "url": "https://forums.d2jsp.org/topic.php?t=110468437&f=123",
-          "observed_at": "2026-10-14T11:58:59.279220+00:00",
-          "topic_date": "2026-10-12",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110468409&f=123": {
       "title": "Tri Res Boots",
@@ -32742,24 +32687,10 @@
       "title": "110 Ruby Pgms And 110 Sol Rune",
       "url": "https://forums.d2jsp.org/topic.php?t=110468387&f=123",
       "first_seen_at": "2026-10-14T11:58:15.371795+00:00",
-      "last_checked_at": "2026-10-14T11:59:10.461075+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-14T21:44:54.257868+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Sol",
-          "label": "Sol",
-          "side": "unknown",
-          "price_fg": 1.82,
-          "title": "110 Ruby Pgms And 110 Sol Rune",
-          "url": "https://forums.d2jsp.org/topic.php?t=110468387&f=123",
-          "observed_at": "2026-10-14T11:59:10.461075+00:00",
-          "topic_date": "2026-10-12",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110466923&f=123": {
       "title": "Gul Rune + 2 Mal Runes",
@@ -33368,5 +33299,5 @@
       "samples": []
     }
   },
-  "updated_at": "2026-10-14T17:17:33.370031+00:00"
+  "updated_at": "2026-10-14T21:45:07.680863+00:00"
 }

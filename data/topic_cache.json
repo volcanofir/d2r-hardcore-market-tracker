@@ -33342,8 +33342,8 @@
       "title": "Ft Ber Rune",
       "url": "https://forums.d2jsp.org/topic.php?t=110479515&f=123",
       "first_seen_at": "2026-10-15T04:45:31.593133+00:00",
-      "last_checked_at": "2026-10-15T04:48:07.181618+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-15T21:27:23.437723+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -33574,8 +33574,8 @@
       "title": "Unid Cta Cs",
       "url": "https://forums.d2jsp.org/topic.php?t=110479455&f=123",
       "first_seen_at": "2026-10-15T04:45:31.593133+00:00",
-      "last_checked_at": "2026-10-15T11:35:31.846449+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-15T21:27:11.861584+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -33583,102 +33583,10 @@
       "title": "Cvs Gg Shop",
       "url": "https://forums.d2jsp.org/topic.php?t=110479394&f=123",
       "first_seen_at": "2026-10-15T04:45:31.593133+00:00",
-      "last_checked_at": "2026-10-15T04:48:16.659789+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-15T21:27:31.883539+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Zod",
-          "label": "Zod",
-          "side": "unknown",
-          "price_fg": 1100.0,
-          "title": "Cvs Gg Shop",
-          "url": "https://forums.d2jsp.org/topic.php?t=110479394&f=123",
-          "observed_at": "2026-10-15T04:48:16.659789+00:00",
-          "topic_date": "2026-10-14",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Cham",
-          "label": "Cham",
-          "side": "unknown",
-          "price_fg": 550.0,
-          "title": "Cvs Gg Shop",
-          "url": "https://forums.d2jsp.org/topic.php?t=110479394&f=123",
-          "observed_at": "2026-10-15T04:48:16.659789+00:00",
-          "topic_date": "2026-10-14",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Ber",
-          "label": "Ber",
-          "side": "unknown",
-          "price_fg": 141.67,
-          "title": "Cvs Gg Shop",
-          "url": "https://forums.d2jsp.org/topic.php?t=110479394&f=123",
-          "observed_at": "2026-10-15T04:48:16.659789+00:00",
-          "topic_date": "2026-10-14",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Ohm",
-          "label": "Ohm",
-          "side": "unknown",
-          "price_fg": 33.33,
-          "title": "Cvs Gg Shop",
-          "url": "https://forums.d2jsp.org/topic.php?t=110479394&f=123",
-          "observed_at": "2026-10-15T04:48:16.659789+00:00",
-          "topic_date": "2026-10-14",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Vex",
-          "label": "Vex",
-          "side": "unknown",
-          "price_fg": 16.67,
-          "title": "Cvs Gg Shop",
-          "url": "https://forums.d2jsp.org/topic.php?t=110479394&f=123",
-          "observed_at": "2026-10-15T04:48:16.659789+00:00",
-          "topic_date": "2026-10-14",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Ist",
-          "label": "Ist",
-          "side": "unknown",
-          "price_fg": 8.0,
-          "title": "Cvs Gg Shop",
-          "url": "https://forums.d2jsp.org/topic.php?t=110479394&f=123",
-          "observed_at": "2026-10-15T04:48:16.659789+00:00",
-          "topic_date": "2026-10-14",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Mal",
-          "label": "Mal",
-          "side": "unknown",
-          "price_fg": 4.0,
-          "title": "Cvs Gg Shop",
-          "url": "https://forums.d2jsp.org/topic.php?t=110479394&f=123",
-          "observed_at": "2026-10-15T04:48:16.659789+00:00",
-          "topic_date": "2026-10-14",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110479394&f=123&o=10": {
       "title": "2",
@@ -33720,8 +33628,8 @@
       "title": "Cta Rune Pack Amn Ral Mal Ist Ohm = Bin",
       "url": "https://forums.d2jsp.org/topic.php?t=110479268&f=123",
       "first_seen_at": "2026-10-15T04:45:31.593133+00:00",
-      "last_checked_at": "2026-10-15T04:48:17.564762+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-15T21:27:32.353298+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -33761,8 +33669,8 @@
       "title": "Fresh Cham",
       "url": "https://forums.d2jsp.org/topic.php?t=110479099&f=123",
       "first_seen_at": "2026-10-15T04:45:31.593133+00:00",
-      "last_checked_at": "2026-10-15T04:48:08.403239+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-15T21:27:47.783978+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -33797,24 +33705,10 @@
       "title": "Iso Ber Plus",
       "url": "https://forums.d2jsp.org/topic.php?t=110479034&f=123",
       "first_seen_at": "2026-10-15T04:45:31.593133+00:00",
-      "last_checked_at": "2026-10-15T04:47:48.625721+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-15T21:27:12.275644+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Ist",
-          "label": "Ist",
-          "side": "iso",
-          "price_fg": 50.0,
-          "title": "Iso Ber Plus",
-          "url": "https://forums.d2jsp.org/topic.php?t=110479034&f=123",
-          "observed_at": "2026-10-15T04:47:48.625721+00:00",
-          "topic_date": "2026-10-14",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110479024&f=123": {
       "title": "Quick Crafting Iso",
@@ -33874,8 +33768,8 @@
       "title": "Cheapest Jah",
       "url": "https://forums.d2jsp.org/topic.php?t=110478859&f=123",
       "first_seen_at": "2026-10-15T04:45:31.593133+00:00",
-      "last_checked_at": "2026-10-15T04:48:18.809625+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-15T21:27:36.754906+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -33928,8 +33822,8 @@
       "title": "Cham Vs 500",
       "url": "https://forums.d2jsp.org/topic.php?t=110478810&f=123",
       "first_seen_at": "2026-10-15T04:45:31.593133+00:00",
-      "last_checked_at": "2026-10-15T04:48:18.711840+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-15T21:27:40.512698+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -33937,7 +33831,7 @@
       "title": "Ft Ohm Rune",
       "url": "https://forums.d2jsp.org/topic.php?t=110478790&f=123",
       "first_seen_at": "2026-10-15T04:45:31.593133+00:00",
-      "last_checked_at": "2026-10-15T04:48:06.049841+00:00",
+      "last_checked_at": "2026-10-15T21:27:23.037293+00:00",
       "completed": false,
       "status": "parsed",
       "samples": []
@@ -34032,8 +33926,8 @@
       "title": "Iso : Vex Rune",
       "url": "https://forums.d2jsp.org/topic.php?t=110478609&f=123",
       "first_seen_at": "2026-10-15T04:45:31.593133+00:00",
-      "last_checked_at": "2026-10-15T04:47:54.681792+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-15T21:27:17.013931+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -34104,8 +33998,8 @@
       "title": "Iso 1 X Cham",
       "url": "https://forums.d2jsp.org/topic.php?t=110478423&f=123",
       "first_seen_at": "2026-10-15T04:45:31.593133+00:00",
-      "last_checked_at": "2026-10-15T04:48:16.296564+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-15T21:27:17.437025+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -34122,8 +34016,8 @@
       "title": "Ber Rune",
       "url": "https://forums.d2jsp.org/topic.php?t=110478383&f=123",
       "first_seen_at": "2026-10-15T04:45:31.593133+00:00",
-      "last_checked_at": "2026-10-15T04:48:19.892538+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-15T21:27:44.692899+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -34162,7 +34056,25 @@
       "completed": false,
       "status": "parsed",
       "samples": []
+    },
+    "https://forums.d2jsp.org/topic.php?t=110472386&f=123&o=20": {
+      "title": "3",
+      "url": "https://forums.d2jsp.org/topic.php?t=110472386&f=123&o=20",
+      "first_seen_at": "2026-10-15T21:26:40.875571+00:00",
+      "last_checked_at": "2026-10-15T21:27:27.754031+00:00",
+      "completed": false,
+      "status": "parsed",
+      "samples": []
+    },
+    "https://forums.d2jsp.org/topic.php?t=110472019&f=123&o=10": {
+      "title": "2",
+      "url": "https://forums.d2jsp.org/topic.php?t=110472019&f=123&o=10",
+      "first_seen_at": "2026-10-15T21:26:40.875571+00:00",
+      "last_checked_at": "2026-10-15T21:27:07.394600+00:00",
+      "completed": true,
+      "status": "parsed",
+      "samples": []
     }
   },
-  "updated_at": "2026-10-15T17:05:54.232819+00:00"
+  "updated_at": "2026-10-15T21:27:47.785253+00:00"
 }

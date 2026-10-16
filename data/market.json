@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-16T04:37:49.655071+00:00",
+  "updated_at": "2026-10-16T11:30:42.620403+00:00",
   "forum": "https://forums.d2jsp.org/forum.php?f=123&c=2",
   "topic_count": 0,
   "cached_topics": 2639,
   "parsed_topics": 2639,
-  "completed_topics": 2391,
+  "completed_topics": 2403,
   "parsed_this_run": 12,
-  "sample_count": 488,
+  "sample_count": 486,
   "legacy_sample_count": 0,
   "market": [
     {
@@ -4801,28 +4801,14 @@
       "kind": "rune",
       "id": "Cham",
       "label": "Cham",
-      "fair_fg": 500.0,
-      "iso_fg": 575.0,
+      "fair_fg": 550.0,
+      "iso_fg": 650.0,
       "ft_fg": null,
       "trade_fg": 600.0,
-      "samples": 9,
+      "samples": 8,
       "confidence": "medium",
-      "last_seen_at": "2026-10-14T05:00:57.568641+00:00",
+      "last_seen_at": "2026-10-13T22:53:25.295502+00:00",
       "sources": [
-        {
-          "kind": "rune",
-          "id": "Cham",
-          "label": "Cham",
-          "side": "iso",
-          "price_fg": 470.0,
-          "title": "Buying Cham Rune",
-          "url": "https://forums.d2jsp.org/topic.php?t=110467421&f=123",
-          "observed_at": "2026-10-14T05:00:57.568641+00:00",
-          "topic_date": "2026-10-11",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/11 22:04"
-        },
         {
           "kind": "rune",
           "id": "Cham",
@@ -5041,9 +5027,9 @@
       "label": "Jah",
       "fair_fg": 950.0,
       "iso_fg": 950.0,
-      "ft_fg": 867.5,
+      "ft_fg": 910.0,
       "trade_fg": 950.0,
-      "samples": 17,
+      "samples": 16,
       "confidence": "high",
       "last_seen_at": "2026-10-14T17:16:34.500454+00:00",
       "sources": [
@@ -5102,20 +5088,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/11 17:42"
-        },
-        {
-          "kind": "rune",
-          "id": "Jah",
-          "label": "Jah",
-          "side": "ft",
-          "price_fg": 730.0,
-          "title": "Fastest Jah Sale In The West 730 Fg Come Get It",
-          "url": "https://forums.d2jsp.org/topic.php?t=110475713&f=123",
-          "observed_at": "2026-10-14T05:00:44.203221+00:00",
-          "topic_date": "2026-10-13",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/13 17:04"
         },
         {
           "kind": "rune",
@@ -5382,6 +5354,20 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/9/21 03:21"
+        },
+        {
+          "kind": "rune",
+          "id": "Jah",
+          "label": "Jah",
+          "side": "iso",
+          "price_fg": 1400.0,
+          "title": "N Jah And Sur",
+          "url": "https://forums.d2jsp.org/topic.php?t=110325143&f=123",
+          "observed_at": "2026-09-20T04:58:04.882782+00:00",
+          "topic_date": "2026-09-19",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/9/19 08:08"
         }
       ]
     },
@@ -10892,8 +10878,8 @@
   "price_parser": "season15-runes-c2-full-v5",
   "item_source_policy": "season15-items-static-catalog-v7-uber-keys",
   "item_catalog_count": 589,
-  "item_topic_count": 43,
-  "item_cached_topics": 1224,
+  "item_topic_count": 40,
+  "item_cached_topics": 1254,
   "item_parsed_topics": 634,
   "item_sample_count": 123
 }

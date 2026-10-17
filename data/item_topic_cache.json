@@ -6541,11 +6541,64 @@
       "title": "Keys Ft",
       "url": "https://forums.d2jsp.org/topic.php?f=123&t=110372497&v=1",
       "first_seen_at": "2026-10-03T14:57:50.266776+00:00",
-      "last_checked_at": "2026-10-17T15:40:39.061543+00:00",
-      "completed": true,
+      "last_checked_at": "2026-10-17T20:42:01.488469+00:00",
+      "completed": false,
       "status": "parsed",
-      "samples": [],
-      "topic_date": null
+      "samples": [
+        {
+          "kind": "item",
+          "id": "keyset-3x3",
+          "label": "3×3 鑰匙組 (3x3 Keyset)",
+          "category": "鑰匙",
+          "side": "ft",
+          "price_fg": 140.0,
+          "title": "Keys Ft",
+          "url": "https://forums.d2jsp.org/topic.php?f=123&t=110372497&v=1",
+          "observed_at": "2026-10-17T20:42:01.488469+00:00",
+          "topic_date": "2026-09-25",
+          "item_parser_v2": true
+        },
+        {
+          "kind": "item",
+          "id": "key-terror",
+          "label": "恐懼之鑰 (Key of Terror / TKey)",
+          "category": "鑰匙",
+          "side": "ft",
+          "price_fg": 15.0,
+          "title": "Keys Ft",
+          "url": "https://forums.d2jsp.org/topic.php?f=123&t=110372497&v=1",
+          "observed_at": "2026-10-17T20:42:01.488469+00:00",
+          "topic_date": "2026-09-25",
+          "item_parser_v2": true
+        },
+        {
+          "kind": "item",
+          "id": "key-hate",
+          "label": "憎恨之鑰 (Key of Hate / HKey)",
+          "category": "鑰匙",
+          "side": "ft",
+          "price_fg": 15.0,
+          "title": "Keys Ft",
+          "url": "https://forums.d2jsp.org/topic.php?f=123&t=110372497&v=1",
+          "observed_at": "2026-10-17T20:42:01.488469+00:00",
+          "topic_date": "2026-09-25",
+          "item_parser_v2": true
+        },
+        {
+          "kind": "item",
+          "id": "key-destruction",
+          "label": "毀滅之鑰 (Key of Destruction / DKey)",
+          "category": "鑰匙",
+          "side": "ft",
+          "price_fg": 20.0,
+          "title": "Keys Ft",
+          "url": "https://forums.d2jsp.org/topic.php?f=123&t=110372497&v=1",
+          "observed_at": "2026-10-17T20:42:01.488469+00:00",
+          "topic_date": "2026-09-25",
+          "item_parser_v2": true
+        }
+      ],
+      "topic_date": "2026-09-25"
     },
     "https://forums.d2jsp.org/topic.php?t=110426040&f=123": {
       "title": "Iso Bumper",
@@ -13341,5 +13394,5 @@
       "samples": []
     }
   },
-  "updated_at": "2026-10-17T15:40:39.062417+00:00"
+  "updated_at": "2026-10-17T20:42:01.567715+00:00"
 }

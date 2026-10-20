@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-20T08:39:12.379865+00:00",
+  "updated_at": "2026-10-20T14:20:53.248491+00:00",
   "forum": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-  "topic_count": 27,
+  "topic_count": 0,
   "cached_topics": 2857,
   "parsed_topics": 2857,
-  "completed_topics": 2681,
-  "parsed_this_run": 32,
-  "sample_count": 450,
+  "completed_topics": 2693,
+  "parsed_this_run": 12,
+  "sample_count": 445,
   "legacy_sample_count": 0,
   "market": [
     {
@@ -3052,10 +3052,10 @@
       "id": "Vex",
       "label": "Vex",
       "fair_fg": 60.0,
-      "iso_fg": 60.0,
+      "iso_fg": 57.5,
       "ft_fg": 70.0,
       "trade_fg": 60.0,
-      "samples": 36,
+      "samples": 35,
       "confidence": "high",
       "last_seen_at": "2026-10-20T08:38:06.771164+00:00",
       "sources": [
@@ -3128,20 +3128,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/17 10:32"
-        },
-        {
-          "kind": "rune",
-          "id": "Vex",
-          "label": "Vex",
-          "side": "iso",
-          "price_fg": 60.0,
-          "title": "Paying 60fg Vs 1vex",
-          "url": "https://forums.d2jsp.org/topic.php?t=110500680&f=123",
-          "observed_at": "2026-10-19T20:36:48.177484+00:00",
-          "topic_date": "2026-10-19",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/19 06:03"
         },
         {
           "kind": "rune",
@@ -3394,6 +3380,20 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/4 15:02"
+        },
+        {
+          "kind": "rune",
+          "id": "Vex",
+          "label": "Vex",
+          "side": "unknown",
+          "price_fg": 50.0,
+          "title": "Sur Vex",
+          "url": "https://forums.d2jsp.org/topic.php?t=110434134&f=123",
+          "observed_at": "2026-10-06T22:41:33.490400+00:00",
+          "topic_date": "2026-10-05",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/5 08:12"
         }
       ]
     },
@@ -3933,11 +3933,11 @@
       "kind": "rune",
       "id": "Ohm",
       "label": "Ohm",
-      "fair_fg": 135.0,
+      "fair_fg": 140.0,
       "iso_fg": 100.0,
       "ft_fg": 162.5,
       "trade_fg": 145.0,
-      "samples": 20,
+      "samples": 19,
       "confidence": "high",
       "last_seen_at": "2026-10-20T08:38:06.771164+00:00",
       "sources": [
@@ -3996,20 +3996,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/19 05:05"
-        },
-        {
-          "kind": "rune",
-          "id": "Ohm",
-          "label": "Ohm",
-          "side": "unknown",
-          "price_fg": 80.0,
-          "title": "Ohm And Gul",
-          "url": "https://forums.d2jsp.org/topic.php?t=110501021&f=123",
-          "observed_at": "2026-10-19T20:36:49.916637+00:00",
-          "topic_date": "2026-10-19",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/19 08:16"
         },
         {
           "kind": "rune",
@@ -4276,6 +4262,20 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/9/28 05:11"
+        },
+        {
+          "kind": "rune",
+          "id": "Ohm",
+          "label": "Ohm",
+          "side": "ft",
+          "price_fg": 175.0,
+          "title": "Sur + Ohm Rune Ft.",
+          "url": "https://forums.d2jsp.org/topic.php?t=110382817&f=123",
+          "observed_at": "2026-09-28T05:29:13.436343+00:00",
+          "topic_date": "2026-09-26",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/9/26 23:33"
         }
       ]
     },
@@ -5015,24 +5015,10 @@
       "iso_fg": 950.0,
       "ft_fg": 930.0,
       "trade_fg": 950.0,
-      "samples": 14,
+      "samples": 13,
       "confidence": "high",
-      "last_seen_at": "2026-10-20T00:25:09.679327+00:00",
+      "last_seen_at": "2026-10-14T17:16:34.500454+00:00",
       "sources": [
-        {
-          "kind": "rune",
-          "id": "Jah",
-          "label": "Jah",
-          "side": "unknown",
-          "price_fg": 920.0,
-          "title": "2",
-          "url": "https://forums.d2jsp.org/topic.php?t=110501832&f=123&o=10",
-          "observed_at": "2026-10-20T00:25:09.679327+00:00",
-          "topic_date": "2026-10-19",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/19 11:45"
-        },
         {
           "kind": "rune",
           "id": "Jah",
@@ -7717,38 +7703,10 @@
       "iso_fg": null,
       "ft_fg": 1000.0,
       "trade_fg": 1000.0,
-      "samples": 3,
+      "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-10-19T20:36:46.994642+00:00",
+      "last_seen_at": "2026-10-13T22:48:48.999175+00:00",
       "sources": [
-        {
-          "kind": "rune",
-          "id": "Zod",
-          "label": "Zod",
-          "side": "unknown",
-          "price_fg": 1000.0,
-          "title": "Runes Zod Jah",
-          "url": "https://forums.d2jsp.org/topic.php?t=110500661&f=123",
-          "observed_at": "2026-10-19T20:36:46.994642+00:00",
-          "topic_date": "2026-10-19",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/19 05:56"
-        },
-        {
-          "kind": "rune",
-          "id": "Zod",
-          "label": "Zod",
-          "side": "unknown",
-          "price_fg": 1000.0,
-          "title": "Zod Rune",
-          "url": "https://forums.d2jsp.org/topic.php?t=110500975&f=123",
-          "observed_at": "2026-10-19T20:36:44.753196+00:00",
-          "topic_date": "2026-10-19",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/19 08:01"
-        },
         {
           "kind": "rune",
           "id": "Zod",
@@ -10299,7 +10257,7 @@
   "price_parser": "season15-runes-c2-full-v5",
   "item_source_policy": "season15-items-static-catalog-v7-uber-keys",
   "item_catalog_count": 589,
-  "item_topic_count": 115,
+  "item_topic_count": 1,
   "item_cached_topics": 1280,
   "item_parsed_topics": 536,
   "item_sample_count": 104

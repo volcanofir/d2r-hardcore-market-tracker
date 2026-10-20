@@ -34810,8 +34810,8 @@
       "title": "O Lo, Ohm, Sur",
       "url": "https://forums.d2jsp.org/topic.php?t=110501284&f=123",
       "first_seen_at": "2026-10-19T20:36:26.844113+00:00",
-      "last_checked_at": "2026-10-19T20:36:50.050796+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-20T14:20:41.036298+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -34819,8 +34819,8 @@
       "title": "Wts Cham",
       "url": "https://forums.d2jsp.org/topic.php?t=110501252&f=123",
       "first_seen_at": "2026-10-19T20:36:26.844113+00:00",
-      "last_checked_at": "2026-10-19T20:36:44.900258+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-20T14:20:39.489636+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -34828,8 +34828,8 @@
       "title": "Paying 120 Fgs For 3 Mal + 3 Ist Runes",
       "url": "https://forums.d2jsp.org/topic.php?t=110501235&f=123",
       "first_seen_at": "2026-10-19T20:36:26.844113+00:00",
-      "last_checked_at": "2026-10-19T20:36:48.872534+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-20T14:20:40.462227+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -34846,24 +34846,10 @@
       "title": "Ohm And Gul",
       "url": "https://forums.d2jsp.org/topic.php?t=110501021&f=123",
       "first_seen_at": "2026-10-19T20:36:26.844113+00:00",
-      "last_checked_at": "2026-10-19T20:36:49.916637+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-20T14:20:40.568694+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Ohm",
-          "label": "Ohm",
-          "side": "unknown",
-          "price_fg": 80.0,
-          "title": "Ohm And Gul",
-          "url": "https://forums.d2jsp.org/topic.php?t=110501021&f=123",
-          "observed_at": "2026-10-19T20:36:49.916637+00:00",
-          "topic_date": "2026-10-19",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110501018&f=123": {
       "title": "Lem-ber",
@@ -34910,24 +34896,10 @@
       "title": "Zod Rune",
       "url": "https://forums.d2jsp.org/topic.php?t=110500975&f=123",
       "first_seen_at": "2026-10-19T20:36:26.844113+00:00",
-      "last_checked_at": "2026-10-19T20:36:44.753196+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-20T14:20:39.162388+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Zod",
-          "label": "Zod",
-          "side": "unknown",
-          "price_fg": 1000.0,
-          "title": "Zod Rune",
-          "url": "https://forums.d2jsp.org/topic.php?t=110500975&f=123",
-          "observed_at": "2026-10-19T20:36:44.753196+00:00",
-          "topic_date": "2026-10-19",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110500918&f=123": {
       "title": "Iso Mal",
@@ -34942,8 +34914,8 @@
       "title": "Sur Rune",
       "url": "https://forums.d2jsp.org/topic.php?t=110500804&f=123",
       "first_seen_at": "2026-10-19T20:36:26.844113+00:00",
-      "last_checked_at": "2026-10-19T20:36:47.577028+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-20T14:20:39.683611+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -35001,24 +34973,10 @@
       "title": "Paying 60fg Vs 1vex",
       "url": "https://forums.d2jsp.org/topic.php?t=110500680&f=123",
       "first_seen_at": "2026-10-19T20:36:26.844113+00:00",
-      "last_checked_at": "2026-10-19T20:36:48.177484+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-20T14:20:39.988289+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Vex",
-          "label": "Vex",
-          "side": "iso",
-          "price_fg": 60.0,
-          "title": "Paying 60fg Vs 1vex",
-          "url": "https://forums.d2jsp.org/topic.php?t=110500680&f=123",
-          "observed_at": "2026-10-19T20:36:48.177484+00:00",
-          "topic_date": "2026-10-19",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110500666&f=123": {
       "title": "Iso Easy Rune",
@@ -35060,24 +35018,10 @@
       "title": "Runes Zod Jah",
       "url": "https://forums.d2jsp.org/topic.php?t=110500661&f=123",
       "first_seen_at": "2026-10-19T20:36:26.844113+00:00",
-      "last_checked_at": "2026-10-19T20:36:46.994642+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-20T14:20:39.998234+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Zod",
-          "label": "Zod",
-          "side": "unknown",
-          "price_fg": 1000.0,
-          "title": "Runes Zod Jah",
-          "url": "https://forums.d2jsp.org/topic.php?t=110500661&f=123",
-          "observed_at": "2026-10-19T20:36:46.994642+00:00",
-          "topic_date": "2026-10-19",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110500641&f=123": {
       "title": "Iso Lo Rune Fast",
@@ -35186,8 +35130,8 @@
       "title": "Final Remaining Runewords For Chronicle",
       "url": "https://forums.d2jsp.org/topic.php?t=110502263&f=123",
       "first_seen_at": "2026-10-20T00:23:44.025047+00:00",
-      "last_checked_at": "2026-10-20T00:25:04.278959+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-20T14:20:38.725174+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -35231,8 +35175,8 @@
       "title": "Iso 3 Jah, 2 Ber, Sur, Ohm, 2 Vex, Ist ,um",
       "url": "https://forums.d2jsp.org/topic.php?t=110502046&f=123",
       "first_seen_at": "2026-10-20T00:23:44.025047+00:00",
-      "last_checked_at": "2026-10-20T00:25:00.787794+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-20T14:20:38.146570+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -35312,24 +35256,10 @@
       "title": "2",
       "url": "https://forums.d2jsp.org/topic.php?t=110501832&f=123&o=10",
       "first_seen_at": "2026-10-20T00:23:44.025047+00:00",
-      "last_checked_at": "2026-10-20T00:25:09.679327+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-20T14:20:39.070602+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Jah",
-          "label": "Jah",
-          "side": "unknown",
-          "price_fg": 920.0,
-          "title": "2",
-          "url": "https://forums.d2jsp.org/topic.php?t=110501832&f=123&o=10",
-          "observed_at": "2026-10-20T00:25:09.679327+00:00",
-          "topic_date": "2026-10-19",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110501801&f=123": {
       "title": "Iso Runes",
@@ -35424,8 +35354,8 @@
       "title": "2x Vex",
       "url": "https://forums.d2jsp.org/topic.php?t=110501561&f=123",
       "first_seen_at": "2026-10-20T00:23:44.025047+00:00",
-      "last_checked_at": "2026-10-20T00:25:13.491243+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-20T14:20:38.605357+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -35897,5 +35827,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-20T08:38:45.035085+00:00"
+  "updated_at": "2026-10-20T14:20:41.037930+00:00"
 }

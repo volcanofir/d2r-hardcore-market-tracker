@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T17:17:14.846694+00:00",
+  "updated_at": "2026-10-21T21:47:09.004176+00:00",
   "forum_pages": [
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&c=2",
@@ -112,21 +112,26 @@
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=150",
       "offset": 150,
-      "topics": 25,
-      "bytes": 10547,
+      "topics": 0,
+      "bytes": 0,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=150",
-          "topics": 25,
-          "bytes": 10547
+          "topics": 0,
+          "bytes": 286
+        },
+        {
+          "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=150",
+          "topics": 0,
+          "bytes": 286
         }
       ]
     },
     {
-      "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=175",
+      "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=175",
       "offset": 175,
-      "topics": 0,
-      "bytes": 0,
+      "topics": 25,
+      "bytes": 10480,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=175",
@@ -135,21 +140,26 @@
         },
         {
           "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=175",
-          "topics": 0,
-          "bytes": 286
+          "topics": 25,
+          "bytes": 10480
         }
       ]
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=200",
       "offset": 200,
-      "topics": 26,
-      "bytes": 7187,
+      "topics": 0,
+      "bytes": 0,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=200",
-          "topics": 26,
-          "bytes": 7187
+          "topics": 0,
+          "bytes": 286
+        },
+        {
+          "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=200",
+          "topics": 0,
+          "bytes": 286
         }
       ]
     },
@@ -244,13 +254,13 @@
       ]
     }
   ],
-  "discovered_topics": 51,
-  "cached_topics": 3125,
-  "selected_topics": 22,
-  "parsed_this_run": 22,
-  "completed_this_run": 15,
+  "discovered_topics": 25,
+  "cached_topics": 3126,
+  "selected_topics": 13,
+  "parsed_this_run": 13,
+  "completed_this_run": 12,
   "legacy_samples": 0,
-  "combined_samples": 874,
+  "combined_samples": 869,
   "topic_errors": [],
   "season": 15,
   "season_label": "第 15 季天梯",

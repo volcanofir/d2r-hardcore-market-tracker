@@ -38457,8 +38457,8 @@
       "title": "Ohm",
       "url": "https://forums.d2jsp.org/topic.php?t=110508677&f=123",
       "first_seen_at": "2026-10-21T11:55:38.674010+00:00",
-      "last_checked_at": "2026-10-21T11:57:04.384062+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-22T04:55:14.981055+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -38970,8 +38970,8 @@
       "title": "Paying 35 Fgs For Um + Ist",
       "url": "https://forums.d2jsp.org/topic.php?t=110507028&f=123",
       "first_seen_at": "2026-10-21T11:55:38.674010+00:00",
-      "last_checked_at": "2026-10-21T11:56:47.761514+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-22T04:55:06.004916+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -39033,8 +39033,8 @@
       "title": "Paying 10 Fgs For 1 Um Rune",
       "url": "https://forums.d2jsp.org/topic.php?t=110506898&f=123",
       "first_seen_at": "2026-10-21T11:55:38.674010+00:00",
-      "last_checked_at": "2026-10-21T11:56:53.033806+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-22T04:55:10.184267+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -39119,8 +39119,8 @@
       "title": "Rune Jah",
       "url": "https://forums.d2jsp.org/topic.php?t=110506820&f=123",
       "first_seen_at": "2026-10-21T11:55:38.674010+00:00",
-      "last_checked_at": "2026-10-21T11:56:43.927987+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-22T04:55:01.547377+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -39521,8 +39521,8 @@
       "title": "Ohm Rune",
       "url": "https://forums.d2jsp.org/topic.php?t=110500148&f=123",
       "first_seen_at": "2026-10-21T11:55:38.674010+00:00",
-      "last_checked_at": "2026-10-21T11:56:57.675010+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-22T04:55:17.589682+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -39562,8 +39562,8 @@
       "title": "Mal",
       "url": "https://forums.d2jsp.org/topic.php?t=110504461&f=123",
       "first_seen_at": "2026-10-21T17:15:49.594398+00:00",
-      "last_checked_at": "2026-10-21T17:16:20.897481+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-22T04:54:50.437842+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -39580,54 +39580,26 @@
       "title": "N Jah O 700fg",
       "url": "https://forums.d2jsp.org/topic.php?t=110504401&f=123",
       "first_seen_at": "2026-10-21T17:15:49.594398+00:00",
-      "last_checked_at": "2026-10-21T17:16:15.743413+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-22T04:54:53.314950+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Jah",
-          "label": "Jah",
-          "side": "iso",
-          "price_fg": 700.0,
-          "title": "N Jah O 700fg",
-          "url": "https://forums.d2jsp.org/topic.php?t=110504401&f=123",
-          "observed_at": "2026-10-21T17:16:15.743413+00:00",
-          "topic_date": "2026-10-20",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110504350&f=123": {
       "title": "I Need Vex And Lo Runes",
       "url": "https://forums.d2jsp.org/topic.php?t=110504350&f=123",
       "first_seen_at": "2026-10-21T17:15:49.594398+00:00",
-      "last_checked_at": "2026-10-21T17:16:31.391317+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-22T04:54:57.233990+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Vex",
-          "label": "Vex",
-          "side": "iso",
-          "price_fg": 60.0,
-          "title": "I Need Vex And Lo Runes",
-          "url": "https://forums.d2jsp.org/topic.php?t=110504350&f=123",
-          "observed_at": "2026-10-21T17:16:31.391317+00:00",
-          "topic_date": "2026-10-20",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110504313&f=123": {
       "title": "Wts Vex",
       "url": "https://forums.d2jsp.org/topic.php?t=110504313&f=123",
       "first_seen_at": "2026-10-21T17:15:49.594398+00:00",
-      "last_checked_at": "2026-10-21T17:16:14.480671+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-22T04:54:46.432848+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -39644,8 +39616,8 @@
       "title": "Lo",
       "url": "https://forums.d2jsp.org/topic.php?t=110504217&f=123",
       "first_seen_at": "2026-10-21T17:15:49.594398+00:00",
-      "last_checked_at": "2026-10-21T17:16:26.205440+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-22T04:54:54.646081+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -39653,24 +39625,10 @@
       "title": "3 Ist Vs 45 Fg",
       "url": "https://forums.d2jsp.org/topic.php?t=110504201&f=123",
       "first_seen_at": "2026-10-21T17:15:49.594398+00:00",
-      "last_checked_at": "2026-10-21T17:16:36.228937+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-22T04:55:05.835446+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Ist",
-          "label": "Ist",
-          "side": "ft",
-          "price_fg": 15.0,
-          "title": "3 Ist Vs 45 Fg",
-          "url": "https://forums.d2jsp.org/topic.php?t=110504201&f=123",
-          "observed_at": "2026-10-21T17:16:36.228937+00:00",
-          "topic_date": "2026-10-20",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110504164&f=123": {
       "title": "Pack Vs 100",
@@ -39712,11 +39670,11 @@
       "title": "Need Ko + Lem Runes",
       "url": "https://forums.d2jsp.org/topic.php?t=110504462&f=123",
       "first_seen_at": "2026-10-21T21:46:03.134840+00:00",
-      "last_checked_at": "2026-10-21T21:46:53.471712+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-22T04:54:42.872695+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     }
   },
-  "updated_at": "2026-10-21T21:47:08.970401+00:00"
+  "updated_at": "2026-10-22T04:55:17.591440+00:00"
 }

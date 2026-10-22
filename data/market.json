@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-21T21:47:33.680671+00:00",
+  "updated_at": "2026-10-22T04:55:43.339301+00:00",
   "forum": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-  "topic_count": 25,
+  "topic_count": 0,
   "cached_topics": 3126,
   "parsed_topics": 3126,
-  "completed_topics": 2846,
-  "parsed_this_run": 13,
-  "sample_count": 524,
+  "completed_topics": 2858,
+  "parsed_this_run": 12,
+  "sample_count": 521,
   "legacy_sample_count": 0,
   "market": [
     {
@@ -255,24 +255,10 @@
       "iso_fg": 30.0,
       "ft_fg": 50.0,
       "trade_fg": 35.0,
-      "samples": 54,
+      "samples": 53,
       "confidence": "high",
-      "last_seen_at": "2026-10-21T17:16:36.228937+00:00",
+      "last_seen_at": "2026-10-21T11:57:22.141742+00:00",
       "sources": [
-        {
-          "kind": "rune",
-          "id": "Ist",
-          "label": "Ist",
-          "side": "ft",
-          "price_fg": 15.0,
-          "title": "3 Ist Vs 45 Fg",
-          "url": "https://forums.d2jsp.org/topic.php?t=110504201&f=123",
-          "observed_at": "2026-10-21T17:16:36.228937+00:00",
-          "topic_date": "2026-10-20",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/20 00:18"
-        },
         {
           "kind": "rune",
           "id": "Ist",
@@ -594,6 +580,20 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/17 12:14"
+        },
+        {
+          "kind": "rune",
+          "id": "Ist",
+          "label": "Ist",
+          "side": "iso",
+          "price_fg": 65.0,
+          "title": "Need This Dirt Cheap",
+          "url": "https://forums.d2jsp.org/topic.php?t=110496206&f=123",
+          "observed_at": "2026-10-19T04:47:31.158726+00:00",
+          "topic_date": "2026-10-18",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/18 07:32"
         }
       ]
     },
@@ -3055,24 +3055,10 @@
       "iso_fg": 60.0,
       "ft_fg": 70.0,
       "trade_fg": 60.0,
-      "samples": 40,
+      "samples": 39,
       "confidence": "high",
-      "last_seen_at": "2026-10-21T17:16:31.391317+00:00",
+      "last_seen_at": "2026-10-21T11:58:19.892842+00:00",
       "sources": [
-        {
-          "kind": "rune",
-          "id": "Vex",
-          "label": "Vex",
-          "side": "iso",
-          "price_fg": 60.0,
-          "title": "I Need Vex And Lo Runes",
-          "url": "https://forums.d2jsp.org/topic.php?t=110504350&f=123",
-          "observed_at": "2026-10-21T17:16:31.391317+00:00",
-          "topic_date": "2026-10-20",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/20 01:33"
-        },
         {
           "kind": "rune",
           "id": "Vex",
@@ -3388,6 +3374,20 @@
           "side": "unknown",
           "price_fg": 100.0,
           "title": "Shopping List",
+          "url": "https://forums.d2jsp.org/topic.php?t=110453905&f=123",
+          "observed_at": "2026-10-10T17:22:20.359969+00:00",
+          "topic_date": "2026-10-09",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/9 10:09"
+        },
+        {
+          "kind": "rune",
+          "id": "Vex",
+          "label": "Vex",
+          "side": "trade",
+          "price_fg": 80.0,
+          "title": "Shopping List · T4T/sold signal",
           "url": "https://forums.d2jsp.org/topic.php?t=110453905&f=123",
           "observed_at": "2026-10-10T17:22:20.359969+00:00",
           "topic_date": "2026-10-09",
@@ -5025,28 +5025,14 @@
       "kind": "rune",
       "id": "Jah",
       "label": "Jah",
-      "fair_fg": 825.0,
-      "iso_fg": 850.0,
+      "fair_fg": 837.5,
+      "iso_fg": 900.0,
       "ft_fg": 825.0,
       "trade_fg": 850.0,
-      "samples": 21,
+      "samples": 20,
       "confidence": "high",
-      "last_seen_at": "2026-10-21T17:16:15.743413+00:00",
+      "last_seen_at": "2026-10-21T11:57:41.081698+00:00",
       "sources": [
-        {
-          "kind": "rune",
-          "id": "Jah",
-          "label": "Jah",
-          "side": "iso",
-          "price_fg": 700.0,
-          "title": "N Jah O 700fg",
-          "url": "https://forums.d2jsp.org/topic.php?t=110504401&f=123",
-          "observed_at": "2026-10-21T17:16:15.743413+00:00",
-          "topic_date": "2026-10-20",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/20 02:04"
-        },
         {
           "kind": "rune",
           "id": "Jah",
@@ -5368,6 +5354,20 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/5 10:59"
+        },
+        {
+          "kind": "rune",
+          "id": "Jah",
+          "label": "Jah",
+          "side": "unknown",
+          "price_fg": 1000.0,
+          "title": "Jah Sur",
+          "url": "https://forums.d2jsp.org/topic.php?t=110417652&f=123",
+          "observed_at": "2026-10-04T05:59:18.490299+00:00",
+          "topic_date": "2026-10-02",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/2 14:08"
         }
       ]
     },
@@ -9865,7 +9865,7 @@
   "item_source_policy": "season15-items-static-catalog-v7-uber-keys",
   "item_catalog_count": 589,
   "item_topic_count": 1,
-  "item_cached_topics": 1247,
-  "item_parsed_topics": 470,
+  "item_cached_topics": 1219,
+  "item_parsed_topics": 442,
   "item_sample_count": 79
 }

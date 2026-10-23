@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-23T05:00:03.183158+00:00",
+  "updated_at": "2026-10-23T11:47:10.153944+00:00",
   "forum": "https://forums.d2jsp.org/forum.php?f=123&c=2",
   "topic_count": 0,
   "cached_topics": 3295,
   "parsed_topics": 3295,
-  "completed_topics": 2930,
+  "completed_topics": 2942,
   "parsed_this_run": 12,
-  "sample_count": 574,
+  "sample_count": 563,
   "legacy_sample_count": 0,
   "market": [
     {
@@ -255,7 +255,7 @@
       "iso_fg": 30.0,
       "ft_fg": 50.0,
       "trade_fg": 35.0,
-      "samples": 56,
+      "samples": 55,
       "confidence": "high",
       "last_seen_at": "2026-10-22T17:18:07.137360+00:00",
       "sources": [
@@ -328,20 +328,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/21 20:26"
-        },
-        {
-          "kind": "rune",
-          "id": "Ist",
-          "label": "Ist",
-          "side": "unknown",
-          "price_fg": 20.0,
-          "title": "Rune Shop",
-          "url": "https://forums.d2jsp.org/topic.php?t=110506508&f=123",
-          "observed_at": "2026-10-22T17:15:55.158599+00:00",
-          "topic_date": "2026-10-20",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/20 14:13"
         },
         {
           "kind": "rune",
@@ -594,6 +580,20 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/19 12:28"
+        },
+        {
+          "kind": "rune",
+          "id": "Ist",
+          "label": "Ist",
+          "side": "trade",
+          "price_fg": 80.0,
+          "title": "Runes + P Ruby - P Ame · T4T/sold signal",
+          "url": "https://forums.d2jsp.org/topic.php?t=110502045&f=123",
+          "observed_at": "2026-10-20T00:24:39.911901+00:00",
+          "topic_date": "2026-10-19",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/19 12:28"
         }
       ]
     },
@@ -601,11 +601,11 @@
       "kind": "rune",
       "id": "Sur",
       "label": "Sur",
-      "fair_fg": 210.0,
+      "fair_fg": 220.0,
       "iso_fg": 200.0,
       "ft_fg": 350.0,
       "trade_fg": 230.0,
-      "samples": 27,
+      "samples": 24,
       "confidence": "high",
       "last_seen_at": "2026-10-22T17:21:47.411213+00:00",
       "sources": [
@@ -636,48 +636,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/22 08:04"
-        },
-        {
-          "kind": "rune",
-          "id": "Sur",
-          "label": "Sur",
-          "side": "unknown",
-          "price_fg": 175.0,
-          "title": "Rune Shop",
-          "url": "https://forums.d2jsp.org/topic.php?t=110506508&f=123",
-          "observed_at": "2026-10-22T17:15:55.158599+00:00",
-          "topic_date": "2026-10-20",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/20 14:13"
-        },
-        {
-          "kind": "rune",
-          "id": "Sur",
-          "label": "Sur",
-          "side": "unknown",
-          "price_fg": 185.0,
-          "title": "Sur And Vex",
-          "url": "https://forums.d2jsp.org/topic.php?t=110512664&f=123",
-          "observed_at": "2026-10-22T17:15:37.822474+00:00",
-          "topic_date": "2026-10-22",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/22 04:17"
-        },
-        {
-          "kind": "rune",
-          "id": "Sur",
-          "label": "Sur",
-          "side": "unknown",
-          "price_fg": 170.0,
-          "title": "Sur Foating Away Foir 170",
-          "url": "https://forums.d2jsp.org/topic.php?t=110512050&f=123",
-          "observed_at": "2026-10-22T17:15:33.964524+00:00",
-          "topic_date": "2026-10-21",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/21 22:01"
         },
         {
           "kind": "rune",
@@ -944,6 +902,48 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/9 14:11"
+        },
+        {
+          "kind": "rune",
+          "id": "Sur",
+          "label": "Sur",
+          "side": "unknown",
+          "price_fg": 300.0,
+          "title": "Mrperson's Shop For Humans",
+          "url": "https://forums.d2jsp.org/topic.php?t=110436193&f=123",
+          "observed_at": "2026-10-06T16:01:01.883433+00:00",
+          "topic_date": "2026-10-05",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/5 15:20"
+        },
+        {
+          "kind": "rune",
+          "id": "Sur",
+          "label": "Sur",
+          "side": "ft",
+          "price_fg": 350.0,
+          "title": "Cheap High Runes Ft",
+          "url": "https://forums.d2jsp.org/topic.php?t=110346959&f=123",
+          "observed_at": "2026-10-05T05:47:40.760210+00:00",
+          "topic_date": "2026-09-21",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/9/21 16:19"
+        },
+        {
+          "kind": "rune",
+          "id": "Sur",
+          "label": "Sur",
+          "side": "unknown",
+          "price_fg": 270.0,
+          "title": "Jah Sur",
+          "url": "https://forums.d2jsp.org/topic.php?t=110417652&f=123",
+          "observed_at": "2026-10-04T05:59:18.490299+00:00",
+          "topic_date": "2026-10-02",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/2 14:08"
         }
       ]
     },
@@ -1655,7 +1655,7 @@
       "iso_fg": 20.0,
       "ft_fg": 25.0,
       "trade_fg": 20.0,
-      "samples": 40,
+      "samples": 39,
       "confidence": "high",
       "last_seen_at": "2026-10-22T17:21:12.603985+00:00",
       "sources": [
@@ -1714,20 +1714,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/22 09:45"
-        },
-        {
-          "kind": "rune",
-          "id": "Mal",
-          "label": "Mal",
-          "side": "unknown",
-          "price_fg": 15.0,
-          "title": "Rune Shop",
-          "url": "https://forums.d2jsp.org/topic.php?t=110506508&f=123",
-          "observed_at": "2026-10-22T17:15:55.158599+00:00",
-          "topic_date": "2026-10-20",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/20 14:13"
         },
         {
           "kind": "rune",
@@ -1994,6 +1980,20 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/13 13:28"
+        },
+        {
+          "kind": "rune",
+          "id": "Mal",
+          "label": "Mal",
+          "side": "trade",
+          "price_fg": 15.0,
+          "title": "Ft Stash Sale · T4T/sold signal",
+          "url": "https://forums.d2jsp.org/topic.php?t=110466317&f=123",
+          "observed_at": "2026-10-14T17:16:34.500454+00:00",
+          "topic_date": "2026-10-13",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/13 13:28"
         }
       ]
     },
@@ -2005,7 +2005,7 @@
       "iso_fg": 43.0,
       "ft_fg": 35.0,
       "trade_fg": 35.0,
-      "samples": 29,
+      "samples": 28,
       "confidence": "high",
       "last_seen_at": "2026-10-22T17:18:18.903392+00:00",
       "sources": [
@@ -2064,20 +2064,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/21 20:26"
-        },
-        {
-          "kind": "rune",
-          "id": "Gul",
-          "label": "Gul",
-          "side": "unknown",
-          "price_fg": 30.0,
-          "title": "Rune Shop",
-          "url": "https://forums.d2jsp.org/topic.php?t=110506508&f=123",
-          "observed_at": "2026-10-22T17:15:55.158599+00:00",
-          "topic_date": "2026-10-20",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/20 14:13"
         },
         {
           "kind": "rune",
@@ -2344,6 +2330,20 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/6 05:08"
+        },
+        {
+          "kind": "rune",
+          "id": "Gul",
+          "label": "Gul",
+          "side": "unknown",
+          "price_fg": 30.0,
+          "title": "1x Gul Rune",
+          "url": "https://forums.d2jsp.org/topic.php?t=110428035&f=123",
+          "observed_at": "2026-10-05T00:00:02.020002+00:00",
+          "topic_date": "2026-10-04",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/4 07:24"
         }
       ]
     },
@@ -3051,11 +3051,11 @@
       "kind": "rune",
       "id": "Vex",
       "label": "Vex",
-      "fair_fg": 55.0,
+      "fair_fg": 60.0,
       "iso_fg": 60.0,
       "ft_fg": 70.0,
       "trade_fg": 60.0,
-      "samples": 44,
+      "samples": 41,
       "confidence": "high",
       "last_seen_at": "2026-10-22T17:20:55.775327+00:00",
       "sources": [
@@ -3086,48 +3086,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/22 00:35"
-        },
-        {
-          "kind": "rune",
-          "id": "Vex",
-          "label": "Vex",
-          "side": "unknown",
-          "price_fg": 50.0,
-          "title": "Random Stuff",
-          "url": "https://forums.d2jsp.org/topic.php?t=110509248&f=123",
-          "observed_at": "2026-10-22T17:15:59.508263+00:00",
-          "topic_date": "2026-10-22",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/22 11:01"
-        },
-        {
-          "kind": "rune",
-          "id": "Vex",
-          "label": "Vex",
-          "side": "unknown",
-          "price_fg": 50.0,
-          "title": "Rune Shop",
-          "url": "https://forums.d2jsp.org/topic.php?t=110506508&f=123",
-          "observed_at": "2026-10-22T17:15:55.158599+00:00",
-          "topic_date": "2026-10-20",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/20 14:13"
-        },
-        {
-          "kind": "rune",
-          "id": "Vex",
-          "label": "Vex",
-          "side": "unknown",
-          "price_fg": 50.0,
-          "title": "Sur And Vex",
-          "url": "https://forums.d2jsp.org/topic.php?t=110512664&f=123",
-          "observed_at": "2026-10-22T17:15:37.822474+00:00",
-          "topic_date": "2026-10-22",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/22 04:17"
         },
         {
           "kind": "rune",
@@ -3394,6 +3352,48 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/13 16:32"
+        },
+        {
+          "kind": "rune",
+          "id": "Vex",
+          "label": "Vex",
+          "side": "ft",
+          "price_fg": 50.0,
+          "title": "Selling Some Stuff, Take A Look",
+          "url": "https://forums.d2jsp.org/topic.php?t=110454231&f=123",
+          "observed_at": "2026-10-10T17:22:25.258998+00:00",
+          "topic_date": "2026-10-09",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/9 11:19"
+        },
+        {
+          "kind": "rune",
+          "id": "Vex",
+          "label": "Vex",
+          "side": "trade",
+          "price_fg": 50.0,
+          "title": "Selling Some Stuff, Take A Look · T4T/sold signal",
+          "url": "https://forums.d2jsp.org/topic.php?t=110454231&f=123",
+          "observed_at": "2026-10-10T17:22:25.258998+00:00",
+          "topic_date": "2026-10-09",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/9 11:19"
+        },
+        {
+          "kind": "rune",
+          "id": "Vex",
+          "label": "Vex",
+          "side": "unknown",
+          "price_fg": 60.0,
+          "title": "Shopping List",
+          "url": "https://forums.d2jsp.org/topic.php?t=110453905&f=123",
+          "observed_at": "2026-10-10T17:22:20.359969+00:00",
+          "topic_date": "2026-10-09",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/9 10:09"
         }
       ]
     },
@@ -3937,7 +3937,7 @@
       "iso_fg": 100.0,
       "ft_fg": 162.5,
       "trade_fg": 125.0,
-      "samples": 33,
+      "samples": 32,
       "confidence": "high",
       "last_seen_at": "2026-10-22T17:21:47.411213+00:00",
       "sources": [
@@ -4066,20 +4066,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/21 13:29"
-        },
-        {
-          "kind": "rune",
-          "id": "Ohm",
-          "label": "Ohm",
-          "side": "unknown",
-          "price_fg": 100.0,
-          "title": "Rune Shop",
-          "url": "https://forums.d2jsp.org/topic.php?t=110506508&f=123",
-          "observed_at": "2026-10-22T17:15:55.158599+00:00",
-          "topic_date": "2026-10-20",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/20 14:13"
         },
         {
           "kind": "rune",
@@ -4276,6 +4262,20 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/15 14:14"
+        },
+        {
+          "kind": "rune",
+          "id": "Ohm",
+          "label": "Ohm",
+          "side": "unknown",
+          "price_fg": 105.0,
+          "title": "Goku's Hcl Shop",
+          "url": "https://forums.d2jsp.org/topic.php?t=110479510&f=123",
+          "observed_at": "2026-10-15T04:48:04.458333+00:00",
+          "topic_date": "2026-10-14",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/14 21:26"
         }
       ]
     },
@@ -6961,7 +6961,7 @@
       "iso_fg": 5.0,
       "ft_fg": 4.0,
       "trade_fg": 5.0,
-      "samples": 11,
+      "samples": 10,
       "confidence": "high",
       "last_seen_at": "2026-10-22T17:16:48.695501+00:00",
       "sources": [
@@ -6978,20 +6978,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/22 07:50"
-        },
-        {
-          "kind": "rune",
-          "id": "Fal",
-          "label": "Fal",
-          "side": "unknown",
-          "price_fg": 20.0,
-          "title": "Random Stuff",
-          "url": "https://forums.d2jsp.org/topic.php?t=110509248&f=123",
-          "observed_at": "2026-10-22T17:15:59.508263+00:00",
-          "topic_date": "2026-10-22",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/22 11:01"
         },
         {
           "kind": "rune",
@@ -8176,14 +8162,28 @@
       "kind": "item",
       "id": "shako",
       "label": "軍帽 (Harlequin Crest / Shako)",
-      "fair_fg": 75.0,
+      "fair_fg": 21.0,
       "iso_fg": null,
       "ft_fg": 17.0,
       "trade_fg": 17.0,
-      "samples": 6,
+      "samples": 7,
       "confidence": "medium",
-      "last_seen_at": "2026-10-23T04:58:50.777835+00:00",
+      "last_seen_at": "2026-10-23T11:45:54.424866+00:00",
       "sources": [
+        {
+          "kind": "item",
+          "id": "shako",
+          "label": "軍帽 (Harlequin Crest / Shako)",
+          "category": "頭盔",
+          "side": "unknown",
+          "price_fg": 25.0,
+          "title": "Offer List With Low Prices",
+          "url": "https://forums.d2jsp.org/topic.php?t=110512851&f=123",
+          "observed_at": "2026-10-23T11:45:54.424866+00:00",
+          "topic_date": "2026-10-22",
+          "item_parser_v2": true,
+          "topic_time": "2026/10/22 05:45"
+        },
         {
           "kind": "item",
           "id": "shako",
@@ -8325,20 +8325,36 @@
           "topic_time": "2026/9/24 21:17"
         }
       ],
+      "pricing_window_days": 7,
+      "recent_source_count": 2,
       "category": "頭盔"
     },
     {
       "kind": "item",
       "id": "unique-wraithstep",
       "label": "怨靈步伐 (Wraithstep)",
-      "fair_fg": 75.0,
+      "fair_fg": 50.0,
       "iso_fg": null,
       "ft_fg": 75.0,
       "trade_fg": null,
-      "samples": 2,
+      "samples": 3,
       "confidence": "low",
-      "last_seen_at": "2026-10-11T05:53:51.998698+00:00",
+      "last_seen_at": "2026-10-23T11:46:19.323031+00:00",
       "sources": [
+        {
+          "kind": "item",
+          "id": "unique-wraithstep",
+          "label": "怨靈步伐 (Wraithstep)",
+          "category": "鞋子",
+          "side": "unknown",
+          "price_fg": 40.0,
+          "title": "Offer Elite Items",
+          "url": "https://forums.d2jsp.org/topic.php?t=110501778&f=123",
+          "observed_at": "2026-10-23T11:46:19.323031+00:00",
+          "topic_date": "2026-10-20",
+          "item_parser_v2": true,
+          "topic_time": "2026/10/20 13:33"
+        },
         {
           "kind": "item",
           "id": "unique-wraithstep",
@@ -8374,14 +8390,28 @@
       "kind": "item",
       "id": "unique-goldwrap",
       "label": "黃金裹腰 (Goldwrap)",
-      "fair_fg": 50.0,
+      "fair_fg": 27.5,
       "iso_fg": null,
       "ft_fg": 50.0,
       "trade_fg": null,
-      "samples": 1,
+      "samples": 2,
       "confidence": "low",
-      "last_seen_at": "2026-09-25T05:03:52.668733+00:00",
+      "last_seen_at": "2026-10-23T11:45:54.424866+00:00",
       "sources": [
+        {
+          "kind": "item",
+          "id": "unique-goldwrap",
+          "label": "黃金裹腰 (Goldwrap)",
+          "category": "腰帶",
+          "side": "unknown",
+          "price_fg": 5.0,
+          "title": "Offer List With Low Prices",
+          "url": "https://forums.d2jsp.org/topic.php?t=110512851&f=123",
+          "observed_at": "2026-10-23T11:45:54.424866+00:00",
+          "topic_date": "2026-10-22",
+          "item_parser_v2": true,
+          "topic_time": "2026/10/22 05:45"
+        },
         {
           "kind": "item",
           "id": "unique-goldwrap",
@@ -8403,14 +8433,28 @@
       "kind": "item",
       "id": "unique-gheed-s-wager",
       "label": "基德的賭注 (Gheed's Wager)",
-      "fair_fg": 450.0,
+      "fair_fg": 200.0,
       "iso_fg": null,
       "ft_fg": 200.0,
       "trade_fg": 700.0,
-      "samples": 4,
+      "samples": 5,
       "confidence": "medium",
-      "last_seen_at": "2026-10-11T05:53:51.998698+00:00",
+      "last_seen_at": "2026-10-23T11:46:19.323031+00:00",
       "sources": [
+        {
+          "kind": "item",
+          "id": "unique-gheed-s-wager",
+          "label": "基德的賭注 (Gheed's Wager)",
+          "category": "腰帶",
+          "side": "unknown",
+          "price_fg": 50.0,
+          "title": "Offer Elite Items",
+          "url": "https://forums.d2jsp.org/topic.php?t=110501778&f=123",
+          "observed_at": "2026-10-23T11:46:19.323031+00:00",
+          "topic_date": "2026-10-20",
+          "item_parser_v2": true,
+          "topic_time": "2026/10/20 13:33"
+        },
         {
           "kind": "item",
           "id": "unique-gheed-s-wager",
@@ -8517,14 +8561,42 @@
       "kind": "item",
       "id": "vipermagi",
       "label": "蛇魔法師之皮 (Skin of the Vipermagi / Vmagi)",
-      "fair_fg": 32.5,
+      "fair_fg": 20.0,
       "iso_fg": null,
       "ft_fg": 52.5,
       "trade_fg": 17.5,
-      "samples": 4,
+      "samples": 6,
       "confidence": "medium",
-      "last_seen_at": "2026-10-18T04:40:18.973318+00:00",
+      "last_seen_at": "2026-10-23T11:46:19.323031+00:00",
       "sources": [
+        {
+          "kind": "item",
+          "id": "vipermagi",
+          "label": "蛇魔法師之皮 (Skin of the Vipermagi / Vmagi)",
+          "category": "胸甲",
+          "side": "unknown",
+          "price_fg": 30.0,
+          "title": "Offer Elite Items",
+          "url": "https://forums.d2jsp.org/topic.php?t=110501778&f=123",
+          "observed_at": "2026-10-23T11:46:19.323031+00:00",
+          "topic_date": "2026-10-20",
+          "item_parser_v2": true,
+          "topic_time": "2026/10/20 13:33"
+        },
+        {
+          "kind": "item",
+          "id": "vipermagi",
+          "label": "蛇魔法師之皮 (Skin of the Vipermagi / Vmagi)",
+          "category": "胸甲",
+          "side": "unknown",
+          "price_fg": 10.0,
+          "title": "Offer List With Low Prices",
+          "url": "https://forums.d2jsp.org/topic.php?t=110512851&f=123",
+          "observed_at": "2026-10-23T11:45:54.424866+00:00",
+          "topic_date": "2026-10-22",
+          "item_parser_v2": true,
+          "topic_time": "2026/10/22 05:45"
+        },
         {
           "kind": "item",
           "id": "vipermagi",
@@ -8610,6 +8682,8 @@
           "topic_time": "2026/9/25 05:07"
         }
       ],
+      "pricing_window_days": 7,
+      "recent_source_count": 2,
       "category": "胸甲"
     },
     {
@@ -8960,14 +9034,42 @@
       "kind": "item",
       "id": "griffons-eye",
       "label": "獅鷲之眼 (Griffon's Eye / Griff)",
-      "fair_fg": 1200.0,
+      "fair_fg": 750.0,
       "iso_fg": null,
-      "ft_fg": null,
-      "trade_fg": null,
-      "samples": 1,
+      "ft_fg": 300.0,
+      "trade_fg": 300.0,
+      "samples": 2,
       "confidence": "low",
-      "last_seen_at": "2026-10-02T09:53:06.165550+00:00",
+      "last_seen_at": "2026-10-23T11:46:13.112398+00:00",
       "sources": [
+        {
+          "kind": "item",
+          "id": "griffons-eye",
+          "label": "獅鷲之眼 (Griffon's Eye / Griff)",
+          "category": "頭盔",
+          "side": "ft",
+          "price_fg": 300.0,
+          "title": "O Griffon 15/18 Bin 300 Fg",
+          "url": "https://forums.d2jsp.org/topic.php?t=110513707&f=123",
+          "observed_at": "2026-10-23T11:46:13.112398+00:00",
+          "topic_date": "2026-10-22",
+          "item_parser_v2": true,
+          "topic_time": "2026/10/22 10:51"
+        },
+        {
+          "kind": "item",
+          "id": "griffons-eye",
+          "label": "獅鷲之眼 (Griffon's Eye / Griff)",
+          "category": "頭盔",
+          "side": "trade",
+          "price_fg": 300.0,
+          "title": "O Griffon 15/18 Bin 300 Fg · T4T/sold signal",
+          "url": "https://forums.d2jsp.org/topic.php?t=110513707&f=123",
+          "observed_at": "2026-10-23T11:46:13.112398+00:00",
+          "topic_date": "2026-10-22",
+          "item_parser_v2": true,
+          "topic_time": "2026/10/22 10:51"
+        },
         {
           "kind": "item",
           "id": "griffons-eye",
@@ -9100,122 +9202,6 @@
         }
       ],
       "category": "頭盔"
-    },
-    {
-      "kind": "item",
-      "id": "keyset-3x3",
-      "label": "3×3 鑰匙組 (3x3 Keyset)",
-      "fair_fg": 140.0,
-      "iso_fg": null,
-      "ft_fg": 140.0,
-      "trade_fg": null,
-      "samples": 1,
-      "confidence": "low",
-      "last_seen_at": "2026-10-22T17:23:33.475361+00:00",
-      "sources": [
-        {
-          "kind": "item",
-          "id": "keyset-3x3",
-          "label": "3×3 鑰匙組 (3x3 Keyset)",
-          "category": "鑰匙",
-          "side": "ft",
-          "price_fg": 140.0,
-          "title": "Keys Ft",
-          "url": "https://forums.d2jsp.org/topic.php?f=123&t=110372497&v=1",
-          "observed_at": "2026-10-22T17:23:33.475361+00:00",
-          "topic_date": "2026-09-25",
-          "item_parser_v2": true,
-          "topic_time": "2026/9/25 12:57"
-        }
-      ],
-      "category": "鑰匙"
-    },
-    {
-      "kind": "item",
-      "id": "key-terror",
-      "label": "恐懼之鑰 (Key of Terror / TKey)",
-      "fair_fg": 15.0,
-      "iso_fg": null,
-      "ft_fg": 15.0,
-      "trade_fg": null,
-      "samples": 1,
-      "confidence": "low",
-      "last_seen_at": "2026-10-22T17:23:33.475361+00:00",
-      "sources": [
-        {
-          "kind": "item",
-          "id": "key-terror",
-          "label": "恐懼之鑰 (Key of Terror / TKey)",
-          "category": "鑰匙",
-          "side": "ft",
-          "price_fg": 15.0,
-          "title": "Keys Ft",
-          "url": "https://forums.d2jsp.org/topic.php?f=123&t=110372497&v=1",
-          "observed_at": "2026-10-22T17:23:33.475361+00:00",
-          "topic_date": "2026-09-25",
-          "item_parser_v2": true,
-          "topic_time": "2026/9/25 12:57"
-        }
-      ],
-      "category": "鑰匙"
-    },
-    {
-      "kind": "item",
-      "id": "key-hate",
-      "label": "憎恨之鑰 (Key of Hate / HKey)",
-      "fair_fg": 15.0,
-      "iso_fg": null,
-      "ft_fg": 15.0,
-      "trade_fg": null,
-      "samples": 1,
-      "confidence": "low",
-      "last_seen_at": "2026-10-22T17:23:33.475361+00:00",
-      "sources": [
-        {
-          "kind": "item",
-          "id": "key-hate",
-          "label": "憎恨之鑰 (Key of Hate / HKey)",
-          "category": "鑰匙",
-          "side": "ft",
-          "price_fg": 15.0,
-          "title": "Keys Ft",
-          "url": "https://forums.d2jsp.org/topic.php?f=123&t=110372497&v=1",
-          "observed_at": "2026-10-22T17:23:33.475361+00:00",
-          "topic_date": "2026-09-25",
-          "item_parser_v2": true,
-          "topic_time": "2026/9/25 12:57"
-        }
-      ],
-      "category": "鑰匙"
-    },
-    {
-      "kind": "item",
-      "id": "key-destruction",
-      "label": "毀滅之鑰 (Key of Destruction / DKey)",
-      "fair_fg": 20.0,
-      "iso_fg": null,
-      "ft_fg": 20.0,
-      "trade_fg": null,
-      "samples": 1,
-      "confidence": "low",
-      "last_seen_at": "2026-10-22T17:23:33.475361+00:00",
-      "sources": [
-        {
-          "kind": "item",
-          "id": "key-destruction",
-          "label": "毀滅之鑰 (Key of Destruction / DKey)",
-          "category": "鑰匙",
-          "side": "ft",
-          "price_fg": 20.0,
-          "title": "Keys Ft",
-          "url": "https://forums.d2jsp.org/topic.php?f=123&t=110372497&v=1",
-          "observed_at": "2026-10-22T17:23:33.475361+00:00",
-          "topic_date": "2026-09-25",
-          "item_parser_v2": true,
-          "topic_time": "2026/9/25 12:57"
-        }
-      ],
-      "category": "鑰匙"
     },
     {
       "kind": "item",
@@ -10124,6 +10110,64 @@
     },
     {
       "kind": "item",
+      "id": "unique-steelrend",
+      "label": "碎鋼 (Steelrend)",
+      "fair_fg": 40.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-10-23T11:46:19.323031+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "unique-steelrend",
+          "label": "碎鋼 (Steelrend)",
+          "category": "手套",
+          "side": "unknown",
+          "price_fg": 40.0,
+          "title": "Offer Elite Items",
+          "url": "https://forums.d2jsp.org/topic.php?t=110501778&f=123",
+          "observed_at": "2026-10-23T11:46:19.323031+00:00",
+          "topic_date": "2026-10-20",
+          "item_parser_v2": true,
+          "topic_time": "2026/10/20 13:33"
+        }
+      ],
+      "category": "手套"
+    },
+    {
+      "kind": "item",
+      "id": "unique-latent-cold-rupture",
+      "label": "潛伏冰寒裂縫 (Latent Cold Rupture)",
+      "fair_fg": 40.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-10-23T11:46:19.323031+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "unique-latent-cold-rupture",
+          "label": "潛伏冰寒裂縫 (Latent Cold Rupture)",
+          "category": "咒符",
+          "side": "unknown",
+          "price_fg": 40.0,
+          "title": "Offer Elite Items",
+          "url": "https://forums.d2jsp.org/topic.php?t=110501778&f=123",
+          "observed_at": "2026-10-23T11:46:19.323031+00:00",
+          "topic_date": "2026-10-20",
+          "item_parser_v2": true,
+          "topic_time": "2026/10/20 13:33"
+        }
+      ],
+      "category": "咒符"
+    },
+    {
+      "kind": "item",
       "id": "sorc-torch",
       "label": "法師地獄火炬 (Sorceress Torch / STorch)",
       "fair_fg": 100.0,
@@ -10182,74 +10226,61 @@
     },
     {
       "kind": "item",
-      "id": "anni",
-      "label": "毀滅小護身符 (Annihilus / Anni)",
-      "fair_fg": 212.5,
+      "id": "unique-tarnhelm",
+      "label": "塔因頭盔 (Tarnhelm)",
+      "fair_fg": 5.0,
       "iso_fg": null,
       "ft_fg": null,
       "trade_fg": null,
-      "samples": 4,
-      "confidence": "medium",
-      "last_seen_at": "2026-10-23T04:58:52.062106+00:00",
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-10-23T11:45:54.424866+00:00",
       "sources": [
         {
           "kind": "item",
-          "id": "anni",
-          "label": "毀滅小護身符 (Annihilus / Anni)",
-          "category": "熱門護身符與暗金符咒",
+          "id": "unique-tarnhelm",
+          "label": "塔因頭盔 (Tarnhelm)",
+          "category": "頭盔",
           "side": "unknown",
-          "price_fg": 150.0,
-          "title": "Several Anni For Sale",
-          "url": "https://forums.d2jsp.org/topic.php?t=110482765&f=123",
-          "observed_at": "2026-10-23T04:58:52.062106+00:00",
-          "topic_date": "2026-10-15",
+          "price_fg": 5.0,
+          "title": "Offer List With Low Prices",
+          "url": "https://forums.d2jsp.org/topic.php?t=110512851&f=123",
+          "observed_at": "2026-10-23T11:45:54.424866+00:00",
+          "topic_date": "2026-10-22",
           "item_parser_v2": true,
-          "topic_time": "2026/10/15 10:34"
-        },
-        {
-          "kind": "item",
-          "id": "anni",
-          "label": "毀滅小護身符 (Annihilus / Anni)",
-          "category": "熱門護身符與暗金符咒",
-          "side": "unknown",
-          "price_fg": 250.0,
-          "title": "Several Anni For Sale",
-          "url": "https://forums.d2jsp.org/topic.php?t=110482765&f=123",
-          "observed_at": "2026-10-23T04:58:52.062106+00:00",
-          "topic_date": "2026-10-15",
-          "item_parser_v2": true,
-          "topic_time": "2026/10/15 10:34"
-        },
-        {
-          "kind": "item",
-          "id": "anni",
-          "label": "毀滅小護身符 (Annihilus / Anni)",
-          "category": "熱門護身符與暗金符咒",
-          "side": "unknown",
-          "price_fg": 225.0,
-          "title": "Several Anni For Sale",
-          "url": "https://forums.d2jsp.org/topic.php?t=110482765&f=123",
-          "observed_at": "2026-10-23T04:58:52.062106+00:00",
-          "topic_date": "2026-10-15",
-          "item_parser_v2": true,
-          "topic_time": "2026/10/15 10:34"
-        },
-        {
-          "kind": "item",
-          "id": "anni",
-          "label": "毀滅小護身符 (Annihilus / Anni)",
-          "category": "熱門護身符與暗金符咒",
-          "side": "unknown",
-          "price_fg": 200.0,
-          "title": "Several Anni For Sale",
-          "url": "https://forums.d2jsp.org/topic.php?t=110482765&f=123",
-          "observed_at": "2026-10-23T04:58:52.062106+00:00",
-          "topic_date": "2026-10-15",
-          "item_parser_v2": true,
-          "topic_time": "2026/10/15 10:34"
+          "topic_time": "2026/10/22 05:45"
         }
       ],
-      "category": "熱門護身符與暗金符咒"
+      "category": "頭盔"
+    },
+    {
+      "kind": "item",
+      "id": "unique-bloodfist",
+      "label": "血拳 (Bloodfist)",
+      "fair_fg": 5.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-10-23T11:45:54.424866+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "unique-bloodfist",
+          "label": "血拳 (Bloodfist)",
+          "category": "手套",
+          "side": "unknown",
+          "price_fg": 5.0,
+          "title": "Offer List With Low Prices",
+          "url": "https://forums.d2jsp.org/topic.php?t=110512851&f=123",
+          "observed_at": "2026-10-23T11:45:54.424866+00:00",
+          "topic_date": "2026-10-22",
+          "item_parser_v2": true,
+          "topic_time": "2026/10/22 05:45"
+        }
+      ],
+      "category": "手套"
     }
   ],
   "season": 15,
@@ -10263,6 +10294,6 @@
   "item_catalog_count": 589,
   "item_topic_count": 1,
   "item_cached_topics": 1446,
-  "item_parsed_topics": 453,
-  "item_sample_count": 87
+  "item_parsed_topics": 473,
+  "item_sample_count": 90
 }

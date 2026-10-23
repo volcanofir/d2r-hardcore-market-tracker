@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-23T11:47:10.153944+00:00",
+  "updated_at": "2026-10-23T17:13:37.745124+00:00",
   "forum": "https://forums.d2jsp.org/forum.php?f=123&c=2",
   "topic_count": 0,
   "cached_topics": 3295,
   "parsed_topics": 3295,
-  "completed_topics": 2942,
+  "completed_topics": 2954,
   "parsed_this_run": 12,
-  "sample_count": 563,
+  "sample_count": 553,
   "legacy_sample_count": 0,
   "market": [
     {
@@ -255,7 +255,7 @@
       "iso_fg": 30.0,
       "ft_fg": 50.0,
       "trade_fg": 35.0,
-      "samples": 55,
+      "samples": 52,
       "confidence": "high",
       "last_seen_at": "2026-10-22T17:18:07.137360+00:00",
       "sources": [
@@ -286,48 +286,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/20 18:18"
-        },
-        {
-          "kind": "rune",
-          "id": "Ist",
-          "label": "Ist",
-          "side": "unknown",
-          "price_fg": 25.0,
-          "title": "Ohm And Ist",
-          "url": "https://forums.d2jsp.org/topic.php?t=110509181&f=123",
-          "observed_at": "2026-10-22T17:16:16.088928+00:00",
-          "topic_date": "2026-10-21",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/21 07:57"
-        },
-        {
-          "kind": "rune",
-          "id": "Ist",
-          "label": "Ist",
-          "side": "unknown",
-          "price_fg": 115.0,
-          "title": "Ohm And Ist",
-          "url": "https://forums.d2jsp.org/topic.php?t=110509181&f=123",
-          "observed_at": "2026-10-22T17:16:16.088928+00:00",
-          "topic_date": "2026-10-21",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/21 07:57"
-        },
-        {
-          "kind": "rune",
-          "id": "Ist",
-          "label": "Ist",
-          "side": "unknown",
-          "price_fg": 15.0,
-          "title": "Random Itamz",
-          "url": "https://forums.d2jsp.org/topic.php?t=110509152&f=123",
-          "observed_at": "2026-10-22T17:16:04.173731+00:00",
-          "topic_date": "2026-10-21",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/21 20:26"
         },
         {
           "kind": "rune",
@@ -594,6 +552,48 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/19 12:28"
+        },
+        {
+          "kind": "rune",
+          "id": "Ist",
+          "label": "Ist",
+          "side": "iso",
+          "price_fg": 30.0,
+          "title": "Need Lo, Lem, Ist.",
+          "url": "https://forums.d2jsp.org/topic.php?t=110492334&f=123",
+          "observed_at": "2026-10-19T13:24:41.014922+00:00",
+          "topic_date": "2026-10-17",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/17 12:14"
+        },
+        {
+          "kind": "rune",
+          "id": "Ist",
+          "label": "Ist",
+          "side": "trade",
+          "price_fg": 30.0,
+          "title": "Need Lo, Lem, Ist. · T4T/sold signal",
+          "url": "https://forums.d2jsp.org/topic.php?t=110492334&f=123",
+          "observed_at": "2026-10-19T13:24:41.014922+00:00",
+          "topic_date": "2026-10-17",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/17 12:14"
+        },
+        {
+          "kind": "rune",
+          "id": "Ist",
+          "label": "Ist",
+          "side": "iso",
+          "price_fg": 65.0,
+          "title": "Need This Dirt Cheap",
+          "url": "https://forums.d2jsp.org/topic.php?t=110496206&f=123",
+          "observed_at": "2026-10-19T04:47:31.158726+00:00",
+          "topic_date": "2026-10-18",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/18 07:32"
         }
       ]
     },
@@ -2005,7 +2005,7 @@
       "iso_fg": 43.0,
       "ft_fg": 35.0,
       "trade_fg": 35.0,
-      "samples": 28,
+      "samples": 27,
       "confidence": "high",
       "last_seen_at": "2026-10-22T17:18:18.903392+00:00",
       "sources": [
@@ -2050,20 +2050,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/22 08:24"
-        },
-        {
-          "kind": "rune",
-          "id": "Gul",
-          "label": "Gul",
-          "side": "unknown",
-          "price_fg": 25.0,
-          "title": "Random Itamz",
-          "url": "https://forums.d2jsp.org/topic.php?t=110509152&f=123",
-          "observed_at": "2026-10-22T17:16:04.173731+00:00",
-          "topic_date": "2026-10-21",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/21 20:26"
         },
         {
           "kind": "rune",
@@ -2338,6 +2324,20 @@
           "side": "unknown",
           "price_fg": 30.0,
           "title": "1x Gul Rune",
+          "url": "https://forums.d2jsp.org/topic.php?t=110428035&f=123",
+          "observed_at": "2026-10-05T00:00:02.020002+00:00",
+          "topic_date": "2026-10-04",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/4 07:24"
+        },
+        {
+          "kind": "rune",
+          "id": "Gul",
+          "label": "Gul",
+          "side": "trade",
+          "price_fg": 30.0,
+          "title": "1x Gul Rune · T4T/sold signal",
           "url": "https://forums.d2jsp.org/topic.php?t=110428035&f=123",
           "observed_at": "2026-10-05T00:00:02.020002+00:00",
           "topic_date": "2026-10-04",
@@ -3587,24 +3587,10 @@
       "iso_fg": 3.0,
       "ft_fg": 1.74,
       "trade_fg": 2.5,
-      "samples": 15,
+      "samples": 14,
       "confidence": "high",
-      "last_seen_at": "2026-10-22T17:16:08.182651+00:00",
+      "last_seen_at": "2026-10-13T22:53:23.882168+00:00",
       "sources": [
-        {
-          "kind": "rune",
-          "id": "Ral",
-          "label": "Ral",
-          "side": "unknown",
-          "price_fg": 1.0,
-          "title": "P Ruby, P Amethyst, Ral Runes",
-          "url": "https://forums.d2jsp.org/topic.php?t=110507425&f=123",
-          "observed_at": "2026-10-22T17:16:08.182651+00:00",
-          "topic_date": "2026-10-20",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/20 18:50"
-        },
         {
           "kind": "rune",
           "id": "Ral",
@@ -3926,6 +3912,20 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/9/15 09:50"
+        },
+        {
+          "kind": "rune",
+          "id": "Ral",
+          "label": "Ral",
+          "side": "trade",
+          "price_fg": 3.33,
+          "title": "Need Warlock Items · T4T/sold signal",
+          "url": "https://forums.d2jsp.org/topic.php?t=110291662&f=123",
+          "observed_at": "2026-09-16T04:54:01.351789+00:00",
+          "topic_date": "2026-09-15",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/9/15 09:50"
         }
       ]
     },
@@ -3937,7 +3937,7 @@
       "iso_fg": 100.0,
       "ft_fg": 162.5,
       "trade_fg": 125.0,
-      "samples": 32,
+      "samples": 29,
       "confidence": "high",
       "last_seen_at": "2026-10-22T17:21:47.411213+00:00",
       "sources": [
@@ -4024,48 +4024,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/21 11:28"
-        },
-        {
-          "kind": "rune",
-          "id": "Ohm",
-          "label": "Ohm",
-          "side": "unknown",
-          "price_fg": 90.0,
-          "title": "Ohm",
-          "url": "https://forums.d2jsp.org/topic.php?t=110512379&f=123",
-          "observed_at": "2026-10-22T17:16:20.194468+00:00",
-          "topic_date": "2026-10-22",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/22 01:42"
-        },
-        {
-          "kind": "rune",
-          "id": "Ohm",
-          "label": "Ohm",
-          "side": "unknown",
-          "price_fg": 70.0,
-          "title": "Ohm Vex Gul",
-          "url": "https://forums.d2jsp.org/topic.php?t=110510381&f=123",
-          "observed_at": "2026-10-22T17:16:12.073541+00:00",
-          "topic_date": "2026-10-21",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/21 13:29"
-        },
-        {
-          "kind": "rune",
-          "id": "Ohm",
-          "label": "Ohm",
-          "side": "unknown",
-          "price_fg": 80.0,
-          "title": "Ohm Vex Gul",
-          "url": "https://forums.d2jsp.org/topic.php?t=110510381&f=123",
-          "observed_at": "2026-10-22T17:16:12.073541+00:00",
-          "topic_date": "2026-10-21",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/21 13:29"
         },
         {
           "kind": "rune",
@@ -4276,6 +4234,48 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/14 21:26"
+        },
+        {
+          "kind": "rune",
+          "id": "Ohm",
+          "label": "Ohm",
+          "side": "trade",
+          "price_fg": 105.0,
+          "title": "Goku's Hcl Shop · T4T/sold signal",
+          "url": "https://forums.d2jsp.org/topic.php?t=110479510&f=123",
+          "observed_at": "2026-10-15T04:48:04.458333+00:00",
+          "topic_date": "2026-10-14",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/14 21:26"
+        },
+        {
+          "kind": "rune",
+          "id": "Ohm",
+          "label": "Ohm",
+          "side": "iso",
+          "price_fg": 100.0,
+          "title": "Iso Ohm=100fg Anni Any=50fg",
+          "url": "https://forums.d2jsp.org/topic.php?t=110467088&f=123",
+          "observed_at": "2026-10-14T04:59:57.185255+00:00",
+          "topic_date": "2026-10-11",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/11 20:20"
+        },
+        {
+          "kind": "rune",
+          "id": "Ohm",
+          "label": "Ohm",
+          "side": "trade",
+          "price_fg": 100.0,
+          "title": "Iso Ohm=100fg Anni Any=50fg · T4T/sold signal",
+          "url": "https://forums.d2jsp.org/topic.php?t=110467088&f=123",
+          "observed_at": "2026-10-14T04:59:57.185255+00:00",
+          "topic_date": "2026-10-11",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/11 20:20"
         }
       ]
     },
@@ -5069,9 +5069,9 @@
       "label": "Jah",
       "fair_fg": 800.0,
       "iso_fg": 850.0,
-      "ft_fg": 802.5,
+      "ft_fg": 825.0,
       "trade_fg": 850.0,
-      "samples": 26,
+      "samples": 25,
       "confidence": "high",
       "last_seen_at": "2026-10-22T17:22:26.636850+00:00",
       "sources": [
@@ -5158,20 +5158,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/21 13:40"
-        },
-        {
-          "kind": "rune",
-          "id": "Jah",
-          "label": "Jah",
-          "side": "ft",
-          "price_fg": 740.0,
-          "title": "O: Jah N: 740fg",
-          "url": "https://forums.d2jsp.org/topic.php?t=110513392&f=123",
-          "observed_at": "2026-10-22T17:16:28.234804+00:00",
-          "topic_date": "2026-10-22",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/22 09:14"
         },
         {
           "kind": "rune",
@@ -5410,6 +5396,20 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/12 16:47"
+        },
+        {
+          "kind": "rune",
+          "id": "Jah",
+          "label": "Jah",
+          "side": "iso",
+          "price_fg": 950.0,
+          "title": "Iso Warlock Items",
+          "url": "https://forums.d2jsp.org/topic.php?t=110441419&f=123",
+          "observed_at": "2026-10-06T22:45:38.625652+00:00",
+          "topic_date": "2026-10-06",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/6 16:08"
         }
       ]
     },
@@ -7195,28 +7195,14 @@
       "kind": "rune",
       "id": "Io",
       "label": "Io",
-      "fair_fg": 3.0,
-      "iso_fg": 20.0,
+      "fair_fg": 2.0,
+      "iso_fg": null,
       "ft_fg": 2.0,
       "trade_fg": 2.0,
-      "samples": 6,
+      "samples": 5,
       "confidence": "medium",
-      "last_seen_at": "2026-10-22T17:16:04.071435+00:00",
+      "last_seen_at": "2026-10-14T17:16:34.500454+00:00",
       "sources": [
-        {
-          "kind": "rune",
-          "id": "Io",
-          "label": "Io",
-          "side": "iso",
-          "price_fg": 20.0,
-          "title": "Quick Easy Iso Socket Punch +lo",
-          "url": "https://forums.d2jsp.org/topic.php?t=110500477&f=123",
-          "observed_at": "2026-10-22T17:16:04.071435+00:00",
-          "topic_date": "2026-10-19",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/19 04:18"
-        },
         {
           "kind": "rune",
           "id": "Io",

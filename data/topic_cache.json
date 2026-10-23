@@ -39621,24 +39621,10 @@
       "title": "Wts/wtt Ohm Vs Lo",
       "url": "https://forums.d2jsp.org/topic.php?t=110513441&f=123",
       "first_seen_at": "2026-10-22T17:13:58.052007+00:00",
-      "last_checked_at": "2026-10-22T17:15:00.772973+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-23T04:57:06.205870+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Ohm",
-          "label": "Ohm",
-          "side": "ft",
-          "price_fg": 90.0,
-          "title": "Wts/wtt Ohm Vs Lo",
-          "url": "https://forums.d2jsp.org/topic.php?t=110513441&f=123",
-          "observed_at": "2026-10-22T17:15:00.772973+00:00",
-          "topic_date": "2026-10-22",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110513393&f=123": {
       "title": "Jah",
@@ -39685,24 +39671,10 @@
       "title": "Vex Vs 60fg",
       "url": "https://forums.d2jsp.org/topic.php?t=110513359&f=123",
       "first_seen_at": "2026-10-22T17:13:58.052007+00:00",
-      "last_checked_at": "2026-10-22T17:15:12.788941+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-23T04:57:23.207753+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Vex",
-          "label": "Vex",
-          "side": "ft",
-          "price_fg": 60.0,
-          "title": "Vex Vs 60fg",
-          "url": "https://forums.d2jsp.org/topic.php?t=110513359&f=123",
-          "observed_at": "2026-10-22T17:15:12.788941+00:00",
-          "topic_date": "2026-10-22",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110513340&f=123": {
       "title": "Iso All Your Cham Runes",
@@ -39821,8 +39793,8 @@
       "title": "Wts Lo X 3 Ohm X 1",
       "url": "https://forums.d2jsp.org/topic.php?t=110513094&f=123",
       "first_seen_at": "2026-10-22T17:13:58.052007+00:00",
-      "last_checked_at": "2026-10-22T17:15:04.070324+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-23T04:57:06.531050+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -40166,102 +40138,10 @@
       "title": "Wts Runes",
       "url": "https://forums.d2jsp.org/topic.php?t=110512355&f=123",
       "first_seen_at": "2026-10-22T17:13:58.052007+00:00",
-      "last_checked_at": "2026-10-22T17:15:00.118405+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-23T04:57:13.534113+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Ohm",
-          "label": "Ohm",
-          "side": "ft",
-          "price_fg": 90.0,
-          "title": "Wts Runes",
-          "url": "https://forums.d2jsp.org/topic.php?t=110512355&f=123",
-          "observed_at": "2026-10-22T17:15:00.118405+00:00",
-          "topic_date": "2026-10-22",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Vex",
-          "label": "Vex",
-          "side": "ft",
-          "price_fg": 50.0,
-          "title": "Wts Runes",
-          "url": "https://forums.d2jsp.org/topic.php?t=110512355&f=123",
-          "observed_at": "2026-10-22T17:15:00.118405+00:00",
-          "topic_date": "2026-10-22",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Ist",
-          "label": "Ist",
-          "side": "ft",
-          "price_fg": 25.0,
-          "title": "Wts Runes",
-          "url": "https://forums.d2jsp.org/topic.php?t=110512355&f=123",
-          "observed_at": "2026-10-22T17:15:00.118405+00:00",
-          "topic_date": "2026-10-22",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Mal",
-          "label": "Mal",
-          "side": "ft",
-          "price_fg": 20.0,
-          "title": "Wts Runes",
-          "url": "https://forums.d2jsp.org/topic.php?t=110512355&f=123",
-          "observed_at": "2026-10-22T17:15:00.118405+00:00",
-          "topic_date": "2026-10-22",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Um",
-          "label": "Um",
-          "side": "ft",
-          "price_fg": 10.0,
-          "title": "Wts Runes",
-          "url": "https://forums.d2jsp.org/topic.php?t=110512355&f=123",
-          "observed_at": "2026-10-22T17:15:00.118405+00:00",
-          "topic_date": "2026-10-22",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Um",
-          "label": "Um",
-          "side": "ft",
-          "price_fg": 7.0,
-          "title": "Wts Runes",
-          "url": "https://forums.d2jsp.org/topic.php?t=110512355&f=123",
-          "observed_at": "2026-10-22T17:15:00.118405+00:00",
-          "topic_date": "2026-10-22",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Vex",
-          "label": "Vex",
-          "side": "ft",
-          "price_fg": 130.0,
-          "title": "Wts Runes",
-          "url": "https://forums.d2jsp.org/topic.php?t=110512355&f=123",
-          "observed_at": "2026-10-22T17:15:00.118405+00:00",
-          "topic_date": "2026-10-22",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110512335&f=123": {
       "title": "Lo Rune",
@@ -40897,115 +40777,10 @@
       "title": "Vtmatt Ft List - Reduced Bins",
       "url": "https://forums.d2jsp.org/topic.php?t=110510739&f=123",
       "first_seen_at": "2026-10-22T17:13:58.052007+00:00",
-      "last_checked_at": "2026-10-22T17:15:12.462763+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-23T04:57:19.214239+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Ber",
-          "label": "Ber",
-          "side": "ft",
-          "price_fg": 400.0,
-          "title": "Vtmatt Ft List - Reduced Bins",
-          "url": "https://forums.d2jsp.org/topic.php?t=110510739&f=123",
-          "observed_at": "2026-10-22T17:15:12.462763+00:00",
-          "topic_date": "2026-10-22",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Vex",
-          "label": "Vex",
-          "side": "ft",
-          "price_fg": 50.0,
-          "title": "Vtmatt Ft List - Reduced Bins",
-          "url": "https://forums.d2jsp.org/topic.php?t=110510739&f=123",
-          "observed_at": "2026-10-22T17:15:12.462763+00:00",
-          "topic_date": "2026-10-22",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Gul",
-          "label": "Gul",
-          "side": "ft",
-          "price_fg": 4.17,
-          "title": "Vtmatt Ft List - Reduced Bins",
-          "url": "https://forums.d2jsp.org/topic.php?t=110510739&f=123",
-          "observed_at": "2026-10-22T17:15:12.462763+00:00",
-          "topic_date": "2026-10-22",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Ist",
-          "label": "Ist",
-          "side": "ft",
-          "price_fg": 2.0,
-          "title": "Vtmatt Ft List - Reduced Bins",
-          "url": "https://forums.d2jsp.org/topic.php?t=110510739&f=123",
-          "observed_at": "2026-10-22T17:15:12.462763+00:00",
-          "topic_date": "2026-10-22",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Mal",
-          "label": "Mal",
-          "side": "ft",
-          "price_fg": 1.0,
-          "title": "Vtmatt Ft List - Reduced Bins",
-          "url": "https://forums.d2jsp.org/topic.php?t=110510739&f=123",
-          "observed_at": "2026-10-22T17:15:12.462763+00:00",
-          "topic_date": "2026-10-22",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Um",
-          "label": "Um",
-          "side": "ft",
-          "price_fg": 0.71,
-          "title": "Vtmatt Ft List - Reduced Bins",
-          "url": "https://forums.d2jsp.org/topic.php?t=110510739&f=123",
-          "observed_at": "2026-10-22T17:15:12.462763+00:00",
-          "topic_date": "2026-10-22",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Pul",
-          "label": "Pul",
-          "side": "ft",
-          "price_fg": 0.53,
-          "title": "Vtmatt Ft List - Reduced Bins",
-          "url": "https://forums.d2jsp.org/topic.php?t=110510739&f=123",
-          "observed_at": "2026-10-22T17:15:12.462763+00:00",
-          "topic_date": "2026-10-22",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Lem",
-          "label": "Lem",
-          "side": "ft",
-          "price_fg": 0.5,
-          "title": "Vtmatt Ft List - Reduced Bins",
-          "url": "https://forums.d2jsp.org/topic.php?t=110510739&f=123",
-          "observed_at": "2026-10-22T17:15:12.462763+00:00",
-          "topic_date": "2026-10-22",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110510730&f=123": {
       "title": "Ars Dul Mephistos",
@@ -41174,8 +40949,8 @@
       "title": "Sur Rune Ft",
       "url": "https://forums.d2jsp.org/topic.php?t=110510141&f=123",
       "first_seen_at": "2026-10-22T17:13:58.052007+00:00",
-      "last_checked_at": "2026-10-22T17:15:25.991516+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-23T04:57:42.467971+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -41269,50 +41044,10 @@
       "title": "Wind's Shop | Great Deals # 7",
       "url": "https://forums.d2jsp.org/topic.php?t=110509783&f=123",
       "first_seen_at": "2026-10-22T17:13:58.052007+00:00",
-      "last_checked_at": "2026-10-22T17:15:08.776849+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-23T04:57:23.950830+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Shael",
-          "label": "Shael",
-          "side": "unknown",
-          "price_fg": 15.0,
-          "title": "Wind's Shop | Great Deals # 7",
-          "url": "https://forums.d2jsp.org/topic.php?t=110509783&f=123",
-          "observed_at": "2026-10-22T17:15:08.776849+00:00",
-          "topic_date": "2026-10-21",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Ist",
-          "label": "Ist",
-          "side": "unknown",
-          "price_fg": 25.0,
-          "title": "Wind's Shop | Great Deals # 7",
-          "url": "https://forums.d2jsp.org/topic.php?t=110509783&f=123",
-          "observed_at": "2026-10-22T17:15:08.776849+00:00",
-          "topic_date": "2026-10-21",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Mal",
-          "label": "Mal",
-          "side": "unknown",
-          "price_fg": 15.0,
-          "title": "Wind's Shop | Great Deals # 7",
-          "url": "https://forums.d2jsp.org/topic.php?t=110509783&f=123",
-          "observed_at": "2026-10-22T17:15:08.776849+00:00",
-          "topic_date": "2026-10-21",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110509726&f=123": {
       "title": "Hc Mini Shop",
@@ -41345,8 +41080,8 @@
       "title": "Vex Rune",
       "url": "https://forums.d2jsp.org/topic.php?t=110509581&f=123",
       "first_seen_at": "2026-10-22T17:13:58.052007+00:00",
-      "last_checked_at": "2026-10-22T17:15:16.532811+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-23T04:57:27.845200+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -41390,8 +41125,8 @@
       "title": "Wtb Vex",
       "url": "https://forums.d2jsp.org/topic.php?t=110509281&f=123",
       "first_seen_at": "2026-10-22T17:13:58.052007+00:00",
-      "last_checked_at": "2026-10-22T17:15:08.181549+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-23T04:57:15.291431+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -41602,8 +41337,8 @@
       "title": "Vex",
       "url": "https://forums.d2jsp.org/topic.php?t=110508920&f=123",
       "first_seen_at": "2026-10-22T17:13:58.052007+00:00",
-      "last_checked_at": "2026-10-22T17:15:20.781290+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-23T04:57:31.540330+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -41611,24 +41346,10 @@
       "title": "Wts Cham Vs 450fg",
       "url": "https://forums.d2jsp.org/topic.php?t=110508916&f=123",
       "first_seen_at": "2026-10-22T17:13:58.052007+00:00",
-      "last_checked_at": "2026-10-22T17:15:04.782345+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-23T04:57:10.724650+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Cham",
-          "label": "Cham",
-          "side": "ft",
-          "price_fg": 450.0,
-          "title": "Wts Cham Vs 450fg",
-          "url": "https://forums.d2jsp.org/topic.php?t=110508916&f=123",
-          "observed_at": "2026-10-22T17:15:04.782345+00:00",
-          "topic_date": "2026-10-21",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110508678&f=123&o=10": {
       "title": "2",
@@ -42193,8 +41914,8 @@
       "title": "Vex For 3 Ist",
       "url": "https://forums.d2jsp.org/topic.php?t=110506492&f=123",
       "first_seen_at": "2026-10-22T17:13:58.052007+00:00",
-      "last_checked_at": "2026-10-22T17:15:16.851668+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-23T04:57:35.298046+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -42299,5 +42020,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-22T21:40:48.005709+00:00"
+  "updated_at": "2026-10-23T04:57:42.470041+00:00"
 }

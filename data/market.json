@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-24T11:08:34.592131+00:00",
+  "updated_at": "2026-10-24T16:01:08.052775+00:00",
   "forum": "https://forums.d2jsp.org/forum.php?f=123&c=2",
   "topic_count": 0,
   "cached_topics": 3300,
   "parsed_topics": 3300,
-  "completed_topics": 2989,
+  "completed_topics": 3001,
   "parsed_this_run": 12,
-  "sample_count": 536,
+  "sample_count": 535,
   "legacy_sample_count": 0,
   "market": [
     {
@@ -4745,11 +4745,11 @@
       "kind": "rune",
       "id": "Cham",
       "label": "Cham",
-      "fair_fg": 562.5,
-      "iso_fg": 575.0,
+      "fair_fg": 600.0,
+      "iso_fg": 650.0,
       "ft_fg": null,
       "trade_fg": 612.5,
-      "samples": 12,
+      "samples": 11,
       "confidence": "high",
       "last_seen_at": "2026-10-22T17:20:55.775327+00:00",
       "sources": [
@@ -4766,20 +4766,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/22 05:22"
-        },
-        {
-          "kind": "rune",
-          "id": "Cham",
-          "label": "Cham",
-          "side": "iso",
-          "price_fg": 500.0,
-          "title": "Iso Cham Zod Pay Fg Or Jah Ber",
-          "url": "https://forums.d2jsp.org/topic.php?t=110513090&f=123",
-          "observed_at": "2026-10-22T17:19:03.404807+00:00",
-          "topic_date": "2026-10-22",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/22 07:32"
         },
         {
           "kind": "rune",
@@ -10195,7 +10181,7 @@
   "item_source_policy": "season15-items-static-catalog-v7-uber-keys",
   "item_catalog_count": 589,
   "item_topic_count": 1,
-  "item_cached_topics": 1446,
-  "item_parsed_topics": 473,
+  "item_cached_topics": 1414,
+  "item_parsed_topics": 441,
   "item_sample_count": 90
 }

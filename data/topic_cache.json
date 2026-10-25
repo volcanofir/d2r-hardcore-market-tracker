@@ -39469,8 +39469,8 @@
       "title": "Ber",
       "url": "https://forums.d2jsp.org/topic.php?t=110513744&f=123",
       "first_seen_at": "2026-10-22T17:13:58.052007+00:00",
-      "last_checked_at": "2026-10-22T17:20:59.771158+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-25T20:54:58.734555+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -39702,8 +39702,8 @@
       "title": "Ber",
       "url": "https://forums.d2jsp.org/topic.php?t=110513237&f=123",
       "first_seen_at": "2026-10-22T17:13:58.052007+00:00",
-      "last_checked_at": "2026-10-22T17:21:04.700552+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-25T20:55:02.913509+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -39828,102 +39828,10 @@
       "title": "Big Shop",
       "url": "https://forums.d2jsp.org/topic.php?t=110512802&f=123",
       "first_seen_at": "2026-10-22T17:13:58.052007+00:00",
-      "last_checked_at": "2026-10-22T17:20:55.775327+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-25T20:54:49.713034+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Zod",
-          "label": "Zod",
-          "side": "unknown",
-          "price_fg": 1200.0,
-          "title": "Big Shop",
-          "url": "https://forums.d2jsp.org/topic.php?t=110512802&f=123",
-          "observed_at": "2026-10-22T17:20:55.775327+00:00",
-          "topic_date": "2026-10-22",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Cham",
-          "label": "Cham",
-          "side": "unknown",
-          "price_fg": 600.0,
-          "title": "Big Shop",
-          "url": "https://forums.d2jsp.org/topic.php?t=110512802&f=123",
-          "observed_at": "2026-10-22T17:20:55.775327+00:00",
-          "topic_date": "2026-10-22",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Jah",
-          "label": "Jah",
-          "side": "unknown",
-          "price_fg": 800.0,
-          "title": "Big Shop",
-          "url": "https://forums.d2jsp.org/topic.php?t=110512802&f=123",
-          "observed_at": "2026-10-22T17:20:55.775327+00:00",
-          "topic_date": "2026-10-22",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Ber",
-          "label": "Ber",
-          "side": "unknown",
-          "price_fg": 490.0,
-          "title": "Big Shop",
-          "url": "https://forums.d2jsp.org/topic.php?t=110512802&f=123",
-          "observed_at": "2026-10-22T17:20:55.775327+00:00",
-          "topic_date": "2026-10-22",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Lo",
-          "label": "Lo",
-          "side": "unknown",
-          "price_fg": 175.0,
-          "title": "Big Shop",
-          "url": "https://forums.d2jsp.org/topic.php?t=110512802&f=123",
-          "observed_at": "2026-10-22T17:20:55.775327+00:00",
-          "topic_date": "2026-10-22",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Ohm",
-          "label": "Ohm",
-          "side": "unknown",
-          "price_fg": 130.0,
-          "title": "Big Shop",
-          "url": "https://forums.d2jsp.org/topic.php?t=110512802&f=123",
-          "observed_at": "2026-10-22T17:20:55.775327+00:00",
-          "topic_date": "2026-10-22",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Vex",
-          "label": "Vex",
-          "side": "unknown",
-          "price_fg": 75.0,
-          "title": "Big Shop",
-          "url": "https://forums.d2jsp.org/topic.php?t=110512802&f=123",
-          "observed_at": "2026-10-22T17:20:55.775327+00:00",
-          "topic_date": "2026-10-22",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110512799&f=123": {
       "title": "Rune S",
@@ -40190,24 +40098,10 @@
       "title": "Ber X1 - 400fg",
       "url": "https://forums.d2jsp.org/topic.php?t=110511771&f=123",
       "first_seen_at": "2026-10-22T17:13:58.052007+00:00",
-      "last_checked_at": "2026-10-22T17:20:48.498974+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-25T20:54:53.974085+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Ber",
-          "label": "Ber",
-          "side": "ft",
-          "price_fg": 400.0,
-          "title": "Ber X1 - 400fg",
-          "url": "https://forums.d2jsp.org/topic.php?t=110511771&f=123",
-          "observed_at": "2026-10-22T17:20:48.498974+00:00",
-          "topic_date": "2026-10-21",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110511746&f=123": {
       "title": "++ New Trade List ++",
@@ -40231,8 +40125,8 @@
       "title": "Bring Me Cham And Vex",
       "url": "https://forums.d2jsp.org/topic.php?t=110511544&f=123",
       "first_seen_at": "2026-10-22T17:13:58.052007+00:00",
-      "last_checked_at": "2026-10-22T17:20:44.466124+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-25T20:54:49.373921+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -40540,8 +40434,8 @@
       "title": "Ars Dul Mephistos",
       "url": "https://forums.d2jsp.org/topic.php?t=110510730&f=123",
       "first_seen_at": "2026-10-22T17:13:58.052007+00:00",
-      "last_checked_at": "2026-10-22T17:21:04.564919+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-25T20:55:07.507063+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -40653,8 +40547,8 @@
       "title": "Ars Dul Mephistos",
       "url": "https://forums.d2jsp.org/topic.php?t=110510147&f=123",
       "first_seen_at": "2026-10-22T17:13:58.052007+00:00",
-      "last_checked_at": "2026-10-22T17:21:13.687131+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-25T20:55:16.048071+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -40725,8 +40619,8 @@
       "title": "Ber Rune Ft",
       "url": "https://forums.d2jsp.org/topic.php?t=110509841&f=123",
       "first_seen_at": "2026-10-22T17:13:58.052007+00:00",
-      "last_checked_at": "2026-10-22T17:20:52.459673+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-25T20:54:58.244045+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -41509,8 +41403,8 @@
       "title": "4 Jah",
       "url": "https://forums.d2jsp.org/topic.php?t=110517377&f=123",
       "first_seen_at": "2026-10-24T20:53:24.738396+00:00",
-      "last_checked_at": "2026-10-24T20:55:04.319974+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-25T20:54:44.754369+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -41518,8 +41412,8 @@
       "title": "7 Ber For Trade",
       "url": "https://forums.d2jsp.org/topic.php?t=110517376&f=123",
       "first_seen_at": "2026-10-24T20:53:24.738396+00:00",
-      "last_checked_at": "2026-10-24T20:54:59.193673+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-25T20:54:40.979851+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -41979,8 +41873,8 @@
       "title": "Ber",
       "url": "https://forums.d2jsp.org/topic.php?t=110516773&f=123",
       "first_seen_at": "2026-10-24T20:53:24.738396+00:00",
-      "last_checked_at": "2026-10-24T20:54:53.994523+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-25T20:54:41.237160+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -42137,8 +42031,8 @@
       "title": "3",
       "url": "https://forums.d2jsp.org/topic.php?t=110516763&f=123&o=20",
       "first_seen_at": "2026-10-24T20:53:24.738396+00:00",
-      "last_checked_at": "2026-10-24T20:55:12.416817+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-25T20:55:04.745092+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -42831,5 +42725,5 @@
       "samples": []
     }
   },
-  "updated_at": "2026-10-25T16:27:51.773009+00:00"
+  "updated_at": "2026-10-25T20:55:16.050153+00:00"
 }

@@ -41496,8 +41496,8 @@
       "title": "Enigma Mp (see Exact Listing) Enigma",
       "url": "https://forums.d2jsp.org/topic.php?t=110517386&f=123",
       "first_seen_at": "2026-10-24T20:53:24.738396+00:00",
-      "last_checked_at": "2026-10-24T20:54:42.458805+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-25T04:47:58.490891+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -41505,44 +41505,17 @@
       "title": "Ft Sur=200fg",
       "url": "https://forums.d2jsp.org/topic.php?t=110517382&f=123",
       "first_seen_at": "2026-10-24T20:53:24.738396+00:00",
-      "last_checked_at": "2026-10-24T20:54:38.346446+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-25T04:48:02.197487+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Sur",
-          "label": "Sur",
-          "side": "ft",
-          "price_fg": 200.0,
-          "title": "Ft Sur=200fg",
-          "url": "https://forums.d2jsp.org/topic.php?t=110517382&f=123",
-          "observed_at": "2026-10-24T20:54:38.346446+00:00",
-          "topic_date": "2026-10-23",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Lo",
-          "label": "Lo",
-          "side": "ft",
-          "price_fg": 140.0,
-          "title": "Ft Sur=200fg",
-          "url": "https://forums.d2jsp.org/topic.php?t=110517382&f=123",
-          "observed_at": "2026-10-24T20:54:38.346446+00:00",
-          "topic_date": "2026-10-23",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110517379&f=123": {
       "title": "Infinity Mancatcher (please See Picture For Exact)",
       "url": "https://forums.d2jsp.org/topic.php?t=110517379&f=123",
       "first_seen_at": "2026-10-24T20:53:24.738396+00:00",
-      "last_checked_at": "2026-10-24T20:54:31.259018+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-25T04:47:51.394132+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -41718,8 +41691,8 @@
       "title": "Jah",
       "url": "https://forums.d2jsp.org/topic.php?t=110517201&f=123",
       "first_seen_at": "2026-10-24T20:53:24.738396+00:00",
-      "last_checked_at": "2026-10-24T20:54:48.736678+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-25T04:47:42.503607+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -41948,99 +41921,19 @@
       "title": "Wts Runes",
       "url": "https://forums.d2jsp.org/topic.php?t=110517014&f=123",
       "first_seen_at": "2026-10-24T20:53:24.738396+00:00",
-      "last_checked_at": "2026-10-24T20:53:55.258756+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-25T04:47:29.833780+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Ohm",
-          "label": "Ohm",
-          "side": "ft",
-          "price_fg": 90.0,
-          "title": "Wts Runes",
-          "url": "https://forums.d2jsp.org/topic.php?t=110517014&f=123",
-          "observed_at": "2026-10-24T20:53:55.258756+00:00",
-          "topic_date": "2026-10-23",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Ist",
-          "label": "Ist",
-          "side": "ft",
-          "price_fg": 25.0,
-          "title": "Wts Runes",
-          "url": "https://forums.d2jsp.org/topic.php?t=110517014&f=123",
-          "observed_at": "2026-10-24T20:53:55.258756+00:00",
-          "topic_date": "2026-10-23",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Mal",
-          "label": "Mal",
-          "side": "ft",
-          "price_fg": 15.0,
-          "title": "Wts Runes",
-          "url": "https://forums.d2jsp.org/topic.php?t=110517014&f=123",
-          "observed_at": "2026-10-24T20:53:55.258756+00:00",
-          "topic_date": "2026-10-23",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Um",
-          "label": "Um",
-          "side": "ft",
-          "price_fg": 10.0,
-          "title": "Wts Runes",
-          "url": "https://forums.d2jsp.org/topic.php?t=110517014&f=123",
-          "observed_at": "2026-10-24T20:53:55.258756+00:00",
-          "topic_date": "2026-10-23",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110516989&f=123": {
       "title": "O: Jah, Eni, Guardian Jawel N: Fg",
       "url": "https://forums.d2jsp.org/topic.php?t=110516989&f=123",
       "first_seen_at": "2026-10-24T20:53:24.738396+00:00",
-      "last_checked_at": "2026-10-24T20:54:07.159944+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-25T04:47:34.048472+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Jah",
-          "label": "Jah",
-          "side": "ft",
-          "price_fg": 690.0,
-          "title": "O: Jah, Eni, Guardian Jawel N: Fg",
-          "url": "https://forums.d2jsp.org/topic.php?t=110516989&f=123",
-          "observed_at": "2026-10-24T20:54:07.159944+00:00",
-          "topic_date": "2026-10-23",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Sur",
-          "label": "Sur",
-          "side": "ft",
-          "price_fg": 180.0,
-          "title": "O: Jah, Eni, Guardian Jawel N: Fg",
-          "url": "https://forums.d2jsp.org/topic.php?t=110516989&f=123",
-          "observed_at": "2026-10-24T20:54:07.159944+00:00",
-          "topic_date": "2026-10-23",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110516981&f=123": {
       "title": "N Rals",
@@ -42055,8 +41948,8 @@
       "title": "Lo Rune Ft",
       "url": "https://forums.d2jsp.org/topic.php?t=110516975&f=123",
       "first_seen_at": "2026-10-24T20:53:24.738396+00:00",
-      "last_checked_at": "2026-10-24T20:54:21.497717+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-25T04:47:38.316537+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -42073,8 +41966,8 @@
       "title": "Infinity",
       "url": "https://forums.d2jsp.org/topic.php?t=110516863&f=123",
       "first_seen_at": "2026-10-24T20:53:24.738396+00:00",
-      "last_checked_at": "2026-10-24T20:54:32.430515+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-25T04:47:51.856451+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -42082,8 +41975,8 @@
       "title": "Wts: Lightning Sunder Gc, Useful Scs",
       "url": "https://forums.d2jsp.org/topic.php?t=110516851&f=123",
       "first_seen_at": "2026-10-24T20:53:24.738396+00:00",
-      "last_checked_at": "2026-10-24T20:54:15.046522+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-25T04:47:29.824455+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -42091,37 +41984,10 @@
       "title": "Runes And Shards",
       "url": "https://forums.d2jsp.org/topic.php?t=110516801&f=123",
       "first_seen_at": "2026-10-24T20:53:24.738396+00:00",
-      "last_checked_at": "2026-10-24T20:53:56.327823+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-25T04:47:54.131057+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Vex",
-          "label": "Vex",
-          "side": "unknown",
-          "price_fg": 50.0,
-          "title": "Runes And Shards",
-          "url": "https://forums.d2jsp.org/topic.php?t=110516801&f=123",
-          "observed_at": "2026-10-24T20:53:56.327823+00:00",
-          "topic_date": "2026-10-23",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Sur",
-          "label": "Sur",
-          "side": "unknown",
-          "price_fg": 175.0,
-          "title": "Runes And Shards",
-          "url": "https://forums.d2jsp.org/topic.php?t=110516801&f=123",
-          "observed_at": "2026-10-24T20:53:56.327823+00:00",
-          "topic_date": "2026-10-23",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110516773&f=123": {
       "title": "Ber",
@@ -42294,57 +42160,17 @@
       "title": "Ko Lum Pul",
       "url": "https://forums.d2jsp.org/topic.php?t=110516720&f=123",
       "first_seen_at": "2026-10-24T20:53:24.738396+00:00",
-      "last_checked_at": "2026-10-24T20:54:22.845955+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-25T04:47:38.659824+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Pul",
-          "label": "Pul",
-          "side": "unknown",
-          "price_fg": 12.0,
-          "title": "Ko Lum Pul",
-          "url": "https://forums.d2jsp.org/topic.php?t=110516720&f=123",
-          "observed_at": "2026-10-24T20:54:22.845955+00:00",
-          "topic_date": "2026-10-23",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Ko",
-          "label": "Ko",
-          "side": "unknown",
-          "price_fg": 5.0,
-          "title": "Ko Lum Pul",
-          "url": "https://forums.d2jsp.org/topic.php?t=110516720&f=123",
-          "observed_at": "2026-10-24T20:54:22.845955+00:00",
-          "topic_date": "2026-10-23",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Lum",
-          "label": "Lum",
-          "side": "unknown",
-          "price_fg": 3.0,
-          "title": "Ko Lum Pul",
-          "url": "https://forums.d2jsp.org/topic.php?t=110516720&f=123",
-          "observed_at": "2026-10-24T20:54:22.845955+00:00",
-          "topic_date": "2026-10-23",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110516714&f=123": {
       "title": "Iso 1 X Lo Rune",
       "url": "https://forums.d2jsp.org/topic.php?t=110516714&f=123",
       "first_seen_at": "2026-10-24T20:53:24.738396+00:00",
-      "last_checked_at": "2026-10-24T20:54:26.370744+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-25T04:47:46.860719+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -42802,5 +42628,5 @@
       "samples": []
     }
   },
-  "updated_at": "2026-10-24T23:20:28.102546+00:00"
+  "updated_at": "2026-10-25T04:48:02.199801+00:00"
 }

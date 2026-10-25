@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T11:38:18.178308+00:00",
+  "updated_at": "2026-10-25T16:27:51.816892+00:00",
   "forum_pages": [
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&c=2",
@@ -182,10 +182,10 @@
       ]
     },
     {
-      "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=250",
+      "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=250",
       "offset": 250,
-      "topics": 0,
-      "bytes": 0,
+      "topics": 25,
+      "bytes": 10472,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=250",
@@ -194,8 +194,8 @@
         },
         {
           "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=250",
-          "topics": 0,
-          "bytes": 286
+          "topics": 25,
+          "bytes": 10472
         }
       ]
     },
@@ -254,13 +254,13 @@
       ]
     }
   ],
-  "discovered_topics": 0,
-  "cached_topics": 3353,
-  "selected_topics": 12,
-  "parsed_this_run": 12,
-  "completed_this_run": 12,
+  "discovered_topics": 25,
+  "cached_topics": 3366,
+  "selected_topics": 25,
+  "parsed_this_run": 25,
+  "completed_this_run": 17,
   "legacy_samples": 0,
-  "combined_samples": 925,
+  "combined_samples": 941,
   "topic_errors": [],
   "season": 15,
   "season_label": "第 15 季天梯",

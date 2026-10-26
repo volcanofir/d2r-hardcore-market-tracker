@@ -42565,60 +42565,19 @@
       "title": "Ral Tir Tal Sol Eth Ca 4s Duriel Tal Mask Token",
       "url": "https://forums.d2jsp.org/topic.php?t=110526035&f=123",
       "first_seen_at": "2026-10-26T04:52:30.871056+00:00",
-      "last_checked_at": "2026-10-26T04:53:02.257634+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-26T13:10:12.039452+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Sol",
-          "label": "Sol",
-          "side": "unknown",
-          "price_fg": 5.0,
-          "title": "Ral Tir Tal Sol Eth Ca 4s Duriel Tal Mask Token",
-          "url": "https://forums.d2jsp.org/topic.php?t=110526035&f=123",
-          "observed_at": "2026-10-26T04:53:02.257634+00:00",
-          "topic_date": "2026-10-25",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110526011&f=123": {
       "title": "Ist+lo Rune",
       "url": "https://forums.d2jsp.org/topic.php?t=110526011&f=123",
       "first_seen_at": "2026-10-26T04:52:30.871056+00:00",
-      "last_checked_at": "2026-10-26T04:53:19.870611+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-26T13:10:46.254000+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Lo",
-          "label": "Lo",
-          "side": "unknown",
-          "price_fg": 160.0,
-          "title": "Ist+lo Rune",
-          "url": "https://forums.d2jsp.org/topic.php?t=110526011&f=123",
-          "observed_at": "2026-10-26T04:53:19.870611+00:00",
-          "topic_date": "2026-10-25",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Lo",
-          "label": "Lo",
-          "side": "unknown",
-          "price_fg": 130.0,
-          "title": "Ist+lo Rune",
-          "url": "https://forums.d2jsp.org/topic.php?t=110526011&f=123",
-          "observed_at": "2026-10-26T04:53:19.870611+00:00",
-          "topic_date": "2026-10-25",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110525995&f=123": {
       "title": "Ft : Sur",
@@ -42633,8 +42592,8 @@
       "title": "Lo Rune",
       "url": "https://forums.d2jsp.org/topic.php?t=110525933&f=123",
       "first_seen_at": "2026-10-26T04:52:30.871056+00:00",
-      "last_checked_at": "2026-10-26T04:54:00.119636+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-26T13:10:21.359973+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -42651,8 +42610,8 @@
       "title": "N Ohm",
       "url": "https://forums.d2jsp.org/topic.php?t=110525908&f=123",
       "first_seen_at": "2026-10-26T04:52:30.871056+00:00",
-      "last_checked_at": "2026-10-26T04:53:13.174706+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-26T13:10:23.675612+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -42660,37 +42619,10 @@
       "title": "Iso 2 X Ist 1 Ko 1 Mal",
       "url": "https://forums.d2jsp.org/topic.php?t=110525889&f=123",
       "first_seen_at": "2026-10-26T04:52:30.871056+00:00",
-      "last_checked_at": "2026-10-26T04:53:38.390469+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-26T13:10:41.933098+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Ko",
-          "label": "Ko",
-          "side": "iso",
-          "price_fg": 55.0,
-          "title": "Iso 2 X Ist 1 Ko 1 Mal",
-          "url": "https://forums.d2jsp.org/topic.php?t=110525889&f=123",
-          "observed_at": "2026-10-26T04:53:38.390469+00:00",
-          "topic_date": "2026-10-25",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Mal",
-          "label": "Mal",
-          "side": "iso",
-          "price_fg": 18.0,
-          "title": "Iso 2 X Ist 1 Ko 1 Mal",
-          "url": "https://forums.d2jsp.org/topic.php?t=110525889&f=123",
-          "observed_at": "2026-10-26T04:53:38.390469+00:00",
-          "topic_date": "2026-10-25",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110525885&f=123": {
       "title": "20-minute Auction Package",
@@ -42790,8 +42722,8 @@
       "title": "Iso Ohm",
       "url": "https://forums.d2jsp.org/topic.php?t=110525740&f=123",
       "first_seen_at": "2026-10-26T04:52:30.871056+00:00",
-      "last_checked_at": "2026-10-26T04:53:25.973597+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-26T13:10:32.112620+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -42799,24 +42731,10 @@
       "title": "Iso Lo Rune + 5 Sock Ba + Mal Rune",
       "url": "https://forums.d2jsp.org/topic.php?t=110525690&f=123",
       "first_seen_at": "2026-10-26T04:52:30.871056+00:00",
-      "last_checked_at": "2026-10-26T04:53:27.216612+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-26T13:10:32.591592+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Lo",
-          "label": "Lo",
-          "side": "iso",
-          "price_fg": 125.0,
-          "title": "Iso Lo Rune + 5 Sock Ba + Mal Rune",
-          "url": "https://forums.d2jsp.org/topic.php?t=110525690&f=123",
-          "observed_at": "2026-10-26T04:53:27.216612+00:00",
-          "topic_date": "2026-10-25",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110525681&f=123": {
       "title": "2x Lo",
@@ -42831,8 +42749,8 @@
       "title": "Ohm",
       "url": "https://forums.d2jsp.org/topic.php?t=110525665&f=123",
       "first_seen_at": "2026-10-26T04:52:30.871056+00:00",
-      "last_checked_at": "2026-10-26T04:53:09.486668+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-26T13:10:16.236406+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -42944,8 +42862,8 @@
       "title": "Lo",
       "url": "https://forums.d2jsp.org/topic.php?t=110525386&f=123",
       "first_seen_at": "2026-10-26T04:52:30.871056+00:00",
-      "last_checked_at": "2026-10-26T04:53:14.261709+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-26T13:10:21.960956+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -42953,8 +42871,8 @@
       "title": "Iso List",
       "url": "https://forums.d2jsp.org/topic.php?t=110525349&f=123",
       "first_seen_at": "2026-10-26T04:52:30.871056+00:00",
-      "last_checked_at": "2026-10-26T04:53:31.913012+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-26T13:10:37.169281+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -42962,8 +42880,8 @@
       "title": "Ohm & Unid Torch",
       "url": "https://forums.d2jsp.org/topic.php?t=110525342&f=123",
       "first_seen_at": "2026-10-26T04:52:30.871056+00:00",
-      "last_checked_at": "2026-10-26T04:53:03.124413+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-26T13:10:12.201169+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -42980,11 +42898,11 @@
       "title": "Iso Um Rune",
       "url": "https://forums.d2jsp.org/topic.php?t=110525310&f=123",
       "first_seen_at": "2026-10-26T04:52:30.871056+00:00",
-      "last_checked_at": "2026-10-26T04:53:21.156589+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-26T13:10:27.983712+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     }
   },
-  "updated_at": "2026-10-26T04:54:55.328144+00:00"
+  "updated_at": "2026-10-26T13:10:46.255933+00:00"
 }

@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-26T13:11:09.277356+00:00",
+  "updated_at": "2026-10-26T20:33:24.381408+00:00",
   "forum": "https://forums.d2jsp.org/forum.php?f=123&c=2",
   "topic_count": 0,
   "cached_topics": 3392,
   "parsed_topics": 3392,
-  "completed_topics": 3131,
+  "completed_topics": 3143,
   "parsed_this_run": 12,
-  "sample_count": 547,
+  "sample_count": 543,
   "legacy_sample_count": 0,
   "market": [
     {
@@ -2029,28 +2029,14 @@
       "kind": "rune",
       "id": "Gul",
       "label": "Gul",
-      "fair_fg": 30.0,
+      "fair_fg": 32.5,
       "iso_fg": 43.0,
       "ft_fg": 35.0,
       "trade_fg": 35.0,
-      "samples": 27,
+      "samples": 26,
       "confidence": "high",
-      "last_seen_at": "2026-10-26T04:53:45.284150+00:00",
+      "last_seen_at": "2026-10-25T16:27:42.225978+00:00",
       "sources": [
-        {
-          "kind": "rune",
-          "id": "Gul",
-          "label": "Gul",
-          "side": "unknown",
-          "price_fg": 25.0,
-          "title": "Gul//renewed Crack Of The Heavens",
-          "url": "https://forums.d2jsp.org/topic.php?t=110525613&f=123",
-          "observed_at": "2026-10-26T04:53:45.284150+00:00",
-          "topic_date": "2026-10-25",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/25 05:30"
-        },
         {
           "kind": "rune",
           "id": "Gul",
@@ -2372,6 +2358,20 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/6 05:08"
+        },
+        {
+          "kind": "rune",
+          "id": "Gul",
+          "label": "Gul",
+          "side": "unknown",
+          "price_fg": 30.0,
+          "title": "1x Gul Rune",
+          "url": "https://forums.d2jsp.org/topic.php?t=110428035&f=123",
+          "observed_at": "2026-10-05T00:00:02.020002+00:00",
+          "topic_date": "2026-10-04",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/4 07:24"
         }
       ]
     },
@@ -3083,7 +3083,7 @@
       "iso_fg": 60.0,
       "ft_fg": 70.0,
       "trade_fg": 57.5,
-      "samples": 46,
+      "samples": 43,
       "confidence": "high",
       "last_seen_at": "2026-10-26T04:54:35.468549+00:00",
       "sources": [
@@ -3114,48 +3114,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/25 13:22"
-        },
-        {
-          "kind": "rune",
-          "id": "Vex",
-          "label": "Vex",
-          "side": "unknown",
-          "price_fg": 40.0,
-          "title": "4s Flail - Vex",
-          "url": "https://forums.d2jsp.org/topic.php?t=110525775&f=123",
-          "observed_at": "2026-10-26T04:54:11.077715+00:00",
-          "topic_date": "2026-10-25",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/25 06:23"
-        },
-        {
-          "kind": "rune",
-          "id": "Vex",
-          "label": "Vex",
-          "side": "unknown",
-          "price_fg": 50.0,
-          "title": "4s Flail - Vex",
-          "url": "https://forums.d2jsp.org/topic.php?t=110525775&f=123",
-          "observed_at": "2026-10-26T04:54:11.077715+00:00",
-          "topic_date": "2026-10-25",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/25 06:23"
-        },
-        {
-          "kind": "rune",
-          "id": "Vex",
-          "label": "Vex",
-          "side": "unknown",
-          "price_fg": 45.0,
-          "title": "4s Flail - Vex",
-          "url": "https://forums.d2jsp.org/topic.php?t=110525775&f=123",
-          "observed_at": "2026-10-26T04:54:11.077715+00:00",
-          "topic_date": "2026-10-25",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/25 06:23"
         },
         {
           "kind": "rune",
@@ -3422,6 +3380,48 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/17 09:43"
+        },
+        {
+          "kind": "rune",
+          "id": "Vex",
+          "label": "Vex",
+          "side": "unknown",
+          "price_fg": 7.5,
+          "title": "Goku's Hcl Shop",
+          "url": "https://forums.d2jsp.org/topic.php?t=110479510&f=123",
+          "observed_at": "2026-10-15T04:48:04.458333+00:00",
+          "topic_date": "2026-10-14",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/14 21:26"
+        },
+        {
+          "kind": "rune",
+          "id": "Vex",
+          "label": "Vex",
+          "side": "unknown",
+          "price_fg": 50.0,
+          "title": "Goku's Hcl Shop",
+          "url": "https://forums.d2jsp.org/topic.php?t=110479510&f=123",
+          "observed_at": "2026-10-15T04:48:04.458333+00:00",
+          "topic_date": "2026-10-14",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/14 21:26"
+        },
+        {
+          "kind": "rune",
+          "id": "Vex",
+          "label": "Vex",
+          "side": "trade",
+          "price_fg": 28.75,
+          "title": "Goku's Hcl Shop · T4T/sold signal",
+          "url": "https://forums.d2jsp.org/topic.php?t=110479510&f=123",
+          "observed_at": "2026-10-15T04:48:04.458333+00:00",
+          "topic_date": "2026-10-14",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/14 21:26"
         }
       ]
     },

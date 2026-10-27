@@ -43182,8 +43182,8 @@
       "title": "Wts Pan List",
       "url": "https://forums.d2jsp.org/topic.php?t=110520563&f=123",
       "first_seen_at": "2026-10-27T09:04:10.131705+00:00",
-      "last_checked_at": "2026-10-27T09:04:41.265324+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-27T15:23:49.384983+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -43191,8 +43191,8 @@
       "title": "Lo",
       "url": "https://forums.d2jsp.org/topic.php?t=110520561&f=123",
       "first_seen_at": "2026-10-27T09:04:10.131705+00:00",
-      "last_checked_at": "2026-10-27T09:05:18.385697+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-27T15:24:12.677737+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -43200,24 +43200,10 @@
       "title": "O Ist 19 Fg Ft",
       "url": "https://forums.d2jsp.org/topic.php?t=110520548&f=123",
       "first_seen_at": "2026-10-27T09:04:10.131705+00:00",
-      "last_checked_at": "2026-10-27T09:05:00.600155+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-27T15:24:08.663470+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Ist",
-          "label": "Ist",
-          "side": "ft",
-          "price_fg": 19.0,
-          "title": "O Ist 19 Fg Ft",
-          "url": "https://forums.d2jsp.org/topic.php?t=110520548&f=123",
-          "observed_at": "2026-10-27T09:05:00.600155+00:00",
-          "topic_date": "2026-10-24",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110520517&f=123": {
       "title": "Iso 2x Cham Rune",
@@ -43232,8 +43218,8 @@
       "title": "Ist4",
       "url": "https://forums.d2jsp.org/topic.php?t=110520514&f=123",
       "first_seen_at": "2026-10-27T09:04:10.131705+00:00",
-      "last_checked_at": "2026-10-27T09:05:14.780125+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-27T15:24:20.969268+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -43241,60 +43227,19 @@
       "title": "Wts Vex/ist",
       "url": "https://forums.d2jsp.org/topic.php?t=110520499&f=123",
       "first_seen_at": "2026-10-27T09:04:10.131705+00:00",
-      "last_checked_at": "2026-10-27T09:04:41.613256+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-27T15:23:56.829295+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Vex",
-          "label": "Vex",
-          "side": "ft",
-          "price_fg": 40.0,
-          "title": "Wts Vex/ist",
-          "url": "https://forums.d2jsp.org/topic.php?t=110520499&f=123",
-          "observed_at": "2026-10-27T09:04:41.613256+00:00",
-          "topic_date": "2026-10-24",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Ist",
-          "label": "Ist",
-          "side": "ft",
-          "price_fg": 15.0,
-          "title": "Wts Vex/ist",
-          "url": "https://forums.d2jsp.org/topic.php?t=110520499&f=123",
-          "observed_at": "2026-10-27T09:04:41.613256+00:00",
-          "topic_date": "2026-10-24",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110520460&f=123": {
       "title": "Wtb \"white\" Runeword & Base",
       "url": "https://forums.d2jsp.org/topic.php?t=110520460&f=123",
       "first_seen_at": "2026-10-27T09:04:10.131705+00:00",
-      "last_checked_at": "2026-10-27T09:04:47.443250+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-27T15:24:04.797016+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Dol",
-          "label": "Dol",
-          "side": "iso",
-          "price_fg": 5.0,
-          "title": "Wtb \"white\" Runeword & Base",
-          "url": "https://forums.d2jsp.org/topic.php?t=110520460&f=123",
-          "observed_at": "2026-10-27T09:04:47.443250+00:00",
-          "topic_date": "2026-10-24",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110520403&f=123": {
       "title": "Cheap Hc Ld Items",
@@ -43684,50 +43629,10 @@
       "title": "Wts Ohm , Ists, Mals,ums",
       "url": "https://forums.d2jsp.org/topic.php?t=110520394&f=123",
       "first_seen_at": "2026-10-27T09:04:10.131705+00:00",
-      "last_checked_at": "2026-10-27T09:04:46.325248+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-27T15:23:53.357202+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Ohm",
-          "label": "Ohm",
-          "side": "ft",
-          "price_fg": 90.0,
-          "title": "Wts Ohm , Ists, Mals,ums",
-          "url": "https://forums.d2jsp.org/topic.php?t=110520394&f=123",
-          "observed_at": "2026-10-27T09:04:46.325248+00:00",
-          "topic_date": "2026-10-24",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Mal",
-          "label": "Mal",
-          "side": "ft",
-          "price_fg": 15.0,
-          "title": "Wts Ohm , Ists, Mals,ums",
-          "url": "https://forums.d2jsp.org/topic.php?t=110520394&f=123",
-          "observed_at": "2026-10-27T09:04:46.325248+00:00",
-          "topic_date": "2026-10-24",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Um",
-          "label": "Um",
-          "side": "ft",
-          "price_fg": 10.0,
-          "title": "Wts Ohm , Ists, Mals,ums",
-          "url": "https://forums.d2jsp.org/topic.php?t=110520394&f=123",
-          "observed_at": "2026-10-27T09:04:46.325248+00:00",
-          "topic_date": "2026-10-24",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110520393&f=123": {
       "title": "Iso: Latent Crack + Southern Shard + Fal",
@@ -43801,8 +43706,8 @@
       "title": "Wts Ohm Ist",
       "url": "https://forums.d2jsp.org/topic.php?t=110520019&f=123",
       "first_seen_at": "2026-10-27T09:04:10.131705+00:00",
-      "last_checked_at": "2026-10-27T09:05:06.199837+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-27T15:23:53.004300+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -43846,31 +43751,17 @@
       "title": "Need Runes Bases",
       "url": "https://forums.d2jsp.org/topic.php?t=110519925&f=123",
       "first_seen_at": "2026-10-27T09:04:10.131705+00:00",
-      "last_checked_at": "2026-10-27T09:05:05.912482+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-27T15:24:29.767769+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Mal",
-          "label": "Mal",
-          "side": "iso",
-          "price_fg": 15.0,
-          "title": "Need Runes Bases",
-          "url": "https://forums.d2jsp.org/topic.php?t=110519925&f=123",
-          "observed_at": "2026-10-27T09:05:05.912482+00:00",
-          "topic_date": "2026-10-23",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110519855&f=123": {
       "title": "Pb 4soc 10-15ed Rune Um",
       "url": "https://forums.d2jsp.org/topic.php?t=110519855&f=123",
       "first_seen_at": "2026-10-27T09:04:10.131705+00:00",
-      "last_checked_at": "2026-10-27T09:04:59.224603+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-27T15:24:05.684820+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -43878,24 +43769,10 @@
       "title": "Sur Vs 100 Fg",
       "url": "https://forums.d2jsp.org/topic.php?t=110519828&f=123",
       "first_seen_at": "2026-10-27T09:04:10.131705+00:00",
-      "last_checked_at": "2026-10-27T09:04:52.619486+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-27T15:24:01.132763+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Sur",
-          "label": "Sur",
-          "side": "ft",
-          "price_fg": 100.0,
-          "title": "Sur Vs 100 Fg",
-          "url": "https://forums.d2jsp.org/topic.php?t=110519828&f=123",
-          "observed_at": "2026-10-27T09:04:52.619486+00:00",
-          "topic_date": "2026-10-23",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110519670&f=123": {
       "title": "Almost Perfect Renewed Cold Sunder Gc",
@@ -43910,8 +43787,8 @@
       "title": "Jah 650",
       "url": "https://forums.d2jsp.org/topic.php?t=110519666&f=123",
       "first_seen_at": "2026-10-27T09:04:10.131705+00:00",
-      "last_checked_at": "2026-10-27T09:05:13.658545+00:00",
-      "completed": false,
+      "last_checked_at": "2026-10-27T15:24:16.565366+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -43934,5 +43811,5 @@
       "samples": []
     }
   },
-  "updated_at": "2026-10-27T09:06:36.788802+00:00"
+  "updated_at": "2026-10-27T15:24:29.769683+00:00"
 }

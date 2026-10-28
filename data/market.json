@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-28T05:52:22.595955+00:00",
+  "updated_at": "2026-10-28T13:02:26.376107+00:00",
   "forum": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-  "topic_count": 83,
+  "topic_count": 0,
   "cached_topics": 3540,
   "parsed_topics": 3540,
-  "completed_topics": 3254,
-  "parsed_this_run": 78,
-  "sample_count": 578,
+  "completed_topics": 3266,
+  "parsed_this_run": 12,
+  "sample_count": 577,
   "legacy_sample_count": 0,
   "market": [
     {
@@ -2803,24 +2803,10 @@
       "iso_fg": 10.0,
       "ft_fg": 10.0,
       "trade_fg": 11.25,
-      "samples": 29,
+      "samples": 28,
       "confidence": "high",
-      "last_seen_at": "2026-10-28T05:48:24.332567+00:00",
+      "last_seen_at": "2026-10-25T16:27:44.717300+00:00",
       "sources": [
-        {
-          "kind": "rune",
-          "id": "Pul",
-          "label": "Pul",
-          "side": "unknown",
-          "price_fg": 5.0,
-          "title": "Pul And Vex",
-          "url": "https://forums.d2jsp.org/topic.php?t=110524198&f=123",
-          "observed_at": "2026-10-28T05:48:24.332567+00:00",
-          "topic_date": "2026-10-24",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/24 20:40"
-        },
         {
           "kind": "rune",
           "id": "Pul",
@@ -3142,6 +3128,20 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/5 23:32"
+        },
+        {
+          "kind": "rune",
+          "id": "Pul",
+          "label": "Pul",
+          "side": "iso",
+          "price_fg": 10.0,
+          "title": "Iso Ohm Vex Pul",
+          "url": "https://forums.d2jsp.org/topic.php?t=110437348&f=123",
+          "observed_at": "2026-10-06T16:02:34.189338+00:00",
+          "topic_date": "2026-10-05",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/5 20:01"
         }
       ]
     },

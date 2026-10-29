@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-28T20:20:32.196748+00:00",
+  "updated_at": "2026-10-29T01:01:30.050255+00:00",
   "forum": "https://forums.d2jsp.org/forum.php?f=123&c=2",
   "topic_count": 0,
   "cached_topics": 3540,
   "parsed_topics": 3540,
-  "completed_topics": 3278,
+  "completed_topics": 3290,
   "parsed_this_run": 12,
-  "sample_count": 566,
+  "sample_count": 565,
   "legacy_sample_count": 0,
   "market": [
     {
@@ -5207,28 +5207,14 @@
       "kind": "rune",
       "id": "Jah",
       "label": "Jah",
-      "fair_fg": 800.0,
+      "fair_fg": 812.5,
       "iso_fg": 775.0,
-      "ft_fg": 802.5,
+      "ft_fg": 825.0,
       "trade_fg": 805.0,
-      "samples": 23,
+      "samples": 22,
       "confidence": "high",
-      "last_seen_at": "2026-10-28T05:50:01.335905+00:00",
+      "last_seen_at": "2026-10-25T16:27:45.328030+00:00",
       "sources": [
-        {
-          "kind": "rune",
-          "id": "Jah",
-          "label": "Jah",
-          "side": "ft",
-          "price_fg": 10.0,
-          "title": "Here's The Cheapest Jah By 10 Fg",
-          "url": "https://forums.d2jsp.org/topic.php?t=110528341&f=123",
-          "observed_at": "2026-10-28T05:50:01.335905+00:00",
-          "topic_date": "2026-10-25",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/25 17:19"
-        },
         {
           "kind": "rune",
           "id": "Jah",
@@ -5550,6 +5536,20 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/12 16:47"
+        },
+        {
+          "kind": "rune",
+          "id": "Jah",
+          "label": "Jah",
+          "side": "iso",
+          "price_fg": 950.0,
+          "title": "Iso Warlock Items",
+          "url": "https://forums.d2jsp.org/topic.php?t=110441419&f=123",
+          "observed_at": "2026-10-06T22:45:38.625652+00:00",
+          "topic_date": "2026-10-06",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/6 16:08"
         }
       ]
     },
@@ -9434,9 +9434,9 @@
       "kind": "item",
       "id": "shako",
       "label": "軍帽 (Harlequin Crest / Shako)",
-      "fair_fg": 21.0,
+      "fair_fg": 25.0,
       "iso_fg": null,
-      "ft_fg": 17.0,
+      "ft_fg": 33.5,
       "trade_fg": 17.0,
       "samples": 3,
       "confidence": "low",
@@ -9499,8 +9499,6 @@
           "topic_time": "2026/10/10 23:36"
         }
       ],
-      "pricing_window_days": 7,
-      "recent_source_count": 2,
       "category": "頭盔"
     },
     {
@@ -10134,7 +10132,7 @@
   "item_source_policy": "season15-items-static-catalog-v7-uber-keys",
   "item_catalog_count": 589,
   "item_topic_count": 1,
-  "item_cached_topics": 1287,
-  "item_parsed_topics": 314,
+  "item_cached_topics": 1254,
+  "item_parsed_topics": 281,
   "item_sample_count": 77
 }

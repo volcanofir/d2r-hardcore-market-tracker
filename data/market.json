@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-30T01:06:59.318682+00:00",
+  "updated_at": "2026-10-30T10:07:36.616447+00:00",
   "forum": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-  "topic_count": 26,
+  "topic_count": 0,
   "cached_topics": 3831,
   "parsed_topics": 3831,
-  "completed_topics": 3416,
-  "parsed_this_run": 14,
-  "sample_count": 721,
+  "completed_topics": 3428,
+  "parsed_this_run": 12,
+  "sample_count": 708,
   "legacy_sample_count": 0,
   "market": [
     {
@@ -351,9 +351,9 @@
       "label": "Ist",
       "fair_fg": 30.0,
       "iso_fg": 30.0,
-      "ft_fg": 33.33,
+      "ft_fg": 41.66,
       "trade_fg": 30.0,
-      "samples": 67,
+      "samples": 65,
       "confidence": "high",
       "last_seen_at": "2026-10-29T18:42:41.305065+00:00",
       "sources": [
@@ -571,34 +571,6 @@
           "kind": "rune",
           "id": "Ist",
           "label": "Ist",
-          "side": "unknown",
-          "price_fg": 50.0,
-          "title": "Vex Gul Ist Mal",
-          "url": "https://forums.d2jsp.org/topic.php?t=110531321&f=123",
-          "observed_at": "2026-10-29T18:30:35.094660+00:00",
-          "topic_date": "2026-10-26",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/26 14:11"
-        },
-        {
-          "kind": "rune",
-          "id": "Ist",
-          "label": "Ist",
-          "side": "ft",
-          "price_fg": 20.0,
-          "title": "Vtmatt Ft List With Bins",
-          "url": "https://forums.d2jsp.org/topic.php?t=110538262&f=123",
-          "observed_at": "2026-10-29T18:30:26.296928+00:00",
-          "topic_date": "2026-10-28",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/28 19:45"
-        },
-        {
-          "kind": "rune",
-          "id": "Ist",
-          "label": "Ist",
           "side": "iso",
           "price_fg": 25.0,
           "title": "=iso Items, Paying Fg=",
@@ -692,6 +664,34 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/21 02:08"
+        },
+        {
+          "kind": "rune",
+          "id": "Ist",
+          "label": "Ist",
+          "side": "trade",
+          "price_fg": 15.0,
+          "title": "Warlock Iso · T4T/sold signal",
+          "url": "https://forums.d2jsp.org/topic.php?t=110508435&f=123",
+          "observed_at": "2026-10-21T11:56:18.063759+00:00",
+          "topic_date": "2026-10-21",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/21 02:08"
+        },
+        {
+          "kind": "rune",
+          "id": "Ist",
+          "label": "Ist",
+          "side": "iso",
+          "price_fg": 20.0,
+          "title": "=paying 100fg Iso 5x Ist Rune=",
+          "url": "https://forums.d2jsp.org/topic.php?t=110505693&f=123",
+          "observed_at": "2026-10-21T04:55:14.530773+00:00",
+          "topic_date": "2026-10-20",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/20 10:41"
         }
       ]
     },
@@ -701,9 +701,9 @@
       "label": "Sur",
       "fair_fg": 200.0,
       "iso_fg": 200.0,
-      "ft_fg": 280.0,
+      "ft_fg": 350.0,
       "trade_fg": 200.0,
-      "samples": 35,
+      "samples": 34,
       "confidence": "high",
       "last_seen_at": "2026-10-29T18:41:24.403917+00:00",
       "sources": [
@@ -879,20 +879,6 @@
           "kind": "rune",
           "id": "Sur",
           "label": "Sur",
-          "side": "ft",
-          "price_fg": 185.0,
-          "title": "Vtmatt Ft List With Bins",
-          "url": "https://forums.d2jsp.org/topic.php?t=110538262&f=123",
-          "observed_at": "2026-10-29T18:30:26.296928+00:00",
-          "topic_date": "2026-10-28",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/28 19:45"
-        },
-        {
-          "kind": "rune",
-          "id": "Sur",
-          "label": "Sur",
           "side": "iso",
           "price_fg": 200.0,
           "title": "Wtb Sur",
@@ -1042,6 +1028,20 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/18 01:19"
+        },
+        {
+          "kind": "rune",
+          "id": "Sur",
+          "label": "Sur",
+          "side": "ft",
+          "price_fg": 190.0,
+          "title": "Jah Sur Ft",
+          "url": "https://forums.d2jsp.org/topic.php?t=110503090&f=123",
+          "observed_at": "2026-10-20T19:20:14.795337+00:00",
+          "topic_date": "2026-10-19",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/19 17:32"
         }
       ]
     },
@@ -1049,11 +1049,11 @@
       "kind": "rune",
       "id": "Lo",
       "label": "Lo",
-      "fair_fg": 147.5,
+      "fair_fg": 150.0,
       "iso_fg": 155.0,
       "ft_fg": 140.0,
       "trade_fg": 150.0,
-      "samples": 42,
+      "samples": 41,
       "confidence": "high",
       "last_seen_at": "2026-10-29T18:41:44.186924+00:00",
       "sources": [
@@ -1287,20 +1287,6 @@
           "label": "Lo",
           "side": "unknown",
           "price_fg": 120.0,
-          "title": "Void Base",
-          "url": "https://forums.d2jsp.org/topic.php?t=110527162&f=123",
-          "observed_at": "2026-10-29T18:30:29.425269+00:00",
-          "topic_date": "2026-10-25",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/25 12:27"
-        },
-        {
-          "kind": "rune",
-          "id": "Lo",
-          "label": "Lo",
-          "side": "unknown",
-          "price_fg": 120.0,
           "title": "Zod+lo Runes + Cheap Stuff",
           "url": "https://forums.d2jsp.org/topic.php?t=110527126&f=123",
           "observed_at": "2026-10-29T18:30:13.764550+00:00",
@@ -1386,6 +1372,20 @@
           "side": "unknown",
           "price_fg": 150.0,
           "title": "Runes",
+          "url": "https://forums.d2jsp.org/topic.php?t=110517047&f=123",
+          "observed_at": "2026-10-24T20:54:00.721797+00:00",
+          "topic_date": "2026-10-23",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/23 06:44"
+        },
+        {
+          "kind": "rune",
+          "id": "Lo",
+          "label": "Lo",
+          "side": "trade",
+          "price_fg": 150.0,
+          "title": "Runes · T4T/sold signal",
           "url": "https://forums.d2jsp.org/topic.php?t=110517047&f=123",
           "observed_at": "2026-10-24T20:54:00.721797+00:00",
           "topic_date": "2026-10-23",
@@ -1753,7 +1753,7 @@
       "iso_fg": 20.0,
       "ft_fg": 25.0,
       "trade_fg": 20.0,
-      "samples": 55,
+      "samples": 53,
       "confidence": "high",
       "last_seen_at": "2026-10-29T18:42:32.706646+00:00",
       "sources": [
@@ -1930,34 +1930,6 @@
           "id": "Mal",
           "label": "Mal",
           "side": "unknown",
-          "price_fg": 15.0,
-          "title": "Vex Gul Ist Mal",
-          "url": "https://forums.d2jsp.org/topic.php?t=110531321&f=123",
-          "observed_at": "2026-10-29T18:30:35.094660+00:00",
-          "topic_date": "2026-10-26",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/26 14:11"
-        },
-        {
-          "kind": "rune",
-          "id": "Mal",
-          "label": "Mal",
-          "side": "ft",
-          "price_fg": 15.0,
-          "title": "Vtmatt Ft List With Bins",
-          "url": "https://forums.d2jsp.org/topic.php?t=110538262&f=123",
-          "observed_at": "2026-10-29T18:30:26.296928+00:00",
-          "topic_date": "2026-10-28",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/28 19:45"
-        },
-        {
-          "kind": "rune",
-          "id": "Mal",
-          "label": "Mal",
-          "side": "unknown",
           "price_fg": 10.0,
           "title": "2",
           "url": "https://forums.d2jsp.org/topic.php?t=110528497&f=123&o=10",
@@ -2092,6 +2064,34 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/23 04:43"
+        },
+        {
+          "kind": "rune",
+          "id": "Mal",
+          "label": "Mal",
+          "side": "unknown",
+          "price_fg": 20.0,
+          "title": "Ist Mal Um Runes",
+          "url": "https://forums.d2jsp.org/topic.php?t=110517365&f=123",
+          "observed_at": "2026-10-24T20:54:24.877350+00:00",
+          "topic_date": "2026-10-23",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/23 08:42"
+        },
+        {
+          "kind": "rune",
+          "id": "Mal",
+          "label": "Mal",
+          "side": "trade",
+          "price_fg": 20.0,
+          "title": "Ist Mal Um Runes · T4T/sold signal",
+          "url": "https://forums.d2jsp.org/topic.php?t=110517365&f=123",
+          "observed_at": "2026-10-24T20:54:24.877350+00:00",
+          "topic_date": "2026-10-23",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/23 08:42"
         }
       ]
     },
@@ -2101,9 +2101,9 @@
       "label": "Gul",
       "fair_fg": 30.0,
       "iso_fg": 32.5,
-      "ft_fg": 32.5,
+      "ft_fg": 35.0,
       "trade_fg": 30.0,
-      "samples": 41,
+      "samples": 40,
       "confidence": "high",
       "last_seen_at": "2026-10-29T18:43:01.551131+00:00",
       "sources": [
@@ -2307,20 +2307,6 @@
           "kind": "rune",
           "id": "Gul",
           "label": "Gul",
-          "side": "ft",
-          "price_fg": 30.0,
-          "title": "Vtmatt Ft List With Bins",
-          "url": "https://forums.d2jsp.org/topic.php?t=110538262&f=123",
-          "observed_at": "2026-10-29T18:30:26.296928+00:00",
-          "topic_date": "2026-10-28",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/28 19:45"
-        },
-        {
-          "kind": "rune",
-          "id": "Gul",
-          "label": "Gul",
           "side": "unknown",
           "price_fg": 30.0,
           "title": "2",
@@ -2442,6 +2428,20 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/21 16:25"
+        },
+        {
+          "kind": "rune",
+          "id": "Gul",
+          "label": "Gul",
+          "side": "trade",
+          "price_fg": 30.0,
+          "title": "Runes + · T4T/sold signal",
+          "url": "https://forums.d2jsp.org/topic.php?t=110511099&f=123",
+          "observed_at": "2026-10-22T17:15:51.377454+00:00",
+          "topic_date": "2026-10-21",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/21 16:25"
         }
       ]
     },
@@ -2453,7 +2453,7 @@
       "iso_fg": 15.0,
       "ft_fg": 15.0,
       "trade_fg": 15.0,
-      "samples": 62,
+      "samples": 61,
       "confidence": "high",
       "last_seen_at": "2026-10-29T18:42:32.706646+00:00",
       "sources": [
@@ -2671,20 +2671,6 @@
           "kind": "rune",
           "id": "Um",
           "label": "Um",
-          "side": "ft",
-          "price_fg": 10.0,
-          "title": "Vtmatt Ft List With Bins",
-          "url": "https://forums.d2jsp.org/topic.php?t=110538262&f=123",
-          "observed_at": "2026-10-29T18:30:26.296928+00:00",
-          "topic_date": "2026-10-28",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/28 19:45"
-        },
-        {
-          "kind": "rune",
-          "id": "Um",
-          "label": "Um",
           "side": "iso",
           "price_fg": 10.0,
           "title": "N: 2x Um + Any 3os Armor = 20fg",
@@ -2792,6 +2778,20 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/26 11:23"
+        },
+        {
+          "kind": "rune",
+          "id": "Um",
+          "label": "Um",
+          "side": "unknown",
+          "price_fg": 8.0,
+          "title": "Runes",
+          "url": "https://forums.d2jsp.org/topic.php?t=110517647&f=123",
+          "observed_at": "2026-10-25T16:27:42.225978+00:00",
+          "topic_date": "2026-10-23",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/23 10:12"
         }
       ]
     },
@@ -2803,24 +2803,10 @@
       "iso_fg": 10.0,
       "ft_fg": 10.0,
       "trade_fg": 10.0,
-      "samples": 38,
+      "samples": 36,
       "confidence": "high",
-      "last_seen_at": "2026-10-30T01:04:48.227014+00:00",
+      "last_seen_at": "2026-10-29T18:42:32.706646+00:00",
       "sources": [
-        {
-          "kind": "rune",
-          "id": "Pul",
-          "label": "Pul",
-          "side": "unknown",
-          "price_fg": 4.0,
-          "title": "2",
-          "url": "https://forums.d2jsp.org/topic.php?t=110536984&f=123&o=10",
-          "observed_at": "2026-10-30T01:04:48.227014+00:00",
-          "topic_date": "2026-10-29",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/29 14:42"
-        },
         {
           "kind": "rune",
           "id": "Pul",
@@ -2932,20 +2918,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/28 02:10"
-        },
-        {
-          "kind": "rune",
-          "id": "Pul",
-          "label": "Pul",
-          "side": "ft",
-          "price_fg": 8.0,
-          "title": "Vtmatt Ft List With Bins",
-          "url": "https://forums.d2jsp.org/topic.php?t=110538262&f=123",
-          "observed_at": "2026-10-29T18:30:26.296928+00:00",
-          "topic_date": "2026-10-28",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/28 19:45"
         },
         {
           "kind": "rune",
@@ -3142,6 +3114,34 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/17 09:16"
+        },
+        {
+          "kind": "rune",
+          "id": "Pul",
+          "label": "Pul",
+          "side": "unknown",
+          "price_fg": 20.0,
+          "title": "Quick Needs List #",
+          "url": "https://forums.d2jsp.org/topic.php?t=110491304&f=123",
+          "observed_at": "2026-10-20T08:37:19.959297+00:00",
+          "topic_date": "2026-10-17",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/17 08:38"
+        },
+        {
+          "kind": "rune",
+          "id": "Pul",
+          "label": "Pul",
+          "side": "trade",
+          "price_fg": 20.0,
+          "title": "Quick Needs List # · T4T/sold signal",
+          "url": "https://forums.d2jsp.org/topic.php?t=110491304&f=123",
+          "observed_at": "2026-10-20T08:37:19.959297+00:00",
+          "topic_date": "2026-10-17",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/17 08:38"
         }
       ]
     },
@@ -3151,9 +3151,9 @@
       "label": "Vex",
       "fair_fg": 50.0,
       "iso_fg": 50.0,
-      "ft_fg": 57.5,
+      "ft_fg": 60.0,
       "trade_fg": 55.0,
-      "samples": 58,
+      "samples": 57,
       "confidence": "high",
       "last_seen_at": "2026-10-29T18:42:32.706646+00:00",
       "sources": [
@@ -3385,20 +3385,6 @@
           "kind": "rune",
           "id": "Vex",
           "label": "Vex",
-          "side": "ft",
-          "price_fg": 50.0,
-          "title": "Vtmatt Ft List With Bins",
-          "url": "https://forums.d2jsp.org/topic.php?t=110538262&f=123",
-          "observed_at": "2026-10-29T18:30:26.296928+00:00",
-          "topic_date": "2026-10-28",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/28 19:45"
-        },
-        {
-          "kind": "rune",
-          "id": "Vex",
-          "label": "Vex",
           "side": "unknown",
           "price_fg": 40.0,
           "title": "2",
@@ -3492,6 +3478,20 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/23 04:43"
+        },
+        {
+          "kind": "rune",
+          "id": "Vex",
+          "label": "Vex",
+          "side": "iso",
+          "price_fg": 60.0,
+          "title": "Iso 2 Vex",
+          "url": "https://forums.d2jsp.org/topic.php?t=110506706&f=123",
+          "observed_at": "2026-10-21T11:58:19.892842+00:00",
+          "topic_date": "2026-10-20",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/20 15:04"
         }
       ]
     },
@@ -4091,7 +4091,7 @@
       "iso_fg": 100.0,
       "ft_fg": 150.0,
       "trade_fg": 112.5,
-      "samples": 35,
+      "samples": 34,
       "confidence": "high",
       "last_seen_at": "2026-10-29T18:37:53.649985+00:00",
       "sources": [
@@ -4248,20 +4248,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/29 08:19"
-        },
-        {
-          "kind": "rune",
-          "id": "Ohm",
-          "label": "Ohm",
-          "side": "ft",
-          "price_fg": 90.0,
-          "title": "Vtmatt Ft List With Bins",
-          "url": "https://forums.d2jsp.org/topic.php?t=110538262&f=123",
-          "observed_at": "2026-10-29T18:30:26.296928+00:00",
-          "topic_date": "2026-10-28",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/28 19:45"
         },
         {
           "kind": "rune",
@@ -4430,6 +4416,20 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/18 00:39"
+        },
+        {
+          "kind": "rune",
+          "id": "Ohm",
+          "label": "Ohm",
+          "side": "unknown",
+          "price_fg": 100.0,
+          "title": "2",
+          "url": "https://forums.d2jsp.org/topic.php?t=110491409&f=123&o=10",
+          "observed_at": "2026-10-20T08:38:06.771164+00:00",
+          "topic_date": "2026-10-17",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/17 09:16"
         }
       ]
     },
@@ -6217,9 +6217,9 @@
       "label": "Lem",
       "fair_fg": 5.0,
       "iso_fg": 5.0,
-      "ft_fg": 6.0,
+      "ft_fg": 6.5,
       "trade_fg": 5.0,
-      "samples": 22,
+      "samples": 21,
       "confidence": "high",
       "last_seen_at": "2026-10-29T18:42:32.706646+00:00",
       "sources": [
@@ -6278,20 +6278,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/27 06:46"
-        },
-        {
-          "kind": "rune",
-          "id": "Lem",
-          "label": "Lem",
-          "side": "ft",
-          "price_fg": 0.5,
-          "title": "Vtmatt Ft List With Bins",
-          "url": "https://forums.d2jsp.org/topic.php?t=110538262&f=123",
-          "observed_at": "2026-10-29T18:30:26.296928+00:00",
-          "topic_date": "2026-10-28",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/28 19:45"
         },
         {
           "kind": "rune",
@@ -6558,6 +6544,20 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/5 15:20"
+        },
+        {
+          "kind": "rune",
+          "id": "Lem",
+          "label": "Lem",
+          "side": "ft",
+          "price_fg": 7.0,
+          "title": "O Low Runes, Items, Pgs",
+          "url": "https://forums.d2jsp.org/topic.php?t=110435542&f=123",
+          "observed_at": "2026-10-06T16:00:34.126855+00:00",
+          "topic_date": "2026-10-06",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/6 05:08"
         }
       ]
     },

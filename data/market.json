@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-31T05:50:54.944570+00:00",
+  "updated_at": "2026-10-31T12:40:13.896262+00:00",
   "forum": "https://forums.d2jsp.org/forum.php?f=123&c=2",
   "topic_count": 0,
   "cached_topics": 3833,
   "parsed_topics": 3833,
-  "completed_topics": 3466,
+  "completed_topics": 3478,
   "parsed_this_run": 12,
-  "sample_count": 675,
+  "sample_count": 672,
   "legacy_sample_count": 0,
   "market": [
     {
@@ -1053,7 +1053,7 @@
       "iso_fg": 160.0,
       "ft_fg": 187.5,
       "trade_fg": 150.0,
-      "samples": 39,
+      "samples": 38,
       "confidence": "high",
       "last_seen_at": "2026-10-30T22:25:02.893114+00:00",
       "sources": [
@@ -1258,20 +1258,6 @@
           "id": "Lo",
           "label": "Lo",
           "side": "unknown",
-          "price_fg": 100.0,
-          "title": "Lo Rune",
-          "url": "https://forums.d2jsp.org/topic.php?t=110535038&f=123",
-          "observed_at": "2026-10-29T18:34:05.940742+00:00",
-          "topic_date": "2026-10-27",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/27 14:40"
-        },
-        {
-          "kind": "rune",
-          "id": "Lo",
-          "label": "Lo",
-          "side": "unknown",
           "price_fg": 120.0,
           "title": "Zod+lo Runes + Cheap Stuff",
           "url": "https://forums.d2jsp.org/topic.php?t=110527126&f=123",
@@ -1392,6 +1378,20 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/20 16:47"
+        },
+        {
+          "kind": "rune",
+          "id": "Lo",
+          "label": "Lo",
+          "side": "iso",
+          "price_fg": 150.0,
+          "title": "Iso List",
+          "url": "https://forums.d2jsp.org/topic.php?t=110495069&f=123",
+          "observed_at": "2026-10-20T23:58:00.864147+00:00",
+          "topic_date": "2026-10-18",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/18 01:03"
         }
       ]
     },
@@ -4087,11 +4087,11 @@
       "kind": "rune",
       "id": "Ohm",
       "label": "Ohm",
-      "fair_fg": 100.0,
+      "fair_fg": 102.5,
       "iso_fg": 100.0,
       "ft_fg": 150.0,
       "trade_fg": 112.5,
-      "samples": 30,
+      "samples": 28,
       "confidence": "high",
       "last_seen_at": "2026-10-29T18:37:53.649985+00:00",
       "sources": [
@@ -4136,34 +4136,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/28 04:23"
-        },
-        {
-          "kind": "rune",
-          "id": "Ohm",
-          "label": "Ohm",
-          "side": "iso",
-          "price_fg": 100.0,
-          "title": "N 2x Ohm And Good Ss Treks Eth?",
-          "url": "https://forums.d2jsp.org/topic.php?t=110538386&f=123",
-          "observed_at": "2026-10-29T18:33:40.503186+00:00",
-          "topic_date": "2026-10-28",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/28 14:31"
-        },
-        {
-          "kind": "rune",
-          "id": "Ohm",
-          "label": "Ohm",
-          "side": "iso",
-          "price_fg": 90.0,
-          "title": "N 2x Ohm And Good Ss Treks Eth?",
-          "url": "https://forums.d2jsp.org/topic.php?t=110538386&f=123",
-          "observed_at": "2026-10-29T18:33:40.503186+00:00",
-          "topic_date": "2026-10-28",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/28 14:31"
         },
         {
           "kind": "rune",
@@ -4430,6 +4402,34 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/14 21:26"
+        },
+        {
+          "kind": "rune",
+          "id": "Ohm",
+          "label": "Ohm",
+          "side": "trade",
+          "price_fg": 105.0,
+          "title": "Goku's Hcl Shop · T4T/sold signal",
+          "url": "https://forums.d2jsp.org/topic.php?t=110479510&f=123",
+          "observed_at": "2026-10-15T04:48:04.458333+00:00",
+          "topic_date": "2026-10-14",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/14 21:26"
+        },
+        {
+          "kind": "rune",
+          "id": "Ohm",
+          "label": "Ohm",
+          "side": "iso",
+          "price_fg": 100.0,
+          "title": "Iso Ohm=100fg Anni Any=50fg",
+          "url": "https://forums.d2jsp.org/topic.php?t=110467088&f=123",
+          "observed_at": "2026-10-14T04:59:57.185255+00:00",
+          "topic_date": "2026-10-11",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/11 20:20"
         }
       ]
     },

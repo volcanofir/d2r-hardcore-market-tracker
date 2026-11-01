@@ -49919,8 +49919,8 @@
       "title": "Need Cta Pack",
       "url": "https://forums.d2jsp.org/topic.php?t=110545205&f=123",
       "first_seen_at": "2026-11-01T06:12:34.203785+00:00",
-      "last_checked_at": "2026-11-01T06:13:43.304353+00:00",
-      "completed": false,
+      "last_checked_at": "2026-11-01T13:31:42.029215+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -49964,12 +49964,11 @@
       "title": "O Ohm",
       "url": "https://forums.d2jsp.org/topic.php?t=110545176&f=123",
       "first_seen_at": "2026-11-01T06:12:34.203785+00:00",
-      "last_checked_at": null,
-      "completed": false,
-      "status": "pending",
+      "last_checked_at": "2026-11-01T13:31:21.405257+00:00",
+      "completed": true,
+      "status": "parsed",
       "samples": [],
-      "last_attempt_at": "2026-11-01T06:14:53.005802+00:00",
-      "last_error": "429 Too Many Requests (5/5)"
+      "last_attempt_at": "2026-11-01T06:14:53.005802+00:00"
     },
     "https://forums.d2jsp.org/topic.php?t=110545107&f=123": {
       "title": "Need Vex Rune",
@@ -49984,8 +49983,8 @@
       "title": "Iso Mal Ist",
       "url": "https://forums.d2jsp.org/topic.php?t=110545042&f=123",
       "first_seen_at": "2026-11-01T06:12:34.203785+00:00",
-      "last_checked_at": "2026-11-01T06:13:51.043847+00:00",
-      "completed": false,
+      "last_checked_at": "2026-11-01T13:31:40.946744+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -49993,8 +49992,8 @@
       "title": "~400 Items With Bins",
       "url": "https://forums.d2jsp.org/topic.php?t=110545023&f=123",
       "first_seen_at": "2026-11-01T06:12:34.203785+00:00",
-      "last_checked_at": "2026-11-01T06:13:04.293876+00:00",
-      "completed": false,
+      "last_checked_at": "2026-11-01T13:31:20.825477+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -50025,8 +50024,8 @@
       "title": "Shael + Lem",
       "url": "https://forums.d2jsp.org/topic.php?t=110544929&f=123",
       "first_seen_at": "2026-11-01T06:12:34.203785+00:00",
-      "last_checked_at": "2026-11-01T06:13:17.320230+00:00",
-      "completed": false,
+      "last_checked_at": "2026-11-01T13:31:25.539346+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -50043,8 +50042,8 @@
       "title": "Infinity Thresher , See Details",
       "url": "https://forums.d2jsp.org/topic.php?t=110544911&f=123",
       "first_seen_at": "2026-11-01T06:12:34.203785+00:00",
-      "last_checked_at": "2026-11-01T06:13:55.917925+00:00",
-      "completed": false,
+      "last_checked_at": "2026-11-01T13:31:45.108321+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -50075,24 +50074,10 @@
       "title": "Wtb Hc Rune Cham1 450fg",
       "url": "https://forums.d2jsp.org/topic.php?t=110544897&f=123",
       "first_seen_at": "2026-11-01T06:12:34.203785+00:00",
-      "last_checked_at": "2026-11-01T06:13:10.598615+00:00",
-      "completed": false,
+      "last_checked_at": "2026-11-01T13:31:21.657308+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Cham",
-          "label": "Cham",
-          "side": "iso",
-          "price_fg": 450.0,
-          "title": "Wtb Hc Rune Cham1 450fg",
-          "url": "https://forums.d2jsp.org/topic.php?t=110544897&f=123",
-          "observed_at": "2026-11-01T06:13:10.598615+00:00",
-          "topic_date": "2026-10-30",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110544863&f=123": {
       "title": "Vex, Sur",
@@ -50107,8 +50092,8 @@
       "title": "Ist Rune",
       "url": "https://forums.d2jsp.org/topic.php?t=110544846&f=123",
       "first_seen_at": "2026-11-01T06:12:34.203785+00:00",
-      "last_checked_at": "2026-11-01T06:13:49.536405+00:00",
-      "completed": false,
+      "last_checked_at": "2026-11-01T13:31:36.578826+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -50116,232 +50101,10 @@
       "title": "R.i.p Shop",
       "url": "https://forums.d2jsp.org/topic.php?t=110544834&f=123",
       "first_seen_at": "2026-11-01T06:12:34.203785+00:00",
-      "last_checked_at": "2026-11-01T06:13:32.887709+00:00",
-      "completed": false,
+      "last_checked_at": "2026-11-01T13:31:30.655455+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Um",
-          "label": "Um",
-          "side": "unknown",
-          "price_fg": 8.0,
-          "title": "R.i.p Shop",
-          "url": "https://forums.d2jsp.org/topic.php?t=110544834&f=123",
-          "observed_at": "2026-11-01T06:13:32.887709+00:00",
-          "topic_date": "2026-10-31",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Pul",
-          "label": "Pul",
-          "side": "unknown",
-          "price_fg": 4.0,
-          "title": "R.i.p Shop",
-          "url": "https://forums.d2jsp.org/topic.php?t=110544834&f=123",
-          "observed_at": "2026-11-01T06:13:32.887709+00:00",
-          "topic_date": "2026-10-31",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Lum",
-          "label": "Lum",
-          "side": "unknown",
-          "price_fg": 1.0,
-          "title": "R.i.p Shop",
-          "url": "https://forums.d2jsp.org/topic.php?t=110544834&f=123",
-          "observed_at": "2026-11-01T06:13:32.887709+00:00",
-          "topic_date": "2026-10-31",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Io",
-          "label": "Io",
-          "side": "unknown",
-          "price_fg": 1.0,
-          "title": "R.i.p Shop",
-          "url": "https://forums.d2jsp.org/topic.php?t=110544834&f=123",
-          "observed_at": "2026-11-01T06:13:32.887709+00:00",
-          "topic_date": "2026-10-31",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Hel",
-          "label": "Hel",
-          "side": "unknown",
-          "price_fg": 1.0,
-          "title": "R.i.p Shop",
-          "url": "https://forums.d2jsp.org/topic.php?t=110544834&f=123",
-          "observed_at": "2026-11-01T06:13:32.887709+00:00",
-          "topic_date": "2026-10-31",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Dol",
-          "label": "Dol",
-          "side": "unknown",
-          "price_fg": 0.33,
-          "title": "R.i.p Shop",
-          "url": "https://forums.d2jsp.org/topic.php?t=110544834&f=123",
-          "observed_at": "2026-11-01T06:13:32.887709+00:00",
-          "topic_date": "2026-10-31",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Shael",
-          "label": "Shael",
-          "side": "unknown",
-          "price_fg": 0.4,
-          "title": "R.i.p Shop",
-          "url": "https://forums.d2jsp.org/topic.php?t=110544834&f=123",
-          "observed_at": "2026-11-01T06:13:32.887709+00:00",
-          "topic_date": "2026-10-31",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Sol",
-          "label": "Sol",
-          "side": "unknown",
-          "price_fg": 1.0,
-          "title": "R.i.p Shop",
-          "url": "https://forums.d2jsp.org/topic.php?t=110544834&f=123",
-          "observed_at": "2026-11-01T06:13:32.887709+00:00",
-          "topic_date": "2026-10-31",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Thul",
-          "label": "Thul",
-          "side": "unknown",
-          "price_fg": 0.2,
-          "title": "R.i.p Shop",
-          "url": "https://forums.d2jsp.org/topic.php?t=110544834&f=123",
-          "observed_at": "2026-11-01T06:13:32.887709+00:00",
-          "topic_date": "2026-10-31",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Ort",
-          "label": "Ort",
-          "side": "unknown",
-          "price_fg": 0.11,
-          "title": "R.i.p Shop",
-          "url": "https://forums.d2jsp.org/topic.php?t=110544834&f=123",
-          "observed_at": "2026-11-01T06:13:32.887709+00:00",
-          "topic_date": "2026-10-31",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Ral",
-          "label": "Ral",
-          "side": "unknown",
-          "price_fg": 0.56,
-          "title": "R.i.p Shop",
-          "url": "https://forums.d2jsp.org/topic.php?t=110544834&f=123",
-          "observed_at": "2026-11-01T06:13:32.887709+00:00",
-          "topic_date": "2026-10-31",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Tal",
-          "label": "Tal",
-          "side": "unknown",
-          "price_fg": 0.2,
-          "title": "R.i.p Shop",
-          "url": "https://forums.d2jsp.org/topic.php?t=110544834&f=123",
-          "observed_at": "2026-11-01T06:13:32.887709+00:00",
-          "topic_date": "2026-10-31",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Ith",
-          "label": "Ith",
-          "side": "unknown",
-          "price_fg": 0.17,
-          "title": "R.i.p Shop",
-          "url": "https://forums.d2jsp.org/topic.php?t=110544834&f=123",
-          "observed_at": "2026-11-01T06:13:32.887709+00:00",
-          "topic_date": "2026-10-31",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Eth",
-          "label": "Eth",
-          "side": "unknown",
-          "price_fg": 0.14,
-          "title": "R.i.p Shop",
-          "url": "https://forums.d2jsp.org/topic.php?t=110544834&f=123",
-          "observed_at": "2026-11-01T06:13:32.887709+00:00",
-          "topic_date": "2026-10-31",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Tir",
-          "label": "Tir",
-          "side": "unknown",
-          "price_fg": 0.2,
-          "title": "R.i.p Shop",
-          "url": "https://forums.d2jsp.org/topic.php?t=110544834&f=123",
-          "observed_at": "2026-11-01T06:13:32.887709+00:00",
-          "topic_date": "2026-10-31",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Eld",
-          "label": "Eld",
-          "side": "unknown",
-          "price_fg": 0.25,
-          "title": "R.i.p Shop",
-          "url": "https://forums.d2jsp.org/topic.php?t=110544834&f=123",
-          "observed_at": "2026-11-01T06:13:32.887709+00:00",
-          "topic_date": "2026-10-31",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "El",
-          "label": "El",
-          "side": "unknown",
-          "price_fg": 0.5,
-          "title": "R.i.p Shop",
-          "url": "https://forums.d2jsp.org/topic.php?t=110544834&f=123",
-          "observed_at": "2026-11-01T06:13:32.887709+00:00",
-          "topic_date": "2026-10-31",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110544834&f=123&o=10": {
       "title": "2",
@@ -50444,44 +50207,17 @@
       "title": "Rune Ber",
       "url": "https://forums.d2jsp.org/topic.php?t=110544797&f=123",
       "first_seen_at": "2026-11-01T06:12:34.203785+00:00",
-      "last_checked_at": "2026-11-01T06:13:32.296465+00:00",
-      "completed": false,
+      "last_checked_at": "2026-11-01T13:31:30.149060+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Ber",
-          "label": "Ber",
-          "side": "unknown",
-          "price_fg": 400.0,
-          "title": "Rune Ber",
-          "url": "https://forums.d2jsp.org/topic.php?t=110544797&f=123",
-          "observed_at": "2026-11-01T06:13:32.296465+00:00",
-          "topic_date": "2026-10-30",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Ber",
-          "label": "Ber",
-          "side": "unknown",
-          "price_fg": 390.0,
-          "title": "Rune Ber",
-          "url": "https://forums.d2jsp.org/topic.php?t=110544797&f=123",
-          "observed_at": "2026-11-01T06:13:32.296465+00:00",
-          "topic_date": "2026-10-30",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110544766&f=123": {
       "title": "Wtb Jah/ber/lo/gul/",
       "url": "https://forums.d2jsp.org/topic.php?t=110544766&f=123",
       "first_seen_at": "2026-11-01T06:12:34.203785+00:00",
-      "last_checked_at": "2026-11-01T06:13:27.326672+00:00",
-      "completed": false,
+      "last_checked_at": "2026-11-01T13:31:21.288958+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -50749,8 +50485,8 @@
       "title": "Hell Reapers Need More People",
       "url": "https://forums.d2jsp.org/topic.php?t=110544583&f=123",
       "first_seen_at": "2026-11-01T06:12:34.203785+00:00",
-      "last_checked_at": "2026-11-01T06:13:57.249046+00:00",
-      "completed": false,
+      "last_checked_at": "2026-11-01T13:31:54.369473+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -50758,24 +50494,10 @@
       "title": "Some Javazon Gear And Runes",
       "url": "https://forums.d2jsp.org/topic.php?t=110544581&f=123",
       "first_seen_at": "2026-11-01T06:12:34.203785+00:00",
-      "last_checked_at": "2026-11-01T06:13:16.301806+00:00",
-      "completed": false,
+      "last_checked_at": "2026-11-01T13:31:32.821471+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Ist",
-          "label": "Ist",
-          "side": "unknown",
-          "price_fg": 155.0,
-          "title": "Some Javazon Gear And Runes",
-          "url": "https://forums.d2jsp.org/topic.php?t=110544581&f=123",
-          "observed_at": "2026-11-01T06:13:16.301806+00:00",
-          "topic_date": "2026-10-30",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110544581&f=123&o=10": {
       "title": "2",
@@ -50787,5 +50509,5 @@
       "samples": []
     }
   },
-  "updated_at": "2026-11-01T06:15:02.059543+00:00"
+  "updated_at": "2026-11-01T13:31:54.370762+00:00"
 }

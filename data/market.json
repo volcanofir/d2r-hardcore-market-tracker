@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-11-01T19:46:32.887129+00:00",
+  "updated_at": "2026-11-02T00:48:47.314542+00:00",
   "forum": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-  "topic_count": 26,
+  "topic_count": 0,
   "cached_topics": 3914,
   "parsed_topics": 3914,
-  "completed_topics": 3572,
-  "parsed_this_run": 38,
-  "sample_count": 687,
+  "completed_topics": 3584,
+  "parsed_this_run": 12,
+  "sample_count": 683,
   "legacy_sample_count": 0,
   "market": [
     {
@@ -367,7 +367,7 @@
       "iso_fg": 30.0,
       "ft_fg": 50.0,
       "trade_fg": 30.0,
-      "samples": 64,
+      "samples": 62,
       "confidence": "high",
       "last_seen_at": "2026-11-01T06:13:27.262262+00:00",
       "sources": [
@@ -461,20 +461,6 @@
           "label": "Ist",
           "side": "iso",
           "price_fg": 20.0,
-          "title": "Iso Ist 20 Fg",
-          "url": "https://forums.d2jsp.org/topic.php?t=110537362&f=123",
-          "observed_at": "2026-10-29T18:37:56.071816+00:00",
-          "topic_date": "2026-10-28",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/28 08:41"
-        },
-        {
-          "kind": "rune",
-          "id": "Ist",
-          "label": "Ist",
-          "side": "iso",
-          "price_fg": 20.0,
           "title": "Iso Ist Sur",
           "url": "https://forums.d2jsp.org/topic.php?t=110539961&f=123",
           "observed_at": "2026-10-29T18:37:04.814708+00:00",
@@ -496,20 +482,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/29 01:27"
-        },
-        {
-          "kind": "rune",
-          "id": "Ist",
-          "label": "Ist",
-          "side": "iso",
-          "price_fg": 110.0,
-          "title": "Iso Jah, Ohm, 3 Vex, 2 Ist",
-          "url": "https://forums.d2jsp.org/topic.php?t=110533266&f=123",
-          "observed_at": "2026-10-29T18:36:52.217310+00:00",
-          "topic_date": "2026-10-27",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/27 03:40"
         },
         {
           "kind": "rune",
@@ -706,6 +678,34 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/21 02:08"
+        },
+        {
+          "kind": "rune",
+          "id": "Ist",
+          "label": "Ist",
+          "side": "iso",
+          "price_fg": 20.0,
+          "title": "=paying 100fg Iso 5x Ist Rune=",
+          "url": "https://forums.d2jsp.org/topic.php?t=110505693&f=123",
+          "observed_at": "2026-10-21T04:55:14.530773+00:00",
+          "topic_date": "2026-10-20",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/20 10:41"
+        },
+        {
+          "kind": "rune",
+          "id": "Ist",
+          "label": "Ist",
+          "side": "trade",
+          "price_fg": 20.0,
+          "title": "=paying 100fg Iso 5x Ist Rune= · T4T/sold signal",
+          "url": "https://forums.d2jsp.org/topic.php?t=110505693&f=123",
+          "observed_at": "2026-10-21T04:55:14.530773+00:00",
+          "topic_date": "2026-10-20",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/20 10:41"
         }
       ]
     },
@@ -5347,11 +5347,11 @@
       "kind": "rune",
       "id": "Jah",
       "label": "Jah",
-      "fair_fg": 740.0,
+      "fair_fg": 782.5,
       "iso_fg": 700.0,
       "ft_fg": 802.5,
       "trade_fg": 700.0,
-      "samples": 28,
+      "samples": 26,
       "confidence": "high",
       "last_seen_at": "2026-11-01T19:44:21.303834+00:00",
       "sources": [
@@ -5438,34 +5438,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/25 11:23"
-        },
-        {
-          "kind": "rune",
-          "id": "Jah",
-          "label": "Jah",
-          "side": "iso",
-          "price_fg": 700.0,
-          "title": "Iso Ber/jah 1x Eu",
-          "url": "https://forums.d2jsp.org/topic.php?t=110526577&f=123",
-          "observed_at": "2026-10-29T18:37:28.702734+00:00",
-          "topic_date": "2026-10-25",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/25 10:15"
-        },
-        {
-          "kind": "rune",
-          "id": "Jah",
-          "label": "Jah",
-          "side": "iso",
-          "price_fg": 650.0,
-          "title": "Iso Jah Offer 650fg",
-          "url": "https://forums.d2jsp.org/topic.php?t=110535450&f=123",
-          "observed_at": "2026-10-29T18:36:58.584791+00:00",
-          "topic_date": "2026-10-27",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/27 16:39"
         },
         {
           "kind": "rune",
@@ -5690,6 +5662,34 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/19 17:32"
+        },
+        {
+          "kind": "rune",
+          "id": "Jah",
+          "label": "Jah",
+          "side": "ft",
+          "price_fg": 825.0,
+          "title": "Ft Stash Sale",
+          "url": "https://forums.d2jsp.org/topic.php?t=110466317&f=123",
+          "observed_at": "2026-10-14T17:16:34.500454+00:00",
+          "topic_date": "2026-10-13",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/13 13:28"
+        },
+        {
+          "kind": "rune",
+          "id": "Jah",
+          "label": "Jah",
+          "side": "trade",
+          "price_fg": 825.0,
+          "title": "Ft Stash Sale · T4T/sold signal",
+          "url": "https://forums.d2jsp.org/topic.php?t=110466317&f=123",
+          "observed_at": "2026-10-14T17:16:34.500454+00:00",
+          "topic_date": "2026-10-13",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/13 13:28"
         }
       ]
     },

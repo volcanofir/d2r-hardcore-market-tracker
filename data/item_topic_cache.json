@@ -2,16 +2,6 @@
   "version": 2,
   "source_policy": "season15-items-static-catalog-v7-uber-keys",
   "topics": {
-    "https://forums.d2jsp.org/topic.php?f=123&t=110372497&v=1": {
-      "title": "Keys Ft",
-      "url": "https://forums.d2jsp.org/topic.php?f=123&t=110372497&v=1",
-      "first_seen_at": "2026-10-03T14:57:50.266776+00:00",
-      "last_checked_at": "2026-11-02T11:19:01.642329+00:00",
-      "completed": true,
-      "status": "parsed",
-      "samples": [],
-      "topic_date": null
-    },
     "https://forums.d2jsp.org/topic.php?t=110426040&f=123": {
       "title": "Iso Bumper",
       "url": "https://forums.d2jsp.org/topic.php?t=110426040&f=123",
@@ -13520,7 +13510,17 @@
       "completed": false,
       "status": "pending",
       "samples": []
+    },
+    "https://forums.d2jsp.org/topic.php?f=123&t=110372497&v=1": {
+      "title": "Keys Ft",
+      "url": "https://forums.d2jsp.org/topic.php?f=123&t=110372497&v=1",
+      "first_seen_at": "2026-11-02T21:45:18.230785+00:00",
+      "last_checked_at": "2026-11-02T21:45:22.750785+00:00",
+      "completed": true,
+      "status": "parsed",
+      "samples": [],
+      "topic_date": null
     }
   },
-  "updated_at": "2026-11-02T11:19:01.642760+00:00"
+  "updated_at": "2026-11-02T21:45:22.751816+00:00"
 }

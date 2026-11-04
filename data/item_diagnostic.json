@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T17:22:33.940726+00:00",
+  "updated_at": "2026-11-04T23:45:17.095561+00:00",
   "source_policy": "season15-items-static-catalog-v7-uber-keys",
   "catalog_items": 589,
   "forum_pages": [
@@ -51,8 +51,8 @@
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=125",
       "offset": 125,
-      "topics": 35,
-      "reader_bytes": 11370,
+      "topics": 41,
+      "reader_bytes": 11889,
       "direct_bytes": 0,
       "reader_error": null,
       "direct_error": null
@@ -76,8 +76,8 @@
       "direct_error": "403 Client Error: Forbidden for url: https://forums.d2jsp.org/forum.php?f=123&o=175"
     }
   ],
-  "discovered_topics": 36,
-  "cached_topics": 1398,
+  "discovered_topics": 42,
+  "cached_topics": 1393,
   "selected_topics": 1,
   "parsed_this_run": 1,
   "combined_samples": 62,

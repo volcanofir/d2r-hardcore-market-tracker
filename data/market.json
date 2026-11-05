@@ -1,40 +1,26 @@
 {
-  "updated_at": "2026-11-05T06:54:50.243373+00:00",
+  "updated_at": "2026-11-05T17:28:09.525877+00:00",
   "forum": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-  "topic_count": 0,
-  "cached_topics": 4192,
-  "parsed_topics": 4192,
-  "completed_topics": 3766,
-  "parsed_this_run": 12,
-  "sample_count": 796,
+  "topic_count": 28,
+  "cached_topics": 4194,
+  "parsed_topics": 4194,
+  "completed_topics": 3777,
+  "parsed_this_run": 14,
+  "sample_count": 800,
   "legacy_sample_count": 0,
   "market": [
     {
       "kind": "rune",
       "id": "Hel",
       "label": "Hel",
-      "fair_fg": 3.5,
-      "iso_fg": 7.04,
+      "fair_fg": 4.0,
+      "iso_fg": 9.09,
       "ft_fg": 3.0,
       "trade_fg": 2.5,
-      "samples": 16,
+      "samples": 15,
       "confidence": "high",
-      "last_seen_at": "2026-11-04T17:18:55.852049+00:00",
+      "last_seen_at": "2026-11-01T06:13:27.262262+00:00",
       "sources": [
-        {
-          "kind": "rune",
-          "id": "Hel",
-          "label": "Hel",
-          "side": "iso",
-          "price_fg": 3.0,
-          "title": "Need Spirit Sets W/ Hels",
-          "url": "https://forums.d2jsp.org/topic.php?t=110562635&f=123",
-          "observed_at": "2026-11-04T17:18:55.852049+00:00",
-          "topic_date": "2026-11-04",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/11/4 08:22"
-        },
         {
           "kind": "rune",
           "id": "Hel",
@@ -356,6 +342,20 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/9/21 12:35"
+        },
+        {
+          "kind": "rune",
+          "id": "Hel",
+          "label": "Hel",
+          "side": "ft",
+          "price_fg": 5.0,
+          "title": "2x Hel Runes For 10fg",
+          "url": "https://forums.d2jsp.org/topic.php?t=110284583&f=123",
+          "observed_at": "2026-09-15T03:25:29.117735+00:00",
+          "topic_date": "2026-09-14",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/9/14 13:09"
         }
       ]
     },
@@ -369,7 +369,7 @@
       "trade_fg": 30.0,
       "samples": 79,
       "confidence": "high",
-      "last_seen_at": "2026-11-05T06:54:02.505211+00:00",
+      "last_seen_at": "2026-11-05T17:27:08.979951+00:00",
       "sources": [
         {
           "kind": "rune",
@@ -379,7 +379,7 @@
           "price_fg": 20.0,
           "title": "Iso Rune",
           "url": "https://forums.d2jsp.org/topic.php?t=110563291&f=123",
-          "observed_at": "2026-11-05T06:54:02.505211+00:00",
+          "observed_at": "2026-11-05T17:27:08.979951+00:00",
           "topic_date": "2026-11-04",
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
@@ -1067,10 +1067,24 @@
       "iso_fg": 137.5,
       "ft_fg": 127.5,
       "trade_fg": 140.0,
-      "samples": 55,
+      "samples": 56,
       "confidence": "high",
-      "last_seen_at": "2026-11-04T23:43:41.968837+00:00",
+      "last_seen_at": "2026-11-05T17:27:07.271162+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Lo",
+          "label": "Lo",
+          "side": "unknown",
+          "price_fg": 110.0,
+          "title": "6",
+          "url": "https://forums.d2jsp.org/topic.php?t=110553087&f=123&o=50",
+          "observed_at": "2026-11-05T17:27:07.271162+00:00",
+          "topic_date": "2026-11-04",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/11/4 15:22"
+        },
         {
           "kind": "rune",
           "id": "Lo",
@@ -1392,20 +1406,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/31 11:49"
-        },
-        {
-          "kind": "rune",
-          "id": "Lo",
-          "label": "Lo",
-          "side": "trade",
-          "price_fg": 120.0,
-          "title": "Take This With You To Hc Nl · T4T/sold signal",
-          "url": "https://forums.d2jsp.org/topic.php?t=110548778&f=123",
-          "observed_at": "2026-11-03T23:27:10.366100+00:00",
-          "topic_date": "2026-10-31",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/31 11:49"
         }
       ]
     },
@@ -1413,14 +1413,28 @@
       "kind": "rune",
       "id": "Ber",
       "label": "Ber",
-      "fair_fg": 425.0,
+      "fair_fg": 422.5,
       "iso_fg": 425.0,
       "ft_fg": 450.0,
       "trade_fg": 450.0,
-      "samples": 61,
+      "samples": 62,
       "confidence": "high",
-      "last_seen_at": "2026-11-04T23:43:41.968837+00:00",
+      "last_seen_at": "2026-11-05T17:27:07.271162+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Ber",
+          "label": "Ber",
+          "side": "unknown",
+          "price_fg": 300.0,
+          "title": "6",
+          "url": "https://forums.d2jsp.org/topic.php?t=110553087&f=123&o=50",
+          "observed_at": "2026-11-05T17:27:07.271162+00:00",
+          "topic_date": "2026-11-04",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/11/4 15:22"
+        },
         {
           "kind": "rune",
           "id": "Ber",
@@ -1742,20 +1756,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/26 13:26"
-        },
-        {
-          "kind": "rune",
-          "id": "Ber",
-          "label": "Ber",
-          "side": "unknown",
-          "price_fg": 400.0,
-          "title": "Enigma / Runes",
-          "url": "https://forums.d2jsp.org/topic.php?t=110530111&f=123",
-          "observed_at": "2026-10-29T18:39:23.184023+00:00",
-          "topic_date": "2026-10-26",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/26 08:10"
         }
       ]
     },
@@ -4997,14 +4997,28 @@
       "kind": "rune",
       "id": "Cham",
       "label": "Cham",
-      "fair_fg": 465.0,
+      "fair_fg": 450.0,
       "iso_fg": 450.0,
       "ft_fg": 420.0,
       "trade_fg": 500.0,
-      "samples": 22,
+      "samples": 23,
       "confidence": "high",
-      "last_seen_at": "2026-11-04T17:20:40.333854+00:00",
+      "last_seen_at": "2026-11-05T17:27:07.271162+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Cham",
+          "label": "Cham",
+          "side": "unknown",
+          "price_fg": 400.0,
+          "title": "6",
+          "url": "https://forums.d2jsp.org/topic.php?t=110553087&f=123&o=50",
+          "observed_at": "2026-11-05T17:27:07.271162+00:00",
+          "topic_date": "2026-11-04",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/11/4 15:22"
+        },
         {
           "kind": "rune",
           "id": "Cham",
@@ -5326,20 +5340,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/17 12:25"
-        },
-        {
-          "kind": "rune",
-          "id": "Cham",
-          "label": "Cham",
-          "side": "iso",
-          "price_fg": 500.0,
-          "title": "Iso High Runes Jah Ber Zod Cham Sur",
-          "url": "https://forums.d2jsp.org/topic.php?t=110463401&f=123",
-          "observed_at": "2026-10-13T22:53:25.295502+00:00",
-          "topic_date": "2026-10-11",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/11 05:42"
         }
       ]
     },
@@ -5351,10 +5351,24 @@
       "iso_fg": 700.0,
       "ft_fg": 802.5,
       "trade_fg": 700.0,
-      "samples": 39,
+      "samples": 40,
       "confidence": "high",
-      "last_seen_at": "2026-11-04T23:43:41.968837+00:00",
+      "last_seen_at": "2026-11-05T17:27:07.271162+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Jah",
+          "label": "Jah",
+          "side": "unknown",
+          "price_fg": 600.0,
+          "title": "6",
+          "url": "https://forums.d2jsp.org/topic.php?t=110553087&f=123&o=50",
+          "observed_at": "2026-11-05T17:27:07.271162+00:00",
+          "topic_date": "2026-11-04",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/11/4 15:22"
+        },
         {
           "kind": "rune",
           "id": "Jah",
@@ -5670,20 +5684,6 @@
           "side": "ft",
           "price_fg": 675.0,
           "title": "Selling Jah Rune",
-          "url": "https://forums.d2jsp.org/topic.php?t=110544317&f=123",
-          "observed_at": "2026-11-01T19:44:21.303834+00:00",
-          "topic_date": "2026-10-30",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/30 10:27"
-        },
-        {
-          "kind": "rune",
-          "id": "Jah",
-          "label": "Jah",
-          "side": "trade",
-          "price_fg": 675.0,
-          "title": "Selling Jah Rune · T4T/sold signal",
           "url": "https://forums.d2jsp.org/topic.php?t=110544317&f=123",
           "observed_at": "2026-11-01T19:44:21.303834+00:00",
           "topic_date": "2026-10-30",
@@ -8413,14 +8413,28 @@
       "kind": "rune",
       "id": "Zod",
       "label": "Zod",
-      "fair_fg": 712.5,
+      "fair_fg": 675.0,
       "iso_fg": 662.5,
       "ft_fg": 1000.0,
       "trade_fg": 675.0,
-      "samples": 14,
+      "samples": 15,
       "confidence": "high",
-      "last_seen_at": "2026-11-04T17:19:20.362683+00:00",
+      "last_seen_at": "2026-11-05T17:27:07.271162+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Zod",
+          "label": "Zod",
+          "side": "unknown",
+          "price_fg": 650.0,
+          "title": "6",
+          "url": "https://forums.d2jsp.org/topic.php?t=110553087&f=123&o=50",
+          "observed_at": "2026-11-05T17:27:07.271162+00:00",
+          "topic_date": "2026-11-04",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/11/4 15:22"
+        },
         {
           "kind": "rune",
           "id": "Zod",
@@ -8742,20 +8756,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/17 20:00"
-        },
-        {
-          "kind": "rune",
-          "id": "Zod",
-          "label": "Zod",
-          "side": "iso",
-          "price_fg": 400.0,
-          "title": "Iso Zod=400fg Ars Al'diabolos=150fg",
-          "url": "https://forums.d2jsp.org/topic.php?t=110494130&f=123",
-          "observed_at": "2026-10-20T19:20:26.960459+00:00",
-          "topic_date": "2026-10-17",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/17 19:27"
         }
       ]
     },

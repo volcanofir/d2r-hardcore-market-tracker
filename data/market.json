@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-11-07T13:10:27.287997+00:00",
+  "updated_at": "2026-11-07T19:28:37.087729+00:00",
   "forum": "https://forums.d2jsp.org/forum.php?f=123&c=2",
   "topic_count": 0,
   "cached_topics": 4347,
   "parsed_topics": 4347,
-  "completed_topics": 3890,
+  "completed_topics": 3902,
   "parsed_this_run": 12,
-  "sample_count": 825,
+  "sample_count": 822,
   "legacy_sample_count": 0,
   "market": [
     {
@@ -2117,24 +2117,10 @@
       "iso_fg": 30.0,
       "ft_fg": 35.0,
       "trade_fg": 30.0,
-      "samples": 43,
+      "samples": 42,
       "confidence": "high",
-      "last_seen_at": "2026-11-05T23:43:10.672426+00:00",
+      "last_seen_at": "2026-11-05T23:40:55.416034+00:00",
       "sources": [
-        {
-          "kind": "rune",
-          "id": "Gul",
-          "label": "Gul",
-          "side": "ft",
-          "price_fg": 20.0,
-          "title": "Gul Vs 20 Fg",
-          "url": "https://forums.d2jsp.org/topic.php?t=110551751&f=123",
-          "observed_at": "2026-11-05T23:43:10.672426+00:00",
-          "topic_date": "2026-11-01",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/11/1 06:20"
-        },
         {
           "kind": "rune",
           "id": "Gul",
@@ -2456,6 +2442,20 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/26 04:11"
+        },
+        {
+          "kind": "rune",
+          "id": "Gul",
+          "label": "Gul",
+          "side": "iso",
+          "price_fg": 20.0,
+          "title": "Iso Gul Runes",
+          "url": "https://forums.d2jsp.org/topic.php?t=110528497&f=123",
+          "observed_at": "2026-10-29T10:03:57.352599+00:00",
+          "topic_date": "2026-10-25",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/25 18:00"
         }
       ]
     },
@@ -2817,24 +2817,10 @@
       "iso_fg": 10.0,
       "ft_fg": 10.0,
       "trade_fg": 10.0,
-      "samples": 39,
+      "samples": 38,
       "confidence": "high",
-      "last_seen_at": "2026-11-05T23:43:34.350684+00:00",
+      "last_seen_at": "2026-11-04T17:18:22.912028+00:00",
       "sources": [
-        {
-          "kind": "rune",
-          "id": "Pul",
-          "label": "Pul",
-          "side": "ft",
-          "price_fg": 7.0,
-          "title": "Ft Uniques & Runes",
-          "url": "https://forums.d2jsp.org/topic.php?t=110551168&f=123",
-          "observed_at": "2026-11-05T23:43:34.350684+00:00",
-          "topic_date": "2026-11-01",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/11/1 02:16"
-        },
         {
           "kind": "rune",
           "id": "Pul",
@@ -3156,6 +3142,20 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/19 20:45"
+        },
+        {
+          "kind": "rune",
+          "id": "Pul",
+          "label": "Pul",
+          "side": "iso",
+          "price_fg": 10.0,
+          "title": "Paying Fg For List Items",
+          "url": "https://forums.d2jsp.org/topic.php?t=110503507&f=123",
+          "observed_at": "2026-10-20T19:19:33.217735+00:00",
+          "topic_date": "2026-10-19",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/19 19:45"
         }
       ]
     },
@@ -6217,26 +6217,12 @@
       "label": "Lem",
       "fair_fg": 5.0,
       "iso_fg": 5.0,
-      "ft_fg": 6.0,
+      "ft_fg": 6.5,
       "trade_fg": 5.0,
-      "samples": 26,
+      "samples": 25,
       "confidence": "high",
-      "last_seen_at": "2026-11-05T23:43:34.350684+00:00",
+      "last_seen_at": "2026-11-05T23:42:17.539208+00:00",
       "sources": [
-        {
-          "kind": "rune",
-          "id": "Lem",
-          "label": "Lem",
-          "side": "ft",
-          "price_fg": 5.0,
-          "title": "Ft Uniques & Runes",
-          "url": "https://forums.d2jsp.org/topic.php?t=110551168&f=123",
-          "observed_at": "2026-11-05T23:43:34.350684+00:00",
-          "topic_date": "2026-11-01",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/11/1 02:16"
-        },
         {
           "kind": "rune",
           "id": "Lem",
@@ -6558,6 +6544,20 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/6 05:01"
+        },
+        {
+          "kind": "rune",
+          "id": "Lem",
+          "label": "Lem",
+          "side": "iso",
+          "price_fg": 5.0,
+          "title": "Iso Gmb Or Matriarchal Bow 4 Os + Lem Rune",
+          "url": "https://forums.d2jsp.org/topic.php?t=110470235&f=123",
+          "observed_at": "2026-10-13T17:01:08.670621+00:00",
+          "topic_date": "2026-10-12",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/12 12:57"
         }
       ]
     },
@@ -15528,7 +15528,7 @@
   "item_source_policy": "season15-items-static-catalog-v7-uber-keys",
   "item_catalog_count": 589,
   "item_topic_count": 1,
-  "item_cached_topics": 1494,
+  "item_cached_topics": 1460,
   "item_parsed_topics": 181,
   "item_sample_count": 258
 }

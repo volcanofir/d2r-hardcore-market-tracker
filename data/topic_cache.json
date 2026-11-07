@@ -55534,8 +55534,8 @@
       "title": "Iso Ral And P Amethyst",
       "url": "https://forums.d2jsp.org/topic.php?t=110566637&f=123",
       "first_seen_at": "2026-11-05T23:40:03.326455+00:00",
-      "last_checked_at": "2026-11-05T23:42:15.110572+00:00",
-      "completed": false,
+      "last_checked_at": "2026-11-07T13:09:37.820230+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -55606,8 +55606,8 @@
       "title": "Iso: Lo Runs",
       "url": "https://forums.d2jsp.org/topic.php?t=110566496&f=123",
       "first_seen_at": "2026-11-05T23:40:03.326455+00:00",
-      "last_checked_at": "2026-11-05T23:42:03.472348+00:00",
-      "completed": false,
+      "last_checked_at": "2026-11-07T13:09:29.181484+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -55696,8 +55696,8 @@
       "title": "Iso Mal",
       "url": "https://forums.d2jsp.org/topic.php?t=110565872&f=123",
       "first_seen_at": "2026-11-05T23:40:03.326455+00:00",
-      "last_checked_at": "2026-11-05T23:42:27.603875+00:00",
-      "completed": false,
+      "last_checked_at": "2026-11-07T13:09:45.082175+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -55928,8 +55928,8 @@
       "title": "Iso Bulk Vex Gul Ist",
       "url": "https://forums.d2jsp.org/topic.php?t=110555302&f=123",
       "first_seen_at": "2026-11-05T23:40:03.326455+00:00",
-      "last_checked_at": "2026-11-05T23:42:41.611031+00:00",
-      "completed": false,
+      "last_checked_at": "2026-11-07T13:09:55.264975+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -56417,37 +56417,10 @@
       "title": "Iso Runes",
       "url": "https://forums.d2jsp.org/topic.php?t=110554139&f=123",
       "first_seen_at": "2026-11-05T23:40:03.326455+00:00",
-      "last_checked_at": "2026-11-05T23:42:12.580885+00:00",
-      "completed": false,
+      "last_checked_at": "2026-11-07T13:09:40.877885+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Mal",
-          "label": "Mal",
-          "side": "iso",
-          "price_fg": 10.0,
-          "title": "Iso Runes",
-          "url": "https://forums.d2jsp.org/topic.php?t=110554139&f=123",
-          "observed_at": "2026-11-05T23:42:12.580885+00:00",
-          "topic_date": "2026-11-01",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Ist",
-          "label": "Ist",
-          "side": "iso",
-          "price_fg": 20.0,
-          "title": "Iso Runes",
-          "url": "https://forums.d2jsp.org/topic.php?t=110554139&f=123",
-          "observed_at": "2026-11-05T23:42:12.580885+00:00",
-          "topic_date": "2026-11-01",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110554123&f=123": {
       "title": "Done For The Season! | Soj, Annis, Torches & More!",
@@ -56632,8 +56605,8 @@
       "title": "Iso Jah Vs 600",
       "url": "https://forums.d2jsp.org/topic.php?t=110551904&f=123",
       "first_seen_at": "2026-11-05T23:40:03.326455+00:00",
-      "last_checked_at": "2026-11-05T23:42:33.240043+00:00",
-      "completed": false,
+      "last_checked_at": "2026-11-07T13:09:58.631576+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -56677,37 +56650,10 @@
       "title": "Iso Cheap Runes",
       "url": "https://forums.d2jsp.org/topic.php?t=110551762&f=123",
       "first_seen_at": "2026-11-05T23:40:03.326455+00:00",
-      "last_checked_at": "2026-11-05T23:42:40.091651+00:00",
-      "completed": false,
+      "last_checked_at": "2026-11-07T13:09:54.782338+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Ohm",
-          "label": "Ohm",
-          "side": "iso",
-          "price_fg": 80.0,
-          "title": "Iso Cheap Runes",
-          "url": "https://forums.d2jsp.org/topic.php?t=110551762&f=123",
-          "observed_at": "2026-11-05T23:42:40.091651+00:00",
-          "topic_date": "2026-11-01",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Jah",
-          "label": "Jah",
-          "side": "iso",
-          "price_fg": 750.0,
-          "title": "Iso Cheap Runes",
-          "url": "https://forums.d2jsp.org/topic.php?t=110551762&f=123",
-          "observed_at": "2026-11-05T23:42:40.091651+00:00",
-          "topic_date": "2026-11-01",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110551755&f=123": {
       "title": "Um Rune 10 Fg",
@@ -57010,24 +56956,10 @@
       "title": "Iso Mal Rune",
       "url": "https://forums.d2jsp.org/topic.php?t=110550940&f=123",
       "first_seen_at": "2026-11-05T23:40:03.326455+00:00",
-      "last_checked_at": "2026-11-05T23:42:22.954027+00:00",
-      "completed": false,
+      "last_checked_at": "2026-11-07T13:09:49.816661+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Mal",
-          "label": "Mal",
-          "side": "iso",
-          "price_fg": 10.0,
-          "title": "Iso Mal Rune",
-          "url": "https://forums.d2jsp.org/topic.php?t=110550940&f=123",
-          "observed_at": "2026-11-05T23:42:22.954027+00:00",
-          "topic_date": "2026-11-01",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110550930&f=123": {
       "title": "Iso: Ist - 15 Fg",
@@ -57336,8 +57268,8 @@
       "title": "Iso Ist Runes Paying 25fgs Per",
       "url": "https://forums.d2jsp.org/topic.php?t=110550217&f=123",
       "first_seen_at": "2026-11-05T23:40:03.326455+00:00",
-      "last_checked_at": "2026-11-05T23:42:38.473465+00:00",
-      "completed": false,
+      "last_checked_at": "2026-11-07T13:09:50.314144+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -57382,31 +57314,17 @@
       "title": "Iso Quick Jah Rune",
       "url": "https://forums.d2jsp.org/topic.php?t=110550169&f=123",
       "first_seen_at": "2026-11-05T23:40:03.326455+00:00",
-      "last_checked_at": "2026-11-05T23:42:20.264948+00:00",
-      "completed": false,
+      "last_checked_at": "2026-11-07T13:09:38.413817+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Jah",
-          "label": "Jah",
-          "side": "iso",
-          "price_fg": 650.0,
-          "title": "Iso Quick Jah Rune",
-          "url": "https://forums.d2jsp.org/topic.php?t=110550169&f=123",
-          "observed_at": "2026-11-05T23:42:20.264948+00:00",
-          "topic_date": "2026-10-31",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110550159&f=123": {
       "title": "Iso Runes Paying Fgs",
       "url": "https://forums.d2jsp.org/topic.php?t=110550159&f=123",
       "first_seen_at": "2026-11-05T23:40:03.326455+00:00",
-      "last_checked_at": "2026-11-05T23:42:11.019833+00:00",
-      "completed": false,
+      "last_checked_at": "2026-11-07T13:09:33.470977+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -57648,11 +57566,11 @@
       "title": "2",
       "url": "https://forums.d2jsp.org/topic.php?t=110560750&f=123&o=10",
       "first_seen_at": "2026-11-07T06:03:43.104722+00:00",
-      "last_checked_at": "2026-11-07T06:04:23.629842+00:00",
-      "completed": false,
+      "last_checked_at": "2026-11-07T13:09:28.998939+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     }
   },
-  "updated_at": "2026-11-07T06:04:52.801116+00:00"
+  "updated_at": "2026-11-07T13:09:58.632930+00:00"
 }

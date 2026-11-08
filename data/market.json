@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-11-07T19:28:37.087729+00:00",
+  "updated_at": "2026-11-08T00:42:12.428796+00:00",
   "forum": "https://forums.d2jsp.org/forum.php?f=123&c=2",
   "topic_count": 0,
   "cached_topics": 4347,
   "parsed_topics": 4347,
-  "completed_topics": 3902,
+  "completed_topics": 3914,
   "parsed_this_run": 12,
-  "sample_count": 822,
+  "sample_count": 813,
   "legacy_sample_count": 0,
   "market": [
     {
@@ -367,24 +367,10 @@
       "iso_fg": 30.0,
       "ft_fg": 41.66,
       "trade_fg": 30.0,
-      "samples": 82,
+      "samples": 81,
       "confidence": "high",
-      "last_seen_at": "2026-11-05T23:44:16.543638+00:00",
+      "last_seen_at": "2026-11-05T23:43:11.497789+00:00",
       "sources": [
-        {
-          "kind": "rune",
-          "id": "Ist",
-          "label": "Ist",
-          "side": "iso",
-          "price_fg": 30.0,
-          "title": "Easy Iso",
-          "url": "https://forums.d2jsp.org/topic.php?t=110551681&f=123",
-          "observed_at": "2026-11-05T23:44:16.543638+00:00",
-          "topic_date": "2026-11-01",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/11/1 05:53"
-        },
         {
           "kind": "rune",
           "id": "Ist",
@@ -706,6 +692,20 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/31 09:36"
+        },
+        {
+          "kind": "rune",
+          "id": "Ist",
+          "label": "Ist",
+          "side": "unknown",
+          "price_fg": 15.0,
+          "title": "D2r|hcl Cheap Sellout",
+          "url": "https://forums.d2jsp.org/topic.php?t=110548725&f=123",
+          "observed_at": "2026-11-03T23:28:36.785585+00:00",
+          "topic_date": "2026-10-31",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/31 13:39"
         }
       ]
     },
@@ -1413,11 +1413,11 @@
       "kind": "rune",
       "id": "Ber",
       "label": "Ber",
-      "fair_fg": 400.0,
+      "fair_fg": 410.0,
       "iso_fg": 425.0,
       "ft_fg": 400.0,
       "trade_fg": 437.5,
-      "samples": 66,
+      "samples": 64,
       "confidence": "high",
       "last_seen_at": "2026-11-05T23:44:52.737215+00:00",
       "sources": [
@@ -1476,34 +1476,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/11/1 04:04"
-        },
-        {
-          "kind": "rune",
-          "id": "Ber",
-          "label": "Ber",
-          "side": "ft",
-          "price_fg": 350.0,
-          "title": "Ft Ber Rune",
-          "url": "https://forums.d2jsp.org/topic.php?t=110550929&f=123",
-          "observed_at": "2026-11-05T23:43:58.236109+00:00",
-          "topic_date": "2026-10-31",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/31 23:57"
-        },
-        {
-          "kind": "rune",
-          "id": "Ber",
-          "label": "Ber",
-          "side": "ft",
-          "price_fg": 350.0,
-          "title": "Ft Ber Rune",
-          "url": "https://forums.d2jsp.org/topic.php?t=110555123&f=123",
-          "observed_at": "2026-11-05T23:43:53.060741+00:00",
-          "topic_date": "2026-11-01",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/11/1 23:03"
         },
         {
           "kind": "rune",
@@ -1756,6 +1728,34 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/11/2 10:42"
+        },
+        {
+          "kind": "rune",
+          "id": "Ber",
+          "label": "Ber",
+          "side": "iso",
+          "price_fg": 350.0,
+          "title": "N: Paying Fg For High Runes For Chronicle",
+          "url": "https://forums.d2jsp.org/topic.php?t=110549496&f=123",
+          "observed_at": "2026-11-01T00:10:27.785846+00:00",
+          "topic_date": "2026-10-31",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/31 14:48"
+        },
+        {
+          "kind": "rune",
+          "id": "Ber",
+          "label": "Ber",
+          "side": "trade",
+          "price_fg": 350.0,
+          "title": "N: Paying Fg For High Runes For Chronicle · T4T/sold signal",
+          "url": "https://forums.d2jsp.org/topic.php?t=110549496&f=123",
+          "observed_at": "2026-11-01T00:10:27.785846+00:00",
+          "topic_date": "2026-10-31",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/31 14:48"
         }
       ]
     },
@@ -1767,38 +1767,10 @@
       "iso_fg": 20.0,
       "ft_fg": 25.0,
       "trade_fg": 20.0,
-      "samples": 59,
+      "samples": 57,
       "confidence": "high",
-      "last_seen_at": "2026-11-05T23:44:16.543638+00:00",
+      "last_seen_at": "2026-11-05T23:43:11.497789+00:00",
       "sources": [
-        {
-          "kind": "rune",
-          "id": "Mal",
-          "label": "Mal",
-          "side": "iso",
-          "price_fg": 15.0,
-          "title": "Easy Iso",
-          "url": "https://forums.d2jsp.org/topic.php?t=110551681&f=123",
-          "observed_at": "2026-11-05T23:44:16.543638+00:00",
-          "topic_date": "2026-11-01",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/11/1 05:53"
-        },
-        {
-          "kind": "rune",
-          "id": "Mal",
-          "label": "Mal",
-          "side": "iso",
-          "price_fg": 13.0,
-          "title": "Easy Iso",
-          "url": "https://forums.d2jsp.org/topic.php?t=110551681&f=123",
-          "observed_at": "2026-11-05T23:44:16.543638+00:00",
-          "topic_date": "2026-11-01",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/11/1 05:53"
-        },
         {
           "kind": "rune",
           "id": "Mal",
@@ -2106,6 +2078,34 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/27 21:56"
+        },
+        {
+          "kind": "rune",
+          "id": "Mal",
+          "label": "Mal",
+          "side": "trade",
+          "price_fg": 50.0,
+          "title": "4 · T4T/sold signal",
+          "url": "https://forums.d2jsp.org/topic.php?t=110529290&f=123&o=30",
+          "observed_at": "2026-10-29T10:04:25.028574+00:00",
+          "topic_date": "2026-10-27",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/27 21:56"
+        },
+        {
+          "kind": "rune",
+          "id": "Mal",
+          "label": "Mal",
+          "side": "iso",
+          "price_fg": 20.0,
+          "title": "=iso Items, Paying Fg=",
+          "url": "https://forums.d2jsp.org/topic.php?t=110530703&f=123",
+          "observed_at": "2026-10-27T00:30:28.179945+00:00",
+          "topic_date": "2026-10-26",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/26 11:23"
         }
       ]
     },
@@ -2467,7 +2467,7 @@
       "iso_fg": 15.0,
       "ft_fg": 15.0,
       "trade_fg": 15.0,
-      "samples": 68,
+      "samples": 66,
       "confidence": "high",
       "last_seen_at": "2026-11-05T23:45:24.761426+00:00",
       "sources": [
@@ -2512,34 +2512,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/11/1 16:05"
-        },
-        {
-          "kind": "rune",
-          "id": "Um",
-          "label": "Um",
-          "side": "unknown",
-          "price_fg": 300.0,
-          "title": "Eldritch Warlock",
-          "url": "https://forums.d2jsp.org/topic.php?t=110550776&f=123",
-          "observed_at": "2026-11-05T23:44:07.872401+00:00",
-          "topic_date": "2026-11-03",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/11/3 08:52"
-        },
-        {
-          "kind": "rune",
-          "id": "Um",
-          "label": "Um",
-          "side": "unknown",
-          "price_fg": 80.0,
-          "title": "Eldritch Warlock",
-          "url": "https://forums.d2jsp.org/topic.php?t=110550776&f=123",
-          "observed_at": "2026-11-05T23:44:07.872401+00:00",
-          "topic_date": "2026-11-03",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/11/3 08:52"
         },
         {
           "kind": "rune",
@@ -2806,6 +2778,34 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/27 03:17"
+        },
+        {
+          "kind": "rune",
+          "id": "Um",
+          "label": "Um",
+          "side": "unknown",
+          "price_fg": 10.0,
+          "title": "Perfect Enigma Mp + Runes(ber Ohm Vex Gul Ist Mal)",
+          "url": "https://forums.d2jsp.org/topic.php?t=110533604&f=123",
+          "observed_at": "2026-10-29T18:32:00.490364+00:00",
+          "topic_date": "2026-10-27",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/27 06:46"
+        },
+        {
+          "kind": "rune",
+          "id": "Um",
+          "label": "Um",
+          "side": "trade",
+          "price_fg": 10.0,
+          "title": "Perfect Enigma Mp + Runes(ber Ohm Vex Gul Ist Mal) · T4T/sold signal",
+          "url": "https://forums.d2jsp.org/topic.php?t=110533604&f=123",
+          "observed_at": "2026-10-29T18:32:00.490364+00:00",
+          "topic_date": "2026-10-27",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/27 06:46"
         }
       ]
     },
@@ -5349,9 +5349,9 @@
       "label": "Jah",
       "fair_fg": 700.0,
       "iso_fg": 700.0,
-      "ft_fg": 780.0,
+      "ft_fg": 802.5,
       "trade_fg": 700.0,
-      "samples": 43,
+      "samples": 42,
       "confidence": "high",
       "last_seen_at": "2026-11-05T23:46:07.677181+00:00",
       "sources": [
@@ -5396,20 +5396,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/11/1 04:04"
-        },
-        {
-          "kind": "rune",
-          "id": "Jah",
-          "label": "Jah",
-          "side": "ft",
-          "price_fg": 700.0,
-          "title": "Ft Jah",
-          "url": "https://forums.d2jsp.org/topic.php?t=110550264&f=123",
-          "observed_at": "2026-11-05T23:43:53.581523+00:00",
-          "topic_date": "2026-10-31",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/31 19:07"
         },
         {
           "kind": "rune",
@@ -5683,6 +5669,20 @@
           "label": "Jah",
           "side": "unknown",
           "price_fg": 700.0,
+          "title": "Runes Of Ymir",
+          "url": "https://forums.d2jsp.org/topic.php?t=110556132&f=123",
+          "observed_at": "2026-11-03T06:54:08.462666+00:00",
+          "topic_date": "2026-11-02",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/11/2 08:44"
+        },
+        {
+          "kind": "rune",
+          "id": "Jah",
+          "label": "Jah",
+          "side": "unknown",
+          "price_fg": 550.0,
           "title": "Runes Of Ymir",
           "url": "https://forums.d2jsp.org/topic.php?t=110556132&f=123",
           "observed_at": "2026-11-03T06:54:08.462666+00:00",
@@ -7311,7 +7311,7 @@
       "iso_fg": 5.0,
       "ft_fg": 4.0,
       "trade_fg": 5.0,
-      "samples": 13,
+      "samples": 12,
       "confidence": "high",
       "last_seen_at": "2026-11-05T23:44:40.732236+00:00",
       "sources": [
@@ -7328,20 +7328,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/11/5 17:26"
-        },
-        {
-          "kind": "rune",
-          "id": "Fal",
-          "label": "Fal",
-          "side": "unknown",
-          "price_fg": 20.0,
-          "title": "Eldritch Warlock",
-          "url": "https://forums.d2jsp.org/topic.php?t=110550776&f=123",
-          "observed_at": "2026-11-05T23:44:07.872401+00:00",
-          "topic_date": "2026-11-03",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/11/3 08:52"
         },
         {
           "kind": "rune",

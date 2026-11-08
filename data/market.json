@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-11-08T00:42:12.428796+00:00",
+  "updated_at": "2026-11-08T10:28:58.758568+00:00",
   "forum": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-  "topic_count": 0,
+  "topic_count": 25,
   "cached_topics": 4347,
   "parsed_topics": 4347,
-  "completed_topics": 3914,
+  "completed_topics": 3926,
   "parsed_this_run": 12,
-  "sample_count": 813,
+  "sample_count": 807,
   "legacy_sample_count": 0,
   "market": [
     {
@@ -1413,28 +1413,14 @@
       "kind": "rune",
       "id": "Ber",
       "label": "Ber",
-      "fair_fg": 410.0,
+      "fair_fg": 422.5,
       "iso_fg": 425.0,
-      "ft_fg": 400.0,
+      "ft_fg": 425.0,
       "trade_fg": 437.5,
-      "samples": 64,
+      "samples": 62,
       "confidence": "high",
-      "last_seen_at": "2026-11-05T23:44:52.737215+00:00",
+      "last_seen_at": "2026-11-05T23:44:46.763831+00:00",
       "sources": [
-        {
-          "kind": "rune",
-          "id": "Ber",
-          "label": "Ber",
-          "side": "ft",
-          "price_fg": 375.0,
-          "title": "Ber Bin 375fg",
-          "url": "https://forums.d2jsp.org/topic.php?t=110550538&f=123",
-          "observed_at": "2026-11-05T23:44:52.737215+00:00",
-          "topic_date": "2026-10-31",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/31 20:56"
-        },
         {
           "kind": "rune",
           "id": "Ber",
@@ -1462,20 +1448,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/11/1 03:59"
-        },
-        {
-          "kind": "rune",
-          "id": "Ber",
-          "label": "Ber",
-          "side": "unknown",
-          "price_fg": 350.0,
-          "title": "Ber Jah",
-          "url": "https://forums.d2jsp.org/topic.php?t=110551394&f=123",
-          "observed_at": "2026-11-05T23:44:45.715838+00:00",
-          "topic_date": "2026-11-01",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/11/1 04:04"
         },
         {
           "kind": "rune",
@@ -1756,6 +1728,34 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/31 14:48"
+        },
+        {
+          "kind": "rune",
+          "id": "Ber",
+          "label": "Ber",
+          "side": "unknown",
+          "price_fg": 400.0,
+          "title": "2x Bezerker Axes 5os Ber Lo Mal Um",
+          "url": "https://forums.d2jsp.org/topic.php?t=110535471&f=123",
+          "observed_at": "2026-10-29T18:41:44.186924+00:00",
+          "topic_date": "2026-10-27",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/27 16:46"
+        },
+        {
+          "kind": "rune",
+          "id": "Ber",
+          "label": "Ber",
+          "side": "ft",
+          "price_fg": 400.0,
+          "title": "Ber 400 Fg",
+          "url": "https://forums.d2jsp.org/topic.php?t=110529527&f=123",
+          "observed_at": "2026-10-29T18:40:29.399546+00:00",
+          "topic_date": "2026-10-26",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/26 02:54"
         }
       ]
     },
@@ -4651,24 +4651,10 @@
       "iso_fg": 10.0,
       "ft_fg": 5.0,
       "trade_fg": 10.0,
-      "samples": 20,
+      "samples": 19,
       "confidence": "high",
-      "last_seen_at": "2026-11-05T23:44:40.732236+00:00",
+      "last_seen_at": "2026-11-03T23:28:14.320749+00:00",
       "sources": [
-        {
-          "kind": "rune",
-          "id": "Ko",
-          "label": "Ko",
-          "side": "unknown",
-          "price_fg": 80.0,
-          "title": "Bloods Final Warlock & Anni/torch Gg Shop",
-          "url": "https://forums.d2jsp.org/topic.php?t=110565783&f=123",
-          "observed_at": "2026-11-05T23:44:40.732236+00:00",
-          "topic_date": "2026-11-05",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/11/5 17:26"
-        },
         {
           "kind": "rune",
           "id": "Ko",
@@ -4984,6 +4970,20 @@
           "side": "ft",
           "price_fg": 5.0,
           "title": "Ft - Big Shop - Skillers / Uniques / Sets / Bases",
+          "url": "https://forums.d2jsp.org/topic.php?t=110428233&f=123",
+          "observed_at": "2026-10-04T23:59:35.215747+00:00",
+          "topic_date": "2026-10-04",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/4 11:23"
+        },
+        {
+          "kind": "rune",
+          "id": "Ko",
+          "label": "Ko",
+          "side": "trade",
+          "price_fg": 5.0,
+          "title": "Ft - Big Shop - Skillers / Uniques / Sets / Bases · T4T/sold signal",
           "url": "https://forums.d2jsp.org/topic.php?t=110428233&f=123",
           "observed_at": "2026-10-04T23:59:35.215747+00:00",
           "topic_date": "2026-10-04",
@@ -5351,7 +5351,7 @@
       "iso_fg": 700.0,
       "ft_fg": 802.5,
       "trade_fg": 700.0,
-      "samples": 42,
+      "samples": 40,
       "confidence": "high",
       "last_seen_at": "2026-11-05T23:46:07.677181+00:00",
       "sources": [
@@ -5368,34 +5368,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/31 19:13"
-        },
-        {
-          "kind": "rune",
-          "id": "Jah",
-          "label": "Jah",
-          "side": "unknown",
-          "price_fg": 600.0,
-          "title": "Ber Jah",
-          "url": "https://forums.d2jsp.org/topic.php?t=110551394&f=123",
-          "observed_at": "2026-11-05T23:44:45.715838+00:00",
-          "topic_date": "2026-11-01",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/11/1 04:04"
-        },
-        {
-          "kind": "rune",
-          "id": "Jah",
-          "label": "Jah",
-          "side": "unknown",
-          "price_fg": 750.0,
-          "title": "Ber Jah",
-          "url": "https://forums.d2jsp.org/topic.php?t=110551394&f=123",
-          "observed_at": "2026-11-05T23:44:45.715838+00:00",
-          "topic_date": "2026-11-01",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/11/1 04:04"
         },
         {
           "kind": "rune",
@@ -5690,6 +5662,34 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/11/2 08:44"
+        },
+        {
+          "kind": "rune",
+          "id": "Jah",
+          "label": "Jah",
+          "side": "trade",
+          "price_fg": 625.0,
+          "title": "Runes Of Ymir · T4T/sold signal",
+          "url": "https://forums.d2jsp.org/topic.php?t=110556132&f=123",
+          "observed_at": "2026-11-03T06:54:08.462666+00:00",
+          "topic_date": "2026-11-02",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/11/2 08:44"
+        },
+        {
+          "kind": "rune",
+          "id": "Jah",
+          "label": "Jah",
+          "side": "ft",
+          "price_fg": 675.0,
+          "title": "Selling Jah Rune",
+          "url": "https://forums.d2jsp.org/topic.php?t=110544317&f=123",
+          "observed_at": "2026-11-01T19:44:21.303834+00:00",
+          "topic_date": "2026-10-30",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/30 10:27"
         }
       ]
     },
@@ -7311,24 +7311,10 @@
       "iso_fg": 5.0,
       "ft_fg": 4.0,
       "trade_fg": 5.0,
-      "samples": 12,
+      "samples": 11,
       "confidence": "high",
-      "last_seen_at": "2026-11-05T23:44:40.732236+00:00",
+      "last_seen_at": "2026-11-01T06:13:27.262262+00:00",
       "sources": [
-        {
-          "kind": "rune",
-          "id": "Fal",
-          "label": "Fal",
-          "side": "unknown",
-          "price_fg": 30.0,
-          "title": "Bloods Final Warlock & Anni/torch Gg Shop",
-          "url": "https://forums.d2jsp.org/topic.php?t=110565783&f=123",
-          "observed_at": "2026-11-05T23:44:40.732236+00:00",
-          "topic_date": "2026-11-05",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/11/5 17:26"
-        },
         {
           "kind": "rune",
           "id": "Fal",

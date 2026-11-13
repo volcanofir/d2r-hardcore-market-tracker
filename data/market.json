@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-11-13T11:09:52.509377+00:00",
+  "updated_at": "2026-11-13T19:47:30.115373+00:00",
   "forum": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-  "topic_count": 25,
+  "topic_count": 0,
   "cached_topics": 4544,
   "parsed_topics": 4544,
-  "completed_topics": 4162,
-  "parsed_this_run": 38,
-  "sample_count": 853,
+  "completed_topics": 4174,
+  "parsed_this_run": 12,
+  "sample_count": 851,
   "legacy_sample_count": 0,
   "market": [
     {
@@ -2117,7 +2117,7 @@
       "iso_fg": 25.0,
       "ft_fg": 35.0,
       "trade_fg": 30.0,
-      "samples": 51,
+      "samples": 50,
       "confidence": "high",
       "last_seen_at": "2026-11-13T11:06:49.232743+00:00",
       "sources": [
@@ -2162,20 +2162,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/11/7 09:19"
-        },
-        {
-          "kind": "rune",
-          "id": "Gul",
-          "label": "Gul",
-          "side": "iso",
-          "price_fg": 25.0,
-          "title": "Wtb Vex",
-          "url": "https://forums.d2jsp.org/topic.php?t=110571146&f=123",
-          "observed_at": "2026-11-13T11:05:36.306346+00:00",
-          "topic_date": "2026-11-07",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/11/7 10:29"
         },
         {
           "kind": "rune",
@@ -2450,6 +2436,20 @@
           "side": "iso",
           "price_fg": 20.0,
           "title": "N: Paying Fg For High Runes For Chronicle",
+          "url": "https://forums.d2jsp.org/topic.php?t=110549496&f=123",
+          "observed_at": "2026-11-01T00:10:27.785846+00:00",
+          "topic_date": "2026-10-31",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/31 14:48"
+        },
+        {
+          "kind": "rune",
+          "id": "Gul",
+          "label": "Gul",
+          "side": "trade",
+          "price_fg": 20.0,
+          "title": "N: Paying Fg For High Runes For Chronicle · T4T/sold signal",
           "url": "https://forums.d2jsp.org/topic.php?t=110549496&f=123",
           "observed_at": "2026-11-01T00:10:27.785846+00:00",
           "topic_date": "2026-10-31",
@@ -3167,7 +3167,7 @@
       "iso_fg": 50.0,
       "ft_fg": 62.5,
       "trade_fg": 50.0,
-      "samples": 63,
+      "samples": 62,
       "confidence": "high",
       "last_seen_at": "2026-11-13T11:06:37.976234+00:00",
       "sources": [
@@ -3184,20 +3184,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/11/7 09:19"
-        },
-        {
-          "kind": "rune",
-          "id": "Vex",
-          "label": "Vex",
-          "side": "unknown",
-          "price_fg": 50.0,
-          "title": "Vex",
-          "url": "https://forums.d2jsp.org/topic.php?t=110571595&f=123",
-          "observed_at": "2026-11-13T11:05:37.303364+00:00",
-          "topic_date": "2026-11-07",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/11/7 13:39"
         },
         {
           "kind": "rune",
@@ -3506,6 +3492,20 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/26 04:30"
+        },
+        {
+          "kind": "rune",
+          "id": "Vex",
+          "label": "Vex",
+          "side": "iso",
+          "price_fg": 40.0,
+          "title": "Iso Vex",
+          "url": "https://forums.d2jsp.org/topic.php?t=110533495&f=123",
+          "observed_at": "2026-10-29T18:35:28.268532+00:00",
+          "topic_date": "2026-10-27",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/27 06:03"
         }
       ]
     },

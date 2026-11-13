@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-11-12T20:00:08.510667+00:00",
+  "updated_at": "2026-11-13T01:57:19.615641+00:00",
   "source_policy": "season15-items-static-catalog-v7-uber-keys",
   "catalog_items": 589,
   "forum_pages": [
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123",
       "offset": 0,
-      "topics": 0,
-      "reader_bytes": 276,
+      "topics": 40,
+      "reader_bytes": 11642,
       "direct_bytes": 0,
       "reader_error": null,
-      "direct_error": "403 Client Error: Forbidden for url: https://forums.d2jsp.org/forum.php?f=123"
+      "direct_error": null
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=25",
@@ -24,29 +24,29 @@
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=50",
       "offset": 50,
-      "topics": 0,
-      "reader_bytes": 281,
+      "topics": 37,
+      "reader_bytes": 11692,
       "direct_bytes": 0,
       "reader_error": null,
-      "direct_error": "403 Client Error: Forbidden for url: https://forums.d2jsp.org/forum.php?f=123&o=50"
+      "direct_error": null
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=75",
       "offset": 75,
-      "topics": 0,
-      "reader_bytes": 281,
+      "topics": 38,
+      "reader_bytes": 11697,
       "direct_bytes": 0,
       "reader_error": null,
-      "direct_error": "403 Client Error: Forbidden for url: https://forums.d2jsp.org/forum.php?f=123&o=75"
+      "direct_error": null
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=100",
       "offset": 100,
-      "topics": 0,
-      "reader_bytes": 282,
+      "topics": 42,
+      "reader_bytes": 8646,
       "direct_bytes": 0,
       "reader_error": null,
-      "direct_error": "403 Client Error: Forbidden for url: https://forums.d2jsp.org/forum.php?f=123&o=100"
+      "direct_error": null
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=125",
@@ -60,27 +60,27 @@
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=150",
       "offset": 150,
-      "topics": 0,
-      "reader_bytes": 282,
+      "topics": 27,
+      "reader_bytes": 10015,
       "direct_bytes": 0,
       "reader_error": null,
-      "direct_error": "403 Client Error: Forbidden for url: https://forums.d2jsp.org/forum.php?f=123&o=150"
+      "direct_error": null
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=175",
       "offset": 175,
-      "topics": 0,
-      "reader_bytes": 282,
+      "topics": 33,
+      "reader_bytes": 9666,
       "direct_bytes": 0,
       "reader_error": null,
-      "direct_error": "403 Client Error: Forbidden for url: https://forums.d2jsp.org/forum.php?f=123&o=175"
+      "direct_error": null
     }
   ],
-  "discovered_topics": 1,
-  "cached_topics": 1296,
+  "discovered_topics": 218,
+  "cached_topics": 1446,
   "selected_topics": 1,
   "parsed_this_run": 1,
-  "combined_samples": 211,
-  "market_items": 184,
+  "combined_samples": 215,
+  "market_items": 188,
   "topic_errors": []
 }

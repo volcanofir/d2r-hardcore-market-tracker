@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-11-13T01:57:19.605857+00:00",
+  "updated_at": "2026-11-13T11:09:52.509377+00:00",
   "forum": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-  "topic_count": 127,
-  "cached_topics": 4519,
-  "parsed_topics": 4518,
-  "completed_topics": 4141,
-  "parsed_this_run": 93,
-  "sample_count": 846,
+  "topic_count": 25,
+  "cached_topics": 4544,
+  "parsed_topics": 4544,
+  "completed_topics": 4162,
+  "parsed_this_run": 38,
+  "sample_count": 853,
   "legacy_sample_count": 0,
   "market": [
     {
@@ -1413,14 +1413,42 @@
       "kind": "rune",
       "id": "Ber",
       "label": "Ber",
-      "fair_fg": 410.0,
+      "fair_fg": 400.0,
       "iso_fg": 400.0,
       "ft_fg": 450.0,
       "trade_fg": 400.0,
-      "samples": 64,
+      "samples": 65,
       "confidence": "high",
-      "last_seen_at": "2026-11-13T01:55:32.684017+00:00",
+      "last_seen_at": "2026-11-13T11:06:34.294923+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Ber",
+          "label": "Ber",
+          "side": "iso",
+          "price_fg": 350.0,
+          "title": "Iso Griffon 13+/17+=350fg , Ber =350fg , Mal=15fg",
+          "url": "https://forums.d2jsp.org/topic.php?t=110570785&f=123",
+          "observed_at": "2026-11-13T11:06:34.294923+00:00",
+          "topic_date": "2026-11-07",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/11/7 07:49"
+        },
+        {
+          "kind": "rune",
+          "id": "Ber",
+          "label": "Ber",
+          "side": "trade",
+          "price_fg": 350.0,
+          "title": "Iso Griffon 13+/17+=350fg , Ber =350fg , Mal=15fg · T4T/sold signal",
+          "url": "https://forums.d2jsp.org/topic.php?t=110570785&f=123",
+          "observed_at": "2026-11-13T11:06:34.294923+00:00",
+          "topic_date": "2026-11-07",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/11/7 07:49"
+        },
         {
           "kind": "rune",
           "id": "Ber",
@@ -1728,34 +1756,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/11/3 10:00"
-        },
-        {
-          "kind": "rune",
-          "id": "Ber",
-          "label": "Ber",
-          "side": "trade",
-          "price_fg": 300.0,
-          "title": "5 · T4T/sold signal",
-          "url": "https://forums.d2jsp.org/topic.php?t=110553087&f=123&o=40",
-          "observed_at": "2026-11-04T06:33:10.206352+00:00",
-          "topic_date": "2026-11-03",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/11/3 10:00"
-        },
-        {
-          "kind": "rune",
-          "id": "Ber",
-          "label": "Ber",
-          "side": "iso",
-          "price_fg": 300.0,
-          "title": "Need Runes",
-          "url": "https://forums.d2jsp.org/topic.php?t=110553087&f=123",
-          "observed_at": "2026-11-04T06:31:49.420427+00:00",
-          "topic_date": "2026-11-01",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/11/1 12:23"
         }
       ]
     },
@@ -1769,8 +1769,36 @@
       "trade_fg": 20.0,
       "samples": 60,
       "confidence": "high",
-      "last_seen_at": "2026-11-13T01:54:27.382097+00:00",
+      "last_seen_at": "2026-11-13T11:06:34.294923+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Mal",
+          "label": "Mal",
+          "side": "iso",
+          "price_fg": 15.0,
+          "title": "Iso Griffon 13+/17+=350fg , Ber =350fg , Mal=15fg",
+          "url": "https://forums.d2jsp.org/topic.php?t=110570785&f=123",
+          "observed_at": "2026-11-13T11:06:34.294923+00:00",
+          "topic_date": "2026-11-07",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/11/7 07:49"
+        },
+        {
+          "kind": "rune",
+          "id": "Mal",
+          "label": "Mal",
+          "side": "trade",
+          "price_fg": 15.0,
+          "title": "Iso Griffon 13+/17+=350fg , Ber =350fg , Mal=15fg · T4T/sold signal",
+          "url": "https://forums.d2jsp.org/topic.php?t=110570785&f=123",
+          "observed_at": "2026-11-13T11:06:34.294923+00:00",
+          "topic_date": "2026-11-07",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/11/7 07:49"
+        },
         {
           "kind": "rune",
           "id": "Mal",
@@ -1854,20 +1882,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/11/6 09:44"
-        },
-        {
-          "kind": "rune",
-          "id": "Mal",
-          "label": "Mal",
-          "side": "unknown",
-          "price_fg": 10.0,
-          "title": "Spock List updated",
-          "url": "https://forums.d2jsp.org/topic.php?t=110573023&f=123",
-          "observed_at": "2026-11-13T01:52:32.936738+00:00",
-          "topic_date": "2026-11-09",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/11/9 02:16"
         },
         {
           "kind": "rune",
@@ -2092,20 +2106,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/27 06:46"
-        },
-        {
-          "kind": "rune",
-          "id": "Mal",
-          "label": "Mal",
-          "side": "trade",
-          "price_fg": 15.0,
-          "title": "Perfect Enigma Mp + Runes(ber Ohm Vex Gul Ist Mal) · T4T/sold signal",
-          "url": "https://forums.d2jsp.org/topic.php?t=110533604&f=123",
-          "observed_at": "2026-10-29T18:32:00.490364+00:00",
-          "topic_date": "2026-10-27",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/27 06:46"
         }
       ]
     },
@@ -2114,13 +2114,69 @@
       "id": "Gul",
       "label": "Gul",
       "fair_fg": 30.0,
-      "iso_fg": 30.0,
+      "iso_fg": 25.0,
       "ft_fg": 35.0,
       "trade_fg": 30.0,
-      "samples": 47,
+      "samples": 51,
       "confidence": "high",
-      "last_seen_at": "2026-11-13T01:54:48.835343+00:00",
+      "last_seen_at": "2026-11-13T11:06:49.232743+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Gul",
+          "label": "Gul",
+          "side": "unknown",
+          "price_fg": 25.0,
+          "title": "2x Gul Or 1x Vex",
+          "url": "https://forums.d2jsp.org/topic.php?t=110571270&f=123",
+          "observed_at": "2026-11-13T11:06:49.232743+00:00",
+          "topic_date": "2026-11-07",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/11/7 11:17"
+        },
+        {
+          "kind": "rune",
+          "id": "Gul",
+          "label": "Gul",
+          "side": "unknown",
+          "price_fg": 22.5,
+          "title": "2x Gul Or 1x Vex",
+          "url": "https://forums.d2jsp.org/topic.php?t=110571270&f=123",
+          "observed_at": "2026-11-13T11:06:49.232743+00:00",
+          "topic_date": "2026-11-07",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/11/7 11:17"
+        },
+        {
+          "kind": "rune",
+          "id": "Gul",
+          "label": "Gul",
+          "side": "iso",
+          "price_fg": 15.0,
+          "title": "Iso Gul + Vex",
+          "url": "https://forums.d2jsp.org/topic.php?t=110570997&f=123",
+          "observed_at": "2026-11-13T11:06:37.976234+00:00",
+          "topic_date": "2026-11-07",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/11/7 09:19"
+        },
+        {
+          "kind": "rune",
+          "id": "Gul",
+          "label": "Gul",
+          "side": "iso",
+          "price_fg": 25.0,
+          "title": "Wtb Vex",
+          "url": "https://forums.d2jsp.org/topic.php?t=110571146&f=123",
+          "observed_at": "2026-11-13T11:05:36.306346+00:00",
+          "topic_date": "2026-11-07",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/11/7 10:29"
+        },
         {
           "kind": "rune",
           "id": "Gul",
@@ -2400,62 +2456,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/31 14:48"
-        },
-        {
-          "kind": "rune",
-          "id": "Gul",
-          "label": "Gul",
-          "side": "trade",
-          "price_fg": 20.0,
-          "title": "N: Paying Fg For High Runes For Chronicle · T4T/sold signal",
-          "url": "https://forums.d2jsp.org/topic.php?t=110549496&f=123",
-          "observed_at": "2026-11-01T00:10:27.785846+00:00",
-          "topic_date": "2026-10-31",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/31 14:48"
-        },
-        {
-          "kind": "rune",
-          "id": "Gul",
-          "label": "Gul",
-          "side": "iso",
-          "price_fg": 25.0,
-          "title": "N Gul O 25 Fg",
-          "url": "https://forums.d2jsp.org/topic.php?t=110529293&f=123",
-          "observed_at": "2026-10-29T18:43:01.551131+00:00",
-          "topic_date": "2026-10-26",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/26 00:09"
-        },
-        {
-          "kind": "rune",
-          "id": "Gul",
-          "label": "Gul",
-          "side": "unknown",
-          "price_fg": 15.0,
-          "title": "-shop- Pc",
-          "url": "https://forums.d2jsp.org/topic.php?t=110534570&f=123",
-          "observed_at": "2026-10-29T18:42:32.706646+00:00",
-          "topic_date": "2026-10-28",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/28 11:04"
-        },
-        {
-          "kind": "rune",
-          "id": "Gul",
-          "label": "Gul",
-          "side": "unknown",
-          "price_fg": 30.0,
-          "title": "2x Gul 2x Mal",
-          "url": "https://forums.d2jsp.org/topic.php?t=110531174&f=123",
-          "observed_at": "2026-10-29T18:41:43.023353+00:00",
-          "topic_date": "2026-10-26",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/26 13:32"
         }
       ]
     },
@@ -2467,10 +2467,38 @@
       "iso_fg": 15.0,
       "ft_fg": 15.0,
       "trade_fg": 15.0,
-      "samples": 68,
+      "samples": 69,
       "confidence": "high",
-      "last_seen_at": "2026-11-13T01:55:20.365748+00:00",
+      "last_seen_at": "2026-11-13T11:06:41.980460+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Um",
+          "label": "Um",
+          "side": "unknown",
+          "price_fg": 300.0,
+          "title": "Eldritch Warlock",
+          "url": "https://forums.d2jsp.org/topic.php?t=110570763&f=123",
+          "observed_at": "2026-11-13T11:06:41.980460+00:00",
+          "topic_date": "2026-11-09",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/11/9 04:57"
+        },
+        {
+          "kind": "rune",
+          "id": "Um",
+          "label": "Um",
+          "side": "unknown",
+          "price_fg": 80.0,
+          "title": "Eldritch Warlock",
+          "url": "https://forums.d2jsp.org/topic.php?t=110570763&f=123",
+          "observed_at": "2026-11-13T11:06:41.980460+00:00",
+          "topic_date": "2026-11-09",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/11/9 04:57"
+        },
         {
           "kind": "rune",
           "id": "Um",
@@ -2512,20 +2540,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/11/6 14:39"
-        },
-        {
-          "kind": "rune",
-          "id": "Um",
-          "label": "Um",
-          "side": "unknown",
-          "price_fg": 90.0,
-          "title": "Runes",
-          "url": "https://forums.d2jsp.org/topic.php?t=110569357&f=123",
-          "observed_at": "2026-11-13T01:52:53.782572+00:00",
-          "topic_date": "2026-11-06",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/11/6 17:45"
         },
         {
           "kind": "rune",
@@ -2786,20 +2800,6 @@
           "side": "iso",
           "price_fg": 10.0,
           "title": "Iso Um + Token",
-          "url": "https://forums.d2jsp.org/topic.php?t=110526959&f=123",
-          "observed_at": "2026-10-29T18:35:29.778856+00:00",
-          "topic_date": "2026-10-25",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/25 11:44"
-        },
-        {
-          "kind": "rune",
-          "id": "Um",
-          "label": "Um",
-          "side": "trade",
-          "price_fg": 10.0,
-          "title": "Iso Um + Token · T4T/sold signal",
           "url": "https://forums.d2jsp.org/topic.php?t=110526959&f=123",
           "observed_at": "2026-10-29T18:35:29.778856+00:00",
           "topic_date": "2026-10-25",
@@ -3167,10 +3167,38 @@
       "iso_fg": 50.0,
       "ft_fg": 62.5,
       "trade_fg": 50.0,
-      "samples": 61,
+      "samples": 63,
       "confidence": "high",
-      "last_seen_at": "2026-11-13T01:53:42.255198+00:00",
+      "last_seen_at": "2026-11-13T11:06:37.976234+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Vex",
+          "label": "Vex",
+          "side": "iso",
+          "price_fg": 30.0,
+          "title": "Iso Gul + Vex",
+          "url": "https://forums.d2jsp.org/topic.php?t=110570997&f=123",
+          "observed_at": "2026-11-13T11:06:37.976234+00:00",
+          "topic_date": "2026-11-07",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/11/7 09:19"
+        },
+        {
+          "kind": "rune",
+          "id": "Vex",
+          "label": "Vex",
+          "side": "unknown",
+          "price_fg": 50.0,
+          "title": "Vex",
+          "url": "https://forums.d2jsp.org/topic.php?t=110571595&f=123",
+          "observed_at": "2026-11-13T11:05:37.303364+00:00",
+          "topic_date": "2026-11-07",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/11/7 13:39"
+        },
         {
           "kind": "rune",
           "id": "Vex",
@@ -3478,34 +3506,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/26 04:30"
-        },
-        {
-          "kind": "rune",
-          "id": "Vex",
-          "label": "Vex",
-          "side": "iso",
-          "price_fg": 40.0,
-          "title": "Iso Vex",
-          "url": "https://forums.d2jsp.org/topic.php?t=110533495&f=123",
-          "observed_at": "2026-10-29T18:35:28.268532+00:00",
-          "topic_date": "2026-10-27",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/27 06:03"
-        },
-        {
-          "kind": "rune",
-          "id": "Vex",
-          "label": "Vex",
-          "side": "trade",
-          "price_fg": 40.0,
-          "title": "Iso Vex · T4T/sold signal",
-          "url": "https://forums.d2jsp.org/topic.php?t=110533495&f=123",
-          "observed_at": "2026-10-29T18:35:28.268532+00:00",
-          "topic_date": "2026-10-27",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/27 06:03"
         }
       ]
     },
@@ -7337,12 +7337,26 @@
       "label": "Fal",
       "fair_fg": 5.0,
       "iso_fg": 3.5,
-      "ft_fg": 5.0,
+      "ft_fg": 4.0,
       "trade_fg": 5.0,
       "samples": 14,
       "confidence": "high",
-      "last_seen_at": "2026-11-13T01:55:20.365748+00:00",
+      "last_seen_at": "2026-11-13T11:06:41.980460+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Fal",
+          "label": "Fal",
+          "side": "unknown",
+          "price_fg": 20.0,
+          "title": "Eldritch Warlock",
+          "url": "https://forums.d2jsp.org/topic.php?t=110570763&f=123",
+          "observed_at": "2026-11-13T11:06:41.980460+00:00",
+          "topic_date": "2026-11-09",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/11/9 04:57"
+        },
         {
           "kind": "rune",
           "id": "Fal",
@@ -7384,20 +7398,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/11/6 11:17"
-        },
-        {
-          "kind": "rune",
-          "id": "Fal",
-          "label": "Fal",
-          "side": "ft",
-          "price_fg": 80.0,
-          "title": "Unid Anni + Pul + Fal =80fg",
-          "url": "https://forums.d2jsp.org/topic.php?t=110569692&f=123",
-          "observed_at": "2026-11-13T01:52:22.821186+00:00",
-          "topic_date": "2026-11-06",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/11/6 20:35"
         },
         {
           "kind": "rune",
@@ -7657,11 +7657,11 @@
       "kind": "rune",
       "id": "Io",
       "label": "Io",
-      "fair_fg": 2.5,
-      "iso_fg": 6.5,
+      "fair_fg": 2.0,
+      "iso_fg": 3.0,
       "ft_fg": 2.0,
       "trade_fg": 2.0,
-      "samples": 8,
+      "samples": 7,
       "confidence": "medium",
       "last_seen_at": "2026-11-13T01:55:20.365748+00:00",
       "sources": [
@@ -7692,20 +7692,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/11/7 21:42"
-        },
-        {
-          "kind": "rune",
-          "id": "Io",
-          "label": "Io",
-          "side": "iso",
-          "price_fg": 10.0,
-          "title": "Rune Iso",
-          "url": "https://forums.d2jsp.org/topic.php?t=110571842&f=123",
-          "observed_at": "2026-11-13T01:52:50.298225+00:00",
-          "topic_date": "2026-11-07",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/11/7 15:15"
         },
         {
           "kind": "rune",
@@ -9160,13 +9146,13 @@
       "kind": "item",
       "id": "base-ap-3os",
       "label": "3洞執政官鎧甲 (3os Archon Plate / AP)",
-      "fair_fg": 20.0,
+      "fair_fg": 17.5,
       "iso_fg": null,
       "ft_fg": null,
       "trade_fg": null,
       "samples": 2,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:56:43.911622+00:00",
+      "last_seen_at": "2026-11-13T11:09:44.942180+00:00",
       "sources": [
         {
           "kind": "item",
@@ -9177,7 +9163,7 @@
           "price_fg": 20.0,
           "title": "~ Armor Bases & Runewords ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110469701&f=123",
-          "observed_at": "2026-11-06T06:56:43.911622+00:00",
+          "observed_at": "2026-11-13T11:09:44.942180+00:00",
           "topic_date": "2026-10-29",
           "item_parser_v2": true,
           "topic_time": "2026/10/29 10:18"
@@ -9188,10 +9174,10 @@
           "label": "3洞執政官鎧甲 (3os Archon Plate / AP)",
           "category": "熱門符文之語鑲底",
           "side": "unknown",
-          "price_fg": 20.0,
+          "price_fg": 15.0,
           "title": "~ Armor Bases & Runewords ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110563166&f=123",
-          "observed_at": "2026-11-06T06:55:33.946419+00:00",
+          "observed_at": "2026-11-13T11:08:56.164383+00:00",
           "topic_date": "2026-11-05",
           "item_parser_v2": true,
           "topic_time": "2026/11/5 23:04"
@@ -9209,7 +9195,7 @@
       "trade_fg": null,
       "samples": 2,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:56:43.911622+00:00",
+      "last_seen_at": "2026-11-13T11:09:44.942180+00:00",
       "sources": [
         {
           "kind": "item",
@@ -9220,7 +9206,7 @@
           "price_fg": 7.0,
           "title": "~ Armor Bases & Runewords ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110469701&f=123",
-          "observed_at": "2026-11-06T06:56:43.911622+00:00",
+          "observed_at": "2026-11-13T11:09:44.942180+00:00",
           "topic_date": "2026-10-29",
           "item_parser_v2": true,
           "topic_time": "2026/10/29 10:18"
@@ -9234,7 +9220,7 @@
           "price_fg": 7.0,
           "title": "~ Armor Bases & Runewords ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110563166&f=123",
-          "observed_at": "2026-11-06T06:55:33.946419+00:00",
+          "observed_at": "2026-11-13T11:08:56.164383+00:00",
           "topic_date": "2026-11-05",
           "item_parser_v2": true,
           "topic_time": "2026/11/5 23:04"
@@ -9246,13 +9232,13 @@
       "kind": "item",
       "id": "unique-the-ward",
       "label": "庇護結界 (The Ward)",
-      "fair_fg": 20.0,
+      "fair_fg": 25.0,
       "iso_fg": null,
       "ft_fg": null,
       "trade_fg": null,
       "samples": 6,
       "confidence": "medium",
-      "last_seen_at": "2026-11-06T06:56:43.911622+00:00",
+      "last_seen_at": "2026-11-13T11:09:44.942180+00:00",
       "sources": [
         {
           "kind": "item",
@@ -9263,7 +9249,7 @@
           "price_fg": 60.0,
           "title": "~ Armor Bases & Runewords ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110469701&f=123",
-          "observed_at": "2026-11-06T06:56:43.911622+00:00",
+          "observed_at": "2026-11-13T11:09:44.942180+00:00",
           "topic_date": "2026-10-29",
           "item_parser_v2": true,
           "topic_time": "2026/10/29 10:18"
@@ -9277,7 +9263,7 @@
           "price_fg": 20.0,
           "title": "~ Armor Bases & Runewords ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110469701&f=123",
-          "observed_at": "2026-11-06T06:56:43.911622+00:00",
+          "observed_at": "2026-11-13T11:09:44.942180+00:00",
           "topic_date": "2026-10-29",
           "item_parser_v2": true,
           "topic_time": "2026/10/29 10:18"
@@ -9288,10 +9274,38 @@
           "label": "庇護結界 (The Ward)",
           "category": "盾牌",
           "side": "unknown",
+          "price_fg": 40.0,
+          "title": "~ Armor Bases & Runewords ~",
+          "url": "https://forums.d2jsp.org/topic.php?t=110563166&f=123",
+          "observed_at": "2026-11-13T11:08:56.164383+00:00",
+          "topic_date": "2026-11-05",
+          "item_parser_v2": true,
+          "topic_time": "2026/11/5 23:04"
+        },
+        {
+          "kind": "item",
+          "id": "unique-the-ward",
+          "label": "庇護結界 (The Ward)",
+          "category": "盾牌",
+          "side": "unknown",
+          "price_fg": 20.0,
+          "title": "~ Armor Bases & Runewords ~",
+          "url": "https://forums.d2jsp.org/topic.php?t=110563166&f=123",
+          "observed_at": "2026-11-13T11:08:56.164383+00:00",
+          "topic_date": "2026-11-05",
+          "item_parser_v2": true,
+          "topic_time": "2026/11/5 23:04"
+        },
+        {
+          "kind": "item",
+          "id": "unique-the-ward",
+          "label": "庇護結界 (The Ward)",
+          "category": "盾牌",
+          "side": "unknown",
           "price_fg": 10.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -9305,215 +9319,15 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
-        },
-        {
-          "kind": "item",
-          "id": "unique-the-ward",
-          "label": "庇護結界 (The Ward)",
-          "category": "盾牌",
-          "side": "unknown",
-          "price_fg": 60.0,
-          "title": "~ Armor Bases & Runewords ~",
-          "url": "https://forums.d2jsp.org/topic.php?t=110563166&f=123",
-          "observed_at": "2026-11-06T06:55:33.946419+00:00",
-          "topic_date": "2026-11-05",
-          "item_parser_v2": true,
-          "topic_time": "2026/11/5 23:04"
-        },
-        {
-          "kind": "item",
-          "id": "unique-the-ward",
-          "label": "庇護結界 (The Ward)",
-          "category": "盾牌",
-          "side": "unknown",
-          "price_fg": 20.0,
-          "title": "~ Armor Bases & Runewords ~",
-          "url": "https://forums.d2jsp.org/topic.php?t=110563166&f=123",
-          "observed_at": "2026-11-06T06:55:33.946419+00:00",
-          "topic_date": "2026-11-05",
-          "item_parser_v2": true,
-          "topic_time": "2026/11/5 23:04"
         }
       ],
+      "pricing_window_days": 7,
+      "recent_source_count": 2,
       "category": "盾牌"
-    },
-    {
-      "kind": "item",
-      "id": "keyset-3x3",
-      "label": "3×3 鑰匙組 (3x3 Keyset)",
-      "fair_fg": 140.0,
-      "iso_fg": null,
-      "ft_fg": 140.0,
-      "trade_fg": null,
-      "samples": 1,
-      "confidence": "low",
-      "last_seen_at": "2026-11-13T01:57:19.513436+00:00",
-      "sources": [
-        {
-          "kind": "item",
-          "id": "keyset-3x3",
-          "label": "3×3 鑰匙組 (3x3 Keyset)",
-          "category": "鑰匙",
-          "side": "ft",
-          "price_fg": 140.0,
-          "title": "Keys Ft",
-          "url": "https://forums.d2jsp.org/topic.php?f=123&t=110372497&v=1",
-          "observed_at": "2026-11-13T01:57:19.513436+00:00",
-          "topic_date": "2026-09-25",
-          "item_parser_v2": true,
-          "topic_time": "2026/9/25 12:57"
-        }
-      ],
-      "category": "鑰匙"
-    },
-    {
-      "kind": "item",
-      "id": "key-terror",
-      "label": "恐懼之鑰 (Key of Terror / TKey)",
-      "fair_fg": 15.0,
-      "iso_fg": null,
-      "ft_fg": 15.0,
-      "trade_fg": null,
-      "samples": 1,
-      "confidence": "low",
-      "last_seen_at": "2026-11-13T01:57:19.513436+00:00",
-      "sources": [
-        {
-          "kind": "item",
-          "id": "key-terror",
-          "label": "恐懼之鑰 (Key of Terror / TKey)",
-          "category": "鑰匙",
-          "side": "ft",
-          "price_fg": 15.0,
-          "title": "Keys Ft",
-          "url": "https://forums.d2jsp.org/topic.php?f=123&t=110372497&v=1",
-          "observed_at": "2026-11-13T01:57:19.513436+00:00",
-          "topic_date": "2026-09-25",
-          "item_parser_v2": true,
-          "topic_time": "2026/9/25 12:57"
-        }
-      ],
-      "category": "鑰匙"
-    },
-    {
-      "kind": "item",
-      "id": "key-hate",
-      "label": "憎恨之鑰 (Key of Hate / HKey)",
-      "fair_fg": 15.0,
-      "iso_fg": null,
-      "ft_fg": 15.0,
-      "trade_fg": null,
-      "samples": 1,
-      "confidence": "low",
-      "last_seen_at": "2026-11-13T01:57:19.513436+00:00",
-      "sources": [
-        {
-          "kind": "item",
-          "id": "key-hate",
-          "label": "憎恨之鑰 (Key of Hate / HKey)",
-          "category": "鑰匙",
-          "side": "ft",
-          "price_fg": 15.0,
-          "title": "Keys Ft",
-          "url": "https://forums.d2jsp.org/topic.php?f=123&t=110372497&v=1",
-          "observed_at": "2026-11-13T01:57:19.513436+00:00",
-          "topic_date": "2026-09-25",
-          "item_parser_v2": true,
-          "topic_time": "2026/9/25 12:57"
-        }
-      ],
-      "category": "鑰匙"
-    },
-    {
-      "kind": "item",
-      "id": "key-destruction",
-      "label": "毀滅之鑰 (Key of Destruction / DKey)",
-      "fair_fg": 20.0,
-      "iso_fg": null,
-      "ft_fg": 20.0,
-      "trade_fg": null,
-      "samples": 1,
-      "confidence": "low",
-      "last_seen_at": "2026-11-13T01:57:19.513436+00:00",
-      "sources": [
-        {
-          "kind": "item",
-          "id": "key-destruction",
-          "label": "毀滅之鑰 (Key of Destruction / DKey)",
-          "category": "鑰匙",
-          "side": "ft",
-          "price_fg": 20.0,
-          "title": "Keys Ft",
-          "url": "https://forums.d2jsp.org/topic.php?f=123&t=110372497&v=1",
-          "observed_at": "2026-11-13T01:57:19.513436+00:00",
-          "topic_date": "2026-09-25",
-          "item_parser_v2": true,
-          "topic_time": "2026/9/25 12:57"
-        }
-      ],
-      "category": "鑰匙"
-    },
-    {
-      "kind": "item",
-      "id": "unique-crescent-moon",
-      "label": "新月 (Crescent Moon)",
-      "fair_fg": 20.0,
-      "iso_fg": null,
-      "ft_fg": 20.0,
-      "trade_fg": null,
-      "samples": 1,
-      "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:35.115888+00:00",
-      "sources": [
-        {
-          "kind": "item",
-          "id": "unique-crescent-moon",
-          "label": "新月 (Crescent Moon)",
-          "category": "護身符",
-          "side": "ft",
-          "price_fg": 20.0,
-          "title": "Wts Runewords For Cheap - Obsession, Enigma, Many",
-          "url": "https://forums.d2jsp.org/topic.php?t=110551852&f=123",
-          "observed_at": "2026-11-06T06:55:35.115888+00:00",
-          "topic_date": "2026-11-05",
-          "item_parser_v2": true,
-          "topic_time": "2026/11/5 17:37"
-        }
-      ],
-      "category": "護身符"
-    },
-    {
-      "kind": "item",
-      "id": "set-pal",
-      "label": "格擋機率：% (Pal)",
-      "fair_fg": 170.0,
-      "iso_fg": null,
-      "ft_fg": null,
-      "trade_fg": null,
-      "samples": 1,
-      "confidence": "low",
-      "last_seen_at": "2026-11-06T06:56:06.316424+00:00",
-      "sources": [
-        {
-          "kind": "item",
-          "id": "set-pal",
-          "label": "格擋機率：% (Pal)",
-          "category": "套裝盾牌",
-          "side": "unknown",
-          "price_fg": 170.0,
-          "title": "Torch Sorc 15/20 20/10 16/15 Pal 20/16 11/18",
-          "url": "https://forums.d2jsp.org/topic.php?t=110565027&f=123",
-          "observed_at": "2026-11-06T06:56:06.316424+00:00",
-          "topic_date": "2026-11-05",
-          "item_parser_v2": true,
-          "topic_time": "2026/11/5 03:43"
-        }
-      ],
-      "category": "套裝盾牌"
     },
     {
       "kind": "item",
@@ -9525,7 +9339,7 @@
       "trade_fg": null,
       "samples": 2,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:56:19.769751+00:00",
+      "last_seen_at": "2026-11-13T11:09:22.681268+00:00",
       "sources": [
         {
           "kind": "item",
@@ -9536,7 +9350,7 @@
           "price_fg": 15.0,
           "title": "Some Decent Stuff",
           "url": "https://forums.d2jsp.org/topic.php?t=110509967&f=123",
-          "observed_at": "2026-11-06T06:56:19.769751+00:00",
+          "observed_at": "2026-11-13T11:09:22.681268+00:00",
           "topic_date": "2026-11-05",
           "item_parser_v2": true,
           "topic_time": "2026/11/5 19:19"
@@ -9550,7 +9364,7 @@
           "price_fg": 55.0,
           "title": "Some Decent Stuff",
           "url": "https://forums.d2jsp.org/topic.php?t=110509967&f=123",
-          "observed_at": "2026-11-06T06:56:19.769751+00:00",
+          "observed_at": "2026-11-13T11:09:22.681268+00:00",
           "topic_date": "2026-11-05",
           "item_parser_v2": true,
           "topic_time": "2026/11/5 19:19"
@@ -9568,7 +9382,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:56:19.769751+00:00",
+      "last_seen_at": "2026-11-13T11:09:22.681268+00:00",
       "sources": [
         {
           "kind": "item",
@@ -9579,7 +9393,7 @@
           "price_fg": 15.0,
           "title": "Some Decent Stuff",
           "url": "https://forums.d2jsp.org/topic.php?t=110509967&f=123",
-          "observed_at": "2026-11-06T06:56:19.769751+00:00",
+          "observed_at": "2026-11-13T11:09:22.681268+00:00",
           "topic_date": "2026-11-05",
           "item_parser_v2": true,
           "topic_time": "2026/11/5 19:19"
@@ -9597,7 +9411,7 @@
       "trade_fg": null,
       "samples": 2,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:56:19.769751+00:00",
+      "last_seen_at": "2026-11-13T11:09:22.681268+00:00",
       "sources": [
         {
           "kind": "item",
@@ -9608,7 +9422,7 @@
           "price_fg": 15.0,
           "title": "Some Decent Stuff",
           "url": "https://forums.d2jsp.org/topic.php?t=110509967&f=123",
-          "observed_at": "2026-11-06T06:56:19.769751+00:00",
+          "observed_at": "2026-11-13T11:09:22.681268+00:00",
           "topic_date": "2026-11-05",
           "item_parser_v2": true,
           "topic_time": "2026/11/5 19:19"
@@ -9622,7 +9436,7 @@
           "price_fg": 20.0,
           "title": "Unid Griffon / Coa / Ararrch",
           "url": "https://forums.d2jsp.org/topic.php?t=110563320&f=123",
-          "observed_at": "2026-11-06T06:55:59.189787+00:00",
+          "observed_at": "2026-11-13T11:09:05.564761+00:00",
           "topic_date": "2026-11-04",
           "item_parser_v2": true,
           "topic_time": "2026/11/4 13:13"
@@ -9640,7 +9454,7 @@
       "trade_fg": null,
       "samples": 2,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:56:19.769751+00:00",
+      "last_seen_at": "2026-11-13T11:09:22.681268+00:00",
       "sources": [
         {
           "kind": "item",
@@ -9651,7 +9465,7 @@
           "price_fg": 10.0,
           "title": "Some Decent Stuff",
           "url": "https://forums.d2jsp.org/topic.php?t=110509967&f=123",
-          "observed_at": "2026-11-06T06:56:19.769751+00:00",
+          "observed_at": "2026-11-13T11:09:22.681268+00:00",
           "topic_date": "2026-11-05",
           "item_parser_v2": true,
           "topic_time": "2026/11/5 19:19"
@@ -9665,12 +9479,14 @@
           "price_fg": 70.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
         }
       ],
+      "pricing_window_days": 7,
+      "recent_source_count": 2,
       "category": "盾牌"
     },
     {
@@ -9683,7 +9499,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:56:19.769751+00:00",
+      "last_seen_at": "2026-11-13T11:09:22.681268+00:00",
       "sources": [
         {
           "kind": "item",
@@ -9694,7 +9510,7 @@
           "price_fg": 10.0,
           "title": "Some Decent Stuff",
           "url": "https://forums.d2jsp.org/topic.php?t=110509967&f=123",
-          "observed_at": "2026-11-06T06:56:19.769751+00:00",
+          "observed_at": "2026-11-13T11:09:22.681268+00:00",
           "topic_date": "2026-11-05",
           "item_parser_v2": true,
           "topic_time": "2026/11/5 19:19"
@@ -9712,7 +9528,7 @@
       "trade_fg": null,
       "samples": 2,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:56:19.769751+00:00",
+      "last_seen_at": "2026-11-13T11:09:22.681268+00:00",
       "sources": [
         {
           "kind": "item",
@@ -9723,7 +9539,7 @@
           "price_fg": 15.0,
           "title": "Some Decent Stuff",
           "url": "https://forums.d2jsp.org/topic.php?t=110509967&f=123",
-          "observed_at": "2026-11-06T06:56:19.769751+00:00",
+          "observed_at": "2026-11-13T11:09:22.681268+00:00",
           "topic_date": "2026-11-05",
           "item_parser_v2": true,
           "topic_time": "2026/11/5 19:19"
@@ -9737,7 +9553,7 @@
           "price_fg": 10.0,
           "title": "Some Decent Stuff",
           "url": "https://forums.d2jsp.org/topic.php?t=110509967&f=123",
-          "observed_at": "2026-11-06T06:56:19.769751+00:00",
+          "observed_at": "2026-11-13T11:09:22.681268+00:00",
           "topic_date": "2026-11-05",
           "item_parser_v2": true,
           "topic_time": "2026/11/5 19:19"
@@ -9755,7 +9571,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:56:19.769751+00:00",
+      "last_seen_at": "2026-11-13T11:09:22.681268+00:00",
       "sources": [
         {
           "kind": "item",
@@ -9766,7 +9582,7 @@
           "price_fg": 5.0,
           "title": "Some Decent Stuff",
           "url": "https://forums.d2jsp.org/topic.php?t=110509967&f=123",
-          "observed_at": "2026-11-06T06:56:19.769751+00:00",
+          "observed_at": "2026-11-13T11:09:22.681268+00:00",
           "topic_date": "2026-11-05",
           "item_parser_v2": true,
           "topic_time": "2026/11/5 19:19"
@@ -9784,7 +9600,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:56:19.769751+00:00",
+      "last_seen_at": "2026-11-13T11:09:22.681268+00:00",
       "sources": [
         {
           "kind": "item",
@@ -9795,7 +9611,7 @@
           "price_fg": 10.0,
           "title": "Some Decent Stuff",
           "url": "https://forums.d2jsp.org/topic.php?t=110509967&f=123",
-          "observed_at": "2026-11-06T06:56:19.769751+00:00",
+          "observed_at": "2026-11-13T11:09:22.681268+00:00",
           "topic_date": "2026-11-05",
           "item_parser_v2": true,
           "topic_time": "2026/11/5 19:19"
@@ -9813,7 +9629,7 @@
       "trade_fg": null,
       "samples": 2,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:56:19.769751+00:00",
+      "last_seen_at": "2026-11-13T11:09:22.681268+00:00",
       "sources": [
         {
           "kind": "item",
@@ -9824,7 +9640,7 @@
           "price_fg": 5.0,
           "title": "Some Decent Stuff",
           "url": "https://forums.d2jsp.org/topic.php?t=110509967&f=123",
-          "observed_at": "2026-11-06T06:56:19.769751+00:00",
+          "observed_at": "2026-11-13T11:09:22.681268+00:00",
           "topic_date": "2026-11-05",
           "item_parser_v2": true,
           "topic_time": "2026/11/5 19:19"
@@ -9838,12 +9654,14 @@
           "price_fg": 10.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
         }
       ],
+      "pricing_window_days": 7,
+      "recent_source_count": 2,
       "category": "重槌"
     },
     {
@@ -9854,9 +9672,9 @@
       "iso_fg": null,
       "ft_fg": null,
       "trade_fg": null,
-      "samples": 1,
+      "samples": 2,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:56:19.769751+00:00",
+      "last_seen_at": "2026-11-13T11:09:22.681268+00:00",
       "sources": [
         {
           "kind": "item",
@@ -9867,10 +9685,24 @@
           "price_fg": 5.0,
           "title": "Some Decent Stuff",
           "url": "https://forums.d2jsp.org/topic.php?t=110509967&f=123",
-          "observed_at": "2026-11-06T06:56:19.769751+00:00",
+          "observed_at": "2026-11-13T11:09:22.681268+00:00",
           "topic_date": "2026-11-05",
           "item_parser_v2": true,
           "topic_time": "2026/11/5 19:19"
+        },
+        {
+          "kind": "item",
+          "id": "unique-dwarf-star",
+          "label": "矮人之星 (Dwarf Star)",
+          "category": "戒指",
+          "side": "unknown",
+          "price_fg": 5.0,
+          "title": "Some Simple Items For Sale",
+          "url": "https://forums.d2jsp.org/topic.php?t=110561349&f=123",
+          "observed_at": "2026-11-13T11:08:34.567496+00:00",
+          "topic_date": "2026-11-03",
+          "item_parser_v2": true,
+          "topic_time": "2026/11/3 19:47"
         }
       ],
       "category": "戒指"
@@ -9879,13 +9711,13 @@
       "kind": "item",
       "id": "unique-goldwrap",
       "label": "黃金裹腰 (Goldwrap)",
-      "fair_fg": 5.0,
+      "fair_fg": 7.5,
       "iso_fg": null,
       "ft_fg": null,
       "trade_fg": null,
-      "samples": 3,
-      "confidence": "low",
-      "last_seen_at": "2026-11-06T06:56:19.769751+00:00",
+      "samples": 4,
+      "confidence": "medium",
+      "last_seen_at": "2026-11-13T11:09:22.681268+00:00",
       "sources": [
         {
           "kind": "item",
@@ -9896,7 +9728,7 @@
           "price_fg": 5.0,
           "title": "Some Decent Stuff",
           "url": "https://forums.d2jsp.org/topic.php?t=110509967&f=123",
-          "observed_at": "2026-11-06T06:56:19.769751+00:00",
+          "observed_at": "2026-11-13T11:09:22.681268+00:00",
           "topic_date": "2026-11-05",
           "item_parser_v2": true,
           "topic_time": "2026/11/5 19:19"
@@ -9910,7 +9742,7 @@
           "price_fg": 10.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -9924,12 +9756,28 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
+        },
+        {
+          "kind": "item",
+          "id": "unique-goldwrap",
+          "label": "黃金裹腰 (Goldwrap)",
+          "category": "腰帶",
+          "side": "unknown",
+          "price_fg": 5.0,
+          "title": "Some Simple Items For Sale",
+          "url": "https://forums.d2jsp.org/topic.php?t=110561349&f=123",
+          "observed_at": "2026-11-13T11:08:34.567496+00:00",
+          "topic_date": "2026-11-03",
+          "item_parser_v2": true,
+          "topic_time": "2026/11/3 19:47"
         }
       ],
+      "pricing_window_days": 7,
+      "recent_source_count": 2,
       "category": "腰帶"
     },
     {
@@ -9942,7 +9790,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:56:19.769751+00:00",
+      "last_seen_at": "2026-11-13T11:09:22.681268+00:00",
       "sources": [
         {
           "kind": "item",
@@ -9953,7 +9801,7 @@
           "price_fg": 5.0,
           "title": "Some Decent Stuff",
           "url": "https://forums.d2jsp.org/topic.php?t=110509967&f=123",
-          "observed_at": "2026-11-06T06:56:19.769751+00:00",
+          "observed_at": "2026-11-13T11:09:22.681268+00:00",
           "topic_date": "2026-11-05",
           "item_parser_v2": true,
           "topic_time": "2026/11/5 19:19"
@@ -9971,7 +9819,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:56:19.769751+00:00",
+      "last_seen_at": "2026-11-13T11:09:22.681268+00:00",
       "sources": [
         {
           "kind": "item",
@@ -9982,7 +9830,7 @@
           "price_fg": 5.0,
           "title": "Some Decent Stuff",
           "url": "https://forums.d2jsp.org/topic.php?t=110509967&f=123",
-          "observed_at": "2026-11-06T06:56:19.769751+00:00",
+          "observed_at": "2026-11-13T11:09:22.681268+00:00",
           "topic_date": "2026-11-05",
           "item_parser_v2": true,
           "topic_time": "2026/11/5 19:19"
@@ -10000,7 +9848,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:56:19.769751+00:00",
+      "last_seen_at": "2026-11-13T11:09:22.681268+00:00",
       "sources": [
         {
           "kind": "item",
@@ -10011,7 +9859,7 @@
           "price_fg": 5.0,
           "title": "Some Decent Stuff",
           "url": "https://forums.d2jsp.org/topic.php?t=110509967&f=123",
-          "observed_at": "2026-11-06T06:56:19.769751+00:00",
+          "observed_at": "2026-11-13T11:09:22.681268+00:00",
           "topic_date": "2026-11-05",
           "item_parser_v2": true,
           "topic_time": "2026/11/5 19:19"
@@ -10029,7 +9877,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:56:19.769751+00:00",
+      "last_seen_at": "2026-11-13T11:09:22.681268+00:00",
       "sources": [
         {
           "kind": "item",
@@ -10040,7 +9888,7 @@
           "price_fg": 5.0,
           "title": "Some Decent Stuff",
           "url": "https://forums.d2jsp.org/topic.php?t=110509967&f=123",
-          "observed_at": "2026-11-06T06:56:19.769751+00:00",
+          "observed_at": "2026-11-13T11:09:22.681268+00:00",
           "topic_date": "2026-11-05",
           "item_parser_v2": true,
           "topic_time": "2026/11/5 19:19"
@@ -10058,7 +9906,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:56:19.769751+00:00",
+      "last_seen_at": "2026-11-13T11:09:22.681268+00:00",
       "sources": [
         {
           "kind": "item",
@@ -10069,7 +9917,7 @@
           "price_fg": 10.0,
           "title": "Some Decent Stuff",
           "url": "https://forums.d2jsp.org/topic.php?t=110509967&f=123",
-          "observed_at": "2026-11-06T06:56:19.769751+00:00",
+          "observed_at": "2026-11-13T11:09:22.681268+00:00",
           "topic_date": "2026-11-05",
           "item_parser_v2": true,
           "topic_time": "2026/11/5 19:19"
@@ -10087,7 +9935,7 @@
       "trade_fg": null,
       "samples": 2,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:56:19.769751+00:00",
+      "last_seen_at": "2026-11-13T11:09:22.681268+00:00",
       "sources": [
         {
           "kind": "item",
@@ -10098,7 +9946,7 @@
           "price_fg": 5.0,
           "title": "Some Decent Stuff",
           "url": "https://forums.d2jsp.org/topic.php?t=110509967&f=123",
-          "observed_at": "2026-11-06T06:56:19.769751+00:00",
+          "observed_at": "2026-11-13T11:09:22.681268+00:00",
           "topic_date": "2026-11-05",
           "item_parser_v2": true,
           "topic_time": "2026/11/5 19:19"
@@ -10112,12 +9960,14 @@
           "price_fg": 15.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
         }
       ],
+      "pricing_window_days": 7,
+      "recent_source_count": 2,
       "category": "套裝武器"
     },
     {
@@ -10130,7 +9980,7 @@
       "trade_fg": null,
       "samples": 2,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:56:19.769751+00:00",
+      "last_seen_at": "2026-11-13T11:09:22.681268+00:00",
       "sources": [
         {
           "kind": "item",
@@ -10141,7 +9991,7 @@
           "price_fg": 10.0,
           "title": "Some Decent Stuff",
           "url": "https://forums.d2jsp.org/topic.php?t=110509967&f=123",
-          "observed_at": "2026-11-06T06:56:19.769751+00:00",
+          "observed_at": "2026-11-13T11:09:22.681268+00:00",
           "topic_date": "2026-11-05",
           "item_parser_v2": true,
           "topic_time": "2026/11/5 19:19"
@@ -10155,7 +10005,7 @@
           "price_fg": 5.0,
           "title": "Some Decent Stuff",
           "url": "https://forums.d2jsp.org/topic.php?t=110509967&f=123",
-          "observed_at": "2026-11-06T06:56:19.769751+00:00",
+          "observed_at": "2026-11-13T11:09:22.681268+00:00",
           "topic_date": "2026-11-05",
           "item_parser_v2": true,
           "topic_time": "2026/11/5 19:19"
@@ -10173,7 +10023,7 @@
       "trade_fg": null,
       "samples": 2,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:56:19.769751+00:00",
+      "last_seen_at": "2026-11-13T11:09:22.681268+00:00",
       "sources": [
         {
           "kind": "item",
@@ -10184,7 +10034,7 @@
           "price_fg": 40.0,
           "title": "Some Decent Stuff",
           "url": "https://forums.d2jsp.org/topic.php?t=110509967&f=123",
-          "observed_at": "2026-11-06T06:56:19.769751+00:00",
+          "observed_at": "2026-11-13T11:09:22.681268+00:00",
           "topic_date": "2026-11-05",
           "item_parser_v2": true,
           "topic_time": "2026/11/5 19:19"
@@ -10198,7 +10048,7 @@
           "price_fg": 10.0,
           "title": "Some Decent Stuff",
           "url": "https://forums.d2jsp.org/topic.php?t=110509967&f=123",
-          "observed_at": "2026-11-06T06:56:19.769751+00:00",
+          "observed_at": "2026-11-13T11:09:22.681268+00:00",
           "topic_date": "2026-11-05",
           "item_parser_v2": true,
           "topic_time": "2026/11/5 19:19"
@@ -10216,7 +10066,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:56:19.769751+00:00",
+      "last_seen_at": "2026-11-13T11:09:22.681268+00:00",
       "sources": [
         {
           "kind": "item",
@@ -10227,7 +10077,7 @@
           "price_fg": 15.0,
           "title": "Some Decent Stuff",
           "url": "https://forums.d2jsp.org/topic.php?t=110509967&f=123",
-          "observed_at": "2026-11-06T06:56:19.769751+00:00",
+          "observed_at": "2026-11-13T11:09:22.681268+00:00",
           "topic_date": "2026-11-05",
           "item_parser_v2": true,
           "topic_time": "2026/11/5 19:19"
@@ -10245,7 +10095,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:56:19.769751+00:00",
+      "last_seen_at": "2026-11-13T11:09:22.681268+00:00",
       "sources": [
         {
           "kind": "item",
@@ -10256,7 +10106,7 @@
           "price_fg": 75.0,
           "title": "Some Decent Stuff",
           "url": "https://forums.d2jsp.org/topic.php?t=110509967&f=123",
-          "observed_at": "2026-11-06T06:56:19.769751+00:00",
+          "observed_at": "2026-11-13T11:09:22.681268+00:00",
           "topic_date": "2026-11-05",
           "item_parser_v2": true,
           "topic_time": "2026/11/5 19:19"
@@ -10274,7 +10124,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:56:19.769751+00:00",
+      "last_seen_at": "2026-11-13T11:09:22.681268+00:00",
       "sources": [
         {
           "kind": "item",
@@ -10285,7 +10135,7 @@
           "price_fg": 5.0,
           "title": "Some Decent Stuff",
           "url": "https://forums.d2jsp.org/topic.php?t=110509967&f=123",
-          "observed_at": "2026-11-06T06:56:19.769751+00:00",
+          "observed_at": "2026-11-13T11:09:22.681268+00:00",
           "topic_date": "2026-11-05",
           "item_parser_v2": true,
           "topic_time": "2026/11/5 19:19"
@@ -10303,7 +10153,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:56:19.769751+00:00",
+      "last_seen_at": "2026-11-13T11:09:22.681268+00:00",
       "sources": [
         {
           "kind": "item",
@@ -10314,7 +10164,7 @@
           "price_fg": 5.0,
           "title": "Some Decent Stuff",
           "url": "https://forums.d2jsp.org/topic.php?t=110509967&f=123",
-          "observed_at": "2026-11-06T06:56:19.769751+00:00",
+          "observed_at": "2026-11-13T11:09:22.681268+00:00",
           "topic_date": "2026-11-05",
           "item_parser_v2": true,
           "topic_time": "2026/11/5 19:19"
@@ -10332,7 +10182,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:50.426425+00:00",
+      "last_seen_at": "2026-11-13T11:09:07.543184+00:00",
       "sources": [
         {
           "kind": "item",
@@ -10343,7 +10193,7 @@
           "price_fg": 5.0,
           "title": "Why Not?",
           "url": "https://forums.d2jsp.org/topic.php?t=110552948&f=123",
-          "observed_at": "2026-11-06T06:55:50.426425+00:00",
+          "observed_at": "2026-11-13T11:09:07.543184+00:00",
           "topic_date": "2026-11-01",
           "item_parser_v2": true,
           "topic_time": "2026/11/1 11:52"
@@ -10471,14 +10321,28 @@
       "kind": "item",
       "id": "unique-latent-rotting-fissure",
       "label": "潛伏腐敗裂痕 (Latent Rotting Fissure)",
-      "fair_fg": 5.0,
+      "fair_fg": 17.5,
       "iso_fg": null,
       "ft_fg": null,
       "trade_fg": null,
-      "samples": 1,
+      "samples": 2,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:56:17.783013+00:00",
+      "last_seen_at": "2026-11-13T11:07:56.973211+00:00",
       "sources": [
+        {
+          "kind": "item",
+          "id": "unique-latent-rotting-fissure",
+          "label": "潛伏腐敗裂痕 (Latent Rotting Fissure)",
+          "category": "咒符",
+          "side": "unknown",
+          "price_fg": 30.0,
+          "title": "~ Rares, Magics & Charms ~",
+          "url": "https://forums.d2jsp.org/topic.php?t=110563145&f=123",
+          "observed_at": "2026-11-13T11:07:56.973211+00:00",
+          "topic_date": "2026-11-10",
+          "item_parser_v2": true,
+          "topic_time": "2026/11/10 02:13"
+        },
         {
           "kind": "item",
           "id": "unique-latent-rotting-fissure",
@@ -10506,7 +10370,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -10517,7 +10381,7 @@
           "price_fg": 10.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -10535,7 +10399,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -10546,7 +10410,7 @@
           "price_fg": 15.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -10564,7 +10428,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -10575,7 +10439,7 @@
           "price_fg": 30.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -10593,7 +10457,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -10604,7 +10468,7 @@
           "price_fg": 10.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -10622,7 +10486,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -10633,7 +10497,7 @@
           "price_fg": 10.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -10651,7 +10515,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -10662,7 +10526,7 @@
           "price_fg": 10.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -10680,7 +10544,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -10691,7 +10555,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -10709,7 +10573,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -10720,7 +10584,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -10738,7 +10602,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -10749,7 +10613,7 @@
           "price_fg": 100.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -10767,7 +10631,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -10778,7 +10642,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -10796,7 +10660,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -10807,7 +10671,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -10825,7 +10689,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -10836,7 +10700,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -10854,7 +10718,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -10865,7 +10729,7 @@
           "price_fg": 10.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -10883,7 +10747,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -10894,7 +10758,7 @@
           "price_fg": 10.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -10906,13 +10770,13 @@
       "kind": "item",
       "id": "unique-gloom-s-trap",
       "label": "陰影陷阱 (Gloom's Trap)",
-      "fair_fg": 15.0,
+      "fair_fg": 8.5,
       "iso_fg": null,
       "ft_fg": null,
       "trade_fg": null,
-      "samples": 1,
+      "samples": 2,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -10923,10 +10787,24 @@
           "price_fg": 15.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
+        },
+        {
+          "kind": "item",
+          "id": "unique-gloom-s-trap",
+          "label": "陰影陷阱 (Gloom's Trap)",
+          "category": "腰帶",
+          "side": "unknown",
+          "price_fg": 2.0,
+          "title": "Some Simple Items For Sale",
+          "url": "https://forums.d2jsp.org/topic.php?t=110561349&f=123",
+          "observed_at": "2026-11-13T11:08:34.567496+00:00",
+          "topic_date": "2026-11-03",
+          "item_parser_v2": true,
+          "topic_time": "2026/11/3 19:47"
         }
       ],
       "category": "腰帶"
@@ -10941,7 +10819,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -10952,7 +10830,7 @@
           "price_fg": 40.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -10970,7 +10848,7 @@
       "trade_fg": null,
       "samples": 3,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -10981,7 +10859,7 @@
           "price_fg": 15.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -10995,7 +10873,7 @@
           "price_fg": 12.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -11009,7 +10887,7 @@
           "price_fg": 10.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -11027,7 +10905,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -11038,7 +10916,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -11056,7 +10934,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -11067,7 +10945,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -11085,7 +10963,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -11096,7 +10974,7 @@
           "price_fg": 15.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -11114,7 +10992,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -11125,7 +11003,7 @@
           "price_fg": 10.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -11143,7 +11021,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -11154,7 +11032,7 @@
           "price_fg": 15.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -11172,7 +11050,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -11183,7 +11061,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -11201,7 +11079,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -11212,7 +11090,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -11230,7 +11108,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -11241,7 +11119,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -11259,7 +11137,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -11270,7 +11148,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -11288,7 +11166,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -11299,7 +11177,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -11317,7 +11195,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -11328,7 +11206,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -11346,7 +11224,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -11357,7 +11235,7 @@
           "price_fg": 10.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -11375,7 +11253,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -11386,7 +11264,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -11404,7 +11282,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -11415,7 +11293,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -11433,7 +11311,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -11444,7 +11322,7 @@
           "price_fg": 20.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -11462,7 +11340,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -11473,7 +11351,7 @@
           "price_fg": 10.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -11491,7 +11369,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -11502,7 +11380,7 @@
           "price_fg": 10.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -11520,7 +11398,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -11531,7 +11409,7 @@
           "price_fg": 10.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -11549,7 +11427,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -11560,7 +11438,7 @@
           "price_fg": 7.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -11578,7 +11456,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -11589,7 +11467,7 @@
           "price_fg": 10.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -11607,7 +11485,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -11618,7 +11496,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -11636,7 +11514,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -11647,7 +11525,7 @@
           "price_fg": 10.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -11665,7 +11543,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -11676,7 +11554,7 @@
           "price_fg": 7.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -11694,7 +11572,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -11705,7 +11583,7 @@
           "price_fg": 10.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -11723,7 +11601,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -11734,7 +11612,7 @@
           "price_fg": 10.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -11752,7 +11630,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -11763,7 +11641,7 @@
           "price_fg": 10.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -11781,7 +11659,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -11792,7 +11670,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -11810,7 +11688,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -11821,7 +11699,7 @@
           "price_fg": 30.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -11839,7 +11717,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -11850,7 +11728,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -11868,7 +11746,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -11879,7 +11757,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -11897,7 +11775,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -11908,7 +11786,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -11926,7 +11804,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -11937,7 +11815,36 @@
           "price_fg": 10.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
+          "topic_date": "2026-11-06",
+          "item_parser_v2": true,
+          "topic_time": "2026/11/6 00:49"
+        }
+      ],
+      "category": "匕首"
+    },
+    {
+      "kind": "item",
+      "id": "unique-ghostflame",
+      "label": "鬼火 (Ghostflame)",
+      "fair_fg": 15.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "unique-ghostflame",
+          "label": "鬼火 (Ghostflame)",
+          "category": "匕首",
+          "side": "unknown",
+          "price_fg": 15.0,
+          "title": "~ Uniques & Sets ~",
+          "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -11955,7 +11862,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -11966,7 +11873,7 @@
           "price_fg": 20.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -11984,7 +11891,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -11995,7 +11902,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -12013,7 +11920,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -12024,7 +11931,7 @@
           "price_fg": 7.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -12042,7 +11949,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -12053,7 +11960,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -12071,7 +11978,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -12082,7 +11989,7 @@
           "price_fg": 10.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -12100,7 +12007,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -12111,7 +12018,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -12129,7 +12036,7 @@
       "trade_fg": null,
       "samples": 2,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -12140,7 +12047,7 @@
           "price_fg": 20.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -12154,7 +12061,7 @@
           "price_fg": 10.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -12172,7 +12079,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -12183,7 +12090,36 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
+          "topic_date": "2026-11-06",
+          "item_parser_v2": true,
+          "topic_time": "2026/11/6 00:49"
+        }
+      ],
+      "category": "長矛"
+    },
+    {
+      "kind": "item",
+      "id": "unique-bloodthief",
+      "label": "血賊 (Bloodthief)",
+      "fair_fg": 5.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "unique-bloodthief",
+          "label": "血賊 (Bloodthief)",
+          "category": "長矛",
+          "side": "unknown",
+          "price_fg": 5.0,
+          "title": "~ Uniques & Sets ~",
+          "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -12201,7 +12137,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -12212,7 +12148,7 @@
           "price_fg": 15.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -12230,7 +12166,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -12241,7 +12177,7 @@
           "price_fg": 10.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -12259,7 +12195,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -12270,7 +12206,7 @@
           "price_fg": 10.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -12288,7 +12224,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -12299,7 +12235,7 @@
           "price_fg": 10.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -12317,7 +12253,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -12328,7 +12264,7 @@
           "price_fg": 10.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -12346,7 +12282,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -12357,7 +12293,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -12375,7 +12311,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -12386,7 +12322,7 @@
           "price_fg": 7.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -12404,7 +12340,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -12415,7 +12351,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -12433,7 +12369,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -12444,7 +12380,7 @@
           "price_fg": 10.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -12462,7 +12398,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -12473,7 +12409,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -12491,7 +12427,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -12502,7 +12438,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -12520,7 +12456,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -12531,7 +12467,7 @@
           "price_fg": 40.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -12549,7 +12485,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -12560,7 +12496,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -12578,7 +12514,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -12589,7 +12525,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -12607,7 +12543,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -12618,7 +12554,7 @@
           "price_fg": 200.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -12636,7 +12572,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -12647,7 +12583,7 @@
           "price_fg": 10.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -12665,7 +12601,7 @@
       "trade_fg": null,
       "samples": 2,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -12676,7 +12612,7 @@
           "price_fg": 10.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -12690,7 +12626,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -12708,7 +12644,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -12719,7 +12655,7 @@
           "price_fg": 10.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -12737,7 +12673,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -12748,7 +12684,7 @@
           "price_fg": 10.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -12766,7 +12702,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -12777,7 +12713,7 @@
           "price_fg": 10.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -12795,7 +12731,7 @@
       "trade_fg": null,
       "samples": 2,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -12806,7 +12742,7 @@
           "price_fg": 10.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -12820,7 +12756,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -12838,7 +12774,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -12849,7 +12785,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -12867,7 +12803,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -12878,7 +12814,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -12896,7 +12832,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -12907,7 +12843,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -12925,7 +12861,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -12936,7 +12872,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -12954,7 +12890,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -12965,7 +12901,7 @@
           "price_fg": 10.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -12983,7 +12919,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -12994,7 +12930,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -13012,7 +12948,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -13023,7 +12959,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -13041,7 +12977,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -13052,7 +12988,7 @@
           "price_fg": 10.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -13070,7 +13006,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -13081,7 +13017,7 @@
           "price_fg": 10.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -13099,7 +13035,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -13110,7 +13046,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -13128,7 +13064,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -13139,7 +13075,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -13157,7 +13093,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -13168,7 +13104,7 @@
           "price_fg": 3.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -13186,7 +13122,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -13197,7 +13133,7 @@
           "price_fg": 3.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -13215,7 +13151,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -13226,7 +13162,7 @@
           "price_fg": 3.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -13244,7 +13180,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -13255,7 +13191,7 @@
           "price_fg": 3.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -13273,7 +13209,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -13284,7 +13220,7 @@
           "price_fg": 3.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -13302,7 +13238,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -13313,7 +13249,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -13331,7 +13267,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -13342,7 +13278,7 @@
           "price_fg": 2.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -13360,7 +13296,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -13371,7 +13307,7 @@
           "price_fg": 20.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -13389,7 +13325,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -13400,7 +13336,7 @@
           "price_fg": 3.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -13418,7 +13354,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -13429,7 +13365,7 @@
           "price_fg": 3.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -13447,7 +13383,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -13458,7 +13394,7 @@
           "price_fg": 3.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -13476,7 +13412,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -13487,7 +13423,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -13505,7 +13441,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -13516,7 +13452,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -13534,7 +13470,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -13545,7 +13481,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -13563,7 +13499,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -13574,7 +13510,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -13592,7 +13528,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -13603,7 +13539,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -13621,7 +13557,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -13632,7 +13568,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -13650,7 +13586,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -13661,7 +13597,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -13679,7 +13615,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -13690,7 +13626,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -13708,7 +13644,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -13719,7 +13655,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -13737,7 +13673,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -13748,7 +13684,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -13766,7 +13702,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -13777,7 +13713,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -13795,7 +13731,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -13806,7 +13742,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -13824,7 +13760,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -13835,7 +13771,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -13853,7 +13789,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -13864,7 +13800,7 @@
           "price_fg": 3.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -13882,7 +13818,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -13893,7 +13829,7 @@
           "price_fg": 3.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -13911,7 +13847,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -13922,7 +13858,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -13940,7 +13876,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -13951,7 +13887,7 @@
           "price_fg": 20.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -13969,7 +13905,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -13980,7 +13916,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -13998,7 +13934,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -14009,7 +13945,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -14027,7 +13963,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -14038,7 +13974,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -14056,7 +13992,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -14067,7 +14003,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -14085,7 +14021,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -14096,7 +14032,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -14114,7 +14050,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -14125,7 +14061,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -14143,7 +14079,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -14154,7 +14090,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -14172,7 +14108,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -14183,7 +14119,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -14201,7 +14137,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -14212,7 +14148,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -14230,7 +14166,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -14241,7 +14177,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -14259,7 +14195,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -14270,7 +14206,7 @@
           "price_fg": 10.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -14288,7 +14224,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -14299,7 +14235,7 @@
           "price_fg": 7.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -14317,7 +14253,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -14328,7 +14264,7 @@
           "price_fg": 7.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -14346,7 +14282,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -14357,13 +14293,42 @@
           "price_fg": 7.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
         }
       ],
       "category": "套裝手套"
+    },
+    {
+      "kind": "item",
+      "id": "set-natalya-s-shadow",
+      "label": "娜塔亞的影子 (Natalya's Shadow)",
+      "fair_fg": 15.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "set-natalya-s-shadow",
+          "label": "娜塔亞的影子 (Natalya's Shadow)",
+          "category": "套裝護甲",
+          "side": "unknown",
+          "price_fg": 15.0,
+          "title": "~ Uniques & Sets ~",
+          "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
+          "topic_date": "2026-11-06",
+          "item_parser_v2": true,
+          "topic_time": "2026/11/6 00:49"
+        }
+      ],
+      "category": "套裝護甲"
     },
     {
       "kind": "item",
@@ -14375,7 +14340,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -14386,7 +14351,7 @@
           "price_fg": 10.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -14404,7 +14369,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -14415,7 +14380,7 @@
           "price_fg": 40.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -14433,7 +14398,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -14444,7 +14409,7 @@
           "price_fg": 30.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -14462,7 +14427,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -14473,7 +14438,7 @@
           "price_fg": 15.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -14491,7 +14456,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -14502,7 +14467,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -14520,7 +14485,7 @@
       "trade_fg": null,
       "samples": 2,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -14531,7 +14496,7 @@
           "price_fg": 30.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -14545,7 +14510,7 @@
           "price_fg": 7.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -14563,7 +14528,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -14574,7 +14539,7 @@
           "price_fg": 7.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -14592,7 +14557,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -14603,7 +14568,7 @@
           "price_fg": 3.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -14621,7 +14586,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -14632,7 +14597,7 @@
           "price_fg": 10.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -14650,7 +14615,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -14661,7 +14626,7 @@
           "price_fg": 10.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -14679,7 +14644,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -14690,7 +14655,7 @@
           "price_fg": 10.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -14708,7 +14673,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -14719,7 +14684,7 @@
           "price_fg": 5.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -14737,7 +14702,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -14748,7 +14713,7 @@
           "price_fg": 20.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
@@ -14766,7 +14731,7 @@
       "trade_fg": null,
       "samples": 1,
       "confidence": "low",
-      "last_seen_at": "2026-11-06T06:55:53.388375+00:00",
+      "last_seen_at": "2026-11-13T11:08:50.911353+00:00",
       "sources": [
         {
           "kind": "item",
@@ -14777,13 +14742,71 @@
           "price_fg": 10.0,
           "title": "~ Uniques & Sets ~",
           "url": "https://forums.d2jsp.org/topic.php?t=110561843&f=123",
-          "observed_at": "2026-11-06T06:55:53.388375+00:00",
+          "observed_at": "2026-11-13T11:08:50.911353+00:00",
           "topic_date": "2026-11-06",
           "item_parser_v2": true,
           "topic_time": "2026/11/6 00:49"
         }
       ],
       "category": "套裝護甲"
+    },
+    {
+      "kind": "item",
+      "id": "string-of-ears",
+      "label": "穿心 (String of Ears / SoE)",
+      "fair_fg": 3.0,
+      "iso_fg": null,
+      "ft_fg": null,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-11-13T11:08:34.567496+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "string-of-ears",
+          "label": "穿心 (String of Ears / SoE)",
+          "category": "腰帶",
+          "side": "unknown",
+          "price_fg": 3.0,
+          "title": "Some Simple Items For Sale",
+          "url": "https://forums.d2jsp.org/topic.php?t=110561349&f=123",
+          "observed_at": "2026-11-13T11:08:34.567496+00:00",
+          "topic_date": "2026-11-03",
+          "item_parser_v2": true,
+          "topic_time": "2026/11/3 19:47"
+        }
+      ],
+      "category": "腰帶"
+    },
+    {
+      "kind": "item",
+      "id": "unique-crescent-moon",
+      "label": "新月 (Crescent Moon)",
+      "fair_fg": 20.0,
+      "iso_fg": null,
+      "ft_fg": 20.0,
+      "trade_fg": null,
+      "samples": 1,
+      "confidence": "low",
+      "last_seen_at": "2026-11-13T11:08:03.599780+00:00",
+      "sources": [
+        {
+          "kind": "item",
+          "id": "unique-crescent-moon",
+          "label": "新月 (Crescent Moon)",
+          "category": "護身符",
+          "side": "ft",
+          "price_fg": 20.0,
+          "title": "Wts Runewords - Last Wish Destruction Phoenix Etc",
+          "url": "https://forums.d2jsp.org/topic.php?t=110571030&f=123",
+          "observed_at": "2026-11-13T11:08:03.599780+00:00",
+          "topic_date": "2026-11-08",
+          "item_parser_v2": true,
+          "topic_time": "2026/11/8 09:11"
+        }
+      ],
+      "category": "護身符"
     }
   ],
   "season": 15,
@@ -14795,8 +14818,8 @@
   "price_parser": "season15-runes-c2-full-v5",
   "item_source_policy": "season15-items-static-catalog-v7-uber-keys",
   "item_catalog_count": 589,
-  "item_topic_count": 218,
+  "item_topic_count": 1,
   "item_cached_topics": 1446,
-  "item_parsed_topics": 141,
-  "item_sample_count": 212
+  "item_parsed_topics": 161,
+  "item_sample_count": 215
 }

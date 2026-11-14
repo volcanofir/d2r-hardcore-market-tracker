@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T01:28:43.651606+00:00",
+  "updated_at": "2026-11-14T10:35:47.691811+00:00",
   "forum_pages": [
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&c=2",
@@ -40,26 +40,21 @@
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=50",
       "offset": 50,
-      "topics": 0,
-      "bytes": 0,
+      "topics": 24,
+      "bytes": 10130,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=50",
-          "topics": 0,
-          "bytes": 285
-        },
-        {
-          "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=50",
-          "topics": 0,
-          "bytes": 285
+          "topics": 24,
+          "bytes": 10130
         }
       ]
     },
     {
-      "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=75",
+      "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=75",
       "offset": 75,
-      "topics": 0,
-      "bytes": 0,
+      "topics": 25,
+      "bytes": 10185,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=75",
@@ -68,8 +63,8 @@
         },
         {
           "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=75",
-          "topics": 0,
-          "bytes": 285
+          "topics": 25,
+          "bytes": 10185
         }
       ]
     },
@@ -82,7 +77,7 @@
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=100",
           "topics": 0,
-          "bytes": 3409
+          "bytes": 286
         },
         {
           "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=100",
@@ -92,10 +87,10 @@
       ]
     },
     {
-      "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=125",
+      "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=125",
       "offset": 125,
-      "topics": 0,
-      "bytes": 0,
+      "topics": 25,
+      "bytes": 10379,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=125",
@@ -104,8 +99,8 @@
         },
         {
           "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=125",
-          "topics": 0,
-          "bytes": 286
+          "topics": 25,
+          "bytes": 10379
         }
       ]
     },
@@ -159,7 +154,7 @@
         {
           "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=200",
           "topics": 0,
-          "bytes": 2631
+          "bytes": 286
         }
       ]
     },
@@ -254,14 +249,21 @@
       ]
     }
   ],
-  "discovered_topics": 0,
-  "cached_topics": 4544,
-  "selected_topics": 12,
-  "parsed_this_run": 12,
-  "completed_this_run": 12,
+  "discovered_topics": 74,
+  "cached_topics": 4238,
+  "selected_topics": 86,
+  "parsed_this_run": 85,
+  "completed_this_run": 20,
   "legacy_samples": 0,
-  "combined_samples": 1446,
-  "topic_errors": [],
+  "combined_samples": 1422,
+  "topic_errors": [
+    {
+      "url": "https://forums.d2jsp.org/topic.php?t=110591668&f=123",
+      "title": "Lem Ft",
+      "reason": "new",
+      "error": "429 Too Many Requests (5/5)"
+    }
+  ],
   "season": 15,
   "season_label": "第 15 季天梯",
   "data_start": "2026-08-22",

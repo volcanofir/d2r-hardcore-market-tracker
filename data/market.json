@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-11-14T10:36:12.317423+00:00",
+  "updated_at": "2026-11-14T18:10:57.626245+00:00",
   "forum": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-  "topic_count": 74,
+  "topic_count": 0,
   "cached_topics": 4238,
-  "parsed_topics": 4237,
-  "completed_topics": 3826,
-  "parsed_this_run": 85,
-  "sample_count": 829,
+  "parsed_topics": 4238,
+  "completed_topics": 3838,
+  "parsed_this_run": 13,
+  "sample_count": 827,
   "legacy_sample_count": 0,
   "market": [
     {
@@ -713,11 +713,11 @@
       "kind": "rune",
       "id": "Thul",
       "label": "Thul",
-      "fair_fg": 3.0,
-      "iso_fg": 2.0,
-      "ft_fg": 20.0,
+      "fair_fg": 2.0,
+      "iso_fg": 1.25,
+      "ft_fg": 15.5,
       "trade_fg": 2.5,
-      "samples": 13,
+      "samples": 11,
       "confidence": "high",
       "last_seen_at": "2026-11-14T10:35:05.536449+00:00",
       "sources": [
@@ -734,20 +734,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/11/14 03:00"
-        },
-        {
-          "kind": "rune",
-          "id": "Thul",
-          "label": "Thul",
-          "side": "iso",
-          "price_fg": 50.0,
-          "title": "Tal Thul Ort Iso",
-          "url": "https://forums.d2jsp.org/topic.php?t=110590330&f=123",
-          "observed_at": "2026-11-14T10:32:52.007957+00:00",
-          "topic_date": "2026-11-14",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/11/14 01:21"
         },
         {
           "kind": "rune",
@@ -790,20 +776,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/11/14 01:02"
-        },
-        {
-          "kind": "rune",
-          "id": "Thul",
-          "label": "Thul",
-          "side": "ft",
-          "price_fg": 20.0,
-          "title": "Thul - 20 Fg",
-          "url": "https://forums.d2jsp.org/topic.php?t=110590386&f=123",
-          "observed_at": "2026-11-14T10:31:58.394403+00:00",
-          "topic_date": "2026-11-14",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/11/14 01:25"
         },
         {
           "kind": "rune",

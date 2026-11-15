@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-11-15T06:40:49.827950+00:00",
+  "updated_at": "2026-11-15T16:26:30.906855+00:00",
   "forum": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-  "topic_count": 0,
-  "cached_topics": 4211,
-  "parsed_topics": 4211,
-  "completed_topics": 3835,
-  "parsed_this_run": 12,
-  "sample_count": 813,
+  "topic_count": 25,
+  "cached_topics": 4236,
+  "parsed_topics": 4236,
+  "completed_topics": 3853,
+  "parsed_this_run": 37,
+  "sample_count": 817,
   "legacy_sample_count": 0,
   "market": [
     {
@@ -714,13 +714,27 @@
       "id": "Ko",
       "label": "Ko",
       "fair_fg": 5.0,
-      "iso_fg": 10.0,
+      "iso_fg": 15.0,
       "ft_fg": 5.0,
       "trade_fg": 10.0,
-      "samples": 20,
+      "samples": 21,
       "confidence": "high",
-      "last_seen_at": "2026-11-13T01:55:20.365748+00:00",
+      "last_seen_at": "2026-11-15T16:25:13.199240+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Ko",
+          "label": "Ko",
+          "side": "iso",
+          "price_fg": 60.0,
+          "title": "Iso 4 Soc Flail Ko Pul Thul",
+          "url": "https://forums.d2jsp.org/topic.php?t=110619999&f=123",
+          "observed_at": "2026-11-15T16:25:13.199240+00:00",
+          "topic_date": "2026-11-15",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/11/15 07:13"
+        },
         {
           "kind": "rune",
           "id": "Ko",
@@ -1042,20 +1056,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/5 15:20"
-        },
-        {
-          "kind": "rune",
-          "id": "Ko",
-          "label": "Ko",
-          "side": "ft",
-          "price_fg": 3.0,
-          "title": "O Low Runes, Items, Pgs",
-          "url": "https://forums.d2jsp.org/topic.php?t=110435542&f=123",
-          "observed_at": "2026-10-06T16:00:34.126855+00:00",
-          "topic_date": "2026-10-06",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/6 05:08"
         }
       ]
     },
@@ -2817,10 +2817,24 @@
       "iso_fg": 30.0,
       "ft_fg": 41.66,
       "trade_fg": 26.5,
-      "samples": 79,
+      "samples": 80,
       "confidence": "high",
-      "last_seen_at": "2026-11-13T01:56:36.671429+00:00",
+      "last_seen_at": "2026-11-15T16:24:40.711420+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Ist",
+          "label": "Ist",
+          "side": "iso",
+          "price_fg": 150.0,
+          "title": "Need Ohm Ist 5os Crystal Sword",
+          "url": "https://forums.d2jsp.org/topic.php?t=110620224&f=123",
+          "observed_at": "2026-11-15T16:24:40.711420+00:00",
+          "topic_date": "2026-11-15",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/11/15 07:24"
+        },
         {
           "kind": "rune",
           "id": "Ist",
@@ -3136,20 +3150,6 @@
           "side": "unknown",
           "price_fg": 15.0,
           "title": "Clearing House",
-          "url": "https://forums.d2jsp.org/topic.php?t=110559901&f=123",
-          "observed_at": "2026-11-04T17:20:40.333854+00:00",
-          "topic_date": "2026-11-03",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/11/3 11:47"
-        },
-        {
-          "kind": "rune",
-          "id": "Ist",
-          "label": "Ist",
-          "side": "trade",
-          "price_fg": 15.0,
-          "title": "Clearing House · T4T/sold signal",
           "url": "https://forums.d2jsp.org/topic.php?t=110559901&f=123",
           "observed_at": "2026-11-04T17:20:40.333854+00:00",
           "topic_date": "2026-11-03",
@@ -5109,28 +5109,14 @@
       "kind": "rune",
       "id": "Sol",
       "label": "Sol",
-      "fair_fg": 2.0,
-      "iso_fg": 70.0,
+      "fair_fg": 1.96,
+      "iso_fg": null,
       "ft_fg": 1.46,
       "trade_fg": 1.96,
-      "samples": 9,
+      "samples": 8,
       "confidence": "medium",
-      "last_seen_at": "2026-11-14T10:33:55.878623+00:00",
+      "last_seen_at": "2026-10-29T10:03:32.711489+00:00",
       "sources": [
-        {
-          "kind": "rune",
-          "id": "Sol",
-          "label": "Sol",
-          "side": "iso",
-          "price_fg": 70.0,
-          "title": "Iso Ort + Sol",
-          "url": "https://forums.d2jsp.org/topic.php?t=110590242&f=123",
-          "observed_at": "2026-11-14T10:33:55.878623+00:00",
-          "topic_date": "2026-11-14",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/11/14 01:14"
-        },
         {
           "kind": "rune",
           "id": "Sol",
@@ -5685,12 +5671,54 @@
       "label": "Lem",
       "fair_fg": 5.0,
       "iso_fg": 5.0,
-      "ft_fg": 6.5,
+      "ft_fg": 7.0,
       "trade_fg": 5.0,
-      "samples": 24,
+      "samples": 26,
       "confidence": "high",
-      "last_seen_at": "2026-11-05T23:42:17.539208+00:00",
+      "last_seen_at": "2026-11-15T16:24:55.368264+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Lem",
+          "label": "Lem",
+          "side": "ft",
+          "price_fg": 80.0,
+          "title": "Lem Rune Ft 80fg Bin",
+          "url": "https://forums.d2jsp.org/topic.php?t=110619728&f=123",
+          "observed_at": "2026-11-15T16:24:55.368264+00:00",
+          "topic_date": "2026-11-15",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/11/15 06:57"
+        },
+        {
+          "kind": "rune",
+          "id": "Lem",
+          "label": "Lem",
+          "side": "trade",
+          "price_fg": 80.0,
+          "title": "Lem Rune Ft 80fg Bin · T4T/sold signal",
+          "url": "https://forums.d2jsp.org/topic.php?t=110619728&f=123",
+          "observed_at": "2026-11-15T16:24:55.368264+00:00",
+          "topic_date": "2026-11-15",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/11/15 06:57"
+        },
+        {
+          "kind": "rune",
+          "id": "Lem",
+          "label": "Lem",
+          "side": "iso",
+          "price_fg": 80.0,
+          "title": "N Items",
+          "url": "https://forums.d2jsp.org/topic.php?t=110620257&f=123",
+          "observed_at": "2026-11-15T16:24:51.734573+00:00",
+          "topic_date": "2026-11-15",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/11/15 07:26"
+        },
         {
           "kind": "rune",
           "id": "Lem",
@@ -5984,48 +6012,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/6 05:01"
-        },
-        {
-          "kind": "rune",
-          "id": "Lem",
-          "label": "Lem",
-          "side": "trade",
-          "price_fg": 30.0,
-          "title": "2 · T4T/sold signal",
-          "url": "https://forums.d2jsp.org/topic.php?t=110429706&f=123&o=10",
-          "observed_at": "2026-10-13T22:56:06.888212+00:00",
-          "topic_date": "2026-10-06",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/6 05:01"
-        },
-        {
-          "kind": "rune",
-          "id": "Lem",
-          "label": "Lem",
-          "side": "iso",
-          "price_fg": 5.0,
-          "title": "Iso Gmb Or Matriarchal Bow 4 Os + Lem Rune",
-          "url": "https://forums.d2jsp.org/topic.php?t=110470235&f=123",
-          "observed_at": "2026-10-13T17:01:08.670621+00:00",
-          "topic_date": "2026-10-12",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/12 12:57"
-        },
-        {
-          "kind": "rune",
-          "id": "Lem",
-          "label": "Lem",
-          "side": "trade",
-          "price_fg": 5.0,
-          "title": "Iso Gmb Or Matriarchal Bow 4 Os + Lem Rune · T4T/sold signal",
-          "url": "https://forums.d2jsp.org/topic.php?t=110470235&f=123",
-          "observed_at": "2026-10-13T17:01:08.670621+00:00",
-          "topic_date": "2026-10-12",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/10/12 12:57"
         }
       ]
     },
@@ -6037,10 +6023,24 @@
       "iso_fg": 12.0,
       "ft_fg": 3.0,
       "trade_fg": 5.0,
-      "samples": 11,
+      "samples": 12,
       "confidence": "high",
-      "last_seen_at": "2026-11-13T01:55:20.365748+00:00",
+      "last_seen_at": "2026-11-15T16:24:54.235131+00:00",
       "sources": [
+        {
+          "kind": "rune",
+          "id": "Lum",
+          "label": "Lum",
+          "side": "unknown",
+          "price_fg": 45.0,
+          "title": "Lum",
+          "url": "https://forums.d2jsp.org/topic.php?t=110620271&f=123",
+          "observed_at": "2026-11-15T16:24:54.235131+00:00",
+          "topic_date": "2026-11-15",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/11/15 07:27"
+        },
         {
           "kind": "rune",
           "id": "Lum",
@@ -8940,49 +8940,6 @@
           "topic_time": "2026/10/17 19:27"
         }
       ]
-    },
-    {
-      "kind": "item",
-      "id": "vipermagi",
-      "label": "蛇魔法師之皮 (Skin of the Vipermagi / Vmagi)",
-      "fair_fg": 20.0,
-      "iso_fg": null,
-      "ft_fg": null,
-      "trade_fg": 20.0,
-      "samples": 1,
-      "confidence": "low",
-      "last_seen_at": "2026-10-18T04:40:18.973318+00:00",
-      "sources": [
-        {
-          "kind": "item",
-          "id": "vipermagi",
-          "label": "蛇魔法師之皮 (Skin of the Vipermagi / Vmagi)",
-          "category": "胸甲",
-          "side": "unknown",
-          "price_fg": 20.0,
-          "title": "4",
-          "url": "https://forums.d2jsp.org/topic.php?t=110465018&f=123&o=30",
-          "observed_at": "2026-10-18T04:40:18.973318+00:00",
-          "topic_date": "2026-10-14",
-          "item_parser_v2": true,
-          "topic_time": "2026/10/14 04:00"
-        },
-        {
-          "kind": "item",
-          "id": "vipermagi",
-          "label": "蛇魔法師之皮 (Skin of the Vipermagi / Vmagi)",
-          "category": "胸甲",
-          "side": "trade",
-          "price_fg": 20.0,
-          "title": "4 · T4T/sold signal",
-          "url": "https://forums.d2jsp.org/topic.php?t=110465018&f=123&o=30",
-          "observed_at": "2026-10-18T04:40:18.973318+00:00",
-          "topic_date": "2026-10-14",
-          "item_parser_v2": true,
-          "topic_time": "2026/10/14 04:00"
-        }
-      ],
-      "category": "胸甲"
     },
     {
       "kind": "item",
@@ -14819,7 +14776,7 @@
   "item_source_policy": "season15-items-static-catalog-v7-uber-keys",
   "item_catalog_count": 589,
   "item_topic_count": 1,
-  "item_cached_topics": 1311,
-  "item_parsed_topics": 151,
-  "item_sample_count": 215
+  "item_cached_topics": 1281,
+  "item_parsed_topics": 121,
+  "item_sample_count": 214
 }

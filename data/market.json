@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-11-15T22:55:21.708781+00:00",
+  "updated_at": "2026-11-16T06:38:12.353942+00:00",
   "forum": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-  "topic_count": 25,
+  "topic_count": 0,
   "cached_topics": 4261,
   "parsed_topics": 4261,
-  "completed_topics": 3874,
-  "parsed_this_run": 37,
-  "sample_count": 818,
+  "completed_topics": 3886,
+  "parsed_this_run": 12,
+  "sample_count": 815,
   "legacy_sample_count": 0,
   "market": [
     {
@@ -17,24 +17,10 @@
       "iso_fg": 10.0,
       "ft_fg": 10.0,
       "trade_fg": 10.0,
-      "samples": 38,
+      "samples": 37,
       "confidence": "high",
-      "last_seen_at": "2026-11-15T22:53:53.361676+00:00",
+      "last_seen_at": "2026-11-04T17:18:22.912028+00:00",
       "sources": [
-        {
-          "kind": "rune",
-          "id": "Pul",
-          "label": "Pul",
-          "side": "iso",
-          "price_fg": 90.0,
-          "title": "Iso Pul Rune 90 Fg",
-          "url": "https://forums.d2jsp.org/topic.php?t=110627066&f=123",
-          "observed_at": "2026-11-15T22:53:53.361676+00:00",
-          "topic_date": "2026-11-15",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/11/15 12:23"
-        },
         {
           "kind": "rune",
           "id": "Pul",
@@ -356,6 +342,20 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/10/19 20:45"
+        },
+        {
+          "kind": "rune",
+          "id": "Pul",
+          "label": "Pul",
+          "side": "iso",
+          "price_fg": 10.0,
+          "title": "Paying Fg For List Items",
+          "url": "https://forums.d2jsp.org/topic.php?t=110503507&f=123",
+          "observed_at": "2026-10-20T19:19:33.217735+00:00",
+          "topic_date": "2026-10-19",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/10/19 19:45"
         }
       ]
     },
@@ -2817,24 +2817,10 @@
       "iso_fg": 30.0,
       "ft_fg": 41.66,
       "trade_fg": 26.5,
-      "samples": 80,
+      "samples": 79,
       "confidence": "high",
-      "last_seen_at": "2026-11-15T22:53:33.008022+00:00",
+      "last_seen_at": "2026-11-13T01:56:36.671429+00:00",
       "sources": [
-        {
-          "kind": "rune",
-          "id": "Ist",
-          "label": "Ist",
-          "side": "iso",
-          "price_fg": 145.0,
-          "title": "Need Mal + Ist + Amn",
-          "url": "https://forums.d2jsp.org/topic.php?t=110627124&f=123",
-          "observed_at": "2026-11-15T22:53:33.008022+00:00",
-          "topic_date": "2026-11-15",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/11/15 12:26"
-        },
         {
           "kind": "rune",
           "id": "Ist",
@@ -3150,6 +3136,20 @@
           "side": "unknown",
           "price_fg": 15.0,
           "title": "Clearing House",
+          "url": "https://forums.d2jsp.org/topic.php?t=110559901&f=123",
+          "observed_at": "2026-11-04T17:20:40.333854+00:00",
+          "topic_date": "2026-11-03",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/11/3 11:47"
+        },
+        {
+          "kind": "rune",
+          "id": "Ist",
+          "label": "Ist",
+          "side": "trade",
+          "price_fg": 15.0,
+          "title": "Clearing House · T4T/sold signal",
           "url": "https://forums.d2jsp.org/topic.php?t=110559901&f=123",
           "observed_at": "2026-11-04T17:20:40.333854+00:00",
           "topic_date": "2026-11-03",
@@ -6021,26 +6021,12 @@
       "label": "Lum",
       "fair_fg": 5.0,
       "iso_fg": 12.0,
-      "ft_fg": 4.0,
+      "ft_fg": 3.0,
       "trade_fg": 5.0,
-      "samples": 12,
+      "samples": 11,
       "confidence": "high",
-      "last_seen_at": "2026-11-15T22:54:07.823792+00:00",
+      "last_seen_at": "2026-11-13T01:55:20.365748+00:00",
       "sources": [
-        {
-          "kind": "rune",
-          "id": "Lum",
-          "label": "Lum",
-          "side": "ft",
-          "price_fg": 45.0,
-          "title": "Ft Lum X 1 For 45 Fg",
-          "url": "https://forums.d2jsp.org/topic.php?t=110626771&f=123",
-          "observed_at": "2026-11-15T22:54:07.823792+00:00",
-          "topic_date": "2026-11-15",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/11/15 12:11"
-        },
         {
           "kind": "rune",
           "id": "Lum",
@@ -9189,7 +9175,7 @@
       "kind": "item",
       "id": "unique-the-ward",
       "label": "庇護結界 (The Ward)",
-      "fair_fg": 25.0,
+      "fair_fg": 20.0,
       "iso_fg": null,
       "ft_fg": null,
       "trade_fg": null,
@@ -9282,8 +9268,6 @@
           "topic_time": "2026/11/6 00:49"
         }
       ],
-      "pricing_window_days": 7,
-      "recent_source_count": 2,
       "category": "盾牌"
     },
     {
@@ -9442,8 +9426,6 @@
           "topic_time": "2026/11/6 00:49"
         }
       ],
-      "pricing_window_days": 7,
-      "recent_source_count": 2,
       "category": "盾牌"
     },
     {
@@ -9617,8 +9599,6 @@
           "topic_time": "2026/11/6 00:49"
         }
       ],
-      "pricing_window_days": 7,
-      "recent_source_count": 2,
       "category": "重槌"
     },
     {
@@ -9668,7 +9648,7 @@
       "kind": "item",
       "id": "unique-goldwrap",
       "label": "黃金裹腰 (Goldwrap)",
-      "fair_fg": 7.5,
+      "fair_fg": 5.0,
       "iso_fg": null,
       "ft_fg": null,
       "trade_fg": null,
@@ -9733,8 +9713,6 @@
           "topic_time": "2026/11/3 19:47"
         }
       ],
-      "pricing_window_days": 7,
-      "recent_source_count": 2,
       "category": "腰帶"
     },
     {
@@ -9923,8 +9901,6 @@
           "topic_time": "2026/11/6 00:49"
         }
       ],
-      "pricing_window_days": 7,
-      "recent_source_count": 2,
       "category": "套裝武器"
     },
     {

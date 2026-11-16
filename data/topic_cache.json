@@ -56837,8 +56837,8 @@
       "title": "N 1x Ohm",
       "url": "https://forums.d2jsp.org/topic.php?t=110627300&f=123",
       "first_seen_at": "2026-11-15T22:52:38.840686+00:00",
-      "last_checked_at": "2026-11-15T22:53:39.383662+00:00",
-      "completed": false,
+      "last_checked_at": "2026-11-16T06:37:31.528119+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -56882,8 +56882,8 @@
       "title": "Need Mal!",
       "url": "https://forums.d2jsp.org/topic.php?t=110627257&f=123",
       "first_seen_at": "2026-11-15T22:52:38.840686+00:00",
-      "last_checked_at": "2026-11-15T22:53:28.041290+00:00",
-      "completed": false,
+      "last_checked_at": "2026-11-16T06:37:23.404362+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -56918,8 +56918,8 @@
       "title": "Vex Rune",
       "url": "https://forums.d2jsp.org/topic.php?t=110627205&f=123",
       "first_seen_at": "2026-11-15T22:52:38.840686+00:00",
-      "last_checked_at": "2026-11-15T22:53:10.285439+00:00",
-      "completed": false,
+      "last_checked_at": "2026-11-16T06:37:14.751552+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -56936,47 +56936,19 @@
       "title": "Need Mal + Ist + Amn",
       "url": "https://forums.d2jsp.org/topic.php?t=110627124&f=123",
       "first_seen_at": "2026-11-15T22:52:38.840686+00:00",
-      "last_checked_at": "2026-11-15T22:53:33.008022+00:00",
-      "completed": false,
+      "last_checked_at": "2026-11-16T06:37:27.844435+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Ist",
-          "label": "Ist",
-          "side": "iso",
-          "price_fg": 145.0,
-          "title": "Need Mal + Ist + Amn",
-          "url": "https://forums.d2jsp.org/topic.php?t=110627124&f=123",
-          "observed_at": "2026-11-15T22:53:33.008022+00:00",
-          "topic_date": "2026-11-15",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110627066&f=123": {
       "title": "Iso Pul Rune 90 Fg",
       "url": "https://forums.d2jsp.org/topic.php?t=110627066&f=123",
       "first_seen_at": "2026-11-15T22:52:38.840686+00:00",
-      "last_checked_at": "2026-11-15T22:53:53.361676+00:00",
-      "completed": false,
+      "last_checked_at": "2026-11-16T06:37:32.008601+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Pul",
-          "label": "Pul",
-          "side": "iso",
-          "price_fg": 90.0,
-          "title": "Iso Pul Rune 90 Fg",
-          "url": "https://forums.d2jsp.org/topic.php?t=110627066&f=123",
-          "observed_at": "2026-11-15T22:53:53.361676+00:00",
-          "topic_date": "2026-11-15",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110627007&f=123": {
       "title": "Lo Rune",
@@ -57018,8 +56990,8 @@
       "title": "Iso List",
       "url": "https://forums.d2jsp.org/topic.php?t=110626823&f=123",
       "first_seen_at": "2026-11-15T22:52:38.840686+00:00",
-      "last_checked_at": "2026-11-15T22:54:03.972039+00:00",
-      "completed": false,
+      "last_checked_at": "2026-11-16T06:37:41.022545+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -57027,8 +56999,8 @@
       "title": "Iso Mal - Paying 160",
       "url": "https://forums.d2jsp.org/topic.php?t=110626805&f=123",
       "first_seen_at": "2026-11-15T22:52:38.840686+00:00",
-      "last_checked_at": "2026-11-15T22:53:58.499383+00:00",
-      "completed": false,
+      "last_checked_at": "2026-11-16T06:37:36.524271+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -57036,8 +57008,8 @@
       "title": "Pul Lum",
       "url": "https://forums.d2jsp.org/topic.php?t=110626799&f=123",
       "first_seen_at": "2026-11-15T22:52:38.840686+00:00",
-      "last_checked_at": "2026-11-15T22:53:22.107130+00:00",
-      "completed": false,
+      "last_checked_at": "2026-11-16T06:37:38.190076+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -57045,8 +57017,8 @@
       "title": "Um Rune",
       "url": "https://forums.d2jsp.org/topic.php?t=110626793&f=123",
       "first_seen_at": "2026-11-15T22:52:38.840686+00:00",
-      "last_checked_at": "2026-11-15T22:53:22.571756+00:00",
-      "completed": false,
+      "last_checked_at": "2026-11-16T06:37:14.548887+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -57054,31 +57026,17 @@
       "title": "Ft Lum X 1 For 45 Fg",
       "url": "https://forums.d2jsp.org/topic.php?t=110626771&f=123",
       "first_seen_at": "2026-11-15T22:52:38.840686+00:00",
-      "last_checked_at": "2026-11-15T22:54:07.823792+00:00",
-      "completed": false,
+      "last_checked_at": "2026-11-16T06:37:48.884002+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Lum",
-          "label": "Lum",
-          "side": "ft",
-          "price_fg": 45.0,
-          "title": "Ft Lum X 1 For 45 Fg",
-          "url": "https://forums.d2jsp.org/topic.php?t=110626771&f=123",
-          "observed_at": "2026-11-15T22:54:07.823792+00:00",
-          "topic_date": "2026-11-15",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110626698&f=123": {
       "title": "Pul",
       "url": "https://forums.d2jsp.org/topic.php?t=110626698&f=123",
       "first_seen_at": "2026-11-15T22:52:38.840686+00:00",
-      "last_checked_at": "2026-11-15T22:53:47.015807+00:00",
-      "completed": false,
+      "last_checked_at": "2026-11-16T06:37:18.531196+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -57104,11 +57062,11 @@
       "title": "O Lem N Fg",
       "url": "https://forums.d2jsp.org/topic.php?t=110626660&f=123",
       "first_seen_at": "2026-11-15T22:52:38.840686+00:00",
-      "last_checked_at": "2026-11-15T22:53:27.019713+00:00",
-      "completed": false,
+      "last_checked_at": "2026-11-16T06:37:22.747078+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     }
   },
-  "updated_at": "2026-11-15T22:54:57.717541+00:00"
+  "updated_at": "2026-11-16T06:37:48.885532+00:00"
 }

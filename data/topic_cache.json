@@ -6,259 +6,6 @@
   "rune_source_policy": "runes-c2-full-backfill-v5-eth-disambiguation",
   "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
   "topics": {
-    "https://forums.d2jsp.org/topic.php?t=110325907&f=123": {
-      "title": "100 For Vex",
-      "url": "https://forums.d2jsp.org/topic.php?t=110325907&f=123",
-      "first_seen_at": "2026-09-19T15:54:50.740839+00:00",
-      "last_checked_at": "2026-09-20T04:59:17.368082+00:00",
-      "completed": true,
-      "status": "parsed",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=110325747&f=123": {
-      "title": "Sell",
-      "url": "https://forums.d2jsp.org/topic.php?t=110325747&f=123",
-      "first_seen_at": "2026-09-19T15:54:50.740839+00:00",
-      "last_checked_at": "2026-09-19T15:55:27.357543+00:00",
-      "completed": true,
-      "status": "parsed",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=110325745&f=123": {
-      "title": "Iso Items Paying Fgs",
-      "url": "https://forums.d2jsp.org/topic.php?t=110325745&f=123",
-      "first_seen_at": "2026-09-19T15:54:50.740839+00:00",
-      "last_checked_at": "2026-09-19T23:10:41.018796+00:00",
-      "completed": true,
-      "status": "parsed",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=110325719&f=123": {
-      "title": "Iso Sur",
-      "url": "https://forums.d2jsp.org/topic.php?t=110325719&f=123",
-      "first_seen_at": "2026-09-19T15:54:50.740839+00:00",
-      "last_checked_at": "2026-09-19T23:10:32.543331+00:00",
-      "completed": true,
-      "status": "parsed",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=110325658&f=123": {
-      "title": "Ist Mal 5um 2lem",
-      "url": "https://forums.d2jsp.org/topic.php?t=110325658&f=123",
-      "first_seen_at": "2026-09-19T15:54:50.740839+00:00",
-      "last_checked_at": "2026-09-19T23:10:28.187182+00:00",
-      "completed": true,
-      "status": "parsed",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=110325645&f=123": {
-      "title": "Wts Fresh Lo",
-      "url": "https://forums.d2jsp.org/topic.php?t=110325645&f=123",
-      "first_seen_at": "2026-09-19T15:54:50.740839+00:00",
-      "last_checked_at": "2026-09-19T23:10:10.678498+00:00",
-      "completed": true,
-      "status": "parsed",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=110325573&f=123": {
-      "title": "Iso Mal Ist",
-      "url": "https://forums.d2jsp.org/topic.php?t=110325573&f=123",
-      "first_seen_at": "2026-09-19T15:54:50.740839+00:00",
-      "last_checked_at": "2026-09-19T15:55:58.348842+00:00",
-      "completed": true,
-      "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Mal",
-          "label": "Mal",
-          "side": "iso",
-          "price_fg": 85.0,
-          "title": "Iso Mal Ist",
-          "url": "https://forums.d2jsp.org/topic.php?t=110325573&f=123",
-          "observed_at": "2026-09-19T15:55:58.348842+00:00",
-          "topic_date": "2026-09-19",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Mal",
-          "label": "Mal",
-          "side": "trade",
-          "price_fg": 85.0,
-          "title": "Iso Mal Ist · T4T/sold signal",
-          "url": "https://forums.d2jsp.org/topic.php?t=110325573&f=123",
-          "observed_at": "2026-09-19T15:55:58.348842+00:00",
-          "topic_date": "2026-09-19",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
-    },
-    "https://forums.d2jsp.org/topic.php?t=110325555&f=123": {
-      "title": "Weekend Goodies",
-      "url": "https://forums.d2jsp.org/topic.php?t=110325555&f=123",
-      "first_seen_at": "2026-09-19T15:54:50.740839+00:00",
-      "last_checked_at": "2026-09-19T23:10:14.508506+00:00",
-      "completed": true,
-      "status": "parsed",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=110325529&f=123": {
-      "title": "Iso Lo",
-      "url": "https://forums.d2jsp.org/topic.php?t=110325529&f=123",
-      "first_seen_at": "2026-09-19T15:54:50.740839+00:00",
-      "last_checked_at": "2026-09-19T23:10:45.989971+00:00",
-      "completed": true,
-      "status": "parsed",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=110325513&f=123": {
-      "title": "Iso Ist Rune",
-      "url": "https://forums.d2jsp.org/topic.php?t=110325513&f=123",
-      "first_seen_at": "2026-09-19T15:54:50.740839+00:00",
-      "last_checked_at": "2026-09-19T15:56:09.158458+00:00",
-      "completed": true,
-      "status": "parsed",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=110325512&f=123": {
-      "title": "Ohm Rune",
-      "url": "https://forums.d2jsp.org/topic.php?t=110325512&f=123",
-      "first_seen_at": "2026-09-19T15:54:50.740839+00:00",
-      "last_checked_at": "2026-09-19T15:55:52.616610+00:00",
-      "completed": true,
-      "status": "parsed",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=110325511&f=123": {
-      "title": "Need Zod Ist Lem",
-      "url": "https://forums.d2jsp.org/topic.php?t=110325511&f=123",
-      "first_seen_at": "2026-09-19T15:54:50.740839+00:00",
-      "last_checked_at": "2026-09-19T23:10:23.455532+00:00",
-      "completed": true,
-      "status": "parsed",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=110325482&f=123": {
-      "title": "Iso 1x Mal Rune",
-      "url": "https://forums.d2jsp.org/topic.php?t=110325482&f=123",
-      "first_seen_at": "2026-09-19T15:54:50.740839+00:00",
-      "last_checked_at": "2026-09-20T04:59:05.208241+00:00",
-      "completed": true,
-      "status": "parsed",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=110325468&f=123": {
-      "title": "119x Pgems, Ist, Lums Ft!",
-      "url": "https://forums.d2jsp.org/topic.php?t=110325468&f=123",
-      "first_seen_at": "2026-09-19T15:54:50.740839+00:00",
-      "last_checked_at": "2026-09-20T04:59:13.490024+00:00",
-      "completed": true,
-      "status": "parsed",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=110325417&f=123": {
-      "title": "Ohm",
-      "url": "https://forums.d2jsp.org/topic.php?t=110325417&f=123",
-      "first_seen_at": "2026-09-19T15:54:50.740839+00:00",
-      "last_checked_at": "2026-09-19T23:10:19.316595+00:00",
-      "completed": true,
-      "status": "parsed",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=110325404&f=123": {
-      "title": "Iso Full Fire Warlock",
-      "url": "https://forums.d2jsp.org/topic.php?t=110325404&f=123",
-      "first_seen_at": "2026-09-19T15:54:50.740839+00:00",
-      "last_checked_at": "2026-09-20T04:59:02.244611+00:00",
-      "completed": true,
-      "status": "parsed",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=110325404&f=123&o=10": {
-      "title": "2",
-      "url": "https://forums.d2jsp.org/topic.php?t=110325404&f=123&o=10",
-      "first_seen_at": "2026-09-19T15:54:50.740839+00:00",
-      "last_checked_at": "2026-09-19T15:56:23.352763+00:00",
-      "completed": true,
-      "status": "parsed",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=110325358&f=123": {
-      "title": "Gems, Materials And Runes ++",
-      "url": "https://forums.d2jsp.org/topic.php?t=110325358&f=123",
-      "first_seen_at": "2026-09-19T15:54:50.740839+00:00",
-      "last_checked_at": "2026-09-20T04:59:26.392350+00:00",
-      "completed": true,
-      "status": "parsed",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=110325341&f=123": {
-      "title": "Iso Some Easy Runes",
-      "url": "https://forums.d2jsp.org/topic.php?t=110325341&f=123",
-      "first_seen_at": "2026-09-19T15:54:50.740839+00:00",
-      "last_checked_at": "2026-09-19T23:10:37.334314+00:00",
-      "completed": true,
-      "status": "parsed",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=110325318&f=123": {
-      "title": "Ft Lo Rune",
-      "url": "https://forums.d2jsp.org/topic.php?t=110325318&f=123",
-      "first_seen_at": "2026-09-19T15:54:50.740839+00:00",
-      "last_checked_at": "2026-09-20T04:59:09.622675+00:00",
-      "completed": true,
-      "status": "parsed",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=110325308&f=123": {
-      "title": "Pwn's Flea Market",
-      "url": "https://forums.d2jsp.org/topic.php?t=110325308&f=123",
-      "first_seen_at": "2026-09-19T15:54:50.740839+00:00",
-      "last_checked_at": "2026-09-19T23:10:18.926234+00:00",
-      "completed": true,
-      "status": "parsed",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=110325303&f=123": {
-      "title": "Unid Annis Here Cheap",
-      "url": "https://forums.d2jsp.org/topic.php?t=110325303&f=123",
-      "first_seen_at": "2026-09-19T15:54:50.740839+00:00",
-      "last_checked_at": "2026-09-19T23:10:35.206170+00:00",
-      "completed": true,
-      "status": "parsed",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=110325289&f=123": {
-      "title": "Iso Vex Pul",
-      "url": "https://forums.d2jsp.org/topic.php?t=110325289&f=123",
-      "first_seen_at": "2026-09-19T15:54:50.740839+00:00",
-      "last_checked_at": "2026-09-19T15:55:47.812572+00:00",
-      "completed": true,
-      "status": "parsed",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=110325253&f=123": {
-      "title": "Lo",
-      "url": "https://forums.d2jsp.org/topic.php?t=110325253&f=123",
-      "first_seen_at": "2026-09-19T15:54:50.740839+00:00",
-      "last_checked_at": "2026-09-19T23:10:27.611221+00:00",
-      "completed": true,
-      "status": "parsed",
-      "samples": []
-    },
-    "https://forums.d2jsp.org/topic.php?t=110325235&f=123": {
-      "title": "Iso List Necro",
-      "url": "https://forums.d2jsp.org/topic.php?t=110325235&f=123",
-      "first_seen_at": "2026-09-19T15:54:50.740839+00:00",
-      "last_checked_at": "2026-09-20T04:59:00.650226+00:00",
-      "completed": true,
-      "status": "parsed",
-      "samples": [],
-      "last_attempt_at": "2026-09-19T15:57:17.938649+00:00"
-    },
     "https://forums.d2jsp.org/topic.php?t=110325235&f=123&o=10": {
       "title": "2",
       "url": "https://forums.d2jsp.org/topic.php?t=110325235&f=123&o=10",
@@ -56668,7 +56415,9 @@
       "last_checked_at": "2026-11-18T11:50:06.409517+00:00",
       "completed": false,
       "status": "parsed",
-      "samples": []
+      "samples": [],
+      "last_attempt_at": "2026-11-18T20:48:56.918671+00:00",
+      "last_error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/topic.php?t=110671813&f=123"
     },
     "https://forums.d2jsp.org/topic.php?t=110671662&f=123": {
       "title": "Ohm Rune",
@@ -56677,7 +56426,9 @@
       "last_checked_at": "2026-11-18T11:49:52.325447+00:00",
       "completed": false,
       "status": "parsed",
-      "samples": []
+      "samples": [],
+      "last_attempt_at": "2026-11-18T20:48:34.620064+00:00",
+      "last_error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/topic.php?t=110671662&f=123"
     },
     "https://forums.d2jsp.org/topic.php?t=110671661&f=123": {
       "title": "Paying Fg For My Iso List",
@@ -56704,7 +56455,9 @@
       "last_checked_at": "2026-11-18T11:49:40.053476+00:00",
       "completed": false,
       "status": "parsed",
-      "samples": []
+      "samples": [],
+      "last_attempt_at": "2026-11-18T20:48:11.482917+00:00",
+      "last_error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/topic.php?t=110671613&f=123"
     },
     "https://forums.d2jsp.org/topic.php?t=110671566&f=123": {
       "title": "Runes",
@@ -56713,7 +56466,9 @@
       "last_checked_at": "2026-11-18T11:49:54.344854+00:00",
       "completed": false,
       "status": "parsed",
-      "samples": []
+      "samples": [],
+      "last_attempt_at": "2026-11-18T20:48:34.112442+00:00",
+      "last_error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/topic.php?t=110671566&f=123"
     },
     "https://forums.d2jsp.org/topic.php?t=110671537&f=123": {
       "title": "Sell Ars Dul Mephisto 28 Fcr Umed",
@@ -56722,7 +56477,9 @@
       "last_checked_at": "2026-11-18T11:49:41.092407+00:00",
       "completed": false,
       "status": "parsed",
-      "samples": []
+      "samples": [],
+      "last_attempt_at": "2026-11-18T20:48:12.341801+00:00",
+      "last_error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/topic.php?t=110671537&f=123"
     },
     "https://forums.d2jsp.org/topic.php?t=110671504&f=123": {
       "title": "Iso 1x Ist @ 100",
@@ -56785,7 +56542,9 @@
       "last_checked_at": "2026-11-18T11:50:05.001688+00:00",
       "completed": false,
       "status": "parsed",
-      "samples": []
+      "samples": [],
+      "last_attempt_at": "2026-11-18T20:49:19.431358+00:00",
+      "last_error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/topic.php?t=110671369&f=123"
     },
     "https://forums.d2jsp.org/topic.php?t=110671332&f=123": {
       "title": "N 2 Ist",
@@ -56794,7 +56553,9 @@
       "last_checked_at": "2026-11-18T11:50:03.868704+00:00",
       "completed": false,
       "status": "parsed",
-      "samples": []
+      "samples": [],
+      "last_attempt_at": "2026-11-18T20:49:19.077676+00:00",
+      "last_error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/topic.php?t=110671332&f=123"
     },
     "https://forums.d2jsp.org/topic.php?t=110671326&f=123": {
       "title": "Iso: 2x Ber",
@@ -56803,7 +56564,9 @@
       "last_checked_at": "2026-11-18T11:50:09.559760+00:00",
       "completed": false,
       "status": "parsed",
-      "samples": []
+      "samples": [],
+      "last_attempt_at": "2026-11-18T20:49:42.183677+00:00",
+      "last_error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/topic.php?t=110671326&f=123"
     },
     "https://forums.d2jsp.org/topic.php?t=110671266&f=123": {
       "title": "Very Good Runes/items Pack",
@@ -56812,7 +56575,9 @@
       "last_checked_at": "2026-11-18T11:49:30.440964+00:00",
       "completed": false,
       "status": "parsed",
-      "samples": []
+      "samples": [],
+      "last_attempt_at": "2026-11-18T20:47:50.243156+00:00",
+      "last_error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/topic.php?t=110671266&f=123"
     },
     "https://forums.d2jsp.org/topic.php?t=110671221&f=123": {
       "title": "fresh Lo Rune",
@@ -56821,7 +56586,9 @@
       "last_checked_at": "2026-11-18T11:49:34.764644+00:00",
       "completed": false,
       "status": "parsed",
-      "samples": []
+      "samples": [],
+      "last_attempt_at": "2026-11-18T20:47:49.682518+00:00",
+      "last_error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/topic.php?t=110671221&f=123"
     },
     "https://forums.d2jsp.org/topic.php?t=110671139&f=123": {
       "title": "Ft Um Rune",
@@ -56862,7 +56629,9 @@
       "last_checked_at": "2026-11-18T11:50:20.674212+00:00",
       "completed": false,
       "status": "parsed",
-      "samples": []
+      "samples": [],
+      "last_attempt_at": "2026-11-18T20:49:41.237723+00:00",
+      "last_error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/topic.php?t=110671052&f=123"
     },
     "https://forums.d2jsp.org/topic.php?t=110671036&f=123": {
       "title": "Um Rune Ft 60fg Bin",
@@ -56948,8 +56717,10 @@
       "last_checked_at": "2026-11-18T11:49:58.639094+00:00",
       "completed": false,
       "status": "parsed",
-      "samples": []
+      "samples": [],
+      "last_attempt_at": "2026-11-18T20:48:56.673401+00:00",
+      "last_error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/topic.php?t=110670923&f=123"
     }
   },
-  "updated_at": "2026-11-18T11:51:30.365947+00:00"
+  "updated_at": "2026-11-18T20:49:42.184992+00:00"
 }

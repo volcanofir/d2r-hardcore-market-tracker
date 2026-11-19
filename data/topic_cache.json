@@ -57377,8 +57377,8 @@
       "title": "Selling Some Nice Light / Nova Sorc Items",
       "url": "https://forums.d2jsp.org/topic.php?t=110695290&f=123",
       "first_seen_at": "2026-11-19T11:45:27.778196+00:00",
-      "last_checked_at": "2026-11-19T11:46:01.051318+00:00",
-      "completed": false,
+      "last_checked_at": "2026-11-19T20:42:21.760981+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -57386,8 +57386,8 @@
       "title": "Ohm Vs 500",
       "url": "https://forums.d2jsp.org/topic.php?t=110695272&f=123",
       "first_seen_at": "2026-11-19T11:45:27.778196+00:00",
-      "last_checked_at": "2026-11-19T11:46:02.361818+00:00",
-      "completed": false,
+      "last_checked_at": "2026-11-19T20:42:26.787056+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -57440,44 +57440,17 @@
       "title": "Ohm Ist 650fg",
       "url": "https://forums.d2jsp.org/topic.php?t=110695138&f=123",
       "first_seen_at": "2026-11-19T11:45:27.778196+00:00",
-      "last_checked_at": "2026-11-19T11:46:12.163604+00:00",
-      "completed": false,
+      "last_checked_at": "2026-11-19T20:42:34.563067+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Ist",
-          "label": "Ist",
-          "side": "ft",
-          "price_fg": 650.0,
-          "title": "Ohm Ist 650fg",
-          "url": "https://forums.d2jsp.org/topic.php?t=110695138&f=123",
-          "observed_at": "2026-11-19T11:46:12.163604+00:00",
-          "topic_date": "2026-11-19",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        },
-        {
-          "kind": "rune",
-          "id": "Ist",
-          "label": "Ist",
-          "side": "ft",
-          "price_fg": 600.0,
-          "title": "Ohm Ist 650fg",
-          "url": "https://forums.d2jsp.org/topic.php?t=110695138&f=123",
-          "observed_at": "2026-11-19T11:46:12.163604+00:00",
-          "topic_date": "2026-11-19",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110695117&f=123": {
       "title": "Runes",
       "url": "https://forums.d2jsp.org/topic.php?t=110695117&f=123",
       "first_seen_at": "2026-11-19T11:45:27.778196+00:00",
-      "last_checked_at": "2026-11-19T11:46:11.875698+00:00",
-      "completed": false,
+      "last_checked_at": "2026-11-19T20:42:26.328105+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -57508,8 +57481,8 @@
       "title": "O Mal Rune",
       "url": "https://forums.d2jsp.org/topic.php?t=110695060&f=123",
       "first_seen_at": "2026-11-19T11:45:27.778196+00:00",
-      "last_checked_at": "2026-11-19T11:46:22.398320+00:00",
-      "completed": false,
+      "last_checked_at": "2026-11-19T20:42:46.266307+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -57535,31 +57508,17 @@
       "title": "Ohm Ist Mal + Basse",
       "url": "https://forums.d2jsp.org/topic.php?t=110695002&f=123",
       "first_seen_at": "2026-11-19T11:45:27.778196+00:00",
-      "last_checked_at": "2026-11-19T11:46:06.751513+00:00",
-      "completed": false,
+      "last_checked_at": "2026-11-19T20:42:37.576260+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Ohm",
-          "label": "Ohm",
-          "side": "unknown",
-          "price_fg": 550.0,
-          "title": "Ohm Ist Mal + Basse",
-          "url": "https://forums.d2jsp.org/topic.php?t=110695002&f=123",
-          "observed_at": "2026-11-19T11:46:06.751513+00:00",
-          "topic_date": "2026-11-19",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110694972&f=123": {
       "title": "O Ohm",
       "url": "https://forums.d2jsp.org/topic.php?t=110694972&f=123",
       "first_seen_at": "2026-11-19T11:45:27.778196+00:00",
-      "last_checked_at": "2026-11-19T11:46:18.093690+00:00",
-      "completed": false,
+      "last_checked_at": "2026-11-19T20:42:50.502391+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -57594,8 +57553,8 @@
       "title": "Ohm + Ist",
       "url": "https://forums.d2jsp.org/topic.php?t=110694839&f=123",
       "first_seen_at": "2026-11-19T11:45:27.778196+00:00",
-      "last_checked_at": "2026-11-19T11:46:17.062358+00:00",
-      "completed": false,
+      "last_checked_at": "2026-11-19T20:42:42.331585+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -57648,8 +57607,8 @@
       "title": "Ohm / Ist/mal",
       "url": "https://forums.d2jsp.org/topic.php?t=110694764&f=123",
       "first_seen_at": "2026-11-19T11:45:27.778196+00:00",
-      "last_checked_at": "2026-11-19T11:46:17.491419+00:00",
-      "completed": false,
+      "last_checked_at": "2026-11-19T20:42:38.832401+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -57657,8 +57616,8 @@
       "title": "Sol + Hel Runes",
       "url": "https://forums.d2jsp.org/topic.php?t=110694723&f=123",
       "first_seen_at": "2026-11-19T11:45:27.778196+00:00",
-      "last_checked_at": "2026-11-19T11:45:54.354852+00:00",
-      "completed": false,
+      "last_checked_at": "2026-11-19T20:42:29.955599+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -57666,24 +57625,10 @@
       "title": "Wts Mal For 60 Fg",
       "url": "https://forums.d2jsp.org/topic.php?t=110694692&f=123",
       "first_seen_at": "2026-11-19T11:45:27.778196+00:00",
-      "last_checked_at": "2026-11-19T11:45:53.280095+00:00",
-      "completed": false,
+      "last_checked_at": "2026-11-19T20:42:17.646769+00:00",
+      "completed": true,
       "status": "parsed",
-      "samples": [
-        {
-          "kind": "rune",
-          "id": "Mal",
-          "label": "Mal",
-          "side": "ft",
-          "price_fg": 60.0,
-          "title": "Wts Mal For 60 Fg",
-          "url": "https://forums.d2jsp.org/topic.php?t=110694692&f=123",
-          "observed_at": "2026-11-19T11:45:53.280095+00:00",
-          "topic_date": "2026-11-19",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2"
-        }
-      ]
+      "samples": []
     },
     "https://forums.d2jsp.org/topic.php?t=110694686&f=123": {
       "title": "Fresh Cham",
@@ -57779,8 +57724,8 @@
       "title": "Wtb Jah",
       "url": "https://forums.d2jsp.org/topic.php?t=110690746&f=123",
       "first_seen_at": "2026-11-19T11:45:27.778196+00:00",
-      "last_checked_at": "2026-11-19T11:45:50.758634+00:00",
-      "completed": false,
+      "last_checked_at": "2026-11-19T20:42:17.831377+00:00",
+      "completed": true,
       "status": "parsed",
       "samples": []
     },
@@ -57821,5 +57766,5 @@
       "samples": []
     }
   },
-  "updated_at": "2026-11-19T11:47:52.848462+00:00"
+  "updated_at": "2026-11-19T20:42:50.504052+00:00"
 }

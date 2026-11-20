@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T11:49:37.060612+00:00",
+  "updated_at": "2026-11-20T20:27:02.615973+00:00",
   "forum_pages": [
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&c=2",
@@ -74,10 +74,10 @@
       ]
     },
     {
-      "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=100",
+      "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=100",
       "offset": 100,
-      "topics": 25,
-      "bytes": 10391,
+      "topics": 0,
+      "bytes": 0,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=100",
@@ -86,8 +86,8 @@
         },
         {
           "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=100",
-          "topics": 25,
-          "bytes": 10391
+          "topics": 0,
+          "bytes": 286
         }
       ]
     },
@@ -164,10 +164,10 @@
       ]
     },
     {
-      "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=225",
+      "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=225",
       "offset": 225,
-      "topics": 28,
-      "bytes": 10625,
+      "topics": 0,
+      "bytes": 0,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=225",
@@ -176,21 +176,26 @@
         },
         {
           "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=225",
-          "topics": 28,
-          "bytes": 10625
+          "topics": 0,
+          "bytes": 286
         }
       ]
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=250",
       "offset": 250,
-      "topics": 25,
-      "bytes": 10250,
+      "topics": 0,
+      "bytes": 0,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=250",
-          "topics": 25,
-          "bytes": 10250
+          "topics": 0,
+          "bytes": 286
+        },
+        {
+          "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=250",
+          "topics": 0,
+          "bytes": 286
         }
       ]
     },
@@ -249,21 +254,14 @@
       ]
     }
   ],
-  "discovered_topics": 78,
-  "cached_topics": 4530,
-  "selected_topics": 65,
-  "parsed_this_run": 64,
-  "completed_this_run": 28,
+  "discovered_topics": 0,
+  "cached_topics": 4505,
+  "selected_topics": 13,
+  "parsed_this_run": 13,
+  "completed_this_run": 12,
   "legacy_samples": 0,
-  "combined_samples": 1534,
-  "topic_errors": [
-    {
-      "url": "https://forums.d2jsp.org/topic.php?t=110700347&f=123",
-      "title": "Ohm 490fg",
-      "reason": "new",
-      "error": "429 Too Many Requests (5/5)"
-    }
-  ],
+  "combined_samples": 1522,
+  "topic_errors": [],
   "season": 15,
   "season_label": "第 15 季天梯",
   "data_start": "2026-08-22",

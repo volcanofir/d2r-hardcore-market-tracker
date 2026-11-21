@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T20:27:02.615973+00:00",
+  "updated_at": "2026-11-21T02:24:42.192211+00:00",
   "forum_pages": [
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&c=2",
@@ -76,18 +76,13 @@
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=100",
       "offset": 100,
-      "topics": 0,
-      "bytes": 0,
+      "topics": 25,
+      "bytes": 10250,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=100",
-          "topics": 0,
-          "bytes": 286
-        },
-        {
-          "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=100",
-          "topics": 0,
-          "bytes": 286
+          "topics": 25,
+          "bytes": 10250
         }
       ]
     },
@@ -146,10 +141,10 @@
       ]
     },
     {
-      "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=200",
+      "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=200",
       "offset": 200,
-      "topics": 0,
-      "bytes": 0,
+      "topics": 26,
+      "bytes": 10255,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=200",
@@ -158,8 +153,8 @@
         },
         {
           "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=200",
-          "topics": 0,
-          "bytes": 286
+          "topics": 26,
+          "bytes": 10255
         }
       ]
     },
@@ -254,14 +249,21 @@
       ]
     }
   ],
-  "discovered_topics": 0,
-  "cached_topics": 4505,
-  "selected_topics": 13,
-  "parsed_this_run": 13,
-  "completed_this_run": 12,
+  "discovered_topics": 51,
+  "cached_topics": 4482,
+  "selected_topics": 63,
+  "parsed_this_run": 62,
+  "completed_this_run": 23,
   "legacy_samples": 0,
-  "combined_samples": 1522,
-  "topic_errors": [],
+  "combined_samples": 1523,
+  "topic_errors": [
+    {
+      "url": "https://forums.d2jsp.org/topic.php?t=110713229&f=123",
+      "title": "Iso Cham",
+      "reason": "new",
+      "error": "429 Too Many Requests (5/5)"
+    }
+  ],
   "season": 15,
   "season_label": "第 15 季天梯",
   "data_start": "2026-08-22",

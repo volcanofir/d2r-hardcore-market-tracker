@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-11-21T19:22:10.629000+00:00",
+  "updated_at": "2026-11-22T01:23:42.972552+00:00",
   "forum": "https://forums.d2jsp.org/forum.php?f=123&c=2",
   "topic_count": 0,
   "cached_topics": 4290,
   "parsed_topics": 4290,
-  "completed_topics": 3620,
+  "completed_topics": 3632,
   "parsed_this_run": 12,
-  "sample_count": 890,
+  "sample_count": 887,
   "legacy_sample_count": 0,
   "market": [
     {
@@ -15,9 +15,9 @@
       "label": "Ist",
       "fair_fg": 30.0,
       "iso_fg": 30.0,
-      "ft_fg": 55.0,
+      "ft_fg": 50.0,
       "trade_fg": 26.5,
-      "samples": 87,
+      "samples": 86,
       "confidence": "high",
       "last_seen_at": "2026-11-21T11:12:57.689979+00:00",
       "sources": [
@@ -34,20 +34,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/11/20 21:06"
-        },
-        {
-          "kind": "rune",
-          "id": "Ist",
-          "label": "Ist",
-          "side": "ft",
-          "price_fg": 100.0,
-          "title": "Ist Gul Ft",
-          "url": "https://forums.d2jsp.org/topic.php?t=110717406&f=123",
-          "observed_at": "2026-11-21T11:12:56.438627+00:00",
-          "topic_date": "2026-11-20",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/11/20 23:54"
         },
         {
           "kind": "rune",
@@ -356,6 +342,20 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/11/6 09:44"
+        },
+        {
+          "kind": "rune",
+          "id": "Ist",
+          "label": "Ist",
+          "side": "unknown",
+          "price_fg": 25.0,
+          "title": "Mid-high Runes",
+          "url": "https://forums.d2jsp.org/topic.php?t=110568145&f=123",
+          "observed_at": "2026-11-13T01:53:42.255198+00:00",
+          "topic_date": "2026-11-06",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/11/6 09:44"
         }
       ]
     },
@@ -367,7 +367,7 @@
       "iso_fg": 39.0,
       "ft_fg": 50.0,
       "trade_fg": 30.0,
-      "samples": 57,
+      "samples": 56,
       "confidence": "high",
       "last_seen_at": "2026-11-21T11:15:00.260475+00:00",
       "sources": [
@@ -426,20 +426,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/11/20 18:11"
-        },
-        {
-          "kind": "rune",
-          "id": "Gul",
-          "label": "Gul",
-          "side": "ft",
-          "price_fg": 100.0,
-          "title": "Ist Gul Ft",
-          "url": "https://forums.d2jsp.org/topic.php?t=110717406&f=123",
-          "observed_at": "2026-11-21T11:12:56.438627+00:00",
-          "topic_date": "2026-11-20",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/11/20 23:54"
         },
         {
           "kind": "rune",
@@ -700,6 +686,20 @@
           "side": "unknown",
           "price_fg": 20.0,
           "title": "Ist Gul Vex Ohm",
+          "url": "https://forums.d2jsp.org/topic.php?t=110576894&f=123",
+          "observed_at": "2026-11-10T21:19:46.718877+00:00",
+          "topic_date": "2026-11-09",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/11/9 09:48"
+        },
+        {
+          "kind": "rune",
+          "id": "Gul",
+          "label": "Gul",
+          "side": "trade",
+          "price_fg": 17.5,
+          "title": "Ist Gul Vex Ohm · T4T/sold signal",
           "url": "https://forums.d2jsp.org/topic.php?t=110576894&f=123",
           "observed_at": "2026-11-10T21:19:46.718877+00:00",
           "topic_date": "2026-11-09",
@@ -1413,11 +1413,11 @@
       "kind": "rune",
       "id": "Lo",
       "label": "Lo",
-      "fair_fg": 147.5,
+      "fair_fg": 145.0,
       "iso_fg": 137.5,
       "ft_fg": 200.0,
       "trade_fg": 140.0,
-      "samples": 62,
+      "samples": 61,
       "confidence": "high",
       "last_seen_at": "2026-11-21T11:14:50.601108+00:00",
       "sources": [
@@ -1434,20 +1434,6 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/11/20 23:57"
-        },
-        {
-          "kind": "rune",
-          "id": "Lo",
-          "label": "Lo",
-          "side": "unknown",
-          "price_fg": 800.0,
-          "title": "Lo Rune",
-          "url": "https://forums.d2jsp.org/topic.php?t=110716698&f=123",
-          "observed_at": "2026-11-21T11:12:29.798909+00:00",
-          "topic_date": "2026-11-20",
-          "parser_v5": true,
-          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "topic_time": "2026/11/20 22:02"
         },
         {
           "kind": "rune",
@@ -1756,6 +1742,20 @@
           "parser_v5": true,
           "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
           "topic_time": "2026/11/1 23:02"
+        },
+        {
+          "kind": "rune",
+          "id": "Lo",
+          "label": "Lo",
+          "side": "iso",
+          "price_fg": 130.0,
+          "title": "Iso Runes",
+          "url": "https://forums.d2jsp.org/topic.php?t=110563625&f=123",
+          "observed_at": "2026-11-04T23:43:41.968837+00:00",
+          "topic_date": "2026-11-04",
+          "parser_v5": true,
+          "rune_source": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+          "topic_time": "2026/11/4 14:58"
         }
       ]
     },

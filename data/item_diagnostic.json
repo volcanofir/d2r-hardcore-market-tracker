@@ -1,93 +1,86 @@
 {
-  "updated_at": "2026-11-23T13:08:36.870295+00:00",
+  "updated_at": "2026-11-24T02:15:55.613045+00:00",
   "source_policy": "season15-items-static-catalog-v7-uber-keys",
   "catalog_items": 589,
   "forum_pages": [
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123",
       "offset": 0,
-      "topics": 0,
-      "reader_bytes": 0,
+      "topics": 28,
+      "reader_bytes": 10284,
       "direct_bytes": 0,
-      "reader_error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/forum.php?f=123",
-      "direct_error": "403 Client Error: Forbidden for url: https://forums.d2jsp.org/forum.php?f=123"
+      "reader_error": null,
+      "direct_error": null
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=25",
       "offset": 25,
-      "topics": 0,
-      "reader_bytes": 0,
+      "topics": 32,
+      "reader_bytes": 7659,
       "direct_bytes": 0,
-      "reader_error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/forum.php?f=123&o=25",
-      "direct_error": "403 Client Error: Forbidden for url: https://forums.d2jsp.org/forum.php?f=123&o=25"
+      "reader_error": null,
+      "direct_error": null
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=50",
       "offset": 50,
-      "topics": 0,
-      "reader_bytes": 0,
+      "topics": 36,
+      "reader_bytes": 8171,
       "direct_bytes": 0,
-      "reader_error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/forum.php?f=123&o=50",
-      "direct_error": "403 Client Error: Forbidden for url: https://forums.d2jsp.org/forum.php?f=123&o=50"
+      "reader_error": null,
+      "direct_error": null
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=75",
       "offset": 75,
-      "topics": 0,
-      "reader_bytes": 0,
+      "topics": 32,
+      "reader_bytes": 7647,
       "direct_bytes": 0,
-      "reader_error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/forum.php?f=123&o=75",
-      "direct_error": "403 Client Error: Forbidden for url: https://forums.d2jsp.org/forum.php?f=123&o=75"
+      "reader_error": null,
+      "direct_error": null
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=100",
       "offset": 100,
-      "topics": 0,
-      "reader_bytes": 0,
+      "topics": 30,
+      "reader_bytes": 7500,
       "direct_bytes": 0,
-      "reader_error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/forum.php?f=123&o=100",
-      "direct_error": "403 Client Error: Forbidden for url: https://forums.d2jsp.org/forum.php?f=123&o=100"
+      "reader_error": null,
+      "direct_error": null
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=125",
       "offset": 125,
-      "topics": 0,
-      "reader_bytes": 0,
+      "topics": 27,
+      "reader_bytes": 7142,
       "direct_bytes": 0,
-      "reader_error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/forum.php?f=123&o=125",
-      "direct_error": "403 Client Error: Forbidden for url: https://forums.d2jsp.org/forum.php?f=123&o=125"
+      "reader_error": null,
+      "direct_error": null
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=150",
       "offset": 150,
-      "topics": 0,
-      "reader_bytes": 0,
+      "topics": 26,
+      "reader_bytes": 10609,
       "direct_bytes": 0,
-      "reader_error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/forum.php?f=123&o=150",
-      "direct_error": "403 Client Error: Forbidden for url: https://forums.d2jsp.org/forum.php?f=123&o=150"
+      "reader_error": null,
+      "direct_error": null
     },
     {
       "url": "https://forums.d2jsp.org/forum.php?f=123&o=175",
       "offset": 175,
-      "topics": 0,
-      "reader_bytes": 0,
+      "topics": 28,
+      "reader_bytes": 10551,
       "direct_bytes": 0,
-      "reader_error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/forum.php?f=123&o=175",
-      "direct_error": "403 Client Error: Forbidden for url: https://forums.d2jsp.org/forum.php?f=123&o=175"
+      "reader_error": null,
+      "direct_error": null
     }
   ],
-  "discovered_topics": 1,
-  "cached_topics": 828,
+  "discovered_topics": 240,
+  "cached_topics": 1067,
   "selected_topics": 1,
-  "parsed_this_run": 0,
+  "parsed_this_run": 1,
   "combined_samples": 205,
   "market_items": 184,
-  "topic_errors": [
-    {
-      "url": "https://forums.d2jsp.org/topic.php?f=123&t=110372497&v=1",
-      "title": "Keys Ft",
-      "reason": "reparse",
-      "error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/topic.php?f=123&t=110372497&v=1"
-    }
-  ]
+  "topic_errors": []
 }

@@ -2604,7 +2604,9 @@
       "status": "parsed",
       "samples": [],
       "topic_date": null,
-      "last_attempt_at": "2026-11-23T13:08:36.855062+00:00"
+      "last_attempt_at": "2026-11-25T19:34:04.679662+00:00",
+      "needs_reparse": true,
+      "last_error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/topic.php?f=123&t=110372497&v=1"
     },
     "https://forums.d2jsp.org/topic.php?t=110560849&f=123": {
       "title": "Lf Team For Reset Eu",
@@ -12380,5 +12382,5 @@
       "samples": []
     }
   },
-  "updated_at": "2026-11-25T08:44:27.836026+00:00"
+  "updated_at": "2026-11-25T19:34:04.680162+00:00"
 }

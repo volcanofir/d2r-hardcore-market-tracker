@@ -1,19 +1,21 @@
 {
-  "updated_at": "2026-11-25T19:33:19.824003+00:00",
+  "updated_at": "2026-11-26T03:41:09.622343+00:00",
   "forum_pages": [
     {
-      "url": "https://forums.d2jsp.org/forum.php?f=123&c=2",
+      "url": "https://forums.d2jsp.org/forum.php?c=2&f=123",
       "offset": 0,
-      "topics": 0,
-      "bytes": 0,
+      "topics": 26,
+      "bytes": 10268,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2",
-          "error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/forum.php?f=123&c=2"
+          "topics": 0,
+          "bytes": 280
         },
         {
           "url": "https://forums.d2jsp.org/forum.php?c=2&f=123",
-          "error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/forum.php?c=2&f=123"
+          "topics": 26,
+          "bytes": 10268
         }
       ]
     },
@@ -25,27 +27,31 @@
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=25",
-          "error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/forum.php?f=123&c=2&o=25"
+          "topics": 0,
+          "bytes": 285
         },
         {
           "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=25",
-          "error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/forum.php?c=2&f=123&o=25"
+          "topics": 0,
+          "bytes": 285
         }
       ]
     },
     {
-      "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=50",
+      "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=50",
       "offset": 50,
-      "topics": 0,
-      "bytes": 0,
+      "topics": 25,
+      "bytes": 10076,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=50",
-          "error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/forum.php?f=123&c=2&o=50"
+          "topics": 0,
+          "bytes": 285
         },
         {
           "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=50",
-          "error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/forum.php?c=2&f=123&o=50"
+          "topics": 25,
+          "bytes": 10076
         }
       ]
     },
@@ -57,11 +63,13 @@
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=75",
-          "error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/forum.php?f=123&c=2&o=75"
+          "topics": 0,
+          "bytes": 285
         },
         {
           "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=75",
-          "error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/forum.php?c=2&f=123&o=75"
+          "topics": 0,
+          "bytes": 285
         }
       ]
     },
@@ -73,11 +81,13 @@
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=100",
-          "error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/forum.php?f=123&c=2&o=100"
+          "topics": 0,
+          "bytes": 286
         },
         {
           "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=100",
-          "error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/forum.php?c=2&f=123&o=100"
+          "topics": 0,
+          "bytes": 286
         }
       ]
     },
@@ -89,11 +99,13 @@
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=125",
-          "error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/forum.php?f=123&c=2&o=125"
+          "topics": 0,
+          "bytes": 286
         },
         {
           "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=125",
-          "error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/forum.php?c=2&f=123&o=125"
+          "topics": 0,
+          "bytes": 286
         }
       ]
     },
@@ -105,11 +117,13 @@
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=150",
-          "error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/forum.php?f=123&c=2&o=150"
+          "topics": 0,
+          "bytes": 286
         },
         {
           "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=150",
-          "error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/forum.php?c=2&f=123&o=150"
+          "topics": 0,
+          "bytes": 286
         }
       ]
     },
@@ -121,11 +135,13 @@
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=175",
-          "error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/forum.php?f=123&c=2&o=175"
+          "topics": 0,
+          "bytes": 286
         },
         {
           "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=175",
-          "error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/forum.php?c=2&f=123&o=175"
+          "topics": 0,
+          "bytes": 286
         }
       ]
     },
@@ -137,11 +153,13 @@
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=200",
-          "error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/forum.php?f=123&c=2&o=200"
+          "topics": 0,
+          "bytes": 286
         },
         {
           "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=200",
-          "error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/forum.php?c=2&f=123&o=200"
+          "topics": 0,
+          "bytes": 286
         }
       ]
     },
@@ -153,11 +171,13 @@
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=225",
-          "error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/forum.php?f=123&c=2&o=225"
+          "topics": 0,
+          "bytes": 286
         },
         {
           "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=225",
-          "error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/forum.php?c=2&f=123&o=225"
+          "topics": 0,
+          "bytes": 286
         }
       ]
     },
@@ -169,43 +189,49 @@
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=250",
-          "error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/forum.php?f=123&c=2&o=250"
+          "topics": 0,
+          "bytes": 286
         },
         {
           "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=250",
-          "error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/forum.php?c=2&f=123&o=250"
+          "topics": 0,
+          "bytes": 286
         }
       ]
     },
     {
-      "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=275",
+      "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=275",
       "offset": 275,
-      "topics": 0,
-      "bytes": 0,
+      "topics": 25,
+      "bytes": 10295,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=275",
-          "error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/forum.php?f=123&c=2&o=275"
+          "topics": 0,
+          "bytes": 286
         },
         {
           "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=275",
-          "error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/forum.php?c=2&f=123&o=275"
+          "topics": 25,
+          "bytes": 10295
         }
       ]
     },
     {
-      "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=300",
+      "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=300",
       "offset": 300,
-      "topics": 0,
-      "bytes": 0,
+      "topics": 26,
+      "bytes": 10529,
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=300",
-          "error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/forum.php?f=123&c=2&o=300"
+          "topics": 0,
+          "bytes": 286
         },
         {
           "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=300",
-          "error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/forum.php?c=2&f=123&o=300"
+          "topics": 26,
+          "bytes": 10529
         }
       ]
     },
@@ -217,96 +243,25 @@
       "attempts": [
         {
           "url": "https://forums.d2jsp.org/forum.php?f=123&c=2&o=325",
-          "error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/forum.php?f=123&c=2&o=325"
+          "topics": 0,
+          "bytes": 286
         },
         {
           "url": "https://forums.d2jsp.org/forum.php?c=2&f=123&o=325",
-          "error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/forum.php?c=2&f=123&o=325"
+          "topics": 0,
+          "bytes": 286
         }
       ]
     }
   ],
-  "discovered_topics": 0,
-  "cached_topics": 4262,
-  "selected_topics": 12,
-  "parsed_this_run": 0,
-  "completed_this_run": 0,
+  "discovered_topics": 102,
+  "cached_topics": 4313,
+  "selected_topics": 89,
+  "parsed_this_run": 89,
+  "completed_this_run": 31,
   "legacy_samples": 0,
-  "combined_samples": 1443,
-  "topic_errors": [
-    {
-      "url": "https://forums.d2jsp.org/topic.php?t=110758620&f=123",
-      "title": "Zod Rune Ft",
-      "reason": "recheck",
-      "error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/topic.php?t=110758620&f=123"
-    },
-    {
-      "url": "https://forums.d2jsp.org/topic.php?t=110758409&f=123",
-      "title": "Zod For Lo Rune And Death Fathom",
-      "reason": "recheck",
-      "error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/topic.php?t=110758409&f=123"
-    },
-    {
-      "url": "https://forums.d2jsp.org/topic.php?t=110758627&f=123",
-      "title": "Wtb Ohm Jah Zod",
-      "reason": "recheck",
-      "error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/topic.php?t=110758627&f=123"
-    },
-    {
-      "url": "https://forums.d2jsp.org/topic.php?t=110758386&f=123",
-      "title": "Wts Ber Rune",
-      "reason": "recheck",
-      "error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/topic.php?t=110758386&f=123"
-    },
-    {
-      "url": "https://forums.d2jsp.org/topic.php?t=110758302&f=123",
-      "title": "Vex Cheap 1 Left",
-      "reason": "recheck",
-      "error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/topic.php?t=110758302&f=123"
-    },
-    {
-      "url": "https://forums.d2jsp.org/topic.php?t=110758534&f=123",
-      "title": "Sur Rune Ft",
-      "reason": "recheck",
-      "error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/topic.php?t=110758534&f=123"
-    },
-    {
-      "url": "https://forums.d2jsp.org/topic.php?t=110758355&f=123",
-      "title": "Sur For Sale",
-      "reason": "recheck",
-      "error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/topic.php?t=110758355&f=123"
-    },
-    {
-      "url": "https://forums.d2jsp.org/topic.php?t=110758736&f=123",
-      "title": "Pul Vs 15fg",
-      "reason": "recheck",
-      "error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/topic.php?t=110758736&f=123"
-    },
-    {
-      "url": "https://forums.d2jsp.org/topic.php?t=110758538&f=123",
-      "title": "Lf Ondals Wisdom+ Others",
-      "reason": "recheck",
-      "error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/topic.php?t=110758538&f=123"
-    },
-    {
-      "url": "https://forums.d2jsp.org/topic.php?t=110758522&f=123",
-      "title": "Jah 2k",
-      "reason": "recheck",
-      "error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/topic.php?t=110758522&f=123"
-    },
-    {
-      "url": "https://forums.d2jsp.org/topic.php?t=110758551&f=123",
-      "title": "Jah 2.1k Fast2min",
-      "reason": "recheck",
-      "error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/topic.php?t=110758551&f=123"
-    },
-    {
-      "url": "https://forums.d2jsp.org/topic.php?t=110758664&f=123",
-      "title": "Jah 2.1k Bin",
-      "reason": "recheck",
-      "error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://forums.d2jsp.org/topic.php?t=110758664&f=123"
-    }
-  ],
+  "combined_samples": 1496,
+  "topic_errors": [],
   "season": 15,
   "season_label": "第 15 季天梯",
   "data_start": "2026-08-22",

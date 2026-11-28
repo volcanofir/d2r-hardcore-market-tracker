@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T23:34:23.036079+00:00",
+  "updated_at": "2026-11-28T08:00:50.745012+00:00",
   "source_policy": "season15-items-static-catalog-v7-uber-keys",
   "catalog_items": 589,
   "forum_pages": [
@@ -79,8 +79,15 @@
   "discovered_topics": 1,
   "cached_topics": 1304,
   "selected_topics": 40,
-  "parsed_this_run": 40,
-  "combined_samples": 50,
-  "market_items": 41,
-  "topic_errors": []
+  "parsed_this_run": 39,
+  "combined_samples": 36,
+  "market_items": 33,
+  "topic_errors": [
+    {
+      "url": "https://forums.d2jsp.org/topic.php?t=110772634&f=123",
+      "title": "Pnb Skiller 12fhr Ft",
+      "reason": "new",
+      "error": "429 Too Many Requests (5/5)"
+    }
+  ]
 }
